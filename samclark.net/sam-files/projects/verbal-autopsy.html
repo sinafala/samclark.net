@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="../sam-styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samuel Clark - Verbal Autopsy</title>
+</head>
+
+<body>
+
+<br>
+
+<div class="sam-multiline-title">
+Samuel Clark 
+<br>
+Verbal Autopsy - openVA
+</div>
+
+<br>
+
+<div class="sam-link">
+<a href="../projects.html" target="_parent">Back to projects page</a> 
+&nbsp
+<a href="../../index.html" target="_parent"> Back to main page </a>
+</div>
+
+<br>
+
+<div class="sam-center-block">
+
+Verbal autopsy (VA) is an old and well established approach to ascertain cause of death when it is not feasible or practical to conduct
+medical certification and full autopsies. After a death is identified, a specially-trained fieldworker interviews the
+caregivers (usually family members) of the decedent. A typical VA interview includes a set of structured questions with
+categorical/quantitative responses and a narrative section that records the ‘story’ of the death from the respondent’s
+point of view. The resulting data are interpreted by various means to assign causes to the death.
+
+<br><br>
+
+The most common practice is to have clinically trained, experienced physicians read the interviews and determine
+causes. To address the fact that physicians frequently do not agree on causes, VA interviews are often read by two
+physicians, and sometimes three, and the final causes are determined through a consensus mechanism. This
+implicitly acknowledges two of the challenges inherent to VA: (1) without either clinical data or an autopsy it is difficult to
+be either specific or certain about the cause of death, and (2) each physician has unique training and experience and is
+therefore biased in various ways when assigning causes of death. The first is a fundamental limitation of VA resulting
+from the fact that VA data contain comparatively less information than clinical records and autopsy. A clear consequence
+of the second is that traditional physician-assigned VA causes of death are biased and not comparable across either
+single physicians or groups of physicians.
+
+<br><br>
+
+An alternative to physician review is the use of an algorithmic method that processes the categorical/quantitative
+responses in VA interviews to identify causes of death. The algorithmic approach has three important advantages:
+(1) physicians are free to spend their time caring for patients, (2) VAs can be coded very quickly without having to wait
+for the always-lengthy physician review process, and (3) physician-associated bias is removed from the process so
+that cause assignments are reproducible and comparable. 
+
+<br><br> 
+
+I have led a small team to develop a new algorithmic method for coding verbal autopsies.  Building on InterVA - 'Interpret VA', the first VA algorithm - we developed InSilicoVA.  InSilicoVA assigns a cause to all deaths (no 'indeterminant' causes), provides consistent estimates of uncertainty for both individual causes and population-level cause-specific mortality fractions, utilizes both 'yes' and 'no' answers, and is fully probability-based so that results are presented as true probability distributions.  
+
+<br><br>
+
+The team responsible for developing InSilicoVA includes 
+<a href="https://zehangli.com" target="_blank">Richard Li</a>, 
+<a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, and 
+<a href="https://samclark.net" target="_blank">myself</a>.
+
+<br><br>
+
+Key papers
+
+<ul>
+  <li><a href="http://www.samclark.net/pdfs/clark-2016_mccormick-et-al-insilicova.zip">Probabilistic
+  Cause-of-Death Assignment using Verbal Autopsies</a></li>
+  
+  <li><a href="http://www.samclark.net/pdfs/clark-2019_li-et-al-bayesian-joint-spike-and-slab-graphical-lasso.zip">Bayesian
+  Joint Spike-and-Slab Graphical Lasso</a></li>
+  
+  <li><a href="http://www.samclark.net/pdfs/clark-2019_li-et-al-using-bayesian-latent-gaussian-graphical-models-to-infer-symptom-associations-in-verbal-autopsies.zip">Using
+  Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in
+  Verbal Autopsies</a></li>
+  
+  <li><a href="http://www.samclark.net/pdfs/clark-2020_kunihama-et-al-bayesian-factor-models-for-probabilistic-cause-of-death-assessment-with-verbal-autopsies.zip">Bayesian Factor Models for Probabilistic Cause of Death Assessment with Verbal Autopsies</a></li>  
+</ul> 
+
+Software has been developed to implement InSilicoVA including R packages and universal executables delivered in a Docker container.  This is <a href="http://openva.net" target="_blank">openVA</a> and has been developed by a team including Richard Li, Jason Thomas, Peter Choi, Tyler McCormick, and myself, with increasing help from Yue Chu and Erick Axxe.
+
+<ul>
+  <li><a href="http://openva.net" target="_blank">Main openVA site</a></li>
+  <li><a href="https://cran.r-project.org/package=openVA" target="_blank">R Package</a></li>
+  <li><a href="https://github.com/verbal-autopsy-software/openVA_App/releases" target="_blank">openVA App</a></li>
+  <li><a href="https://youtu.be/C2EPOpTzJTk" target="_blank">Video for installation of openVA App</a></li>
+  <li><a href="https://youtu.be/K1wkSbTwxkg" target="_blank">Video for example analysis using openVA App</a></li>
+</ul>
+</div>
+
+<br>
+
+<div class="sam-link">
+<a href="../projects.html" target="_parent">Back to projects page</a> 
+&nbsp
+<a href="../../index.html" target="_parent"> Back to main page </a>
+</div>
+
+<br><br>
+   
+<div class="sam-note">
+<!-- UPDATE THIS -->
+Updated 2020-04-30
+<!-- UPDATE THIS -->
+</div>
+
+<br>
+
+</body>
+
+</html>

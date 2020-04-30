@@ -1,0 +1,63 @@
+body {
+    width:400px;
+    margin:0 auto;
+}
+
+div.sam-title {
+    font:22px/26px Verdana;
+    text-align:center;
+}
+
+div.sam-multiline-title {
+    font:22px/26px Verdana;
+    text-align:center;
+    line-height: 30px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+div.sam-center-block {
+    width:350px; 
+    margin:0 auto; 
+    font:13px/15px Verdana;
+}
+
+div.sam-note {
+    font:10px/12px Verdana;
+    text-align:center;
+}
+
+div.sam-link {
+    font:12px/14px Verdana;
+    text-align:center;
+}
+
+a:link{
+  color:blue;
+}
+a:visited{
+  color:blue;
+}
+a:hover{
+  color:green;
+}
+a:focus{
+  color:green;
+}
+a:active{
+  color:red;
+}
+
+ul.sam {
+  list-style-type: circle;
+  margin: 4px;
+  padding: 4px;
+}
+
+
+
