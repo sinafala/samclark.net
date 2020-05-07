@@ -22,7 +22,7 @@ Samuel Clark's Bibliography
 <div class="sam-link">
 <a href="./links.html" target="_parent">Back to links page</a> 
 &nbsp
-<a href="../index.php" target="_parent">Back to main page</a> 
+<a href="../index.html" target="_parent">Back to main page</a> 
 </div>
 
 <br>
@@ -34,65 +34,23 @@ Samuel Clark's Bibliography
 <!-- #### -->
 <!-- #### -->
 
-<p><a name="calvert2020maternal"></a>
-
-Calvert, C., M.&nbsp;Marston, E.&nbsp;Slaymaker, A.&nbsp;C. Crampin, A.&nbsp;Price, N.&nbsp;Klein,
-  K.&nbsp;Herbst, D.&nbsp;Michael, M.&nbsp;Urassa, S.&nbsp;J. CLARK, C.&nbsp;Ronsmans, and G.&nbsp;Reniers
-  (2020).
- Direct Maternal Deaths Attributable to HIV in the Era of ART:
-  Evidence from Three Population-based HIV Cohorts with Verbal Autopsy.
- <em><i>In Press</i>: AIDS</em>.
-
-</p>
-
-<p><a name="xavi2020incidence"></a>
-
-G&oacute;mez-Oliv&eacute;, F.&nbsp;X., B.&nbsp;Houle, M.&nbsp;S. Rosenberg, C.&nbsp;W. Kabudula,
-  S.&nbsp;Mojola, J.&nbsp;K. Rohr, S.&nbsp;J. CLARK, N.&nbsp;Angotti, E.&nbsp;J. Schatz, K.&nbsp;Kahn,
-  T.&nbsp;B&auml;rnighausen, and J.&nbsp;Menken (2020).
- HIV incidence among older adults in a rural South African setting:
-  2010-2015.
- <em><i>In Press</i>: Journal of Acquired Immune Deficiency
-  Syndromes</em>.
-
-</p>
-
-<p><a name="houle2020Clustering"></a>
-
-Houle, B., S.-T. Yu, N.&nbsp;Angotti, E.&nbsp;Schatz, C.&nbsp;Kabudula, F.&nbsp;X.
-  G&oacute;mez-Oliv&eacute;, J.&nbsp;Menken, S.&nbsp;Mojola, and S.&nbsp;J. CLARK (2020).
- 
-  <a href="http://www.samclark.net/pdfs/clark-2020_clusters-of-hiv-risk-and-protective-sexual-behaviors-in-agincourt,-rural-south-africa---findings-from-the-ha-nakekela-population-based-study-of-ages-15-and-older.pdf" target="_blank">Clusters
-  of HIV Risk and Protective Sexual Behaviors in Agincourt, Rural South Africa:
-  Findings from the Ha Nakekela Population-Based Study of Ages 15 and Older</a>.
- <em><i>In Press</i>: Archives of Sexual Behavior</em>.
-[&nbsp;<a href="http://dx.doi.org/10.1007/s10508-020-01663-5" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-<p><a name="tsuyoshi2020"></a>
+<p><a name="tsuyoshi2017Stripped"></a>
 
 Kunihama, T., Z.&nbsp;R. Li, S.&nbsp;J. CLARK, and T.&nbsp;H. McCormick (2020).
- 
-  <a href="http://www.samclark.net/pdfs/clark-2020_kunihama-et-al-bayesian-factor-models-for-probabilistic-cause-of-death-assessment-with-verbal-autopsies.zip">Bayesian
-  Factor Models for Probabilistic Cause of Death Assessment with Verbal
-  Autopsies</a>.
- <em>The Annals of Applied Statistics
-  (<a href="https://arxiv.org/abs/1803.01327" target="_blank">Preprint: arXiv:1803.01327v2</a>)</em>.
-[&nbsp;<a href="http://dx.doi.org/10.1214/19-AOAS1253" target="_blank">DOI</a>&nbsp;]
+ Bayesian Factor Models for Probabilistic Cause of Death Assessment
+  with Verbal Autopsies.
+ <em><i>(In Press): The Annals of Applied Statistics
+  (<a href="https://arxiv.org/abs/1803.01327" target="_blank">Preprint: arXiv:1803.01327v2</a>)</i>.</em>
 
 </p>
 
-<p><a name="clarkBMCRebuttal2020"></a>
+<p><a name="clarkBMCRebuttal2019"></a>
 
 Li, Z.&nbsp;R., T.&nbsp;H. McCormick, and S.&nbsp;J. CLARK (2020).
- 
-  <a href="http://www.samclark.net/pdfs/clark-2020_non-confirming-replication-of-'performance-of-insilicova-for-assigning-causes-of-death-to-verbal-autopsies---multisite-validation-study-using-clinical-diagnostic-gold-standards,'-by-flaxman-et-al.pdf" target="_blank">Non-confirming
-  Replication of 'Performance of InSilicoVA for Assigning Causes of Death to
-  Verbal Autopsies: Multisite Validation Study using Clinical Diagnostic Gold
-  Standards', BMC Medicine 2018; 16:56</a>.
- <em>BMC Medicine</em>.
-[&nbsp;<a href="http://dx.doi.org/10.1186/s12916-020-01518-9" target="_blank">DOI</a>&nbsp;]
+ Non-confirming Replication of 'Performance of InSilicoVA for
+  Assigning Causes of Death to Verbal Autopsies: Multisite Validation Study
+  using Clinical Diagnostic Gold Standards', BMC Medicine 2018; 16:56.
+ <em><i>(Accepted): BMC Medicine</i>.</em>
 
 </p>
 
@@ -116,9 +74,10 @@ CLARK, S.&nbsp;J. (2019).
  
   <a href="http://www.samclark.net/pdfs/clark-2019_clark-a-general-age-specific-mortality-model-with-an-example-indexed-by-child-mortality-or-both-child-and-adult-mortality.zip">A
   General Age-Specific Mortality Model with An Example Indexed by Child or
-  Child/Adult Mortality
-  (<a href="https://github.com/sinafala/svd-comp" target="_blank">Reproducibility code</a>)</a>.
- <em>Demography</em>&nbsp;<em>56</em>(3), 1131-1159.
+  Child/Adult Mortality</a>.
+ <em>Demography
+  (<a href="https://github.com/sinafala/svd-comp" target="_blank">Reproducibility code</a>)</em>&nbsp;<em>
+  56</em>(3), 1131-1159.
 [&nbsp;<a href="http://dx.doi.org/10.1007/s13524-019-00785-3" target="_blank">DOI</a>&nbsp;]
 
 </p>
@@ -137,6 +96,18 @@ Jha, P., D.&nbsp;Kumar, R.&nbsp;Dikshit, A.&nbsp;Budukh, R.&nbsp;Begum, P.&nbsp;
 
 </p>
 
+<p><a name="li2017mixPublished"></a>
+
+Li, Z.&nbsp;R., T.&nbsp;H. McCormick, and S.&nbsp;J. CLARK (2019b).
+ 
+  <a href="http://www.samclark.net/pdfs/clark-2019_li-et-al-using-bayesian-latent-gaussian-graphical-models-to-infer-symptom-associations-in-verbal-autopsies.zip">Using
+  Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in
+  Verbal Autopsies</a>.
+ <em>Bayesian Analysis</em>.
+[&nbsp;<a href="http://dx.doi.org/10.1214/19-BA1172" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
 <p><a name="li2018bayesianPublished"></a>
 
 Li, Z.&nbsp;R., T.&nbsp;H. McCormick, and S.&nbsp;J. CLARK (2019a, June).
@@ -147,19 +118,7 @@ Li, Z.&nbsp;R., T.&nbsp;H. McCormick, and S.&nbsp;J. CLARK (2019a, June).
   Conference on Machine Learning</em>, Volume&nbsp;97 of <em>Proceedings of Machine
   Learning Research</em>, pp.  3877-3885. International Conference on Machine
   Learning, Long Beach, California, USA.
-[&nbsp;<a href="http://proceedings.mlr.press/v97/li19h/li19h.pdf" target="_blank">Proceedings PDF</a>&nbsp;]
-
-</p>
-
-<p><a name="li2017mixPublished"></a>
-
-Li, Z.&nbsp;R., T.&nbsp;H. McCormick, and S.&nbsp;J. CLARK (2019b).
- 
-  <a href="http://www.samclark.net/pdfs/clark-2019_li-et-al-using-bayesian-latent-gaussian-graphical-models-to-infer-symptom-associations-in-verbal-autopsies.zip">Using
-  Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in
-  Verbal Autopsies</a>.
- <em>Bayesian Analysis</em>.
-[&nbsp;<a href="http://dx.doi.org/10.1214/19-BA1172" target="_blank">DOI</a>&nbsp;]
+[&nbsp;<a href="http://proceedings.mlr.press/v97/li19h/li19h.pdf" target="_blank">Publisher's PDF</a>&nbsp;]
 
 </p>
 
@@ -207,7 +166,8 @@ Houle, B., S.&nbsp;Mojola, N.&nbsp;Angotti, E.&nbsp;Schatz, F.&nbsp;X. G&oacute;
   <a href="http://www.samclark.net/pdfs/clark-2018_houle-et-al-sexual-behavior-and-HIV-risk-across-the-life-course-in-rural-South-Africa-trends-and-comparisons.pdf" target="_blank">Sexual
   Behavior and HIV Risk across the Life Course in Rural South Africa: Trends
   and Comparisons</a>.
- <em>AIDS Care</em>&nbsp;<em>30</em>(11), 1435-1443.
+ <em>Psychological and Socio-medical Aspects of AIDS/HIV</em>&nbsp;<em>
+  30</em>(11), 1435-1443.
 [&nbsp;<a href="http://dx.doi.org/10.1080/09540121.2018.1468008" target="_blank">DOI</a>&nbsp;]
 
 </p>
@@ -243,7 +203,7 @@ Sharrow, D.&nbsp;J., J.&nbsp;Godwin, Y.&nbsp;He, S.&nbsp;J. CLARK, and A.&nbsp;E
  
   <a href="http://www.samclark.net/pdfs/clark-2018_sharrow-et-al-probabilistic-population-projections-for-countries-with-generalized-HIV-AIDS-epidemics.pdf" target="_blank">Probabilistic
   Population Projections for Countries with Generalized HIV/AIDS Epidemics</a>.
- <em>Population Studies</em>&nbsp;<em>72</em>(1), 1-15.
+ <em>Population Studies</em></em>&nbsp;<em>72</em>(1), 1-15.
 [&nbsp;<a href="http://dx.doi.org/10.1080/00324728.2017.1401654" target="_blank">DOI</a>&nbsp;]
 
 </p>
@@ -864,7 +824,7 @@ CLARK, S.&nbsp;J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
 <div class="sam-link">
 <a href="./links.html" target="_parent">Back to links page</a> 
 &nbsp
-<a href="../index.php" target="_parent">Back to main page</a> 
+<a href="../index.html" target="_parent">Back to main page</a> 
 </div>
 
 </div>
