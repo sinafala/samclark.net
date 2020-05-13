@@ -16,6 +16,3 @@ sshpass -e sftp -oBatchMode=no -b - dh_7gfp82@carousel.dreamhost.com << !
 !
 # End of "here" document
 echo samclark.net html uploaded
-
-
-/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/

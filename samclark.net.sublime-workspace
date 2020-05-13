@@ -1,0 +1,664 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inter",
+				"interva1"
+			],
+			[
+				"ins",
+				"insilicova"
+			],
+			[
+				"in",
+				"insilicova"
+			],
+			[
+				"interva",
+				"interva"
+			],
+			[
+				"icd_code",
+				"icd_codes_tmp"
+			],
+			[
+				"icd_codes",
+				"icd_codes"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "samclark.net/index.php",
+			"settings":
+			{
+				"buffer_size": 1687,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "samclark.net/sam-files/links.html",
+			"settings":
+			{
+				"buffer_size": 1520,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "samclark.net/sam-files/projects.html",
+			"settings":
+			{
+				"buffer_size": 1513,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "samclark.net/sam-files/bibliography.html",
+			"settings":
+			{
+				"buffer_size": 37867,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "samclark.net/sam-files/projects/verbal-autopsy.html",
+			"settings":
+			{
+				"buffer_size": 5626,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "samclark.net/sam-files/sam-styles.css",
+			"settings":
+			{
+				"buffer_size": 721,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tools - misc/upload-samclark.net-html.sh",
+			"settings":
+			{
+				"buffer_size": 1117,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tools - misc/upload-samclark.net-data.sh",
+			"settings":
+			{
+				"buffer_size": 947,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"p",
+				"Pandoc"
+			],
+			[
+				"P",
+				"Pandoc"
+			],
+			[
+				"pan",
+				"Pandoc"
+			],
+			[
+				"pand",
+				"Pandoc"
+			],
+			[
+				"PAN",
+				"Pandoc"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"send",
+				"SendCode: Choose Program"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/samclark.net.sublime-workspace",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/samclark.net.sublime-project",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/bibliography.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/index.html",
+		"/private/etc/ssh/ssh_config",
+		"/Users/samueljclark/.ssh/config",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA Team Weekly Meeting Notes/VA-group-2020-04-22.md",
+		"/Users/samueljclark/Documents/GitHub/va-group-meetings/VA-group-2020-04-29.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/UNPD SVD Mx Model Meeting Notes/UN SVD Model Meeting 2020-04-22.md",
+		"/Users/samueljclark/Documents/GitHub/general-svd-comp/meeting-notes/UN SVD Model Meeting 2020-04-29.md",
+		"/Users/samueljclark/Documents/Computer/# DreamHost/Clark Domains 2020-04 [Dreamhost].md",
+		"/Users/samueljclark/Music/iTunes/iTunes Music Library.xml",
+		"/Users/samueljclark/Documents/Computer/# DreamHost/Setup other domains 2020-04-24/SSL Certificate for DreamHost clarissasurekclark.name.txt",
+		"/Users/samueljclark/Documents/Work/= NOTES =/UNPD SVD Mx Model Meeting Notes/UN SVD Model Meeting 2020-03-25.md",
+		"/Users/samueljclark/Library/Mail/V7/Mailbox IDs.txt",
+		"/Users/samueljclark/Library/Mail/V7/IDs as of 2020-04-18.txt",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA Team Weekly Meeting Notes/VA-group-2020-04-15.md",
+		"/Users/samueljclark/Documents/GitHub/va-group-meetings/VA-group-2020-04-22.md",
+		"/Users/samueljclark/Documents/Computer/# DreamHost/Setup 2020-04-21/Clark Domains 2020-04 [Dreamhost].md",
+		"/Users/samueljclark/Documents/GitHub/general-svd-comp/meeting-notes/UN SVD Model Meeting 2020-04-22.md",
+		"/Users/samueljclark/Documents/Computer/# DreamHost/Setup 2020-04-21/SSL Certificate for DreamHost samclark.net.txt",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/index.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/bibliography.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/experiment.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/x.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/experiment1.html",
+		"/Users/samueljclark/Documents/Computer/Software/Software/Software for Naivasha - Apr 2020/Endnote X9/Endnote X9 License Key 2020-04-19.txt",
+		"/Users/samueljclark/Downloads/Endnote X9 License Key 2020-04-19.txt",
+		"/Users/samueljclark/Documents/Work/= NOTES =/State of OH CV19/Jon, Jon, Sam 2020-04-10.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA Team Weekly Meeting Notes/VA-group-2020-04-08.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA R01/Jill and Sam RPPR 2020-04-16.md",
+		"/Users/samueljclark/Documents/GitHub/va-group-meetings/VA-group-2020-04-15.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/State of OH CV19/OH State CV19 2020-04-17.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/UNPD SVD Mx Model Meeting Notes/UN SVD Model Meeting 2020-01-15.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/State of OH CV19/OH State CV19 2020-04-08.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/OH State CV19 2020-04-08.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/State of OH CV19/State of OH CV19 Prevalence 2020-04-04.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA Team Weekly Meeting Notes/VA-group-2020-04-01.md",
+		"/Users/samueljclark/Documents/GitHub/va-group-meetings/VA-group-2020-04-08.md",
+		"/Users/samueljclark/Documents/GitHub/general-svd-comp/UN Experts' Group Meeting 2020-04/Day 1.md",
+		"/Users/samueljclark/Documents/GitHub/general-svd-comp/UN Experts' Group Meeting 2020-04/Materials/Join Zoom Meeting.txt",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA Fieldwork 2018/Clarissa Projects 2019-02-13.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA Fieldwork 2018/Annual Check-in with Clarissa, Grant Renewal.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/D4H/Phase III/VS-phase-III-deliverables.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/RSA-VA.md",
+		"/Users/samueljclark/Documents/GitHub/general-svd-comp/meeting-notes/UN SVD Model Meeting 2020-03-18.md",
+		"/Users/samueljclark/Documents/GitHub/va-group-meetings/VA-group-2020-03-23.md",
+		"/Users/samueljclark/Documents/GitHub/va-group-meetings/VA-group-2020-03-25.md",
+		"/Users/samueljclark/Documents/GitHub/general-svd-comp/meeting-notes/UN SVD Model Meeting 2020-03-25.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/CV19 Survey Group/CV19 Survey Group.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/OSU/Sam-JIll 2020-04-02.md",
+		"/Users/samueljclark/Documents/GitHub/general-svd-comp/meeting-notes/UN SVD Model Meeting 2020-04-01.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Personal/marinate.md",
+		"/Users/samueljclark/Documents/GitHub/va-group-meetings/VA-group-2020-04-01.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/OSU/travel meeting march 2020.md",
+		"/Users/samueljclark/Documents/GitHub/va-group-meetings/VA-group-2020-03-18.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA Team Weekly Meeting Notes/VA-group-2020-03-11.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/OSU/OSU Teaching Reflection",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA Plans/MITRE-CDC Roadmap for VA Tools.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/OSU/Travel Issues 2020-03.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA Team Weekly Meeting Notes/VA-group-2020-02-26.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA Team Weekly Meeting Notes/VA-group-2020-03-04.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Misc Work/Erin.txt",
+		"/Users/samueljclark/Documents/Work/= NOTES =/UNPD SVD Mx Model Meeting Notes/UN SVD Model Meeting 2020-02-26.md",
+		"/Users/samueljclark/Documents/GitHub/va-group-meetings/VA-group-2020-03-11.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Misc Work/IUSSP-training.md",
+		"/Users/samueljclark/Documents/GitHub/general-svd-comp/meeting-notes/UN SVD Model Meeting 2020-03-04.md",
+		"/Users/samueljclark/Documents/GitHub/va-group-meetings/VA-group-2020-03-04.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/D4H/Martin 2019-02-21.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA Team Weekly Meeting Notes/VA-group-2020-02-19.md",
+		"/Users/samueljclark/Documents/GitHub/va-group-meetings/VA-group-2020-02-26.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/UNPD SVD Mx Model Meeting Notes/UN SVD Model Meeting 2020-02-19.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Personal/Face Routine.md",
+		"/Users/samueljclark/Documents/GitHub/general-svd-comp/meeting-notes/UN SVD Model Meeting 2020-02-26.md",
+		"/Users/samueljclark/Desktop/Coronavirus WHO Report/quick takeaways.txt",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Misc Work/IDM-InSilicoVA-2020-02-27.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/OSU Activities Reports Notes/2020.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/WHO VA Instrument Response Patterns/item-reduction-2020-01-08.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/WHO VA Instrument Response Patterns/Item Reduction Workshop Planning 2020-01-13.md",
+		"/Users/samueljclark/Documents/GitHub/general-svd-comp/meeting-notes/UN SVD Model Meeting 2020-02-19.md",
+		"/Users/samueljclark/Documents/GitHub/va-group-meetings/VA-group-2020-02-19.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA Team Weekly Meeting Notes/VA-group-2020-01-29.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Personal/Notes on Caltech:Ted",
+		"/Users/samueljclark/Documents/Work/= NOTES =/WHO VA Instrument Response Patterns/item-reduction-2020-01-29.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/UNPD SVD Mx Model Meeting Notes/UN SVD Model Meeting 2020-01-22.md",
+		"/Users/samueljclark/Desktop/brass.cpp",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA Plans/Gates for VA.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/va-group-meetings/VA-group-2020-01-22.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Personal/% Car Selling 2020.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/va-group-meetings/VA-group-2020-01-15.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/UN SVD Model Meeting Notes/UN SVD Model Meeting 2020-01-22.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Personal/FJ.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Misc Computer-Software/homebrew install java and fix rJava issue.md",
+		"/Users/samueljclark/Documents/Personal/LaTeX CV/bib/convert to html/publications instructions bibtex2html (2020).txt",
+		"/Users/samueljclark/Desktop/OIA Small Grant/Application 2020-01-17.txt",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Misc Computer-Software/Computer Plan Jan 2020.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Richard-Tyler/Tyler 2019-12-20.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Richard-Tyler/Tyler-Richard 2018-03-01.md",
+		"/Users/samueljclark/Documents/Personal/LaTeX CV/CV/TO-DO/todo.txt",
+		"/Users/samueljclark/Documents/Personal/LaTeX CV/CV/TO-DO/G\\'{o}mez-Oliv\\'{e}, F. Xavier and",
+		"/Users/samueljclark/Documents/Personal/LaTeX CV/OSU report/2019/Citations/Web of Science NOTES.txt",
+		"/Users/samueljclark/Desktop/import-.ris",
+		"/Users/samueljclark/Desktop/import2.ris",
+		"/Users/samueljclark/Desktop/import1.ris",
+		"/Users/samueljclark/Desktop/import.ris",
+		"/Users/samueljclark/Desktop/demog.ris",
+		"/Users/samueljclark/Desktop/li2.ris",
+		"/Users/samueljclark/Documents/Work/= NOTES =/VA Group Weekly Meetings/VA-group-2020-01-15.md",
+		"/Users/samueljclark/Desktop/delete.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Misc Computer-Software/homebrew install java and fix rJava issue.txt",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Personal/Biking List.md",
+		"/Users/samueljclark/Desktop/Desktop 2019-08-27/Sam's Postdoc/Postdoc Text.txt",
+		"/Users/samueljclark/Documents/Work/= NOTES =/D4H/RSA-item-reduction-2020.md",
+		"/Users/samueljclark/Desktop/Demo Save Plot/table.txt",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Students/peter-choi-masters-defense.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/2019 P&T/Hovick.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/2019 P&T/Huanxing.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Misc Work/Small-area Estimation Training Materials.txt",
+		"/Users/samueljclark/Desktop/Desktop 2019-08-27/Demography Review July 2019/288/Review-MS-2019288.md",
+		"/Users/samueljclark/Documents/GitHub/VA-Contract-Work/Notes Phase III (2019-2020)/Deliverables.md",
+		"/usr/local/bin/secfile.sh",
+		"/Users/samueljclark/Documents/Work/= NOTES =/OSU/Computing Soc-IPR 2019-10-25.md",
+		"/Users/samueljclark/Desktop/Desktop 2019-08-27/Demographic Research Review August 2019/adapting log-quad review",
+		"/Users/samueljclark/Documents/Work/= NOTES =/Mitre/Phase III Kick-off Meeting 2019-09-25.md",
+		"/Users/samueljclark/Documents/Work/= NOTES =/COMSA/20190813.md",
+		"/Users/samueljclark/Dropbox/africaAdminTwoEstimates/analysis/analysisFolderReadme.md",
+		"/Users/samueljclark/Desktop/test/urls.txt",
+		"/Users/samueljclark/Dropbox/AfricaAdmin2Estimates/data/README.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "samclark.net/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "samclark.net/sam-files/links.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "samclark.net/sam-files/projects.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "samclark.net/sam-files/bibliography.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "samclark.net/sam-files/projects/verbal-autopsy.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "samclark.net/sam-files/sam-styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "tools - misc/upload-samclark.net-html.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1117,
+								1117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "tools - misc/upload-samclark.net-data.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								947,
+								947
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "samclark.net.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 335.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

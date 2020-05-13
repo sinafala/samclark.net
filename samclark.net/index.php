@@ -49,7 +49,7 @@ On an ongoing basis I develop mortality models and work to improve: 1) verbal au
 <br><br>
    
 <div class="sam-note" style="line-height: 20px">
-Visits since 2020-05-06: 
+Page loads since 2020-05-06: 
 <strong>
 <?php
     $hits = intval(file_get_contents('counter.txt'));
