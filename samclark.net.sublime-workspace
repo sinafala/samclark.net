@@ -32,10 +32,32 @@
 	"buffers":
 	[
 		{
+			"contents": "<!DOCTYPE html>\n\n<html lang=\"en\">\n\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n<link rel=\"stylesheet\" href=\"./sam-files/sam-styles.css\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Samuel Clark - Demographer</title>\n</head>\n\n<body>\n\n<br>\n\n<div class=\"sam-title\">\nSamuel Clark - Demographer\n</div>\n      \n<br><br>\n\n<div>\n<img src=\"./sam-files/sam.jpeg\" alt=\"Sam\">\n</div>\n\n<br><br>\n\n<div class=\"sam-center-block\">\n\nI am a demographer and epidemiologist who develops new methods and investigates population dynamics and epidemiology in low- and middle-income countries, with a focus in Africa. \n\n<br><br>\n\nCurrently I am working on surveys to characterize the prevalence of the coronavirus and the size of the susceptible population in the state of Ohio, USA. \n\n<br><br>\n\nOn an ongoing basis I develop mortality models and work to improve: 1) verbal autopsy as a tool to measure burden of disease, 2) indirect estimates of child mortality, and 3) small-area estimates of mortality. I also coordinate a small team developing software to implement new methods - mostly for verbal autopsy.\n\n</div>\n\n<br><br>\n\n<div class=\"sam-link\">\n<a href=\"./sam-files/links.html\" target=\"_parent\">Links</a><br><br>\n<a href=\"./sam-files/projects.html\" target=\"_parent\">Projects</a>\n</div>\n\n<br><br>\n   \n<div class=\"sam-note\" style=\"line-height: 20px\">\nPage loads since 2020-05-06: \n<strong>\n<?php\n    $hits = intval(file_get_contents('counter.txt'));\n    file_put_contents('counter.txt',$hits+1);\n    echo $hits;\n?>\n</strong> \n</div>\n\n<div class=\"sam-note\">\n<!-- UPDATE THIS -->\nUpdated 2020-05-06\n<!-- UPDATE THIS -->\n</div>\n\n<br>\n\n</body>\n\n</html>",
 			"file": "samclark.net/index.php",
+			"file_size": 1687,
+			"file_write_time": 132334344197846685,
 			"settings":
 			{
-				"buffer_size": 1687,
+				"buffer_size": 1693,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/samueljclark/Documents/Computer/# DreamHost/Clark Domains 2020-04 [Dreamhost].md",
+			"settings":
+			{
+				"buffer_size": 4265,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "832",
+			"file": "/Users/samueljclark/Desktop/PNAS Commentary on Indiana Prevalence Method Paper/latex/chars.txt",
+			"file_size": 4,
+			"file_write_time": 132552061181825305,
+			"settings":
+			{
+				"buffer_size": 3,
 				"line_ending": "Unix"
 			}
 		},
@@ -64,10 +86,10 @@
 			}
 		},
 		{
-			"file": "samclark.net/sam-files/projects/verbal-autopsy.html",
+			"file": "samclark.net/sam-files/projects/indirect-estimates.html",
 			"settings":
 			{
-				"buffer_size": 5626,
+				"buffer_size": 1505,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -179,6 +201,8 @@
 	},
 	"file_history":
 	[
+		"/Volumes/SAM CLARK/Please return to.txt",
+		"/Users/samueljclark/Documents/Work/Classes/5450/5450 - 2020 Autumn/R/Rmd/Lectures/3/3-Introduction-to-R.md",
 		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/samclark.net.sublime-workspace",
 		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/samclark.net.sublime-project",
 		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/bibliography.html",
@@ -304,17 +328,15 @@
 		"/Users/samueljclark/Desktop/Desktop 2019-08-27/Demographic Research Review August 2019/adapting log-quad review",
 		"/Users/samueljclark/Documents/Work/= NOTES =/Mitre/Phase III Kick-off Meeting 2019-09-25.md",
 		"/Users/samueljclark/Documents/Work/= NOTES =/COMSA/20190813.md",
-		"/Users/samueljclark/Dropbox/africaAdminTwoEstimates/analysis/analysisFolderReadme.md",
-		"/Users/samueljclark/Desktop/test/urls.txt",
-		"/Users/samueljclark/Dropbox/AfricaAdmin2Estimates/data/README.txt"
+		"/Users/samueljclark/Dropbox/africaAdminTwoEstimates/analysis/analysisFolderReadme.md"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 50.0
 	},
 	"find_in_files":
 	{
-		"height": 116.0,
+		"height": 142.0,
 		"where_history":
 		[
 		]
@@ -324,6 +346,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\n",
+			"\\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -331,6 +355,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			" "
 		],
 		"reverse": false,
 		"show_context": true,
@@ -341,7 +366,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -350,7 +375,35 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1687,
+						"buffer_size": 1693,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/samueljclark/Documents/Computer/# DreamHost/Clark Domains 2020-04 [Dreamhost].md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4265,
 						"regions":
 						{
 						},
@@ -363,7 +416,44 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/samueljclark/Desktop/PNAS Commentary on Indiana Prevalence Method Paper/latex/chars.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 1,
+								"count": 0,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -373,7 +463,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "samclark.net/sam-files/links.html",
 					"semi_transient": false,
 					"settings":
@@ -397,11 +487,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "samclark.net/sam-files/projects.html",
 					"semi_transient": false,
 					"settings":
@@ -425,11 +515,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "samclark.net/sam-files/bibliography.html",
 					"semi_transient": false,
 					"settings":
@@ -455,24 +545,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "samclark.net/sam-files/projects/verbal-autopsy.html",
+					"buffer": 6,
+					"file": "samclark.net/sam-files/projects/indirect-estimates.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5626,
+						"buffer_size": 1505,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1201,
+								1201
 							]
 						],
 						"settings":
@@ -485,11 +575,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "samclark.net/sam-files/sam-styles.css",
 					"semi_transient": false,
 					"settings":
@@ -515,11 +605,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "tools - misc/upload-samclark.net-html.sh",
 					"semi_transient": false,
 					"settings":
@@ -541,15 +631,15 @@
 							"tab_size": 3,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": 369.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "tools - misc/upload-samclark.net-data.sh",
 					"semi_transient": false,
 					"settings":
@@ -573,7 +663,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -581,7 +671,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 50.0
 	},
 	"input":
 	{
@@ -618,7 +708,7 @@
 	"project": "samclark.net.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 150.0
 	},
 	"save_all_on_build": true,
 	"select_file":
