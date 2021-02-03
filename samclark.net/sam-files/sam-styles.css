@@ -9,9 +9,18 @@ div.sam-title {
 }
 
 div.sam-multiline-title {
+    width:350px;
+    margin:0 auto;
     font:22px/26px Verdana;
     text-align:center;
     line-height: 30px;
+}
+
+div.sam-name-title {
+    width:350px;
+    margin:0 auto;
+    font:18px/22px Verdana;
+    text-align:center;
 }
 
 img {
@@ -19,7 +28,6 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
 
 div.sam-center-block {
     width:350px; 
@@ -58,6 +66,9 @@ ul.sam {
   margin: 4px;
   padding: 4px;
 }
+
+hr {margin-top:22px; margin-bottom:18px}
+
 
 
 

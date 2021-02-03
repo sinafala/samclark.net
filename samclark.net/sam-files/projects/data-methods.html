@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="../sam-styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samuel Clark - Data Methods</title>
+</head>
+
+<body>
+
+<br>
+
+<!-- %%%% -->
+
+
+<div class="sam-name-title">
+Samuel Clark 
+</div>
+<br>
+<div class="sam-multiline-title">
+Data Methods
+</div>
+
+<br>
+
+<div class="sam-link">
+<a href="../../index.php" target="_parent">Main Page</a>
+&nbsp
+<a href="../projects.html" target="_parent">Projects</a>
+</div>
+
+<br>
+
+<div class="sam-center-block">
+
+<h4>Background</h4>
+
+Early in my career I worked intensively with health and demographic surveillance system (HDSS) sites in Africa - particularly the <a href="https://www.agincourt.co.za" target="_blank">Agincourt</a> HDSS in South Africa, and often with Kobus Herbst who has been part of the senior leadership of the Africa Centre/Africa Health Research Institute <a href="https://www.ahri.org" target="_blank">(AHRI)</a> since its inception. At that time a group of us were keenly interested in improving the ability of HDSS sites to collect, check, manage, and analyze their data more efficiently and accurately.
+
+<br><br>
+
+The HDSS methodology keeps detailed, longitudinal records on everyone who lives within a specified geographic boundary. These records include individual-specific attributes, group-level attributes, and time-evolving links between individuals and groups, and <i>critically</i>, between any of these things and specific locations. The data are a <i>very</i> complex mixture of time, place, groups, and attributes. This makes quality-control, storage, manipulation, and analysis difficult. 
+
+<br><br>
+
+At its core, an HDSS database is a bi- or tri- temporal record-keeping system:
+
+<ol>
+  <li>Time in the real work when things happen to people,</li>
+  <li>Observation times and durations when the study was in a position to know the status of something, and</li>
+  <li>Database transaction time - when something was known to the database.</li>
+</ol>
+
+The way that data are organized in a computer can have strong effects on what can be done with the data and how easy or hard it is to 
+
+<ul>
+  <li>enforce quality-control constraints that ensure that the data are free from record-keeping errors and are consistent with each other,</li>
+  <li>extract data in a useful, human-readable form, and</li>
+  <li>do tempo-spatial arithmatic to figure out when and for how long things were true at given locations.</li>
+</ul>
+
+<h4>The Structured Population Event History Register</h4>
+
+Since at least the early 1990s, a small group - Bruce MacLeod, Justus Benzler, Kobus Herbst, and me - has been interested in designing data models, more specifically relational database schemas, to make storage, management, and analysis of HDSS as accurate and easy as possible. In the context of this effort, I designed the Structured Population Event History Register (SPEHR). SPEHR is a very flexible, metadata-driven relational databse schema for HDSS. 
+
+<h4>Unified Timestamp Timestamp with Explicit Precision</h4>
+
+At around the same time Justus Benzler and I thought deeply about how to define a unified timestamp object that could handle all of the time-valued entities we encountered in HDSS, and also accurately represent the precision of measures associated with each of them.
+
+<br><br>
+
+Publications on SPEHR and and our generalized definition for a timestamp:
+
+<ul>
+  <li><a href="http://www.samclark.net/pdfs/clark-2007_clark-introduction-spehr.pdf" target="_blank">An introduction to the General Temporal Data Model and the Structured Population Event History Register (SPEHR)</a></li>
+  
+  <li><a href="http://www.samclark.net/pdfs/clark-2006_clark-spehr.pdf" target="_blank">A general temporal data model and the structured population event history register</a></li> 
+  
+  <li><a href="http://www.samclark.net/pdfs/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa (signed copy of deposited document).pdf" target="_blank">Part 4 of my PhD Dissertation</a></li>
+  
+  <li><a href="http://www.samclark.net/pdfs/clark-2005_benzler-et-al-timestamp.pdf" target="_blank">Toward a Unified Timestamp with explicit precision</a></li>
+</ul> 
+
+
+<!-- %%%%% -->
+
+</div>
+
+<br>
+
+<div class="sam-link">
+<a href="../../index.php" target="_parent">Main Page</a>
+&nbsp
+<a href="../projects.html" target="_parent">Projects</a>
+</div>
+
+<br>
+   
+<div class="sam-note">
+<!-- UPDATE THIS -->
+Updated 2021-02-02
+<!-- UPDATE THIS -->
+</div>
+
+<br>
+
+</body>
+
+</html>

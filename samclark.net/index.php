@@ -17,21 +17,29 @@
 Samuel Clark - Demographer
 </div>
 
-<br><br>
+<br>
+
+<div class="sam-link">
+<a href="./sam-files/links.html" target="_parent">Links</a>
+&nbsp
+<a href="./sam-files/projects.html" target="_parent">Projects</a>
+</div>
+
+<br>
 
 <div>
 <img src="./sam-files/sam.jpeg" alt="Sam">
 </div>
 
-<br><br>
+<br>
 
 <div class="sam-center-block">
 
-I am a demographer and epidemiologist who develops new methods and investigates population dynamics and epidemiology in low- and middle-income countries, with a focus in Africa. 
+I am a demographer, epidemiologist, and aspiring statistician who develops new methods and investigates population dynamics and epidemiology in low- and middle-income countries, with a focus in Africa. 
 
 <br><br>
 
-Currently I am working on surveys to characterize the prevalence of the coronavirus and the size of the susceptible population in the state of Ohio, USA. 
+Most recently I have been working on a survey to estimate the prevalence of the coronavirus and an excess deaths study to characterize the total burden of mortality associated with the COVID-19 epidemic - both in the state of Ohio, USA.
 
 <br><br>
 
@@ -39,14 +47,15 @@ On an ongoing basis I develop mortality models and work to improve: 1) verbal au
 
 </div>
 
-<br><br>
+<br>
 
 <div class="sam-link">
-<a href="./sam-files/links.html" target="_parent">Links</a><br><br>
+<a href="./sam-files/links.html" target="_parent">Links</a>
+&nbsp
 <a href="./sam-files/projects.html" target="_parent">Projects</a>
 </div>
 
-<br><br>
+<br>
    
 <div class="sam-note" style="line-height: 20px">
 Page loads since 2020-05-06: 
@@ -61,7 +70,7 @@ Page loads since 2020-05-06:
 
 <div class="sam-note">
 <!-- UPDATE THIS -->
-Updated 2021-01-30
+Updated 2021-02-02
 <!-- UPDATE THIS -->
 </div>
 

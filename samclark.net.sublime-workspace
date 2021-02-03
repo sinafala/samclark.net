@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"sam",
+				"sam-note"
+			],
+			[
 				"inter",
 				"interva1"
 			],
@@ -31,73 +35,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "samclark.net/index.php",
-			"settings":
-			{
-				"buffer_size": 1687,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "samclark.net/sam-files/links.html",
-			"settings":
-			{
-				"buffer_size": 1520,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "samclark.net/sam-files/projects.html",
-			"settings":
-			{
-				"buffer_size": 1513,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "samclark.net/sam-files/bibliography.html",
-			"settings":
-			{
-				"buffer_size": 41965,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "samclark.net/sam-files/projects/indirect-estimates.html",
-			"settings":
-			{
-				"buffer_size": 1505,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "samclark.net/sam-files/sam-styles.css",
-			"settings":
-			{
-				"buffer_size": 721,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tools - misc/upload-samclark.net-html.sh",
-			"settings":
-			{
-				"buffer_size": 1117,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tools - misc/upload-samclark.net-data.sh",
-			"settings":
-			{
-				"buffer_size": 947,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -177,15 +114,48 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/samueljclark/Documents/GitHub/samclark.net",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects"
+	],
 	"file_history":
 	[
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/sam-styles.css",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/tools - misc/upHtml.sh",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/tools - misc/upData.sh",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/index.php",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/links.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/methods.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/data-methods.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/COVID-19.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/verbal-autopsy.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/indirect-estimates.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/interviewer-effects.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/africa-epidemiology-demography.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/orphan-mortality.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/small-area-estimates.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/project-template.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/software.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/bibliography.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/misc.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/epidemiology-demography-africa.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/projecxt-template.html",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/.gitignore",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/tools - misc/upData1.sh",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/tools - misc/upData-1.sh",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/tools - misc/upload-samclark.net-html.sh",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/tools - misc/upload-samclark.net-data-1.sh",
+		"/Users/samueljclark/Documents/GitHub/samclark.net/tools - misc/Clark Domains 2021-01 [Dreamhost].md alias",
 		"/Users/samueljclark/Documents/Computer/# DreamHost/Clark Domains 2020-04 [Dreamhost].md",
 		"/Users/samueljclark/Desktop/PNAS Commentary on Indiana Prevalence Method Paper/latex/chars.txt",
 		"/Volumes/SAM CLARK/Please return to.txt",
 		"/Users/samueljclark/Documents/Work/Classes/5450/5450 - 2020 Autumn/R/Rmd/Lectures/3/3-Introduction-to-R.md",
 		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/samclark.net.sublime-workspace",
 		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/samclark.net.sublime-project",
-		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/bibliography.html",
 		"/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/index.html",
 		"/private/etc/ssh/ssh_config",
 		"/Users/samueljclark/.ssh/config",
@@ -280,37 +250,11 @@
 		"/Users/samueljclark/Documents/Work/= NOTES =/Misc Computer-Software/Computer Plan Jan 2020.md",
 		"/Users/samueljclark/Documents/Work/= NOTES =/Richard-Tyler/Tyler 2019-12-20.md",
 		"/Users/samueljclark/Documents/Work/= NOTES =/Richard-Tyler/Tyler-Richard 2018-03-01.md",
-		"/Users/samueljclark/Documents/Personal/LaTeX CV/CV/TO-DO/todo.txt",
-		"/Users/samueljclark/Documents/Personal/LaTeX CV/CV/TO-DO/G\\'{o}mez-Oliv\\'{e}, F. Xavier and",
-		"/Users/samueljclark/Documents/Personal/LaTeX CV/OSU report/2019/Citations/Web of Science NOTES.txt",
-		"/Users/samueljclark/Desktop/import-.ris",
-		"/Users/samueljclark/Desktop/import2.ris",
-		"/Users/samueljclark/Desktop/import1.ris",
-		"/Users/samueljclark/Desktop/import.ris",
-		"/Users/samueljclark/Desktop/demog.ris",
-		"/Users/samueljclark/Desktop/li2.ris",
-		"/Users/samueljclark/Documents/Work/= NOTES =/VA Group Weekly Meetings/VA-group-2020-01-15.md",
-		"/Users/samueljclark/Desktop/delete.md",
-		"/Users/samueljclark/Documents/Work/= NOTES =/Misc Computer-Software/homebrew install java and fix rJava issue.txt",
-		"/Users/samueljclark/Documents/Work/= NOTES =/Personal/Biking List.md",
-		"/Users/samueljclark/Desktop/Desktop 2019-08-27/Sam's Postdoc/Postdoc Text.txt",
-		"/Users/samueljclark/Documents/Work/= NOTES =/D4H/RSA-item-reduction-2020.md",
-		"/Users/samueljclark/Desktop/Demo Save Plot/table.txt",
-		"/Users/samueljclark/Documents/Work/= NOTES =/Students/peter-choi-masters-defense.md",
-		"/Users/samueljclark/Documents/Work/= NOTES =/2019 P&T/Hovick.md",
-		"/Users/samueljclark/Documents/Work/= NOTES =/2019 P&T/Huanxing.md",
-		"/Users/samueljclark/Documents/Work/= NOTES =/Misc Work/Small-area Estimation Training Materials.txt",
-		"/Users/samueljclark/Desktop/Desktop 2019-08-27/Demography Review July 2019/288/Review-MS-2019288.md",
-		"/Users/samueljclark/Documents/GitHub/VA-Contract-Work/Notes Phase III (2019-2020)/Deliverables.md",
-		"/usr/local/bin/secfile.sh",
-		"/Users/samueljclark/Documents/Work/= NOTES =/OSU/Computing Soc-IPR 2019-10-25.md",
-		"/Users/samueljclark/Desktop/Desktop 2019-08-27/Demographic Research Review August 2019/adapting log-quad review",
-		"/Users/samueljclark/Documents/Work/= NOTES =/Mitre/Phase III Kick-off Meeting 2019-09-25.md",
-		"/Users/samueljclark/Documents/Work/= NOTES =/COMSA/20190813.md"
+		"/Users/samueljclark/Documents/Personal/LaTeX CV/CV/TO-DO/todo.txt"
 	],
 	"find":
 	{
-		"height": 50.0
+		"height": 67.0
 	},
 	"find_in_files":
 	{
@@ -324,15 +268,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h3",
+			"h4",
+			"Assessing",
+			"Assessin",
+			"Mozambican",
+			"moz",
+			"reniers",
+			"blank",
+			"_parent",
 			"\n",
 			"\\n"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"h4",
+			"h5",
+			"_blank",
 			" "
 		],
 		"reverse": false,
@@ -344,258 +300,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "samclark.net/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1687,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								304,
-								304
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "php"
-							},
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "samclark.net/sam-files/links.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1520,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "samclark.net/sam-files/projects.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1513,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 56,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "samclark.net/sam-files/bibliography.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 41965,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "samclark.net/sam-files/projects/indirect-estimates.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1505,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1201,
-								1201
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "samclark.net/sam-files/sam-styles.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 721,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "tools - misc/upload-samclark.net-html.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1117,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1117,
-								1117
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 369.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "tools - misc/upload-samclark.net-data.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 947,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								947,
-								947
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -638,7 +344,7 @@
 	"project": "samclark.net.sublime-project",
 	"replace":
 	{
-		"height": 150.0
+		"height": 126.0
 	},
 	"save_all_on_build": true,
 	"select_file":
