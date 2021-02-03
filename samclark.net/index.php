@@ -23,6 +23,10 @@ Samuel Clark - Demographer
 <a href="./sam-files/links.html" target="_parent">Links</a>
 &nbsp
 <a href="./sam-files/projects.html" target="_parent">Projects</a>
+&nbsp
+<a href="./sam-files/Samuel-Clark_CV.pdf" target="_blank">CV</a>
+&nbsp
+<a href="./sam-files/bibliography.html" target="_parent">Bibliography</a> 
 </div>
 
 <br>
@@ -53,7 +57,10 @@ On an ongoing basis I develop mortality models and work to improve: 1) verbal au
 <a href="./sam-files/links.html" target="_parent">Links</a>
 &nbsp
 <a href="./sam-files/projects.html" target="_parent">Projects</a>
-</div>
+&nbsp
+<a href="./sam-files/Samuel-Clark_CV.pdf" target="_blank">CV</a>
+&nbsp
+<a href="./sam-files/bibliography.html" target="_parent">Bibliography</a> </div>
 
 <br>
    
