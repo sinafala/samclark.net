@@ -10,6 +10,7 @@ sshpass -e sftp -oBatchMode=no -b - dh_7gfp82@samclark.net << !
    put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/links.html" links.html
    put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects.html" projects.html
    put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/sam-styles.css" sam-styles.css
+   put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/news.html" news.html
    cd projects
    put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/verbal-autopsy.html" verbal-autopsy.html
    put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/indirect-estimates.html" indirect-estimates.html
@@ -21,7 +22,6 @@ sshpass -e sftp -oBatchMode=no -b - dh_7gfp82@samclark.net << !
    put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/orphan-mortality.html" orphan-mortality.html
    put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/small-area-estimates.html" small-area-estimates.html
    put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/software.html" software.html
-   put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/news.html" news.html
    bye
 !
 # End of "here" document

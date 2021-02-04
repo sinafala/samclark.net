@@ -67,8 +67,13 @@ ul.sam {
   padding: 4px;
 }
 
-hr {margin-top:22px; margin-bottom:18px}
+hr {
+  margin-top:22px; 
+  margin-bottom:18px
+}
 
-
+h4.news-date {
+  margin-bottom:4px;
+}
 
 
