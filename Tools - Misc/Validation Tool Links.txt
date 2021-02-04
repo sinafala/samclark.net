@@ -1,9 +1,0 @@
-
-HTML Validator:
-
-https://validator.w3.org/nu/?doc=http%3A%2F%2Fsamclark.net%2F
-
-
-Dead Link Checker: 
-
-https://www.deadlinkchecker.com/website-dead-link-checker.asp
