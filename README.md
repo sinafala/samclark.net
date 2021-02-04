@@ -1,2 +1,3 @@
 # samclark.net
- Sam Clark Web Site
+ 
+Code for Samuel Clark's Web Site
