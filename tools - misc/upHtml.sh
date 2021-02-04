@@ -21,7 +21,7 @@ sshpass -e sftp -oBatchMode=no -b - dh_7gfp82@samclark.net << !
    put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/orphan-mortality.html" orphan-mortality.html
    put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/small-area-estimates.html" small-area-estimates.html
    put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/software.html" software.html
-   put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/misc.html" misc.html
+   put "/Users/samueljclark/Documents/GitHub/samclark.net/samclark.net/sam-files/projects/news.html" news.html
    bye
 !
 # End of "here" document
