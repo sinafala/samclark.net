@@ -41,15 +41,17 @@ Samuel Clark - Demographer
 
 <div class="sam-center-block">
 
-I am a demographer, epidemiologist, and aspiring statistician who develops new methods and investigates population dynamics and epidemiology in low- and middle-income countries, with a focus in Africa. 
+<p>
+  I am a demographer, epidemiologist, and aspiring statistician who develops new methods and investigates population dynamics and epidemiology in low- and middle-income countries, with a focus in Africa. 
+</p>
 
-<br><br>
+<p>
+  Most recently I have been working on a survey to estimate the prevalence of the coronavirus and an excess deaths study to characterize the total burden of mortality associated with the COVID-19 epidemic - both in the state of Ohio, USA.
+</p>
 
-Most recently I have been working on a survey to estimate the prevalence of the coronavirus and an excess deaths study to characterize the total burden of mortality associated with the COVID-19 epidemic - both in the state of Ohio, USA.
-
-<br><br>
-
-On an ongoing basis I develop mortality models and work to improve: 1) verbal autopsy as a tool to measure burden of disease, 2) indirect estimates of child mortality, and 3) small-area estimates of mortality. I also coordinate a small team developing software to implement new methods - mostly for verbal autopsy.
+<p>
+  On an ongoing basis I develop mortality models and work to improve: 1) verbal autopsy as a tool to measure burden of disease, 2) indirect estimates of child mortality, and 3) small-area estimates of mortality. I also coordinate a small team developing software to implement new methods - mostly for verbal autopsy.
+</p>
 
 </div>
 
@@ -82,7 +84,7 @@ Page loads since 2020-05-06:
 
 <div class="sam-note">
 <!-- UPDATE THIS -->
-Updated 2021-02-02
+Updated 2021-02-08
 <!-- UPDATE THIS -->
 </div>
 
