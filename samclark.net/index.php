@@ -93,3 +93,8 @@ Updated 2021-02-08
 </body>
 
 </html>
+
+<!-- 
+Check links with https://www.deadlinkchecker.com/website-dead-link-checker.asp
+Check HTML with https://validator.w3.org/nu/?doc=http%3A%2F%2Fsamclark.net%2F
+ -->
