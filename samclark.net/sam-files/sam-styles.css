@@ -4,14 +4,14 @@ body {
 }
 
 div.sam-title {
-    font:22px/26px Verdana;
+    font:22px/26px Helvetica;
     text-align:center;
 }
 
 div.sam-multiline-title {
     width:350px;
     margin:0 auto;
-    font:22px/26px Verdana;
+    font:22px/26px Helvetica;
     text-align:center;
     line-height: 30px;
 }
@@ -19,7 +19,7 @@ div.sam-multiline-title {
 div.sam-name-title {
     width:350px;
     margin:0 auto;
-    font:18px/22px Verdana;
+    font:18px/22px Helvetica;
     text-align:center;
 }
 
@@ -32,16 +32,16 @@ img {
 div.sam-center-block {
     width:350px; 
     margin:0 auto; 
-    font:13px/15px Verdana;
+    font:13px/15px Helvetica;
 }
 
 div.sam-note {
-    font:10px/12px Verdana;
+    font:10px/12px Helvetica;
     text-align:center;
 }
 
 div.sam-link {
-    font:12px/14px Verdana;
+    font:12px/14px Helvetica;
     text-align:center;
 }
 
@@ -69,7 +69,7 @@ ul.sam {
 
 hr {
   margin-top:22px; 
-  margin-bottom:18px
+  margin-bottom:18px;
 }
 
 h4 {
@@ -85,5 +85,15 @@ h4.date {
 
 p {
   margin-top:4px;
+  margin-bottom:6px;
+}
+
+ul {
+  margin-top:6px;
+  margin-bottom:6px;
+}
+
+ol {
+  margin-top:6px;
   margin-bottom:6px;
 }
