@@ -3,9 +3,7 @@
 <html lang="en">
 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" href="./sam-styles.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--#include virtual="./includes/header.html" -->
 <title>Samuel Clark - Bibliography</title>
 </head>
 
@@ -19,7 +17,7 @@ Samuel Clark's Bibliography
 
 <br>
 
-<!--#include file="./includes/bibliography-links.html" -->
+<!--#include virtual="./includes/bibliography-links.html" -->
 
 <br>
 
@@ -943,7 +941,7 @@ CLARK, S.&nbsp;J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
 
 <br>
 
-<!--#include file="./includes/bibliography-links.html" -->
+<!--#include virtual="./includes/bibliography-links.html" -->
 
 <br>
 

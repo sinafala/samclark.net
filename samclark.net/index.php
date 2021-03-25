@@ -3,9 +3,7 @@
 <html lang="en">
 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" href="./sam-files/sam-styles.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<? include "./sam-files/includes/index-header.html"; ?>
 <title>Samuel Clark - Demographer</title>
 </head>
 

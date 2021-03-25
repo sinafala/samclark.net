@@ -3,9 +3,7 @@
 <html lang="en">
 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" href="./sam-styles.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--#include virtual="./includes/header.html" -->
 <title>Samuel Clark - News</title>
 </head>
 
@@ -19,7 +17,7 @@ Samuel Clark - Talks/Presentations
 
 <br>
 
-<!--#include file="./includes/talks-links.html" -->
+<!--#include virtual="./includes/talks-links.html" -->
 
 <br>
 
@@ -40,7 +38,7 @@ Samuel Clark - Talks/Presentations
 
 <br>
 
-<!--#include file="./includes/talks-links.html" -->
+<!--#include virtual="./includes/talks-links.html" -->
 
 <br>
 
