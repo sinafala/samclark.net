@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="../sam-styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samuel Clark - Software</title>
+</head>
+
+<body>
+
+<br>
+
+<!-- %%%% -->
+
+
+<div class="sam-name-title">
+Samuel Clark 
+</div>
+<br>
+<div class="sam-multiline-title">
+Software
+</div>
+
+<br>
+
+<!--#include virtual="../includes/project-pages-links.html" -->
+
+<br>
+
+<div class="sam-center-block">
+
+<p>
+  I aim to provide working software for the methods I develop, and more recently to provide replication material for publications. This is a list of what's available so far. I have led the teams creating this software, but in many cases, other individuals are primarily responsible for writing and maintaining it. 
+</p>
+
+<h4>Verbal Autopsy</h4>
+
+<p>
+  Software has been developed to implement InSilicoVA including R packages and universal executables delivered in a Docker container.  This is <a href="http://openva.net" target="_blank">openVA</a> and has been developed by a team including <a href="https://zehangli.com" target="_blank">Richard Li</a>, <a href="https://ipr.osu.edu/people/thomas.3912" target="_blank">Jason Thomas</a>, <a href="https://www.eungangchoi.com" target="_blank">Peter Choi</a>, <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, and myself, with increasing help from <a href="https://ipr.osu.edu/people/chu.282" target="_blank">Yue Chu</a>.
+</p>
+
+<h5>Key VA Software</h5>
+
+<ul>
+  <li><a href="http://openva.net" target="_blank">Main openVA site</a></li>
+  <li><a href="https://cran.r-project.org/package=openVA" target="_blank">openVA R Package</a></li>
+  <li><a href="https://github.com/verbal-autopsy-software/openVA_App/releases" target="_blank">openVA App</a></li>
+  <li><a href="https://youtu.be/C2EPOpTzJTk" target="_blank">Video for installation of openVA App</a></li>
+  <li><a href="https://youtu.be/K1wkSbTwxkg" target="_blank">Video for example analysis using openVA App</a></li>
+</ul>
+
+<h5>Supporting VA Software</h5>
+
+<ul>
+  <li><a href="https://cran.r-project.org/package=InterVA4" target="_blank">InterVA4: Replicate and Analyse 'InterVA4'</a></li>
+  <li><a href="https://cran.r-project.org/package=InterVA5" target="_blank">InterVA5: Replicate and Analyse 'InterVA5'</a></li>
+  <li><a href="https://cran.r-project.org/package=InSilicoVA" target="_blank">InSilicoVA: Probabilistic Verbal Autopsy Coding with 'InSilicoVA' Algorithm</a></li>  
+  <li><a href="https://cran.r-project.org/package=CrossVA" target="_blank">CrossVA: Verbal Autopsy Data Transformation for InSilicoVA and InterVA5 Algorithms</a></li>
+  <li><a href="https://cran.r-project.org/package=Tariff" target="_blank">Tariff: Replicate Tariff Method for Verbal Autopsy</a></li>
+  <li><a href="https://github.com/verbal-autopsy-software/openva_pipeline" target="_blank">OpenVA_Pipeline</a></li>
+  <li><a href="https://github.com/sinafala/model-va-algorithms" target="_blank">Model Verbal Autopsy (VA) Algorithms</a></li>
+</ul>
+
+<h4>Replication Material for <a href="http://www.samclark.net/pdfs/clark-2019_clark-a-general-age-specific-mortality-model-with-an-example-indexed-by-child-mortality-or-both-child-and-adult-mortality.zip" target="_blank">SVD-Comp Mortality Model</a></h4>
+
+<ul>
+  <li><a href="https://github.com/sinafala/svd-comp" target="_blank">SVD-Component Mortality Model using Child or Child/Adult Mortality as Inputs</a></li>
+</ul> 
+
+<h4>Small-area Estimates from Complex Survey Data</h4>
+
+<ul>
+  <li><a href="https://cran.r-project.org/package=SUMMER" target="_blank">SUMMER: Spatio-Temporal Under-Five Mortality Methods for Estimation</a></li>
+</ul> 
+
+<h4>Miscellaneous</h4>
+
+<ul>
+  <li><a href="https://github.com/sinafala/usa-mortality" target="_blank">Download and parse USA mortality data from usa.mortality.org</a></li>
+  <li><a href="https://github.com/sinafala/samclark.net" target="_blank">Source code for this website</a></li>
+</ul>
+
+<h4>Structured Population Event History Register (SPEHR)</h4>
+
+<ul>
+  <li><a href="https://samclark.net/spehr/SPEHR.pdf" target="_blank">Description</a></li>
+  <li><a href="https://samclark.net/spehr/SPEHR-Joburg-Durban-2.0.mdb" target="_blank">Example Database 1</a></li>
+  <li><a href="https://samclark.net/spehr/SPEHR-London-NewYork-2.0.mdb" target="_blank">Example Database 2</a></li>
+  <li><a href="https://samclark.net/spehr/SPEHR-Merged-2.0.mdb" target="_blank">Example Database 3</a></li>
+  <li><a href="https://samclark.net/spehr/SPEHR-Repeated-Demographic-Survey-OR-Population-Register-2.0.mdb" target="_blank">Example Database 4</a></li>
+</ul>
+
+
+<!-- %%%%% -->
+
+</div>
+
+<br>
+
+<!--#include virtual="../includes/project-pages-links.html" -->
+
+<br>
+   
+<div class="sam-note">
+<!-- UPDATE THIS -->
+Updated 2021-02-02
+<!-- UPDATE THIS -->
+</div>
+
+<br>
+
+</body>
+
+</html>

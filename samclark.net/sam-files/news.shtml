@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="./sam-styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samuel Clark - News</title>
+</head>
+
+<body>
+
+<br>
+
+<div class="sam-title">
+Samuel Clark - News
+</div>
+
+<br>
+
+<!--#include file="./includes/news-links.html" -->
+
+<br>
+
+<div class="sam-center-block">
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h4 class="sam-date">2021-03-24</h4>
+<!-- %%%%%%%%%%%% -->
+<p>
+  I gave a talk today at the 2021 'Berlin Demography Days': <a href="http://www.samclark.net/talks/clark-2021-talk_global-population-studies-in-the-21st-century-priorities-challenges--mortality.pdf" target="_blank">Global Population Studies in the 21st Century: Priorities Challenges - Mortality</a>.
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h4 class="sam-date">2021-03-10</h4>
+<!-- %%%%%%%%%%%% -->
+<p>
+  I learned today that the Social and Behavioral Sciences division of the School of Arts and Sciences at The Ohio State University has chosen me as a recipient of the Joan N. Huber Faculty Fellow Award. A brief description <a href="https://ascintranet.osu.edu/faculty/awards" target="_blank">here</a>.
+</p>
+<p>
+  I posted a slightly edited version of a paper titled <a href="https://arxiv.org/abs/2103.03910" target="_blank">Health and Demographic Surveillance Systems and the 2030 Agenda: Sustainable Development Goals</a> on <i>arXiv</i>. This paper was invited at a UN Population Division experts' group meeting titled 'Strengthening the Demographic Evidence Base for the Post-2015 Development Agenda' that happened in New York, USA October 5-6, 2015.
+</p>
+<b>Abstract</b>
+<p>
+The health and demographic surveillance system (HDSS) is an old method for intensively monitoring a population to assess the effects of healthcare or other population-level interventions - often clinical trials. The strengths of HDSS include very detailed descriptions of whole populations with frequent updates. This often provides long time series of accurate population and health indicators for the HDSS study population. The primary weakness of HDSS is that the data describe only the HDSS study population and cannot be generalized beyond that.
+</p>
+<p>
+The 2030 agenda is the ecosystem of activities - many including population-level monitoring - that relate to the United Nations (UN) Sustainable Development Goals (SDG). With respect to the 2030 agenda, HDSS can contribute by: (1) continuing to conduct cause-and-effect studies; (2) contributing to data triangulation or amalgamation initiatives; (3) characterizing the bias in and calibrating big data; and contributing more to the rapid training of data-oriented professionals, especially in the population and health fields.
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h4 class="sam-date">2021-02-28</h4>
+<!-- %%%%%%%%%%%% -->
+<p>
+  Commentary in <i>PNAS</i>: <a href="http://www.samclark.net/pdfs/clark-2021_clark-et-al-monitoring-epidemics-lessons-from-measuring-population-prevalence-of-the-coronavirus.pdf" target="_blank">Monitoring epidemics: Lessons from measuring population prevalence of the coronavirus</a> with Abigail Norris Turner. We highlight the need to improve response rates and to prepare a robust measurement capability to be ready for the next pandemic. <a href="https://doi.org/10.1073/pnas.2026412118", target="_blank">DOI</a>.
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h4 class="sam-date">2021-02-08</h4>
+<!-- %%%%%%%%%%%% -->
+<p>
+  Article out today in <i>PLoS One</i>: <a href="http://www.samclark.net/pdfs/clark-2021_houle-et-al-linking-the-timing-of-a-mothers-and-child’s-death-comparative-evidence-from-two-rural-south-african-population-based-surveillance-studies-2000–2015.pdf", target="_blank">Linking the timing of a mother’s and child’s death: Comparative evidence from two rural South African population-based surveillance studies, 2000–2015</a> by Brian Houle, Chodziwadziwa W. Kabudula, Alan Stein, Dickman Gareta, Kobus Herbst, and Samuel J. Clark. <a href="https://doi.org/10.1371/journal.pone.0246671", target="_blank">DOI</a>.
+</p>
+<b>Background</b>
+<p>
+  The effect of the period before a mother’s death on child survival has been assessed in only a few studies. We conducted a comparative investigation of the effect of the timing of a mother’s death on child survival up to age five years in rural South Africa.
+</p>
+<b>Methods</b>
+<p>
+  We used discrete time survival analysis on data from two HIV-endemic population surveillance sites (2000–2015) to estimate a child’s risk of dying before and after their mother’s death. We tested if this relationship varied between sites and by availability of antiretroviral therapy (ART). We assessed if related adults in the household altered the effect of a mother’s death on child survival.
+</p>
+<b>Findings</b>
+<p>
+  3,618 children died from 2000–2015. The probability of a child dying began to increase in the 7–11 months prior to the mother’s death and increased markedly in the 3 months before (2000–2003 relative risk = 22.2, 95% CI = 14.2–34.6) and 3 months following her death (2000–2003 RR = 20.1; CI = 10.3–39.4). This increased risk pattern was evident at both sites. The pattern attenuated with ART availability but remained even with availability at both sites. The father and maternal grandmother in the household lowered children’s mortality risk independent of the association between timing of mother and child mortality.
+</p>
+<b>Conclusions</b>
+<p>
+  The persistence of elevated mortality risk both before and after the mother’s death for children of different ages suggests that absence of maternal care and abrupt breastfeeding cessation might be crucial risk factors. Formative research is needed to understand the circumstances for children when a mother is very ill or dies, and behavioral and other risk factors that increase both the mother and child’s risk of dying. Identifying families when a mother is very ill and implementing training and support strategies for other members of the household are urgently needed to reduce preventable child mortality.
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h4 class="sam-date">2021-02-03</h4>
+<!-- %%%%%%%%%%%% -->
+<p>
+  There will be occasional updates here. For now, the news is that I finally finished this web site after I was interrupted for a year by COVID-19. It's up to date and has all the basic content I had planned. The site is written in plain <a href="https://github.com/sinafala/samclark.net" target="_blank">HTML with a simple cascading style sheet</a>. It's straight from 1995, but it's super easy to modify/maintain/augment with a text editor, and with a shell script to upload everything, keeping the site up to date will be easy and does not require any expensive or takes-time-to-learn software or rely on third parties to fix things. :-)
+</p>
+
+</div>
+
+<br>
+
+<!--#include file="./includes/news-links.html" -->
+
+<br>
+
+</body>
+
+</html>

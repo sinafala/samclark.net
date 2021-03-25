@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="../sam-styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samuel Clark - Small-area Estimates</title>
+</head>
+
+<body>
+
+<br>
+
+<!-- %%%% -->
+
+
+<div class="sam-name-title">
+Samuel Clark 
+</div>
+<br>
+<div class="sam-multiline-title">
+Small-area Estimates of Under-five Mortality
+</div>
+
+<br>
+
+<!--#include virtual="../includes/project-pages-links.html" -->
+
+<br>
+
+<div class="sam-center-block">
+
+<h4>Background</h4>
+
+<p>
+  This project is an offshoot of the <a href="./methods.html#hyak">Hyak</a> hybrid demographic surveillance/sample survey idea. The team included statistician <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a> and several graduate students in statistics - to begin with Laina Mercer and Michelle Ross and later <a href="https://zehangli.com" target="_blank">Richard Li</a>. While we were working on Hyak we decided to test aspects of the idea using under-five mortality as an indicator. Jon is an expert on complex surveys and Bayesian smoothing methods, and we eventually realized that it would be possible to develop smoothed space-time estimates of under-five mortality using the demographic and health surveys (DHS). I started this project with a number of graduate students in sociology at the University of Washington, and we were soon joined by Jon and a number of graduate students in statistics. We eventually published a paper with space-time estimates of under-five mortality for all African countries with publicly-available DHS surveys, and since then, Jon has rapidly grown the project in many ways with additional colleagues and graduate students, including providing official space-time estimates of under-five mortality to UNICEF.
+</p>
+
+<h4>Papers</h4>
+
+<ul>
+  <li><a href="http://www.samclark.net/pdfs/clark-2015_mercer-et-al-space-time-smoothing-child-mortality.zip" target="_blank">Space–time Smoothing Of Complex Survey Data: Small Area Estimation For Child Mortality</a></li>
+  
+  <li><a href="http://www.samclark.net/pdfs/clark-2018_wakefield-et-al-estimating-under-five-mortality-in-space-and-time-in-a-developing-world-context.zip" target="_blank">Estimating under-five mortality in space and time in a developing world context</a></li>
+  
+  <li><a href="http://www.samclark.net/pdfs/clark-2019_li-et-al-changes-in-the-spatial-distribution-of-the-under-five-mortality-rate-small-area-analysis-of-122-dhs-surveys-in-262-subregions-of-35-countries-in-africa.zip" target="_blank">Changes in the spatial distribution of the under-five mortality rate: Small-area analysis of 122 DHS surveys in 262 subregions of 35 countries in Africa</a></li>
+</ul> 
+
+<h4>Key Contribution</h4>
+
+<p>
+  The key contributions of this work are to fully account for complex survey design - particularly how it affects uncertainty - and combine that with a Bayesian smoothing model to produce comparatively accurate (lower uncertainty) estimates of under-five mortality accross space and through time.
+</p>
+
+<p>
+  This is a very active and exciting project with many potential ways to continue growing.
+</p>
+
+<h4>Software and Demonstration Videos</h4>
+
+<p>
+  The team - Richard Li and Bryan Martin in particular - has put a lot of effort into developing robust software to implement the methods. The software is available as a package named SUMMER for the R statistical programming environment. Richard Li maintains a Github repository for SUMMER development where you can find source code and a lot of additional information, and/or if you're so inclined, you could help us to develop SUMMER. Jon Wakefield and Richard Li, with some organizing by me and support from the International Institute for the Scientific Study of Population (IUSSP), recorded a series of talks about the methods with demonstrations using SUMMER.
+</p>
+
+<ul>
+  <li><a href="https://cran.r-project.org/package=SUMMER" target="_blank">SUMMER package for R</a></li>
+  <li><a href="https://iussp.org/en/small-area-estimation-training-materials" target="_blank">Video presentations on methods and demonstration of SUMMER</a></li>
+  <li><a href="https://github.com/richardli/SUMMER" target="_blank">Github repository - ongoing open-source development of SUMMER</a></li>
+</ul>
+
+
+<!-- %%%%% -->
+
+</div>
+
+<br>
+
+<!--#include virtual="../includes/project-pages-links.html" -->
+
+<br>
+   
+<div class="sam-note">
+<!-- UPDATE THIS -->
+Updated 2021-02-02
+<!-- UPDATE THIS -->
+</div>
+
+<br>
+
+</body>
+
+</html>

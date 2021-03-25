@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="./sam-styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samuel Clark - Projects</title>
+</head>
+
+<body>
+
+<br>
+
+<div class="sam-title">
+Samuel Clark - Projects
+</div>
+
+<br>
+
+<!--#include file="./includes/projects-links.html" -->
+
+<br>
+
+<div class="sam-links-list">
+
+<!-- %%%% -->
+
+
+<hr>
+
+<a href="./projects/COVID-19.shtml" target="_parent">COVID-19 in Ohio</a> <br>
+
+<hr>
+
+<a href="./projects/verbal-autopsy.shtml" target="_parent">Verbal Autopsy</a> <br>
+<a href="./projects/indirect-estimates.shtml" target="_parent">Indirect Estimates of Mortality</a> <br>
+<a href="./projects/small-area-estimates.shtml" target="_parent">Small-area Estimates of Mortality</a>
+
+<hr>
+
+<a href="./projects/africa-epidemiology-demography.shtml" target="_parent">Africa: Epidemiology and Demography</a> <br>
+<a href="./projects/orphan-mortality.shtml" target="_parent">Orphan Mortality</a>
+
+<hr>
+
+<a href="./projects/methods.shtml" target="_parent">Methods</a> <br>
+<a href="./projects/data-methods.shtml" target="_parent">Data Methods</a> <br>
+<a href="./projects/interviewer-effects.shtml" target="_parent">Interviewer Effects</a>
+
+<hr>
+
+<a href="./projects/software.shtml" target="_parent">Open-source Software Produced</a>
+
+<hr>
+
+
+<!-- %%%% -->
+
+</div>
+
+<br>
+
+<!--#include file="./includes/projects-links.html" -->
+
+<br>
+
+<div class="sam-note">
+<!-- UPDATE THIS -->
+Updated 2021-02-02
+<!-- UPDATE THIS -->
+</div>
+
+<br>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="./sam-styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samuel Clark - News</title>
+</head>
+
+<body>
+
+<br>
+
+<div class="sam-title">
+Samuel Clark - Talks/Presentations
+</div>
+
+<br>
+
+<!--#include file="./includes/talks-links.html" -->
+
+<br>
+
+<div class="sam-center-block">
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h4 class="sam-date">2021-03-24</h4>
+<!-- %%%%%%%%%%%% -->
+<p>
+  Invited talk at the 'Berlin Demography Days, 2021' sponsored by Population Europe. <a href="http://www.samclark.net/talks/clark-2021-talk_global-population-studies-in-the-21st-century-priorities-challenges--mortality.pdf" target="_blank">Global Population Studies in the 21st Century: Priorities Challenges - Mortality</a>
+</p>
+
+
+</div>
+
+<br>
+
+<!--#include file="./includes/talks-links.html" -->
+
+<br>
+
+</body>
+
+</html>
