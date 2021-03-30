@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<!--#include virtual="./includes/header.html" -->
+<title>Samuel Clark - Nano Biography</title>
+</head>
+
+<body>
+
+<br>
+
+<div class="sam-title">
+Samuel Clark - Nano Biography
+</div>
+
+<br>
+
+<!--#include virtual="./includes/bio-links.html" -->
+
+<br>
+
+<div class="sam-center-block">
+
+
+<p>
+  My personal biography in space and time is complex and not easy to explain in a minute or two.  Following is a very brief summary that only mentions the main aspects. 
+</p> 
+
+<p>
+  I was born and mostly lived in East Africa until about age sixteen. I went to high school in Pendleton Oregon and did undergraduate degrees at Caltech in Pasadena.  After that, I did one year in a neuroscience PhD program at Stanford in Palo Alto before switching to demography and doing a PhD in demography at the University of Pennsylvania in Philadelphia. During the PhD I lived in Monze, Zambia for about one year. Following the PhD I was a postdoc at the University of Colorado at Boulder for about five years living in Durban, South Africa and mainly working with the Agincourt health and demographic surveillance system site. After the postdoc I moved to the University of Washington in Seattle as an assistant professor in the Department of Sociology.  After obtaining tenure there and spending a few years as associate professor, I moved to The Ohio State University in Columbus as a full professor in the Department of Sociology.  
+</p>
+
+<p>
+  The map below gives more precise places and times. The full screen link (upper right) takes you to a bigger version.
+</p>
+
+<br>
+
+<iframe src="https://www.google.com/maps/d/embed?mid=17RJAkgMyFNRyTgddU8fbkyBqIdU" width="350" height="270"></iframe>
+
+</div>
+
+<br>
+
+<!--#include virtual="./includes/bio-links.html" -->
+
+<br>
+
+</body>
+
+</html>
