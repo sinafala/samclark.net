@@ -61,9 +61,9 @@ Samuel Clark - Demographer
 Page loads since 2020-05-06: 
 <strong>
 <?php
-    $hits = intval(file_get_contents('counter.txt'));
-    file_put_contents('counter.txt',$hits+1);
-    echo $hits;
+  $hits = intval(file_get_contents('counter.txt'));
+  file_put_contents('counter.txt',$hits+1);
+  echo $hits;
 ?>
 </strong> 
 </div>
