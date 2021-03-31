@@ -45,10 +45,6 @@ Samuel Clark - Demographer
   On an ongoing basis I develop mortality models and work to improve: 1) verbal autopsy as a tool to measure burden of disease, 2) mathematical models of human mortality, 3) indirect estimates of child mortality, and 4) small-area estimates of mortality. I also coordinate a small team developing software to implement new methods - mostly for verbal autopsy and mathematical models of human mortality.
 </p>
 
-<p>
-  My identity is complex - a mixture of American, African, and other things, see <a href="./sam-files/nano-biography.shtml" target="_parent">succinct biography</a>. He/him. 
-</p>
-
 </div>
 
 <br>
