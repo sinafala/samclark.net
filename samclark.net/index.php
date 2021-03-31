@@ -38,11 +38,15 @@ Samuel Clark - Demographer
 </p>
 
 <p>
-  Most recently I have been working on a survey to estimate the prevalence of the coronavirus and an excess deaths study to characterize the total burden of mortality associated with the COVID-19 epidemic - both in the state of Ohio, USA.
+  Most recently I have been working on a survey to estimate the prevalence of the coronavirus and an excess deaths study to characterize the total burden of mortality associated with the COVID-19 epidemic. Both projects are in the state of Ohio, USA and are conducted in close coordination with the Ohio State Department of Health.
 </p>
 
 <p>
-  On an ongoing basis I develop mortality models and work to improve: 1) verbal autopsy as a tool to measure burden of disease, 2) indirect estimates of child mortality, and 3) small-area estimates of mortality. I also coordinate a small team developing software to implement new methods - mostly for verbal autopsy and mathematical models of human mortality.
+  On an ongoing basis I develop mortality models and work to improve: 1) verbal autopsy as a tool to measure burden of disease, 2) mathematical models of human mortality, 3) indirect estimates of child mortality, and 4) small-area estimates of mortality. I also coordinate a small team developing software to implement new methods - mostly for verbal autopsy and mathematical models of human mortality.
+</p>
+
+<p>
+  My identity is complex - a mixture of American, African, and other things, see <a href="./sam-files/nano-biography.shtml" target="_parent">succinct biography</a>. He/him. 
 </p>
 
 </div>
