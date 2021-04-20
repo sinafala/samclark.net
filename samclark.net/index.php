@@ -52,8 +52,8 @@ Samuel Clark - Demographer
 <? include "./sam-files/includes/main-links.html"; ?>
 
 <br>
-   
-<div class="sam-note" style="line-height: 20px">
+
+<div class="sam-note">
 Page loads since 2020-05-06: 
 <strong>
 <?php
@@ -62,6 +62,10 @@ Page loads since 2020-05-06:
   echo $hits;
 ?>
 </strong> 
+</div>
+
+<div class="sam-note">
+  Copyright 1999-2021 by Samuel J. Clark; all rights reserved.
 </div>
 
 <div class="sam-note">
