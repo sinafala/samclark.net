@@ -27,6 +27,37 @@ Samuel Clark - News
 
 
 <!-- %%%%%%%%%%%% -->
+<h4 class="sam-date">2021-06-25</h4>
+<!-- %%%%%%%%%%%% -->
+<p>
+  Published open-access in PNAS: 
+</p><p>
+  Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turner, and S.&nbsp;J. CLARK (2021). <a href="http://www.samclark.net/pdfs/clark-2021_kline-et-al-estimating-seroprevalence-of-sars-cov-2-in-ohio--a-bayesian-multilevel-poststratification-approach-with-multiple-diagnostic-tests.zip" target="_blank">Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests</a>. <em>Proceedings of the National Academy of Sciences</em>&nbsp;<em>118</em>(26), e2023947118.
+[&nbsp;<a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">DOI</a>&nbsp;]
+</p><p>
+  In July 2020 a large group of colleagues at The Ohio State University collaborated with the Ohio State Department of Health to conduct a probability-based sample survey representative of adults living in Ohio in order to estimate state-level CV19 prevalence of current and past infections. Conducting the survey at that time presented many challenges, including a large non-response rate and an array of tests whose performance characteristics were poorly understood (we used all that we could), and very few positive results from any test. These two issues, and others including the sampling design, presented a particular challenge for analysis and led us to develop a new Bayesian/poststratification approach to estimate state-wide prevalence. 
+</p><p>
+  There are still few representative sample surveys of CV19 biomarkers. Most other approaches suffer from the possibility of very large, consequential bias. This paper should be useful for anyone analyzing the results from a similar survey. Although we cannot share the data easily, we have made R code available to replicate the analysis: <a href="https://github.com/sinafala/bayes-prevalence" target="_blank">Bayes Prevalence</a>. 
+</p><p>
+  Abigail Norris Turner led the overall study conducted by a large group of collaborators at The Ohio State University and Ohio State Department of Health. 
+</p><p>
+  In a truly team effort, Dave Kline, Richard Li, Yue Chue, Jon Wakefield, Bill Miller, Abigail Norris Turner, and me conducted the analysis and developed the overall approach. It was an enjoyable and productive experience working with this team.
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h4 class="sam-date">2021-05-26</h4>
+<!-- %%%%%%%%%%%% -->
+<p>
+  Today I discovered that the OSU College of Arts and Sciences web page has a <a href="https://artsandsciences.osu.edu/news-events/awards-recognition/2021-joan-m-huber-faculty-fellows-announced" target="_blank">write-up</a> of the Joan Huber award recipients for this 2021, including me.
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
 <h4 class="sam-date">2021-04-01</h4>
 <!-- %%%%%%%%%%%% -->
 <p>

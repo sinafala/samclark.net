@@ -59,7 +59,12 @@ Page loads since 2020-05-06:
 <?php
   $hits = intval(file_get_contents('counter.txt'));
   file_put_contents('counter.txt',$hits+1);
-  echo $hits;
+  echo ($hits+1);
+  // append current hit counter to log
+  $file = fopen('hit_log.txt', 'a'); // open hit log in append mode 
+  // append timestamp and new hit value 
+  fwrite($file, date('Y-m-d H:i:s').': '.($hits+1)."\n");
+  fclose($file);
 ?>
 </strong> 
 </div>
@@ -70,7 +75,7 @@ Page loads since 2020-05-06:
 
 <div class="sam-note">
 <!-- UPDATE THIS -->
-Updated 2021-03-30
+Updated 2021-06-26
 <!-- UPDATE THIS -->
 </div>
 
