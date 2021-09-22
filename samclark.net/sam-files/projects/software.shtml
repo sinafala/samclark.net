@@ -68,6 +68,12 @@ Software
   <li><a href="https://github.com/sinafala/svd-comp" target="_blank">SVD-Component Mortality Model using Child or Child/Adult Mortality as Inputs</a></li>
 </ul> 
 
+<h4>Replication Material for <a href="http://www.samclark.net/pdfs/clark-2021_kline-et-al-estimating-seroprevalence-of-sars-cov-2-in-ohio--a-bayesian-multilevel-poststratification-approach-with-multiple-diagnostic-tests.zip" target="_blank">COVID-19 Prevalence Method</a></h4>
+
+<ul>
+  <li><a href="https://github.com/sinafala/bayes-prevalence" target="_blank">Bayes Prevalence: Bayesian, model-based method to estimate prevalence of COVID-19 from survey with multiple imperfect tests</a></li>
+</ul>
+
 <h4>Small-area Estimates from Complex Survey Data</h4>
 
 <ul>
@@ -104,7 +110,7 @@ Software
    
 <div class="sam-note">
 <!-- UPDATE THIS -->
-Updated 2021-03-24
+Updated 2021-09-22
 <!-- UPDATE THIS -->
 </div>
 

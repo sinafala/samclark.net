@@ -30,7 +30,7 @@ Samuel Clark - Demographer
 <div class="sam-center-block">
 
 <p>
-  I am a demographer, epidemiologist, and aspiring statistician who develops new methods and investigates population dynamics and epidemiology in low- and middle-income countries, with a focus in Africa. 
+  I am a demographer, epidemiologist, and aspiring statistician who develops new methods and investigates population dynamics and epidemiology, primarily in low- and middle-income countries, with a focus in Africa. 
 </p>
 
 <p>
@@ -38,11 +38,11 @@ Samuel Clark - Demographer
 </p>
 
 <p>
-  Most recently I have been working on a survey to estimate the prevalence of the coronavirus and an excess deaths study to characterize the total burden of mortality associated with the COVID-19 epidemic. Both projects are in the state of Ohio, USA and are conducted in close coordination with the Ohio State Department of Health.
+  During 2020 I worked on a survey to estimate the prevalence of the coronavirus and an excess deaths study to characterize the total burden of mortality associated with the COVID-19 epidemic. Both projects are in the state of Ohio, USA and were conducted in coordination with the Ohio State Department of Health.
 </p>
 
 <p>
-  On an ongoing basis I develop mortality models and work to improve: 1) verbal autopsy as a tool to measure burden of disease, 2) mathematical models of human mortality, 3) indirect estimates of child mortality, and 4) small-area estimates of mortality. I also coordinate a small team developing software to implement new methods - mostly for verbal autopsy and mathematical models of human mortality.
+  On an ongoing basis I work to improve: 1) verbal autopsy as a tool to measure the burden of disease, 2) mathematical models of human mortality, 3) indirect estimates of child mortality, and 4) small-area estimates of mortality. I also coordinate a small team developing software to implement new methods - mostly for verbal autopsy and mathematical models of human mortality.
 </p>
 
 </div>
@@ -75,7 +75,7 @@ Page loads since 2020-05-06:
 
 <div class="sam-note">
 <!-- UPDATE THIS -->
-Updated 2021-06-26
+Updated 2021-09-22
 <!-- UPDATE THIS -->
 </div>
 

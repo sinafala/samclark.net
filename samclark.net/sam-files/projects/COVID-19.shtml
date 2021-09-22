@@ -49,11 +49,12 @@ Characterizing COVID-19 Epidemic in Ohio
 </p>
 
 <p>
-  Existing statistical methods for the analysis of survey data were inadequate for the unusual data produced by the prevalence survey. Our team developed a new statistical approach to solve those challenges. A publication describing the new methods and their application to the survey data in detail is under review now and also available as an arXiv preprint,
+  Existing statistical methods for the analysis of survey data were inadequate for the unusual data produced by the prevalence survey. Our team developed a new statistical approach to solve those challenges. A description of the new methods and their application to the survey data is published in PNAS, and the R code used in the analysis is available on Github,
 </p>
 
 <ul>
-  <li><a href="https://arxiv.org/abs/2011.09033v2" target="_blank">Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratification Approach with Multiple Diagnostic Tests</a>.</li>
+  <li><a href="http://www.samclark.net/pdfs/clark-2021_kline-et-al-estimating-seroprevalence-of-sars-cov-2-in-ohio--a-bayesian-multilevel-poststratification-approach-with-multiple-diagnostic-tests.zip" target="_blank">Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests</a>.</li>
+  <li><a href="https://github.com/sinafala/bayes-prevalence" target="_blank">Bayes Prevalence: R code to implement new prevalence estimation method.</a></li>
 </ul>
 
 <p>
@@ -101,7 +102,7 @@ Characterizing COVID-19 Epidemic in Ohio
    
 <div class="sam-note">
 <!-- UPDATE THIS -->
-Updated 2021-03-24
+Updated 2021-09-22
 <!-- UPDATE THIS -->
 </div>
 

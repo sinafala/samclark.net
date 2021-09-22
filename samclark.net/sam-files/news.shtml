@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 
 <html lang="en">
 
@@ -22,6 +22,16 @@ Samuel Clark - News
 <br>
 
 <div class="sam-center-block">
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h4 class="sam-date">2021-09-20</h4>
+<!-- %%%%%%%%%%%% -->
+<p>
+  For the past 6-7 years my colleagues and I who work on verbal autopsy methods have been developing new statistical methods to automate identification of a cause of death using verbal autopsy records. Along the way we have developed a range of open source software tools to ensure that the methods are transparent and available to anyone who wants to use them. Recently we submitted a paper and posted a preprint on the <a href="https://arxiv.org/abs/2109.08244" target="_blank"><b>openVA Toolit</b></a>. This is a suite of open source software that can be used to apply a variety of algorithms to verbal autopsy data. Additional software that works with openVA - e.g. the <em> openVA Pipeline</em> that fully automates cause-coding in CRVS settings - and links to the GitHub repositories where software is maintained are available at <a href="http://openva.net" target="_blank"><b>openva.net</b></a>.
+</p>
 
 
 
