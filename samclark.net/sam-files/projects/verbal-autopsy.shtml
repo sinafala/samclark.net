@@ -87,7 +87,7 @@ Verbal Autopsy - openVA
 </p>
 
 <ul>
-  <li><a href="http://openva.net" target="_blank">Main openVA site</a></li>
+  <li><a href="http://openva.net" target="_blank">Main openVA site</a> and <a href="https://arxiv.org/abs/2109.08244" target="_blank">openVA paper</a></li>
   <li><a href="https://cran.r-project.org/package=openVA" target="_blank">R Package</a></li>
   <li><a href="https://github.com/verbal-autopsy-software/openVA_App/releases" target="_blank">openVA App</a></li>
   <li><a href="https://youtu.be/C2EPOpTzJTk" target="_blank">Video for installation of openVA App</a></li>
