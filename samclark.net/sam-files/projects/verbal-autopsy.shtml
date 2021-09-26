@@ -15,7 +15,7 @@
 
 
 <div class="sam-name-title">
-Samuel Clark 
+Samuel Clark
 </div>
 <br>
 <div class="sam-multiline-title">
@@ -80,10 +80,10 @@ Verbal Autopsy - openVA
   <li><a href="http://www.samclark.net/pdfs/clark-2020_kunihama-et-al-bayesian-factor-models-for-probabilistic-cause-of-death-assessment-with-verbal-autopsies.zip">Bayesian Factor Models for Probabilistic Cause of Death Assessment with Verbal Autopsies</a></li>  
 </ul> 
 
-<h4>Software</h4>
+<h4 id="openva_team">Software and the openVA Team</h4>
 
 <p>
-  Software has been developed to implement InSilicoVA including R packages and universal executables delivered in a Docker container.  This is <a href="http://openva.net" target="_blank">openVA</a> and has been developed by a team including <a href="https://zehangli.com" target="_blank">Richard Li</a>, <a href="https://ipr.osu.edu/people/thomas.3912" target="_blank">Jason Thomas</a>, <a href="https://www.eungangchoi.com" target="_blank">Peter Choi</a>, <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, and myself, with increasing help from <a href="https://ipr.osu.edu/people/chu.282" target="_blank">Yue Chu</a>.
+  Software has been developed to implement InSilicoVA and all of the other commonly-used computer algorithms for cause-coding VA data, including R packages and universal executables delivered in a Docker container. This is <a href="http://openva.net" target="_blank">openVA</a> and has been developed by the <b>openVA Team</b> consisting of <a href="https://zehangli.com" target="_blank">Richard Li</a>, <a href="https://ipr.osu.edu/people/thomas.3912" target="_blank">Jason Thomas</a>, <a href="https://www.eungangchoi.com" target="_blank">Peter Choi</a>, <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, and myself, with increasing help from <a href="https://ipr.osu.edu/people/chu.282" target="_blank">Yue Chu</a>.
 </p>
 
 <ul>
