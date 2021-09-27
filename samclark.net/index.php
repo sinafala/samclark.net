@@ -22,7 +22,7 @@ Samuel Clark - Demographer
 <br>
 
 <div>
-<img src="./sam-files/sam.jpeg" alt="Sam">
+<a href="mailto:sam@samclark.net"><img title="Sam Clark" src="./sam-files/sam.jpeg"></a>
 </div>
 
 <br>
