@@ -38,6 +38,14 @@ div.sam-center-block {
   line-height:15px;
 }
 
+div.sam-image-title {
+  width:350px; 
+  margin:0 auto; 
+  font:13px Helvetica;
+  text-align:center;
+  line-height:20px;
+}
+
 div.sam-links-list {
   width:250px;
   margin:0 auto; 

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<!--#include virtual="./includes/header.html" -->
+<title>Samuel Clark - Mountain Bike</title>
+</head>
+
+<body>
+
+<br>
+
+<div class="sam-title">
+Samuel Clark - Mountain Bike
+</div>
+
+<br>
+
+<!--#include virtual="./includes/bio-links.html" -->
+
+<br>
+
+<div class="sam-center-block">
+
+<p>
+  I have ridden mountain bikes for many years. Here are a few clickable pictures from 2021 and a screenshot of my <a href="https://www.strava.com/athletes/sinafala" target="_blank">Strava</a> heatmap. I'm not in any of these pictures, but my son is in a few.
+</p> 
+
+</div>
+
+<br>
+
+<div class="sam-image-title">
+
+<!-- 1 -->
+Devil's Den State Park, Arkansas
+<a href="./photos/fullsize/west-coast-mtb-2021-1.jpg" target="_blank">
+         <img title="Devil's Den, Arkansas" src="./photos/thumbs/west-coast-mtb-2021-1.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 2 -->
+Mt. St. Helens, Washington
+<a href="./photos/fullsize/west-coast-mtb-2021-2.jpg" target="_blank">
+         <img title="Mt. St. Helens, Washington" src="./photos/thumbs/west-coast-mtb-2021-2.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 3 -->
+Mt. St. Helens, Washington
+<a href="./photos/fullsize/west-coast-mtb-2021-3.jpg" target="_blank">
+         <img title="Mt. St. Helens, Washington" src="./photos/thumbs/west-coast-mtb-2021-3.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 4 -->
+McKenzie River, Oregon
+<a href="./photos/fullsize/west-coast-mtb-2021-4.jpg" target="_blank">
+         <img title="McKenzie River, Oregon" src="./photos/thumbs/west-coast-mtb-2021-4.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 5 -->
+White River, Washington
+<a href="./photos/fullsize/west-coast-mtb-2021-5.jpg" target="_blank">
+         <img title="White River, Washington" src="./photos/thumbs/west-coast-mtb-2021-5.jpg"
+         width=262" height="350"></a>
+<br>
+
+<!-- 6 -->
+Lander, Wyoming
+<a href="./photos/fullsize/west-coast-mtb-2021-6.jpg" target="_blank">
+         <img title="Lander, Wyoming" src="./photos/thumbs/west-coast-mtb-2021-6.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 7 -->
+White River, Washington
+<a href="./photos/fullsize/west-coast-mtb-2021-7.jpg" target="_blank">
+         <img title="White River, Washington" src="./photos/thumbs/west-coast-mtb-2021-7.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 8 -->
+Mt. St. Helens, Washington
+<a href="./photos/fullsize/west-coast-mtb-2021-8.jpg" target="_blank">
+         <img title="Mt. St. Helens, Washington" src="./photos/thumbs/west-coast-mtb-2021-8.jpg"
+         width=262" height="350"></a>
+<br>
+
+<!-- 9 -->
+White River, Washington
+<a href="./photos/fullsize/west-coast-mtb-2021-9.jpg" target="_blank">
+         <img title="White River, Washington" src="./photos/thumbs/west-coast-mtb-2021-9.jpg"
+         width=262" height="350"></a>
+<br>
+
+<!-- 10 -->
+Moab, Utah
+<a href="./photos/fullsize/west-coast-mtb-2021-10.jpg" target="_blank">
+         <img title="Moab, Utah" src="./photos/thumbs/west-coast-mtb-2021-10.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 11 -->
+Mt. St. Helens, Washington
+<a href="./photos/fullsize/west-coast-mtb-2021-11.jpg" target="_blank">
+         <img title="Mt. St. Helens, Washington" src="./photos/thumbs/west-coast-mtb-2021-11.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 12 -->
+Mt. St. Helens, Washington
+<a href="./photos/fullsize/west-coast-mtb-2021-12.jpg" target="_blank">
+         <img title="Mt. St. Helens, Washington" src="./photos/thumbs/west-coast-mtb-2021-12.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 13 -->
+Mt. St. Helens, Washington
+<a href="./photos/fullsize/west-coast-mtb-2021-13.jpg" target="_blank">
+         <img title="Mt. St. Helens, Washington" src="./photos/thumbs/west-coast-mtb-2021-13.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 14 -->
+Durango, Colorado
+<a href="./photos/fullsize/west-coast-mtb-2021-14.jpg" target="_blank">
+         <img title="Durango, Colorado" src="./photos/thumbs/west-coast-mtb-2021-14.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 15 -->
+Servicing - Moab, Utah
+<a href="./photos/fullsize/west-coast-mtb-2021-15.jpg" target="_blank">
+         <img title="Servicing - Moab, Utah" src="./photos/thumbs/west-coast-mtb-2021-15.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 16 -->
+Moab, Utah
+<a href="./photos/fullsize/west-coast-mtb-2021-16.jpg" target="_blank">
+         <img title="Moab, Utah" src="./photos/thumbs/west-coast-mtb-2021-16.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 17 -->
+Moab, Utah
+<a href="./photos/fullsize/west-coast-mtb-2021-17.jpg" target="_blank">
+         <img title="Moab, Utah" src="./photos/thumbs/west-coast-mtb-2021-17.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 18 -->
+Moab, Utah
+<a href="./photos/fullsize/west-coast-mtb-2021-18.jpg" target="_blank">
+         <img title="Moab, Utah" src="./photos/thumbs/west-coast-mtb-2021-18.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 19 -->
+Moab, Utah
+<a href="./photos/fullsize/west-coast-mtb-2021-19.jpg" target="_blank">
+         <img title="Moab, Utah" src="./photos/thumbs/west-coast-mtb-2021-19.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 20 -->
+The Bike!
+<a href="./photos/fullsize/west-coast-mtb-2021-20.jpg" target="_blank">
+         <img title="The Bike!" src="./photos/thumbs/west-coast-mtb-2021-20.jpg"
+         width=350" height="262"></a>
+<br>
+
+<!-- 20 -->
+Strava Heatmap
+<a href="./photos/fullsize/strava-global-heatmap-sam-2021-09.jpg" target="_blank">
+         <img title="Strava Heatmap" src="./photos/thumbs/strava-global-heatmap-sam-2021-09.jpg"
+         width=350" height="169"></a>
+<br>
+
+</div>
+
+<br>
+
+<!--#include virtual="./includes/bio-links.html" -->
+
+<br>
+
+<div class="sam-note">
+<!-- UPDATE THIS -->
+Updated 2021-09-27
+<!-- UPDATE THIS -->
+<br>
+
+<br>
+
+</body>
+
+</html>
