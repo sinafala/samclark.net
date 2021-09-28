@@ -26,11 +26,14 @@ Samuel Clark - Mountain Bike
 
 <p>
   I have ridden mountain bikes for many years. During summer 2021, my son and I went on a trip to beautiful mountain bike trails in the USA: 
-  <ul>
+</p>
+
+<p>
+  <ul class="sam">
     <li>7,100 miles driven</li>
     <li>States visited: OH, IN, IL, MO, AR, OK, TX, NM, CO, UT, ID, OR, WA, MT, WY, NE</li>
     <li>Rides: 11</li>
-    <ol>
+    <ol class="sam">
       <li>Devil's Den State Park, AR</li>
       <li>Twin Buttes, Durango CO</li>
       <li>Klondike Bluffs, Moab UT</li>
@@ -45,6 +48,9 @@ Samuel Clark - Mountain Bike
     </ol>
     <li>Cummulative: 120.4 miles, 12,488' elevation</li>
   </ul>
+</p>
+
+<p>
   From that trip, here is a video and a few clickable pictures. I'm not in any of these, but my son is. 
 </p> 
 
