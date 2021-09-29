@@ -44,6 +44,7 @@ div.sam-image-title {
   font:13px Helvetica;
   text-align:center;
   line-height:20px;
+  font-weight: bold;
 }
 
 div.sam-links-list {
