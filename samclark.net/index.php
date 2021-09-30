@@ -30,7 +30,7 @@ Samuel Clark - Demographer
 <div class="sam-center-block">
 
 <p>
-  I am a demographer, epidemiologist, and aspiring statistician who develops new methods and investigates population dynamics and epidemiology, primarily in low- and middle-income countries, with a focus in Africa. 
+  I am a demographer, epidemiologist, and data scientist who develops new methods and investigates population dynamics and epidemiology, primarily in low- and middle-income countries, with a focus in Africa. 
 </p>
 
 <p>
@@ -75,7 +75,7 @@ Page loads since 2020-05-06:
 
 <div class="sam-note">
 <!-- UPDATE THIS -->
-Updated 2021-09-29
+Updated 2021-09-30
 <!-- UPDATE THIS -->
 </div>
 
