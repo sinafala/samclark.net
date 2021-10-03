@@ -30,13 +30,13 @@ Interviewer Effects
 
 <div class="sam-center-block">
 
-<h4>Background</h4>
+<h1>Background</h1>
 
 <p>
   I have been involved in a lot of direct demographic and health data collection, mostly in Africa and mostly using demographic surveillance and survey methods. All of this involves an interviewer conducting a face-to-face interview with a respondent. My colleagues and I have wondered - and occasionally worried - about the effects that interviewers may have on the responses. For example, when asking questions about taboo topics, do older compared to younger interviewers get different responses from an older respondent, or when talking about sexual behavior, do interviewers of each sex get different responses. You can think of many possible combinations of interviewers and respondents with particular characteristics that might affect the interaction and the responses based on the particular social context in which the interview takes place. 
 </p>
 
-<h4>Interviewer Effects Studies</h4>
+<h1>Interviewer Effects Studies</h1>
 
 <p>
   To test some of these ideas, a group of us who have worked with the Agincourt health and demographic surveillance system (HDSS) site in South Africa decided to conduct two studies, below. Our colleague <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian Houle</a> in the School of Demography at the Australian National University played a lead role in conducting this work.
@@ -52,13 +52,13 @@ Interviewer Effects
   Both studies identified important and consequential effects of interviewer characteristics, so much so that the outcomes of some questions share a robust relationship with the interviewer characteristics.
 </p>
 
-<h4>Recommendation</h4>
+<h1>Recommendation</h1>
 
 <p>
   In order to better understand these effects and perhaps control for them or otherwise take them into account in models that use the affected data, we recommend that interview-based data collection systems collect basic demographic and perhaps other information about the interviewers and link that information (anonymized) to the data collected by each interviewer. This would enable a wide range of analytical approaches to address interviewer effects.
 </p>
 
-<h4>Additional Use for Interviewer Paradata</h4>
+<h1>Additional Use for Interviewer Paradata</h1>
 
 <p>
   Earlier, Brian and I did used interviewer characteristics to confirm that Heckman selection models can be used to adjust survey-based estimates of HIV prevalence. Interviewer characteristics serve well as the 'instrument' in those methods, see:

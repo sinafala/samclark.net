@@ -30,7 +30,7 @@ Verbal Autopsy - openVA
 
 <div class="sam-center-block">
 
-<h4>Background</h4>
+<h1>Background</h1>
 
 <p>
   Verbal autopsy (VA) is an old and well established approach to ascertain cause of death when it is not feasible or practical to conduct medical certification and full autopsies. After a death is identified, a specially-trained fieldworker interviews the caregivers (usually family members) of the decedent. A typical VA interview includes a set of structured questions with categorical/quantitative responses and a narrative section that records the ‘story’ of the death from the respondent’s point of view. The resulting data are interpreted by various means to assign causes to the death.
@@ -69,7 +69,7 @@ Verbal Autopsy - openVA
   The team responsible for developing InSilicoVA includes <a href="https://zehangli.com" target="_blank">Richard Li</a>, <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, and <a href="https://samclark.net" target="_blank">myself</a>.
 </p>
 
-<h4>Key papers</h4>
+<h1>Key papers</h1>
 
 <ul>
   <li><a href="http://www.samclark.net/pdfs/clark-2016_mccormick-et-al-insilicova.zip">Probabilistic Cause-of-Death Assignment using Verbal Autopsies</a></li>
@@ -81,7 +81,7 @@ Verbal Autopsy - openVA
   <li><a href="http://www.samclark.net/pdfs/clark-2020_kunihama-et-al-bayesian-factor-models-for-probabilistic-cause-of-death-assessment-with-verbal-autopsies.zip">Bayesian Factor Models for Probabilistic Cause of Death Assessment with Verbal Autopsies</a></li>  
 </ul> 
 
-<h4 id="openva_team">Software and the openVA Team</h4>
+<h1 id="openva_team">Software and the openVA Team</h1>
 
 <p>
   Software has been developed to implement InSilicoVA and all of the other commonly-used computer algorithms for cause-coding VA data, including R packages and universal executables delivered in a Docker container. This is <a href="http://openva.net" target="_blank">openVA</a> and has been developed by the <b>openVA Team</b> consisting of <a href="https://zehangli.com" target="_blank">Richard Li</a>, <a href="https://ipr.osu.edu/people/thomas.3912" target="_blank">Jason Thomas</a>, <a href="https://www.eungangchoi.com" target="_blank">Peter Choi</a>, <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, and myself, with increasing help from <a href="https://ipr.osu.edu/people/chu.282" target="_blank">Yue Chu</a>.
@@ -95,7 +95,7 @@ Verbal Autopsy - openVA
   <li><a href="https://youtu.be/K1wkSbTwxkg" target="_blank">Video for example analysis using openVA App</a></li>
 </ul>
 
-<h4>Additional papers</h4>
+<h1>Additional papers</h1>
 
 <ul>
   <li><a href="http://www.samclark.net/pdfs/clark-2006_adjuik-et-al-indepth-cause-specific-mortality.pdf" target="_blank">Cause-specific mortality rates in sub-Saharan Africa and Bangladesh</a></li>

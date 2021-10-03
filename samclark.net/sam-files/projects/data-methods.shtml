@@ -30,7 +30,7 @@ Data Methods
 
 <div class="sam-center-block">
 
-<h4>Background</h4>
+<h1>Background</h1>
 
 <p>
   Early in my career I worked intensively with health and demographic surveillance system (HDSS) sites in Africa - particularly the <a href="https://www.agincourt.co.za" target="_blank">Agincourt</a> HDSS in South Africa, and often with Kobus Herbst who has been part of the senior leadership of the Africa Centre/Africa Health Research Institute <a href="https://www.ahri.org" target="_blank">(AHRI)</a> since its inception. At that time a group of us were keenly interested in improving the ability of HDSS sites to collect, check, manage, and analyze their data more efficiently and accurately.
@@ -60,13 +60,13 @@ Data Methods
   <li>do tempo-spatial arithmetic to figure out when and for how long things were true at given locations.</li>
 </ul>
 
-<h4>The Structured Population Event History Register</h4>
+<h1>The Structured Population Event History Register</h1>
 
 <p>
   Since at least the early 1990s, a small group - <a href="https://usm.maine.edu/cos/bruce-macleod" target="_blank">Bruce MacLeod</a>, <a href="https://www.researchgate.net/profile/Justus_Benzler" target="_blank">Justus Benzler</a>, <a href="https://www.ahri.org/scientist/kobus-herbst/" target="_blank">Kobus Herbst</a>, and me - has been interested in designing data models, more specifically relational database schemas, to make storage, management, and analysis of HDSS as accurate and easy as possible. In the context of this effort, I designed the Structured Population Event History Register (SPEHR). SPEHR is a very flexible, metadata-driven relational database schema for HDSS. 
 </p>
 
-<h4>Unified Timestamp Timestamp with Explicit Precision</h4>
+<h1>Unified Timestamp Timestamp with Explicit Precision</h1>
 
 <p>
   At around the same time Justus Benzler and I thought deeply about how to define a unified timestamp object that could handle all of the time-valued entities we encountered in HDSS, and also accurately represent the precision of measures associated with each of them.

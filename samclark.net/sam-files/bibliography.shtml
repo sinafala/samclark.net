@@ -37,13 +37,10 @@ Samuel Clark's Bibliography
 
 
 
-<div class="sam-centered-block">
-<p><b>Published Articles</b></p>
-</div>
-
-
-
 <div class="sam-center-block">
+
+<h1>Published Articles</h1>
+
 
 <!-- <hr> -->
 
@@ -1009,12 +1006,13 @@ CLARK, S.&nbsp;J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
   <a href="#published-articles">Published Articles</a>
 </p>
 <hr id="working-papers" style="width:350px;text-align:center;">
-<p><b>Working Papers</b></p>
 </div>
 
 
 
 <div class="sam-center-block">
+
+<h1>Working Papers</h1>
 
 <p><a id="Clark2021arXivHDSS"></a>
 

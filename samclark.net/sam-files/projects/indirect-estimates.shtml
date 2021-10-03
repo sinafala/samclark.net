@@ -30,7 +30,7 @@ Indirect Estimation Methods
 
 <div class="sam-center-block">
 
-<h4>Background</h4>
+<h1>Background</h1>
 
 <p>
   Understanding variation in mortality through time and across space is critical to quantifying and monitoring population health. In settings where ongoing, routine systems to monitor mortality - e.g. vital statistics - do not exist or function poorly, there are very few options available to obtain measures of mortality that cover both time and space, particularly space. In large part due to the innovative work of William Brass - and many after him - formal demography has a suite of 'indirect estimation' methods designed to obtain reasonable estimates of key mortality indicators from very few data that can occasionally be elicited from enough people to form a comprehensive picture of mortality throughout a given place, e.g. a country. 
@@ -54,7 +54,7 @@ Indirect Estimation Methods
   Traditional approaches to indirect estimation methods are deterministic in the sense that they produce specific numbers without a sense of how certain the method is that those are the the numbers most consistent with the data. Situations in which indirect estimation is necessary are inherently low-information, and the methods themselves require a set of assumptions and some additional information, and as a result, there are many ways in which a slightly different estimate could be obtained &rarr; there must be some degree of uncertainty in the estimates.
 </p>
 
-<h4>Project</h4>
+<h1>Project</h1>
 
 <p>
   OSU Sociology graduate student <a href="https://ipr.osu.edu/people/chu.282" target="_blank">Yue Chu</a> and I are exploring alternative approaches to the traditional Brass method to estimate child mortality from the three questions listed above. Yue has complete a master's degree based on this work, and we will present some preliminary results at the Population Association of America (PAA) meeting in 2021. 

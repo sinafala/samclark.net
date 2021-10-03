@@ -34,7 +34,7 @@ Various Methods
   With a wide range of colleagues in epidemiology, statistics, and demography, I have worked on improving measurement, estimation, forecasting, and other aspects of methods used by populations scientists. 
 </p>
 
-<h4>Component-based mortality models</h4> 
+<h1>Component-based mortality models</h1> 
 
 <p>
   Beginning with my PhD, I have been interested in using dimension reduction methods to develop parsimonious, empirical models for age-specific schedules of demographic quantities, e.g. mortality or fertility rates/probabilities. This work has gone through several iterations culminating current work with colleagues at the United Nations Population Division to develop a widely-useful, single-year in age model of age-specific mortality.
@@ -50,7 +50,7 @@ Various Methods
   <li><a href="http://www.samclark.net/pdfs/clark-2019_clark-a-general-age-specific-mortality-model-with-an-example-indexed-by-child-mortality-or-both-child-and-adult-mortality.zip" target="_blank">A General Age-Specific Mortality Model With an Example Indexed by Child Mortality or Both Child and Adult Mortality</a></li>
 </ul> 
 
-<h4>Various probabilisitic methods for population estimation and forecasting</h4> 
+<h1>Various probabilisitic methods for population estimation and forecasting</h1> 
 
 <p>
   While at the University of Washington, I collaborated on a number of projects with <a href="https://sites.stat.washington.edu/raftery/" target="_blank">Adrian Raftery</a> and a variety of graduate students in sociology and statistics. Most of these were aimed at improving the United Nations Population Division's ability to conduct estimates of forecasts of the population of all countries of the world as part of their biannual World Population Prospects publication.
@@ -78,7 +78,7 @@ Various Methods
   <li><a href="http://www.samclark.net/pdfs/clark-2018_sharrow-et-al-probabilistic-population-projections-for-countries-with-generalized-HIV-AIDS-epidemics.pdf" target="_blank">Probabilistic population projections for countries with generalized HIV/AIDS epidemics</a></li>
 </ul> 
 
-<h4>Miscellaneous Methods</h4> 
+<h1>Miscellaneous Methods</h1> 
 
 <p>
   As even a cursory reading of this website reveals, thinking about methods and tools is fun for me. At various times, I've gotten interested in and spent too much time on eclectic things; some examples below.
@@ -98,7 +98,7 @@ Various Methods
   <li><a href="http://www.samclark.net/pdfs/clark-2016_reniers-et-al-alpha-network-data-profile.pdf" target="_blank">Data Resource Profile: Network for Analysing Longitudinal Population-based HIV/AIDS data on Africa (ALPHA Network)</a></li>
 </ul> 
 
-<a id="hyak"><h4>Hyak</h4></a> 
+<a id="hyak"><h1>Hyak</h1></a> 
 
 <p>
   There is a single paper that describes an idea I had a long time ago while working with the health and demographic surveillance system (HDSS) sites in South Africa. Colleagues <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a> and <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, along with graduate student Michelle Ross, helped convert my vague idea into a realistic approach to combining HDSS and survey research approaches to create a hyper efficient population measurement tool - called '<i>Hyak</i>'. I still really like this general idea, and I think there's huge potential to increase temporal/spatial coverage and accuracy without dramatically increasing resources required. I want to get back to this ASAP.
