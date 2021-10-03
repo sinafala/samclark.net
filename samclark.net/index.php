@@ -75,7 +75,7 @@ Page loads since 2020-05-06:
 
 <div class="sam-note">
 <!-- UPDATE THIS -->
-Updated 2021-09-30
+Updated 2021-10-03
 <!-- UPDATE THIS -->
 </div>
 

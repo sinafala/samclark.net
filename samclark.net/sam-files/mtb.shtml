@@ -89,7 +89,7 @@ Lander, Wyoming
 <br> -->
 
 <!-- 8 -->
-Mt. St. Helens, Washington
+Ape Canyon, Mt. St. Helens, Washington
 <a href="./photos/fullsize/west-coast-mtb-2021-8.jpg" target="_blank">
          <img title="Mt. St. Helens, Washington" src="./photos/thumbs/west-coast-mtb-2021-8.jpg"
          width="262" height="350"></a>
@@ -103,7 +103,7 @@ White River, Washington
 <br>
 
 <!-- 10 -->
-Moab, Utah
+Klondike Bluffs, Moab, Utah
 <a href="./photos/fullsize/west-coast-mtb-2021-10.jpg" target="_blank">
          <img title="Moab, Utah" src="./photos/thumbs/west-coast-mtb-2021-10.jpg"
          width="350" height="262"></a>
@@ -152,14 +152,14 @@ Durango, Colorado
 <br> -->
 
 <!-- 17 -->
-Moab, Utah
+Navajo Rocks, Moab, Utah
 <a href="./photos/fullsize/west-coast-mtb-2021-17.jpg" target="_blank">
          <img title="Moab, Utah" src="./photos/thumbs/west-coast-mtb-2021-17.jpg"
          width="350" height="262"></a>
 <br>
 
 <!-- 18 -->
-Moab, Utah
+Navajo Roacks, Moab, Utah
 <a href="./photos/fullsize/west-coast-mtb-2021-18.jpg" target="_blank">
          <img title="Moab, Utah" src="./photos/thumbs/west-coast-mtb-2021-18.jpg"
          width="350" height="262"></a>
@@ -188,7 +188,7 @@ The Bike!
 <ul class="sam">
   <li>7,100 miles driven</li>
   <li>States visited:</li>
-  <li><ul class="sam">
+    <ul class="sam">
     <li>Ohio</li>
     <li>Indiana</li>
     <li>Illinois</li>
@@ -208,7 +208,7 @@ The Bike!
     <li>Iowa</li>
   </ul></li>
   <li>Rides: 11</li>
-  <li><ol class="sam">
+    <ol class="sam">
     <li>Devil's Den State Park, AR</li>
     <li>Twin Buttes, Durango CO</li>
     <li>Klondike Bluffs, Moab UT</li>
@@ -222,7 +222,7 @@ The Bike!
     <li>Local trails, Lander WY</li>
   </ol></li>
   <li>Cummulative:</li>
-   <li><ul class="sam">
+    <ul class="sam">
     <li>120.4 miles (194 km) ridden</li>
     <li>12,488 feet (3,806 m) elevation gain</li>
   </ul></li>

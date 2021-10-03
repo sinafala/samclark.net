@@ -21,15 +21,27 @@ Samuel Clark's Bibliography
 
 <br>
 
-<hr style="width:350px;text-align:center;">
+
 
 <div class="sam-centered-block">
+<hr style="width:350px;text-align:center;">
 <p>
   <a href="./projects/software.shtml" target="_parent">Open-source Software Produced</a>
 </p>
+<hr style="width:350px;text-align:center;">
+<p>
+  <a href="#working-papers">Working Papers</a>
+</p>
+<hr id="published-articles" style="width:350px;text-align:center;">
 </div>
 
-<hr style="width:350px;text-align:center;">
+
+
+<div class="sam-centered-block">
+<p><b>Published Articles</b></p>
+</div>
+
+
 
 <div class="sam-center-block">
 
@@ -985,6 +997,442 @@ CLARK, S.&nbsp;J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
 </div>
 
 
+
+<div class="sam-center-block">
+<hr style="width:350px;text-align:center;">
+</div>
+
+
+
+<div class="sam-centered-block">
+<p>
+  <a href="#published-articles">Published Articles</a>
+</p>
+<hr id="working-papers" style="width:350px;text-align:center;">
+<p><b>Working Papers</b></p>
+</div>
+
+
+
+<div class="sam-center-block">
+
+<p><a id="Clark2021arXivHDSS"></a>
+
+CLARK, S.&nbsp;J. (2021).
+ Health and demographic surveillance systems and the 2030 agenda:
+  Sustainable development goals.
+ <em>arXiv Preprint</em>&nbsp;<em>arXiv:2103.03910</em>.
+[&nbsp;<a href="https://arxiv.org/abs/2103.03910.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="Li2021arXivopenVA"></a>
+
+Li, Z.&nbsp;R., J.&nbsp;Thomas, E.&nbsp;Choi, T.&nbsp;H. McCormick, and S.&nbsp;J. CLARK (2021).
+ The openva toolkit for verbal autopsies.
+ <em>arXiv Preprint</em>&nbsp;<em>arXiv:2109.08244</em>.
+[&nbsp;<a href="https://arxiv.org/abs/2109.08244.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="kline2020estimating"></a>
+
+Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, and S.&nbsp;J. CLARK (2020).
+ Estimating Seroprevalence of SARS-CoV-2 Coronavirus in Ohio: A
+  Bayesian Multilevel Regression and Poststratification Approach with Multiple
+  Imperfect Diagnostic Tests.
+ <em>arXiv Preprint</em>&nbsp;<em>arXiv:2011.09033v2</em>.
+[&nbsp;<a href="https://arxiv.org/abs/2011.09033v2" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="li2020space"></a>
+
+Li, Z.&nbsp;R., B.&nbsp;D. Martin, T.&nbsp;Q. Dong, G.-A. Fuglstad, J.&nbsp;Paige, A.&nbsp;Riebler,
+  S.&nbsp;Clark, and J.&nbsp;Wakefield (2020).
+ Space-Time Smoothing of Demographic and Health Indicators using the
+  R Package SUMMER.
+ <em>arXiv Preprint</em>&nbsp;(arXiv:2007.05117).
+[&nbsp;<a href="https://arxiv.org/abs/2007.05117" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="clarkSCIArchive2020"></a>
+
+CLARK, S.&nbsp;J., M.&nbsp;Bratschi, P.&nbsp;Setel, C.&nbsp;Abouzahr, D.&nbsp;d. Savigny, Z.&nbsp;R. Li,
+  T.&nbsp;H. McCormick, P.&nbsp;Byass, and D.&nbsp;Chandramohan (2019).
+ Verbal Autopsy in Civil Registration and Vital Statistics: The
+  Symptom-Cause Information Archive.
+ <em>arXiv Preprint</em>&nbsp;<em>arXiv:1910.00405v2</em>.
+[&nbsp;<a href="https://arxiv.org/abs/1910.00405v2" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="li2018bayesianStripped"></a>
+
+Li, Z.&nbsp;R., T.&nbsp;H. McCormick, and S.&nbsp;J. CLARK (2019).
+ Bayesian Joint Spike-and-Slab Graphical Lasso.
+ <em>arXiv Preprint</em>&nbsp;(arXiv:1805.07051).
+[&nbsp;<a href="https://arxiv.org/abs/1805.07051" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="li2017mixStripped"></a>
+
+Li, Z.&nbsp;R., T.&nbsp;H. McCormick, T.&nbsp;Kunihama, and S.&nbsp;J. CLARK (2019).
+ Using Bayesian Latent Gaussian Graphical Models to Infer Symptom
+  Associations in Verbal Autopsies.
+ <em>arXiv Preprint</em>&nbsp;(arXiv:1711.00877).
+[&nbsp;<a href="https://arxiv.org/abs/1711.00877" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="clarkComparingAlgorithms2018"></a>
+
+CLARK, S.&nbsp;J. (2018).
+ A Guide to Comparing the Performance of VA Algorithms.
+ <em>arXiv Preprint</em>&nbsp;(arXiv:1802.07807).
+[&nbsp;<a href="https://arxiv.org/abs/1802.07807" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="clarkQuantifyingSCI2018"></a>
+
+CLARK, S.&nbsp;J., Z.&nbsp;R. Li, and T.&nbsp;H. McCormick (2018).
+ Quantifying the Contributions of Training Data and Algorithm Logic
+  to the Performance of Automated Cause-Assignment Algorithms for Verbal
+  Autopsy.
+ <em>arXiv Preprint</em>&nbsp;(arXiv:1803.07141v2).
+[&nbsp;<a href="https://arxiv.org/abs/1803.07141" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="kunihamaFactorVA2018"></a>
+
+Kunihama, T., Z.&nbsp;R. Li, S.&nbsp;J. CLARK, and T.&nbsp;H. McCormick (2018).
+ Bayesian factor models for probabilistic cause of death assessment
+  with verbal autopsies.
+ <em>arXiv Preprint</em>&nbsp;(arXiv:1803.01327).
+[&nbsp;<a href="https://arxiv.org/abs/1803.01327" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="liLatentGaussianVaArXiv2018"></a>
+
+Li, Z.&nbsp;R., T.&nbsp;H. McCormick, T.&nbsp;Kunihama, and S.&nbsp;J. CLARK (2018).
+ Using Bayesian Latent Gaussian Graphical Models to Infer Symptom
+  Associations in Verbal Autopsies.
+ <em>arXiv Preprint</em>&nbsp;(arXiv:1711.00877).
+[&nbsp;<a href="https://arxiv.org/abs/1711.00877" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="wakefieldArXiv2018"></a>
+
+Wakefield, J., G.-A. Fuglstad, A.&nbsp;Riebler, J.&nbsp;Godwin, K.&nbsp;Wilson, and S.&nbsp;J.
+  CLARK (2018).
+ Estimating Under-Five Mortality in Space and Time in a Developing
+  World Context.
+ <em>arXiv Preprint</em>&nbsp;(arXiv:1711.00800).
+[&nbsp;<a href="https://arxiv.org/abs/1711.00800" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="clark5q0MLT2016"></a>
+
+CLARK, S.&nbsp;J. (2016).
+ A General Age-Specific Mortality Model with An Example Indexed by
+  Child or Child/Adult Mortality.
+ <em>arXiv Preprint</em>&nbsp;(arXiv:1612.01408v1).
+[&nbsp;<a href="https://arxiv.org/abs/1612.01408" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="sharrowHivPppWp2016"></a>
+
+Sharrow, D.&nbsp;J., J.&nbsp;Godwin, Y.&nbsp;He, S.&nbsp;J. CLARK, and A.&nbsp;E. Raftery (2016).
+ Probabilistic population projections for countries with generalized
+  hiv/aids epidemics.
+ <em>arXiv Preprint</em>&nbsp;(arXiv:1609.04383).
+[&nbsp;<a href="https://arxiv.org/abs/1609.04383" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="clarkSVD2015"></a>
+
+CLARK, S.&nbsp;J. (2015).
+ A Singular Value Decomposition-based Factorization and Parsimonious
+  Component Model of Demographic Quantities Correlated by Age: Predicting
+  Complete Demographic Age Schedules with Few Parameters.
+ <em>arXiv Preprint</em>&nbsp;(arXiv:1504.02057v1).
+[&nbsp;<a href="https://arxiv.org/abs/1504.02057" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="mccormick2014probabilistic"></a>
+
+McCormick, T.&nbsp;H., Z.&nbsp;R. Li, C.&nbsp;Calvert, A.&nbsp;C. Crampin, K.&nbsp;Kahn, and S.&nbsp;J. CLARK
+  (2015).
+ Probabilistic cause-of-death assignment using verbal autopsies.
+ <em>arXiv Preprint</em>&nbsp;(arXiv:1411.3042).
+[&nbsp;<a href="https://arxiv.org/abs/1411.3042" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="clark2014SVD"></a>
+
+CLARK, S.&nbsp;J. (2014).
+ A singular value decomposition-based factorization and parsimonious
+  component model of demographic quantities correlated by age: Predicting
+  complete demographic age schedules with few parameters.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(143).
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2014/wp143.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="liEtAl2014"></a>
+
+Li, Z., T.&nbsp;McCormick, and S.&nbsp;J. CLARK (2014).
+ Interva4: An r package to analyze verbal autopsy data.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(146).
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2014/wp146.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="mccormickEtAl2014"></a>
+
+McCormick, T., Z.&nbsp;Li, C.&nbsp;Calvert, A.&nbsp;Crampin, K.&nbsp;Kahn, and S.&nbsp;J. CLARK (2014).
+ Probabilistic cause-of-death assignment using verbal autopsies.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(147).
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2014/wp147.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="mercerEtAl2014"></a>
+
+Mercer, L., J.&nbsp;Wakefield, A.&nbsp;Pantazis, A.&nbsp;Lutambi, H.&nbsp;Masanja, and S.&nbsp;J. CLARK
+  (2014).
+ Small area estimation of child mortality in the absence of vital
+  registration.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(148).
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2014/wp148.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="clarkEtAl2013InSilicoWP"></a>
+
+CLARK, S.&nbsp;J., T.&nbsp;McCormick, Z.&nbsp;Li, and J.&nbsp;Wakefield (2013).
+ Insilicova: A method to automate cause of death assignment for verbal
+  autopsy.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(133).
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2013/wp133.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="wheldonEtAl2013BayRecon"></a>
+
+Wheldon, M., A.&nbsp;Raftery, S.&nbsp;J. CLARK, and P.&nbsp;Gerland (2013).
+ Bayesian reconstruction of two-sex populations by age: Estimating sex
+  ratios at birth and sex ratios of mortality.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(138).
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2013/wp138.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="clarkHoule2012_1"></a>
+
+CLARK, S.&nbsp;J. and B.&nbsp;Houle (2012a).
+ An application of the biprobit heckman selection model to correct
+  estimates of hiv prevalence from sample surveys.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(119), 32.
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2012/wp119.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="clarkHoule2012"></a>
+
+CLARK, S.&nbsp;J. and B.&nbsp;Houle (2012b).
+ Evaluation of heckman selection model method for corecting estimates
+  of hiv prevalence from sample surveys.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(120), 18.
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2012/wp120.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="clarkEtAl202"></a>
+
+CLARK, S.&nbsp;J., J.&nbsp;Wakefield, T.&nbsp;McCormick, and M.&nbsp;Ross (2012).
+ Hyak mortlity monitoring system: Innovative sampling and
+  estimation methods.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(118), 23.
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2012/wp118.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="mcparlandEtAl2012"></a>
+
+McParland, D., I.&nbsp;Gormley, S.&nbsp;J. CLARK, T.&nbsp;McCormick, C.&nbsp;Kabudula, and
+  M.&nbsp;Collinson (2012).
+ Clustering south african households based on their asset status using
+  latent variable models.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(121), 28.
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2012/wp121.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="wheldonEtAl2012"></a>
+
+Wheldon, M.&nbsp;C., A.&nbsp;E. Raftery, and S.&nbsp;J. CLARK (2012).
+ Bayesian reconstruction of past populations and vital rates by age
+  for developing and developed countries.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(117).
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2012/wp117.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="clarkSharrow2011"></a>
+
+CLARK, S.&nbsp;J. and D.&nbsp;J. Sharrow (2011).
+ Contemporary model life tables for developed countries: An
+  application of model-based clustering.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(107), 38.
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2011/wp107.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="wheldonEtAl2011"></a>
+
+Wheldon, M.&nbsp;C., A.&nbsp;Raftery, S.&nbsp;J. CLARK, and P.&nbsp;Gerland (2011).
+ Estimating demographic parameters with uncertainty from fragmentary
+  data.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(108), 39.
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2011/wp108.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="alkemaEtAl2010"></a>
+
+Alkema, L., A.&nbsp;E. Raftery, P.&nbsp;Gerland, S.&nbsp;J. CLARK, F.&nbsp;Pelletier, and
+  T.&nbsp;Buettner (2010).
+ Probabilistic projections of the total fertility rate for all
+  countries.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(97), 62.
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2010/wp97.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="clarkEtAl2010"></a>
+
+CLARK, S.&nbsp;J., J.&nbsp;Thomas, and L.&nbsp;Bao (2010).
+ Estimates of age-specific reductions in hiv prevalence in uganda:
+  Bayesian melding estimation and probabilistic population forecast with an
+  hiv-enabled cohort component projection model".
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(106), 49.
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2010/wp106.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="sharrowEtAl2010"></a>
+
+Sharrow, D., S.&nbsp;J. CLARK, M.&nbsp;A. Collinson, K.&nbsp;Kahn, and S.&nbsp;M. Tollman (2010).
+ The age-pattern of increases in mortality affected by hiv: Bayesian
+  fit of the heligman-pollard model to data from the agincourt health and
+  demographic surveillance system field site in rural northeast south africa.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(102), 54.
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2010/wp102.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="collinsonEtAl2009DynamicsPovWP"></a>
+
+Collinson, M.&nbsp;A., S.&nbsp;J. CLARK, A.&nbsp;A. Gerritsen, P.&nbsp;Byass, K.&nbsp;Kahn, and S.&nbsp;M.
+  Tollman (2009).
+ The dynamics of poverty and migration in a rural south african
+  community, 2001-2005.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(92), 38.
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2009/wp92.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="alkemaEtAl2008"></a>
+
+Alkema, L., A.&nbsp;E. Raftery, P.&nbsp;Gerland, S.&nbsp;J. CLARK, and F.&nbsp;Pelletier (2008).
+ Estimating the total fertility rate from multiple imperfect data
+  sources and assessing its uncertainty.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(89), 21.
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2008/wp89.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="clarkEtAl2008DemConsWP"></a>
+
+CLARK, S.&nbsp;J., J.&nbsp;Eaton, M.&nbsp;M. Elmquist, N.&nbsp;R. Ottenweiller, and J.&nbsp;K. Snavely
+  (2008).
+ Demographic consequences of hiv epidemics and effects of different
+  male circumcision intervention designs: Suggestive findings from
+  microsimulation.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(85), 49.
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2008/wp85.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="thomasClark2008"></a>
+
+Thomas, J. and S.&nbsp;J. CLARK (2008).
+ More on the cohort-component model of population projection in the
+  context of hiv/aids: A leslie matrix representation and new estimation
+  methods.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(88), 38.
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2008/wp88.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+<p><a id="alkemaEtAl2007"></a>
+
+Alkema, L., A.&nbsp;E. Raftery, and S.&nbsp;J. CLARK (2007).
+ Probabilistic projections of hiv prevalence using bayesian melding.
+ <em>Center for Statistics and the Social Sciences (CSSS) Working
+  Paper Series</em>&nbsp;(69), 19.
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2007/wp69.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+</div>
+
+
+
+<div class="sam-centered-block">
+<hr style="width:350px;text-align:center;">
+<p>
+  <a href="#published-articles">Published Articles</a>
+</p>
+<hr style="width:350px;text-align:center;">
+  <a href="#working-papers">Working Papers</a>
+<hr style="width:350px;text-align:center;">
+</div>
+
+
+
 <!-- %%%% -->
 
 <!-- <hr> -->
@@ -997,7 +1445,7 @@ CLARK, S.&nbsp;J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
 
 <div class="sam-note">
 <!-- UPDATE THIS -->
-Updated 2021-09-16
+Updated 2021-10-03
 <!-- UPDATE THIS -->
 </div>
 
