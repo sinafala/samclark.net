@@ -1,8 +1,8 @@
 /.*
 !/.gitignore
 /samclark.net/sam-files/Sam-Clark-Publications.zip
-/samclark.net/pdfs
-/samclark.net/pdfs/
+/samclark.net/sam-files/pdfs/
+/samclark.net/sam-filespdfs/
 /samclark.net.sublime-project
 /samclark.net.sublime-workspace
 /archive
@@ -11,5 +11,7 @@
 /samclark.net/sam-files/Samuel-Clark_CV.pdf
 /samclark.net/sam-files/sam.jpeg
 /samclark.net/spehr/
+/samclark.net/sam-files/spehr/
 /samclark.net/talks/
+/samclark.net/sam-files/talks/
 /samclark.net/sam-files/photos
