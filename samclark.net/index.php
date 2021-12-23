@@ -70,12 +70,12 @@ Page loads since 2020-05-06:
 </div>
 
 <div class="sam-note">
-  Copyright 1999-2021 by Samuel J. Clark; all rights reserved.
+  Copyright 1999-2022 by Samuel J. Clark; all rights reserved.
 </div>
 
 <div class="sam-note">
 <!-- UPDATE THIS -->
-Updated 2021-10-03
+Updated 2021-11-29
 <!-- UPDATE THIS -->
 </div>
 
