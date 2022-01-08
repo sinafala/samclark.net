@@ -70,7 +70,7 @@ div.sam-note {
 }
 
 div.sam-link {
-  font:12px Helvetica;
+  font:13px Helvetica;
   line-height:14px; 
   text-align:center;
 }
@@ -112,6 +112,13 @@ h2 {
   margin-top:6px;
   margin-bottom:1px;
   font-size:13px; 
+}
+
+h2.bib-year {
+  margin-top:12px;
+  margin-bottom:6px;
+  color:green;
+  scroll-margin-top:10px
 }
 
 p {
