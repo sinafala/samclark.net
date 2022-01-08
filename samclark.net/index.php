@@ -38,7 +38,7 @@ Samuel Clark - Demographer
 </p>
 
 <p>
-  During 2020 I worked on a survey to estimate the prevalence of the coronavirus and an excess deaths study to characterize the total burden of mortality associated with the COVID-19 epidemic. Both projects are in the state of Ohio, USA and were conducted in coordination with the Ohio State Department of Health.
+  During 2020 I worked on a survey to estimate the prevalence of the coronavirus and an excess deaths study to characterize the total burden of mortality associated with the COVID-19 epidemic. Both projects are in the state of Ohio, USA and were conducted by large teams at The Ohio State University in close coordination with the Ohio State Department of Health.
 </p>
 
 <p>
@@ -75,7 +75,7 @@ Page loads since 2020-05-06:
 
 <div class="sam-note">
 <!-- UPDATE THIS -->
-Updated 2021-11-29
+Updated 2021-12-28
 <!-- UPDATE THIS -->
 </div>
 

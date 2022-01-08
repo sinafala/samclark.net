@@ -27,6 +27,24 @@ Samuel Clark - News
 
 
 <!-- %%%%%%%%%%%% -->
+<h1 class="sam-date">2021-12-28</h1>
+<!-- %%%%%%%%%%%% -->
+<p>
+  Published in <em>Annals of Epidemiology</em>: 
+</p><p>
+  Norris Turner, A.,&nbsp;D. Kline,&nbsp;A. Norris, &nbsp;W.G. Phillips,&nbsp;E. Root,&nbsp;J. Wakefield,&nbsp;Z. Li,&nbsp;S. Lemeshow,&nbsp;M. Spahnie,&nbsp;A. Luff,&nbsp;Y. Chu,&nbsp;M.K. Francis,&nbsp;M. Gallo,&nbsp;P. Chakraborty,&nbsp;M. Lindstrom,&nbsp;G. Lozanski, &nbsp;W. Miller,&nbsp;S.J. CLARK (2021). <a href="http://www.samclark.net/sam-files/pdfs/clark-2021_norris-et-al-prevalence-of-current-and-past-COVID-19-in-Ohio-adults.zip" target="_blank">Prevalence of Current and Past COVID-19 in Ohio Adults</a>. <em>Annals of Epidemiology</em>. [&nbsp;<a href="http://doi.org/10.1016/j.annepidem.2021.11.009" target="_blank">DOI</a>&nbsp;]
+</p><p>
+  In July 2020 a large group of colleagues at The Ohio State University collaborated with the Ohio State Department of Health to conduct a probability-based sample survey representative of adults living in Ohio in order to estimate state-level CV19 prevalence of current and past infections. 
+</p><p>
+  This article describes the results of the survey for a public health audience. We developed a new Bayesian poststratification method to produce estimates from the data - <a href="#PNAS-methods" target="_parent">described in PNAS</a>.
+</p><p>
+  Abigail Norris Turner led the overall study conducted by a large group of collaborators at The Ohio State University and Ohio State Department of Health. 
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
 <h1 class="sam-date">2021-10-26</h1>
 <!-- %%%%%%%%%%%% -->
 <p>
@@ -59,11 +77,10 @@ Samuel Clark - News
 <!-- %%%%%%%%%%%% -->
 <h1 class="sam-date">2021-06-25</h1>
 <!-- %%%%%%%%%%%% -->
-<p>
-  Published open-access in PNAS: 
+<p id="PNAS-methods">
+  Published open-access in <em>PNAS</em>: 
 </p><p>
-  Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turner, and S.&nbsp;J. CLARK (2021). <a href="http://www.samclark.net/sam-files/pdfs/clark-2021_kline-et-al-estimating-seroprevalence-of-sars-cov-2-in-ohio--a-bayesian-multilevel-poststratification-approach-with-multiple-diagnostic-tests.zip" target="_blank">Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests</a>. <em>Proceedings of the National Academy of Sciences</em>&nbsp;<em>118</em>(26), e2023947118.
-[&nbsp;<a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">DOI</a>&nbsp;]
+  Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turner, and S.&nbsp;J. CLARK (2021). <a href="http://www.samclark.net/sam-files/pdfs/clark-2021_kline-et-al-estimating-seroprevalence-of-sars-cov-2-in-ohio--a-bayesian-multilevel-poststratification-approach-with-multiple-diagnostic-tests.zip" target="_blank">Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests</a>. <em>Proceedings of the National Academy of Sciences</em>&nbsp;<em>118</em>(26), e2023947118. [&nbsp;<a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">DOI</a>&nbsp;]
 </p><p>
   In July 2020 a large group of colleagues at The Ohio State University collaborated with the Ohio State Department of Health to conduct a probability-based sample survey representative of adults living in Ohio in order to estimate state-level CV19 prevalence of current and past infections. Conducting the survey at that time presented many challenges, including a large non-response rate and an array of tests whose performance characteristics were poorly understood (we used all that we could), and very few positive results from any test. These two issues, and others including the sampling design, presented a particular challenge for analysis and led us to develop a new Bayesian/poststratification approach to estimate state-wide prevalence. 
 </p><p>
