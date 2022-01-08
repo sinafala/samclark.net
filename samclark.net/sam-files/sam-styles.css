@@ -94,6 +94,7 @@ a:active{
 hr {
   margin-top:12px; 
   margin-bottom:8px;
+  scroll-margin-top:10px
 }
 
 h1 {
