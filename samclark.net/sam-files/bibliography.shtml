@@ -2,6 +2,8 @@
 
 <html lang="en">
 
+<a id="top"></a>
+
 <head>
 <!--#include virtual="./includes/header.html" -->
 <title>Samuel Clark - Bibliography</title>
@@ -23,6 +25,7 @@ Samuel Clark's Bibliography
 
 
 
+
 <div class="sam-centered-block">
 <hr id="published-articles" style="width:350px;text-align:center;">
 <p>
@@ -34,6 +37,7 @@ Samuel Clark's Bibliography
 </p>
 <hr style="width:350px;text-align:center;">
 </div>
+
 
 
 
@@ -60,12 +64,11 @@ Samuel Clark's Bibliography
   <option value="#pa-2004">2004</option>
   <option value="#pa-1995">1995</option>
 </select>
+  <a href="#top" style="font-weight:normal">&#8679;</a>
 </h1>
 
 
-<!-- <hr> -->
 
-<!-- %%%% -->
 
 <!-- <p><a id="klineCV19PNAS2021"></a>
 
@@ -968,6 +971,7 @@ CLARK, S.&nbsp;J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
 
 
 
+
 <div class="sam-center-block">
 
 <h1>Working Papers 
@@ -988,6 +992,7 @@ CLARK, S.&nbsp;J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
   <option value="#wp-2008">2008</option>
   <option value="#wp-2007">2007</option>
 </select>
+  <a href="#top" style="font-weight:normal">&#8679;</a>
 </h1>
 
 
@@ -1472,21 +1477,6 @@ Alkema, L., A.&nbsp;E. Raftery, and S.&nbsp;J. CLARK (2007).
 
 
 
-<div class="sam-centered-block">
-<hr style="width:350px;text-align:center;">
-<p>
-  <a href="#published-articles">Published Articles</a>
-</p>
-<hr style="width:350px;text-align:center;">
-  <a href="#working-papers">Working Papers</a>
-<hr style="width:350px;text-align:center;">
-</div>
-
-
-
-<!-- %%%% -->
-
-<!-- <hr> -->
 
 <br>
 
