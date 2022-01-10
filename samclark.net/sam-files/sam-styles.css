@@ -70,6 +70,7 @@ div.sam-note {
 }
 
 div.sam-link {
+  width:350px;
   font:13px Helvetica;
   line-height:14px; 
   text-align:center;
