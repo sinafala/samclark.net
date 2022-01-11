@@ -2,8 +2,6 @@
 
 <html lang="en">
 
-<a id="top"></a>
-
 <head>
 <!--#include virtual="./includes/header.html" -->
 <title>Samuel Clark - Bibliography</title>
@@ -25,19 +23,16 @@ Samuel Clark's Bibliography
 
 
 
-
 <div class="sam-centered-block">
 <hr id="published-articles" style="width:350px;text-align:center;">
 <p>
-  <a href="./projects/software.shtml" target="_parent">Open-source Software Produced</a>
-</p>
-<hr style="width:350px;text-align:center;">
-<p>
   <a href="#working-papers">Working Papers</a>
-</p>
-<hr style="width:350px;text-align:center;">
+  &nbsp;
+  <a href="./projects/software.shtml" target="_parent">Open-source Software</a>
+  &nbsp;
+  <a href="#top" style="font-weight:normal">&#8679;</a>
+ <hr style="width:350px;text-align:center;">
 </div>
-
 
 
 
@@ -64,7 +59,6 @@ Samuel Clark's Bibliography
   <option value="#pa-2004">2004</option>
   <option value="#pa-1995">1995</option>
 </select>
-  <a href="#top" style="font-weight:normal">&#8679;</a>
 </h1>
 
 
@@ -955,20 +949,17 @@ CLARK, S.&nbsp;J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
 
 
 
-
-
 <div class="sam-centered-block">
 <hr id="working-papers" style="width:350px;text-align:center;">
 <p>
-  <a href="./projects/software.shtml" target="_parent">Open-source Software Produced</a>
-</p>
-<hr style="width:350px;text-align:center;">
-<p>
   <a href="#published-articles">Published Articles</a>
+  &nbsp;
+  <a href="./projects/software.shtml" target="_parent">Open-source Software</a>
+  &nbsp;
+  <a href="#top" style="font-weight:normal">&#8679;</a>
 </p>
 <hr style="width:350px;text-align:center;">
 </div>
-
 
 
 
@@ -992,7 +983,6 @@ CLARK, S.&nbsp;J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
   <option value="#wp-2008">2008</option>
   <option value="#wp-2007">2007</option>
 </select>
-  <a href="#top" style="font-weight:normal">&#8679;</a>
 </h1>
 
 

@@ -30,20 +30,19 @@ Samuel Clark - Mountain Bike
 
 
 <div class="sam-centered-block">
-<hr style="width:350px;text-align:center;">
-<p>
-  <a href="#usa-2021">USA 2021</a>
-</p>
-<hr style="width:350px;text-align:center;">
+<hr id="usa-2021" style="width:350px;text-align:center;">
 <p>
   <a href="#misc-mtb">Miscellaneous</a>
+  &nbsp;
+  <a href="#top" style="font-weight:normal">&#8679;</a>
 </p>
-<hr id="usa-2021" style="width:350px;text-align:center;">
+<hr style="width:350px;text-align:center;">
 </div>
 
 
 
-<h1>USA Trip 2021</h1>
+<h1>USA Trip 2021 <a href="#top" style="font-weight:normal">&#8679;</a>
+</h1>
 
 <p>
   During summer 2021, my son and I went on a trip to beautiful mountain bike trails around the USA. I'm not in any of these, but my son is. 
@@ -255,17 +254,19 @@ The Bike!
 
 
 <div class="sam-centered-block">
-<hr style="width:350px;text-align:center;">
+<hr id="misc-mtb" style="width:350px;text-align:center;">
 <p>
   <a href="#usa-2021">USA 2021</a>
+  &nbsp;
+  <a href="#top" style="font-weight:normal">&#8679;</a>
 </p>
-<hr id="misc-mtb" style="width:350px;text-align:center;">
+<hr style="width:350px;text-align:center;">
 </div>
 
 
 
 <div class="sam-center-block">
-<h1>Miscellaneous</h1>
+<h1>Miscellaneous <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 </div>
 
 <div class="sam-image-title">
