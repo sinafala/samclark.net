@@ -3,8 +3,11 @@
 <html lang="en">
 
 <head>
-<? include "./sam-files/includes/index-header.html"; ?>
-<title>Samuel Clark - Demographer</title>
+  <meta name="author" content="Samuel Clark">
+  <meta name="description" content="Samuel Clark is a demographer, epidemiologist, and data scientist who develops new methods and investigates population dynamics and epidemiology.">
+  <meta name="keywords" content="Samuel Clark, demography, demographer, epidemiology, epidemiologistc, statistics, statistician, africa, methods, verbal autopsy, Ohio State University, University of Washington, Penn, Caltech, Ohio">
+  <? include "./sam-files/includes/index-header.html"; ?>
+  <title>Samuel Clark - Demographer</title>
 </head>
 
 <body>
@@ -12,7 +15,7 @@
 <br>
 
 <div class="sam-title">
-Samuel Clark - Demographer
+  Samuel J. Clark
 </div>
 
 <br>
@@ -75,7 +78,7 @@ Page loads since 2020-05-06:
 
 <div class="sam-note">
 <!-- UPDATE THIS -->
-Updated 2021-01-11
+Updated 2022-01-12
 <!-- UPDATE THIS -->
 </div>
 

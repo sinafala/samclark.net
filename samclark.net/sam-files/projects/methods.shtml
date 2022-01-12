@@ -3,6 +3,9 @@
 <html lang="en">
 
 <head>
+  <meta name="author" content="Samuel Clark">
+  <meta name="description" content="Samuel Clark's project page for methodological work developing new approaches for demography and epidemiology.">
+  <meta name="keywords" content="Samuel Clark, Africa, methods, statistics, demography, epidemiology, bayes.">
 <!--#include virtual="../includes/project-header.html" -->
 <title>Samuel Clark - Methods</title>
 </head>
@@ -14,12 +17,8 @@
 <!-- %%%% -->
 
 
-<div class="sam-name-title">
-Samuel Clark 
-</div>
-<br>
 <div class="sam-multiline-title">
-Various Methods
+  Various Methods
 </div>
 
 <br>

@@ -3,6 +3,9 @@
 <html lang="en">
 
 <head>
+  <meta name="author" content="Samuel Clark">
+  <meta name="description" content="Samuel Clark's bibliography of published work and working papers.">
+  <meta name="keywords" content="Samuel Clark, bibliography, published, working paper, journal article.">
 <!--#include virtual="./includes/header.html" -->
 <title>Samuel Clark - Bibliography</title>
 </head>
@@ -12,7 +15,7 @@
 <br>
 
 <div class="sam-title">
-Samuel Clark's Bibliography
+  Bibliography
 </div>
 
 <br>

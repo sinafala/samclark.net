@@ -3,6 +3,9 @@
 <html lang="en">
 
 <head>
+  <meta name="author" content="Samuel Clark">
+  <meta name="description" content="Samuel Clark's projects page.">
+  <meta name="keywords" content="Samuel Clark, projects.">
 <!--#include virtual="./includes/header.html" -->
 <title>Samuel Clark - Projects</title>
 </head>
@@ -12,7 +15,7 @@
 <br>
 
 <div class="sam-title">
-Samuel Clark - Projects
+  Projects
 </div>
 
 <br>

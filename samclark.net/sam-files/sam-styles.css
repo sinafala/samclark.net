@@ -5,7 +5,7 @@ body {
 
 div.sam-title {
   font:22px Helvetica;
-  line-height:26px;
+  line-height:30px;
   text-align:center
 }
 
@@ -51,7 +51,7 @@ div.sam-image-title {
   margin:0 auto; 
   font:13px Helvetica;
   text-align:center;
-  line-height:20px;
+  line-height:15px;
   font-weight: bold
 }
 
@@ -171,5 +171,17 @@ ol.sam {
 }
 
 a:link {
-  text-decoration: none
+  text-decoration:none
+}
+
+/*a:visited {
+  color:green
+}*/
+
+a:hover {
+  color:green;
+}
+
+a:active {
+  color:green;
 }

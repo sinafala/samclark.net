@@ -3,6 +3,9 @@
 <html lang="en">
 
 <head>
+  <meta name="author" content="Samuel Clark">
+  <meta name="description" content="Samuel Clark's project page for work on interviewer effects in surveys.">
+  <meta name="keywords" content="Samuel Clark, survey, interviewer effects, bias.">
 <!--#include virtual="../includes/project-header.html" -->
 <title>Samuel Clark - Interviewer Effects</title>
 </head>
@@ -14,12 +17,8 @@
 <!-- %%%% -->
 
 
-<div class="sam-name-title">
-Samuel Clark 
-</div>
-<br>
 <div class="sam-multiline-title">
-Interviewer Effects
+  Interviewer Effects
 </div>
 
 <br>

@@ -3,6 +3,9 @@
 <html lang="en">
 
 <head>
+  <meta name="author" content="Samuel Clark">
+  <meta name="description" content="Samuel Clark's nano biography.">
+  <meta name="keywords" content="Samuel Clark, biography.">
 <!--#include virtual="./includes/header.html" -->
 <title>Samuel Clark - Nano Biography</title>
 </head>
@@ -12,7 +15,7 @@
 <br>
 
 <div class="sam-title">
-Samuel Clark - Nano Biography
+  Nano Biography
 </div>
 
 <br>

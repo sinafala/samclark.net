@@ -3,6 +3,9 @@
 <html lang="en">
 
 <head>
+  <meta name="author" content="Samuel Clark">
+  <meta name="description" content="Samuel Clark's project page for work on the effects of orphanhood on mortality of young children.">
+  <meta name="keywords" content="Samuel Clark, Africa, epidemiology, demography, orphan, mortality, mother's death.">
 <!--#include virtual="../includes/project-header.html" -->
 <title>Samuel Clark - Orphan Mortality</title>
 </head>
@@ -14,12 +17,8 @@
 <!-- %%%% -->
 
 
-<div class="sam-name-title">
-Samuel Clark 
-</div>
-<br>
 <div class="sam-multiline-title">
-Orphan Mortality
+  Orphan Mortality
 </div>
 
 <br>

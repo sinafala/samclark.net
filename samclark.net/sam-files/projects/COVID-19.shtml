@@ -3,6 +3,9 @@
 <html lang="en">
 
 <head>
+  <meta name="author" content="Samuel Clark">
+  <meta name="description" content="Samuel Clark's project page for work on COVID-19 in the state of Ohio.">
+  <meta name="keywords" content="Samuel Clark, COVID-19, Ohio.">  
 <!--#include virtual="../includes/project-header.html" -->
 <title>Samuel Clark - COVID-19</title>
 </head>
@@ -14,12 +17,8 @@
 <!-- %%%% -->
 
 
-<div class="sam-name-title">
-Samuel Clark 
-</div>
-<br>
 <div class="sam-multiline-title">
-Characterizing COVID-19 Epidemic in Ohio
+  Characterizing COVID-19 Epidemic in Ohio
 </div>
 
 <br>

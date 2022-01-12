@@ -3,6 +3,9 @@
 <html lang="en">
 
 <head>
+  <meta name="author" content="Samuel Clark">
+  <meta name="description" content="Samuel Clark's project page for work related to verbal autopsy cause of death ascertainment.">
+  <meta name="keywords" content="Samuel Clark, verbal autopsy, openVA, InSilicoVA, openVA Pipeline, Africa, epidemiology, demography.">
 <!--#include virtual="../includes/project-header.html" -->
 <title>Samuel Clark - Verbal Autopsy</title>
 </head>
@@ -14,12 +17,8 @@
 <!-- %%%% -->
 
 
-<div class="sam-name-title">
-Samuel Clark
-</div>
-<br>
 <div class="sam-multiline-title">
-Verbal Autopsy - openVA
+  Verbal Autopsy - openVA
 </div>
 
 <br>
