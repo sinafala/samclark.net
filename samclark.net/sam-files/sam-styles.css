@@ -4,24 +4,10 @@ body {
 }
 
 div.sam-title {
-  font:22px Helvetica;
-  line-height:30px;
-  text-align:center
-}
-
-div.sam-multiline-title {
   width:350px;
   margin:0 auto;
   font:22px Helvetica;
   line-height:30px;
-  text-align:center
-}
-
-div.sam-name-title {
-  width:350px;
-  margin:0 auto;
-  font:18px Helvetica;
-  line-height:22px;
   text-align:center
 }
 
@@ -31,7 +17,7 @@ img {
   margin-right: auto
 }
 
-div.sam-center-block {
+div.sam-block {
   width:350px; 
   margin:0 auto; 
   font:13px Helvetica;

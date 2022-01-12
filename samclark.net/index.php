@@ -30,7 +30,7 @@
 
 <br>
 
-<div class="sam-center-block">
+<div class="sam-block">
 
 <p>
   I am a demographer, epidemiologist, and data scientist who develops new methods and investigates population dynamics and epidemiology, primarily in low- and middle-income countries, with a focus in Africa. 
