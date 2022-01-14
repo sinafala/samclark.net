@@ -12,18 +12,12 @@
 
 <body>
 
-<br>
-
-<!--#include virtual="/sam-files/includes/links.html" -->
-<hr>
-
-<br>
+<!--#include virtual="/sam-files/includes/links-top.html" -->
+<hr class="nav-top">
 
 <div class="sam-title">
   Characterizing COVID-19 Epidemic in Ohio
 </div>
-
-<br>
 
 <div class="sam-block">
 
@@ -86,19 +80,12 @@
   <li><a href="http://www.samclark.net/sam-files/pdfs/clark-2020_setel-et-al-Mortality-surveillance-during-the-COVID-19-pandemic.pdf" target="_blank">Mortality surveillance during the COVID-19 pandemic</a>.</li>
 </ul>
 
-
-<!-- %%%%% -->
-
 </div>
 
-<br>
-
-<hr>
-<!--#include virtual="/sam-files/includes/links.html" -->
-
-<br>
+<hr class="nav-bottom">
+<!--#include virtual="/sam-files/includes/links-bottom.html" -->
    
-<div class="sam-note">
+<div class="sam-note-bottom">
 <!-- UPDATE THIS -->
 Updated 2021-09-22
 <!-- UPDATE THIS -->

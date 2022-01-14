@@ -12,66 +12,46 @@
 
 <body>
 
-<br>
-
-<!--#include virtual="/sam-files/includes/links.html" -->
-<hr>
-
-<br>
+<!--#include virtual="/sam-files/includes/links-top.html" -->
+<hr class="nav-top">
 
 <div class="sam-title">
   Projects
 </div>
 
-<br>
-
 <div class="sam-links-list">
-
-<!-- %%%% -->
-
-
 <a href="./projects/verbal-autopsy.shtml" target="_parent">Verbal Autopsy</a> <br>
 <a href="./projects/indirect-estimates.shtml" target="_parent">Indirect Estimates of Mortality</a> <br>
 <a href="./projects/small-area-estimates.shtml" target="_parent">Small-area Estimates of Mortality</a>
+</div>
 
-<br>
-
+<div class="sam-links-list">
 <a href="./projects/COVID-19.shtml" target="_parent">COVID-19 in Ohio</a> 
+</div>
 
-<br><br>
-
+<div class="sam-links-list">
 <a href="./projects/africa-epidemiology-demography.shtml" target="_parent">Africa: Epidemiology and Demography</a> <br>
 <a href="./projects/orphan-mortality.shtml" target="_parent">Orphan Mortality</a>
+</div>
 
-<br><br>
-
+<div class="sam-links-list">
 <a href="./projects/methods.shtml" target="_parent">Methods</a> <br>
 <a href="./projects/data-methods.shtml" target="_parent">Data Methods</a> <br>
 <a href="./projects/interviewer-effects.shtml" target="_parent">Interviewer Effects</a>
-
-<br><br>
-
-<a href="./projects/software.shtml" target="_parent">Open-source Software Produced</a>
-
-
-<!-- %%%% -->
-
 </div>
 
-<br>
+<div class="sam-links-list">
+<a href="./projects/software.shtml" target="_parent">Open-source Software Produced</a>
+</div>
 
-<hr>
-<!--#include virtual="/sam-files/includes/links.html" -->
+<hr class="nav-bottom">
+<!--#include virtual="/sam-files/includes/links-bottom.html" -->
 
-<br>
-
-<div class="sam-note">
+<div class="sam-note-bottom">
 <!-- UPDATE THIS -->
 Updated 2021-03-24
 <!-- UPDATE THIS -->
 </div>
-
-<br>
 
 </body>
 

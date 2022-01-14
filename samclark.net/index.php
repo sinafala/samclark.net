@@ -12,53 +12,34 @@
 
 <body>
 
-<br>
-
-<? include "./sam-files/includes/links.html"; ?>
-<hr>
-
-<br>
+<? include "./sam-files/includes/links-top.html"; ?>
+<hr class="nav-top">
 
 <div class="sam-title">
   Samuel J. Clark
 </div>
 
-<br>
-
-<div>
-<a href="mailto:sam@samclark.net"><img title="Sam Clark" src="./sam-files/sam.jpeg"></a>
+<div class="sam-image">
+<a href="mailto:sam@samclark.net"><img class="sam" title="Sam Clark" src="/sam-files/sam.jpeg"></a>
 </div>
-
-<br>
 
 <div class="sam-block">
-
 <p>
   I am a demographer, epidemiologist, and data scientist who develops new methods and investigates population dynamics and epidemiology, primarily in low- and middle-income countries, with a focus in Africa. 
-</p>
-
-<p>
+</p><p>
   I work as a <a href="https://sociology.osu.edu/people/clark.2962" target="_blank">professor</a> in the <a href="https://sociology.osu.edu" target="_blank">Department of Sociology</a> at <a href="https://www.osu.edu" target="_blank">The Ohio State University</a> (OSU), and I am a faculty affiliate of the <a href="https://ipr.osu.edu" target="_blank">Institute for Population Research</a> and the <a href="https://tdai.osu.edu" target="_blank">Translational Data Analytics Institute</a>, both at OSU. I am affiliated with the <a href="https://stat.uw.edu/" target="_blank">Department of Statistics</a> at the University of Washington and the <a href="https://www.wits.ac.za/publichealth/" target="_blank">School of Public Health</a> at the University of the Witwatersrand. 
-</p>
-
-<p>
+</p><p>
   During 2020 I worked on a survey to estimate the prevalence of the coronavirus and an excess deaths study to characterize the total burden of mortality associated with the COVID-19 epidemic. Both projects are in the state of Ohio, USA and were conducted by large teams at The Ohio State University in close coordination with the Ohio State Department of Health.
-</p>
-
-<p>
+</p><p>
   On an ongoing basis I work to improve: 1) verbal autopsy as a tool to measure the burden of disease, 2) mathematical models of human mortality, 3) indirect estimates of child mortality, and 4) small-area estimates of mortality. I also coordinate a small team developing software to implement new methods - mostly for verbal autopsy and mathematical models of human mortality.
 </p>
-
 </div>
 
-<br>
+<hr class="nav-bottom">
+<? include "./sam-files/includes/links-bottom.html"; ?>
 
-<hr>
-<? include "./sam-files/includes/links.html"; ?>
+<div class="sam-note-bottom">
 
-<br>
-
-<div class="sam-note">
 Page loads since 2020-05-06: 
 <strong>
 <?php
@@ -71,20 +52,19 @@ Page loads since 2020-05-06:
   fwrite($file, date('Y-m-d H:i:s').': '.($hits+1)."\n");
   fclose($file);
 ?>
-</strong> 
-</div>
+</strong>
 
-<div class="sam-note">
-  Copyright 1999-2022 by Samuel J. Clark; all rights reserved.
-</div>
+<br>
 
-<div class="sam-note">
+Copyright 1999-2022 by Samuel J. Clark; all rights reserved.
+
+<br>
+
 <!-- UPDATE THIS -->
 Updated 2022-01-12
 <!-- UPDATE THIS -->
-</div>
 
-<br>
+</div>
 
 </body>
 

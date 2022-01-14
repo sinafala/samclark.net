@@ -12,18 +12,12 @@
 
 <body>
 
-<br>
-
-<!--#include virtual="/sam-files/includes/links.html" -->
-<hr>
-
-<br>
+<!--#include virtual="/sam-files/includes/links-top.html" -->
+<hr class="nav-top">
 
 <div class="sam-title">
   News
 </div>
-
-<br>
 
 <div class="sam-block">
 
@@ -33,11 +27,23 @@
 <!-- %%%%%%%%%%%% -->
 <h1 class="sam-date">2021-12-28</h1>
 <!-- %%%%%%%%%%%% -->
+
+<h2>Published in <em>Annals of Epidemiology</em></h2>
 <p>
-  <h2>Published in <em>Annals of Epidemiology</em>:</h2>
-</p><p>
   Norris Turner, A.,&nbsp;D. Kline,&nbsp;A. Norris, &nbsp;W.G. Phillips,&nbsp;E. Root,&nbsp;J. Wakefield,&nbsp;Z. Li,&nbsp;S. Lemeshow,&nbsp;M. Spahnie,&nbsp;A. Luff,&nbsp;Y. Chu,&nbsp;M.K. Francis,&nbsp;M. Gallo,&nbsp;P. Chakraborty,&nbsp;M. Lindstrom,&nbsp;G. Lozanski, &nbsp;W. Miller,&nbsp;S.J. CLARK (2021). <a href="http://www.samclark.net/sam-files/pdfs/clark-2021_norris-et-al-prevalence-of-current-and-past-COVID-19-in-Ohio-adults.zip" target="_blank">Prevalence of Current and Past COVID-19 in Ohio Adults</a>. <em>Annals of Epidemiology</em>. [&nbsp;<a href="http://doi.org/10.1016/j.annepidem.2021.11.009" target="_blank">DOI</a>&nbsp;]
+</p>
+<h2>Abstract</h2>
+<p>
+<em>Purpose</em> To estimate the prevalence of current and past COVID-19 in Ohio adults.
 </p><p>
+<em>Methods</em> We used stratified, probability-proportionate-to-size cluster sampling. During July 2020, we enrolled 727 randomly-sampled adult English- and Spanish-speaking participants through a household survey. Participants provided nasopharyngeal swabs and blood samples to detect current and past COVID-19. We used Bayesian latent class models with multilevel regression and poststratification to calculate the adjusted prevalence of current and past COVID-19. We accounted for the potential effects of non–ignorable non–response bias.
+</p><p>
+<em>Results</em> The estimated statewide prevalence of current COVID-19 was 0.9% (95% credible interval: 0.1%–2.0%), corresponding to ∼85,000 prevalent infections (95% credible interval: 6,300–177,000) in Ohio adults during the study period. The estimated statewide prevalence of past COVID-19 was 1.3% (95% credible interval: 0.2%–2.7%), corresponding to ∼118,000 Ohio adults (95% credible interval: 22,000–240,000). Estimates did not change meaningfully due to non–response bias.
+</p><p>
+<em>Conclusions</em> Total COVID-19 cases in Ohio in July 2020 were approximately 3.5 times as high as diagnosed cases. The lack of broad COVID-19 screening in the United States early in the pandemic resulted in a paucity of population-representative prevalence data, limiting the ability to measure the effects of statewide control efforts.
+</p>
+<h2>Context</h2>
+<p>
   In July 2020 a large group of colleagues at The Ohio State University collaborated with the Ohio State Department of Health to conduct a probability-based sample survey representative of adults living in Ohio in order to estimate state-level CV19 prevalence of current and past infections. 
 </p><p>
   This article describes the results of the survey for a public health audience. We developed a new Bayesian poststratification method to produce estimates from the data - <a href="#PNAS-methods" target="_parent">described in PNAS</a>.
@@ -51,16 +57,16 @@
 <!-- %%%%%%%%%%%% -->
 <h1 class="sam-date">2021-12-22</h1>
 <!-- %%%%%%%%%%%% -->
+
+<h2> New working paper on arXiv</h2> 
 <p>
-  <h2> New working paper on arXiv:</h2> 
-</p><p>
   Li,&nbsp;Z.&nbsp;R., Z.&nbsp;Wu, I.&nbsp;Chen, and S.&nbsp;J.&nbsp;CLARK (2021).
   Bayesian Nested Latent Class Models for Cause-of-Death Assignment using Verbal Autopsies Across Multiple Domains.
   <em>arXiv Preprint</em>&nbsp;<em>arXiv:2112.12186</em>.
   [&nbsp;<a href="https://arxiv.org/abs/2112.12186" target="_blank">PDF</a>&nbsp;]
-</p><p>
-  <h2>Abstract:</h2>
-</p><p>
+</p>
+<h2>Abstract</h2>
+<p>
   Understanding cause-specific mortality rates is crucial for monitoring population health and designing public health interventions. Worldwide, two-thirds of deaths do not have a cause assigned. Verbal autopsy (VA) is a well-established tool to collect information describing deaths outside of hospitals by conducting surveys to caregivers of a deceased person. It is routinely implemented in many low- and middle-income countries. Statistical algorithms to assign cause of death using VAs are typically vulnerable to the distribution shift between the data used to train the model and the target population. This presents a major challenge for analyzing VAs as labeled data are usually unavailable in the target population. This article proposes a Latent Class model framework for VA data (LCVA) that jointly models VAs collected over multiple heterogeneous domains, assign cause of death for out-of-domain observations, and estimate cause-specific mortality fractions for a new domain. We introduce a parsimonious representation of the joint distribution of the collected symptoms using nested latent class models and develop an efficient algorithm for posterior inference. We demonstrate that LCVA outperforms existing methods in predictive performance and scalability. Supplementary materials for this article and the R package to implement the model are available online.
 </p>
 
@@ -100,11 +106,17 @@
 <!-- %%%%%%%%%%%% -->
 <h1 class="sam-date">2021-06-25</h1>
 <!-- %%%%%%%%%%%% -->
-<p id="PNAS-methods">
-  <h2>Published open-access in <em>PNAS</em>:</h2>
-</p><p>
+
+<h2 id="PNAS-methods"> Published open-access in <em>PNAS</em>:</h2>
+<p>
   Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turner, and S.&nbsp;J. CLARK (2021). <a href="http://www.samclark.net/sam-files/pdfs/clark-2021_kline-et-al-estimating-seroprevalence-of-sars-cov-2-in-ohio--a-bayesian-multilevel-poststratification-approach-with-multiple-diagnostic-tests.zip" target="_blank">Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests</a>. <em>Proceedings of the National Academy of Sciences</em>&nbsp;<em>118</em>(26), e2023947118. [&nbsp;<a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">DOI</a>&nbsp;]
-</p><p>
+</p>
+<h2>Abstract</h2>
+<p>
+  Globally, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has infected more than 59 million people and killed more than 1.39 million. Designing and monitoring interventions to slow and stop the spread of the virus require knowledge of how many people have been and are currently infected, where they live, and how they interact. The first step is an accurate assessment of the population prevalence of past infections. There are very few population-representative prevalence studies of SARS-CoV-2 infections, and only two states in the United States—Indiana and Connecticut—have reported probability-based sample surveys that characterize statewide prevalence of SARS-CoV-2. One of the difficulties is the fact that tests to detect and characterize SARS-CoV-2 coronavirus antibodies are new, are not well characterized, and generally function poorly. During July 2020, a survey representing all adults in the state of Ohio in the United States collected serum samples and information on protective behavior related to SARS-CoV-2 and coronavirus disease 2019 (COVID-19). Several features of the survey make it difficult to estimate past prevalence: 1) a low response rate; 2) a very low number of positive cases; and 3) the fact that multiple poor-quality serological tests were used to detect SARS-CoV-2 antibodies. We describe a Bayesian approach for analyzing the biomarker data that simultaneously addresses these challenges and characterizes the potential effect of selective response. The model does not require survey sample weights; accounts for multiple imperfect antibody test results; and characterizes uncertainty related to the sample survey and the multiple imperfect, potentially correlated tests.
+</p>
+<h2>Context</h2>
+<p>
   In July 2020 a large group of colleagues at The Ohio State University collaborated with the Ohio State Department of Health to conduct a probability-based sample survey representative of adults living in Ohio in order to estimate state-level CV19 prevalence of current and past infections. Conducting the survey at that time presented many challenges, including a large non-response rate and an array of tests whose performance characteristics were poorly understood (we used all that we could), and very few positive results from any test. These two issues, and others including the sampling design, presented a particular challenge for analysis and led us to develop a new Bayesian/poststratification approach to estimate state-wide prevalence. 
 </p><p>
   There are still few representative sample surveys of CV19 biomarkers. Most other approaches suffer from the possibility of very large, consequential bias. This paper should be useful for anyone analyzing the results from a similar survey. Although we cannot share the data easily, we have made R code available to replicate the analysis: <a href="https://github.com/sinafala/bayes-prevalence" target="_blank">Bayes Prevalence</a>. 
@@ -170,13 +182,15 @@
 <!-- %%%%%%%%%%%% -->
 <h1 class="sam-date">2021-03-10</h1>
 <!-- %%%%%%%%%%%% -->
+<h2>Award</h2>
 <p>
   I learned today that the Social and Behavioral Sciences division of the School of Arts and Sciences at The Ohio State University has chosen me as a recipient of the Joan N. Huber Faculty Fellow Award. A brief description <a href="https://ascintranet.osu.edu/faculty/awards" target="_blank">here</a>.
 </p>
+<h2>New working paper on arXiv</h2>
 <p>
   I posted a slightly edited version of a paper titled <a href="https://arxiv.org/abs/2103.03910" target="_blank">Health and Demographic Surveillance Systems and the 2030 Agenda: Sustainable Development Goals</a> on <i>arXiv</i>. This paper was invited at a UN Population Division experts' group meeting titled 'Strengthening the Demographic Evidence Base for the Post-2015 Development Agenda' that happened in New York, USA October 5-6, 2015.
 </p>
-<b>Abstract</b>
+<h2>Abstract</h2>
 <p>
 The health and demographic surveillance system (HDSS) is an old method for intensively monitoring a population to assess the effects of healthcare or other population-level interventions - often clinical trials. The strengths of HDSS include very detailed descriptions of whole populations with frequent updates. This often provides long time series of accurate population and health indicators for the HDSS study population. The primary weakness of HDSS is that the data describe only the HDSS study population and cannot be generalized beyond that.
 </p>
@@ -200,24 +214,20 @@ The 2030 agenda is the ecosystem of activities - many including population-level
 <!-- %%%%%%%%%%%% -->
 <h1 class="sam-date">2021-02-08</h1>
 <!-- %%%%%%%%%%%% -->
+
+<h2>Article out today in <i>PLoS One</i></h2> 
 <p>
-  Article out today in <i>PLoS One</i>: <a href="http://www.samclark.net/sam-files/pdfs/clark-2021_houle-et-al-linking-the-timing-of-a-mothers-and-childs-death-comparative-evidence-from-two-rural-south-african-population-based-surveillance-studies.pdf" target="_blank">Linking the timing of a mother's and child's death: Comparative evidence from two rural South African population-based surveillance studies, 2000–2015</a> by Brian Houle, Chodziwadziwa W. Kabudula, Alan Stein, Dickman Gareta, Kobus Herbst, and Samuel J. Clark. <a href="https://doi.org/10.1371/journal.pone.0246671" target="_blank">DOI</a>.
+  <a href="http://www.samclark.net/sam-files/pdfs/clark-2021_houle-et-al-linking-the-timing-of-a-mothers-and-childs-death-comparative-evidence-from-two-rural-south-african-population-based-surveillance-studies.pdf" target="_blank">Linking the timing of a mother's and child's death: Comparative evidence from two rural South African population-based surveillance studies, 2000–2015</a> by Brian Houle, Chodziwadziwa W. Kabudula, Alan Stein, Dickman Gareta, Kobus Herbst, and Samuel J. Clark. <a href="https://doi.org/10.1371/journal.pone.0246671" target="_blank">DOI</a>.
 </p>
-<b>Background</b>
+<h2>Abstract</h2>
 <p>
-  The effect of the period before a mother's death on child survival has been assessed in only a few studies. We conducted a comparative investigation of the effect of the timing of a mother's death on child survival up to age five years in rural South Africa.
-</p>
-<b>Methods</b>
-<p>
-  We used discrete time survival analysis on data from two HIV-endemic population surveillance sites (2000–2015) to estimate a child's risk of dying before and after their mother's death. We tested if this relationship varied between sites and by availability of antiretroviral therapy (ART). We assessed if related adults in the household altered the effect of a mother's death on child survival.
-</p>
-<b>Findings</b>
-<p>
-  3,618 children died from 2000–2015. The probability of a child dying began to increase in the 7–11 months prior to the mother's death and increased markedly in the 3 months before (2000–2003 relative risk = 22.2, 95% CI = 14.2–34.6) and 3 months following her death (2000–2003 RR = 20.1; CI = 10.3–39.4). This increased risk pattern was evident at both sites. The pattern attenuated with ART availability but remained even with availability at both sites. The father and maternal grandmother in the household lowered children's mortality risk independent of the association between timing of mother and child mortality.
-</p>
-<b>Conclusions</b>
-<p>
-  The persistence of elevated mortality risk both before and after the mother's death for children of different ages suggests that absence of maternal care and abrupt breastfeeding cessation might be crucial risk factors. Formative research is needed to understand the circumstances for children when a mother is very ill or dies, and behavioral and other risk factors that increase both the mother and child's risk of dying. Identifying families when a mother is very ill and implementing training and support strategies for other members of the household are urgently needed to reduce preventable child mortality.
+  <em>Background</em> The effect of the period before a mother's death on child survival has been assessed in only a few studies. We conducted a comparative investigation of the effect of the timing of a mother's death on child survival up to age five years in rural South Africa.
+</p><p>
+  <em>Methods</em> We used discrete time survival analysis on data from two HIV-endemic population surveillance sites (2000–2015) to estimate a child's risk of dying before and after their mother's death. We tested if this relationship varied between sites and by availability of antiretroviral therapy (ART). We assessed if related adults in the household altered the effect of a mother's death on child survival.
+</p><p>
+  <em>Findings</em> 3,618 children died from 2000–2015. The probability of a child dying began to increase in the 7–11 months prior to the mother's death and increased markedly in the 3 months before (2000–2003 relative risk = 22.2, 95% CI = 14.2–34.6) and 3 months following her death (2000–2003 RR = 20.1; CI = 10.3–39.4). This increased risk pattern was evident at both sites. The pattern attenuated with ART availability but remained even with availability at both sites. The father and maternal grandmother in the household lowered children's mortality risk independent of the association between timing of mother and child mortality.
+</p><p>
+  <em>Conclusions</em> The persistence of elevated mortality risk both before and after the mother's death for children of different ages suggests that absence of maternal care and abrupt breastfeeding cessation might be crucial risk factors. Formative research is needed to understand the circumstances for children when a mother is very ill or dies, and behavioral and other risk factors that increase both the mother and child's risk of dying. Identifying families when a mother is very ill and implementing training and support strategies for other members of the household are urgently needed to reduce preventable child mortality.
 </p>
 
 
@@ -232,12 +242,8 @@ The 2030 agenda is the ecosystem of activities - many including population-level
 
 </div>
 
-<br>
-
-<hr>
-<!--#include virtual="/sam-files/includes/links.html" -->
-
-<br>
+<hr class="nav-bottom">
+<!--#include virtual="/sam-files/includes/links-bottom.html" -->
 
 </body>
 

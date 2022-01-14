@@ -12,18 +12,12 @@
 
 <body>
 
-<br>
-
-<!--#include virtual="/sam-files/includes/links.html" -->
-<hr>
-
-<br>
+<!--#include virtual="/sam-files/includes/links-top.html" -->
+<hr class="nav-top">
 
 <div class="sam-title">
   Indirect Estimation Methods
 </div>
-
-<br>
 
 <div class="sam-block">
 
@@ -61,25 +55,16 @@
   We stay close to the spirit of the method, but we have developed a new Bayesian estimation approach that simultaneously estimates age-specific fertility for the mothers and age-specific mortality for their children, with uncertainty in both. Initial work is based on data from the demographic and health surveys (DHS)
 </p>
 
-
-<!-- %%%%% -->
-
 </div>
 
-<br>
+<hr class="nav-bottom">
+<!--#include virtual="/sam-files/includes/links-bottom.html" -->
 
-<hr>
-<!--#include virtual="/sam-files/includes/links.html" -->
-
-<br>
-
-<div class="sam-note">
+<div class="sam-note-bottom">
 <!-- UPDATE THIS -->
 Updated 2021-03-24
 <!-- UPDATE THIS -->
 </div>
-
-<br>
 
 </body>
 

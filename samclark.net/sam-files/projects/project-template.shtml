@@ -12,18 +12,12 @@
 
 <body>
 
-<br>
-
-<!--#include virtual="/sam-files/includes/links.html" -->
-<hr>
-
-<br>
+<!--#include virtual="/sam-files/includes/links-top.html" -->
+<hr class="nav-top">
 
 <div class="sam-title">
   #### Study Name
 </div>
-
-<br>
 
 <div class="sam-block">
 
@@ -41,26 +35,16 @@
   <li><a href="http://www.samclark.net/sam-files/pdfs/.pdf" target="_blank">XXX</a></li>
 </ul> 
 
-
-
-<!-- %%%%% -->
-
 </div>
 
-<br>
+<hr class="nav-bottom">
+<!--#include virtual="/sam-files/includes/links-bottom.html" -->
 
-<hr>
-<!--#include virtual="/sam-files/includes/links.html" -->
-
-<br>
-   
-<div class="sam-note">
+<div class="sam-note-bottom">
 <!-- UPDATE THIS -->
 #### Updated YYYY-MM-DD
 <!-- UPDATE THIS -->
 </div>
-
-<br>
 
 </body>
 

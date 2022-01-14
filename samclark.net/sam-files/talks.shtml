@@ -12,18 +12,12 @@
 
 <body>
 
-<br>
-
-<!--#include virtual="/sam-files/includes/links.html" -->
-<hr>
-
-<br>
+<!--#include virtual="/sam-files/includes/links-top.html" -->
+<hr class="nav-top">
 
 <div class="sam-title">
   Talks/Presentations
 </div>
-
-<br>
 
 <div class="sam-block">
 
@@ -69,12 +63,8 @@
 
 </div>
 
-<br>
-
-<hr>
-<!--#include virtual="/sam-files/includes/links.html" -->
-
-<br>
+<hr class="nav-bottom">
+<!--#include virtual="/sam-files/includes/links-bottom.html" -->
 
 </body>
 

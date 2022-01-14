@@ -12,18 +12,12 @@
 
 <body>
 
-<br>
-
-<hr>
-<!--#include virtual="/sam-files/includes/links.html" -->
-
-<br>
+<!--#include virtual="/sam-files/includes/links-top.html" -->
+<hr class="nav-top">
 
 <div class="sam-title">
   Interviewer Effects
 </div>
-
-<br>
 
 <div class="sam-block">
 
@@ -69,25 +63,16 @@
   So, as far as we're concerned, it's very clear that interviewer paradata should be part of all interview-based data.
 </p>
 
-
-<!-- %%%%% -->
-
 </div>
 
-<br>
+<hr class="nav-bottom">
+<!--#include virtual="/sam-files/includes/links-bottom.html" -->
 
-<hr>
-<!--#include virtual="/sam-files/includes/links.html" -->
-
-<br>
-
-<div class="sam-note">
+<div class="sam-note-bottom">
 <!-- UPDATE THIS -->
 Updated 2021-03-24
 <!-- UPDATE THIS -->
 </div>
-
-<br>
 
 </body>
 

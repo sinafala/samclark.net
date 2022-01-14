@@ -4,62 +4,43 @@
 
 <head>
   <meta name="author" content="Samuel Clark">
-  <meta name="description" content="Samuel Clark's nano biography.">
+  <meta name="description" content="Samuel Clark's biography.">
   <meta name="keywords" content="Samuel Clark, biography.">
 <!--#include virtual="./includes/header.html" -->
-<title>Samuel Clark - Nano Biography</title>
+<title>Samuel Clark - Biography</title>
 </head>
 
 <body>
 
-<br>
-
-<!--#include virtual="/sam-files/includes/links.html" -->
-<hr>
-
-<br>
+<!--#include virtual="/sam-files/includes/links-top.html" -->
+<hr class="nav-top">
 
 <div class="sam-title">
-  Nano Biography
+  Biography
 </div>
-
-<br>
 
 <div class="sam-block">
-
-
 <p>
   My personal biography in space and time is complex and not easy to explain in a minute or two.  Following is a very brief summary that only mentions the main space-time and professional aspects.
-</p> 
-
-<p>
+</p><p>
   I was born and mostly lived in East Africa until about age sixteen. I went to high school in Pendleton Oregon and did undergraduate degrees at Caltech in Pasadena. I did one year in a neuroscience PhD program at Stanford in Palo Alto before switching to demography and doing a PhD in demography at the University of Pennsylvania in Philadelphia. During the PhD I lived in Monze, Zambia for about one year. Following the PhD I was a postdoc at the University of Colorado at Boulder for about five years. During that time I lived in Durban, South Africa and mainly worked with the Agincourt health and demographic surveillance system site. After the postdoc I moved to the University of Washington in Seattle as an Assistant Professor in the Department of Sociology.  After obtaining tenure there and spending a few years as Associate Professor, I moved to The Ohio State University in Columbus as a Full Professor in the Department of Sociology.  
-</p>
-
-<p>
+</p><p>
   The map below gives more precise places and times. The full screen link (upper right) takes you to a bigger version.
 </p>
-
-<br>
-
-<iframe src="https://www.google.com/maps/d/embed?mid=17RJAkgMyFNRyTgddU8fbkyBqIdU" width="350" height="270"></iframe>
-
 </div>
 
-<br>
+<div class="sam-block-padded">
+<iframe src="https://www.google.com/maps/d/embed?mid=17RJAkgMyFNRyTgddU8fbkyBqIdU" width="350" height="270"></iframe>
+</div>
 
-<hr>
-<!--#include virtual="/sam-files/includes/links.html" -->
+<hr class="nav-bottom">
+<!--#include virtual="/sam-files/includes/links-bottom.html" -->
 
-<br>
-
-<div class="sam-note">
+<div class="sam-note-bottom">
 <!-- UPDATE THIS -->
 Updated 2021-09-16
 <!-- UPDATE THIS -->
 </div>
-
-<br>
 
 </body>
 

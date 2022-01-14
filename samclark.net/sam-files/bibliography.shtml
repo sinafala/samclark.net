@@ -12,32 +12,23 @@
 
 <body>
 
-<br>
-
-<!--#include virtual="/sam-files/includes/links.html" -->
-<hr>
-
-<br>
+<!--#include virtual="/sam-files/includes/links-top.html" -->
+<hr class="nav-top">
 
 <div class="sam-title">
   Bibliography
 </div>
 
-<br>
-
-
-
 <div class="sam-centered-block">
-<hr id="published-articles" style="width:350px;text-align:center;">
+<hr id="published-articles" class="subnav-toptop">
 <p>
   <a href="#working-papers">Working Papers</a>
   &nbsp;
   <a href="./projects/software.shtml" target="_parent">Open-source Software</a>
   &nbsp;
   <a href="#top" style="font-weight:normal">&#8679;</a>
- <hr style="width:350px;text-align:center;">
+ <hr class="subnav-bottom">
 </div>
-
 
 
 <div class="sam-block">
@@ -72,8 +63,11 @@
 
 Kline, D., Z.&nbsp;Li, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turner, and S.J.&nbsp;CLARK (2021 <em>forthcoming</em>). 
 
-  "Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests."
+"Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests."
+
 <em>Proceedings of the National Academy of Sciences</em>.
+
+[&nbsp;<a href="http://doi.org/10.1016/j.annepidem.2021.11.009" target="_blank">DOI</a>&nbsp;]
 
 </p> -->
 
@@ -1218,7 +1212,7 @@ CLARK,&nbsp;S.J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
 
 
 <div class="sam-centered-block">
-<hr id="working-papers" style="width:350px;text-align:center;">
+<hr id="working-papers" class="subnav-top">
 <p>
   <a href="#published-articles">Published Articles</a>
   &nbsp;
@@ -1226,9 +1220,8 @@ CLARK,&nbsp;S.J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
   &nbsp;
   <a href="#top" style="font-weight:normal">&#8679;</a>
 </p>
-<hr style="width:350px;text-align:center;">
+<hr class="subnav-bottom">
 </div>
-
 
 
 <div class="sam-block">
@@ -1252,8 +1245,6 @@ CLARK,&nbsp;S.J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
   <option value="#wp-2007">2007</option>
 </select>
 </h1>
-
-
 
 
 <h2 class="bib-year" id="wp-2021">2021  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
@@ -1858,20 +1849,14 @@ Probabilistic projections of hiv prevalence using bayesian melding.
 
 
 
-<br>
+<hr class="nav-bottom">
+<!--#include virtual="/sam-files/includes/links-bottom.html" -->
 
-<hr>
-<!--#include virtual="/sam-files/includes/links.html" -->
-
-<br>
-
-<div class="sam-note">
+<div class="sam-note-bottom">
 <!-- UPDATE THIS -->
 Updated 2022-01-08
 <!-- UPDATE THIS -->
 </div>
-
-<br>
 
 </body>
 

@@ -12,18 +12,12 @@
 
 <body>
 
-<br>
-
-<!--#include virtual="/sam-files/includes/links.html" -->
-<hr>
-
-<br>
+<!--#include virtual="/sam-files/includes/links-top.html" -->
+<hr class="nav-top">
 
 <div class="sam-title">
   Orphan Mortality
 </div>
-
-<br>
 
 <div class="sam-block">
 
@@ -53,25 +47,16 @@
   The main finding of this work is that <i>the greatest risk for young children is in the period of time immediately preceding their mother's death</i>. This knowledge leads to the possibility of a simple intervention with a high likelihood of being effective - when a parent of young children falls gravely ill, ensure that adequate child care is being provided during the illness and in case the parent dies. Moreover, this finding should be widely generalizable to circumstances less dramatic than an untreated HIV epidemic.
 </p>
 
-
-<!-- %%%%% -->
-
 </div>
 
-<br>
-
-<hr>
-<!--#include virtual="/sam-files/includes/links.html" -->
-
-<br>
+<hr class="nav-bottom">
+<!--#include virtual="/sam-files/includes/links-bottom.html" -->
    
-<div class="sam-note">
+<div class="sam-note-bottom">
 <!-- UPDATE THIS -->
 Updated 2021-03-24
 <!-- UPDATE THIS -->
 </div>
-
-<br>
 
 </body>
 

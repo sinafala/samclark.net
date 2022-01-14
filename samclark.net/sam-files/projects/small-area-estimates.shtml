@@ -12,18 +12,12 @@
 
 <body>
 
-<br>
-
-<!--#include virtual="/sam-files/includes/links.html" -->
-<hr>
-
-<br>
+<!--#include virtual="/sam-files/includes/links-top.html" -->
+<hr class="nav-top">
 
 <div class="sam-title">
   Small-area Estimates of Under-five Mortality
 </div>
-
-<br>
 
 <div class="sam-block">
 
@@ -65,25 +59,16 @@
   <li><a href="https://github.com/richardli/SUMMER" target="_blank">Github repository - ongoing open-source development of SUMMER</a></li>
 </ul>
 
-
-<!-- %%%%% -->
-
 </div>
 
-<br>
-
-<hr>
-<!--#include virtual="/sam-files/includes/links.html" -->
-
-<br>
+<hr class="nav-bottom">
+<!--#include virtual="/sam-files/includes/links-bottom.html" -->
    
-<div class="sam-note">
+<div class="sam-note-bottom">
 <!-- UPDATE THIS -->
 Updated 2021-03-24
 <!-- UPDATE THIS -->
 </div>
-
-<br>
 
 </body>
 
