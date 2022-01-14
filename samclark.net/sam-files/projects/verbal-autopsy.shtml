@@ -14,16 +14,13 @@
 
 <br>
 
-<!-- %%%% -->
+<!--#include virtual="/sam-files/includes/links.html" -->
 
+<br>
 
 <div class="sam-title">
   Verbal Autopsy - openVA
 </div>
-
-<br>
-
-<!--#include virtual="../includes/project-pages-links.html" -->
 
 <br>
 
@@ -119,7 +116,7 @@
 
 <br>
 
-<!--#include virtual="../includes/project-pages-links.html" -->
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
    

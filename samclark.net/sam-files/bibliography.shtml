@@ -14,13 +14,13 @@
 
 <br>
 
-<div class="sam-title">
-  Bibliography
-</div>
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
 
-<!--#include virtual="./includes/bibliography-links.html" -->
+<div class="sam-title">
+  Bibliography
+</div>
 
 <br>
 
@@ -1859,7 +1859,7 @@ Probabilistic projections of hiv prevalence using bayesian melding.
 
 <br>
 
-<!--#include virtual="./includes/bibliography-links.html" -->
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
 

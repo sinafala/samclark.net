@@ -1,14 +1,111 @@
+/* Main */
+
 body {
-  width:400px;
-  margin:0 auto
+  width: 400px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 div.sam-title {
-  width:350px;
-  margin:0 auto;
-  font:22px Helvetica;
-  line-height:30px;
-  text-align:center
+  width: 350px;
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center
+}
+
+div.sam-block {
+  width: 350px; 
+  margin: 0 auto; 
+  font-size: 13px;
+  line-height: 15px
+}
+
+div.sam-centered-block {
+  width: 350px; 
+  margin: 0 auto; 
+  font-size: 13px;
+  line-height: 10px;
+  text-align: center
+}
+
+div.sam-note {
+  font-size: 10px;
+  line-height: 15px; 
+  text-align: center
+}
+
+p {
+  margin-top: 4px;
+  margin-bottom: 6px
+}
+
+ul {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding-left: 25px
+}
+
+ol {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding-left: 25px 
+}
+
+li {
+  margin-top: 4px;
+  margin-bottom: 4px
+}
+
+ul.sam li {
+  margin-top: 1px;
+  margin-bottom: 1px
+}
+
+ol.sam li {
+  margin-top: 1px;
+  margin-bottom: 1px
+}
+
+ul.sam {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-left: 25px
+}
+
+ol.sam {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-left: 25px
+}
+
+div.sam-links-list {
+  width: 250px;
+  margin: 0 auto; 
+  font-size: 14px;
+  line-height: 25px; 
+  text-align: center
+}
+
+div.sam-link {
+  width: 350px;
+  margin: 0 auto; 
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: bold
+}
+
+
+/* Image */
+
+div.sam-image-title {
+  width: 350px; 
+  margin: 0 auto; 
+  font-size: 13px;
+  text-align: center;
+  line-height: 15px;
+  font-weight: bold
 }
 
 img {
@@ -17,157 +114,57 @@ img {
   margin-right: auto
 }
 
-div.sam-block {
-  width:350px; 
-  margin:0 auto; 
-  font:13px Helvetica;
-  line-height:15px
-}
 
-div.sam-centered-block {
-  width:350px; 
-  margin:0 auto; 
-  font:13px Helvetica;
-  line-height:10px;
-  text-align:center
-}
-
-div.sam-image-title {
-  width:350px; 
-  margin:0 auto; 
-  font:13px Helvetica;
-  text-align:center;
-  line-height:15px;
-  font-weight: bold
-}
-
-div.sam-links-list {
-  width:250px;
-  margin:0 auto; 
-  font:14px Helvetica;
-  line-height:25px; 
-  text-align:center
-}
-
-div.sam-note {
-  font:10px Helvetica;
-  line-height:15px; 
-  text-align:center
-}
-
-div.sam-link {
-  width:340px;
-  margin:0 auto; 
-  font:13px Helvetica;
-  line-height:20px;
-  text-align:center;
-  color:blue;
-  font-weight:bold
-}
-
-a:link{
-  color:#0000A0
-}
-a:visited{
-  color:#0000A0
-}
-a:hover{
-  color:green
-}
-a:focus{
-  color:green
-}
-a:active{
-  color:red
-}
+/* Horizontal rules */
 
 hr {
-  margin-top:12px; 
-  margin-bottom:8px;
-  scroll-margin-top:10px
+  margin-top: 12px; 
+  margin-bottom: 8px;
+  scroll-margin-top: 10px
 }
 
 h1 {
-  margin-top:14px;
-  margin-bottom:4px; 
-  font-size:14px
+  margin-top: 14px;
+  margin-bottom: 4px; 
+  font-size: 14px
 }
 
 h1.sam-date {
-  margin-top:12px;
-  margin-bottom:4px;
-  color:green
+  margin-top: 12px;
+  margin-bottom: 4px;
+  color: green
 }
 
 h2 {
-  margin-top:6px;
-  margin-bottom:1px;
-  font-size:13px
+  margin-top: 6px;
+  margin-bottom: 1px;
+  font-size: 13px
 }
 
 h2.bib-year {
-  margin-top:12px;
-  margin-bottom:6px;
-  color:green;
-  scroll-margin-top:10px
+  margin-top: 12px;
+  margin-bottom: 6px;
+  color: green;
+  scroll-margin-top: 10px
 }
 
-p {
-  margin-top:4px;
-  margin-bottom:6px
-}
 
-ul {
-  margin-top:6px;
-  margin-bottom:6px;
-  padding-left:25px
-}
-
-ol {
-  margin-top:6px;
-  margin-bottom:6px;
-  padding-left:25px 
-}
-
-li {
-  margin-top:4px;
-  margin-bottom:4px
-}
-
-ul.sam li {
-  margin-top:1px;
-  margin-bottom:1px
-}
-
-ol.sam li {
-  margin-top:1px;
-  margin-bottom:1px
-}
-
-ul.sam {
-  margin-top:2px;
-  margin-bottom:2px;
-  padding-left:25px
-}
-
-ol.sam {
-  margin-top:2px;
-  margin-bottom:2px;
-  padding-left:25px
-}
+/* Links */
 
 a:link {
-  text-decoration:none
+  text-decoration: none;
+  color: #0000A0
 }
 
-/*a:visited {
-  color:green
-}*/
-
-a:hover {
-  color:green;
+a:visited{
+  color: #0000A0
 }
-
-a:active {
-  color:green;
+a:hover{
+  color: green
+}
+a: ocus{
+  color: green
+}
+a:active{
+  color: red
 }

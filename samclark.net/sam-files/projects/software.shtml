@@ -14,16 +14,13 @@
 
 <br>
 
-<!-- %%%% -->
+<!--#include virtual="/sam-files/includes/links.html" -->
 
+<br>
 
 <div class="sam-title">
   Software
 </div>
-
-<br>
-
-<!--#include virtual="../includes/project-pages-links.html" -->
 
 <br>
 
@@ -107,7 +104,7 @@ This project started off with me and has since become one of <a href="https://fa
 
 <br>
 
-<!--#include virtual="../includes/project-pages-links.html" -->
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
    

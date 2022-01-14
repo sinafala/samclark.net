@@ -14,13 +14,13 @@
 
 <br>
 
-<div class="sam-title">
-  Nano Biography
-</div>
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
 
-<!--#include virtual="./includes/bio-links.html" -->
+<div class="sam-title">
+  Nano Biography
+</div>
 
 <br>
 
@@ -47,7 +47,7 @@
 
 <br>
 
-<!--#include virtual="./includes/bio-links.html" -->
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
 

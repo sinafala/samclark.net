@@ -14,13 +14,13 @@
 
 <br>
 
-<div class="sam-title">
-  Talks/Presentations
-</div>
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
 
-<!--#include virtual="./includes/talks-links.html" -->
+<div class="sam-title">
+  Talks/Presentations
+</div>
 
 <br>
 
@@ -70,7 +70,7 @@
 
 <br>
 
-<!--#include virtual="./includes/talks-links.html" -->
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
 

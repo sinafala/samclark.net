@@ -14,16 +14,13 @@
 
 <br>
 
-<!-- %%%% -->
+<!--#include virtual="/sam-files/includes/links.html" -->
 
+<br>
 
 <div class="sam-title">
   Small-area Estimates of Under-five Mortality
 </div>
-
-<br>
-
-<!--#include virtual="../includes/project-pages-links.html" -->
 
 <br>
 
@@ -74,7 +71,7 @@
 
 <br>
 
-<!--#include virtual="../includes/project-pages-links.html" -->
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
    

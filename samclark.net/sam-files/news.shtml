@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
 
@@ -14,13 +14,13 @@
 
 <br>
 
-<div class="sam-title">
-  News
-</div>
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
 
-<!--#include virtual="./includes/news-links.html" -->
+<div class="sam-title">
+  News
+</div>
 
 <br>
 
@@ -233,7 +233,7 @@ The 2030 agenda is the ecosystem of activities - many including population-level
 
 <br>
 
-<!--#include virtual="./includes/news-links.html" -->
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
 

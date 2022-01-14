@@ -14,13 +14,13 @@
 
 <br>
 
-<div class="sam-title">
-  Mountain Biking
-</div>
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
 
-<!--#include virtual="./includes/mtb-links.html" -->
+<div class="sam-title">
+  Mountain Biking
+</div>
 
 <br>
 
@@ -333,7 +333,7 @@ Alum Creek Phase II, Autumn 2021
 
 <br>
 
-<!--#include virtual="./includes/mtb-links.html" -->
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
 

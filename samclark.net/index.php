@@ -14,13 +14,13 @@
 
 <br>
 
-<div class="sam-title">
-  Samuel J. Clark
-</div>
+<? include "./sam-files/includes/links.html"; ?>
 
 <br>
 
-<? include "./sam-files/includes/main-links.html"; ?>
+<div class="sam-title">
+  Samuel J. Clark
+</div>
 
 <br>
 
@@ -52,7 +52,7 @@
 
 <br>
 
-<? include "./sam-files/includes/main-links.html"; ?>
+<? include "./sam-files/includes/links.html"; ?>
 
 <br>
 

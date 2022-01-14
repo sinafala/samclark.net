@@ -14,13 +14,13 @@
 
 <br>
 
-<div class="sam-title">
-  Links
-</div>
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
 
-<!--#include virtual="./includes/links-links.html" -->
+<div class="sam-title">
+  Links
+</div>
 
 <br>
 
@@ -62,7 +62,7 @@ sam [at] samclark.net
 
 <br>
 
-<!--#include virtual="./includes/links-links.html" -->
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
 

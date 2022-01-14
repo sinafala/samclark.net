@@ -14,16 +14,13 @@
 
 <br>
 
-<!-- %%%% -->
+<!--#include virtual="/sam-files/includes/links.html" -->
 
+<br>
 
 <div class="sam-title">
   Data Methods
 </div>
-
-<br>
-
-<!--#include virtual="../includes/project-pages-links.html" -->
 
 <br>
 
@@ -90,7 +87,7 @@ Publications on SPEHR and and our generalized definition for a timestamp:
 
 <br>
 
-<!--#include virtual="../includes/project-pages-links.html" -->
+<!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>
    
