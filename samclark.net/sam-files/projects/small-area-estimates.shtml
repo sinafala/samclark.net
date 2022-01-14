@@ -6,7 +6,7 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's project page for work on small-area estimation methods for demography.">
   <meta name="keywords" content="Samuel Clark, africa, epidemiology, demography, small-area estimates, statistics, complex sample, survey.">
-<!--#include virtual="../includes/project-header.html" -->
+<!--#include virtual="../includes/header.html" -->
 <title>Samuel Clark - Small-area Estimates</title>
 </head>
 

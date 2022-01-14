@@ -6,7 +6,7 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark is a demographer, epidemiologist, and data scientist who develops new methods and investigates population dynamics and epidemiology.">
   <meta name="keywords" content="Samuel Clark, demography, demographer, epidemiology, epidemiologistc, statistics, statistician, africa, methods, verbal autopsy, Ohio State University, University of Washington, Penn, Caltech, Ohio">
-  <? include "./sam-files/includes/index-header.html"; ?>
+  <? include "./sam-files/includes/header.html"; ?>
   <title>Samuel Clark - Demographer</title>
 </head>
 

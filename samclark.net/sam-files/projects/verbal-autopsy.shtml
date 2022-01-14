@@ -6,7 +6,7 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's project page for work related to verbal autopsy cause of death ascertainment.">
   <meta name="keywords" content="Samuel Clark, verbal autopsy, openVA, InSilicoVA, openVA Pipeline, Africa, epidemiology, demography.">
-<!--#include virtual="../includes/project-header.html" -->
+<!--#include virtual="../includes/header.html" -->
 <title>Samuel Clark - Verbal Autopsy</title>
 </head>
 

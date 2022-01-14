@@ -6,7 +6,7 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's project page for methodological work developing new approaches for demography and epidemiology.">
   <meta name="keywords" content="Samuel Clark, Africa, methods, statistics, demography, epidemiology, bayes.">
-<!--#include virtual="../includes/project-header.html" -->
+<!--#include virtual="../includes/header.html" -->
 <title>Samuel Clark - Methods</title>
 </head>
 
