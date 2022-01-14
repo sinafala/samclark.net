@@ -15,6 +15,7 @@
 <br>
 
 <!--#include virtual="/sam-files/includes/links.html" -->
+<hr>
 
 <br>
 
@@ -29,32 +30,28 @@
 <!-- %%%% -->
 
 
-<hr>
-
 <a href="./projects/verbal-autopsy.shtml" target="_parent">Verbal Autopsy</a> <br>
 <a href="./projects/indirect-estimates.shtml" target="_parent">Indirect Estimates of Mortality</a> <br>
 <a href="./projects/small-area-estimates.shtml" target="_parent">Small-area Estimates of Mortality</a>
 
-<hr>
+<br>
 
-<a href="./projects/COVID-19.shtml" target="_parent">COVID-19 in Ohio</a> <br>
+<a href="./projects/COVID-19.shtml" target="_parent">COVID-19 in Ohio</a> 
 
-<hr>
+<br><br>
 
 <a href="./projects/africa-epidemiology-demography.shtml" target="_parent">Africa: Epidemiology and Demography</a> <br>
 <a href="./projects/orphan-mortality.shtml" target="_parent">Orphan Mortality</a>
 
-<hr>
+<br><br>
 
 <a href="./projects/methods.shtml" target="_parent">Methods</a> <br>
 <a href="./projects/data-methods.shtml" target="_parent">Data Methods</a> <br>
 <a href="./projects/interviewer-effects.shtml" target="_parent">Interviewer Effects</a>
 
-<hr>
+<br><br>
 
 <a href="./projects/software.shtml" target="_parent">Open-source Software Produced</a>
-
-<hr>
 
 
 <!-- %%%% -->
@@ -63,6 +60,7 @@
 
 <br>
 
+<hr>
 <!--#include virtual="/sam-files/includes/links.html" -->
 
 <br>

@@ -15,6 +15,7 @@
 <br>
 
 <? include "./sam-files/includes/links.html"; ?>
+<hr>
 
 <br>
 
@@ -52,6 +53,7 @@
 
 <br>
 
+<hr>
 <? include "./sam-files/includes/links.html"; ?>
 
 <br>
