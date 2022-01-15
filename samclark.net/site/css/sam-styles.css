@@ -1,4 +1,5 @@
 /* 
+
 NOTES 
 * padding: top right bottom left;
 
@@ -102,7 +103,7 @@ ol.sam {
 
 div.sam-links-list {
   margin: 0 auto; 
-  font-size: 15px;
+  font-size: 14px;
   line-height: 23px; 
   text-align: center;
   width: 350px;
@@ -112,7 +113,21 @@ div.sam-links-list {
 div.sam-link-top {
   width: 350px;
   margin: 0 auto; 
-  font-size: 13px;
+  line-height: 15px;
+  padding: 12px 0px 0px 0px;
+}
+
+div.sam-link-bottom {
+  width: 350px;
+  margin: 0 auto; 
+  line-height: 15px;
+  padding: 0px 0px 0px 0px;
+}
+
+/*div.sam-link-top {
+  width: 350px;
+  margin: 0 auto; 
+  font-size: 14px;
   line-height: 20px;
   text-align: center;
   font-weight: bold;
@@ -122,12 +137,12 @@ div.sam-link-top {
 div.sam-link-bottom {
   width: 350px;
   margin: 0 auto; 
-  font-size: 13px;
+  font-size: 14px;
   line-height: 20px;
   text-align: center;
   font-weight: bold;
   padding: 0px 0px 0px 0px;
-}
+}*/
 
 /* Image */
 
@@ -253,6 +268,36 @@ a: ocus{
 a:active{
   color: red;
 }
+
+
+/* Navigation */
+
+.pill-nav a {
+  display: inline-block;
+  color: #0000A0;
+  text-align: center;
+  padding: 2px 8px 2px 8px;
+  text-decoration: none;
+  font-size: 13px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.pill-nav a:hover {
+  background-color: #0000A0;
+  color: white;
+}
+
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+/*<div class="pill-nav flex-parent jc-center">
+</div>*/
 
 
 /* Misc */

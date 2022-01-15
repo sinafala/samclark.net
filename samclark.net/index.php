@@ -20,7 +20,7 @@
 </div>
 
 <div class="sam-image">
-<a href="mailto:sam@samclark.net"><img class="sam" title="Sam Clark" src="/site/media/mug/sam.jpeg"></a>
+<a href="mailto:sam@samclark.net"><img class="sam" title="Sam Clark" src="/site/media/sam.jpg"></a>
 </div>
 
 <div class="sam-block">
