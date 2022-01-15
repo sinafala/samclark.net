@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's project page for software development related to methodological work in demography and epidemiology.">
   <meta name="keywords" content="Samuel Clark, software, R, R package, CRAN, Python, verbal autopsy, openVA, openVA Pipeline, InSilicoVA, pyCrossVA, epidemiology, demography.">
-<!--#include virtual="../includes/header.html" -->
+<!--#include virtual="/site/includes/header.html" -->
 <title>Samuel Clark - Software</title>
 </head>
 
 <body>
 
-<!--#include virtual="/sam-files/includes/links-top.html" -->
+<!--#include virtual="/site/includes/links-top.html" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -53,13 +53,13 @@
   <li><a href="https://github.com/sinafala/model-va-algorithms" target="_blank">Model Verbal Autopsy (VA) Algorithms</a></li>
 </ul>
 
-<h1>Replication Material for <a href="http://www.samclark.net/sam-files/pdfs/clark-2019_clark-a-general-age-specific-mortality-model-with-an-example-indexed-by-child-mortality-or-both-child-and-adult-mortality.zip" target="_blank">SVD-Comp Mortality Model</a></h1>
+<h1>Replication Material for <a href="http://www.samclark.net/site/pdfs/clark-2019_clark-a-general-age-specific-mortality-model-with-an-example-indexed-by-child-mortality-or-both-child-and-adult-mortality.zip" target="_blank">SVD-Comp Mortality Model</a></h1>
 
 <ul>
   <li><a href="https://github.com/sinafala/svd-comp" target="_blank">SVD-Component Mortality Model using Child or Child/Adult Mortality as Inputs</a></li>
 </ul> 
 
-<h1>Replication Material for <a href="http://www.samclark.net/sam-files/pdfs/clark-2021_kline-et-al-estimating-seroprevalence-of-sars-cov-2-in-ohio--a-bayesian-multilevel-poststratification-approach-with-multiple-diagnostic-tests.zip" target="_blank">COVID-19 Prevalence Method</a></h1>
+<h1>Replication Material for <a href="http://www.samclark.net/site/pdfs/clark-2021_kline-et-al-estimating-seroprevalence-of-sars-cov-2-in-ohio--a-bayesian-multilevel-poststratification-approach-with-multiple-diagnostic-tests.zip" target="_blank">COVID-19 Prevalence Method</a></h1>
 
 <ul>
   <li><a href="https://github.com/sinafala/bayes-prevalence" target="_blank">Bayes Prevalence: Bayesian, model-based method to estimate prevalence of COVID-19 from survey with multiple imperfect tests</a></li>
@@ -85,17 +85,17 @@ This project started off with me and has since become one of <a href="https://fa
 <h1>Structured Population Event History Register (SPEHR)</h1>
 
 <ul>
-  <li><a href="https://samclark.net/sam-files/spehr/SPEHR.pdf" target="_blank">Description</a></li>
-  <li><a href="https://samclark.net/sam-files/spehr/SPEHR-Joburg-Durban-2.0.mdb" target="_blank">Example Database 1</a></li>
-  <li><a href="https://samclark.net/sam-files/spehr/SPEHR-London-NewYork-2.0.mdb" target="_blank">Example Database 2</a></li>
-  <li><a href="https://samclark.net/sam-files/spehr/SPEHR-Merged-2.0.mdb" target="_blank">Example Database 3</a></li>
-  <li><a href="https://samclark.net/sam-files/spehr/SPEHR-Repeated-Demographic-Survey-OR-Population-Register-2.0.mdb" target="_blank">Example Database 4</a></li>
+  <li><a href="/site/misc/spehr/SPEHR.pdf" target="_blank">Description</a></li>
+  <li><a href="/site/misc/spehr/SPEHR-Joburg-Durban-2.0.mdb" target="_blank">Example Database 1</a></li>
+  <li><a href="/site/misc/spehr/SPEHR-London-NewYork-2.0.mdb" target="_blank">Example Database 2</a></li>
+  <li><a href="/site/misc/spehr/SPEHR-Merged-2.0.mdb" target="_blank">Example Database 3</a></li>
+  <li><a href="/site/misc/spehr/SPEHR-Repeated-Demographic-Survey-OR-Population-Register-2.0.mdb" target="_blank">Example Database 4</a></li>
 </ul>
 
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/sam-files/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/links-bottom.html" -->
    
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->

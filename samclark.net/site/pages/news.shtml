@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's news page.">
   <meta name="keywords" content="Samuel Clark, news.">
-<!--#include virtual="./includes/header.html" -->
+<!--#include virtual="/site/includes/header.html" -->
 <title>Samuel Clark - News</title>
 </head>
 
 <body>
 
-<!--#include virtual="/sam-files/includes/links-top.html" -->
+<!--#include virtual="/site/includes/links-top.html" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -30,7 +30,7 @@
 
 <h2>Published in <em>Annals of Epidemiology</em></h2>
 <p>
-  Norris Turner, A.,&nbsp;D. Kline,&nbsp;A. Norris, &nbsp;W.G. Phillips,&nbsp;E. Root,&nbsp;J. Wakefield,&nbsp;Z. Li,&nbsp;S. Lemeshow,&nbsp;M. Spahnie,&nbsp;A. Luff,&nbsp;Y. Chu,&nbsp;M.K. Francis,&nbsp;M. Gallo,&nbsp;P. Chakraborty,&nbsp;M. Lindstrom,&nbsp;G. Lozanski, &nbsp;W. Miller,&nbsp;S.J. CLARK (2021). <a href="http://www.samclark.net/sam-files/pdfs/clark-2021_norris-et-al-prevalence-of-current-and-past-COVID-19-in-Ohio-adults.zip" target="_blank">Prevalence of Current and Past COVID-19 in Ohio Adults</a>. <em>Annals of Epidemiology</em>. [&nbsp;<a href="http://doi.org/10.1016/j.annepidem.2021.11.009" target="_blank">DOI</a>&nbsp;]
+  Norris Turner, A.,&nbsp;D. Kline,&nbsp;A. Norris, &nbsp;W.G. Phillips,&nbsp;E. Root,&nbsp;J. Wakefield,&nbsp;Z. Li,&nbsp;S. Lemeshow,&nbsp;M. Spahnie,&nbsp;A. Luff,&nbsp;Y. Chu,&nbsp;M.K. Francis,&nbsp;M. Gallo,&nbsp;P. Chakraborty,&nbsp;M. Lindstrom,&nbsp;G. Lozanski, &nbsp;W. Miller,&nbsp;S.J. CLARK (2021). <a href="/site/cv/pdfs/clark-2021_norris-et-al-prevalence-of-current-and-past-COVID-19-in-Ohio-adults.zip" target="_blank">Prevalence of Current and Past COVID-19 in Ohio Adults</a>. <em>Annals of Epidemiology</em>. [&nbsp;<a href="http://doi.org/10.1016/j.annepidem.2021.11.009" target="_blank">DOI</a>&nbsp;]
 </p>
 <h2>Abstract</h2>
 <p>
@@ -77,7 +77,7 @@
 <h1 class="sam-date">2021-10-26</h1>
 <!-- %%%%%%%%%%%% -->
 <p>
-  This appeared on my Twitter feed recently: <a href="./misc/FormalDemog.pdf" target="_blank">Demography Abandons Its Core</a> by <a href="https://www.site.demog.berkeley.edu/ron-lee" target="_blank">Ron Lee</a> in 2001. Unfortunately this is still highly relevant, and those of us interested in formal demography as a recognizable field need to do something! <a href="https://formaldemography.github.io/working_group/" target="_blank">The Formal Demography Working Group</a> is being formed as a vehicle for doing that - please join if you are interested!
+  This appeared on my Twitter feed recently: <a href="/site/misc/FormalDemog.pdf" target="_blank">Demography Abandons Its Core</a> by <a href="https://www.site.demog.berkeley.edu/ron-lee" target="_blank">Ron Lee</a> in 2001. Unfortunately this is still highly relevant, and those of us interested in formal demography as a recognizable field need to do something! <a href="https://formaldemography.github.io/working_group/" target="_blank">The Formal Demography Working Group</a> is being formed as a vehicle for doing that - please join if you are interested!
 </p>
 
 
@@ -109,7 +109,7 @@
 
 <h2 id="PNAS-methods"> Published open-access in <em>PNAS</em>:</h2>
 <p>
-  Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turner, and S.&nbsp;J. CLARK (2021). <a href="http://www.samclark.net/sam-files/pdfs/clark-2021_kline-et-al-estimating-seroprevalence-of-sars-cov-2-in-ohio--a-bayesian-multilevel-poststratification-approach-with-multiple-diagnostic-tests.zip" target="_blank">Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests</a>. <em>Proceedings of the National Academy of Sciences</em>&nbsp;<em>118</em>(26), e2023947118. [&nbsp;<a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">DOI</a>&nbsp;]
+  Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turner, and S.&nbsp;J. CLARK (2021). <a href="/site/cv/pdfs/clark-2021_kline-et-al-estimating-seroprevalence-of-sars-cov-2-in-ohio--a-bayesian-multilevel-poststratification-approach-with-multiple-diagnostic-tests.zip" target="_blank">Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests</a>. <em>Proceedings of the National Academy of Sciences</em>&nbsp;<em>118</em>(26), e2023947118. [&nbsp;<a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">DOI</a>&nbsp;]
 </p>
 <h2>Abstract</h2>
 <p>
@@ -143,7 +143,7 @@
 <h1 class="sam-date">2021-04-01</h1>
 <!-- %%%%%%%%%%%% -->
 <p>
-  APHRC - the African Population Health Research Center - in Nairobi is seeking a consultant demographer for six months to lead the redesign of the Nairobi Urban Health and Demographic Surveillance System Site (NUHDSS). <a href="http://www.samclark.net/sam-files/misc/APHRC-Terms-of-Reference--Consultant-Demographer.pdf" target="_blank">Full details available here</a>.
+  APHRC - the African Population Health Research Center - in Nairobi is seeking a consultant demographer for six months to lead the redesign of the Nairobi Urban Health and Demographic Surveillance System Site (NUHDSS). <a href="http://www.samclark.net/site/misc/APHRC-Terms-of-Reference--Consultant-Demographer.pdf" target="_blank">Full details available here</a>.
 </p>
 
 
@@ -173,7 +173,7 @@
 <h1 class="sam-date">2021-03-24</h1>
 <!-- %%%%%%%%%%%% -->
 <p>
-  I gave a talk today at the 2021 'Berlin Demography Days': <a href="http://www.samclark.net/sam-files/talks/clark-2021-talk_global-population-studies-in-the-21st-century-priorities-challenges--mortality.pdf" target="_blank">Global Population Studies in the 21st Century: Priorities Challenges - Mortality</a>.
+  I gave a talk today at the 2021 'Berlin Demography Days': <a href="http://www.samclark.net/site/talks/clark-2021-talk_global-population-studies-in-the-21st-century-priorities-challenges--mortality.pdf" target="_blank">Global Population Studies in the 21st Century: Priorities Challenges - Mortality</a>.
 </p>
 
 
@@ -205,7 +205,7 @@ The 2030 agenda is the ecosystem of activities - many including population-level
 <h1 class="sam-date">2021-02-28</h1>
 <!-- %%%%%%%%%%%% -->
 <p>
-  Commentary in <i>PNAS</i>: <a href="http://www.samclark.net/sam-files/pdfs/clark-2021_clark-et-al-monitoring-epidemics-lessons-from-measuring-population-prevalence-of-the-coronavirus.pdf" target="_blank">Monitoring epidemics: Lessons from measuring population prevalence of the coronavirus</a> with Abigail Norris Turner. We highlight the need to improve response rates and to prepare a robust measurement capability to be ready for the next pandemic. <a href="https://doi.org/10.1073/pnas.2026412118" target="_blank">DOI</a>.
+  Commentary in <i>PNAS</i>: <a href="/site/cv/pdfs/clark-2021_clark-et-al-monitoring-epidemics-lessons-from-measuring-population-prevalence-of-the-coronavirus.pdf" target="_blank">Monitoring epidemics: Lessons from measuring population prevalence of the coronavirus</a> with Abigail Norris Turner. We highlight the need to improve response rates and to prepare a robust measurement capability to be ready for the next pandemic. <a href="https://doi.org/10.1073/pnas.2026412118" target="_blank">DOI</a>.
 </p>
 
 
@@ -217,7 +217,7 @@ The 2030 agenda is the ecosystem of activities - many including population-level
 
 <h2>Article out today in <i>PLoS One</i></h2> 
 <p>
-  <a href="http://www.samclark.net/sam-files/pdfs/clark-2021_houle-et-al-linking-the-timing-of-a-mothers-and-childs-death-comparative-evidence-from-two-rural-south-african-population-based-surveillance-studies.pdf" target="_blank">Linking the timing of a mother's and child's death: Comparative evidence from two rural South African population-based surveillance studies, 2000–2015</a> by Brian Houle, Chodziwadziwa W. Kabudula, Alan Stein, Dickman Gareta, Kobus Herbst, and Samuel J. Clark. <a href="https://doi.org/10.1371/journal.pone.0246671" target="_blank">DOI</a>.
+  <a href="/site/cv/pdfs/clark-2021_houle-et-al-linking-the-timing-of-a-mothers-and-childs-death-comparative-evidence-from-two-rural-south-african-population-based-surveillance-studies.pdf" target="_blank">Linking the timing of a mother's and child's death: Comparative evidence from two rural South African population-based surveillance studies, 2000–2015</a> by Brian Houle, Chodziwadziwa W. Kabudula, Alan Stein, Dickman Gareta, Kobus Herbst, and Samuel J. Clark. <a href="https://doi.org/10.1371/journal.pone.0246671" target="_blank">DOI</a>.
 </p>
 <h2>Abstract</h2>
 <p>
@@ -243,7 +243,7 @@ The 2030 agenda is the ecosystem of activities - many including population-level
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/sam-files/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/links-bottom.html" -->
 
 </body>
 

@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's project page for ####.">
   <meta name="keywords" content="Samuel Clark, Africa, epidemiology, demography, ####.">
-<!--#include virtual="../includes/header.html" -->
+<!--#include virtual="/site/includes/header.html" -->
 <title>Samuel Clark - ######## </title>
 </head>
 
 <body>
 
-<!--#include virtual="/sam-files/includes/links-top.html" -->
+<!--#include virtual="/site/includes/links-top.html" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -30,15 +30,15 @@
 </p>
 
 <ul>
-  <li><a href="http://www.samclark.net/sam-files/pdfs/.pdf" target="_blank">XXX</a></li>
-  <li><a href="http://www.samclark.net/sam-files/pdfs/.pdf" target="_blank">XXX</a></li>
-  <li><a href="http://www.samclark.net/sam-files/pdfs/.pdf" target="_blank">XXX</a></li>
+  <li><a href="http://www.samclark.net/site/pdfs/.pdf" target="_blank">XXX</a></li>
+  <li><a href="http://www.samclark.net/site/pdfs/.pdf" target="_blank">XXX</a></li>
+  <li><a href="http://www.samclark.net/site/pdfs/.pdf" target="_blank">XXX</a></li>
 </ul> 
 
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/sam-files/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/links-bottom.html" -->
 
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta name="author" content="Samuel Clark">
+  <meta name="description" content="Samuel Clark's news page.">
+  <meta name="keywords" content="Samuel Clark, news.">
+<!--#include virtual="/site/includes/header.html" -->
+<title>Samuel Clark - Talks/Presentations</title>
+</head>
+
+<body>
+
+<!--#include virtual="/site/includes/links-top.html" -->
+<hr class="nav-top">
+
+<div class="sam-title">
+  Talks/Presentations
+</div>
+
+<div class="sam-block">
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 id="dejongslides" class="sam-date">2021-10-01</h1>
+<!-- %%%%%%%%%%%% -->
+<p>
+  Discussant at the <a href="https://pop.psu.edu/events/16th-annual-de-jong-lecture-social-demography" target="_blank">16<sup>th</sup> annual De Jong Lecture in Social Demography</a> at Penn State. <a href="https://www.sas.upenn.edu/~hpkohler/" target="_blank">Hans Peter-Peter Kohler</a> is the featured speaker. My slides: <a href="/site/talks/Sam-Clark_De-Jong-Lecture_Discussant-Handout-2021-10-01.pdf" target="_blank">Discussant’s Remarks - Global Population Studies: Shaping the Future</a>
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date">2021-04-08</h1>
+<!-- %%%%%%%%%%%% -->
+<p>
+  Talk at the Population Studies Group at the London School of Hygiene and Tropical Medicine. <a href="/site/talks/Sam-Clark_LSHTM-presentation-handout-2021-04-08.pdf" target="_blank">Demography, Epidemiology, and Statistics: What's Next?</a>
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date">2021-03-24</h1>
+<!-- %%%%%%%%%%%% -->
+<p>
+  Invited talk at the 'Berlin Demography Days, 2021' sponsored by Population Europe. <a href="/site/talks/clark-2021-talk_global-population-studies-in-the-21st-century-priorities-challenges--mortality.pdf" target="_blank">Global Population Studies in the 21st Century: Priorities Challenges - Mortality</a>
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date">Earlier</h1>
+<!-- %%%%%%%%%%%% -->
+<p>
+  See <a href="/site/cv/Samuel-Clark_CV.pdf" target="_blank">CV</a> for a selected list of earlier talks. 
+</p>
+
+</div>
+
+<hr class="nav-bottom">
+<!--#include virtual="/site/includes/links-bottom.html" -->
+
+</body>
+
+</html>

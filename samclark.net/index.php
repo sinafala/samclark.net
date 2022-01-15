@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark is a demographer, epidemiologist, and data scientist who develops new methods and investigates population dynamics and epidemiology.">
   <meta name="keywords" content="Samuel Clark, demography, demographer, epidemiology, epidemiologistc, statistics, statistician, africa, methods, verbal autopsy, Ohio State University, University of Washington, Penn, Caltech, Ohio">
-  <? include "./sam-files/includes/header.html"; ?>
+  <? include "./site/includes/header.html"; ?>
   <title>Samuel Clark - Demographer</title>
 </head>
 
 <body>
 
-<? include "./sam-files/includes/links-top.html"; ?>
+<? include "./site/includes/links-top.html"; ?>
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -20,7 +20,7 @@
 </div>
 
 <div class="sam-image">
-<a href="mailto:sam@samclark.net"><img class="sam" title="Sam Clark" src="/sam-files/sam.jpeg"></a>
+<a href="mailto:sam@samclark.net"><img class="sam" title="Sam Clark" src="/site/media/mug/sam.jpeg"></a>
 </div>
 
 <div class="sam-block">
@@ -36,7 +36,7 @@
 </div>
 
 <hr class="nav-bottom">
-<? include "./sam-files/includes/links-bottom.html"; ?>
+<? include "./site/includes/links-bottom.html"; ?>
 
 <div class="sam-note-bottom">
 

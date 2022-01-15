@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's project page for work on COVID-19 in the state of Ohio.">
   <meta name="keywords" content="Samuel Clark, COVID-19, Ohio.">  
-<!--#include virtual="../includes/header.html" -->
+<!--#include virtual="/site/includes/header.html" -->
 <title>Samuel Clark - COVID-19</title>
 </head>
 
 <body>
 
-<!--#include virtual="/sam-files/includes/links-top.html" -->
+<!--#include virtual="/site/includes/links-top.html" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -44,7 +44,7 @@
 </p>
 
 <ul>
-  <li><a href="http://www.samclark.net/sam-files/pdfs/clark-2021_kline-et-al-estimating-seroprevalence-of-sars-cov-2-in-ohio--a-bayesian-multilevel-poststratification-approach-with-multiple-diagnostic-tests.zip" target="_blank">Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests</a>.</li>
+  <li><a href="http://www.samclark.net/site/pdfs/clark-2021_kline-et-al-estimating-seroprevalence-of-sars-cov-2-in-ohio--a-bayesian-multilevel-poststratification-approach-with-multiple-diagnostic-tests.zip" target="_blank">Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests</a>.</li>
   <li><a href="https://github.com/sinafala/bayes-prevalence" target="_blank">Bayes Prevalence: R code to implement new prevalence estimation method.</a></li>
 </ul>
 
@@ -55,7 +55,7 @@
 <ul>
   <li>Link to journal site: <a href="https://doi.org/10.1073/pnas.2026412118" target="_blank">Monitoring epidemics: Lessons from measuring population prevalence of the coronavirus"</a>.</li>
 
-  <li>Link to PDF: <a href="http://www.samclark.net/sam-files/pdfs/clark-2021_clark-et-al-monitoring-epidemics-lessons-from-measuring-population-prevalence-of-the-coronavirus.pdf" target="_blank">Monitoring Epidemics: Lessons from Measuring Population Prevalence of the Coronavirus</a>.</li>
+  <li>Link to PDF: <a href="http://www.samclark.net/site/pdfs/clark-2021_clark-et-al-monitoring-epidemics-lessons-from-measuring-population-prevalence-of-the-coronavirus.pdf" target="_blank">Monitoring Epidemics: Lessons from Measuring Population Prevalence of the Coronavirus</a>.</li>
 </ul>
 
 <h1>Excess Deaths Study</h1>
@@ -77,13 +77,13 @@
 </p>
 
 <ul>
-  <li><a href="http://www.samclark.net/sam-files/pdfs/clark-2020_setel-et-al-Mortality-surveillance-during-the-COVID-19-pandemic.pdf" target="_blank">Mortality surveillance during the COVID-19 pandemic</a>.</li>
+  <li><a href="http://www.samclark.net/site/pdfs/clark-2020_setel-et-al-Mortality-surveillance-during-the-COVID-19-pandemic.pdf" target="_blank">Mortality surveillance during the COVID-19 pandemic</a>.</li>
 </ul>
 
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/sam-files/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/links-bottom.html" -->
    
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->

@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's project page for work on data methods.">
   <meta name="keywords" content="Samuel Clark, data, methods, database, HDSS, schema, SPEHR.">  
-<!--#include virtual="../includes/header.html" -->
+<!--#include virtual="/site/includes/header.html" -->
 <title>Samuel Clark - Data Methods</title>
 </head>
 
 <body>
 
-<!--#include virtual="/sam-files/includes/links-top.html" -->
+<!--#include virtual="/site/includes/links-top.html" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -66,19 +66,19 @@
 Publications on SPEHR and and our generalized definition for a timestamp:
 
 <ul>
-  <li><a href="http://www.samclark.net/sam-files/pdfs/clark-2007_clark-introduction-spehr.pdf" target="_blank">An introduction to the General Temporal Data Model and the Structured Population Event History Register (SPEHR)</a></li>
+  <li><a href="http://www.samclark.net/site/pdfs/clark-2007_clark-introduction-spehr.pdf" target="_blank">An introduction to the General Temporal Data Model and the Structured Population Event History Register (SPEHR)</a></li>
   
-  <li><a href="http://www.samclark.net/sam-files/pdfs/clark-2006_clark-spehr.pdf" target="_blank">A general temporal data model and the structured population event history register</a></li> 
+  <li><a href="http://www.samclark.net/site/pdfs/clark-2006_clark-spehr.pdf" target="_blank">A general temporal data model and the structured population event history register</a></li> 
   
-  <li><a href="http://www.samclark.net/sam-files/pdfs/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa-(signed-copy-of-deposited-document).pdf" target="_blank">Part 4 of my PhD Dissertation</a></li>
+  <li><a href="http://www.samclark.net/site/pdfs/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa-(signed-copy-of-deposited-document).pdf" target="_blank">Part 4 of my PhD Dissertation</a></li>
   
-  <li><a href="http://www.samclark.net/sam-files/pdfs/clark-2005_benzler-et-al-timestamp.pdf" target="_blank">Toward a Unified Timestamp with explicit precision</a></li>
+  <li><a href="http://www.samclark.net/site/pdfs/clark-2005_benzler-et-al-timestamp.pdf" target="_blank">Toward a Unified Timestamp with explicit precision</a></li>
 </ul> 
 
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/sam-files/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/links-bottom.html" -->
    
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->
