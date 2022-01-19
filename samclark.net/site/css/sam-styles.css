@@ -237,11 +237,12 @@ h1.sam-date {
 
 h2 {
   margin-top: 6px;
-  margin-bottom: 1px;
-  font-size: 13px;
+  margin-bottom: 0px;
+  font-size: 12px;
 }
 
 h2.bib-year {
+  font-size: 13.5px;  
   margin-top: 12px;
   margin-bottom: 6px;
   color: green;

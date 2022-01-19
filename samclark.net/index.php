@@ -5,9 +5,9 @@
 <head>
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark is a demographer, epidemiologist, and data scientist who develops new methods and investigates population dynamics and epidemiology.">
-  <meta name="keywords" content="Samuel Clark, demography, demographer, epidemiology, epidemiologistc, statistics, statistician, africa, methods, verbal autopsy, Ohio State University, University of Washington, Penn, Caltech, Ohio">
+  <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, demography, demographer, epidemiology, epidemiologistc, statistics, statistician, africa, methods, verbal autopsy, Ohio State University, University of Washington, University of Colorado at Boulder, Penn, Caltech, Ohio">
   <? include "./site/includes/header.html"; ?>
-  <title>Samuel Clark - Demographer</title>
+  <title>Samuel J. Clark - Demographer</title>
 </head>
 
 <body>
@@ -61,7 +61,7 @@ Copyright 1999-2022 by Samuel J. Clark; all rights reserved.
 <br>
 
 <!-- UPDATE THIS -->
-Updated 2022-01-12
+Updated 2022-01-17
 <!-- UPDATE THIS -->
 
 </div>

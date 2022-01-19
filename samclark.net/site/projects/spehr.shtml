@@ -4,10 +4,10 @@
 
 <head>
   <meta name="author" content="Samuel Clark">
-  <meta name="description" content="Samuel Clark's project page for work on data methods.">
+  <meta name="description" content="Samuel Clark's project page for the Structured Population Event History Register (SPHER).">
   <meta name="keywords" content="Samuel Clark, data, methods, database, HDSS, schema, SPEHR.">  
 <!--#include virtual="/site/includes/header.html" -->
-<title>Samuel Clark - Data Methods - The Structured Population Event History Register</title>
+<title>Samuel Clark - The Structured Population Event History Register</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
 <hr class="nav-top">
 
 <div class="sam-title">
-  Data Methods - The Structured Population Event History Register
+  The Structured Population Event History Register
 </div>
 
 <div class="sam-block">
@@ -57,13 +57,7 @@
   Since at least the early 1990s, a small group - <a href="https://usm.maine.edu/cos/bruce-macleod" target="_blank">Bruce MacLeod</a>, <a href="https://www.researchgate.net/profile/Justus_Benzler" target="_blank">Justus Benzler</a>, <a href="https://www.ahri.org/scientist/kobus-herbst/" target="_blank">Kobus Herbst</a>, and me - has been interested in designing data models, more specifically relational database schemas, to make storage, management, and analysis of HDSS as accurate and easy as possible. In the context of this effort, I designed the Structured Population Event History Register (SPEHR). SPEHR is a very flexible, metadata-driven relational database schema for HDSS. 
 </p>
 
-<h1>Unified Timestamp Timestamp with Explicit Precision</h1>
-
-<p>
-  At around the same time Justus Benzler and I thought deeply about how to define a unified timestamp object that could handle all of the time-valued entities we encountered in HDSS, and also accurately represent the precision of measures associated with each of them.
-</p>
-
-Publications on SPEHR and and our generalized definition for a timestamp:
+<h2> Publications on SPEHR and and our generalized definition for a timestamp</h2>
 
 <ul>
   <li><a href="/site/cv/pdfs/clark-2007_clark-introduction-spehr.pdf" target="_blank">An introduction to the General Temporal Data Model and the Structured Population Event History Register (SPEHR)</a></li>
@@ -71,9 +65,17 @@ Publications on SPEHR and and our generalized definition for a timestamp:
   <li><a href="/site/cv/pdfs/clark-2006_clark-spehr.pdf" target="_blank">A general temporal data model and the structured population event history register</a></li> 
   
   <li><a href="/site/cv/pdfs/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa-(signed-copy-of-deposited-document).pdf" target="_blank">Part 4 of my PhD Dissertation</a></li>
-  
-  <li><a href="/site/cv/pdfs/clark-2005_benzler-et-al-timestamp.pdf" target="_blank">Toward a Unified Timestamp with explicit precision</a></li>
 </ul> 
+
+<h2>SPEHR description and example databases for download</h2>
+
+<ul>
+  <li><a href="/site/misc/spehr/SPEHR.pdf" target="_blank">Description</a></li>
+  <li><a href="/site/misc/spehr/SPEHR-Joburg-Durban-2.0.mdb" target="_blank">Example Database 1</a></li>
+  <li><a href="/site/misc/spehr/SPEHR-London-NewYork-2.0.mdb" target="_blank">Example Database 2</a></li>
+  <li><a href="/site/misc/spehr/SPEHR-Merged-2.0.mdb" target="_blank">Example Database 3</a></li>
+  <li><a href="/site/misc/spehr/SPEHR-Repeated-Demographic-Survey-OR-Population-Register-2.0.mdb" target="_blank">Example Database 4</a></li>
+</ul>
 
 </div>
 
