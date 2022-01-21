@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's project page for software development related to methodological work in demography and epidemiology.">
   <meta name="keywords" content="Samuel Clark, software, R, R package, CRAN, Python, verbal autopsy, openVA, openVA Pipeline, InSilicoVA, pyCrossVA, epidemiology, demography.">
-<!--#include virtual="/site/includes/header.html" -->
-<title>Samuel Clark - Software</title>
+  <!--#include virtual="/site/includes/header.html" -->
+  <title>Samuel Clark - Software</title>
 </head>
 
 <body>
 
-<!--#include virtual="/site/includes/links-top.html" -->
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -95,7 +95,7 @@ This project started off with me and has since become one of <a href="https://fa
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/site/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
    
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->

@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's bibliography of published work and working papers.">
   <meta name="keywords" content="Samuel Clark, bibliography, published, working paper, journal article.">
-<!--#include virtual="/site/includes/header.html" -->
-<title>Samuel Clark - Bibliography</title>
+  <!--#include virtual="/site/includes/header.html" -->
+  <title>Samuel Clark - Bibliography</title>
 </head>
 
 <body>
 
-<!--#include virtual="/site/includes/links-top.html" -->
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -1850,7 +1850,7 @@ Probabilistic projections of hiv prevalence using bayesian melding.
 
 
 <hr class="nav-bottom">
-<!--#include virtual="/site/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
 
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->

@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's news page.">
   <meta name="keywords" content="Samuel Clark, news.">
-<!--#include virtual="/site/includes/header.html" -->
-<title>Samuel Clark - News</title>
+  <!--#include virtual="/site/includes/header.html" -->
+  <title>Samuel Clark - News</title>
 </head>
 
 <body>
 
-<!--#include virtual="/site/includes/links-top.html" -->
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -243,7 +243,7 @@ The 2030 agenda is the ecosystem of activities - many including population-level
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/site/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
 
 </body>
 

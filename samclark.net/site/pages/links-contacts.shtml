@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Links to Samuel Clark's research resources.">
   <meta name="keywords" content="Samuel Clark, links.">
-<!--#include virtual="/site/includes/header.html" -->
-<title>Samuel Clark - Links/Contacts</title>
+  <!--#include virtual="/site/includes/header.html" -->
+  <title>Samuel Clark - Links/Contacts</title>
 </head>
 
 <body>
 
-<!--#include virtual="/site/includes/links-top.html" -->
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -20,34 +20,34 @@
 </div>
 
 <div class="sam-links-list">
-<a href="/site/cv/Samuel-Clark_CV.pdf" target="_blank">CV - PDF with Links</a>
-<div class="sam-note">Updated 2022-01-17</div>
+<a href="/site/cv/Samuel-Clark_CV.pdf?ver=11" target="_blank">CV - PDF with Links</a>
+<div class="sam-note">Updated 2022-01-18</div>
 </div>
 
 <div class="sam-links-list">
-<a href="/site/pages/bibliography.shtml" target="_parent">Bibliography with Links</a> <br>
-<a href="/site/cv/Sam-Clark-Publications.zip" download>Download Publications</a> <br>
+<a href="/site/pages/bibliography.shtml" target="_parent">Bibliography with Links</a><br>
+<a href="/site/cv/Sam-Clark-Publications.zip" download>Download Publications</a><br>
 </div>
 
 <div class="sam-links-list">
-<a href="https://scholar.google.com/citations?hl=en&user=UrIBW-IAAAAJ" target="_blank">Google Scholar</a>
-<a href="https://publons.com/researcher/2872352/samuel-j-clark/" target="_blank">Web of Science Publons</a> <br>
-<a href="https://www.ncbi.nlm.nih.gov/sites/myncbi/samuel.clark.1/bibliography/40790348/public/" target="_blank">NIH NCBI bibliography</a> <br>
+<a href="https://scholar.google.com/citations?hl=en&user=UrIBW-IAAAAJ" target="_blank">Google Scholar</a><br>
+<a href="https://publons.com/researcher/2872352/samuel-j-clark/" target="_blank">Web of Science Publons</a><br>
+<a href="https://www.ncbi.nlm.nih.gov/sites/myncbi/samuel.clark.1/bibliography/40790348/public/" target="_blank">NIH NCBI bibliography</a><br>
 <a href="https://orcid.org/0000-0002-4929-6231" target="_blank">ORCID</a>
 </div>
 
 <div class="sam-links-list">
-<a href="https://github.com/sinafala/" target="_blank">Github: sinafala</a> <br>
-<a href="https://twitter.com/sinafala" target="_blank">Twitter: @sinafala</a> <br>
+<a href="https://github.com/sinafala/" target="_blank">Github: sinafala</a><br>
+<a href="https://twitter.com/sinafala" target="_blank">Twitter: @sinafala</a><br>
 sam [at] samclark.net
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/site/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
 
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->
-Updated 2022-01-17
+Updated 2022-01-18
 <!-- UPDATE THIS -->
 </div>
 

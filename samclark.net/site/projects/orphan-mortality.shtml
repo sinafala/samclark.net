@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's project page for work on the effects of orphanhood on mortality of young children.">
   <meta name="keywords" content="Samuel Clark, Africa, epidemiology, demography, orphan, mortality, mother's death.">
-<!--#include virtual="/site/includes/header.html" -->
-<title>Samuel Clark - Orphan Mortality</title>
+  <!--#include virtual="/site/includes/header.html" -->
+  <title>Samuel Clark - Orphan Mortality</title>
 </head>
 
 <body>
 
-<!--#include virtual="/site/includes/links-top.html" -->
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -50,7 +50,7 @@
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/site/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
    
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->

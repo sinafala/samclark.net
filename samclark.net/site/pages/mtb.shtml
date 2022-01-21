@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's mountain biking page.">
   <meta name="keywords" content="Samuel Clark, mountain bike.">
-  <!--#include virtual="/site/includes/header.html" -->
-<title>Samuel Clark - Mountain Bike</title>
+    <!--#include virtual="/site/includes/header.html" -->
+  <title>Samuel Clark - Mountain Bike</title>
 </head>
 
 <body>
 
-<!--#include virtual="/site/includes/links-top.html" -->
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -293,7 +293,7 @@ Alum Creek Phase II, Autumn 2021
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/site/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
 
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->

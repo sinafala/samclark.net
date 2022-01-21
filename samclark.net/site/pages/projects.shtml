@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's projects page.">
   <meta name="keywords" content="Samuel Clark, projects.">
-<!--#include virtual="/site/includes/header.html" -->
-<title>Samuel Clark - Projects</title>
+  <!--#include virtual="/site/includes/header.html" -->
+  <title>Samuel Clark - Projects</title>
 </head>
 
 <body>
 
-<!--#include virtual="/site/includes/links-top.html" -->
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -45,7 +45,7 @@
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/site/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
 
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->

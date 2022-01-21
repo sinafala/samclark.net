@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's project page for work on COVID-19 in the state of Ohio.">
   <meta name="keywords" content="Samuel Clark, COVID-19, Ohio.">  
-<!--#include virtual="/site/includes/header.html" -->
-<title>Samuel Clark - COVID-19</title>
+  <!--#include virtual="/site/includes/header.html" -->
+  <title>Samuel Clark - COVID-19</title>
 </head>
 
 <body>
 
-<!--#include virtual="/site/includes/links-top.html" -->
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -83,7 +83,7 @@
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/site/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
    
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->

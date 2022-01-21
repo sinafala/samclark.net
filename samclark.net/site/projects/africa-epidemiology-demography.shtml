@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's project page for work related to Africa, demography, and epidemiology.">
   <meta name="keywords" content="Samuel Clark, Africa, epidemiology, demography.">
-<!--#include virtual="/site/includes/header.html" -->
-<title>Samuel Clark - Africa: Epidemiology and Demography</title>
+  <!--#include virtual="/site/includes/header.html" -->
+  <title>Samuel Clark - Africa: Epidemiology and Demography</title>
 </head>
 
 <body>
 
-<!--#include virtual="/site/includes/links-top.html" -->
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -100,7 +100,7 @@
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/site/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
    
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->

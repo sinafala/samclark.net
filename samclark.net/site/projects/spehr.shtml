@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's project page for the Structured Population Event History Register (SPHER).">
   <meta name="keywords" content="Samuel Clark, data, methods, database, HDSS, schema, SPEHR.">  
-<!--#include virtual="/site/includes/header.html" -->
-<title>Samuel Clark - The Structured Population Event History Register</title>
+  <!--#include virtual="/site/includes/header.html" -->
+  <title>Samuel Clark - The Structured Population Event History Register</title>
 </head>
 
 <body>
 
-<!--#include virtual="/site/includes/links-top.html" -->
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -80,7 +80,7 @@
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/site/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
    
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->

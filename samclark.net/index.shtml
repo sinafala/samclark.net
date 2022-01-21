@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark is a demographer, epidemiologist, and data scientist who develops new methods and investigates population dynamics and epidemiology.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, demography, demographer, epidemiology, epidemiologistc, statistics, statistician, africa, methods, verbal autopsy, Ohio State University, University of Washington, University of Colorado at Boulder, Penn, Caltech, Ohio">
-  <? include "./site/includes/header.html"; ?>
+  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel J. Clark - Demographer</title>
 </head>
 
 <body>
 
-<? include "./site/includes/links-top.html"; ?>
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -36,32 +36,16 @@
 </div>
 
 <hr class="nav-bottom">
-<? include "./site/includes/links-bottom.html"; ?>
+<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
 
 <div class="sam-note-bottom">
-
-Page loads since 2020-05-06: 
-<strong>
-<?php
-  $hits = intval(file_get_contents('counter.txt'));
-  file_put_contents('counter.txt',$hits+1);
-  echo ($hits+1);
-  // append current hit counter to log
-  $file = fopen('hit_log.txt', 'a'); // open hit log in append mode 
-  // append timestamp and new hit value 
-  fwrite($file, date('Y-m-d H:i:s').': '.($hits+1)."\n");
-  fclose($file);
-?>
-</strong>
-
-<br>
 
 Copyright 1999-2022 by Samuel J. Clark; all rights reserved.
 
 <br>
 
 <!-- UPDATE THIS -->
-Updated 2022-01-17
+Updated 2022-01-21
 <!-- UPDATE THIS -->
 
 </div>

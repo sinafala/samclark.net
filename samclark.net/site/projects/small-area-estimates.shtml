@@ -6,13 +6,13 @@
   <meta name="author" content="Samuel Clark">
   <meta name="description" content="Samuel Clark's project page for work on small-area estimation methods for demography.">
   <meta name="keywords" content="Samuel Clark, africa, epidemiology, demography, small-area estimates, statistics, complex sample, survey.">
-<!--#include virtual="/site/includes/header.html" -->
-<title>Samuel Clark - Small-area Estimates</title>
+  <!--#include virtual="/site/includes/header.html" -->
+  <title>Samuel Clark - Small-area Estimates</title>
 </head>
 
 <body>
 
-<!--#include virtual="/site/includes/links-top.html" -->
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
 <hr class="nav-top">
 
 <div class="sam-title">
@@ -62,7 +62,7 @@
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/site/includes/links-bottom.html" -->
+<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
    
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->
