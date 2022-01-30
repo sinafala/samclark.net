@@ -25,6 +25,28 @@
 
 
 <!-- %%%%%%%%%%%% -->
+<h1 class="sam-date">2022-01-23</h1>
+<!-- %%%%%%%%%%%% -->
+
+<p>
+  I discovered something new (to me) that will be useful. Elements of the vector defined by the perpendicular projection of a vector \( \vec{p} = \{p_1,p_2\} \) onto the line \( y=x \) are the arithmetic mean of \( p_1 \) and \( p_2 \):
+  \begin{align} 
+  \mbox{proj}_\vec{p}\hat{e} &= \frac{\vec{p} \cdot \hat{e}}{\hat{e} \cdot \hat{e}} \hat{e} \\
+  &= \frac{p_1e + p_2e}{e^2 + e^2} \hat{e} \\
+  &= \frac{p_1 + p_2}{2e} \hat{e} \\
+  &= \left\{\frac{p_1 + p_2}{2},\frac{p_1 + p_2}{2}\right\} \\
+  \end{align}
+  where '\( \cdot \)' is the dot product, \(\hat{e} = \{e_1,e_2\} \) is the unit vector in the direction of \( y=x \), and \(e = e_1 = e_2 \).
+</p><p>
+  I noticed something else interesting (also new to me). The projection of a point onto every line through the origin forms a circle. In the image below, the red point (2,4.5) is projected onto a set of the lines through the origin and each is marked with a black dot and connected with a red line.
+</p>
+<a href="/site/media/misc/projectionCircle.jpg" target="_blank"><img class="mtb" title="Projection Circle" src="/site/media/misc/projectionCircle.jpg" width="350" height="350">
+</a>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
 <h1 class="sam-date">2021-12-28</h1>
 <!-- %%%%%%%%%%%% -->
 
