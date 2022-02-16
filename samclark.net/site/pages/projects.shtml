@@ -44,12 +44,16 @@
 <a href="/site/projects/software.shtml" target="_parent">Open-source Software Produced</a>
 </div>
 
+<div class="sam-links-list">
+<a href="https://openva.net" target="_blank">openVA Team</a><br>
+</div>
+
 <hr class="nav-bottom">
 <!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
 
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->
-Updated 2021-03-24
+Updated 2022-02-09
 <!-- UPDATE THIS -->
 </div>
 

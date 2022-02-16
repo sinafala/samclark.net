@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 
 <html lang="en">
 
@@ -6,7 +6,7 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's mountain biking page.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, mountain bike.">
-    <!--#include virtual="/site/includes/header.html" -->
+  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel Clark - Mountain Bike</title>
 </head>
 
@@ -20,6 +20,7 @@
 </div>
 
 <div class="sam-block">
+
 <p>
   I have ridden mountain bikes for many years. Here are some recent highlights.
 </p>
