@@ -63,17 +63,27 @@
   At around the same time Justus Benzler and I thought deeply about how to define a unified timestamp object that could handle all of the time-valued entities we encountered in HDSS, and also accurately represent the precision of measures associated with each of them.
 </p>
 
-Publications on SPEHR and and our generalized definition for a timestamp:
+<h2>Publications on SPEHR and and our generalized definition for a timestamp:</h2>
 
 <ul>
-  <li><a href="/site/cv/pdfs/clark-2007_clark-introduction-spehr.pdf" target="_blank">An introduction to the General Temporal Data Model and the Structured Population Event History Register (SPEHR)</a></li>
+  <li><a href="https://dx.doi.org/10.1080/14034950701355452" target="_blank">An introduction to the General Temporal Data Model and the Structured Population Event History Register (SPEHR)</a></li>
   
-  <li><a href="/site/cv/pdfs/clark-2006_clark-spehr.pdf" target="_blank">A general temporal data model and the structured population event history register</a></li> 
+  <li><a href="https://dx.doi.org/10.4054/DemRes.2006.15.7" target="_blank">A general temporal data model and the structured population event history register</a></li> 
   
-  <li><a href="/site/cv/pdfs/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa-(signed-copy-of-deposited-document).pdf" target="_blank">Part 4 of my PhD Dissertation</a></li>
+  <li><a href="/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf" target="_blank">Part 4 of my PhD Dissertation</a></li>
   
-  <li><a href="/site/cv/pdfs/clark-2005_benzler-et-al-timestamp.pdf" target="_blank">Toward a Unified Timestamp with explicit precision</a></li>
+  <li><a href="https://dx.doi.org/10.4054/DemRes.2005.12.6" target="_blank">Toward a Unified Timestamp with explicit precision</a></li>
 </ul> 
+
+<h2>SPEHR description and example databases for download</h2>
+
+<ul>
+  <li><a href="/site/misc/spehr/SPEHR.pdf" target="_blank">Description</a></li>
+  <li><a href="/site/misc/spehr/SPEHR-Joburg-Durban-2.0.mdb" target="_blank">Example Database 1</a></li>
+  <li><a href="/site/misc/spehr/SPEHR-London-NewYork-2.0.mdb" target="_blank">Example Database 2</a></li>
+  <li><a href="/site/misc/spehr/SPEHR-Merged-2.0.mdb" target="_blank">Example Database 3</a></li>
+  <li><a href="/site/misc/spehr/SPEHR-Repeated-Demographic-Survey-OR-Population-Register-2.0.mdb" target="_blank">Example Database 4</a></li>
+</ul>
 
 </div>
 

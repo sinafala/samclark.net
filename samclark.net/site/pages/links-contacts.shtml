@@ -26,7 +26,8 @@
 
 <div class="sam-links-list">
 <a href="/site/pages/bibliography.shtml" target="_parent">Bibliography with Links</a><br>
-<a href="/site/cv/Sam-Clark-Publications.zip" download>Download Publications</a><br>
+<!-- <a href="/site/cv/Sam-Clark-Publications.zip" download>Download Publications</a><br> -->
+<a href="mailto:sam@samclark.net?subject=Offprint request: ">Request Offprints</a>
 </div>
 
 <div class="sam-links-list">
@@ -39,7 +40,7 @@
 <div class="sam-links-list">
 <a href="https://github.com/sinafala/" target="_blank">Github: sinafala</a><br>
 <a href="https://twitter.com/sinafala" target="_blank">Twitter: @sinafala</a><br>
-sam /at/ samclark.net
+<a href="mailto:sam@samclark.net?subject=From samclark.net: ">sam /at/ samclark.net</a>
 </div>
 
 <div class="sam-links-list">

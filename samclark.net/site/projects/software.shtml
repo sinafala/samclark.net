@@ -53,13 +53,13 @@
   <li><a href="https://github.com/sinafala/model-va-algorithms" target="_blank">Model Verbal Autopsy (VA) Algorithms</a></li>
 </ul>
 
-<h1>Replication Material for <a href="/site/cv/pdfs/clark-2019_clark-a-general-age-specific-mortality-model-with-an-example-indexed-by-child-mortality-or-both-child-and-adult-mortality.zip" target="_blank">SVD-Comp Mortality Model</a></h1>
+<h1>Replication Material for <a href="http://dx.doi.org/10.1007/s13524-019-00785-3" target="_blank">SVD-Comp Mortality Model</a></h1>
 
 <ul>
   <li><a href="https://github.com/sinafala/svd-comp" target="_blank">SVD-Component Mortality Model using Child or Child/Adult Mortality as Inputs</a></li>
 </ul> 
 
-<h1>Replication Material for <a href="/site/cv/pdfs/clark-2021_kline-et-al-estimating-seroprevalence-of-sars-cov-2-in-ohio--a-bayesian-multilevel-poststratification-approach-with-multiple-diagnostic-tests.zip" target="_blank">COVID-19 Prevalence Method</a></h1>
+<h1>Replication Material for <a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">COVID-19 Prevalence Method</a></h1>
 
 <ul>
   <li><a href="https://github.com/sinafala/bayes-prevalence" target="_blank">Bayes Prevalence: Bayesian, model-based method to estimate prevalence of COVID-19 from survey with multiple imperfect tests</a></li>
