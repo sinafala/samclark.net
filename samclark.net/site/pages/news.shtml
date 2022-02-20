@@ -25,6 +25,32 @@
 
 
 <!-- %%%%%%%%%%%% -->
+<h1 class="sam-date">2022-02-20</h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>Accepted in <em>BMC Public Health</em></h2>
+<p>
+  Houle,&nbsp;B., C.W.&nbsp;Kabudula, A.M.&nbsp;Tilstra, S.A. Mojola, E.&nbsp;Schatz, S.J.&nbsp;CLARK, N.&nbsp;Angotti, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, and J.&nbsp;Menken (2022 <em>forthcoming</em>). 
+
+  <b>Twin epidemics: The Effects of HIV and Systolic Blood Pressure on Mortality Risk in Rural South Africa, 2010-2019.</b> 
+
+  <em>BMC Public Health</em>.
+</p>
+<h2>Abstract</h2>
+<p>
+  <em>Background</em>. Sub-Saharan African settings are experiencing dual epidemics of HIV and hypertension. We investigate effects of each condition on mortality and further examine whether HIV and hypertension interact in determining
+mortality.
+</p><p>
+  <em>Methods</em>. Data come from the 2010 Ha Nakekela population-based survey of individuals ages 40 and older (1,802 women; 1,107 men) nested in the Agincourt Health and socio-Demographic Surveillance System in rural South Africa, which provides mortality follow-up from population surveillance until mid-2019. Using discrete-time event history models stratified by sex, we assessed differential mortality risks according to baseline measures of HIV infection, HIV-1 RNA viral load, and systolic blood pressure.
+</p><p>
+  <em>Results</em>. During the 8-year follow-up period, mortality was high (477 deaths). 37% of men (mortality rate 987.53/100,00, 95% CI: 986.26 to 988.79) and 25% of women (mortality rate 937.28/100,000, 95% CI: 899.7 to 974.88) died. Over a quarter of participants were living with HIV (PLWH) at baseline, over 50% of whom had unsuppressed viral loads. The share of the population with a systolic blood pressure of 140mm Hg or higher increased from 24% at ages 40-59 to 50% at ages 75-plus and was generally higher for those not living with HIV compared to PLWH. Men and women with unsuppressed viral load had elevated mortality risks (men: adjusted odds ratio (aOR) 3.23, 95% CI: 2.21 to 4.71, women: aOR 2.05, 95% CI: 1.27 to 3.30). There was a weak, non-linear relationship between systolic blood pressure and higher mortality risk. We found no significant interaction between systolic blood pressure and HIV status for either men or women (p>0.05).
+</p><p>
+  <em>Conclusions</em>. Our results indicate that HIV and elevated blood pressure are acting as separate, non-interacting epidemics affecting high proportions of the older adult population. PLWH with unsuppressed viral load were at higher mortality risk compared to those uninfected. Systolic blood pressure was a mortality risk factor independent of HIV status. As antiretroviral therapy becomes more widespread, further longitudinal follow-up is needed to understand how the dynamics of increased longevity and multimorbidity among people living with both HIV and high blood pressure, as well as the emergence of COVID-19, may alter these patterns.
+</p>
+
+
+
+<!-- %%%%%%%%%%%% -->
 <h1 class="sam-date">2022-01-23</h1>
 <!-- %%%%%%%%%%%% -->
 
@@ -52,17 +78,23 @@
 
 <h2>Published in <em>Annals of Epidemiology</em></h2>
 <p>
-  Norris Turner, A.,&nbsp;D. Kline,&nbsp;A. Norris, &nbsp;W.G. Phillips,&nbsp;E. Root,&nbsp;J. Wakefield,&nbsp;Z. Li,&nbsp;S. Lemeshow,&nbsp;M. Spahnie,&nbsp;A. Luff,&nbsp;Y. Chu,&nbsp;M.K. Francis,&nbsp;M. Gallo,&nbsp;P. Chakraborty,&nbsp;M. Lindstrom,&nbsp;G. Lozanski, &nbsp;W. Miller,&nbsp;S.J. CLARK (2021). <a href="/site/cv/pdfs/clark-2021_norris-et-al-prevalence-of-current-and-past-COVID-19-in-Ohio-adults.zip" target="_blank">Prevalence of Current and Past COVID-19 in Ohio Adults</a>. <em>Annals of Epidemiology</em>. [&nbsp;<a href="http://doi.org/10.1016/j.annepidem.2021.11.009" target="_blank">DOI</a>&nbsp;]
+  Norris Turner, A.,&nbsp;D. Kline,&nbsp;A. Norris, &nbsp;W.G. Phillips,&nbsp;E. Root,&nbsp;J. Wakefield,&nbsp;Z. Li,&nbsp;S. Lemeshow,&nbsp;M. Spahnie,&nbsp;A. Luff,&nbsp;Y. Chu,&nbsp;M.K. Francis,&nbsp;M. Gallo,&nbsp;P. Chakraborty,&nbsp;M. Lindstrom,&nbsp;G. Lozanski, &nbsp;W. Miller,&nbsp;S.J. CLARK (2021). 
+  
+  <b>Prevalence of Current and Past COVID-19 in Ohio Adults</b>. 
+  
+  <em>Annals of Epidemiology</em>. 
+  
+  [&nbsp;<a href="http://doi.org/10.1016/j.annepidem.2021.11.009" target="_blank">DOI</a>&nbsp;]
 </p>
 <h2>Abstract</h2>
 <p>
-<em>Purpose</em> To estimate the prevalence of current and past COVID-19 in Ohio adults.
+  <em>Purpose</em>. To estimate the prevalence of current and past COVID-19 in Ohio adults.
 </p><p>
-<em>Methods</em> We used stratified, probability-proportionate-to-size cluster sampling. During July 2020, we enrolled 727 randomly-sampled adult English- and Spanish-speaking participants through a household survey. Participants provided nasopharyngeal swabs and blood samples to detect current and past COVID-19. We used Bayesian latent class models with multilevel regression and poststratification to calculate the adjusted prevalence of current and past COVID-19. We accounted for the potential effects of non–ignorable non–response bias.
+  <em>Methods</em>. We used stratified,  probability-proportionate-to-size cluster sampling. During July 2020, we enrolled 727 randomly-sampled adult English- and Spanish-speaking participants through a household survey. Participants provided nasopharyngeal swabs and blood samples to detect current and past COVID-19. We used Bayesian latent class models with multilevel regression and poststratification to calculate the adjusted prevalence of current and past COVID-19. We accounted for the potential effects of non–ignorable non–response bias.
 </p><p>
-<em>Results</em> The estimated statewide prevalence of current COVID-19 was 0.9% (95% credible interval: 0.1%–2.0%), corresponding to ∼85,000 prevalent infections (95% credible interval: 6,300–177,000) in Ohio adults during the study period. The estimated statewide prevalence of past COVID-19 was 1.3% (95% credible interval: 0.2%–2.7%), corresponding to ∼118,000 Ohio adults (95% credible interval: 22,000–240,000). Estimates did not change meaningfully due to non–response bias.
+  <em>Results</em>. The estimated statewide prevalence of current COVID-19 was 0.9% (95% credible interval: 0.1%–2.0%), corresponding to ∼85,000 prevalent infections (95% credible interval: 6,300–177,000) in Ohio adults during the study period. The estimated statewide prevalence of past COVID-19 was 1.3% (95% credible interval: 0.2%–2.7%), corresponding to ∼118,000 Ohio adults (95% credible interval: 22,000–240,000). Estimates did not change meaningfully due to non–response bias.
 </p><p>
-<em>Conclusions</em> Total COVID-19 cases in Ohio in July 2020 were approximately 3.5 times as high as diagnosed cases. The lack of broad COVID-19 screening in the United States early in the pandemic resulted in a paucity of population-representative prevalence data, limiting the ability to measure the effects of statewide control efforts.
+  <em>Conclusions</em>. Total COVID-19 cases in Ohio in July 2020 were approximately 3.5 times as high as diagnosed cases. The lack of broad COVID-19 screening in the United States early in the pandemic resulted in a paucity of population-representative prevalence data, limiting the ability to measure the effects of statewide control efforts.
 </p>
 <h2>Context</h2>
 <p>
@@ -80,11 +112,14 @@
 <h1 class="sam-date">2021-12-22</h1>
 <!-- %%%%%%%%%%%% -->
 
-<h2> New working paper on arXiv</h2> 
+<h2>New working paper on arXiv</h2> 
 <p>
-  Li,&nbsp;Z.&nbsp;R., Z.&nbsp;Wu, I.&nbsp;Chen, and S.&nbsp;J.&nbsp;CLARK (2021).
-  Bayesian Nested Latent Class Models for Cause-of-Death Assignment using Verbal Autopsies Across Multiple Domains.
+  Li,&nbsp;Z.&nbsp;R., Z.&nbsp;Wu, I.&nbsp;Chen, and S.&nbsp;J.&nbsp;CLARK (2021). 
+
+  <b>Bayesian Nested Latent Class Models for Cause-of-Death Assignment using Verbal Autopsies Across Multiple Domains.</b> 
+  
   <em>arXiv Preprint</em>&nbsp;<em>arXiv:2112.12186</em>.
+  
   [&nbsp;<a href="https://arxiv.org/abs/2112.12186" target="_blank">PDF</a>&nbsp;]
 </p>
 <h2>Abstract</h2>
@@ -131,7 +166,13 @@
 
 <h2 id="PNAS-methods"> Published open-access in <em>PNAS</em>:</h2>
 <p>
-  Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turner, and S.&nbsp;J. CLARK (2021). <a href="/site/cv/pdfs/clark-2021_kline-et-al-estimating-seroprevalence-of-sars-cov-2-in-ohio--a-bayesian-multilevel-poststratification-approach-with-multiple-diagnostic-tests.zip" target="_blank">Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests</a>. <em>Proceedings of the National Academy of Sciences</em>&nbsp;<em>118</em>(26), e2023947118. [&nbsp;<a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">DOI</a>&nbsp;]
+  Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turner, and S.&nbsp;J. CLARK (2021). 
+
+  <b>Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests</b>. 
+
+  <em>Proceedings of the National Academy of Sciences</em>&nbsp;<em>118</em>(26), e2023947118. 
+
+  [&nbsp;<a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">DOI</a>&nbsp;]
 </p>
 <h2>Abstract</h2>
 <p>
@@ -210,14 +251,14 @@
 </p>
 <h2>New working paper on arXiv</h2>
 <p>
-  I posted a slightly edited version of a paper titled <a href="https://arxiv.org/abs/2103.03910" target="_blank">Health and Demographic Surveillance Systems and the 2030 Agenda: Sustainable Development Goals</a> on <i>arXiv</i>. This paper was invited at a UN Population Division experts' group meeting titled 'Strengthening the Demographic Evidence Base for the Post-2015 Development Agenda' that happened in New York, USA October 5-6, 2015.
+  I posted a slightly edited version of a paper titled <a href="https://arxiv.org/abs/2103.03910" target="_blank"><b>"Health and Demographic Surveillance Systems and the 2030 Agenda: Sustainable Development Goals"</b></a> on <i>arXiv</i>. This paper was invited at a UN Population Division experts' group meeting titled 'Strengthening the Demographic Evidence Base for the Post-2015 Development Agenda' that happened in New York, USA October 5-6, 2015.
 </p>
 <h2>Abstract</h2>
 <p>
-The health and demographic surveillance system (HDSS) is an old method for intensively monitoring a population to assess the effects of healthcare or other population-level interventions - often clinical trials. The strengths of HDSS include very detailed descriptions of whole populations with frequent updates. This often provides long time series of accurate population and health indicators for the HDSS study population. The primary weakness of HDSS is that the data describe only the HDSS study population and cannot be generalized beyond that.
+  The health and demographic surveillance system (HDSS) is an old method for intensively monitoring a population to assess the effects of healthcare or other population-level interventions - often clinical trials. The strengths of HDSS include very detailed descriptions of whole populations with frequent updates. This often provides long time series of accurate population and health indicators for the HDSS study population. The primary weakness of HDSS is that the data describe only the HDSS study population and cannot be generalized beyond that.
 </p>
 <p>
-The 2030 agenda is the ecosystem of activities - many including population-level monitoring - that relate to the United Nations (UN) Sustainable Development Goals (SDG). With respect to the 2030 agenda, HDSS can contribute by: (1) continuing to conduct cause-and-effect studies; (2) contributing to data triangulation or amalgamation initiatives; (3) characterizing the bias in and calibrating big data; and contributing more to the rapid training of data-oriented professionals, especially in the population and health fields.
+  The 2030 agenda is the ecosystem of activities - many including population-level monitoring - that relate to the United Nations (UN) Sustainable Development Goals (SDG). With respect to the 2030 agenda, HDSS can contribute by: (1) continuing to conduct cause-and-effect studies; (2) contributing to data triangulation or amalgamation initiatives; (3) characterizing the bias in and calibrating big data; and contributing more to the rapid training of data-oriented professionals, especially in the population and health fields.
 </p>
 
 
@@ -239,17 +280,21 @@ The 2030 agenda is the ecosystem of activities - many including population-level
 
 <h2>Article out today in <i>PLoS One</i></h2> 
 <p>
-  <a href="/site/cv/pdfs/clark-2021_houle-et-al-linking-the-timing-of-a-mothers-and-childs-death-comparative-evidence-from-two-rural-south-african-population-based-surveillance-studies.pdf" target="_blank">Linking the timing of a mother's and child's death: Comparative evidence from two rural South African population-based surveillance studies, 2000–2015</a> by Brian Houle, Chodziwadziwa W. Kabudula, Alan Stein, Dickman Gareta, Kobus Herbst, and Samuel J. Clark. <a href="https://doi.org/10.1371/journal.pone.0246671" target="_blank">DOI</a>.
+  <b>Linking the timing of a mother's and child's death: Comparative evidence from two rural South African population-based surveillance studies, 2000–2015</b> 
+
+  by Brian Houle, Chodziwadziwa W. Kabudula, Alan Stein, Dickman Gareta, Kobus Herbst, and Samuel J. Clark. 
+
+  <a href="https://doi.org/10.1371/journal.pone.0246671" target="_blank">DOI</a>.
 </p>
 <h2>Abstract</h2>
 <p>
-  <em>Background</em> The effect of the period before a mother's death on child survival has been assessed in only a few studies. We conducted a comparative investigation of the effect of the timing of a mother's death on child survival up to age five years in rural South Africa.
+  <em>Background</em>. The effect of the period before a mother's death on child survival has been assessed in only a few studies. We conducted a comparative investigation of the effect of the timing of a mother's death on child survival up to age five years in rural South Africa.
 </p><p>
-  <em>Methods</em> We used discrete time survival analysis on data from two HIV-endemic population surveillance sites (2000–2015) to estimate a child's risk of dying before and after their mother's death. We tested if this relationship varied between sites and by availability of antiretroviral therapy (ART). We assessed if related adults in the household altered the effect of a mother's death on child survival.
+  <em>Methods</em>. We used discrete time survival analysis on data from two HIV-endemic population surveillance sites (2000–2015) to estimate a child's risk of dying before and after their mother's death. We tested if this relationship varied between sites and by availability of antiretroviral therapy (ART). We assessed if related adults in the household altered the effect of a mother's death on child survival.
 </p><p>
-  <em>Findings</em> 3,618 children died from 2000–2015. The probability of a child dying began to increase in the 7–11 months prior to the mother's death and increased markedly in the 3 months before (2000–2003 relative risk = 22.2, 95% CI = 14.2–34.6) and 3 months following her death (2000–2003 RR = 20.1; CI = 10.3–39.4). This increased risk pattern was evident at both sites. The pattern attenuated with ART availability but remained even with availability at both sites. The father and maternal grandmother in the household lowered children's mortality risk independent of the association between timing of mother and child mortality.
+  <em>Findings</em>. 3,618 children died from 2000–2015. The probability of a child dying began to increase in the 7–11 months prior to the mother's death and increased markedly in the 3 months before (2000–2003 relative risk = 22.2, 95% CI = 14.2–34.6) and 3 months following her death (2000–2003 RR = 20.1; CI = 10.3–39.4). This increased risk pattern was evident at both sites. The pattern attenuated with ART availability but remained even with availability at both sites. The father and maternal grandmother in the household lowered children's mortality risk independent of the association between timing of mother and child mortality.
 </p><p>
-  <em>Conclusions</em> The persistence of elevated mortality risk both before and after the mother's death for children of different ages suggests that absence of maternal care and abrupt breastfeeding cessation might be crucial risk factors. Formative research is needed to understand the circumstances for children when a mother is very ill or dies, and behavioral and other risk factors that increase both the mother and child's risk of dying. Identifying families when a mother is very ill and implementing training and support strategies for other members of the household are urgently needed to reduce preventable child mortality.
+  <em>Conclusions</em>. The persistence of elevated mortality risk both before and after the mother's death for children of different ages suggests that absence of maternal care and abrupt breastfeeding cessation might be crucial risk factors. Formative research is needed to understand the circumstances for children when a mother is very ill or dies, and behavioral and other risk factors that increase both the mother and child's risk of dying. Identifying families when a mother is very ill and implementing training and support strategies for other members of the household are urgently needed to reduce preventable child mortality.
 </p>
 
 
