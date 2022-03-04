@@ -28,13 +28,15 @@
 <h1 class="sam-date">2022-02-20</h1>
 <!-- %%%%%%%%%%%% -->
 
-<h2>Accepted in <em>BMC Public Health</em></h2>
+<h2>New in <em>BMC Public Health</em></h2>
 <p>
   Houle,&nbsp;B., C.W.&nbsp;Kabudula, A.M.&nbsp;Tilstra, S.A. Mojola, E.&nbsp;Schatz, S.J.&nbsp;CLARK, N.&nbsp;Angotti, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, and J.&nbsp;Menken (2022 <em>forthcoming</em>). 
 
   <b>Twin epidemics: The Effects of HIV and Systolic Blood Pressure on Mortality Risk in Rural South Africa, 2010-2019.</b> 
 
   <em>BMC Public Health</em>.
+
+  [&nbsp;<a href="https://doi.org/10.1186/s12889-022-12791-z" target="_blank">DOI</a>&nbsp;]
 </p>
 <h2>Abstract</h2>
 <p>
@@ -43,7 +45,7 @@ mortality.
 </p><p>
   <em>Methods</em>. Data come from the 2010 Ha Nakekela population-based survey of individuals ages 40 and older (1,802 women; 1,107 men) nested in the Agincourt Health and socio-Demographic Surveillance System in rural South Africa, which provides mortality follow-up from population surveillance until mid-2019. Using discrete-time event history models stratified by sex, we assessed differential mortality risks according to baseline measures of HIV infection, HIV-1 RNA viral load, and systolic blood pressure.
 </p><p>
-  <em>Results</em>. During the 8-year follow-up period, mortality was high (477 deaths). 37% of men (mortality rate 987.53/100,00, 95% CI: 986.26 to 988.79) and 25% of women (mortality rate 937.28/100,000, 95% CI: 899.7 to 974.88) died. Over a quarter of participants were living with HIV (PLWH) at baseline, over 50% of whom had unsuppressed viral loads. The share of the population with a systolic blood pressure of 140mm Hg or higher increased from 24% at ages 40-59 to 50% at ages 75-plus and was generally higher for those not living with HIV compared to PLWH. Men and women with unsuppressed viral load had elevated mortality risks (men: adjusted odds ratio (aOR) 3.23, 95% CI: 2.21 to 4.71, women: aOR 2.05, 95% CI: 1.27 to 3.30). There was a weak, non-linear relationship between systolic blood pressure and higher mortality risk. We found no significant interaction between systolic blood pressure and HIV status for either men or women (p>0.05).
+  <em>Results</em>. During the 8-year follow-up period, mortality was high (477 deaths). 37% of men (mortality rate 987.53/100,00, 95% CI: 986.26 to 988.79) and 25% of women (mortality rate 937.28/100,000, 95% CI: 899.7 to 974.88) died. Over a quarter of participants were living with HIV (PLWH) at baseline, over 50% of whom had unsuppressed viral loads. The share of the population with a systolic blood pressure of 140mm Hg or higher increased from 24% at ages 40-59 to 50% at ages 75-plus and was generally higher for those not living with HIV compared to PLWH. Men and women with unsuppressed viral load had elevated mortality risks (men: adjusted odds ratio (aOR) 3.23, 95% CI: 2.21 to 4.71, women: (OR 2.05, 95% CI: 1.27 to 3.30). There was a weak, non-linear relationship between systolic blood pressure and higher mortality risk. We found no significant interaction between systolic blood pressure and HIV status for either men or women (p>0.05).
 </p><p>
   <em>Conclusions</em>. Our results indicate that HIV and elevated blood pressure are acting as separate, non-interacting epidemics affecting high proportions of the older adult population. PLWH with unsuppressed viral load were at higher mortality risk compared to those uninfected. Systolic blood pressure was a mortality risk factor independent of HIV status. As antiretroviral therapy becomes more widespread, further longitudinal follow-up is needed to understand how the dynamics of increased longevity and multimorbidity among people living with both HIV and high blood pressure, as well as the emergence of COVID-19, may alter these patterns.
 </p>
