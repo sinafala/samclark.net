@@ -1,2 +1,5 @@
-RewriteCond %{REQUEST_URI} ^/cv/pdfs/.*
-RewriteRule (.*) https://samclark.net/site/cv/offprint.shtml [R=301,L]
+RedirectMatch 301 ^/site/cv/pdfs /site/cv/offprint.shtml
+RedirectMatch 301 ^/pdfs /site/cv/offprint.shtml
+RedirectMatch 301 ^/spehr /site/misc/spehr
+Redirect /Samuel-Clark_CV.pdf /site/cv/Samuel-Clark_CV.pdf
+Redirect /site/misc/spehr/index.html /site/projects/data-methods.shtml
