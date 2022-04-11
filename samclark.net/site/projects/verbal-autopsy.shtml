@@ -69,7 +69,9 @@
   
   <li><a href="http://dx.doi.org/10.1214/19-BA1172" target="_blank">Using Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in Verbal Autopsies</a></li>
   
-  <li><a href="http://dx.doi.org/10.1214/19-AOAS1253" target="_blank">Bayesian Factor Models for Probabilistic Cause of Death Assessment with Verbal Autopsies</a></li>  
+  <li><a href="http://dx.doi.org/10.1214/19-AOAS1253" target="_blank">Bayesian Factor Models for Probabilistic Cause of Death Assessment with Verbal Autopsies</a></li>
+
+  <li><a href="http://doi.org/10.1080/16549716.2021.1982486" target="_blank">Estimating Causes of Death Where There Is No Medical Certification: Evolution and State of the Art of Verbal Autopsy</a></li>
 </ul> 
 
 <h1 id="openva_team">Software and the openVA Team</h1>
@@ -121,7 +123,7 @@
    
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->
-Updated 2021-03-24
+Updated 2022-04-09
 <!-- UPDATE THIS -->
 </div>
 

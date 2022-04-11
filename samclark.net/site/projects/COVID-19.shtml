@@ -36,8 +36,12 @@
 <h1>COVID-19 Prevalence Study</h1>
 
 <p>
-  The prevalence study used a sample survey that was conducted in July, 2020. Both ever-infected and currently-infected prevalence rates were low at that time. A publication describing the results in detail is under review now.
+  The prevalence study used a sample survey that was conducted in July, 2020. Both ever-infected and currently-infected prevalence rates were low at that time. A publication describing the results appears in <em>Annals of Epidemiology</em>.
 </p>
+
+<ul>
+  <li><a href="http://doi.org/10.1016/j.annepidem.2021.11.009" target="_blank">Prevalence of Current and Past COVID-19 in Ohio Adults</a>.</li>
+</ul>
 
 <p>
   Existing statistical methods for the analysis of survey data were inadequate for the unusual data produced by the prevalence survey. Our team developed a new statistical approach to solve those challenges. A description of the new methods and their application to the survey data is published in PNAS, and the R code used in the analysis is available on Github,
@@ -85,7 +89,7 @@
    
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->
-Updated 2021-09-22
+Updated 2022-03-28
 <!-- UPDATE THIS -->
 </div>
 

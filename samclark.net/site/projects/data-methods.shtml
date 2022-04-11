@@ -27,12 +27,16 @@
   Early in my career I worked intensively with health and demographic surveillance system (HDSS) sites in Africa - particularly the <a href="https://www.agincourt.co.za" target="_blank">Agincourt</a> HDSS in South Africa, and often with Kobus Herbst who has been part of the senior leadership of the Africa Centre/Africa Health Research Institute <a href="https://www.ahri.org" target="_blank">(AHRI)</a> since its inception. At that time a group of us were keenly interested in improving the ability of HDSS sites to collect, check, manage, and analyze their data more efficiently and accurately.
 </p>
 
+<ul>
+  <li><a href="http://doi.org/10.1080/16549716.2021.1974676" target="_blank">Health and Demographic Surveillance Systems in Low- and Middle-income Countries: History, State of the Art and Future Prospects</a></li>
+</ul>
+
 <p>
   The HDSS methodology keeps detailed, longitudinal records on everyone who lives within a specified geographic boundary. These records include individual-specific attributes, group-level attributes, and time-evolving links between individuals and groups, and <i>critically</i>, between any of these things and specific locations. The data are a <i>very</i> complex mixture of time, place, groups, and attributes. This makes quality-control, storage, manipulation, and analysis difficult. 
 </p>
 
 <p>
-  At its core, an HDSS database is a bi- or tri- temporal record-keeping system:
+  At its core, an HDSS database is a bi- or tri-temporal record-keeping system:
 </p>
 
 <ol>
@@ -92,7 +96,7 @@
    
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->
-Updated 2021-03-24
+Updated 2022-04-09
 <!-- UPDATE THIS -->
 </div>
 
