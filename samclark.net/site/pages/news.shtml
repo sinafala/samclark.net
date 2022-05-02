@@ -25,6 +25,23 @@
 
 
 <!-- %%%%%%%%%%%% -->
+<h1 class="sam-date">2022-04-28</h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>How to Update a Web Site Using Git</h2>
+<p>
+  Here's markdown file and PDF describing how to set up git to automatically update a web site.
+</p>
+<p>
+<ul>
+  <li> <a href="../misc/git-web-update-general.md", target="_blank">Markdown that's easier to cut and paste.</a>
+  <li> <a href="../misc/git-web-update-general.pdf", target="_blank">PDF that's easier to read!</a>
+</ul>
+</p>
+
+
+
+<!-- %%%%%%%%%%%% -->
 <h1 class="sam-date">2022-04-19</h1>
 <!-- %%%%%%%%%%%% -->
 
