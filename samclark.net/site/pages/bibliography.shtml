@@ -24,7 +24,9 @@
 <p>
   <a href="#working-papers">Working Papers</a>
   &nbsp;
-  <a href="/site/projects/software.shtml" target="_parent">Open-source Software</a>
+  <a href="/site/projects/software.shtml" target="_parent">Software</a>
+  &nbsp;
+  <a href="#phd" target="_parent">PhD</a>
   &nbsp;
   <a href="#top" style="font-weight:normal">&#8679;</a>
  <hr class="subnav-bottom">
@@ -1290,7 +1292,9 @@ CLARK,&nbsp;S.J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
 <p>
   <a href="#published-articles">Published Articles</a>
   &nbsp;
-  <a href="/site/projects/software.shtml" target="_parent">Open-source Software</a>
+  <a href="/site/projects/software.shtml" target="_parent">Software</a>
+  &nbsp;
+  <a href="#phd" target="_parent">PhD</a>
   &nbsp;
   <a href="#top" style="font-weight:normal">&#8679;</a>
 </p>
@@ -1919,6 +1923,41 @@ Probabilistic projections of hiv prevalence using bayesian melding.
 </p>
 
 </div>
+
+
+
+<div class="sam-centered-block">
+<hr id="phd" class="subnav-top">
+<p>
+  <a href="#published-articles">Published Articles</a>
+  &nbsp;
+  <a href="#working-papers">Working Papers</a>
+  &nbsp;
+  <a href="/site/projects/software.shtml" target="_parent">Software</a>
+  &nbsp;
+  <a href="#top" style="font-weight:normal">&#8679;</a>
+</p>
+<hr class="subnav-bottom">
+</div>
+
+
+<div class="sam-block">
+
+<h1>PhD</h1>
+
+<p>
+
+CLARK, SAMUEL J. (2001).
+
+An Investigation into the Impact of HIV on Population Dynamics in Africa.
+
+Ph.D. Dissertation. <em>University of Pennsylvania</em>.
+
+[&nbsp;<a href="/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+</div> 
 
 
 

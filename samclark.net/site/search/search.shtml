@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+
+<head>
+  <meta name="author" content="Samuel J. Clark">
+  <meta name="description" content="Samuel J. Clark's search page.">
+  <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, search.">
+  <!--#include virtual="/site/includes/header.html" -->
+  <title>Search samclark.net</title>
+</head>
+
+<body>
+
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
+<hr class="nav-top">
+
+<div class="sam-title">
+  Search samclark.net
+</div>
+
+<div class="sam-block">
+
+<script async src="https://cse.google.com/cse.js?cx=ebb8d261a96b569cc"></script>
+<div class="gcse-search"></div>
+
+</div>
+
+<hr class="nav-bottom">
+<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
+
+</body>
+
+</html>
