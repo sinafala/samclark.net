@@ -20,7 +20,7 @@
 </div>
 
 <div class="sam-image">
-<a href="mailto:sam@samclark.net"><img class="sam" title="Sam Clark" src="/site/media/sam.jpg"></a>
+<a href="mailto:sam@samclark.net"><img class="sam" title="Sam Clark" src="/site/media/sam.jpg" alt="Sam Clark" width="300" height="300"></a>
 </div>
 
 <div class="sam-block">
@@ -47,7 +47,7 @@ Copyright 1999-2022 by Samuel J. Clark; all rights reserved.
 <br>
 
 <!-- UPDATE THIS -->
-Updated 2022-05-09
+Updated 2022-06-16
 <!-- UPDATE THIS -->
 
 </div>
