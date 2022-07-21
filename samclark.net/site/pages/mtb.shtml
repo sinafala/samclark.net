@@ -29,8 +29,49 @@
 
 
 <div class="sam-centered-block">
+<hr id="usa-2022" class="subnav-top">
+<p>
+  <a href="#usa-2021">2021</a>
+  &nbsp;
+  <a href="#misc-mtb">Miscellaneous</a>
+  &nbsp;
+  <a href="#top" style="font-weight:normal">&#8679;</a>
+</p>
+<hr class="subnav-bottom">
+</div>
+
+
+
+<div class="sam-block">
+<h1>USA Trip 2022</h1>
+<p>
+  My son and I went on a trip to beautiful places around the Western USA to ride mountain bikes, hike, raft, and fish: Colorado, Utah, Arizona. I'm not in any of these, but my son is. 
+</p>
+</div>
+
+<!-- 1 -->
+<div class="sam-image">
+Devil's Den State Park, Arkansas
+<a href="/site/media/fullsize/west-coast-mtb-2022-1.jpg" target="_blank">
+         <img class="mtb" title="Devil's Den, Arkansas" src="/site/media/thumbs/west-coast-mtb-2022-1.jpg"
+         width="350" height="262"></a>
+</div>
+
+<!-- 2 -->
+<div class="sam-image">
+Devil's Den State Park, Arkansas
+<a href="/site/media/fullsize/west-coast-mtb-2022-2.jpg" target="_blank">
+         <img class="mtb" title="Devil's Den, Arkansas" src="/site/media/thumbs/west-coast-mtb-2022-2.jpg"
+         width="350" height="262"></a>
+</div>
+
+
+
+<div class="sam-centered-block">
 <hr id="usa-2021" class="subnav-top">
 <p>
+  <a href="#usa-2022">2022</a>
+  &nbsp;
   <a href="#misc-mtb">Miscellaneous</a>
   &nbsp;
   <a href="#top" style="font-weight:normal">&#8679;</a>
@@ -43,7 +84,7 @@
 <div class="sam-block">
 <h1>USA Trip 2021</h1>
 <p>
-  During summer 2021, my son and I went on a trip to beautiful mountain bike trails around the USA. I'm not in any of these, but my son is. 
+  My son and I went on a trip to beautiful mountain bike trails around the USA: Arkansas, Colorado, Utah, Idaho, Oregon, Washington, Wyoming. I'm not in any of these, but my son is. 
 </p>
 </div>
 
@@ -213,6 +254,8 @@ The Bike!
 <div class="sam-centered-block">
 <hr id="misc-mtb" class="subnav-top">
 <p>
+  <a href="#usa-2022">USA 2022</a>
+  &nbsp;
   <a href="#usa-2021">USA 2021</a>
   &nbsp;
   <a href="#top" style="font-weight:normal">&#8679;</a>
