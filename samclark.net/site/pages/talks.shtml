@@ -25,7 +25,17 @@
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 id="unc-talk" class="sam-date">2022-05-09</h1>
+<h1 id="climbing-mortality-models" class="sam-date">2022-09-02</h1>
+<!-- %%%%%%%%%%%% -->
+<p>
+  Talk at workshop "Climbing Mortality Models" hosted at Misurna, Italy by four Italian universities as part of their collaboration studying mortality. <a href="/site/talks/SVD-Comp-Italy-2022.pdf" target="_blank">SVD-derived Life Tables indexed by Child Mortality</a>.
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 id="paa-2022" class="sam-date">2022-05-09</h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   PAA 2022 talk on SVD-Comp mortality model work in session <a href="https://paa.confex.com/paa/2022/meetingapp.cgi/Session/2631" target="_blank">41 - Statistical Modeling and Smoothing in Demography</a>: <a href="/site/talks/Sam-clark_SVD-Comp-Mortality-Model-2020-04-07.pdf" target="_blank">"Application of a Singular Value Decomposition-Based Factorization and Parsimonious-Component Model of Mortality to HIV Epidemics in Africa."</a>

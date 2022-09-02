@@ -1,5 +1,6 @@
+Redirect /Samuel-Clark_CV.pdf /site/cv/Samuel-Clark_CV.pdf
+Redirect /site/misc/spehr/index.html /site/projects/data-methods.shtml
+Redirect /pdfs/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf /site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf
 RedirectMatch 301 ^/site/cv/pdfs /site/cv/offprint.shtml
 RedirectMatch 301 ^/pdfs /site/cv/offprint.shtml
 RedirectMatch 301 ^/spehr /site/misc/spehr
-Redirect /Samuel-Clark_CV.pdf /site/cv/Samuel-Clark_CV.pdf
-Redirect /site/misc/spehr/index.html /site/projects/data-methods.shtml
