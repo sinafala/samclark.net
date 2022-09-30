@@ -30,7 +30,7 @@
 
 <h2>New Grant</h2>
 <p>
-  I have a new grant for $2.04M from the <a href="https://www.gatesfoundation.org", target="_blank">Bill and Melinda Gates Foundation</a> to support the openVA Team to work closely with the WHO to create a pathology-informed reference death archive for verbal autopsy to be hosted by the WHO in Geneva. The first deaths will come from the <a href="https://mitsalliance.org", target="_blank">MITS Alliance</a> and the mortality surveillance system (SVO) in several cities in Brazil. The aim is to create pathology-informed symptom-cause information (like training data) for automated algorithms that identify likely causes for deaths with verbal autopsy.
+  I have a new grant for $2.04M from the <a href="https://www.gatesfoundation.org" target="_blank">Bill and Melinda Gates Foundation</a> to support the openVA Team to work closely with the WHO to create a pathology-informed reference death archive for verbal autopsy to be hosted by the WHO in Geneva. The first deaths will come from the <a href="https://mitsalliance.org" target="_blank">MITS Alliance</a> and the mortality surveillance system (SVO) in several cities in Brazil. The aim is to create pathology-informed symptom-cause information (like training data) for automated algorithms that identify likely causes for deaths with verbal autopsy.
 </p>
 
 
@@ -45,8 +45,8 @@
 </p>
 <p>
 <ul>
-  <li> <a href="../misc/git-web-update-general.md", target="_blank">Markdown that's easier to cut and paste.</a>
-  <li> <a href="../misc/git-web-update-general.pdf", target="_blank">PDF that's easier to read!</a>
+  <li> <a href="../misc/git-web-update-general.md" target="_blank">Markdown that's easier to cut and paste.</a>
+  <li> <a href="../misc/git-web-update-general.pdf" target="_blank">PDF that's easier to read!</a>
 </ul>
 </p>
 
@@ -64,7 +64,7 @@
   Although the openVA Team is not mentioned, we work closely with many of the organizations and people mentioned or quoted in this article.
 </p>
 <p>
-  <a href="https://www.nytimes.com/2022/04/19/health/death-records-africa-electronic-autopsy.html", target="_blank">A Door-to-Door Effort to Find Out Who Died Helps Low-Income Countries Aid the Living</a>
+  <a href="https://www.nytimes.com/2022/04/19/health/death-records-africa-electronic-autopsy.html" target="_blank">A Door-to-Door Effort to Find Out Who Died Helps Low-Income Countries Aid the Living</a>
 </p>
 
 
@@ -76,7 +76,7 @@
 <h2>Papers in Annual Meeting of the Population Association of America (PAA) 2022</h2>
 <p>
   <ul>
-    <li><b>Application of a Singular Value Decomposition-based Factorization and Parsimonious Component Model of Mortality to HIV Epidemics in Africa Assigned</b> by Brian Houle, The Australian National University; Jonathan Muir, Emory University; Sara Hertog, United Nations; Francois Pelletier, United Nations; Samuel Clark, The Ohio State University; Patrick Gerland, United Nations Population Division. Session 41: <em>Statistical Modeling and Smoothing in Demography</em>. Presented by Sam Clark.
+    <li><b>Application of a Singular Value Decomposition-based Factorization and Parsimonious Component Model of Mortality to HIV Epidemics in Africa</b> by Brian Houle, The Australian National University; Jonathan Muir, Emory University; Sara Hertog, United Nations; Francois Pelletier, United Nations; Samuel Clark, The Ohio State University; Patrick Gerland, United Nations Population Division. Session 41: <em>Statistical Modeling and Smoothing in Demography</em>. Presented by Sam Clark.
     <li><b>Sibling Mortality in Developing Countries: A Cross Regional Study</b> by Jonathan Muir, Emory University; Brian Houle, The Australian National University; Samuel Clark, The Ohio State University; Solveig Cunningham, Emory University. Session 116: <em>Early Life Health in Low and Middle Income Countries</em>. Presented by Jon Muir.
     <li><b>The Timing of Sibling Mortality in the Widespread Antiretroviral Treatment Era: Comparative Evidence from Population-based Surveillance in Rural South Africa</b> by Brian Houle, The Australian National University; Jonathan Muir, Emory University; Chodziwadziwa Kabudula, University of the Witwatersrand; Samuel Clark, The Ohio State University. Session 51: <em>Child Health: Spillover and Spatial Effects</em>. Presented by Jon Muir.
   </ul>
@@ -90,7 +90,7 @@
 
 <h2>New in <em>Global Health Action</em></h2>
 <p>
-  Chandramohan, D., E.&nbsp;Fottrell, J.&nbsp;Leitao, E.&nbsp;Nichols, S. J.&nbsp;CLARK, C.&nbsp;Alsokhn, D. C.&nbsp;Munoz, C.&nbsp;AbouZahr, A.&nbsp;Di Pasquale, R.&nbsp;Mswia, E.&nbsp;Choi, F.&nbsp;Baiden, J.&nbsp;Thomas, I.&nbsp;Lyatuu, Z.&nbsp;Li, P.&nbsp;Larbi-Debrah, Y.&nbsp;Chu, S.&nbsp;Cheburet, O.&nbsp;Sankoh, A. M.&nbsp;Badr, D. M.&nbsp;Fat, P.&nbsp;Setel, R.&nbsp;Jakob, D.&nbsp;de Savigny (2022). 
+  Chandramohan, D., E.&nbsp;Fottrell, J.&nbsp;Leitao, E.&nbsp;Nichols, S. J.&nbsp;CLARK, C.&nbsp;Alsokhn, D. C.&nbsp;Munoz, C.&nbsp;AbouZahr, A.&nbsp;Di Pasquale, R.&nbsp;Mswia, E.&nbsp;Choi, F.&nbsp;Baiden, J.&nbsp;Thomas, I.&nbsp;Lyatuu, Z.&nbsp;Li, P.&nbsp;Larbi-Debrah, Y.&nbsp;Chu, S.&nbsp;Cheburet, O.&nbsp;Sankoh, A. M.&nbsp;Badr, D. M.&nbsp;Fat, P.&nbsp;Setel, R.&nbsp;Jakob, D.&nbsp;de Savigny (2021). 
 
   <b>Estimating Causes Of Death Where There Is No Medical Certification: Evolution And State of The Art Of Verbal Autopsy.</b> 
 
@@ -111,7 +111,7 @@
 
 <h2>New in <em>Global Health Action</em></h2>
 <p>
-  Herbst, K., S.&nbsp;Juvekar, M.&nbsp;Jasseh, Y.&nbsp;Berhane, N. T. K.&nbsp;Chuk, J.&nbsp;Seeley, O.&nbsp;Sankoh, S. J.&nbsp;CLARK and M.&nbsp;Collinson (2022). 
+  Herbst, K., S.&nbsp;Juvekar, M.&nbsp;Jasseh, Y.&nbsp;Berhane, N. T. K.&nbsp;Chuk, J.&nbsp;Seeley, O.&nbsp;Sankoh, S. J.&nbsp;CLARK and M.&nbsp;Collinson (2021). 
 
   <b>Health And Demographic Surveillance Systems In Low- And Middle-income Countries: History, State of The Art And Future Prospects.</b> 
 
@@ -303,16 +303,6 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-05-26</h1>
-<!-- %%%%%%%%%%%% -->
-<p>
-  Today I discovered that the OSU College of Arts and Sciences web page has a <a href="https://artsandsciences.osu.edu/news-events/awards-recognition/2021-joan-m-huber-faculty-fellows-announced" target="_blank">write-up</a> of the Joan Huber award recipients for this 2021, including me.
-</p>
-
-
-
-
-<!-- %%%%%%%%%%%% -->
 <h1 class="sam-date">2021-04-01</h1>
 <!-- %%%%%%%%%%%% -->
 <p>
@@ -357,7 +347,7 @@ mortality.
 <!-- %%%%%%%%%%%% -->
 <h2>Award</h2>
 <p>
-  I learned today that the Social and Behavioral Sciences division of the School of Arts and Sciences at The Ohio State University has chosen me as a recipient of the Joan N. Huber Faculty Fellow Award. A brief description <a href="https://ascintranet.osu.edu/faculty/awards" target="_blank">here</a>.
+  I learned today that the Social and Behavioral Sciences division of the School of Arts and Sciences at The Ohio State University has chosen me as a recipient of the Joan N. Huber Faculty Fellow Award. A brief description <a href="https://artsandsciences.osu.edu/about/honors-and-recognition/college-awards" target="_blank">here</a>.
 </p>
 <h2>New working paper on arXiv</h2>
 <p>
