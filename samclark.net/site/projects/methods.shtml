@@ -25,7 +25,7 @@
   With a wide range of colleagues in epidemiology, statistics, and demography, I have worked on improving measurement, estimation, forecasting, and other aspects of methods used by populations scientists. 
 </p>
 
-<h1>Component-based mortality models</h1> 
+<h1>Component-based mortality models: <em>SVD-Comp</em></h1> 
 
 <p>
   Beginning with my PhD, I have been interested in using dimension reduction methods to develop parsimonious, empirical models for age-specific schedules of demographic quantities, e.g. mortality or fertility rates/probabilities. This work has gone through several iterations culminating current work with colleagues at the United Nations Population Division to develop a widely-useful, single-year in age model of age-specific mortality.
@@ -40,6 +40,22 @@
   
   <li><a href="http://dx.doi.org/10.1007/s13524-019-00785-3" target="_blank">A General Age-Specific Mortality Model With an Example Indexed by Child Mortality or Both Child and Adult Mortality</a></li>
 </ul> 
+
+<p>
+  The 2022 iteration of the UN Population Division's bi-annual World Population Prospects (WPP) global population estimates and projections used a version of the component model of mortality. I led a small team including <a href="https://jamuir.net" target="_blank">Jon Muir</a> and <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian Houle</a> to develop an SVD-Comp mortality model for HIV-affected countries that produced 1-year age group mortality rates based on HIV prevalence and coverage of antiretroviral therapy. 
+</p>
+<p>
+<ul>
+  <li> <a href="https://www.un.org/development/desa/pd/content/World-Population-Prospects-2022" target="_blank">Launch</a> site, including lots of information about the WPP.</li>
+
+  <li> <a href="https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/wpp2022_summary_of_results.pdf" target="_blank">Summary</a> of results document, including acknowledgements.</li>
+  
+  <li> <a href="https://population.un.org/wpp/" target="_blank">Data</a> in many downloadable forms. </li>
+</ul>
+</p>
+
+
+
 
 <h1>Various probabilisitic methods for population estimation and forecasting</h1> 
 
@@ -106,7 +122,7 @@
 
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->
-Updated 2021-03-24
+Updated 2022-10-29
 <!-- UPDATE THIS -->
 </div>
 
