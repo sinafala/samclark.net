@@ -23,30 +23,30 @@
 
 <h1>Index
 <select name="index" onchange="location = this.value;">
-  <option value="#2022-10-19">2022-10-19</option>
-  <option value="#2022-08-23">2022-08-23</option>
-  <option value="#2022-07-14">2022-07-14</option>
-  <option value="#2022-04-28">2022-04-28</option>
-  <option value="#2022-04-19:2">2022-04-19:2</option>
-  <option value="#2022-04-19:1">2022-04-19:1</option>
-  <option value="#2022-04-10:2">2022-04-10:2</option>
-  <option value="#2022-04-10:1">2022-04-10:1</option>
-  <option value="#2022-02-20">2022-02-20</option>
-  <option value="#2022-01-23">2021-01-23</option>
-  <option value="#2021-12-28-">2021-12-28</option>
-  <option value="#2021-12-22">2021-12-22</option>
-  <option value="#2021-10-26">2021-10-26</option>
-  <option value="#2021-10-01">2021-10-01</option>
-  <option value="#2021-09-20">2021-09-20</option>
-  <option value="#2021-06-25">2021-06-25</option>
-  <option value="#2021-04-01:2">2021-04-01:2</option>
-  <option value="#2021-04-01:1">2021-04-01:1</option>
-  <option value="#2021-03-31">2021-03-31</option>
-  <option value="#2021-03-24">2021-03-24</option>
-  <option value="#2021-03-10">2021-03-10</option>
-  <option value="#2021-02-28">2021-02-28</option>
-  <option value="#2021-02-08">2021-02-08</option>
-  <option value="#2021-02-03">2021-02-03</option>
+  <option value="#2022-10-19">2022-10-19: Article, openVA Tookit</option>
+  <option value="#2022-08-23">2022-08-23: New Gates Grant</option>
+  <option value="#2022-07-14">2022-07-14: UN WPP</option>
+  <option value="#2022-04-28">2022-04-28: Git to Update Web Site</option>
+  <option value="#2022-04-19:2">2022-04-19-2: NYT on VA</option>
+  <option value="#2022-04-19:1">2022-04-19-1: PAA Contributions, 2022</option>
+  <option value="#2022-04-10:2">2022-04-10-2: Article, Global Health Action</option>
+  <option value="#2022-04-10:1">2022-04-10-1: Article, Global Health Action</option>
+  <option value="#2022-02-20">2022-02-20: Article, BMC Public Health</option>
+  <option value="#2022-01-23">2021-01-23: Math Trivia!</option>
+  <option value="#2021-12-28-">2021-12-28: Article, CV19 Prevalence Ohio</option>
+  <option value="#2021-12-22">2021-12-22: Preprint, VA algorithm</option>
+  <option value="#2021-10-26">2021-10-26: Ron Lee, Demography Core</option>
+  <option value="#2021-10-01">2021-10-01: Discussant, Penn State</option>
+  <option value="#2021-09-20">2021-09-20: Preprint, openVA Toolkit</option>
+  <option value="#2021-06-25">2021-06-25: Article: PNAS CV19 Methods</option>
+  <option value="#2021-04-01:2">2021-04-01-2: openVA Training</option>
+  <option value="#2021-04-01:1">2021-04-01-1: APHRC Job</option>
+  <option value="#2021-03-31">2021-03-31: UNICEF Child Mortality</option>
+  <option value="#2021-03-24">2021-03-24: Talk, Berlin</option>
+  <option value="#2021-03-10">2021-03-10: Huber Award</option>
+  <option value="#2021-02-28">2021-02-28: Commentary, PNAS</option>
+  <option value="#2021-02-08">2021-02-08: Article, PLoS ONE</option>
+  <option value="#2021-02-03">2021-02-03: Start News</option>
 </select>
 </h1>
 
