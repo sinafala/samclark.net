@@ -21,11 +21,40 @@
 
 <div class="sam-block">
 
+<h1>Index
+<select name="index" onchange="location = this.value;">
+  <option value="#2022-10-19">2022-10-19</option>
+  <option value="#2022-08-23">2022-08-23</option>
+  <option value="#2022-07-14">2022-07-14</option>
+  <option value="#2022-04-28">2022-04-28</option>
+  <option value="#2022-04-19:2">2022-04-19:2</option>
+  <option value="#2022-04-19:1">2022-04-19:1</option>
+  <option value="#2022-04-10:2">2022-04-10:2</option>
+  <option value="#2022-04-10:1">2022-04-10:1</option>
+  <option value="#2022-02-20">2022-02-20</option>
+  <option value="#2022-01-23">2021-01-23</option>
+  <option value="#2021-12-28-">2021-12-28</option>
+  <option value="#2021-12-22">2021-12-22</option>
+  <option value="#2021-10-26">2021-10-26</option>
+  <option value="#2021-10-01">2021-10-01</option>
+  <option value="#2021-09-20">2021-09-20</option>
+  <option value="#2021-06-25">2021-06-25</option>
+  <option value="#2021-04-01:2">2021-04-01:2</option>
+  <option value="#2021-04-01:1">2021-04-01:1</option>
+  <option value="#2021-03-31">2021-03-31</option>
+  <option value="#2021-03-24">2021-03-24</option>
+  <option value="#2021-03-10">2021-03-10</option>
+  <option value="#2021-02-28">2021-02-28</option>
+  <option value="#2021-02-08">2021-02-08</option>
+  <option value="#2021-02-03">2021-02-03</option>
+</select>
+</h1>
+
 
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2022-10-19</h1>
+<h1 class="sam-date" id="2022-10-19">2022-10-19 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>"The openVA Toolkit for Verbal Autopsies"
@@ -54,7 +83,7 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2022-08-23</h1>
+<h1 class="sam-date" id="2022-08-23">2022-08-23 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>New Grant</h2>
@@ -65,7 +94,7 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2022-07-14</h1>
+<h1 class="sam-date" id="2022-07-14">2022-07-14 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>UN World Population Prospects 2022</h2>
@@ -85,7 +114,7 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2022-04-28</h1>
+<h1 class="sam-date" id="2022-04-28">2022-04-28 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>How to Update a Web Site Using Git</h2>
@@ -103,7 +132,7 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2022-04-19</h1>
+<h1 class="sam-date" id="2022-04-19:2">2022-04-19 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>New York Times Article on Verbal Autopsy</h2>
@@ -120,7 +149,7 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2022-04-19</h1>
+<h1 class="sam-date" id="2022-04-19:1">2022-04-19 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>Papers in Annual Meeting of the Population Association of America (PAA) 2022</h2>
@@ -137,7 +166,7 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2022-04-10</h1>
+<h1 class="sam-date" id="2022-04-10:2">2022-04-10 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>New in <em>Global Health Action</em></h2>
@@ -158,7 +187,7 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2022-04-10</h1>
+<h1 class="sam-date" id="2022-04-10:1">2022-04-10 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>New in <em>Global Health Action</em></h2>
@@ -185,7 +214,7 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2022-02-20</h1>
+<h1 class="sam-date" id="2022-02-20">2022-02-20 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>New in <em>BMC Public Health</em></h2>
@@ -213,7 +242,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2022-01-23</h1>
+<h1 class="sam-date" id="2022-01-23">2022-01-23 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <p>
@@ -235,7 +264,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-12-28</h1>
+<h1 class="sam-date" id="2021-12-28">2021-12-28 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>Published in <em>Annals of Epidemiology</em></h2>
@@ -271,7 +300,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-12-22</h1>
+<h1 class="sam-date" id="2021-12-22">2021-12-22 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>New working paper on arXiv</h2> 
@@ -293,7 +322,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-10-26</h1>
+<h1 class="sam-date" id="2021-10-26">2021-10-26 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   This appeared on my Twitter feed recently: <a href="/site/misc/FormalDemog.pdf" target="_blank">Demography Abandons Its Core</a> by <a href="https://www.site.demog.berkeley.edu/ron-lee" target="_blank">Ron Lee</a> in 2001. Unfortunately this is still highly relevant, and those of us interested in formal demography as a recognizable field need to do something! <a href="https://formaldemography.github.io/working_group/" target="_blank">The Formal Demography Working Group</a> is being formed as a vehicle for doing that - please join if you are interested!
@@ -303,7 +332,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-10-01</h1>
+<h1 class="sam-date" id="2021-10-01">2021-10-01 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   Today Mary Shenk and I are discussants at the 16<sup>th</sup> <a href="https://pop.psu.edu/events/16th-annual-de-jong-lecture-social-demography" target="_blank">De Jong Lecture in Social Demography</a> at Penn State. Hans <a href="https://www.sas.upenn.edu/~hpkohler/" target="_blank">Peter-Peter Kohler</a> is the featured speaker. Link to <a href="./talks.shtml#dejongslides" target="_blank">slides</a>.
@@ -313,7 +342,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-09-20</h1>
+<h1 class="sam-date" id="2021-09-20">2021-09-20 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   For the past 6-7 years my colleagues and I who work on verbal autopsy methods have been developing new statistical methods to automate identification of a cause of death using verbal autopsy records. Along the way we have developed a range of open source software tools to ensure that the methods are transparent and available to anyone who wants to use them. Recently we submitted a paper and posted a preprint on the <a href="https://arxiv.org/abs/2109.08244" target="_blank"><b>openVA Toolit</b></a>. This is a suite of open source software that can be used to apply a variety of algorithms to verbal autopsy data. Additional software that works with openVA - e.g. the <em> openVA Pipeline</em> that fully automates cause-coding in CRVS settings - and links to the GitHub repositories where software is maintained are available at <a href="http://openva.net" target="_blank"><b>openva.net</b></a>.
@@ -323,7 +352,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-06-25</h1>
+<h1 class="sam-date" id="2021-06-25">2021-06-25 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2 id="PNAS-methods"> Published open-access in <em>PNAS</em>:</h2>
@@ -355,7 +384,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-04-01</h1>
+<h1 class="sam-date" id="2021-04-01:2">2021-04-01:2 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   APHRC - the African Population Health Research Center - in Nairobi is seeking a consultant demographer for six months to lead the redesign of the Nairobi Urban Health and Demographic Surveillance System Site (NUHDSS). <a href="http://www.samclark.net/site/misc/APHRC-Terms-of-Reference--Consultant-Demographer.pdf" target="_blank">Full details available here</a>.
@@ -365,7 +394,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-04-01</h1>
+<h1 class="sam-date" id="2021-04-01:1">2021-04-01:1 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   Today and tomorrow the <a href="http://openva.net" target="_blank">openVA</a> Team is presenting a training workshop for the CHAMPS project and our Data for Health Initiative colleagues in Thailand.
@@ -375,7 +404,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-03-31</h1>
+<h1 class="sam-date" id="2021-03-31">2021-03-31 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   A long-in-the-making collaboration with UNICEF produced its first non-academic product recently: <a href="https://data.unicef.org/resources/subnational-under-five-mortality-estimates-1990-2019/" target="_blank">Subnational Under-five Mortality Estimates, 1990–2019</a>. This work grew out of a small collaboration with <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a> at the University of Washington, see <a href="/site/projects/small-area-estimates.shtml">small-area estimates</a>. Jon grew the group working on it and together with <a href="https://stat.uw.edu/about-us/people/jessica-godwin" target="_blank">Jessica Godwin</a> saw it through to this. Congratulations to everyone involved!
@@ -385,7 +414,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-03-24</h1>
+<h1 class="sam-date" id="2021-03-24">2021-03-24</h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   I gave a talk today at the 2021 'Berlin Demography Days': <a href="/site/talks/clark-2021-talk_global-population-studies-in-the-21st-century-priorities-challenges--mortality.pdf" target="_blank">Global Population Studies in the 21st Century: Priorities Challenges - Mortality</a>.
@@ -395,7 +424,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-03-10</h1>
+<h1 class="sam-date" id="2021-03-10">2021-03-10 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <h2>Award</h2>
 <p>
@@ -417,7 +446,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-02-28</h1>
+<h1 class="sam-date" id="2021-02-28">2021-02-28 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   Commentary in <i>PNAS</i>: <b>Monitoring epidemics: Lessons from measuring population prevalence of the coronavirus</b> with Abigail Norris Turner. We highlight the need to improve response rates and to prepare a robust measurement capability to be ready for the next pandemic. <a href="https://doi.org/10.1073/pnas.2026412118" target="_blank">DOI</a>.
@@ -427,7 +456,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-02-08</h1>
+<h1 class="sam-date" id="2021-02-08">2021-02-08 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>Article out today in <i>PLoS One</i></h2> 
@@ -453,7 +482,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-02-03</h1>
+<h1 class="sam-date" id="2021-02-03">2021-02-03 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   There will be occasional updates here. For now, the news is that I finally finished this web site after I was interrupted for a year by COVID-19. It's up to date and has all the basic content I had planned. The site is written in plain <a href="https://github.com/sinafala/samclark.net" target="_blank">HTML with a simple cascading style sheet</a>. It's straight from 1995, but it's super easy to modify/maintain/augment with a text editor, and with a shell script to upload everything, keeping the site up to date will be easy and does not require any expensive or takes-time-to-learn software or rely on third parties to fix things. :-)
