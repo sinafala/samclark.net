@@ -44,7 +44,6 @@
 <p>
   The 2022 iteration of the UN Population Division's bi-annual World Population Prospects (WPP) global population estimates and projections used a version of the component model of mortality. I led a small team including <a href="https://jamuir.net" target="_blank">Jon Muir</a> and <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian Houle</a> to develop an SVD-Comp mortality model for HIV-affected countries that produced 1-year age group mortality rates based on HIV prevalence and coverage of antiretroviral therapy. 
 </p>
-<p>
 <ul>
   <li> <a href="https://www.un.org/development/desa/pd/content/World-Population-Prospects-2022" target="_blank">Launch</a> site, including lots of information about the WPP.</li>
 
@@ -52,7 +51,6 @@
   
   <li> <a href="https://population.un.org/wpp/" target="_blank">Data</a> in many downloadable forms. </li>
 </ul>
-</p>
 
 
 

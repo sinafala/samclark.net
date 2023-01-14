@@ -26,7 +26,7 @@
 
 <div class="sam-links-list">
 <a href="/site/pages/bibliography.shtml" target="_parent">Bibliography with Links</a><br>
-<a href="mailto:sam@samclark.net?subject=Offprint request: ">Request Offprints</a>
+<a href="mailto:sam@samclark.net?subject=Offprint&nbsp;request">Request Offprints</a>
 </div>
 
 <div class="sam-links-list">
@@ -39,8 +39,8 @@
 
 <div class="sam-links-list">
 <a href="https://github.com/sinafala/" target="_blank">Github: sinafala</a><br>
-<a href="https://twitter.com/sinafala" target="_blank">Twitter: @sinafala</a><br>
-<a href="mailto:sam@samclark.net?subject=From samclark.net: ">sam /at/ samclark.net</a>
+<!-- <a href="https://twitter.com/sinafala" target="_blank">Twitter: @sinafala</a><br> -->
+<a href="mailto:sam@samclark.net?subject=From&nbsp;samclark.net">sam /at/ samclark.net</a>
 </div>
 
 <div class="sam-links-list">
@@ -52,7 +52,7 @@
 
 <div class="sam-note-bottom">
 <!-- UPDATE THIS -->
-Updated 2022-09-22
+Updated 2023-01-11
 <!-- UPDATE THIS -->
 </div>
 

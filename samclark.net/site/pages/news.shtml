@@ -60,20 +60,22 @@
 <h2>"The openVA Toolkit for Verbal Autopsies"
 will appear in the <em>R Journal</em></h2>
 <p>
-  This is one of the longest in-preparation papers I've ever worked on. Thanks to the persistence of <a href="https://zehangli.com" target="_blank">Richard Li</a> and other coauthors, we finally have a statistical software paper in the <a href="https://journal.r-project.org" target="_blank"><em>R Journal</em></a> - along with the collection of packages it describes in <a href="https://cran.r-project.org" target="_blank">CRAN</a>: 
-  <ul>
-    <li> <a href="https://cran.r-project.org/package=openVA" target="_blank">openVA</a> </li>
+  This is one of the longest in-preparation papers I've ever worked on. Thanks to the persistence of <a href="https://zehangli.com" target="_blank">Richard Li</a> and other coauthors, we finally have a statistical software paper in the <a href="https://journal.r-project.org" target="_blank"><em>R Journal</em></a> - along with the collection of packages it describes in <a href="https://cran.r-project.org" target="_blank">CRAN</a>:
+</p> 
+<ul>
+  <li> <a href="https://cran.r-project.org/package=openVA" target="_blank">openVA</a> </li>
 
-    <li> <a href="https://cran.r-project.org/package=CrossVA" target="_blank">CrossVA</a> </li>
+  <li> <a href="https://cran.r-project.org/package=CrossVA" target="_blank">CrossVA</a> </li>
 
-    <li> <a href="https://cran.r-project.org/package=InSilicoVA" target="_blank">InSilicoVA</a> </li>
+  <li> <a href="https://cran.r-project.org/package=InSilicoVA" target="_blank">InSilicoVA</a> </li>
 
-    <li> <a href="https://cran.r-project.org/package=InterVA4" target="_blank">InterVA4</a> </li>
+  <li> <a href="https://cran.r-project.org/package=InterVA4" target="_blank">InterVA4</a> </li>
 
-    <li> <a href="https://cran.r-project.org/package=InterVA5" target="_blank">InterVA5</a> </li>
+  <li> <a href="https://cran.r-project.org/package=InterVA5" target="_blank">InterVA5</a> </li>
 
-    <li> <a href="https://cran.r-project.org/package=Tariff" target="_blank">Tariff</a> </li>
-  </ul>
+  <li> <a href="https://cran.r-project.org/package=Tariff" target="_blank">Tariff</a> </li>
+</ul>
+<p>
   This software and <a href="http://dx.doi.org/10.1080/01621459.2016.1152191" target="_blank">InSilicoVA</a> - our new automated algorithm for classifying cause of death using verbal autopsy data - are primary outputs of our NIH project supported by NIH <a href="https://reporter.nih.gov/search/CDw666kg5U23UVkk2fTK3A/project-details/9007958" target="_blank">R01HD086227</a> from <a href="https://www.nichd.nih.gov" target="_blank">NICHD</a>.
 </p>
 <p>
@@ -101,7 +103,6 @@ will appear in the <em>R Journal</em></h2>
 <p>
   The UN Population Division recently released the 2022 iteration of their bi-annual World Population Prospects WPP global population estimates and projections. I led a small team including <a href="https://jamuir.net" target="_blank">Jon Muir</a> and <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian Houle</a> to develop a mortality model for HIV-affected countries that was used to produce the 2022 WPP. OSU undergraduate student Michael Allen also contributed to the early stages of our work a couple years ago.
 </p>
-<p>
 <ul>
   <li> <a href="https://www.un.org/development/desa/pd/content/World-Population-Prospects-2022" target="_blank">Launch</a> site, including lots of information about the WPP.</li>
 
@@ -109,7 +110,7 @@ will appear in the <em>R Journal</em></h2>
 
   <li> <a href="https://population.un.org/wpp/" target="_blank">Data</a> in many downloadable forms. </li>
 </ul>
-</p>
+
 
 
 
@@ -121,13 +122,11 @@ will appear in the <em>R Journal</em></h2>
 <p>
   Here's markdown file and PDF describing how to set up git to automatically update a web site.
 </p>
-<p>
 <ul>
   <li> <a href="../misc/git-web-update-general.md" target="_blank">Markdown that's easier to cut and paste.</a> </li>
 
   <li> <a href="../misc/git-web-update-general.pdf" target="_blank">PDF that's easier to read!</a> </li>
 </ul>
-</p>
 
 
 
@@ -153,15 +152,13 @@ will appear in the <em>R Journal</em></h2>
 <!-- %%%%%%%%%%%% -->
 
 <h2>Papers in Annual Meeting of the Population Association of America (PAA) 2022</h2>
-<p>
-  <ul>
-    <li> <b>Application of a Singular Value Decomposition-based Factorization and Parsimonious Component Model of Mortality to HIV Epidemics in Africa</b> by Brian Houle, The Australian National University; Jonathan Muir, Emory University; Sara Hertog, United Nations; Francois Pelletier, United Nations; Samuel Clark, The Ohio State University; Patrick Gerland, United Nations Population Division. Session 41: <em>Statistical Modeling and Smoothing in Demography</em>. Presented by Sam Clark. </li>
+<ul>
+  <li> <b>Application of a Singular Value Decomposition-based Factorization and Parsimonious Component Model of Mortality to HIV Epidemics in Africa</b> by Brian Houle, The Australian National University; Jonathan Muir, Emory University; Sara Hertog, United Nations; Francois Pelletier, United Nations; Samuel Clark, The Ohio State University; Patrick Gerland, United Nations Population Division. Session 41: <em>Statistical Modeling and Smoothing in Demography</em>. Presented by Sam Clark. </li>
 
-    <li> <b>Sibling Mortality in Developing Countries: A Cross Regional Study</b> by Jonathan Muir, Emory University; Brian Houle, The Australian National University; Samuel Clark, The Ohio State University; Solveig Cunningham, Emory University. Session 116: <em>Early Life Health in Low and Middle Income Countries</em>. Presented by Jon Muir. </li>
-    
-    <li> <b>The Timing of Sibling Mortality in the Widespread Antiretroviral Treatment Era: Comparative Evidence from Population-based Surveillance in Rural South Africa</b> by Brian Houle, The Australian National University; Jonathan Muir, Emory University; Chodziwadziwa Kabudula, University of the Witwatersrand; Samuel Clark, The Ohio State University. Session 51: <em>Child Health: Spillover and Spatial Effects</em>. Presented by Jon Muir. </li>
-  </ul>
-</p>
+  <li> <b>Sibling Mortality in Developing Countries: A Cross Regional Study</b> by Jonathan Muir, Emory University; Brian Houle, The Australian National University; Samuel Clark, The Ohio State University; Solveig Cunningham, Emory University. Session 116: <em>Early Life Health in Low and Middle Income Countries</em>. Presented by Jon Muir. </li>
+  
+  <li> <b>The Timing of Sibling Mortality in the Widespread Antiretroviral Treatment Era: Comparative Evidence from Population-based Surveillance in Rural South Africa</b> by Brian Houle, The Australian National University; Jonathan Muir, Emory University; Chodziwadziwa Kabudula, University of the Witwatersrand; Samuel Clark, The Ohio State University. Session 51: <em>Child Health: Spillover and Spatial Effects</em>. Presented by Jon Muir. </li>
+</ul>
 
 
 
@@ -325,7 +322,7 @@ mortality.
 <h1 class="sam-date" id="2021-10-26">2021-10-26 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
-  This appeared on my Twitter feed recently: <a href="/site/misc/FormalDemog.pdf" target="_blank">Demography Abandons Its Core</a> by <a href="https://www.site.demog.berkeley.edu/ron-lee" target="_blank">Ron Lee</a> in 2001. Unfortunately this is still highly relevant, and those of us interested in formal demography as a recognizable field need to do something! <a href="https://formaldemography.github.io/working_group/" target="_blank">The Formal Demography Working Group</a> is being formed as a vehicle for doing that - please join if you are interested!
+  This appeared on my Twitter feed recently: <a href="/site/misc/FormalDemog.pdf" target="_blank">Demography Abandons Its Core</a> by <a href="https://www.demog.berkeley.edu/faculty/ronald-demos-lee/" target="_blank">Ron Lee</a> in 2001. Unfortunately this is still highly relevant, and those of us interested in formal demography as a recognizable field need to do something! <a href="https://formaldemography.github.io/working_group/" target="_blank">The Formal Demography Working Group</a> is being formed as a vehicle for doing that - please join if you are interested!
 </p>
 
 

@@ -58,7 +58,7 @@
 <h1>The Structured Population Event History Register</h1>
 
 <p>
-  Since at least the early 1990s, a small group - <a href="https://usm.maine.edu/cos/bruce-macleod" target="_blank">Bruce MacLeod</a>, <a href="https://www.researchgate.net/profile/Justus_Benzler" target="_blank">Justus Benzler</a>, <a href="https://www.ahri.org/scientist/kobus-herbst/" target="_blank">Kobus Herbst</a>, and me - has been interested in designing data models, more specifically relational database schemas, to make storage, management, and analysis of HDSS as accurate and easy as possible. In the context of this effort, I designed the Structured Population Event History Register (SPEHR). SPEHR is a very flexible, metadata-driven relational database schema for HDSS. 
+  Since at least the early 1990s, a small group - <a href="https://usm.maine.edu/directories/people/bruce-macleod/" target="_blank">Bruce MacLeod</a>, <a href="https://www.researchgate.net/profile/Justus_Benzler" target="_blank">Justus Benzler</a>, <a href="https://www.ahri.org/scientist/kobus-herbst/" target="_blank">Kobus Herbst</a>, and me - has been interested in designing data models, more specifically relational database schemas, to make storage, management, and analysis of HDSS as accurate and easy as possible. In the context of this effort, I designed the Structured Population Event History Register (SPEHR). SPEHR is a very flexible, metadata-driven relational database schema for HDSS. 
 </p>
 
 <h1>Unified Timestamp Timestamp with Explicit Precision</h1>

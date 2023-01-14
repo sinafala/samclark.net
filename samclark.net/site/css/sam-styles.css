@@ -6,9 +6,15 @@ NOTES
 */
 
 
+
 /* Main */
 
+html {
+  background-color: white; 
+} 
+
 body {
+  background-color: white; 
   width: 400px;
   margin: 0 auto;
   font-family: Helvetica, Arial, sans-serif;;

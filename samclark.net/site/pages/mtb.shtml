@@ -558,45 +558,48 @@ The Bike!
 
 <ul class="sam">
   <li>7,100 miles driven</li>
-  <li>States visited:</li>
+  <li>States visited:
     <ul class="sam">
-    <li>Ohio</li>
-    <li>Indiana</li>
-    <li>Illinois</li>
-    <li>Missouri</li>
-    <li>Arkansas</li>
-    <li>Oklahoma</li>
-    <li>Texas</li>
-    <li>New Mexico</li>
-    <li>Colorado</li>
-    <li>Utah</li>
-    <li>Idaho</li>
-    <li>Oregon</li>
-    <li>Washington</li>
-    <li>Montana</li>
-    <li>Wyoming</li>
-    <li>Nebraska</li>
-    <li>Iowa</li>
-  </ul></li>
-  <li>Rides: 11</li>
+      <li>Ohio</li>
+      <li>Indiana</li>
+      <li>Illinois</li>
+      <li>Missouri</li>
+      <li>Arkansas</li>
+      <li>Oklahoma</li>
+      <li>Texas</li>
+      <li>New Mexico</li>
+      <li>Colorado</li>
+      <li>Utah</li>
+      <li>Idaho</li>
+      <li>Oregon</li>
+      <li>Washington</li>
+      <li>Montana</li>
+      <li>Wyoming</li>
+      <li>Nebraska</li>
+      <li>Iowa</li>
+    </ul>
+  </li>
+  <li>Rides: 11
     <ol class="sam">
-    <li>Devil's Den State Park, AR</li>
-    <li>Twin Buttes, Durango CO</li>
-    <li>Klondike Bluffs, Moab UT</li>
-    <li>Navajo Rocks, Moab UT</li>
-    <li>McKenzie River, Sisters OR</li>
-    <li>Mt. St. Helens, WA</li>
-    <li>White River/Skookum Flats, WA</li>
-    <li>St. Edwards Park, Seattle WA</li>
-    <li>Duthie Trails, WA</li>
-    <li>Horseshoe Prairie/Umatilla Rim, OR</li>
-    <li>Local trails, Lander WY</li>
-  </ol></li>
-  <li>Cummulative:</li>
+      <li>Devil's Den State Park, AR</li>
+      <li>Twin Buttes, Durango CO</li>
+      <li>Klondike Bluffs, Moab UT</li>
+      <li>Navajo Rocks, Moab UT</li>
+      <li>McKenzie River, Sisters OR</li>
+      <li>Mt. St. Helens, WA</li>
+      <li>White River/Skookum Flats, WA</li>
+      <li>St. Edwards Park, Seattle WA</li>
+      <li>Duthie Trails, WA</li>
+      <li>Horseshoe Prairie/Umatilla Rim, OR</li>
+      <li>Local trails, Lander WY</li>
+    </ol>
+  </li>
+  <li>Cummulative:
     <ul class="sam">
-    <li>120.4 miles (194 km) ridden</li>
-    <li>12,488 feet (3,806 m) elevation gain</li>
-  </ul></li>
+      <li>120.4 miles (194 km) ridden</li>
+      <li>12,488 feet (3,806 m) elevation gain</li>
+    </ul>
+  </li>
 </ul>
 
 </div>
