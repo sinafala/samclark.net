@@ -13,7 +13,6 @@
 <body>
 
 <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-<hr class="nav-top">
 
 <div class="sam-title">
   Indirect Estimation Methods
@@ -57,14 +56,7 @@
 
 </div>
 
-<hr class="nav-bottom">
-<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
-
-<div class="sam-note-bottom">
-<!-- UPDATE THIS -->
-Updated 2021-03-24
-<!-- UPDATE THIS -->
-</div>
+<!--#include virtual="/site/includes/bottom.shtml" -->
 
 </body>
 

@@ -27,7 +27,7 @@
 </div>
 
 <hr class="nav-bottom">
-<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
+<!--#include virtual="/site/includes/bottom.shtml" -->
 
 </body>
 

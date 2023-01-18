@@ -13,7 +13,6 @@
 <body>
 
 <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-<hr class="nav-top">
 
 <div class="sam-title">
   Biography
@@ -33,14 +32,7 @@
 <iframe src="https://www.google.com/maps/d/embed?mid=17RJAkgMyFNRyTgddU8fbkyBqIdU" width="350" height="270"></iframe>
 </div>
 
-<hr class="nav-bottom">
-<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
-
-<div class="sam-note-bottom">
-<!-- UPDATE THIS -->
-Updated 2021-09-16
-<!-- UPDATE THIS -->
-</div>
+<!--#include virtual="/site/includes/bottom.shtml" -->
 
 </body>
 

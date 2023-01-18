@@ -13,7 +13,6 @@
 <body>
 
 <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-<hr class="nav-top">
 
 <div class="sam-title">
   Characterizing COVID-19 Epidemic in Ohio
@@ -84,16 +83,7 @@
 
 </div>
 
-<hr class="nav-bottom">
-<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
-   
-<div class="sam-note-bottom">
-<!-- UPDATE THIS -->
-Updated 2022-03-28
-<!-- UPDATE THIS -->
-</div>
-
-<br>
+<!--#include virtual="/site/includes/bottom.shtml" -->
 
 </body>
 

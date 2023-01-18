@@ -13,7 +13,6 @@
 <body>
 
 <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-<hr class="nav-top">
 
 <div class="sam-title">
   Talks/Presentations
@@ -21,11 +20,23 @@
 
 <div class="sam-block">
 
-
+<h1>Index
+<select name="index" onchange="location = this.value;">
+  <option value="#2022-09-02">2022-09-02: Mortality Model</option>
+  <option value="#2022-08-05">2022-08-05: VA Brazil Pathology Meeting</option>
+  <option value="#2022-05-09">2022-05-09: PAA 2022</option>
+  <option value="#2022-02-10">2022-02-10: UNC Population Science</option>
+  <option value="#2021-10-01">2021-10-01: Discussant, De Jong Lecture</option>
+  <option value="#2021-04-08">2021-04-08: LSHTM Population Science</option>
+  <option value="#2021-03-04">2021-03-24: Berlin Demography Days: Pop Science</option>
+  <option value="#2020-04-07">2020-04-07: UNPD Experts' Group Meeting</option>
+  <option value="#earlier">Earlier</option>
+</select>
+</h1>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 id="climbing-mortality-models" class="sam-date">2022-09-02</h1>
+<h1 class="sam-date" id="2022-09-02">2022-09-02 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   Talk at workshop "Climbing Mortality Models" hosted at Misurna, Italy by four Italian universities as part of their collaboration studying mortality. <a href="/site/talks/Sam-Clark_SVD-Comp-Italy-2022.pdf" target="_blank">SVD-derived Life Tables indexed by Child Mortality</a>.
@@ -35,7 +46,7 @@
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 id="brazil-pathology-talk" class="sam-date">2022-08-05</h1>
+<h1 class="sam-date" id="2022-08-05">2022-08-05 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   Talk at annual meeting of the Brazilian Society of Pathology at Foz do Iguaçu, Brazil. <a href="/site/talks/Sam-Clark_Verbal-Autopsy-MITS.pptx">O papel da autópsia verbal e da autópsia minimamente invasiva na determinação da causa de morte</a> - Verbal autopsy and minimally-invasive tissue sampling for cause of death.
@@ -45,7 +56,7 @@
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 id="paa-2022" class="sam-date">2022-05-09</h1>
+<h1 class="sam-date" id="2022-05-09">2022-05-09 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   PAA 2022 talk on SVD-Comp mortality model work in session <a href="https://paa.confex.com/paa/2022/meetingapp.cgi/Session/2631" target="_blank">41 - Statistical Modeling and Smoothing in Demography</a>: <a href="/site/talks/Sam-clark_SVD-Comp-Mortality-Model-2020-04-07.pdf" target="_blank">"Application of a Singular Value Decomposition-Based Factorization and Parsimonious-Component Model of Mortality to HIV Epidemics in Africa."</a>
@@ -63,7 +74,7 @@
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 id="unc-talk" class="sam-date">2022-02-10</h1>
+<h1 class="sam-date" id="2022-02-10">2022-02-10 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   Talk at the <a href="https://www.cpc.unc.edu" target="_blank">Carolina Population Center (CPC) </a> at the University of North Carolina, Chapel Hill. <a href="/site/talks/Sam-Clark_UNC-presentation-2022-02-10.pdf" target="_blank">Population Sciences: Global Challenges and Opportunities</a>.
@@ -73,7 +84,7 @@
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 id="dejongslides" class="sam-date">2021-10-01</h1>
+<h1 class="sam-date" id="2021-10-01">2021-10-01 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   Discussant at the <a href="https://pop.psu.edu/events/16th-annual-de-jong-lecture-social-demography" target="_blank">16<sup>th</sup> annual De Jong Lecture in Social Demography</a> at Penn State. <a href="https://www.sas.upenn.edu/~hpkohler/" target="_blank">Hans Peter-Peter Kohler</a> is the featured speaker. My slides: <a href="/site/talks/Sam-Clark_De-Jong-Lecture_Discussant-Handout-2021-10-01.pdf" target="_blank">Discussant’s Remarks - Global Population Studies: Shaping the Future</a>
@@ -83,7 +94,7 @@
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-04-08</h1>
+<h1 class="sam-date" id="2021-04-08">2021-04-08 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   Talk at the Population Studies Group at the London School of Hygiene and Tropical Medicine. <a href="/site/talks/Sam-Clark_LSHTM-presentation-handout-2021-04-08.pdf" target="_blank">Demography, Epidemiology, and Statistics: What's Next?</a>
@@ -93,7 +104,7 @@
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2021-03-24</h1>
+<h1 class="sam-date" id="2021-03-24">2021-03-24 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   Invited talk at the 'Berlin Demography Days, 2021' sponsored by Population Europe. <a href="/site/talks/Sam-Clark_demogrdaphy-days_global-population-studies-in-the-21st-century-priorities-challenges--mortality.pdf" target="_blank">Global Population Studies in the 21st Century: Priorities Challenges - Mortality</a>
@@ -103,7 +114,7 @@
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">2020-04-07</h1>
+<h1 class="sam-date" id="2020-04-07">2020-04-07 <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   Invited talk at United Nations Population Division (UNPD) Experts' Group Meeting '2020 Methods for the World Population Prospects 2021 and Beyond'. <a href="/site/talks/Sam-Clark_UNPD-EGM-WPP21_SVD-Comp-Mortality-Model-2020-04-07.pdf" target="_blank">SVD Component Mortality Model</a>
@@ -113,7 +124,7 @@
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date">Earlier</h1>
+<h1 class="sam-date" id="earlier">Earlier <a href="#top" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   See <a href="/site/cv/Samuel-Clark_CV.pdf?ver=18" target="_blank">CV</a> for a selected list of earlier talks. 
@@ -121,8 +132,7 @@
 
 </div>
 
-<hr class="nav-bottom">
-<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
+<!--#include virtual="/site/includes/bottom.shtml" -->
 
 </body>
 

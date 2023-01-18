@@ -13,7 +13,6 @@
 <body>
 
 <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-<hr class="nav-top">
 
 <div class="sam-title">
   Mountain Biking Etc.
@@ -699,14 +698,7 @@ Alum Creek Phase II, Autumn 2021
 <a href="https://www.strava.com/athletes/1740747" target="_blank">My Strava</a> Heatmap
 </div>
 
-<hr class="nav-bottom">
-<!--#include virtual="/site/includes/nav-links-bottom.shtml" -->
-
-<div class="sam-note-bottom">
-<!-- UPDATE THIS -->
-Updated 2022-08-23
-<!-- UPDATE THIS -->
-</div>
+<!--#include virtual="/site/includes/bottom.shtml" -->
 
 </body>
 

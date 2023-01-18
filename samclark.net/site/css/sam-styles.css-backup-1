@@ -17,29 +17,7 @@ body {
   background-color: white; 
   width: 400px;
   margin: 0 auto;
-  font-family: Helvetica, Arial, sans-serif;
-  margin-top: 65px;
-  margin-bottom: 55px;
-}
-
-div.header {
-/*  background-color: #f1f1f1;*/
-  background-color: white;
-  position: fixed;
-  top: 0;
-  width: 400px;
-  margin: 0 auto;
-  padding: 8px 0px 8px 0px;
-}
-
-div.footer {
-/*  background-color: #f1f1f1;*/
-  background-color: white;
-  position: fixed;
-  bottom: 0;
-  width: 400px;
-  margin: 0 auto;
-  padding: 8px 0px 8px 0px;
+  font-family: Helvetica, Arial, sans-serif;;
 }
 
 div.sam-title {
@@ -81,9 +59,9 @@ div.sam-note {
 
 div.sam-note-bottom {
   font-size: 9px;
-  line-height: 12px; 
+  line-height: 11px; 
   text-align: center;
-  padding: 3px 0px 2px 0px}
+  padding: 10px 0px 10px 0px}
 
 p {
   margin-top: 4px;
@@ -196,22 +174,8 @@ hr.nav-top {
   border-radius: 5px;
 }
 
-hr.nav-top-fixed {
-  margin-top: 6px; 
-  margin-bottom: 0px;
-  border: 1px solid #0000A0;
-  border-radius: 5px;
-}
-
 hr.nav-bottom {
   margin-top: 10px; 
-  margin-bottom: 4px;
-  border: 1px solid #0000A0;
-  border-radius: 5px;
-}
-
-hr.nav-bottom-fixed {
-  margin-top: 0px; 
   margin-bottom: 4px;
   border: 1px solid #0000A0;
   border-radius: 5px;
@@ -220,7 +184,7 @@ hr.nav-bottom-fixed {
 hr.subnav-top {
   margin-top: 20px; 
   margin-bottom: 0px;
-  scroll-margin-top: 70px;
+  scroll-margin-top: 8px;
   border: 0.5px solid black;
   width:350px;
   text-align:center;;
@@ -229,7 +193,7 @@ hr.subnav-top {
 hr.subnav-toptop {
   margin-top: 7px; 
   margin-bottom: 0px;
-  scroll-margin-top: 70px;
+  scroll-margin-top: 8px;
   border: 0.5px solid black;
   width:350px;
   text-align:center;;
@@ -257,7 +221,6 @@ h1.sam-date {
   margin-top: 12px;
   margin-bottom: 4px;
   color: green;
-  scroll-margin-top: 70px;
 }
 
 h2 {
@@ -271,7 +234,7 @@ h2.bib-year {
   margin-top: 12px;
   margin-bottom: 6px;
   color: green;
-  scroll-margin-top: 70px;
+  scroll-margin-top: 10px;
 }
 
 
