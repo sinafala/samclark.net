@@ -1,18 +1,19 @@
 <div class="header">
 <div class="pill-nav flex-parent jc-center">
-  <a href="/index.shtml" target="_parent">Home</a>  
-  <a href="/site/pages/projects.shtml" target="_parent">Projects</a>
-  <a href="/site/cv/Samuel-Clark_CV.pdf?ver=18" target="_blank">CV</a>
-  <a href="/site/pages/bibliography.shtml" target="_parent">Bibliography</a> 
-  <a href="/site/pages/news.shtml" target="_parent">News</a> 
-  <a href="/site/search/search.shtml" target="_parent"><span style="color:#EE4B2B">Search</span></a> 
-</div>
-<div class="pill-nav flex-parent jc-center">
-  <a href="/site/pages/links-contacts.shtml" target="_parent">Links/Contacts</a>
-  <a href="/site/pages/talks.shtml" target="_parent">Talks</a> 
+  <a href="/site/pages/links-contacts.shtml" target="_parent">Links/Contact</a>
   <a href="/site/pages/mtb.shtml" target="_parent">MTB&nbsp;Etc.</a> 
   <a href="/site/pages/biography.shtml" target="_parent">Biography</a>
+  <!-- <a href="/site/pages/biography.shtml" target="_parent">Collaborators</a> -->
   <a onClick="window.location.reload()">Refresh</a>
+</div>
+<div class="pill-nav flex-parent jc-center">
+  <a href="/index.shtml" target="_parent">Home</a>  
+  <a href="/site/pages/bibliography.shtml" target="_parent">Bibliography</a> 
+  <a href="/site/cv/Samuel-Clark_CV.pdf?ver=19" target="_blank">CV</a>
+  <a href="/site/pages/projects.shtml" target="_parent">Projects</a>
+  <a href="/site/pages/news.shtml" target="_parent">News</a> 
+  <a href="/site/pages/talks.shtml" target="_parent">Talks</a> 
+  <a href="/site/search/search.shtml" target="_parent"><span style="color:#EE4B2B">Search</span></a> 
 </div>
 <hr class="nav-top-fixed">
 </div>
