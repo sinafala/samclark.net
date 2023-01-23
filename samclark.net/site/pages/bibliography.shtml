@@ -18,6 +18,7 @@
   Bibliography
 </div>
 
+
 <div class="sam-centered-block">
 <hr id="published-articles" class="subnav-toptop">
 <p>
@@ -34,7 +35,7 @@
 
 <div class="sam-block">
 
-<h1>Published Articles 
+<h1>Published Articles/Data
 <select name="pa-year" onchange="location = this.value;">
   <option value="#pa-2022">2022</option>
   <option value="#pa-2021">2021</option>
@@ -97,7 +98,7 @@ Houle,&nbsp;B., C.W.&nbsp;Kabudula, A.M.&nbsp;Tilstra, S.A. Mojola, E.&nbsp;Scha
 
 Houle,&nbsp;B., C.W.&nbsp;Kabudula, A.M.&nbsp;Tilstra, S.A. Mojola, E.&nbsp;Schatz, S.J.&nbsp;CLARK, N.&nbsp;Angotti, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, and J.&nbsp;Menken (2022). 
 
-<b><em>Data to Support:</em> Twin Epidemics: The Effects of HIV and Systolic Blood Pressure on Mortality Risk in Rural South Africa, 2010-2019</b>.
+<b><u>Data to Support</u>: Twin Epidemics: The Effects of HIV and Systolic Blood Pressure on Mortality Risk in Rural South Africa, 2010-2019</b>.
 
 <em>DataFirst</em>&nbsp;(African Research Replication and Reproducibility Data).
 
@@ -1301,11 +1302,10 @@ CLARK,&nbsp;S.J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
 </div>
 
 
-
 <div class="sam-centered-block">
 <hr id="working-papers" class="subnav-top">
 <p>
-  <a href="#published-articles">Published Articles</a>
+  <a href="#published-articles">Published Articles/Data</a>
   &nbsp;
   <a href="/site/projects/software.shtml" target="_parent">Software</a>
   &nbsp;
@@ -1944,7 +1944,7 @@ Alkema, L., A.E.&nbsp;Raftery, and S.J.&nbsp;CLARK (2007).
 <div class="sam-centered-block">
 <hr id="phd" class="subnav-top">
 <p>
-  <a href="#published-articles">Published Articles</a>
+  <a href="#published-articles">Published Articles/Data</a>
   &nbsp;
   <a href="#working-papers">Working Papers</a>
   &nbsp;
