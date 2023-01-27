@@ -31,7 +31,6 @@ div.header {
   width: 400px;
   margin: 0 auto;
   padding: 8px 0px 8px 0px;
-  z-index: 500;
 }
 
 div.footer {
@@ -42,7 +41,6 @@ div.footer {
   width: 400px;
   margin: 0 auto;
   padding: 8px 0px 8px 0px;
-  z-index: 500;
 }
 
 div.sam-title {
@@ -58,13 +56,6 @@ div.sam-block {
   margin: 0 auto; 
   font-size: 13px;
   line-height: 15px;
-}
-
-div.sam-block-index {
-  width: 380px; 
-  margin: 0 auto; 
-  font-size: 13px;
-  line-height: 25px;
 }
 
 div.sam-block-padded {
@@ -334,8 +325,6 @@ a:active{
 
 /*<div class="pill-nav flex-parent jc-center">
 </div>*/
-
-
 
 /* Images */
 

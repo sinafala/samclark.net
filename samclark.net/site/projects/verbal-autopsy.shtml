@@ -51,7 +51,7 @@
   <li> physician-associated bias is removed from the process so that cause assignments are reproducible and comparable. 
 </ol>
 
-<p>
+<p id="insilicova">
   I have led a small team to develop a new algorithmic method for coding verbal autopsies.  Building on InterVA - 'Interpret VA', the first VA algorithm - we developed InSilicoVA.  InSilicoVA assigns a cause to all deaths (no 'indeterminate' causes), provides consistent estimates of uncertainty for both individual causes and population-level cause-specific mortality fractions, utilizes both 'yes' and 'no' answers, and is fully probability-based so that results are presented as true probability distributions.  
 </p>
 
@@ -80,7 +80,7 @@
 </p>
 
 <ul>
-  <li><a href="http://openva.net" target="_blank">Main openVA site</a> and <a href="https://arxiv.org/abs/2109.08244" target="_blank">openVA paper</a></li>
+  <li><a href="http://openva.net" target="_blank">Main openVA site</a> and <a href="https://arxiv.org/abs/2109.08244" target="_blank"><b>openVA Toolkit</b> paper</a></li>
   <li><a href="https://cran.r-project.org/package=openVA" target="_blank">R Package</a></li>
   <li><a href="https://github.com/verbal-autopsy-software/openVA_App/releases" target="_blank">openVA App</a></li>
   <li><a href="https://youtu.be/C2EPOpTzJTk" target="_blank">Video for installation of openVA App</a></li>

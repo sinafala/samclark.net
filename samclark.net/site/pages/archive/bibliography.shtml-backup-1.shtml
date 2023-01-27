@@ -19,7 +19,7 @@
 </div>
 
 
-<!-- <div class="sam-centered-block">
+<div class="sam-centered-block">
 <hr id="published-articles" class="subnav-toptop">
 <p>
   <a href="#working-papers">Working Papers</a>
@@ -30,41 +30,32 @@
   &nbsp;
   <a href="#top" style="font-weight:normal">&#8679;</a>
  <hr class="subnav-bottom">
-</div> -->
+</div>
 
 
 <div class="sam-block">
 
-<h1 id="published">Published
-<select name="select-published" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#published">Year</option>
-  <option value="#published-2022">2022</option>
-  <option value="#published-2021">2021</option>
-  <option value="#published-2020">2020</option>
-  <option value="#published-2019">2019</option>
-  <option value="#published-2018">2018</option>
-  <option value="#published-2017">2017</option>
-  <option value="#published-2016">2016</option>
-  <option value="#published-2015">2015</option>
-  <option value="#published-2014">2014</option>
-  <option value="#published-2013">2013</option>
-  <option value="#published-2012">2012</option>
-  <option value="#published-2011">2011</option>
-  <option value="#published-2010">2010</option>
-  <option value="#published-2008">2008</option>
-  <option value="#published-2007">2007</option>
-  <option value="#published-2006">2006</option>
-  <option value="#published-2005">2005</option>
-  <option value="#published-2004">2004</option>
-  <option value="#published-1995">1995</option>
-</select>
-&nbsp;
-<select name="jump-to-from-published" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#published">Jump To</option>
-  <option value="#working-papers">Working Papers</option>
-  <option value="#phd">PhD</option>
-  <option value="/site/projects/software.shtml">Software</option>
-  <option value="#top">Top &#8679;</option>  
+<h1>Published Articles/Data
+<select name="pa-year" onchange="location = this.value;">
+  <option value="#pa-2022">2022</option>
+  <option value="#pa-2021">2021</option>
+  <option value="#pa-2020">2020</option>
+  <option value="#pa-2019">2019</option>
+  <option value="#pa-2018">2018</option>
+  <option value="#pa-2017">2017</option>
+  <option value="#pa-2016">2016</option>
+  <option value="#pa-2015">2015</option>
+  <option value="#pa-2014">2014</option>
+  <option value="#pa-2013">2013</option>
+  <option value="#pa-2012">2012</option>
+  <option value="#pa-2011">2011</option>
+  <option value="#pa-2010">2010</option>
+  <option value="#pa-2008">2008</option>
+  <option value="#pa-2007">2007</option>
+  <option value="#pa-2006">2006</option>
+  <option value="#pa-2005">2005</option>
+  <option value="#pa-2004">2004</option>
+  <option value="#pa-1995">1995</option>
 </select>
 </h1>
 
@@ -86,7 +77,7 @@ Kline, D., Z.&nbsp;Li, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turne
 
 
 
-<h2 class="bib-year" id="published-2022">2022  <a href="#published" style="font-weight:normal">&#8679;</a></h2> 
+<h2 class="bib-year" id="pa-2022">2022  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2> 
 
 <p><a id="houleTwinEpidemics"></a>
 
@@ -118,7 +109,7 @@ Houle,&nbsp;B., C.W.&nbsp;Kabudula, A.M.&nbsp;Tilstra, S.A. Mojola, E.&nbsp;Scha
 
 
 
-<h2 class="bib-year" id="published-2021">2021  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-2021">2021  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 
 <p><a id="HerbsHDSS"></a>
@@ -211,7 +202,7 @@ Houle, B., C.&nbsp;Kabudula, A.&nbsp;Stein, D.&nbsp;Gareta, K.&nbsp;Herbst, and 
 
 
 
-<h2 class="bib-year" id="published-2020">2020  <a href="#published" style="font-weight:normal">&#8679;</a></h2> 
+<h2 class="bib-year" id="pa-2020">2020  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2> 
 
 <p><a id="calvert2020maternal"></a>
 
@@ -319,7 +310,7 @@ Setel, P., C.&nbsp;AbouZahr, E.&nbsp;B. Atuheire, M.&nbsp;Bratschi, E.&nbsp;Cerc
 
 
 
-<h2 class="bib-year" id="published-2019">2019  <a href="#published" style="font-weight:normal">&#8679;</a></h2> 
+<h2 class="bib-year" id="pa-2019">2019  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2> 
 
 <p><a id="interva52018"></a>
 
@@ -396,7 +387,7 @@ Li, Z., Y.&nbsp;Hsiao, J.&nbsp;Godwin, B.&nbsp;Martin, J.&nbsp;Wakefield, and S.
 
 
 
-<h2 class="bib-year" id="published-2018">2018  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-2018">2018  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 <p><a id="clarkHyak2016"></a>
 
@@ -503,7 +494,7 @@ Wakefield, J., G.A.&nbsp;Fuglstad, A.&nbsp;Riebler, J.&nbsp;Godwin, K.&nbsp;Wils
 
 
 
-<h2 class="bib-year" id="published-2017">2017  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-2017">2017  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 <p><a id="kabudulaCauseComp2017"></a>
 
@@ -580,7 +571,7 @@ Sankoh, O., P.&nbsp;Byass, M.&nbsp;Kamanda, S.S.&nbsp;Arthur, M.&nbsp;Bangha, D.
 
 
 
-<h2 class="bib-year" id="published-2016">2016  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-2016">2016  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 <p><a id="bawah2016evolving"></a>
 
@@ -702,7 +693,7 @@ Wheldon, M., A.E.&nbsp;Raftery, S.J.&nbsp;CLARK, and P.&nbsp;Gerland (2016).
 
 
 
-<h2 class="bib-year" id="published-2015">2015  <a href="#published" style="font-weight:normal">&#8679;</a></h2> 
+<h2 class="bib-year" id="pa-2015">2015  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2> 
 
 <p><a id="clarkEtAl2015_1"></a>
 
@@ -809,7 +800,7 @@ Zaba, B., G.&nbsp;Reniers, E.&nbsp;Slaymaker, J.&nbsp;Todd, J.&nbsp;Glynn, A.&nb
 
 
 
-<h2 class="bib-year" id="published-2014">2014  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-2014">2014  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 <p><a id="bocquierEtAl2014"></a>
 
@@ -931,7 +922,7 @@ Sharrow,&nbsp;D.J., S.J.&nbsp;CLARK, and A.E.&nbsp;Raftery (2014).
 
 
 
-<h2 class="bib-year" id="published-2013">2013  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-2013">2013  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 <p><a id="clarkEtAl2013YoungChildren"></a>
 
@@ -1008,7 +999,7 @@ Wheldon,&nbsp;M.C., A.E.&nbsp;Raftery, S.J.&nbsp;CLARK, and P.&nbsp;Gerland (201
 
 
 
-<h2 class="bib-year" id="published-2012">2012  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-2012">2012  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 <p><a id="alkemaEtAl2012"></a>
 
@@ -1085,7 +1076,7 @@ Madhavan, S., E.&nbsp;Shatz, S.J.&nbsp;CLARK, and M.A.&nbsp;Collinson (2012).
 
 
 
-<h2 class="bib-year" id="published-2011">2011  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-2011">2011  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 <p><a id="alkemaEtAl2011"></a>
 
@@ -1117,7 +1108,7 @@ Thomas, J. and S.J.&nbsp;CLARK (2011).
 
 
 
-<h2 class="bib-year" id="published-2010">2010  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-2010">2010  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 <p><a id="williamsEtAl2010"></a>
 
@@ -1134,7 +1125,7 @@ Williams,&nbsp;J.R., E.J.&nbsp;Schatz, B.D.&nbsp;Clark, M.A.&nbsp;Collinson, S.J
 
 
 
-<h2 class="bib-year" id="published-2008">2008  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-2008">2008  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 <p><a id="casselsEtAl2008"></a>
 
@@ -1166,7 +1157,7 @@ Tollman,&nbsp;S.M., K.&nbsp;Kahn, B.&nbsp;K. Sartorius, M.A.&nbsp;Collinson, S.J
 
 
 
-<h2 class="bib-year" id="published-2007">2007  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-2007">2007  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 <p><a id="alkema2007"></a>
 
@@ -1228,7 +1219,7 @@ Kahn, K., S.&nbsp;Tollman, M.A.&nbsp;Collinson, S.J.&nbsp;CLARK, R.&nbsp;Twine, 
 
 
 
-<h2 class="bib-year" id="published-2006">2006  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-2006">2006  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 <p><a id="adjuikEtAl2006"></a>
 
@@ -1260,7 +1251,7 @@ CLARK,&nbsp;S.J. (2006).
 
 
 
-<h2 class="bib-year" id="published-2005">2005  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-2005">2005  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 <p><a id="benzlerClark2005"></a>
 
@@ -1277,7 +1268,7 @@ Benzler, J. and S.J.&nbsp;CLARK (2005).
 
 
 
-<h2 class="bib-year" id="published-2004">2004  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-2004">2004  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 <p><a id="hargreavesEtAl2004"></a>
 
@@ -1294,7 +1285,7 @@ Hargreaves, J.&nbsp;R., M.A.&nbsp;Collinson, K.&nbsp;Kahn, S.J.&nbsp;CLARK, and 
 
 
 
-<h2 class="bib-year" id="published-1995">1995  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<h2 class="bib-year" id="pa-1995">1995  <a href="#published-articles" style="font-weight:normal">&#8679;</a></h2>
 
 <p><a id="clark1995ten"></a>
 
@@ -1311,10 +1302,10 @@ CLARK,&nbsp;S.J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
 </div>
 
 
-<!-- <div class="sam-centered-block">
+<div class="sam-centered-block">
 <hr id="working-papers" class="subnav-top">
 <p>
-  <a href="#published">Published Articles/Data</a>
+  <a href="#published-articles">Published Articles/Data</a>
   &nbsp;
   <a href="/site/projects/software.shtml" target="_parent">Software</a>
   &nbsp;
@@ -1323,14 +1314,13 @@ CLARK,&nbsp;S.J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
   <a href="#top" style="font-weight:normal">&#8679;</a>
 </p>
 <hr class="subnav-bottom">
-</div> -->
+</div>
 
 
 <div class="sam-block">
 
-<h1 id="working-papers">Working Papers 
-<select name="select-wp" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#working-papers">Year</option>
+<h1>Working Papers 
+<select name="wp-year" onchange="location = this.value;">
   <option value="#wp-2021">2021</option>
   <option value="#wp-2020">2020</option>
   <option value="#wp-2019">2019</option>
@@ -1346,14 +1336,6 @@ CLARK,&nbsp;S.J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
   <option value="#wp-2009">2009</option>
   <option value="#wp-2008">2008</option>
   <option value="#wp-2007">2007</option>
-</select>
-&nbsp;
-<select name="jump-to-from-working-paper" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#working-papers">Jump To</option>  
-  <option value="#published">Published</option>
-  <option value="#phd">PhD</option>
-  <option value="/site/projects/software.shtml">Software</option>
-  <option value="#top">Top &#8679;</option>  
 </select>
 </h1>
 
@@ -1959,10 +1941,10 @@ Alkema, L., A.E.&nbsp;Raftery, and S.J.&nbsp;CLARK (2007).
 
 
 
-<!-- <div class="sam-centered-block">
+<div class="sam-centered-block">
 <hr id="phd" class="subnav-top">
 <p>
-  <a href="#published">Published Articles/Data</a>
+  <a href="#published-articles">Published Articles/Data</a>
   &nbsp;
   <a href="#working-papers">Working Papers</a>
   &nbsp;
@@ -1971,20 +1953,12 @@ Alkema, L., A.E.&nbsp;Raftery, and S.J.&nbsp;CLARK (2007).
   <a href="#top" style="font-weight:normal">&#8679;</a>
 </p>
 <hr class="subnav-bottom">
-</div> -->
+</div>
 
 
 <div class="sam-block">
 
-<h1 id="phd">Phd
-<select name="jump-to-from-phd" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#PhD">Jump To</option>
-  <option value="#published">Published</option>
-  <option value="#working-papers">Working Papers</option>
-  <option value="/site/projects/software.shtml">Software</option>
-  <option value="#top">Top &#8679;</option>  
-</select>
-</h1>
+<h1>PhD</h1>
 
 <p>
 

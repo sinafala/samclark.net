@@ -1,6 +1,8 @@
 <div class="header">
 <div class="pill-nav flex-parent jc-center">
   <a href="/site/pages/links-contacts.shtml" target="_parent">Links/Contact</a>
+  <a href="/site/projects/verbal-autopsy.shtml" target="_parent">VA</a>
+  <a href="https://openva.net" target="_blank">openVA</a>
   <a href="/site/pages/mtb.shtml" target="_parent">MTB&nbsp;Etc.</a> 
   <a href="/site/pages/biography.shtml" target="_parent">Biography</a>
   <!-- <a href="/site/pages/biography.shtml" target="_parent">Collaborators</a> -->
