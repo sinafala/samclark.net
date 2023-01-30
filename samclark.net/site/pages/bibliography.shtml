@@ -19,18 +19,6 @@
 </div>
 
 
-<!-- <div class="sam-centered-block">
-<hr id="published-articles" class="subnav-toptop">
-<p>
-  <a href="#working-papers">Working Papers</a>
-  &nbsp;
-  <a href="/site/projects/software.shtml" target="_parent">Software</a>
-  &nbsp;
-  <a href="#phd" target="_parent">PhD</a>
-  &nbsp;
-  <a href="#top" style="font-weight:normal">&#8679;</a>
- <hr class="subnav-bottom">
-</div> -->
 
 
 <div class="sam-block">
@@ -1311,19 +1299,6 @@ CLARK,&nbsp;S.J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
 </div>
 
 
-<!-- <div class="sam-centered-block">
-<hr id="working-papers" class="subnav-top">
-<p>
-  <a href="#published">Published Articles/Data</a>
-  &nbsp;
-  <a href="/site/projects/software.shtml" target="_parent">Software</a>
-  &nbsp;
-  <a href="#phd" target="_parent">PhD</a>
-  &nbsp;
-  <a href="#top" style="font-weight:normal">&#8679;</a>
-</p>
-<hr class="subnav-bottom">
-</div> -->
 
 
 <div class="sam-block">
@@ -1959,20 +1934,6 @@ Alkema, L., A.E.&nbsp;Raftery, and S.J.&nbsp;CLARK (2007).
 
 
 
-<!-- <div class="sam-centered-block">
-<hr id="phd" class="subnav-top">
-<p>
-  <a href="#published">Published Articles/Data</a>
-  &nbsp;
-  <a href="#working-papers">Working Papers</a>
-  &nbsp;
-  <a href="/site/projects/software.shtml" target="_parent">Software</a>
-  &nbsp;
-  <a href="#top" style="font-weight:normal">&#8679;</a>
-</p>
-<hr class="subnav-bottom">
-</div> -->
-
 
 <div class="sam-block">
 
@@ -1999,6 +1960,9 @@ Ph.D. Dissertation. <em>University of Pennsylvania</em>.
 </p>
 
 </div> 
+
+
+
 
 <!--#include virtual="/site/includes/bottom.shtml" -->
 

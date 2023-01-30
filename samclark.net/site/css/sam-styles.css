@@ -11,7 +11,7 @@ NOTES
 
 html {
   background-color: white;
-  scroll-padding-top: 65px;
+/*  scroll-padding-top: 65px;*/
 } 
 
 body {
@@ -21,6 +21,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   margin-top: 65px;
   margin-bottom: 55px;
+  scroll-padding-top: 65px;  
 }
 
 div.header {
@@ -33,6 +34,20 @@ div.header {
   padding: 8px 0px 8px 0px;
   z-index: 500;
 }
+
+/*div.header-title {
+  background-color: white;
+  position: fixed;
+  top: auto;
+  padding: 0px 0px 8px 0px;
+  z-index: 500;
+  width: 380px;
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  scroll-padding-top: 150px;  
+}*/
 
 div.footer {
 /*  background-color: #f1f1f1;*/
