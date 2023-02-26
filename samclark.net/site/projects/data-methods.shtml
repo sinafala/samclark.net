@@ -12,11 +12,14 @@
 
 <body>
 
+<div class="header" style="height: 120px;">
 <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-
 <div class="sam-title">
-  Data Methods - The Structured Population Event History Register
+  Data Methods: The Structured Population Event History Register
 </div>
+</div>
+
+<div class="content" style="top: 120px;">
 
 <div class="sam-block">
 
@@ -90,7 +93,11 @@
 
 </div>
 
+</div>
+
+<div class="footer">
 <!--#include virtual="/site/includes/bottom.shtml" -->
+</div>
 
 </body>
 

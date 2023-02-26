@@ -1,3 +1,4 @@
+<div class="header">
 <div class="pill-nav flex-parent jc-center">
   <a href="/site/pages/links-contacts.shtml" target="_parent">Links/Contact</a>
   <a href="/site/projects/verbal-autopsy.shtml" target="_parent">VA</a>
@@ -17,3 +18,4 @@
   <a href="/site/search/search.shtml" target="_parent"><span style="color:#EE4B2B">Search</span></a> 
 </div>
 <hr class="nav-top-fixed">
+</div>

@@ -12,11 +12,14 @@
 
 <body>
 
+<div class="header">
 <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-
 <div class="sam-title">
   Projects
 </div>
+</div>
+
+<div class="content">
 
 <div class="sam-links-list">
 <a href="/site/projects/verbal-autopsy.shtml" target="_parent">Verbal Autopsy</a> <br>
@@ -47,7 +50,11 @@
 <a href="https://openva.net" target="_blank">openVA Team</a><br>
 </div>
 
+</div>
+
+<div class="footer">
 <!--#include virtual="/site/includes/bottom.shtml" -->
+</div>
 
 </body>
 

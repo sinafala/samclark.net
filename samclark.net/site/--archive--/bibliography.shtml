@@ -12,19 +12,16 @@
 
 <body>
 
-<div class="header">
 <!--#include virtual="/site/includes/nav-links-top.shtml" -->
+
 <div class="sam-title">
   Bibliography
 </div>
-</div>
-
-<div class="content">
 
 
 
 
-<div id="beginning" class="sam-block">
+<div class="sam-block">
 
 <h1 id="published">Published
 <select name="select-published" onchange="location = this.value; this.selectedIndex = 0;">
@@ -55,7 +52,7 @@
   <option value="#working-papers">Working Papers</option>
   <option value="#phd">PhD</option>
   <option value="/site/projects/software.shtml">Software</option>
-  <option value="#beginning">Top &#8679;</option>  
+  <option value="#top">Top &#8679;</option>  
 </select>
 </h1>
 
@@ -1331,7 +1328,7 @@ CLARK,&nbsp;S.J., E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
   <option value="#published">Published</option>
   <option value="#phd">PhD</option>
   <option value="/site/projects/software.shtml">Software</option>
-  <option value="#beginning">Top &#8679;</option>  
+  <option value="#top">Top &#8679;</option>  
 </select>
 </h1>
 
@@ -1946,7 +1943,7 @@ Alkema, L., A.E.&nbsp;Raftery, and S.J.&nbsp;CLARK (2007).
   <option value="#published">Published</option>
   <option value="#working-papers">Working Papers</option>
   <option value="/site/projects/software.shtml">Software</option>
-  <option value="#beginning">Top &#8679;</option>  
+  <option value="#top">Top &#8679;</option>  
 </select>
 </h1>
 
@@ -1967,11 +1964,7 @@ Ph.D. Dissertation. <em>University of Pennsylvania</em>.
 
 
 
-</div>
-
-<div class="footer">
 <!--#include virtual="/site/includes/bottom.shtml" -->
-</div>
 
 </body>
 

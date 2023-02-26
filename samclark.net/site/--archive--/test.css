@@ -1,0 +1,33 @@
+
+div.header {
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  height: 200px; 
+  right: 0px;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 400px;
+}
+
+div.content {
+  position: absolute; 
+  top: 200px; 
+  bottom: 200px; 
+  left: 0px; 
+  right: 0px; 
+  overflow: auto;
+  margin: 0 auto;
+  width: 400px;
+}
+
+div.footer {
+  position: absolute; 
+  bottom:0px; 
+  height:200px; 
+  left:0px; 
+  right:0px; 
+  overflow:hidden;
+  margin: 0 auto;
+  width: 400px;
+}

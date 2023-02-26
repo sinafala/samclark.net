@@ -12,11 +12,14 @@
 
 <body>
 
+<div class="header">
 <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-
 <div class="sam-title">
   Biography
 </div>
+</div>
+
+<div class="content">
 
 <div class="sam-block">
 <p>
@@ -32,7 +35,11 @@
 <iframe src="https://www.google.com/maps/d/embed?mid=17RJAkgMyFNRyTgddU8fbkyBqIdU" width="380" height="293"></iframe>
 </div>
 
+</div>
+
+<div class="footer">
 <!--#include virtual="/site/includes/bottom.shtml" -->
+</div>
 
 </body>
 

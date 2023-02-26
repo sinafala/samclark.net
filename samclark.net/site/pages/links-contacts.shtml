@@ -12,15 +12,14 @@
 
 <body>
 
+<div class="header">
 <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-
 <div class="sam-title">
   Links
 </div>
+</div>
 
-<!-- <div class="header-title">
-  Links
-</div> -->
+<div class="content">
 
 <div class="sam-links-list">
 <a href="/site/cv/Samuel-Clark_CV.pdf?ver=20" target="_blank">CV - PDF with Links</a>
@@ -50,7 +49,11 @@
 <a href="https://openva.net" target="_blank">openVA Team</a><br>
 </div>
 
+</div>
+
+<div class="footer">
 <!--#include virtual="/site/includes/bottom.shtml" -->
+</div>
 
 </body>
 

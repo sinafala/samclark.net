@@ -12,8 +12,8 @@
 
 <body>
 
+<div class="header" style="height: 425px;">
 <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-
 <div class="sam-title">
   Samuel J. Clark
 </div>
@@ -21,6 +21,10 @@
 <div class="sam-image">
 <a href="mailto:sam@samclark.net"><img class="sam" title="Sam Clark" src="/site/media/sam.jpg" alt="Sam Clark" width="300" height="300"></a>
 </div>
+
+</div>
+
+<div class="content" style="top: 425px;">
 
 <div class="sam-block">
 <p>
@@ -36,7 +40,11 @@
 </p>
 </div>
 
+</div>
+
+<div class="footer">
 <!--#include virtual="/site/includes/bottom.shtml" -->
+</div>
 
 </body>
 
