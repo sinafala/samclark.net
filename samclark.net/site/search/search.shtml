@@ -12,11 +12,14 @@
 
 <body>
 
+<div class="header">
 <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-
 <div class="sam-title">
   Search samclark.net
 </div>
+</div>
+
+<div class="content">
 
 <div class="sam-block">
 
@@ -25,7 +28,11 @@
 
 </div>
 
+</div>
+
+<div class="footer">
 <!--#include virtual="/site/includes/bottom.shtml" -->
+</div>
 
 </body>
 

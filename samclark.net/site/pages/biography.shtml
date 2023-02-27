@@ -32,7 +32,7 @@
 </div>
 
 <div class="sam-block-padded">
-<iframe src="https://www.google.com/maps/d/embed?mid=17RJAkgMyFNRyTgddU8fbkyBqIdU" width="380" height="293"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=17RJAkgMyFNRyTgddU8fbkyBqIdU" width="100%" height="300px"></iframe>
 </div>
 
 </div>
