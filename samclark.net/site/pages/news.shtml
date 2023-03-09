@@ -26,6 +26,8 @@
 <h1>Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Date: Event</option>
+  <option value="#2023-03-06">2023-03-06: Available, openVA Tookit</option>
+  <option value="#2023-03-03">2023-03-03: Article, Child Mx/HIV/RSA</option>
   <option value="#2022-10-19">2022-10-19: Article, openVA Tookit</option>
   <option value="#2022-08-23">2022-08-23: New Gates Grant</option>
   <option value="#2022-07-14">2022-07-14: UN WPP</option>
@@ -55,9 +57,67 @@
 
 
 
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2023-03-06">2023-03-06  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>"<a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank">The openVA Toolkit for Verbal Autopsies</a>"
+appeared in <em>The R Journal</em> today.</h2>
+
+<p>
+  Li,&nbsp;Z., J.&nbsp;Thomas, E.&nbsp;Choi, T.H.&nbsp;McCormick, and S.J.&nbsp;Clark (2023).
+
+  <b>The openVA Toolkit for Verbal Autopsies</b>
+
+  <em>The R Journal</em>
+
+  [&nbsp;<a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank">Link</a>&nbsp;]
+</p>
+
+<p> 
+  See <a href="#openvatoolkit">openVA Toolkit</a> just below for details.
+</p>
+
+
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2022-10-19">2022-10-19 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2023-03-03">2023-03-03  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>Accepted in <em>BMJ Open</em></h2>
+<p>
+  Houle,&nbsp;B., C.W.&nbsp;Kabudula, D.&nbsp;Gareta, K.&nbsp;Herbst, and S.J.&nbsp;Clark (Accepted 2023).
+
+  <b>Household Structure, Composition, and Child Mortality in the Unfolding Antiretroviral Therapy Era in Rural South Africa: Comparative Evidence from Population Surveillance, 2000-2015.</b> 
+
+  <em>BMJ Open</em>.
+
+  <!-- [&nbsp;<a href="http://doi.org/10.1080/16549716.2021.1982486" target="_blank">DOI</a>&nbsp;] -->
+</p>
+<h2>Abstract</h2>
+<p>
+  <b>Objectives:</b> The structure and composition of the household has important influences on child mortality. However, little is known about these factors in HIV-endemic areas and how associations may change with the introduction and widespread availability of antiretroviral treatment (ART). We use comparative, longitudinal data from two demographic surveillance sites in rural South Africa (2000-2015) on mortality of children younger than five years (n=101,105).
+</p>
+<p>
+  <b>Design:</b> We use multilevel discrete time event history analysis to estimate children’s probability of dying by their matrilineal residential arrangements. We also test if associations have changed over time with ART availability.
+</p>
+<p>
+  <b>Setting:</b> Rural South Africa.
+</p>
+<p>
+  <b>Participants:</b> Children younger than five years (n=101,105).
+</p>
+<p>
+  <b>Results:</b> 3,603 children died between 2000-2015. Mortality risks differed by co-residence patterns along with different types of kin present in the household. Children in nuclear households with both parents had the lowest risk of dying compared to all other household types. Associations with kin and child mortality were moderated by parental status. Having older siblings lowered the probability of dying only for children in a household with both parents (relative risk ratio (RRR)=0.736 95% CI [0.633, 0.855]). Only in the later ART period was there evidence that older adult kin lowered the probability of dying for children in single parent households (RRR=0.753 95% CI [0.664, 0.853]).
+</p>
+<p>
+  <b>Conclusions:</b> Our findings provide comparative evidence of how differential household profiles may place children at higher mortality risk. Formative research is needed to understand the role of other household kin in promoting child well-being, particularly in one-parent households that are increasingly prevalent.
+</p>
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 id="openvatoolkit" class="sam-date" id="2022-10-19">2022-10-19  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>"<a href="https://arxiv.org/abs/2109.08244" target="_blank">The openVA Toolkit for Verbal Autopsies</a>"
@@ -88,7 +148,7 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2022-08-23">2022-08-23 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2022-08-23">2022-08-23  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>New Grant</h2>
@@ -99,7 +159,7 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2022-07-14">2022-07-14 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2022-07-14">2022-07-14  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>UN World Population Prospects 2022</h2>
@@ -118,7 +178,7 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2022-04-28">2022-04-28 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2022-04-28">2022-04-28  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>How to Update a Web Site Using Git</h2>
@@ -134,7 +194,7 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2022-04-19:2">2022-04-19 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2022-04-19:2">2022-04-19  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>New York Times Article on Verbal Autopsy</h2>
@@ -151,7 +211,7 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2022-04-19:1">2022-04-19 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2022-04-19:1">2022-04-19  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>Papers in Annual Meeting of the Population Association of America (PAA) 2022</h2>
@@ -166,18 +226,18 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2022-04-10:2">2022-04-10 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2022-04-10:2">2022-04-10  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>New in <em>Global Health Action</em></h2>
 <p>
-  Chandramohan, D., E.&nbsp;Fottrell, J.&nbsp;Leitao, E.&nbsp;Nichols, S. J.&nbsp;CLARK, C.&nbsp;Alsokhn, D. C.&nbsp;Munoz, C.&nbsp;AbouZahr, A.&nbsp;Di Pasquale, R.&nbsp;Mswia, E.&nbsp;Choi, F.&nbsp;Baiden, J.&nbsp;Thomas, I.&nbsp;Lyatuu, Z.&nbsp;Li, P.&nbsp;Larbi-Debrah, Y.&nbsp;Chu, S.&nbsp;Cheburet, O.&nbsp;Sankoh, A. M.&nbsp;Badr, D. M.&nbsp;Fat, P.&nbsp;Setel, R.&nbsp;Jakob, D.&nbsp;de Savigny (2021). 
+  Chandramohan,&nbsp;D., E.&nbsp;Fottrell, J.&nbsp;Leitao, E.&nbsp;Nichols, S. J.&nbsp;CLARK, C.&nbsp;Alsokhn, D. C.&nbsp;Munoz, C.&nbsp;AbouZahr, A.&nbsp;Di Pasquale, R.&nbsp;Mswia, E.&nbsp;Choi, F.&nbsp;Baiden, J.&nbsp;Thomas, I.&nbsp;Lyatuu, Z.&nbsp;Li, P.&nbsp;Larbi-Debrah, Y.&nbsp;Chu, S.&nbsp;Cheburet, O.&nbsp;Sankoh, A. M.&nbsp;Badr, D. M.&nbsp;Fat, P.&nbsp;Setel, R.&nbsp;Jakob, and D.&nbsp;de Savigny (2021). 
 
   <b>Estimating Causes Of Death Where There Is No Medical Certification: Evolution And State of The Art Of Verbal Autopsy.</b> 
 
   <em>Global Health Action</em>.
 
-  &nbsp;<a href="http://doi.org/10.1080/16549716.2021.1982486" target="_blank">DOI</a>&nbsp;]
+  [&nbsp;<a href="http://doi.org/10.1080/16549716.2021.1982486" target="_blank">DOI</a>&nbsp;]
 </p>
 <h2>Abstract</h2>
 <p>
@@ -187,12 +247,12 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2022-04-10:1">2022-04-10 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2022-04-10:1">2022-04-10  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>New in <em>Global Health Action</em></h2>
 <p>
-  Herbst, K., S.&nbsp;Juvekar, M.&nbsp;Jasseh, Y.&nbsp;Berhane, N. T. K.&nbsp;Chuk, J.&nbsp;Seeley, O.&nbsp;Sankoh, S. J.&nbsp;CLARK and M.&nbsp;Collinson (2021). 
+  Herbst,&nbsp;K., S.&nbsp;Juvekar, M.&nbsp;Jasseh, Y.&nbsp;Berhane, N. T. K.&nbsp;Chuk, J.&nbsp;Seeley, O.&nbsp;Sankoh, S. J.&nbsp;CLARK and M.&nbsp;Collinson (2021). 
 
   <b>Health And Demographic Surveillance Systems In Low- And Middle-income Countries: History, State of The Art And Future Prospects.</b> 
 
@@ -214,7 +274,7 @@ will appear in the <em>R Journal</em></h2>
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2022-02-20">2022-02-20 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2022-02-20">2022-02-20  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>New in <em>BMC Public Health</em></h2>
@@ -242,7 +302,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2022-01-23">2022-01-23 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2022-01-23">2022-01-23  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <p>
@@ -264,12 +324,12 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2021-12-28">2021-12-28 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2021-12-28">2021-12-28  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>Published in <em>Annals of Epidemiology</em></h2>
 <p>
-  Norris Turner, A.,&nbsp;D. Kline,&nbsp;A. Norris, &nbsp;W.G. Phillips,&nbsp;E. Root,&nbsp;J. Wakefield,&nbsp;Z. Li,&nbsp;S. Lemeshow,&nbsp;M. Spahnie,&nbsp;A. Luff,&nbsp;Y. Chu,&nbsp;M.K. Francis,&nbsp;M. Gallo,&nbsp;P. Chakraborty,&nbsp;M. Lindstrom,&nbsp;G. Lozanski, &nbsp;W. Miller,&nbsp;S.J. CLARK (2021). 
+  Norris&nbsp;Turner,&nbsp;A.,&nbsp;D. Kline,&nbsp;A. Norris, &nbsp;W.G. Phillips,&nbsp;E. Root,&nbsp;J. Wakefield,&nbsp;Z. Li,&nbsp;S. Lemeshow,&nbsp;M. Spahnie,&nbsp;A. Luff,&nbsp;Y. Chu,&nbsp;M.K. Francis,&nbsp;M. Gallo,&nbsp;P. Chakraborty,&nbsp;M. Lindstrom,&nbsp;G. Lozanski, &nbsp;W. Miller,&nbsp;S.J. CLARK (2021). 
   
   <b>Prevalence of Current and Past COVID-19 in Ohio Adults</b>. 
   
@@ -291,7 +351,7 @@ mortality.
 <p>
   In July 2020 a large group of colleagues at The Ohio State University collaborated with the Ohio State Department of Health to conduct a probability-based sample survey representative of adults living in Ohio in order to estimate state-level CV19 prevalence of current and past infections. 
 </p><p>
-  This article describes the results of the survey for a public health audience. We developed a new Bayesian poststratification method to produce estimates from the data - <a href="#PNAS-methods" target="_parent">described in PNAS</a>.
+  This article describes the results of the survey for a public health audience. We developed a new Bayesian poststratification method to produce estimates from the data -<a href="#PNAS-methods" target="_parent">described in PNAS</a>.
 </p><p>
   Abigail Norris Turner led the overall study conducted by a large group of collaborators at The Ohio State University and Ohio State Department of Health. 
 </p>
@@ -300,7 +360,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2021-12-22">2021-12-22 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2021-12-22">2021-12-22  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>New working paper on arXiv</h2> 
@@ -322,7 +382,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2021-10-26">2021-10-26 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2021-10-26">2021-10-26  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   This appeared on my Twitter feed recently: <a href="/site/misc/FormalDemog.pdf" target="_blank">Demography Abandons Its Core</a> by <a href="https://www.demog.berkeley.edu/faculty/ronald-demos-lee/" target="_blank">Ron Lee</a> in 2001. Unfortunately this is still highly relevant, and those of us interested in formal demography as a recognizable field need to do something! <a href="https://formaldemography.github.io/working_group/" target="_blank">The Formal Demography Working Group</a> is being formed as a vehicle for doing that - please join if you are interested!
@@ -332,7 +392,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2021-10-01">2021-10-01 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2021-10-01">2021-10-01  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   Today Mary Shenk and I are discussants at the 16<sup>th</sup> <a href="https://pop.psu.edu/events/16th-annual-de-jong-lecture-social-demography" target="_blank">De Jong Lecture in Social Demography</a> at Penn State. Hans <a href="https://www.sas.upenn.edu/~hpkohler/" target="_blank">Peter-Peter Kohler</a> is the featured speaker. Link to <a href="./talks.shtml#dejongslides" target="_blank">slides</a>.
@@ -342,7 +402,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2021-09-20">2021-09-20 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2021-09-20">2021-09-20  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   For the past 6-7 years my colleagues and I who work on verbal autopsy methods have been developing new statistical methods to automate identification of a cause of death using verbal autopsy records. Along the way we have developed a range of open source software tools to ensure that the methods are transparent and available to anyone who wants to use them. Recently we submitted a paper and posted a preprint on the <a href="https://arxiv.org/abs/2109.08244" target="_blank"><b>openVA Toolit</b></a>. This is a suite of open source software that can be used to apply a variety of algorithms to verbal autopsy data. Additional software that works with openVA - e.g. the <em> openVA Pipeline</em> that fully automates cause-coding in CRVS settings - and links to the GitHub repositories where software is maintained are available at <a href="http://openva.net" target="_blank"><b>openva.net</b></a>.
@@ -352,12 +412,12 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2021-06-25">2021-06-25 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2021-06-25">2021-06-25  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2 id="PNAS-methods"> Published open-access in <em>PNAS</em>:</h2>
 <p>
-  Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turner, and S.&nbsp;J. CLARK (2021). 
+  Kline,&nbsp;D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turner, and S.&nbsp;J. CLARK (2021). 
 
   <b>Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests</b>. 
 
@@ -384,7 +444,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2021-04-01:2">2021-04-01:2 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2021-04-01:2">2021-04-01:2  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   APHRC - the African Population Health Research Center - in Nairobi is seeking a consultant demographer for six months to lead the redesign of the Nairobi Urban Health and Demographic Surveillance System Site (NUHDSS). <a href="http://www.samclark.net/site/misc/APHRC-Terms-of-Reference--Consultant-Demographer.pdf" target="_blank">Full details available here</a>.
@@ -394,7 +454,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2021-04-01:1">2021-04-01:1 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2021-04-01:1">2021-04-01:1  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   Today and tomorrow the <a href="http://openva.net" target="_blank">openVA</a> Team is presenting a training workshop for the CHAMPS project and our Data for Health Initiative colleagues in Thailand.
@@ -404,7 +464,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2021-03-31">2021-03-31 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2021-03-31">2021-03-31  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   A long-in-the-making collaboration with UNICEF produced its first non-academic product recently: <a href="https://data.unicef.org/resources/subnational-under-five-mortality-estimates-1990-2019/" target="_blank">Subnational Under-five Mortality Estimates, 1990–2019</a>. This work grew out of a small collaboration with <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a> at the University of Washington, see <a href="/site/projects/small-area-estimates.shtml">small-area estimates</a>. Jon grew the group working on it and together with <a href="https://stat.uw.edu/about-us/people/jessica-godwin" target="_blank">Jessica Godwin</a> saw it through to this. Congratulations to everyone involved!
@@ -414,7 +474,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2021-03-24">2021-03-24  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2021-03-24">2021-03-24   <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   I gave a talk today at the 2021 'Berlin Demography Days': <a href="/site/talks/clark-2021-talk_global-population-studies-in-the-21st-century-priorities-challenges--mortality.pdf" target="_blank">Global Population Studies in the 21st Century: Priorities Challenges - Mortality</a>.
@@ -424,7 +484,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2021-03-10">2021-03-10 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2021-03-10">2021-03-10  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <h2>Award</h2>
 <p>
@@ -446,7 +506,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2021-02-28">2021-02-28 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2021-02-28">2021-02-28  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   Commentary in <i>PNAS</i>: <b>Monitoring epidemics: Lessons from measuring population prevalence of the coronavirus</b> with Abigail Norris Turner. We highlight the need to improve response rates and to prepare a robust measurement capability to be ready for the next pandemic. <a href="https://doi.org/10.1073/pnas.2026412118" target="_blank">DOI</a>.
@@ -456,14 +516,14 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2021-02-08">2021-02-08 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2021-02-08">2021-02-08  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
 <h2>Article out today in <i>PLoS One</i></h2> 
 <p>
   <b>Linking the timing of a mother's and child's death: Comparative evidence from two rural South African population-based surveillance studies, 2000–2015</b> 
 
-  by Brian Houle, Chodziwadziwa W. Kabudula, Alan Stein, Dickman Gareta, Kobus Herbst, and Samuel J. Clark. 
+  by Brian&nbsp;Houle, Chodziwadziwa&nbsp;W.&nbsp;Kabudula, Alan&nbsp;Stein, Dickman&nbsp;Gareta, Kobus&nbsp;Herbst, and Samuel&nbsp;J.&nbsp;Clark. 
 
   <a href="https://doi.org/10.1371/journal.pone.0246671" target="_blank">DOI</a>.
 </p>
@@ -482,7 +542,7 @@ mortality.
 
 
 <!-- %%%%%%%%%%%% -->
-<h1 class="sam-date" id="2021-02-03">2021-02-03 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<h1 class="sam-date" id="2021-02-03">2021-02-03  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
   There will be occasional updates here. For now, the news is that I finally finished this web site after I was interrupted for a year by COVID-19. It's up to date and has all the basic content I had planned. The site is written in plain <a href="https://github.com/sinafala/samclark.net" target="_blank">HTML with a simple cascading style sheet</a>. It's straight from 1995, but it's super easy to modify/maintain/augment with a text editor, and with a shell script to upload everything, keeping the site up to date will be easy and does not require any expensive or takes-time-to-learn software or rely on third parties to fix things. :-)
