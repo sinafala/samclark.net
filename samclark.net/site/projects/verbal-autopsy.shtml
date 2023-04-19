@@ -65,6 +65,8 @@
 <h1>Key papers</h1>
 
 <ul>
+  <li><a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank">The openVA Toolkit for Verbal Autopsies</a></li>
+
   <li><a href="http://dx.doi.org/10.1080/01621459.2016.1152191" target="_blank">Probabilistic Cause-of-Death Assignment using Verbal Autopsies</a></li>
   
   <li><a href="http://proceedings.mlr.press/v97/li19h/li19h.pdf" target="_blank">Bayesian Joint Spike-and-Slab Graphical Lasso</a></li>
@@ -83,7 +85,7 @@
 </p>
 
 <ul>
-  <li><a href="http://openva.net" target="_blank">Main openVA site</a> and <a href="https://arxiv.org/abs/2109.08244" target="_blank"><b>openVA Toolkit</b> paper</a></li>
+  <li><a href="http://openva.net" target="_blank">Main openVA site</a> and <a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank"><b>openVA Toolkit</b> paper</a></li>
   <li><a href="https://cran.r-project.org/package=openVA" target="_blank">R Package</a></li>
   <li><a href="https://github.com/verbal-autopsy-software/openVA_App/releases" target="_blank">openVA App</a></li>
   <li><a href="https://youtu.be/C2EPOpTzJTk" target="_blank">Video for installation of openVA App</a></li>

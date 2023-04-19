@@ -26,6 +26,7 @@
 <h1>Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Date: Event</option>
+  <option value="#2023-04-04">2023-04-04: Nat. Geo. Contribution</option>
   <option value="#2023-03-06">2023-03-06: Available, openVA Tookit</option>
   <option value="#2023-03-03">2023-03-03: Article, Child Mx/HIV/RSA</option>
   <option value="#2022-10-19">2022-10-19: Article, openVA Tookit</option>
@@ -57,11 +58,23 @@
 
 
 
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2023-04-04">2023-04-04  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>Contributed to an issue of the National Geographic Magazine</h2>
+<p>
+  I spent some time with the authors and editors preparing a recent issue of National Geographic Magazine editing and creating figures that interpret the UN Population Division's World Population Prospects population estimates and forecasts, including the one here: <a href="https://www.nationalgeographic.com/magazine/article/nigeria-population-growing-feature" target="_blank"><b>Will Nigeria’s booming population lead it to prosperity or poverty?</b></a>  
+</p>
+
+
+
 <!-- %%%%%%%%%%%% -->
 <h1 class="sam-date" id="2023-03-06">2023-03-06  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
-<h2>"<a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank">The openVA Toolkit for Verbal Autopsies</a>"
+<h2><a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank">"The openVA Toolkit for Verbal Autopsies"</a>
 appeared in <em>The R Journal</em> today.</h2>
 
 <p>
@@ -120,7 +133,7 @@ appeared in <em>The R Journal</em> today.</h2>
 <h1 id="openvatoolkit" class="sam-date" id="2022-10-19">2022-10-19  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
-<h2>"<a href="https://arxiv.org/abs/2109.08244" target="_blank">The openVA Toolkit for Verbal Autopsies</a>"
+<h2><a href="https://arxiv.org/abs/2109.08244" target="_blank">"The openVA Toolkit for Verbal Autopsies"</a>
 will appear in the <em>R Journal</em></h2>
 <p>
   This is one of the longest in-preparation papers I've ever worked on. Thanks to the persistence of <a href="https://zehangli.com" target="_blank">Richard Li</a> and other coauthors, we finally have a statistical software paper in the <a href="https://journal.r-project.org" target="_blank"><em>R Journal</em></a> - along with the collection of packages it describes in <a href="https://cran.r-project.org" target="_blank">CRAN</a>:
