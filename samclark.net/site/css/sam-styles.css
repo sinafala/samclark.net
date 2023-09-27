@@ -9,6 +9,10 @@ NOTES
 
 /* Main */
 
+p.center {
+  text-align: center;
+}
+
 html {
   background-color: white;
 } 

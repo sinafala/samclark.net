@@ -26,6 +26,9 @@
 <h1>Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Date: Talk</option>
+  <option value="#2023-09-12">2023-09-12: Notestein Seminar, OPR</option>
+  <option value="#2023-09-07">2023-09-07: NAS Aging Data/Methods</option>
+  <option value="#2023-08-08">2023-08-08: Python openVA Workshop</option>
   <option value="#2022-09-02">2022-09-02: Mortality Model</option>
   <option value="#2022-08-05">2022-08-05: VA Brazil Pathology Meeting</option>
   <option value="#2022-05-09">2022-05-09: PAA 2022</option>
@@ -37,6 +40,38 @@
   <option value="#earlier">Earlier</option>
 </select>
 </h1>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2023-09-12">2023-09-12 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+<p>
+  Notestein Seminar talk, Office of Population Research (OPR), Princeton University. <a href="/site/talks/Sam-Clark_DSSG-VA.pdf" target="_blank">Multi-disciplinary Data Science to Improve Global Health: Verbal Autopsy</a>.
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2023-09-07">2023-09-07 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+<p>
+  The National Academy of Sciences Committee on Population organized a workshop to elicit recommendations for future research on aging in lower and middle-income countries. The workshop was supported by the National Institute on Aging (NIA). <a href="/site/talks/Sam-Clark_Data-Methods-Aging.pdf" target="_blank">Data and Methods for Chronic Diseases of Aging</a>.
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2023-08-08">2023-08-08 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+<p>
+  The openVA Team and close collaborators organized a workshop to present the GUI-driven Python openVA software that the openVA Team developed. The workshop was supported by Vital Strategies and CDC Foundation and happened in Dar es Salaam, Tanzania August 8-10, 2023. <a href="/site/talks/Sam-Clark_Pythong-openVA.pdf" target="_blank">Python openVA Workshop</a>.
+</p>
+
+
 
 
 <!-- %%%%%%%%%%%% -->
