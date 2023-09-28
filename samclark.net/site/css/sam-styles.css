@@ -9,6 +9,10 @@ NOTES
 
 /* Main */
 
+span.author {
+  color: green;
+}
+
 p.center {
   text-align: center;
 }
@@ -214,6 +218,8 @@ img.mtb {
   margin-left: auto;
   margin-right: auto;
   padding: 5px 0px 5px 0px;
+  max-width: 100%;
+  height: auto;
 }
 
 img.sam {
@@ -221,6 +227,17 @@ img.sam {
   margin-left: auto;
   margin-right: auto;
   border: 4px solid black;
+}
+
+video.mtb {
+  width: 100%; 
+  height: auto;
+  padding: 5px 0px 5px 0px;
+}
+
+iframe {
+  width: 100%;
+  height: 300px; 
 }
 
 
