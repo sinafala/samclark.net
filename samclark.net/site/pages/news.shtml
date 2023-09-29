@@ -26,6 +26,7 @@
 <h1>Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Date: Event</option>
+  <option value="#2023-09-29">2023-09-29: Population Distribution over Time</option>
   <option value="#2023-04-04">2023-04-04: Nat. Geo. Contribution</option>
   <option value="#2023-03-06">2023-03-06: Available, openVA Tookit</option>
   <option value="#2023-03-03">2023-03-03: Article, Child Mx/HIV/RSA</option>
@@ -59,6 +60,20 @@
 
 
 
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2023-09-29">2023-09-29  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>World Population Fractions Update - for 2022 WPP</h2>
+<p>
+  Here's an update to my plot showing how the world population is distributed across major regions from 1950-2100 according to the 2022 edition of the UN Population Division's World Population Prospects. Notice the ever increasing importance of Africa! Code to do this is in this Github <a href="https://github.com/sinafala/World-Population-Fractions/tree/master" target="_blank">repo</a>.
+</p>
+<a href="/site/media/misc/regionFractionOfGlobalPopulationByTime.jpg" target="_blank"><img class="mtb" title="Region Fraction of Global Population by Time" src="/site/media/misc/regionFractionOfGlobalPopulationByTime.jpg" width="600">
+</a>
+
+
+
+<!-- %%%%%%%%%%%% -->
 <!-- %%%%%%%%%%%% -->
 <h1 class="sam-date" id="2023-04-04">2023-04-04  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
@@ -330,7 +345,7 @@ mortality.
 </p><p>
   I noticed something else interesting (also new to me). The projection of a point onto every line through the origin forms a circle. In the image below, the red point (2,4.5) is projected onto a set of the lines through the origin and each is marked with a black dot and connected with a red line.
 </p>
-<a href="/site/media/misc/projectionCircle.jpg" target="_blank"><img class="mtb" title="Projection Circle" src="/site/media/misc/projectionCircle.jpg" width="350" height="350">
+<a href="/site/media/misc/projectionCircle.jpg" target="_blank"><img class="mtb" title="Projection Circle" src="/site/media/misc/projectionCircle.jpg" width="600" height="600">
 </a>
 
 
