@@ -26,6 +26,10 @@
 <h1>Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Date: Event</option>
+  <option value="#2023-11-14">2023-11-15: Papers Accepted</option>
+  <option value="#2023-11-10">2023-11-10: RDA Kickoff at WHO</option>
+  <option value="#2023-11-01">2023-11-01: Brazil for a Year</option>
+  <option value="#2023-10-07">2023-10-07: Exciting Updates!</option>
   <option value="#2023-09-29">2023-09-29: Population Distribution over Time</option>
   <option value="#2023-04-04">2023-04-04: Nat. Geo. Contribution</option>
   <option value="#2023-03-06">2023-03-06: Available, openVA Tookit</option>
@@ -56,6 +60,89 @@
   <option value="#2021-02-03">2021-02-03: Start News</option>
 </select>
 </h1>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2023-11-14">2023-11-14  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>Two Papers Accepted</h2>
+<p>
+  Two papers that have been in the works for a long time have been accepted - 
+  <ul>
+  <li> <a href="https://doi.org/10.48550/arXiv.2112.12186" target="_blank"><b>Bayesian Nested Latent Class Models For Cause-of-death Assignment Using Verbal Autopsies Across Multiple Domains</b></a> by Zehang Richard Li, Zhenke Wu, Irena Chen, and Samuel J. Clark in <em>Annals of Applied Statistics</em>
+
+  <h2>Abstract</h2>
+  <p>
+    Understanding cause-specific mortality rates is crucial for monitoring population health and designing public health interventions. Worldwide, two-thirds of deaths do not have a cause assigned. Verbal autopsy (VA) is a well-established tool to collect information describing deaths outside of hospitals by conducting surveys to caregivers of a deceased person. It is routinely implemented in many low- and middle-income countries. Statistical algorithms to assign cause of death using VAs are typically vulnerable to the distribution shift between the data used to train the model and the target population. This presents a major challenge for analyzing VAs as labeled data are usually unavailable in the target population. This article proposes a Latent Class model framework for VA data (LCVA) that jointly models VAs collected over multiple heterogeneous domains, assigns causes of death for out-of-domain observations, and estimates cause-specific mortality fractions for a new domain. We introduce a parsimonious representation of the joint distribution of the collected symptoms using nested latent class models and develop a computationally efficient algorithm for posterior inference. We demonstrate that LCVA outperforms existing methods in predictive performance and scalability. Supplementary materials and reproducible analysis codes are available online. The R package LCVA implementing the method is available on <a href="https://github.com/richardli/LCVA" target="_blank">GitHub</a>.
+  </p> </li>
+
+  <li> <b>Agreement between cause of death assignment by computer-coded verbal autopsy methods and physician coding of verbal autopsy interviews in South Africa</b> by Pam Groenewald, Jason Thomas, Samuel J Clark, Diane Morof, Jané D. Joubert, Chodziwadziwa Kabudula, Zehang Li, and Debbie Bradshaw in <em>Global Health Action</em> 
+
+  <h2>Abstract</h2>
+  <p>
+    <em>Background</em>. The South African national cause of death validation project collected a national sample of verbal autopsies (VA) with cause of death assignment by both physician-coded verbal autopsy (PCVA) and three computer coded verbal autopsy (CCVA) algorithms. This provided an opportunity to compare the performance of three CCVA algorithms with PCVA in assigning a cause of death at the individual and population level.
+  </p><p>
+    <em>Methods</em>. Seven performance metrics were used to assess agreement of cause assignment at individual and population level between PCVA and three algorithms InterVA-5, InSilicoVA and Tariff 2.0 after aggregating the VA cause list into 25 categories based on frequencies. Positive predictive value (PPV), sensitivity, overall agreement, kappa statistic, and chance corrected concordance (CCC) were used to assess agreement at individual level, using the most likely cause of death assigned by the algorithms. The cause specific mortality fraction (CSMF) accuracy, and Spearman’s rank correlation were used to assess the agreement at population level. We analyzed the agreement for age and sex subgroups as well as for deaths that occurred in and out of facilities to compare the performance of the algorithms for different sub-groups.
+  </p><p>
+    <em>Results</em>. The level of agreement demonstrated by the Kappa statistic was weak to none for all algorithms and all groups. For overall CCVA agreement, InSilicoVA was highest with moderate agreement for adults and neonates. Both InterVA-5 and Tariff 2.0 algorithms had weak to minimal agreement for all groups. For CSMF accuracy all algorithms had moderate to strong agreement for all groups with InterVA-5 showing the highest agreement (0·90) for neonates, Tariff 2.0 the highest agreement for adults (0·89) and males (0·84), and InSilicoVA the highest agreement for females (0·88), elders (0·83) and out of health facilities. For CCC the agreement was weak to none for all algorithms and groups. The sensitivity and PPV by cause show that algorithm performance is similar for most causes of death, except HIV/AIDS, TB, Maternal, other cancers, and some injuries.
+  </p><p>
+    <em>Conclusions</em>. Whilst the results of this extensive study confirmed that the algorithms all identified HIV/AIDS as a leading cause of death, it highlighted significant scope for improving the algorithms for use in South Africa.
+  </p> </li>
+</ul> 
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2023-11-10">2023-11-10  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>Reference Death Archive Kickoff at WHO</h2>
+<p>
+  <a href="https://www.ahri.org/scientist/kobus-herbst/" target="_blank">Kobus Herbst</a>, <a href="https://ipr.osu.edu/people/chu.282" target="_blank">Yue Chu</a>, and I have developed the Reference Death Archive pilot database over the past few months. In mid November we visited WHO and started the process of handing it off to become the WHO-hosted Reference Death Archive for verbal autopsy under <a href="https://www.who.int/data/ddi" target="_blank">Doris Ma Fat</a>'s supervision. This is a significant milestone in the project, and we're all excited about the progress.
+</p>
+
+<div class="sam-image">
+<a href="/site/media/fullsize/RDA-Crew-at-WHO.jpg" target="_blank">
+         <img class="mtb" title="Sam, Yue, Doris, and Kobus at WHO" src="/site/media/thumbs/RDA-Crew-at-WHO.jpg"></a>
+Sam, Yue, Doris, and Kobus at WHO
+</div>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2023-11-01">2023-11-01  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>Moved to Brazil for a Year</h2>
+<p>
+  For my sabbatical year, I have moved with my family to Brazil. Clarissa and I will work on our reference death project with the Department of Pathology at the University of S&atilde;o Paulo, and we will spend time with Clarissa's family in Curitiba.
+</p>
+
+<div class="sam-image">
+<a href="/site/media/fullsize/Sam-Atlantic-Rain-Forest-2023.jpg" target="_blank">
+         <img class="mtb" title="Sam hiking in Atlantic Rain Forest" src="/site/media/thumbs/Sam-Atlantic-Rain-Forest-2023.jpg"></a>
+Sam hiking in Atlantic Rain Forest, Parana, Brazil
+</div>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2023-10-07">2023-10-07  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>Five Manuscripts R/R and South Africa/Brazil Exchange</h2>
+<p>
+  Super exciting: my <b>fabulous colleagues</b> and I have five papers at an advanced R/R stage - feels like the pandemic is finally working out of our pipeline!
+</p><p>
+  Also, finally doing something that I'd wanted to do for some time (again, the pandemic ...) - helping my South African and Brazilian colleagues connect around cause of death ascertainment. Brazilian colleague <a href="https://observatorio.fm.usp.br/cv/?r=10521%7CSILVA,%20Luiz%20Fernando%20Ferraz%20da" target="_blank">Luiz Fernando (Burns)</a> who directs the mortality surveillance unit in the Department of Pathology at the University of S&atilde;o Paulo, <a href="https://www.agincourt.co.za/staff-page/ryan" target="_blank">Ryan Wagner</a> who co-directs the new minimally-invasive tissue sample (MITS) project at the Agincourt health and demographic surveillance system (HDSS) site, and Alison Castle at the <a href="https://www.ahri.org" target="_blank">Africa Health Research Institute</a> (AHRI) who has just started an autopsy project on community deaths. Burns is visiting the South African sites this week with me and Clarissa, and a South African contingent will visit S&atilde;o Paulo later this year, again with me and Clarissa. 
+</p>
 
 
 
