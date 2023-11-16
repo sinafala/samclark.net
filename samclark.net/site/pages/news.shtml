@@ -26,7 +26,7 @@
 <h1>Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Date: Event</option>
-  <option value="#2023-11-14">2023-11-15: Papers Accepted</option>
+  <option value="#2023-11-14">2023-11-15: Three Papers Accepted</option>
   <option value="#2023-11-10">2023-11-10: RDA Kickoff at WHO</option>
   <option value="#2023-11-01">2023-11-01: Brazil for a Year</option>
   <option value="#2023-10-07">2023-10-07: Exciting Updates!</option>
@@ -68,10 +68,18 @@
 <h1 class="sam-date" id="2023-11-14">2023-11-14  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
-<h2>Two Papers Accepted</h2>
+<h2>Three Papers Accepted</h2>
 <p>
-  Two papers that have been in the works for a long time have been accepted - 
-  <ul>
+  Three papers that have been in the works for a long time have been accepted - 
+<ul>
+
+  <li> <b>Understanding Household Dynamics from the Ground Up: A Longitudinal Study from a Rural South African Setting</b> by Yu Shao-Tzu, Brian Houle, Enid Schatz, Nicole Angotti, Chodziwadziwa W. Kabudula, Francesc Xavier&nbsp;G&oacute;mez-Oliv&eacute;, Samuel J. Clark, Jane Menken, and Sanyu A. Mojola in <em>Demography</em>
+
+  <h2>Abstract</h2>
+  <p>
+    Investigations into household structure in low- and middle-income countries (LMICs) provide important insight into how families manage domestic life in response to resource allocation and caregiving needs during periods of rapid socio-political and health-related challenges. Recent evidence on household structure in many LMICs contrasts with longstanding viewpoints of worldwide convergence to a Western nuclearized household model. Here we adopt a household-centered theoretical and methodological framework to investigate longitudinal patterns and dynamics of household structure in a rural South African setting during a period of high AIDS-related mortality and socioeconomic change. Data come from the Agincourt Health and Socio-Demographic Surveillance System (AHDSS, 2003-2015). Using Latent Transition Models, we derived six-distinct household types by examining conditional interdependency between household head’s characteristics, members’ age composition, and migration status. Over half of households were characterized by their complex and multigenerational profiles, with considerable within-typology variation in household size and dependency structure. Transition analyses showed stability of household types under female headship, while higher proportions of nuclearized household types dissolved over time. Household dissolution was closely linked to prior mortality experiences, particularly following death of a male head. Our findings highlight the need to better conceptualize and contextualize household changes across populations and over time.
+  </p> </li>
+
   <li> <a href="https://doi.org/10.48550/arXiv.2112.12186" target="_blank"><b>Bayesian Nested Latent Class Models For Cause-of-death Assignment Using Verbal Autopsies Across Multiple Domains</b></a> by Zehang Richard Li, Zhenke Wu, Irena Chen, and Samuel J. Clark in <em>Annals of Applied Statistics</em>
 
   <h2>Abstract</h2>
@@ -91,6 +99,7 @@
   </p><p>
     <em>Conclusions</em>. Whilst the results of this extensive study confirmed that the algorithms all identified HIV/AIDS as a leading cause of death, it highlighted significant scope for improving the algorithms for use in South Africa.
   </p> </li>
+
 </ul> 
 </p>
 
