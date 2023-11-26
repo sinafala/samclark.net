@@ -137,9 +137,23 @@ Sam, Yue, Doris, and Kobus at WHO
 </p>
 
 <div class="sam-image">
-<a href="/site/media/fullsize/Sam-Atlantic-Rain-Forest-2023.jpg" target="_blank">
-         <img class="mtb" title="Sam hiking in Atlantic Rain Forest" src="/site/media/thumbs/Sam-Atlantic-Rain-Forest-2023.jpg"></a>
-Sam hiking in Atlantic Rain Forest, Parana, Brazil
+<a href="/site/media/fullsize/atlantic-rain-forest-1.jpg" target="_blank">
+         <img class="mtb" title="Atlantic Rain Forest" src="/site/media/thumbs/atlantic-rain-forest-1.jpg"></a>
+Atlantic Rain Forest, Parana, Brazil
+</div>
+
+<div class="sam-image">
+<a href="/site/media/fullsize/atlantic-rain-forest-2.jpg" target="_blank">
+         <img class="mtb" title="River in Atlantic Rain Forest" src="/site/media/thumbs/atlantic-rain-forest-2.jpg"></a>
+River in Atlantic Rain Forest, Parana, Brazil
+</div>
+
+<div class="sam-image">
+<video controls preload="none" class="mtb">
+  <source src="/site/media/video/atlantic-rainforest-waterfall-1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+Waterfall in Atlantic Rain Forest, Parana, Brazil
 </div>
 
 
