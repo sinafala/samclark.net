@@ -29,6 +29,7 @@
 <h1 id="published">Published
 <select name="select-published" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#published">Year</option>
+  <option value="#published-2024">2024</option>
   <option value="#published-2023">2023</option>
   <option value="#published-2022">2022</option>
   <option value="#published-2021">2021</option>
@@ -78,11 +79,11 @@ Kline, D., Z.&nbsp;Li, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turne
 
 
 
-<h2 class="bib-year" id="published-2023">2023  <a href="#published" style="font-weight:normal">&#8679;</a></h2> 
+<h2 class="bib-year" id="published-2023">2024  <a href="#published" style="font-weight:normal">&#8679;</a></h2> 
 
 <p class="bibliography"><a id="shaoRSAHHDynamics"></a>
 
-Shao-Tzu,&nbsp;Y., B.&nbsp;Houle, E.&nbsp;Schatz, N.&nbsp;Angotti, C.W.&nbsp;Kabudula, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, <span class="author">S.J.&nbsp;CLARK</span>, J.&nbsp;Menken, and S.A.&nbsp;Mojola (2023 - in press).
+Shao-Tzu,&nbsp;Y., B.&nbsp;Houle, E.&nbsp;Schatz, N.&nbsp;Angotti, C.W.&nbsp;Kabudula, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, <span class="author">S.J.&nbsp;CLARK</span>, J.&nbsp;Menken, and S.A.&nbsp;Mojola (2024 - in press).
 
 <b>Understanding Household Dynamics from the Ground Up: A Longitudinal Study from a Rural South African Setting.</b> 
 
@@ -98,7 +99,7 @@ Shao-Tzu,&nbsp;Y., B.&nbsp;Houle, E.&nbsp;Schatz, N.&nbsp;Angotti, C.W.&nbsp;Kab
 <p class="bibliography"><a id="LCVA"></a>
 
 
-Li,&nbsp;Z.R., Z.&nbsp;Wu, I.&nbsp;Chen, and <span class="author">S.J.&nbsp;CLARK</span>. (2023 - in press).
+Li,&nbsp;Z.R., Z.&nbsp;Wu, I.&nbsp;Chen, and <span class="author">S.J.&nbsp;CLARK</span>. (2024 - in press).
 
 <b>Bayesian Nested Latent Class Models For Cause-of-death Assignment Using Verbal Autopsies Across Multiple Domains.</b> 
 
@@ -111,9 +112,11 @@ Li,&nbsp;Z.R., Z.&nbsp;Wu, I.&nbsp;Chen, and <span class="author">S.J.&nbsp;CLAR
 
 
 
+<h2 class="bib-year" id="published-2023">2023  <a href="#published" style="font-weight:normal">&#8679;</a></h2> 
+
 <p class="bibliography"><a id="groenewaldRSAVA"></a>
 
-Groenewald,&nbsp;P., J.&nbsp;Thomas, <span class="author">S.J.&nbsp;CLARK</span>, D.&nbsp;Morof, J.&nbsp;Joubert, C.&nbsp;Kabudula, Z.&nbsp;Li, and D.&nbsp;Bradshaw (2023 - in press).
+Groenewald,&nbsp;P., J.&nbsp;Thomas, <span class="author">S.J.&nbsp;CLARK</span>, D.&nbsp;Morof, J.&nbsp;Joubert, C.&nbsp;Kabudula, Z.&nbsp;Li, and D.&nbsp;Bradshaw (2023).
 
 <b>Agreement Between Cause Of Death Assignment By Computer-coded Verbal Autopsy Methods And Physician Coding Of Verbal Autopsy Interviews In South Africa.</b> 
 
@@ -141,7 +144,7 @@ Houle,&nbsp;B., C.W.&nbsp;Kabudula, D.&nbsp;Gareta, K.&nbsp;Herbst, and <span cl
 
 
 
-<p class="bibliography"><a id="openVAToolkit"></a>
+<p class="bibliography"><a id="houleTwinEpidemics"></a>
 
 Li,&nbsp;Z., J.&nbsp;Thomas, E.&nbsp;Choi, T.H.&nbsp;McCormick, and <span class="author">S.J.&nbsp;CLARK</span> (2023).
 
@@ -158,7 +161,7 @@ Li,&nbsp;Z., J.&nbsp;Thomas, E.&nbsp;Choi, T.H.&nbsp;McCormick, and <span class=
 
 <h2 class="bib-year" id="published-2022">2022  <a href="#published" style="font-weight:normal">&#8679;</a></h2> 
 
-<p class="bibliography"><a id="houleTwinEpidemics"></a>
+<p class="bibliography"><a id="openVAToolkit"></a>
 
 Houle,&nbsp;B., C.W.&nbsp;Kabudula, A.M.&nbsp;Tilstra, S.A. Mojola, E.&nbsp;Schatz, <span class="author">S.J.&nbsp;CLARK</span>, N.&nbsp;Angotti, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, and J.&nbsp;Menken (2022). 
 
