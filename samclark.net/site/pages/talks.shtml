@@ -30,6 +30,7 @@
   <option value="#2023-09-12">2023-09-12: Notestein Seminar, OPR</option>
   <option value="#2023-09-07">2023-09-07: NAS Aging Data/Methods</option>
   <option value="#2023-08-08">2023-08-08: Python openVA Workshop</option>
+  <option value="#2023-04-14">2023-04-14: PAA 2023</option>
   <option value="#2022-09-02">2022-09-02: Mortality Model</option>
   <option value="#2022-08-05">2022-08-05: VA Brazil Pathology Meeting</option>
   <option value="#2022-05-09">2022-05-09: PAA 2022</option>
@@ -80,6 +81,16 @@
 <!-- %%%%%%%%%%%% -->
 <p>
   The openVA Team and close collaborators organized a workshop to present the GUI-driven Python openVA software that the openVA Team developed. The workshop was supported by Vital Strategies and CDC Foundation and happened in Dar es Salaam, Tanzania August 8-10, 2023. <a href="/site/talks/Sam-Clark_Pythong-openVA.pdf" target="_blank"><b>Python openVA Workshop</b></a>.
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2023-04-14">2023-04-14 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+<p>
+  PAA 2023 talk presented by Yue Chu on verbal autopsy results from ALPHA Network health and demographic surveillance system sites in session 206 - Mortality in Low- and Middle-Income Countries: <a href="https://submissions.mirasmart.com/Verify/PAA2023/Submission/Temp/radasfey2lr.pdf" target="_blank"><b>Temporal Changes in Cause of Death Among Adults in Eastern and Southern Africa: A Multi-country Cohort Study Using Verbal Autopsy Data</b></a>.
 </p>
 
 
