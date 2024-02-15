@@ -26,6 +26,7 @@
 <h1>Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Date: Talk</option>
+  <option value="#2024-02-05">2024-02-05: OPR Seminar</option>
   <option value="#2023-10-04">2023-10-04: MITS Alliance Annual Meeting</option>
   <option value="#2023-09-12">2023-09-12: Notestein Seminar, OPR</option>
   <option value="#2023-09-07">2023-09-07: NAS Aging Data/Methods</option>
@@ -47,6 +48,16 @@
 
 
 <!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2024-02-05">2024-02-05 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+<p>
+  Office of Population Research (OPR), Princeton University. <a href="/site/talks/Sam-Clatrk_InSilicoVA.pdf" target="_blank"><b>InSilicoVA - An Algorithm for Automated COD Classification using Verbal Autopsy Data</b></a>.
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
 <h1 class="sam-date" id="2023-10-04">2023-10-04 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
@@ -60,7 +71,7 @@
 <h1 class="sam-date" id="2023-09-12">2023-09-12 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
-  Notestein Seminar talk, Office of Population Research (OPR), Princeton University. <a href="/site/talks/Sam-Clark_DSSG-VA.pdf" target="_blank"><b>Multi-disciplinary Data Science to Improve Global Health: Verbal Autopsy</b></a>.
+  Notestein Seminar talk, Office of Population Research (OPR), Princeton University. <a href="/site/talks/Sam-Clark_Multi-disciplinary-Data-Science-VA.pdf" target="_blank"><b>Multi-disciplinary Data Science to Improve Global Health: Verbal Autopsy</b></a>.
 </p>
 
 
