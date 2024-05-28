@@ -69,6 +69,8 @@
 
   <li><a href="http://dx.doi.org/10.1080/01621459.2016.1152191" target="_blank">Probabilistic Cause-of-Death Assignment using Verbal Autopsies</a></li>
   
+  <li><a href="https://arxiv.org/abs/2112.12186" target="_blank">Bayesian Nested Latent Class Models for Cause-of-Death Assignment using Verbal Autopsies Across Multiple Domains</a>. (Forthcoming in Annals of Applied Statistics)</li>
+
   <li><a href="http://proceedings.mlr.press/v97/li19h/li19h.pdf" target="_blank">Bayesian Joint Spike-and-Slab Graphical Lasso</a></li>
   
   <li><a href="http://dx.doi.org/10.1214/19-BA1172" target="_blank">Using Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in Verbal Autopsies</a></li>
@@ -76,17 +78,21 @@
   <li><a href="http://dx.doi.org/10.1214/19-AOAS1253" target="_blank">Bayesian Factor Models for Probabilistic Cause of Death Assessment with Verbal Autopsies</a></li>
 
   <li><a href="http://doi.org/10.1080/16549716.2021.1982486" target="_blank">Estimating Causes of Death Where There Is No Medical Certification: Evolution and State of the Art of Verbal Autopsy</a></li>
+
+  <li><a href="https://doi.org/10.1080/16549716.2023.2285105" target="_blank">Agreement between cause of death assignment by computer-coded verbal autopsy methods and physician coding of verbal autopsy interviews in South Africa</a></li>
+
 </ul> 
 
-<h1 id="openva_team">Software and the openVA Team</h1>
+<h1 id="openva_team">Software: openVA and the openVA Team</h1>
 
 <p>
-  Software has been developed to implement InSilicoVA and all of the other commonly-used computer algorithms for cause-coding VA data, including R packages and universal executables delivered in a Docker container. This is <a href="http://openva.net" target="_blank">openVA</a> and has been developed by the <b>openVA Team</b> consisting of <a href="https://zehangli.com" target="_blank">Richard Li</a>, <a href="https://ipr.osu.edu/people/thomas.3912" target="_blank">Jason Thomas</a>, <a href="https://www.eungangchoi.com" target="_blank">Peter Choi</a>, <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, and myself, with increasing help from <a href="https://ipr.osu.edu/people/chu.282" target="_blank">Yue Chu</a>.
+  We have created and released open source, freely available software for InSilicoVA and all of the other commonly-used verbal autopsy cause-coding algorithms (except Tariff 2.0) in the statistical programming environment <a href="https://cran.r-project.org" target="_blank">R</a>. All of the packages are available at the Comprehensive R Archive Network (<a href="https://cran.r-project.org/web/packages/available_packages_by_name.html" target="_blank">CRAN</a>). The <a href="https://cran.r-project.org/package=openVA" target="_blank">openVA</a> package operates the others. We also maintain a publicly-accessible <a href="https://github.com/verbal-autopsy-software" target="_blank">Github repository</a> with the code and a variety of additional resources. For users, we published a tutorial and user manual in the <em>The R Journal</em>: <a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank">The openVA Toolkit for Verbal Autopsies</a>. This software has been developed by members of the <a href="http://openva.net" target="_blank">openVA Team</a></b>: of <a href="https://zehangli.com" target="_blank">Richard Li</a>, <a href="https://ipr.osu.edu/people/thomas.3912" target="_blank">Jason Thomas</a>, <a href="https://www.eungangchoi.com" target="_blank">Peter Choi</a>, <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, and myself, with increasing help from <a href="https://ipr.osu.edu/people/chu.282" target="_blank">Yue Chu</a>.
+
 </p>
 
 <ul>
-  <li><a href="http://openva.net" target="_blank">Main openVA site</a> and <a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank"><b>openVA Toolkit</b> paper</a></li>
-  <li><a href="https://cran.r-project.org/package=openVA" target="_blank">R Package</a></li>
+  <li><a href="http://openva.net" target="_blank">openVA Team site</a> and <a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank"><b>openVA Toolkit</b> paper</a></li>
+  <li><a href="https://cran.r-project.org/package=openVA" target="_blank">openVA R Package</a></li>
   <li><a href="https://github.com/verbal-autopsy-software/openVA_App/releases" target="_blank">openVA App</a></li>
   <li><a href="https://youtu.be/C2EPOpTzJTk" target="_blank">Video for installation of openVA App</a></li>
   <li><a href="https://youtu.be/K1wkSbTwxkg" target="_blank">Video for example analysis using openVA App</a></li>

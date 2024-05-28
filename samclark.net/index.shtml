@@ -17,10 +17,9 @@
 <div class="sam-title">
   Samuel J. Clark
 </div>
-
-<div class="sam-image">
-<a href="mailto:sam@samclark.net"><img class="sam" title="Sam Clark" src="/site/media/sam.jpg" alt="Sam Clark" width="300" height="300"></a>
-</div>
+  <div class="sam-image">
+    <a href="/site/media/fullsize/sam.jpg" target="_blank"><img class="sam" title="Sam" src="/site/media/thumbs/sam.jpg"></a>
+  </div>
 </div>
 
 <div class="content" style="top: 425px;">

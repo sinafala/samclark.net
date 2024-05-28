@@ -21,43 +21,39 @@
 
 <div class="content">
 
-
-
-
 <div id="beginning" class="sam-block">
 
-<h1 id="published">Published
-<select name="select-published" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#published">Year</option>
-  <option value="#published-2024">2024</option>
-  <option value="#published-2023">2023</option>
-  <option value="#published-2022">2022</option>
-  <option value="#published-2021">2021</option>
-  <option value="#published-2020">2020</option>
-  <option value="#published-2019">2019</option>
-  <option value="#published-2018">2018</option>
-  <option value="#published-2017">2017</option>
-  <option value="#published-2016">2016</option>
-  <option value="#published-2015">2015</option>
-  <option value="#published-2014">2014</option>
-  <option value="#published-2013">2013</option>
-  <option value="#published-2012">2012</option>
-  <option value="#published-2011">2011</option>
-  <option value="#published-2010">2010</option>
-  <option value="#published-2008">2008</option>
-  <option value="#published-2007">2007</option>
-  <option value="#published-2006">2006</option>
-  <option value="#published-2005">2005</option>
-  <option value="#published-2004">2004</option>
-  <option value="#published-1995">1995</option>
-</select>
-&nbsp;
-<select name="jump-to-from-published" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#published">Jump To</option>
-  <option value="#working-papers">Working Papers</option>
-  <option value="#phd">PhD</option>
+
+
+
+<h1>Index: 
+<select name="select-year" onchange="location = this.value; this.selectedIndex = 0;">
+  <option value="#beginning">year</option>
   <option value="/site/projects/software.shtml">Software</option>
-  <option value="#beginning">Top &#8679;</option>  
+  <option value="#year-2024">2024</option>
+  <option value="#year-2023">2023</option>
+  <option value="#year-2022">2022</option>
+  <option value="#year-2021">2021</option>
+  <option value="#year-2020">2020</option>
+  <option value="#year-2019">2019</option>
+  <option value="#year-2018">2018</option>
+  <option value="#year-2017">2017</option>
+  <option value="#year-2016">2016</option>
+  <option value="#year-2015">2015</option>
+  <option value="#year-2014">2014</option>
+  <option value="#year-2013">2013</option>
+  <option value="#year-2012">2012</option>
+  <option value="#year-2011">2011</option>
+  <option value="#year-2010">2010</option>
+  <option value="#year-2009">2009</option>
+  <option value="#year-2008">2008</option>
+  <option value="#year-2007">2007</option>
+  <option value="#year-2006">2006</option>
+  <option value="#year-2005">2005</option>
+  <option value="#year-2004">2004</option>
+  <option value="#year-2001">2001</option>
+  <option value="#year-1995">1995</option>
+  <option value="#phd">PhD</option>
 </select>
 </h1>
 
@@ -79,11 +75,72 @@ Kline, D., Z.&nbsp;Li, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turne
 
 
 
-<h2 class="bib-year" id="published-2023">2024  <a href="#published" style="font-weight:normal">&#8679;</a></h2> 
+<!-- 2024 -->
+
+<h2 class="bib-year" id="year-2024">2024  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+<h3 class="bib">Official Reports</h3>
+
+
+<p class="bibliography">
+
+Groenewald P., Nannan N., Joubert J.D., Glass T., Cheyip M., Maqungo M., Funani N., Zinyakatira N., Awotiwon O., Nojilana B., Kallis N., Laubscher R., Bezuidenhout F., CLARK S.J., Kabudula C., Martin L., Kahn K., Price J., Lombard C., Morof D., Nichols E., Rao C., Bradshaw D. (2024 - in final production).
+
+<b>South African National Cause-of-Death Validation Project: Agreement and corrected cause specific profiles based on data linkage</b>.
+
+Cape Town. South African Medical Research Council.
+
+<!-- [&nbsp;<a href="http://www.mrc.ac.za/bod/reports.htm" target="_blank">Link</a>&nbsp;] -->
+
+</p>
+
+
+<p class="bibliography">
+
+National Academies of Sciences, Engineering, and Medicine. (2024).
+
+<b>Developing an Agenda for Population Aging and Social Research in Low- and Middle-Income Countries (LMICs): Proceedings of a Workshop</b>.
+
+Washington, DC. The National Academies Press.
+
+[&nbsp;<a href="https://doi.org/10.17226/27415" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<h3 class="bib">Articles Published</h3>
+
+
+<p class="bibliography"><a id="houleYLL"></a>
+
+Houle, B., C.W. Kabudula, S.A. Mojola, N. Angotti, F.X. Gómez-Olivé, D. Gareta, K. Herbst, <span class="author">S.J. Clark</span>, J. Menken, and V. Canudas-Romo (2024 - in press).
+
+<b>Mortality Disparities by Age and Causes of Death in Rural South Africa.</b> 
+
+<em>BMJ Global Health</em>.&nbsp;9:e013539.
+
+[&nbsp;<a href="https://doi.org/10.1136/bmjgh-2023-013539" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="ALPHA-VA"></a>
+
+Chu, Y., M. Marston, A. Dube, C. Festo, E. Geubbels, S. Gregson, K. Herbst, C. Kabudula, K. Kahn, T. Lutalo,  L. Moorhouse, R. Newton, C. Nyamukapa, R. Makanga, E. Slaymaker, M. Urassa, A. Ziraba, C. Calvert, <span class="author">S.J. Clark</span> (2024 - in press).
+
+<b>Temporal Changes in Cause of Death Among Adolescents and Adults in Six Countries in Eastern And Southern Africa: A Multi-Country Cohort Study using Verbal Autopsy Data.</b> 
+
+<em>The Lancet Global Health</em>.
+<!-- &nbsp;11146140 -->
+
+<!-- [&nbsp;<a href="https://doi.org/10.1215/00703370-11146140" target="_blank">DOI</a>&nbsp;] -->
+
+</p>
+
 
 <p class="bibliography"><a id="shaoRSAHHDynamics"></a>
 
-Shao-Tzu,&nbsp;Y., B.&nbsp;Houle, E.&nbsp;Schatz, N.&nbsp;Angotti, C.W.&nbsp;Kabudula, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, <span class="author">S.J.&nbsp;CLARK</span>, J.&nbsp;Menken, and S.A.&nbsp;Mojola (2024 - in press).
+Shao-Tzu,&nbsp;Y., B.&nbsp;Houle, E.&nbsp;Schatz, N.&nbsp;Angotti, C.W.&nbsp;Kabudula, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, <span class="author">S.J.&nbsp;CLARK</span>, J.&nbsp;Menken, and S.A.&nbsp;Mojola (2024).
 
 <b>Understanding Household Dynamics from the Ground Up: A Longitudinal Study from a Rural South African Setting.</b> 
 
@@ -94,25 +151,45 @@ Shao-Tzu,&nbsp;Y., B.&nbsp;Houle, E.&nbsp;Schatz, N.&nbsp;Angotti, C.W.&nbsp;Kab
 </p>
 
 
-
-
 <p class="bibliography"><a id="LCVA"></a>
 
 
-Li,&nbsp;Z.R., Z.&nbsp;Wu, I.&nbsp;Chen, and <span class="author">S.J.&nbsp;CLARK</span>. (2024 - in press).
+Li,&nbsp;Z.R., Z.&nbsp;Wu, I.&nbsp;Chen, and <span class="author">S.J.&nbsp;CLARK</span>. (2024).
 
 <b>Bayesian Nested Latent Class Models For Cause-of-death Assignment Using Verbal Autopsies Across Multiple Domains.</b> 
 
 <em>Annals of Applied Statistics</em>.
 
-[&nbsp;<a href="https://doi.org/10.48550/arXiv.2112.12186" target="_blank">Preprint</a>&nbsp;]
+[&nbsp;<a href="https://doi.org/10.1214/23-AOAS1826" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<h3 class="bib">Working Papers</h3>
+
+
+<p class="bibliography"><a id="Li2021arXivNestedVA"></a>
+
+Kunihama,&nbsp;T., Z.R.&nbsp;Li, <span class="author">S.J.&nbsp;CLARK</span>, and T.H.&nbsp;McCormick (2024).
+
+<b>Bayesian Analysis of Verbal Autopsy Data Using Factor Models With Age- And Sex-Dependent Associations Between Symptoms</b>.
+
+<em>arXiv Preprint</em>&nbsp;<em>arXiv:2403.12288</em>.
+
+[&nbsp;<a href="https://arxiv.org/pdf/2403.12288" target="_blank">PDF</a>&nbsp;]
 
 </p>
 
 
 
 
-<h2 class="bib-year" id="published-2023">2023  <a href="#published" style="font-weight:normal">&#8679;</a></h2> 
+<!-- 2023 -->
+
+<h2 class="bib-year" id="year-2023">2023  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
 
 <p class="bibliography"><a id="groenewaldRSAVA"></a>
 
@@ -127,8 +204,6 @@ Groenewald,&nbsp;P., J.&nbsp;Thomas, <span class="author">S.J.&nbsp;CLARK</span>
 </p>
 
 
-
-
 <p class="bibliography"><a id="houleChildMxHIV"></a>
 
 Houle,&nbsp;B., C.W.&nbsp;Kabudula, D.&nbsp;Gareta, K.&nbsp;Herbst, and <span class="author">S.J.&nbsp;CLARK</span> (2023).
@@ -140,8 +215,6 @@ Houle,&nbsp;B., C.W.&nbsp;Kabudula, D.&nbsp;Gareta, K.&nbsp;Herbst, and <span cl
 [&nbsp;<a href="http://dx.doi.org/10.1136/bmjopen-2022-070388" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="houleTwinEpidemics"></a>
@@ -158,8 +231,13 @@ Li,&nbsp;Z., J.&nbsp;Thomas, E.&nbsp;Choi, T.H.&nbsp;McCormick, and <span class=
 
 
 
+<!-- 2022 -->
 
-<h2 class="bib-year" id="published-2022">2022  <a href="#published" style="font-weight:normal">&#8679;</a></h2> 
+<h2 class="bib-year" id="year-2022">2022  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
 
 <p class="bibliography"><a id="openVAToolkit"></a>
 
@@ -172,8 +250,6 @@ Houle,&nbsp;B., C.W.&nbsp;Kabudula, A.M.&nbsp;Tilstra, S.A. Mojola, E.&nbsp;Scha
 [&nbsp;<a href="https://doi.org/10.1186/s12889-022-12791-z" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="houleTwinEpidemicsData"></a>
@@ -191,7 +267,12 @@ Houle,&nbsp;B., C.W.&nbsp;Kabudula, A.M.&nbsp;Tilstra, S.A. Mojola, E.&nbsp;Scha
 
 
 
-<h2 class="bib-year" id="published-2021">2021  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<!-- 2021-->
+
+<h2 class="bib-year" id="year-2021">2021  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
 
 
 <p class="bibliography"><a id="HerbsHDSS"></a>
@@ -207,8 +288,6 @@ Herbst, K., S.&nbsp;Juvekar, M.&nbsp;Jasseh, Y.&nbsp;Berhane, N. T. K.&nbsp;Chuk
 </p>
 
 
-
-
 <p class="bibliography"><a id="ChandramohanVA"></a>
 
 Chandramohan, D., E.&nbsp;Fottrell, J.&nbsp;Leitao, E.&nbsp;Nichols, <span class="author">S.J.&nbsp;CLARK</span>, C.&nbsp;Alsokhn, D. C.&nbsp;Munoz, C.&nbsp;AbouZahr, A.&nbsp;Di Pasquale, R.&nbsp;Mswia, E.&nbsp;Choi, F.&nbsp;Baiden, J.&nbsp;Thomas, I.&nbsp;Lyatuu, Z.&nbsp;Li, P.&nbsp;Larbi-Debrah, Y.&nbsp;Chu, S.&nbsp;Cheburet, O.&nbsp;Sankoh, A. M.&nbsp;Badr, D. M.&nbsp;Fat, P.&nbsp;Setel, R.&nbsp;Jakob, D.&nbsp;de Savigny (2021). 
@@ -220,8 +299,6 @@ Chandramohan, D., E.&nbsp;Fottrell, J.&nbsp;Leitao, E.&nbsp;Nichols, <span class
 [&nbsp;<a href="http://doi.org/10.1080/16549716.2021.1982486" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="OCAP2020"></a>
@@ -237,8 +314,6 @@ Norris&nbsp;Turner, A., D.&nbsp;Kline, A.&nbsp;Norris, W.G.&nbsp;Phillips, E.&nb
 </p>
 
 
-
-
 <p class="bibliography"><a id="klineCV19PNAS2021"></a>
 
 Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C.&nbsp;Miller, A.&nbsp;Norris&nbsp;Turner, and <span class="author">S.J.&nbsp;CLARK</span> (2021). 
@@ -250,8 +325,6 @@ Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C.&nbsp;Miller, A.&nbsp
 [&nbsp;<a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="clark2021cv19CommentPNAS"></a>
@@ -267,8 +340,6 @@ Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C.&nbsp;Miller, A.&nbsp
 </p>
 
 
-
-
 <p class="bibliography"><a id="houle2021ChildMx"></a>
 
 Houle, B., C.&nbsp;Kabudula, A.&nbsp;Stein, D.&nbsp;Gareta, K.&nbsp;Herbst, and <span class="author">S.J.&nbsp;CLARK</span> (2021).
@@ -282,9 +353,57 @@ Houle, B., C.&nbsp;Kabudula, A.&nbsp;Stein, D.&nbsp;Gareta, K.&nbsp;Herbst, and 
 </p>
 
 
+<h3 class="bib">Working Papers</h3>
 
 
-<h2 class="bib-year" id="published-2020">2020  <a href="#published" style="font-weight:normal">&#8679;</a></h2> 
+<p class="bibliography"><a id="kunihama2024arXiv"></a>
+
+Li,&nbsp;Z.&nbsp;R., Z.&nbsp;Wu, I.&nbsp;Chen, and <span class="author">S.J.&nbsp;CLARK</span> (2021).
+
+<b>Bayesian Nested Latent Class Models for Cause-of-Death Assignment using Verbal Autopsies Across Multiple Domains</b>.
+
+<em>arXiv Preprint</em>&nbsp;<em>arXiv:2112.12186</em>.
+
+[&nbsp;<a href="https://arxiv.org/abs/2112.12186" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="Clark2021arXivHDSS"></a>
+
+<span class="author">CLARK,&nbsp;S.J.</span> (2021).
+
+<b>Health and demographic surveillance systems and the 2030 agenda: Sustainable development goals</b>.
+
+<em>arXiv Preprint</em>&nbsp;<em>arXiv:2103.03910</em>.
+
+[&nbsp;<a href="https://arxiv.org/abs/2103.03910" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="Li2021arXivopenVA"></a>
+
+Li,&nbsp;Z.R., J.&nbsp;Thomas, E.&nbsp;Choi, T.H.&nbsp;McCormick, and <span class="author">S.J.&nbsp;CLARK</span> (2021).
+
+<b>The openva toolkit for verbal autopsies</b>.
+
+<em>arXiv Preprint</em>&nbsp;<em>arXiv:2109.08244</em>.
+
+[&nbsp;<a href="https://arxiv.org/abs/2109.08244" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+
+
+<!-- 2020 -->
+
+<h2 class="bib-year" id="year-2020">2020  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
 
 <p class="bibliography"><a id="calvert2020maternal"></a>
 
@@ -297,8 +416,6 @@ Calvert, C., M.&nbsp;Marston, E.&nbsp;Slaymaker, A.C.&nbsp;Crampin, A.&nbsp;Pric
 [&nbsp;<a href="http://dx.doi.org/10.1097/QAD.0000000000002552" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="xavi2020incidence"></a>
@@ -314,8 +431,6 @@ G&oacute;mez-Oliv&eacute;, F.X., B.&nbsp;Houle, M.S.&nbsp;Rosenberg, C.W.&nbsp;K
 </p>
 
 
-
-
 <p class="bibliography"><a id="houle2020Clustering"></a>
 
 Houle, B., S.T.&nbsp;Yu, N.&nbsp;Angotti, E.&nbsp;Schatz, C.&nbsp;Kabudula, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, J.&nbsp;Menken, S.&nbsp;Mojola, and <span class="author">S.J.&nbsp;CLARK</span> (2020).
@@ -327,8 +442,6 @@ Houle, B., S.T.&nbsp;Yu, N.&nbsp;Angotti, E.&nbsp;Schatz, C.&nbsp;Kabudula, F.X.
 [&nbsp;<a href="http://dx.doi.org/10.1007/s10508-020-01663-5" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="tsuyoshi2020"></a>
@@ -344,8 +457,6 @@ Kunihama, T., Z.R.&nbsp;Li, <span class="author">S.J.&nbsp;CLARK</span>, and T.H
 </p>
 
 
-
-
 <p class="bibliography"><a id="li2017mixPublished"></a>
 
 Li, Z.R., T.H.&nbsp;McCormick, and <span class="author">S.J.&nbsp;CLARK</span> (2020a).
@@ -357,8 +468,6 @@ Li, Z.R., T.H.&nbsp;McCormick, and <span class="author">S.J.&nbsp;CLARK</span> (
 [&nbsp;<a href="http://dx.doi.org/10.1214/19-BA1172" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="li2020BMCRebuttal"></a>
@@ -375,8 +484,6 @@ Li, Z.R., T.H.&nbsp;McCormick, and <span class="author">S.J.&nbsp;CLARK</span> (
 </p>
 
 
-
-
 <p class="bibliography"><a id="setel2020mortality"></a>
 
 Setel, P., C.&nbsp;AbouZahr, E.&nbsp;B. Atuheire, M.&nbsp;Bratschi, E.&nbsp;Cercone, O.&nbsp;Chinganya, B.&nbsp;Clapham, <span class="author">S.J.&nbsp;CLARK</span>, C.&nbsp;Congdon, D.&nbsp;de&nbsp;Savigny, A.&nbsp;Karpati, E.&nbsp;Nichols, R.&nbsp;Jakob, J.&nbsp;Mwanza, W.&nbsp;Muhwava, P.&nbsp;Nahmias, E.M.&nbsp;rtiza, A.&nbsp;Tshangelab. (2020).
@@ -390,9 +497,44 @@ Setel, P., C.&nbsp;AbouZahr, E.&nbsp;B. Atuheire, M.&nbsp;Bratschi, E.&nbsp;Cerc
 </p>
 
 
+<h3 class="bib">Working Papers</h3>
 
 
-<h2 class="bib-year" id="published-2019">2019  <a href="#published" style="font-weight:normal">&#8679;</a></h2> 
+<p class="bibliography"><a id="kline2020estimating"></a>
+
+Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, and <span class="author">S.J.&nbsp;CLARK</span> (2020).
+
+<b>Estimating Seroprevalence of SARS-CoV-2 Coronavirus in Ohio: A Bayesian Multilevel Regression and Poststratification Approach with Multiple Imperfect Diagnostic Tests</b>.
+
+<em>arXiv Preprint</em>&nbsp;<em>arXiv:2011.09033v2</em>.
+
+[&nbsp;<a href="https://arxiv.org/abs/2011.09033v2" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="li2020space"></a>
+
+Li,&nbsp;Z.R., B.D.&nbsp;Martin, T.Q.&nbsp;Dong, G.A.&nbsp;Fuglstad, J.&nbsp;Paige, A.&nbsp;Riebler, <span class="author">S.J.&nbsp;CLARK</span>, and J.&nbsp;Wakefield (2020).
+
+<b>Space-Time Smoothing of Demographic and Health Indicators using the R Package SUMMER</b>.
+
+<em>arXiv Preprint</em>&nbsp;(arXiv:2007.05117).
+
+[&nbsp;<a href="https://arxiv.org/abs/2007.05117" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+
+
+<!-- 2019 -->
+
+<h2 class="bib-year" id="year-2019">2019  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
 
 <p class="bibliography"><a id="interva52018"></a>
 
@@ -407,8 +549,6 @@ Byass, P., L.&nbsp;Hussain-Alkhateeb, L.&nbsp;D'Ambruoso, <span class="author">S
 </p>
 
 
-
-
 <p class="bibliography"><a id="clark5q0MLTDemog2016"></a>
 
 <span class="author">CLARK,&nbsp;S.J.</span> (2019).
@@ -417,11 +557,9 @@ Byass, P., L.&nbsp;Hussain-Alkhateeb, L.&nbsp;D'Ambruoso, <span class="author">S
 
 <em>Demography</em>&nbsp;<em>56</em>&nbsp;(3), 1131-1159.
 
-[&nbsp;<a href="http://dx.doi.org/10.1007/s13524-019-00785-3" target="_blank">DOI</a>&nbsp;]
+[&nbsp;<a href="http://dx.doi.org/10.1007/s13524-019-00785-3" target="_blank">DOI</a>&nbsp;][&nbsp;<a href="https://github.com/sinafala/svd-comp" target="_blank">Reproducibility Code</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="jha2019"></a>
@@ -437,8 +575,6 @@ Jha, P., D.&nbsp;Kumar, R.&nbsp;Dikshit, A.&nbsp;Budukh, R.&nbsp;Begum, P.&nbsp;
 </p>
 
 
-
-
 <p class="bibliography"><a id="li2018bayesianPublished"></a>
 
 Li,&nbsp;Z.R., T.H.&nbsp;McCormick, and <span class="author">S.J.&nbsp;CLARK</span> (2019, June).
@@ -450,8 +586,6 @@ In <em>Proceedings of the 36th International Conference on Machine Learning</em>
 [&nbsp;<a href="http://proceedings.mlr.press/v97/li19h/li19h.pdf" target="_blank">li19h.pdf</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="U5MRAfrica2018"></a>
@@ -467,9 +601,31 @@ Li, Z., Y.&nbsp;Hsiao, J.&nbsp;Godwin, B.&nbsp;Martin, J.&nbsp;Wakefield, and <s
 </p>
 
 
+<h3 class="bib">Working Papers</h3>
 
 
-<h2 class="bib-year" id="published-2018">2018  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<p class="bibliography"><a id="clarkSCIArchive2020"></a>
+
+<span class="author">CLARK,&nbsp;S.J.</span>, M.&nbsp;Bratschi, P.&nbsp;Setel, C.&nbsp;Abouzahr, D.&nbsp;d.&nbsp;Savigny, Z.R.&nbsp;Li, T.H.&nbsp;McCormick, P.&nbsp;Byass, and D.&nbsp;Chandramohan (2019).
+
+<b>Verbal Autopsy in Civil Registration and Vital Statistics: The Symptom-Cause Information Archive</b>.
+
+<em>arXiv Preprint</em>&nbsp;<em>arXiv:1910.00405v2</em>.
+
+[&nbsp;<a href="https://arxiv.org/abs/1910.00405v2" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+
+
+<!-- 2018 -->
+
+<h2 class="bib-year" id="year-2018">2018  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
 
 <p class="bibliography"><a id="clarkHyak2016"></a>
 
@@ -482,8 +638,6 @@ Li, Z., Y.&nbsp;Hsiao, J.&nbsp;Godwin, B.&nbsp;Martin, J.&nbsp;Wakefield, and <s
 [&nbsp;<a href="http://dx.doi.org/10.1017/gheg.2017.15" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="houleFieldworkerEffectsDrugs2016"></a>
@@ -499,8 +653,6 @@ Houle, B., F.X.&nbsp;G&oacute;mez-Oliv&eacute;, N.&nbsp;Angotti, J.&nbsp;Menken,
 </p>
 
 
-
-
 <p class="bibliography"><a id="houleSexBeahvior2016"></a>
 
 Houle, B., S.&nbsp;Mojola, N.&nbsp;Angotti, E.&nbsp;Schatz, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, <span class="author">S.J.&nbsp;CLARK</span>, J.&nbsp;Williams, C.&nbsp;Kabudula, S.&nbsp;Tollman, and J.&nbsp;Menken (2018).
@@ -512,8 +664,6 @@ Houle, B., S.&nbsp;Mojola, N.&nbsp;Angotti, E.&nbsp;Schatz, F.X.&nbsp;G&oacute;m
 [&nbsp;<a href="http://dx.doi.org/10.1080/09540121.2018.1468008" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="nicholsWhoVa2016"></a>
@@ -529,8 +679,6 @@ Nichols, E.&nbsp;K., P.&nbsp;Byass, D.&nbsp;Chandramohan, <span class="author">S
 </p>
 
 
-
-
 <p class="bibliography"><a id="pantaziSVDFx2016"></a>
 
 Pantazis, A. and <span class="author">S.J.&nbsp;CLARK</span> (2018).
@@ -542,8 +690,6 @@ Pantazis, A. and <span class="author">S.J.&nbsp;CLARK</span> (2018).
 [&nbsp;<a href="http://dx.doi.org/10.1371/journal.pone.0190574" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="sharrowHivPPP2016"></a>
@@ -559,8 +705,6 @@ Sharrow, D.J., J.&nbsp;Godwin, Y.&nbsp;He, <span class="author">S.J.&nbsp;CLARK<
 </p>
 
 
-
-
 <p class="bibliography"><a id="wakefieldSMMR2018"></a>
 
 Wakefield, J., G.A.&nbsp;Fuglstad, A.&nbsp;Riebler, J.&nbsp;Godwin, K.&nbsp;Wilson, and <span class="author">S.J.&nbsp;CLARK</span> (2018).
@@ -574,9 +718,96 @@ Wakefield, J., G.A.&nbsp;Fuglstad, A.&nbsp;Riebler, J.&nbsp;Godwin, K.&nbsp;Wils
 </p>
 
 
+<h3 class="bib">Working Papers</h3>
 
 
-<h2 class="bib-year" id="published-2017">2017  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<p class="bibliography"><a id="li2018bayesianStripped"></a>
+
+Li,&nbsp;Z.R., T.H.&nbsp;McCormick, and <span class="author">S.J.&nbsp;CLARK</span> (2019).
+
+<b>Bayesian Joint Spike-and-Slab Graphical Lasso</b>.
+
+<em>arXiv Preprint</em>&nbsp;(arXiv:1805.07051).
+
+[&nbsp;<a href="https://arxiv.org/abs/1805.07051" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="clarkComparingAlgorithms2018"></a>
+
+<span class="author">CLARK,&nbsp;S.J.</span> (2018).
+
+<b>A Guide to Comparing the Performance of VA Algorithms</b>.
+
+<em>arXiv Preprint</em>&nbsp;(arXiv:1802.07807).
+
+[&nbsp;<a href="https://arxiv.org/abs/1802.07807" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="clarkQuantifyingSCI2018"></a>
+
+<span class="author">CLARK,&nbsp;S.J.</span>, Z.R.&nbsp;Li, and T.H.&nbsp;McCormick (2018).
+
+<b>Quantifying the Contributions of Training Data and Algorithm Logic to the Performance of Automated Cause-Assignment Algorithms for Verbal Autopsy</b>.
+
+<em>arXiv Preprint</em>&nbsp;(arXiv:1803.07141v2).
+
+[&nbsp;<a href="https://arxiv.org/abs/1803.07141" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="kunihamaFactorVA2018"></a>
+
+Kunihama, T., Z.R.&nbsp;Li, <span class="author">S.J.&nbsp;CLARK</span>, and T.H.&nbsp;McCormick (2018).
+
+<b>Bayesian factor models for probabilistic cause of death assessment with verbal autopsies</b>.
+
+<em>arXiv Preprint</em>&nbsp;(arXiv:1803.01327).
+
+[&nbsp;<a href="https://arxiv.org/abs/1803.01327" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="liLatentGaussianVaArXiv2018"></a>
+
+Li,&nbsp;Z.R., T.H.&nbsp;McCormick, T.&nbsp;Kunihama, and <span class="author">S.J.&nbsp;CLARK</span> (2018).
+
+<b>Using Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in Verbal Autopsies</b>.
+
+<em>arXiv Preprint</em>&nbsp;(arXiv:1711.00877).
+
+[&nbsp;<a href="https://arxiv.org/abs/1711.00877" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="wakefieldArXiv2018"></a>
+
+Wakefield, J., G.A.&nbsp;Fuglstad, A.&nbsp;Riebler, J.&nbsp;Godwin, K.&nbsp;Wilson, and <span class="author">S.J.&nbsp;CLARK</span> (2018).
+
+<b>Estimating Under-Five Mortality in Space and Time in a Developing World Context</b>.
+
+<em>arXiv Preprint</em>&nbsp;(arXiv:1711.00800).
+
+[&nbsp;<a href="https://arxiv.org/abs/1711.00800" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+
+
+<!-- 2017 -->
+
+<h2 class="bib-year" id="year-2017">2017  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
 
 <p class="bibliography"><a id="kabudulaCauseComp2017"></a>
 
@@ -589,8 +820,6 @@ Kabudula, C.&nbsp;W., B.&nbsp;Houle, M.A.&nbsp;Collinson, K.&nbsp;Kahn, <span cl
 [&nbsp;<a href="http://dx.doi.org/10.1186/s12889-017-4312-x" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="kabudulaSESMx2017"></a>
@@ -606,8 +835,6 @@ Kabudula, C.W., B.&nbsp;Houle, M.A.&nbsp;Collinson, K.&nbsp;Kahn, F.X.&nbsp;G&oa
 </p>
 
 
-
-
 <p class="bibliography"><a id="reniersTbMxRsa2016"></a>
 
 Reniers, G., S.&nbsp;Blom, J.&nbsp;Lieber, A.J.&nbsp;Herbst, C.&nbsp;Calvert, J.&nbsp;Bor, T.&nbsp;Barnighausen, B.&nbsp;Zaba, Z.R.&nbsp;Li, <span class="author">S.J.&nbsp;CLARK</span>, A.&nbsp;Grant, R.&nbsp;Lessells, J.W.&nbsp;Eaton, and V.&nbsp;Hosegood (2017).
@@ -619,8 +846,6 @@ Reniers, G., S.&nbsp;Blom, J.&nbsp;Lieber, A.J.&nbsp;Herbst, C.&nbsp;Calvert, J.
 [&nbsp;<a href="http://dx.doi.org/10.1371/journal.pone.0185692" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="sankohPopData2017"></a>
@@ -636,8 +861,6 @@ Sankoh, O., P.&nbsp;Byass, <span class="author">S.J.&nbsp;CLARK</span>, P.&nbsp;
 </p>
 
 
-
-
 <p class="bibliography"><a id="sankoh2017new"></a>
 
 Sankoh, O., P.&nbsp;Byass, M.&nbsp;Kamanda, S.S.&nbsp;Arthur, M.&nbsp;Bangha, D.&nbsp;Mbulumi, S.&nbsp;Apaliyah, A.&nbsp;Soura, A.&nbsp;Chowdhury, A.&nbsp;Oduro, A.&nbsp;Lopez, A.&nbsp;Diallo, A.&nbsp;Worku, A.A.&nbsp;Gebru, A.&nbsp;Ezeh, A.&nbsp;Sie, A.&nbsp;Crampin, A.&nbsp;age, A.M.&nbsp;Ekstrom, A.&nbsp;Scott, B.P.&nbsp;Nguyen, B.&nbsp;McPake, B.&nbsp;Bonfoh, B.&nbsp;Tariku, C.&nbsp;Abouzahr, C.&nbsp;Moyer, Da.&nbsp;Kajungu, G.A.&nbsp;Bikes, H.&nbsp;Tinto, H.&nbsp;Mwenesi, H.&nbsp;Campbell, H.V.&nbsp;Minh, <span class="author">S.J.&nbsp;CLARK</span>, J.&nbsp;Odera, K.&nbsp;Herbst, K.&nbsp;Baku, M.&nbsp;Eusebio1, M.&nbsp;Gyapong, M.&nbsp;Alberts, M.&nbsp;Meremikwu, M.&nbsp;Molla, M.&nbsp;Jasseh, N.&nbsp;Assefa, N.&nbsp;Alam, O.M.&nbsp;Oche, P.&nbsp;Lehohla, P.&nbsp;Aaby, P.&nbsp;Bocquier, R.&nbsp;Thompson, R.&nbsp;Newton, S.&nbsp;CLARK, S.&nbsp;Juvekar, S.&nbsp;Kouanda, S.&nbsp;Owusu-Agyei, S.&nbsp;Kant, S.&nbsp;Sodiomon, S.&nbsp;Wilopo, S.M.&nbsp;Manzoor, A.&nbsp;Hanifi, S.&nbsp;Tollman, T.K.C.&nbsp;Nguyen, T.&nbsp;Lutalo, T.&nbsp;Williams, T.K.&nbsp;Toan, T.&nbsp;Corrah, V.&nbsp;Delaunay, W.&nbsp;Otieno, W.&nbsp;Khan, W.M.&nbsp;Abera, M.&nbsp;Tanner. (2017).
@@ -651,9 +874,31 @@ Sankoh, O., P.&nbsp;Byass, M.&nbsp;Kamanda, S.S.&nbsp;Arthur, M.&nbsp;Bangha, D.
 </p>
 
 
+<h3 class="bib">Working Papers</h3>
 
 
-<h2 class="bib-year" id="published-2016">2016  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<p class="bibliography"><a id="li2017mixStripped"></a>
+
+Li,&nbsp;Z.R., T.H.&nbsp;McCormick, T.&nbsp;Kunihama, and <span class="author">S.J.&nbsp;CLARK</span> (2019).
+
+<b>Using Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in Verbal Autopsies</b>.
+
+<em>arXiv Preprint</em>&nbsp;(arXiv:1711.00877).
+
+[&nbsp;<a href="https://arxiv.org/abs/1711.00877" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+
+
+<!-- 2016 -->
+
+<h2 class="bib-year" id="year-2016">2016  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
 
 <p class="bibliography"><a id="bawah2016evolving"></a>
 
@@ -666,8 +911,6 @@ Bawah, A., B.&nbsp;Houle, N.&nbsp;Alam, A.&nbsp;Razzaque, P.&nbsp;K. Streatfield
 [&nbsp;<a href="http://dx.doi.org/10.1371/journal.pone.0157281" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="houle2015let"></a>
@@ -683,8 +926,6 @@ Houle, B., N.&nbsp;Angotti, <span class="author">S.J.&nbsp;CLARK</span>, J.&nbsp
 </p>
 
 
-
-
 <p class="bibliography"><a id="houle2016social"></a>
 
 Houle, B., A.&nbsp;Pantazis, C.&nbsp;Kabudula, S.&nbsp;Tollman, and <span class="author">S.J.&nbsp;CLARK</span> (2016).
@@ -696,8 +937,6 @@ Houle, B., A.&nbsp;Pantazis, C.&nbsp;Kabudula, S.&nbsp;Tollman, and <span class=
 [&nbsp;<a href="http://dx.doi.org/10.1186/s12963-016-0079-z" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="kabudulaassessing2016"></a>
@@ -713,8 +952,6 @@ Kabudula, C.&nbsp;W., B.&nbsp;Houle, M.A.&nbsp;Collinson, K.&nbsp;Kahn, S.&nbsp;
 </p>
 
 
-
-
 <p class="bibliography"><a id="mccormickEtAl2015"></a>
 
 McCormick,&nbsp;T.H., Z.R.&nbsp;Li, C.&nbsp;Calvert, A.C.&nbsp;Crampin, K.&nbsp;Kahn, and <span class="author">S.J.&nbsp;CLARK</span> (2016).
@@ -726,8 +963,6 @@ McCormick,&nbsp;T.H., Z.R.&nbsp;Li, C.&nbsp;Calvert, A.C.&nbsp;Crampin, K.&nbsp;
 [&nbsp;<a href="http://dx.doi.org/10.1080/01621459.2016.1152191" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="reniers2016trends"></a>
@@ -743,8 +978,6 @@ Reniers, G., S.&nbsp;Blom, C.&nbsp;Calvert, A.&nbsp;Martin-Onraet, A.J.&nbsp;Her
 </p>
 
 
-
-
 <p class="bibliography"><a id="reniers2016data"></a>
 
 Reniers, G., M.&nbsp;Wamukoya, M.&nbsp;Urassa, A.&nbsp;Nyaguara, J.&nbsp;Nakiyingi-Miiro, T.&nbsp;Lutalo, V.&nbsp;Hosegood, S.&nbsp;Gregson, F.X.&nbsp;Gomez-Olive, E.&nbsp;Geubbels, A.C.&nbsp;Crampin, A.&nbsp;Wringe, L.&nbsp;Waswa, S.&nbsp;Tollman, J.&nbsp;Todd, E.&nbsp;Slaymaker, D.&nbsp;Serwadda, A.&nbsp;Price, S.&nbsp;Oti, M.&nbsp;J. Nyirenda, D.&nbsp;Nabukalu, C.&nbsp;Nyamukapa, F.&nbsp;Nalugoda, O.&nbsp;Mugurungi, B.&nbsp;Mtenga, L.&nbsp;Mills, D.&nbsp;Michael, E.&nbsp;McLean, N.&nbsp;McGrath, E.&nbsp;Martin, M.&nbsp;Marston, S.&nbsp;Maquins, F.&nbsp;Levira, C.&nbsp;Kyobutungi, D.&nbsp;Kwaro, I.&nbsp;Kasamba, C.&nbsp;Kanjala, K.&nbsp;Kahn, C.&nbsp;Kabudula, K.&nbsp;Herbst, D.&nbsp;Gareta, J.W.&nbsp;Eaton, <span class="author">S.J.&nbsp;CLARK</span>, K.&nbsp;Church, M.&nbsp;Chihana, C.&nbsp;Calvert, D.&nbsp;Beguy, G.&nbsp;Asiki, S.&nbsp;Amri, R.&nbsp;Abdul, and B.&nbsp;Zaba (2016).
@@ -756,8 +989,6 @@ Reniers, G., M.&nbsp;Wamukoya, M.&nbsp;Urassa, A.&nbsp;Nyaguara, J.&nbsp;Nakiyin
 [&nbsp;<a href="http://dx.doi.org/10.1093/ije/dyv343" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="wheldonEtAl2016"></a>
@@ -773,9 +1004,44 @@ Wheldon, M., A.E.&nbsp;Raftery, <span class="author">S.J.&nbsp;CLARK</span>, and
 </p>
 
 
+<h3 class="bib">Working Papers</h3>
 
 
-<h2 class="bib-year" id="published-2015">2015  <a href="#published" style="font-weight:normal">&#8679;</a></h2> 
+<p class="bibliography"><a id="clark5q0MLT2016"></a>
+
+<span class="author">CLARK,&nbsp;S.J.</span> (2016).
+
+<b>A General Age-Specific Mortality Model with An Example Indexed by Child or Child/Adult Mortality</b>.
+
+<em>arXiv Preprint</em>&nbsp;(arXiv:1612.01408v1).
+
+[&nbsp;<a href="https://arxiv.org/abs/1612.01408" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="sharrowHivPppWp2016"></a>
+
+Sharrow,&nbsp;D.J., J.&nbsp;Godwin, Y.&nbsp;He, <span class="author">S.J.&nbsp;CLARK</span>, and A.E.&nbsp;Raftery (2016).
+
+<b>Probabilistic population projections for countries with generalized hiv/aids epidemics</b>.
+
+<em>arXiv Preprint</em>&nbsp;(arXiv:1609.04383).
+
+[&nbsp;<a href="https://arxiv.org/abs/1609.04383" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+
+
+<!-- 2015 -->
+
+<h2 class="bib-year" id="year-2015">2015  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
 
 <p class="bibliography"><a id="clarkEtAl2015_1"></a>
 
@@ -790,21 +1056,17 @@ Wheldon, M., A.E.&nbsp;Raftery, <span class="author">S.J.&nbsp;CLARK</span>, and
 </p>
 
 
-
-
 <p class="bibliography"><a id="helleringer2015Lancet"></a>
 
 Helleringer, S., A.&nbsp;Noymer, <span class="author">S.J.&nbsp;CLARK</span>, and T.H.&nbsp;McCormick (2015).
  
-<b>Did Ebola Relatively `Spare' Children?</b>.
+<b>Did Ebola Relatively 'Spare' Children?</b>.
 
 <em>Lancet</em>&nbsp;<em>386</em>&nbsp;(10002), 1442-1443.
 
 [&nbsp;<a href="http://dx.doi.org/10.1016/S0140-6736(15)00415-8" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="houleEtAl2015_1"></a>
@@ -820,8 +1082,6 @@ Houle, B., <span class="author">S.J.&nbsp;CLARK</span>, and A.&nbsp;E. Yamin (20
 </p>
 
 
-
-
 <p class="bibliography"><a id="mercerEtAl2015"></a>
 
 Mercer, L.&nbsp;D., J.&nbsp;Wakefield, A.&nbsp;Pantazis, A.&nbsp;M. Lutambi, H.&nbsp;Masanja, and S.&nbsp;J.&nbsp;CLARK (2015).
@@ -833,8 +1093,6 @@ Mercer, L.&nbsp;D., J.&nbsp;Wakefield, A.&nbsp;Pantazis, A.&nbsp;M. Lutambi, H.&
 [&nbsp;<a href="http://dx.doi.org/10.1214/15-AOAS872" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="sankohEtAl2016"></a>
@@ -850,8 +1108,6 @@ Sankoh, Osman, M.&nbsp;Bangha, J.B.O.&nbsp;Emina, A.J.&nbsp;Herbst, S.&nbsp;Toll
 </p>
 
 
-
-
 <p class="bibliography"><a id="wheldonEtAl2015_1"></a>
 
 Wheldon, M., A.&nbsp;E.&nbsp;Raftery, <span class="author">S.J.&nbsp;CLARK</span>, and P.&nbsp;Gerland (2015).
@@ -863,8 +1119,6 @@ Wheldon, M., A.&nbsp;E.&nbsp;Raftery, <span class="author">S.J.&nbsp;CLARK</span
 [&nbsp;<a href="http://dx.doi.org/10.1111/rssa.12104" target="_blank">DOI</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="zaba2015understanding"></a>
@@ -880,9 +1134,44 @@ Zaba, B., G.&nbsp;Reniers, E.&nbsp;Slaymaker, J.&nbsp;Todd, J.&nbsp;Glynn, A.&nb
 </p>
 
 
+<h3 class="bib">Working Papers</h3>
 
 
-<h2 class="bib-year" id="published-2014">2014  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<p class="bibliography"><a id="clarkSVD2015"></a>
+
+<span class="author">CLARK,&nbsp;S.J.</span> (2015).
+
+<b>A Singular Value Decomposition-based Factorization and Parsimonious Component Model of Demographic Quantities Correlated by Age: Predicting Complete Demographic Age Schedules with Few Parameters</b>.
+
+<em>arXiv Preprint</em>&nbsp;(arXiv:1504.02057v1).
+
+[&nbsp;<a href="https://arxiv.org/abs/1504.02057" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="mccormick2014probabilistic"></a>
+
+McCormick,&nbsp;T.H., Z.R.&nbsp;Li, C.&nbsp;Calvert, A.C.&nbsp;Crampin, K.&nbsp;Kahn, and <span class="author">S.J.&nbsp;CLARK</span> (2015).
+
+<b>Probabilistic cause-of-death assignment using verbal autopsies</b>.
+
+<em>arXiv Preprint</em>&nbsp;(arXiv:1411.3042).
+
+[&nbsp;<a href="https://arxiv.org/abs/1411.3042" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+
+
+<!-- 2014 -->
+
+<h2 class="bib-year" id="year-2014">2014  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
 
 <p class="bibliography"><a id="bocquierEtAl2014"></a>
 
@@ -1002,9 +1291,70 @@ Sharrow,&nbsp;D.J., <span class="author">S.J.&nbsp;CLARK</span>, and A.E.&nbsp;R
 </p>
 
 
+<h3 class="bib">Working Papers</h3>
 
 
-<h2 class="bib-year" id="published-2013">2013  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
+<p class="bibliography"><a id="clark2014SVD"></a>
+
+<span class="author">CLARK,&nbsp;S.J.</span> (2014).
+
+<b>A singular value decomposition-based factorization and parsimonious component model of demographic quantities correlated by age: Predicting complete demographic age schedules with few parameters</b>.
+
+<em>Center for Statistics and the Social Sciences (CSSS) Working Paper Series</em>&nbsp;(143).
+
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2014/wp143.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="liEtAl2014"></a>
+
+Li, Z., T.&nbsp;McCormick, and <span class="author">S.J.&nbsp;CLARK</span> (2014).
+
+<b>Interva4: An r package to analyze verbal autopsy data</b>.
+
+<em>Center for Statistics and the Social Sciences (CSSS) Working Paper Series</em>&nbsp;(146).
+
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2014/wp146.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="mccormickEtAl2014"></a>
+
+McCormick, T., Z.&nbsp;Li, C.&nbsp;Calvert, A.&nbsp;Crampin, K.&nbsp;Kahn, and <span class="author">S.J.&nbsp;CLARK</span> (2014).
+
+<b>Probabilistic cause-of-death assignment using verbal autopsies</b>.
+
+<em>Center for Statistics and the Social Sciences (CSSS) Working Paper Series</em>&nbsp;(147).
+
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2014/wp147.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="mercerEtAl2014"></a>
+
+Mercer, L., J.&nbsp;Wakefield, A.&nbsp;Pantazis, A.&nbsp;Lutambi, H.&nbsp;Masanja, and <span class="author">S.J.&nbsp;CLARK</span> (2014).
+ 
+<b>Small area estimation of child mortality in the absence of vital registration</b>.
+
+<em>Center for Statistics and the Social Sciences (CSSS) Working Paper Series</em>&nbsp;(148).
+
+[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2014/wp148.pdf" target="_blank">PDF</a>&nbsp;]
+
+</p>
+
+
+
+
+<!-- 2013 -->
+
+<h2 class="bib-year" id="year-2013">2013  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
 
 <p class="bibliography"><a id="clarkEtAl2013YoungChildren"></a>
 
@@ -1079,677 +1429,8 @@ Wheldon,&nbsp;M.C., A.E.&nbsp;Raftery, <span class="author">S.J.&nbsp;CLARK</spa
 </p>
 
 
+<h3 class="bib">Working Papers</h3>
 
-
-<h2 class="bib-year" id="published-2012">2012  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="alkemaEtAl2012"></a>
-
-Alkema, L., A.E.&nbsp;Raftery, P.&nbsp;Gerland, <span class="author">S.J.&nbsp;CLARK</span>, and F.&nbsp;Pelletier (2012).
- 
-<b>Estimating Trends in the Total Fertility Rate with Uncertainty Using Imperfect Data: Examples from West Africa</b>.
-
-<em>Demographic Research</em>&nbsp;<em>26</em>&nbsp;(15), 331-362.
-
-[&nbsp;<a href="https://dx.doi.org/10.4054/DemRes.2012.26.15" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="byassEtAl2012"></a>
-
-Byass, P., D.&nbsp;Chandramohan, <span class="author">S.J.&nbsp;CLARK</span>, L.&nbsp;D'Ambruoso, E.&nbsp;Fottrell, W.&nbsp;J. Graham, A.J.&nbsp;Herbst, A.&nbsp;Hodgson, S.&nbsp;Hounton, K.&nbsp;Kahn, A.&nbsp;Krishnan, J.&nbsp;Leita, F.&nbsp;Odhiambo, O.A.&nbsp;Sankoh, S.M.&nbsp;Tollman. (2012).
- 
-<b>Strengthening Standardised Interpretation of Verbal Autopsy Data: the New InterVA-4 Tool</b>.
-
-<em>Global Health Action</em>&nbsp;<em>5</em>&nbsp;(1), 19281.
-
-[&nbsp;<a href="http://dx.doi.org/10.3402/gha.v5i0.19281" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="clarkEtAl2012"></a>
-
-<span class="author">CLARK,&nbsp;S.J.</span>, J.&nbsp;Thomas, and L.&nbsp;Bao (2012).
- 
-<b>Estimates of Age-Specific Reductions in HIV Prevalence in Uganda: Bayesian Melding Estimation and Probabilistic Population Forecast with an HIV-enabled Cohort Component Projection Model</b>.
-
-<em>Demographic Research</em>&nbsp;<em>27</em>&nbsp;(26), 743-774.
-
-[&nbsp;<a href="https://dx.doi.org/10.4054/DemRes.2012.27.26" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="kahnEtAl2012"></a>
-
-Kahn, K., M.A.&nbsp;Collinson, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, O.&nbsp;Mokoena, R.&nbsp;Twine, P.&nbsp;Mee, S.&nbsp;A. Afolabi, B.&nbsp;D. Clark, C.W.&nbsp;Kabudula, A.&nbsp;Khosa, S.&nbsp;Khoza, M.&nbsp;Shabangu, B.&nbsp;Silaule, J.&nbsp;B. Tibane, R.&nbsp;G. Wagner, M.L.&nbsp;Garenne, <span class="author">S.J.&nbsp;CLARK</span>, and S.M.&nbsp;Tollman (2012).
- 
-<b>Profile: Agincourt Health and Socio-Demographic Surveillance System</b>.
-
-<em>International Journal of Epidemiology</em>&nbsp;<em>41</em>&nbsp;(4), 988-1001.
-
-[&nbsp;<a href="https://dx.doi.org/10.1093/ije/dys115" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="madhavanEtAl2012"></a>
-
-Madhavan, S., E.&nbsp;Shatz, <span class="author">S.J.&nbsp;CLARK</span>, and M.A.&nbsp;Collinson (2012).
- 
-<b>Child Mobility, Maternal Status and Household Composition in Rural South Africa</b>.
-
-<em>Demography</em>&nbsp;<em>49</em>&nbsp;(2), 699-718.
-
-[&nbsp;<a href="https://dx.doi.org/10.1007/s13524-011-0087-3" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="published-2011">2011  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="alkemaEtAl2011"></a>
-
-Alkema, L., A.E.&nbsp;Raftery, P.&nbsp;Gerland, <span class="author">S.J.&nbsp;CLARK</span>, F.&nbsp;Pelletier, and T.&nbsp;Buettner (2011).
- 
-<b>Probabilistic Projections of the Total Fertility Rate for All Countries</b>.
-
-<em>Demography</em>&nbsp;<em>48</em>&nbsp;(3), 815-839.
-
-[&nbsp;<a href="https://doi.org/10.1007/s13524-011-0040-5" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="thomasClark2011"></a>
-
-Thomas, J. and <span class="author">S.J.&nbsp;CLARK</span> (2011).
- 
-<b>More on the Cohort-Component Model of Population Projection in the Context of HIV/AIDS: A Leslie Matrix Representation and New Estimation Methods</b>.
-
-<em>Demographic Research</em>&nbsp;<em>25</em>&nbsp;(2), 39-102.
-
-[&nbsp;<a href="https://dx.doi.org/10.4054/DemRes.2011.25.2" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="published-2010">2010  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="williamsEtAl2010"></a>
-
-Williams,&nbsp;J.R., E.J.&nbsp;Schatz, B.D.&nbsp;Clark, M.A.&nbsp;Collinson, <span class="author">S.J.&nbsp;CLARK</span>, J.&nbsp;Menken, K.&nbsp;Kahn, and S.M.&nbsp;Tollman (2010).
- 
-<b>Improving Public Health Training and Research Capacity in Africa: A Replicable Model for Linking Training to Health and Socio-Demographic Surveillance Data</b>.
-
-<em>Global Health Action</em>&nbsp;<em>3</em>&nbsp;(5287).
-
-[&nbsp;<a href="http://dx.doi.org/10.3402/gha.v3i0.5287" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="published-2008">2008  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="casselsEtAl2008"></a>
-
-Cassels, S., <span class="author">S.J.&nbsp;CLARK</span>, and M.&nbsp;Morris (2008).
- 
-<b>Mathematical Models for HIV Transmission Dynamics: Tools for Social and Behavioral Science Research</b>.
-
-<em>Journal of Acquired Immune Deficiency Syndromes (JAIDS)</em>&nbsp;<em>47</em>&nbsp;(Supplement 1), S34-S39.
-
-[&nbsp;<a href="https://dx.doi.org/10.1097/QAI.0b013e3181605da3" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="tollmanEtAl2008"></a>
-
-Tollman,&nbsp;S.M., K.&nbsp;Kahn, B.&nbsp;K. Sartorius, M.A.&nbsp;Collinson, <span class="author">S.J.&nbsp;CLARK</span>, and M.L.&nbsp;Garenne (2008).
- 
-<b>Implications of Mortality Transition for Primary Health Care in Rural South Africa: A Population-based Surveillance Study</b>.
-
-<em>Lancet</em>&nbsp;<em>372</em>, 893-901.
-
-[&nbsp;<a href="https://dx.doi.org/10.1016/S0140-6736(08)61399-9" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="published-2007">2007  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="alkema2007"></a>
-
-Alkema, L., A.E.&nbsp;Raftery, and <span class="author">S.J.&nbsp;CLARK</span> (2007).
- 
-<b>Probabilistic Projections of HIV Prevalence Using Bayesian Melding</b>.
-
-<em>The Annals of Applied Statistics</em>&nbsp;<em>1</em>&nbsp;(1), 229-248.
-
-[&nbsp;<a href="https://dx.doi.org/10.1214/07-AOAS111" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="clark2007"></a>
-
-<span class="author">CLARK,&nbsp;S.J.</span> (2007).
- 
-<b>An Introduction to the General Temporal Data Model and the Structured Population Event History Register</b>.
-
-<em>Scandanavian Journal of Public Health</em>&nbsp;<em>35</em>&nbsp;(Suppl 69), 21-25.
-
-[&nbsp;<a href="https://dx.doi.org/10.1080/14034950701355452" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="clarkEtAl2007"></a>
-
-<span class="author">CLARK,&nbsp;S.J.</span>, M.&nbsp;Collinson, K.&nbsp;Kahn, S.&nbsp;Tollman, and K.&nbsp;Drullinger (2007).
- 
-<b>Returning Home to Die: Circular Labour Migration and Mortality in South Africa</b>.
-
-<em>Scandanavian Journal of Public Health</em>&nbsp;<em>35</em>&nbsp;(Suppl 69), 35-44.
-
-[&nbsp;<a href="https://doi.org/10.1080/14034950701355619" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="kahnEtAl2007"></a>
-
-Kahn, K., S.&nbsp;Tollman, M.A.&nbsp;Collinson, <span class="author">S.J.&nbsp;CLARK</span>, R.&nbsp;Twine, B.&nbsp;D. Clark, M.&nbsp;Shabangu, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, O.&nbsp;Mokoena, and M.&nbsp;Garenne (2007).
- 
-<b>Research into Health, Population, and Social Transitions in Rural South Africa: Data and Methods of the Agincourt Health and Demographic Surveillance System</b>.
-
-<em>Scandinavian Journal of Public Health</em>&nbsp;<em>35</em>&nbsp;(Suppl 69), 8-20.
-
-[&nbsp;<a href="https://doi.org/10.1080/14034950701505031" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="published-2006">2006  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="adjuikEtAl2006"></a>
-
-Adjuik, M., T.&nbsp;Smith, <span class="author">S.&nbsp;CLARK</span>, J.&nbsp;Todd, A.&nbsp;Garrib, Y.&nbsp;Kinfu, K.&nbsp;Kahn, M.&nbsp;Mola, A.&nbsp;Ashraf, H.&nbsp;Masanja, U.&nbsp;Adazu, J.&nbsp;Sacarlal, N.&nbsp;Alam, A.&nbsp;Marra, A.&nbsp;Gbangou, E.&nbsp;Mwageni, and F.&nbsp;Binka (2006).
- 
-<b>Cause-Specific Mortality Rates in Sub-Saharan Africa and Bangladesh</b>.
-
-<em>Bulletin of the World Health Organization</em>&nbsp;<em>84</em>&nbsp;(3), 181-188.
-
-[&nbsp;<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2627285/" target="_blank">Link</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="clark2006"></a>
-
-<span class="author">CLARK,&nbsp;S.J.</span> (2006).
-
-<b>A General Temporal Data Model and the Structured Population Event History Register</b>.
-
-<em>Demographic Research</em>&nbsp;<em>15</em>&nbsp;(7), 181-252.
-
-[&nbsp;<a href="https://dx.doi.org/10.4054/DemRes.2006.15.7" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="published-2005">2005  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="benzlerClark2005"></a>
-
-Benzler, J. and <span class="author">S.J.&nbsp;CLARK</span> (2005).
- 
-<b>Toward a Unified Timestamp with Explicit Precision</b>.
-
-<em>Demographic Research</em>&nbsp;<em>12</em>&nbsp;(6), 107-140.
-
-[&nbsp;<a href="https://dx.doi.org/10.4054/DemRes.2005.12.6" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="published-2004">2004  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="hargreavesEtAl2004"></a>
-
-Hargreaves, J.&nbsp;R., M.A.&nbsp;Collinson, K.&nbsp;Kahn, <span class="author">S.J.&nbsp;CLARK</span>, and S.M.&nbsp;Tollman (2004).
- 
-<b>Childhood Mortality among Former Mozambican Refugees and Their Hosts in Rural South Africa</b>.
-
-<em>International Journal of Epidemiology</em>&nbsp;<em>33</em>, 1271-1278.
-
-[&nbsp;<a href="https://doi.org/10.1093/ije/dyh257" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="published-1995">1995  <a href="#published" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="clark1995ten"></a>
-
-<span class="author">CLARK,&nbsp;S.J.</span>, E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
- 
-<b>Ten Thousand Tonga: A Longitudinal Anthropological Study from Southern Zambia: 1956-1991</b>.
-
-<em>Population Studies</em>&nbsp;<em>49</em>&nbsp;(1), 91-109.
-
-[&nbsp;<a href="https://doi.org/10.1080/0032472031000148266" target="_blank">DOI</a>&nbsp;]
-
-</p>
-
-</div>
-
-
-
-
-<div class="sam-block">
-
-<h1 id="working-papers">Working Papers 
-<select name="select-wp" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#working-papers">Year</option>
-  <option value="#wp-2021">2021</option>
-  <option value="#wp-2020">2020</option>
-  <option value="#wp-2019">2019</option>
-  <option value="#wp-2018">2018</option>
-  <option value="#wp-2017">2017</option>
-  <option value="#wp-2016">2016</option>
-  <option value="#wp-2015">2015</option>
-  <option value="#wp-2014">2014</option>
-  <option value="#wp-2013">2013</option>
-  <option value="#wp-2012">2012</option>
-  <option value="#wp-2011">2011</option>
-  <option value="#wp-2010">2010</option>
-  <option value="#wp-2009">2009</option>
-  <option value="#wp-2008">2008</option>
-  <option value="#wp-2007">2007</option>
-</select>
-&nbsp;
-<select name="jump-to-from-working-paper" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#working-papers">Jump To</option>  
-  <option value="#published">Published</option>
-  <option value="#phd">PhD</option>
-  <option value="/site/projects/software.shtml">Software</option>
-  <option value="#beginning">Top &#8679;</option>  
-</select>
-</h1>
-
-
-<h2 class="bib-year" id="wp-2021">2021  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="Li2021arXivNestedVA"></a>
-
-Li,&nbsp;Z.&nbsp;R., Z.&nbsp;Wu, I.&nbsp;Chen, and <span class="author">S.J.&nbsp;CLARK</span> (2021).
-
-<b>Bayesian Nested Latent Class Models for Cause-of-Death Assignment using Verbal Autopsies Across Multiple Domains</b>.
-
-<em>arXiv Preprint</em>&nbsp;<em>arXiv:2112.12186</em>.
-
-[&nbsp;<a href="https://arxiv.org/abs/2112.12186" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="Clark2021arXivHDSS"></a>
-
-<span class="author">CLARK,&nbsp;S.J.</span> (2021).
-
-<b>Health and demographic surveillance systems and the 2030 agenda: Sustainable development goals</b>.
-
-<em>arXiv Preprint</em>&nbsp;<em>arXiv:2103.03910</em>.
-
-[&nbsp;<a href="https://arxiv.org/abs/2103.03910" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="Li2021arXivopenVA"></a>
-
-Li,&nbsp;Z.R., J.&nbsp;Thomas, E.&nbsp;Choi, T.H.&nbsp;McCormick, and <span class="author">S.J.&nbsp;CLARK</span> (2021).
-
-<b>The openva toolkit for verbal autopsies</b>.
-
-<em>arXiv Preprint</em>&nbsp;<em>arXiv:2109.08244</em>.
-
-[&nbsp;<a href="https://arxiv.org/abs/2109.08244" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="wp-2020">2020  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="kline2020estimating"></a>
-
-Kline, D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, and <span class="author">S.J.&nbsp;CLARK</span> (2020).
-
-<b>Estimating Seroprevalence of SARS-CoV-2 Coronavirus in Ohio: A Bayesian Multilevel Regression and Poststratification Approach with Multiple Imperfect Diagnostic Tests</b>.
-
-<em>arXiv Preprint</em>&nbsp;<em>arXiv:2011.09033v2</em>.
-
-[&nbsp;<a href="https://arxiv.org/abs/2011.09033v2" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="li2020space"></a>
-
-Li,&nbsp;Z.R., B.D.&nbsp;Martin, T.Q.&nbsp;Dong, G.A.&nbsp;Fuglstad, J.&nbsp;Paige, A.&nbsp;Riebler, <span class="author">S.J.&nbsp;CLARK</span>, and J.&nbsp;Wakefield (2020).
-
-<b>Space-Time Smoothing of Demographic and Health Indicators using the R Package SUMMER</b>.
-
-<em>arXiv Preprint</em>&nbsp;(arXiv:2007.05117).
-
-[&nbsp;<a href="https://arxiv.org/abs/2007.05117" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="wp-2019">2019  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="clarkSCIArchive2020"></a>
-
-<span class="author">CLARK,&nbsp;S.J.</span>, M.&nbsp;Bratschi, P.&nbsp;Setel, C.&nbsp;Abouzahr, D.&nbsp;d.&nbsp;Savigny, Z.R.&nbsp;Li, T.H.&nbsp;McCormick, P.&nbsp;Byass, and D.&nbsp;Chandramohan (2019).
-
-<b>Verbal Autopsy in Civil Registration and Vital Statistics: The Symptom-Cause Information Archive</b>.
-
-<em>arXiv Preprint</em>&nbsp;<em>arXiv:1910.00405v2</em>.
-
-[&nbsp;<a href="https://arxiv.org/abs/1910.00405v2" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="wp-2018">2018  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="li2018bayesianStripped"></a>
-
-Li,&nbsp;Z.R., T.H.&nbsp;McCormick, and <span class="author">S.J.&nbsp;CLARK</span> (2019).
-
-<b>Bayesian Joint Spike-and-Slab Graphical Lasso</b>.
-
-<em>arXiv Preprint</em>&nbsp;(arXiv:1805.07051).
-
-[&nbsp;<a href="https://arxiv.org/abs/1805.07051" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="clarkComparingAlgorithms2018"></a>
-
-<span class="author">CLARK,&nbsp;S.J.</span> (2018).
-
-<b>A Guide to Comparing the Performance of VA Algorithms</b>.
-
-<em>arXiv Preprint</em>&nbsp;(arXiv:1802.07807).
-
-[&nbsp;<a href="https://arxiv.org/abs/1802.07807" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="clarkQuantifyingSCI2018"></a>
-
-<span class="author">CLARK,&nbsp;S.J.</span>, Z.R.&nbsp;Li, and T.H.&nbsp;McCormick (2018).
-
-<b>Quantifying the Contributions of Training Data and Algorithm Logic to the Performance of Automated Cause-Assignment Algorithms for Verbal Autopsy</b>.
-
-<em>arXiv Preprint</em>&nbsp;(arXiv:1803.07141v2).
-
-[&nbsp;<a href="https://arxiv.org/abs/1803.07141" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="kunihamaFactorVA2018"></a>
-
-Kunihama, T., Z.R.&nbsp;Li, <span class="author">S.J.&nbsp;CLARK</span>, and T.H.&nbsp;McCormick (2018).
-
-<b>Bayesian factor models for probabilistic cause of death assessment with verbal autopsies</b>.
-
-<em>arXiv Preprint</em>&nbsp;(arXiv:1803.01327).
-
-[&nbsp;<a href="https://arxiv.org/abs/1803.01327" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="liLatentGaussianVaArXiv2018"></a>
-
-Li,&nbsp;Z.R., T.H.&nbsp;McCormick, T.&nbsp;Kunihama, and <span class="author">S.J.&nbsp;CLARK</span> (2018).
-
-<b>Using Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in Verbal Autopsies</b>.
-
-<em>arXiv Preprint</em>&nbsp;(arXiv:1711.00877).
-
-[&nbsp;<a href="https://arxiv.org/abs/1711.00877" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="wakefieldArXiv2018"></a>
-
-Wakefield, J., G.A.&nbsp;Fuglstad, A.&nbsp;Riebler, J.&nbsp;Godwin, K.&nbsp;Wilson, and <span class="author">S.J.&nbsp;CLARK</span> (2018).
-
-<b>Estimating Under-Five Mortality in Space and Time in a Developing World Context</b>.
-
-<em>arXiv Preprint</em>&nbsp;(arXiv:1711.00800).
-
-[&nbsp;<a href="https://arxiv.org/abs/1711.00800" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="wp-2017">2017  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="li2017mixStripped"></a>
-
-Li,&nbsp;Z.R., T.H.&nbsp;McCormick, T.&nbsp;Kunihama, and <span class="author">S.J.&nbsp;CLARK</span> (2019).
-
-<b>Using Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in Verbal Autopsies</b>.
-
-<em>arXiv Preprint</em>&nbsp;(arXiv:1711.00877).
-
-[&nbsp;<a href="https://arxiv.org/abs/1711.00877" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="wp-2016">2016  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="clark5q0MLT2016"></a>
-
-<span class="author">CLARK,&nbsp;S.J.</span> (2016).
-
-<b>A General Age-Specific Mortality Model with An Example Indexed by Child or Child/Adult Mortality</b>.
-
-<em>arXiv Preprint</em>&nbsp;(arXiv:1612.01408v1).
-
-[&nbsp;<a href="https://arxiv.org/abs/1612.01408" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="sharrowHivPppWp2016"></a>
-
-Sharrow,&nbsp;D.J., J.&nbsp;Godwin, Y.&nbsp;He, <span class="author">S.J.&nbsp;CLARK</span>, and A.E.&nbsp;Raftery (2016).
-
-<b>Probabilistic population projections for countries with generalized hiv/aids epidemics</b>.
-
-<em>arXiv Preprint</em>&nbsp;(arXiv:1609.04383).
-
-[&nbsp;<a href="https://arxiv.org/abs/1609.04383" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="wp-2015">2015  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="clarkSVD2015"></a>
-
-<span class="author">CLARK,&nbsp;S.J.</span> (2015).
-
-<b>A Singular Value Decomposition-based Factorization and Parsimonious Component Model of Demographic Quantities Correlated by Age: Predicting Complete Demographic Age Schedules with Few Parameters</b>.
-
-<em>arXiv Preprint</em>&nbsp;(arXiv:1504.02057v1).
-
-[&nbsp;<a href="https://arxiv.org/abs/1504.02057" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="mccormick2014probabilistic"></a>
-
-McCormick,&nbsp;T.H., Z.R.&nbsp;Li, C.&nbsp;Calvert, A.C.&nbsp;Crampin, K.&nbsp;Kahn, and <span class="author">S.J.&nbsp;CLARK</span> (2015).
-
-<b>Probabilistic cause-of-death assignment using verbal autopsies</b>.
-
-<em>arXiv Preprint</em>&nbsp;(arXiv:1411.3042).
-
-[&nbsp;<a href="https://arxiv.org/abs/1411.3042" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="wp-2014">2014  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
-
-<p class="bibliography"><a id="clark2014SVD"></a>
-
-<span class="author">CLARK,&nbsp;S.J.</span> (2014).
-
-<b>A singular value decomposition-based factorization and parsimonious component model of demographic quantities correlated by age: Predicting complete demographic age schedules with few parameters</b>.
-
-<em>Center for Statistics and the Social Sciences (CSSS) Working Paper Series</em>&nbsp;(143).
-
-[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2014/wp143.pdf" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="liEtAl2014"></a>
-
-Li, Z., T.&nbsp;McCormick, and <span class="author">S.J.&nbsp;CLARK</span> (2014).
-
-<b>Interva4: An r package to analyze verbal autopsy data</b>.
-
-<em>Center for Statistics and the Social Sciences (CSSS) Working Paper Series</em>&nbsp;(146).
-
-[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2014/wp146.pdf" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="mccormickEtAl2014"></a>
-
-McCormick, T., Z.&nbsp;Li, C.&nbsp;Calvert, A.&nbsp;Crampin, K.&nbsp;Kahn, and <span class="author">S.J.&nbsp;CLARK</span> (2014).
-
-<b>Probabilistic cause-of-death assignment using verbal autopsies</b>.
-
-<em>Center for Statistics and the Social Sciences (CSSS) Working Paper Series</em>&nbsp;(147).
-
-[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2014/wp147.pdf" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<p class="bibliography"><a id="mercerEtAl2014"></a>
-
-Mercer, L., J.&nbsp;Wakefield, A.&nbsp;Pantazis, A.&nbsp;Lutambi, H.&nbsp;Masanja, and <span class="author">S.J.&nbsp;CLARK</span> (2014).
- 
-<b>Small area estimation of child mortality in the absence of vital registration</b>.
-
-<em>Center for Statistics and the Social Sciences (CSSS) Working Paper Series</em>&nbsp;(148).
-
-[&nbsp;<a href="https://csss.uw.edu/files/working-papers/2014/wp148.pdf" target="_blank">PDF</a>&nbsp;]
-
-</p>
-
-
-
-
-<h2 class="bib-year" id="wp-2013">2013  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
 
 <p class="bibliography"><a id="clarkEtAl2013InSilicoWP"></a>
 
@@ -1762,8 +1443,6 @@ Mercer, L., J.&nbsp;Wakefield, A.&nbsp;Pantazis, A.&nbsp;Lutambi, H.&nbsp;Masanj
 [&nbsp;<a href="https://csss.uw.edu/files/working-papers/2013/wp133.pdf" target="_blank">PDF</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="wheldonEtAl2013BayRecon"></a>
@@ -1781,7 +1460,81 @@ Wheldon, M., A.&nbsp;Raftery, <span class="author">S.J.&nbsp;CLARK</span>, and P
 
 
 
-<h2 class="bib-year" id="wp-2012">2012  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
+<!-- 2012 -->
+
+<h2 class="bib-year" id="year-2012">2012  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
+
+<p class="bibliography"><a id="alkemaEtAl2012"></a>
+
+Alkema, L., A.E.&nbsp;Raftery, P.&nbsp;Gerland, <span class="author">S.J.&nbsp;CLARK</span>, and F.&nbsp;Pelletier (2012).
+ 
+<b>Estimating Trends in the Total Fertility Rate with Uncertainty Using Imperfect Data: Examples from West Africa</b>.
+
+<em>Demographic Research</em>&nbsp;<em>26</em>&nbsp;(15), 331-362.
+
+[&nbsp;<a href="https://dx.doi.org/10.4054/DemRes.2012.26.15" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="byassEtAl2012"></a>
+
+Byass, P., D.&nbsp;Chandramohan, <span class="author">S.J.&nbsp;CLARK</span>, L.&nbsp;D'Ambruoso, E.&nbsp;Fottrell, W.&nbsp;J. Graham, A.J.&nbsp;Herbst, A.&nbsp;Hodgson, S.&nbsp;Hounton, K.&nbsp;Kahn, A.&nbsp;Krishnan, J.&nbsp;Leita, F.&nbsp;Odhiambo, O.A.&nbsp;Sankoh, S.M.&nbsp;Tollman. (2012).
+ 
+<b>Strengthening Standardised Interpretation of Verbal Autopsy Data: the New InterVA-4 Tool</b>.
+
+<em>Global Health Action</em>&nbsp;<em>5</em>&nbsp;(1), 19281.
+
+[&nbsp;<a href="http://dx.doi.org/10.3402/gha.v5i0.19281" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="clarkEtAl2012"></a>
+
+<span class="author">CLARK,&nbsp;S.J.</span>, J.&nbsp;Thomas, and L.&nbsp;Bao (2012).
+ 
+<b>Estimates of Age-Specific Reductions in HIV Prevalence in Uganda: Bayesian Melding Estimation and Probabilistic Population Forecast with an HIV-enabled Cohort Component Projection Model</b>.
+
+<em>Demographic Research</em>&nbsp;<em>27</em>&nbsp;(26), 743-774.
+
+[&nbsp;<a href="https://dx.doi.org/10.4054/DemRes.2012.27.26" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="kahnEtAl2012"></a>
+
+Kahn, K., M.A.&nbsp;Collinson, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, O.&nbsp;Mokoena, R.&nbsp;Twine, P.&nbsp;Mee, S.&nbsp;A. Afolabi, B.&nbsp;D. Clark, C.W.&nbsp;Kabudula, A.&nbsp;Khosa, S.&nbsp;Khoza, M.&nbsp;Shabangu, B.&nbsp;Silaule, J.&nbsp;B. Tibane, R.&nbsp;G. Wagner, M.L.&nbsp;Garenne, <span class="author">S.J.&nbsp;CLARK</span>, and S.M.&nbsp;Tollman (2012).
+ 
+<b>Profile: Agincourt Health and Socio-Demographic Surveillance System</b>.
+
+<em>International Journal of Epidemiology</em>&nbsp;<em>41</em>&nbsp;(4), 988-1001.
+
+[&nbsp;<a href="https://dx.doi.org/10.1093/ije/dys115" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="madhavanEtAl2012"></a>
+
+Madhavan, S., E.&nbsp;Shatz, <span class="author">S.J.&nbsp;CLARK</span>, and M.A.&nbsp;Collinson (2012).
+ 
+<b>Child Mobility, Maternal Status and Household Composition in Rural South Africa</b>.
+
+<em>Demography</em>&nbsp;<em>49</em>&nbsp;(2), 699-718.
+
+[&nbsp;<a href="https://dx.doi.org/10.1007/s13524-011-0087-3" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<h3 class="bib">Working Papers</h3>
+
 
 <p class="bibliography"><a id="clarkHoule2012_1"></a>
 
@@ -1794,8 +1547,6 @@ Wheldon, M., A.&nbsp;Raftery, <span class="author">S.J.&nbsp;CLARK</span>, and P
 [&nbsp;<a href="https://csss.uw.edu/files/working-papers/2012/wp119.pdf" target="_blank">PDF</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="clarkHoule2012"></a>
@@ -1811,8 +1562,6 @@ Wheldon, M., A.&nbsp;Raftery, <span class="author">S.J.&nbsp;CLARK</span>, and P
 </p>
 
 
-
-
 <p class="bibliography"><a id="clarkEtAl202"></a>
 
 <span class="author">CLARK,&nbsp;S.J.</span>, J.&nbsp;Wakefield, T.&nbsp;McCormick, and M.&nbsp;Ross (2012).
@@ -1826,8 +1575,6 @@ Wheldon, M., A.&nbsp;Raftery, <span class="author">S.J.&nbsp;CLARK</span>, and P
 </p>
 
 
-
-
 <p class="bibliography"><a id="mcparlandEtAl2012"></a>
 
 McParland, D., I.&nbsp;Gormley, <span class="author">S.J.&nbsp;CLARK</span>, T.&nbsp;McCormick, C.&nbsp;Kabudula, and M.&nbsp;Collinson (2012).
@@ -1839,8 +1586,6 @@ McParland, D., I.&nbsp;Gormley, <span class="author">S.J.&nbsp;CLARK</span>, T.&
 [&nbsp;<a href="https://csss.uw.edu/files/working-papers/2012/wp121.pdf" target="_blank">PDF</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="wheldonEtAl2012"></a>
@@ -1858,7 +1603,42 @@ Wheldon,&nbsp;M.C., A.E.&nbsp;Raftery, and <span class="author">S.J.&nbsp;CLARK<
 
 
 
-<h2 class="bib-year" id="wp-2011">2011  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
+<!-- 2011 -->
+
+<h2 class="bib-year" id="year-2011">2011  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
+
+<p class="bibliography"><a id="alkemaEtAl2011"></a>
+
+Alkema, L., A.E.&nbsp;Raftery, P.&nbsp;Gerland, <span class="author">S.J.&nbsp;CLARK</span>, F.&nbsp;Pelletier, and T.&nbsp;Buettner (2011).
+ 
+<b>Probabilistic Projections of the Total Fertility Rate for All Countries</b>.
+
+<em>Demography</em>&nbsp;<em>48</em>&nbsp;(3), 815-839.
+
+[&nbsp;<a href="https://doi.org/10.1007/s13524-011-0040-5" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="thomasClark2011"></a>
+
+Thomas, J. and <span class="author">S.J.&nbsp;CLARK</span> (2011).
+ 
+<b>More on the Cohort-Component Model of Population Projection in the Context of HIV/AIDS: A Leslie Matrix Representation and New Estimation Methods</b>.
+
+<em>Demographic Research</em>&nbsp;<em>25</em>&nbsp;(2), 39-102.
+
+[&nbsp;<a href="https://dx.doi.org/10.4054/DemRes.2011.25.2" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<h3 class="bib">Working Papers</h3>
+
 
 <p class="bibliography"><a id="clarkSharrow2011"></a>
 
@@ -1871,8 +1651,6 @@ Wheldon,&nbsp;M.C., A.E.&nbsp;Raftery, and <span class="author">S.J.&nbsp;CLARK<
 [&nbsp;<a href="https://csss.uw.edu/files/working-papers/2011/wp107.pdf" target="_blank">PDF</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="wheldonEtAl2011"></a>
@@ -1890,7 +1668,29 @@ Wheldon,&nbsp;M.C., A.&nbsp;Raftery, <span class="author">S.J.&nbsp;CLARK</span>
 
 
 
-<h2 class="bib-year" id="wp-2010">2010  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
+<!-- 2010 -->
+
+<h2 class="bib-year" id="year-2010">2010  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
+
+<p class="bibliography"><a id="williamsEtAl2010"></a>
+
+Williams,&nbsp;J.R., E.J.&nbsp;Schatz, B.D.&nbsp;Clark, M.A.&nbsp;Collinson, <span class="author">S.J.&nbsp;CLARK</span>, J.&nbsp;Menken, K.&nbsp;Kahn, and S.M.&nbsp;Tollman (2010).
+ 
+<b>Improving Public Health Training and Research Capacity in Africa: A Replicable Model for Linking Training to Health and Socio-Demographic Surveillance Data</b>.
+
+<em>Global Health Action</em>&nbsp;<em>3</em>&nbsp;(5287).
+
+[&nbsp;<a href="http://dx.doi.org/10.3402/gha.v3i0.5287" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<h3 class="bib">Working Papers</h3>
+
 
 <p class="bibliography"><a id="alkemaEtAl2010"></a>
 
@@ -1905,8 +1705,6 @@ Alkema, L., A.E.&nbsp;Raftery, P.&nbsp;Gerland, <span class="author">S.J.&nbsp;C
 </p>
 
 
-
-
 <p class="bibliography"><a id="clarkEtAl2010"></a>
 
 <span class="author">CLARK,&nbsp;S.J.</span>, J.&nbsp;Thomas, and L.&nbsp;Bao (2010).
@@ -1918,8 +1716,6 @@ Alkema, L., A.E.&nbsp;Raftery, P.&nbsp;Gerland, <span class="author">S.J.&nbsp;C
 [&nbsp;<a href="https://csss.uw.edu/files/working-papers/2010/wp106.pdf" target="_blank">PDF</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="sharrowEtAl2010"></a>
@@ -1937,7 +1733,13 @@ Sharrow, D., <span class="author">S.J.&nbsp;CLARK</span>, M.A.&nbsp;Collinson, K
 
 
 
-<h2 class="bib-year" id="wp-2009">2009  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
+<!-- 2009 -->
+
+<h2 class="bib-year" id="year-2009">2009  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Working Papers</h3>
+
 
 <p class="bibliography"><a id="collinsonEtAl2009DynamicsPovWP"></a>
 
@@ -1954,7 +1756,42 @@ Collinson, M.&nbsp;A., <span class="author">S.J.&nbsp;CLARK</span>, A.&nbsp;A. G
 
 
 
-<h2 class="bib-year" id="wp-2008">2008  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
+<!-- 2008 -->
+
+<h2 class="bib-year" id="year-2008">2008  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
+
+<p class="bibliography"><a id="casselsEtAl2008"></a>
+
+Cassels, S., <span class="author">S.J.&nbsp;CLARK</span>, and M.&nbsp;Morris (2008).
+ 
+<b>Mathematical Models for HIV Transmission Dynamics: Tools for Social and Behavioral Science Research</b>.
+
+<em>Journal of Acquired Immune Deficiency Syndromes (JAIDS)</em>&nbsp;<em>47</em>&nbsp;(Supplement 1), S34-S39.
+
+[&nbsp;<a href="https://dx.doi.org/10.1097/QAI.0b013e3181605da3" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="tollmanEtAl2008"></a>
+
+Tollman,&nbsp;S.M., K.&nbsp;Kahn, B.&nbsp;K. Sartorius, M.A.&nbsp;Collinson, <span class="author">S.J.&nbsp;CLARK</span>, and M.L.&nbsp;Garenne (2008).
+ 
+<b>Implications of Mortality Transition for Primary Health Care in Rural South Africa: A Population-based Surveillance Study</b>.
+
+<em>Lancet</em>&nbsp;<em>372</em>, 893-901.
+
+[&nbsp;<a href="https://dx.doi.org/10.1016/S0140-6736(08)61399-9" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<h3 class="bib">Working Papers</h3>
+
 
 <p class="bibliography"><a id="alkemaEtAl2008"></a>
 
@@ -1969,8 +1806,6 @@ Alkema, L., A.E.&nbsp;Raftery, P.&nbsp;Gerland, <span class="author">S.J.&nbsp;C
 </p>
 
 
-
-
 <p class="bibliography"><a id="clarkEtAl2008DemConsWP"></a>
 
 <span class="author">CLARK,&nbsp;S.J.</span>, J.&nbsp;Eaton, M.&nbsp;M. Elmquist, N.&nbsp;R. Ottenweiller, and J.&nbsp;K. Snavely (2008).
@@ -1982,8 +1817,6 @@ Alkema, L., A.E.&nbsp;Raftery, P.&nbsp;Gerland, <span class="author">S.J.&nbsp;C
 [&nbsp;<a href="https://csss.uw.edu/files/working-papers/2008/wp85.pdf" target="_blank">PDF</a>&nbsp;]
 
 </p>
-
-
 
 
 <p class="bibliography"><a id="thomasClark2008"></a>
@@ -2001,7 +1834,68 @@ Thomas, J. and <span class="author">S.J.&nbsp;CLARK</span> (2008).
 
 
 
-<h2 class="bib-year" id="wp-2007">2007  <a href="#working-papers" style="font-weight:normal">&#8679;</a></h2>
+<!-- 2007 -->
+
+<h2 class="bib-year" id="year-2007">2007  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
+
+<p class="bibliography"><a id="alkema2007"></a>
+
+Alkema, L., A.E.&nbsp;Raftery, and <span class="author">S.J.&nbsp;CLARK</span> (2007).
+ 
+<b>Probabilistic Projections of HIV Prevalence Using Bayesian Melding</b>.
+
+<em>The Annals of Applied Statistics</em>&nbsp;<em>1</em>&nbsp;(1), 229-248.
+
+[&nbsp;<a href="https://dx.doi.org/10.1214/07-AOAS111" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="clark2007"></a>
+
+<span class="author">CLARK,&nbsp;S.J.</span> (2007).
+ 
+<b>An Introduction to the General Temporal Data Model and the Structured Population Event History Register</b>.
+
+<em>Scandanavian Journal of Public Health</em>&nbsp;<em>35</em>&nbsp;(Suppl 69), 21-25.
+
+[&nbsp;<a href="https://dx.doi.org/10.1080/14034950701355452" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="clarkEtAl2007"></a>
+
+<span class="author">CLARK,&nbsp;S.J.</span>, M.&nbsp;Collinson, K.&nbsp;Kahn, S.&nbsp;Tollman, and K.&nbsp;Drullinger (2007).
+ 
+<b>Returning Home to Die: Circular Labour Migration and Mortality in South Africa</b>.
+
+<em>Scandanavian Journal of Public Health</em>&nbsp;<em>35</em>&nbsp;(Suppl 69), 35-44.
+
+[&nbsp;<a href="https://doi.org/10.1080/14034950701355619" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="kahnEtAl2007"></a>
+
+Kahn, K., S.&nbsp;Tollman, M.A.&nbsp;Collinson, <span class="author">S.J.&nbsp;CLARK</span>, R.&nbsp;Twine, B.&nbsp;D. Clark, M.&nbsp;Shabangu, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, O.&nbsp;Mokoena, and M.&nbsp;Garenne (2007).
+ 
+<b>Research into Health, Population, and Social Transitions in Rural South Africa: Data and Methods of the Agincourt Health and Demographic Surveillance System</b>.
+
+<em>Scandinavian Journal of Public Health</em>&nbsp;<em>35</em>&nbsp;(Suppl 69), 8-20.
+
+[&nbsp;<a href="https://doi.org/10.1080/14034950701505031" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<h3 class="bib">Working Papers</h3>
+
 
 <p class="bibliography"><a id="alkemaEtAl2007"></a>
 
@@ -2015,22 +1909,98 @@ Alkema, L., A.E.&nbsp;Raftery, and <span class="author">S.J.&nbsp;CLARK</span> (
 
 </p>
 
-</div>
+
+
+
+<!-- 2006 -->
+
+<h2 class="bib-year" id="year-2006">2006  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
+
+<p class="bibliography"><a id="adjuikEtAl2006"></a>
+
+Adjuik, M., T.&nbsp;Smith, <span class="author">S.&nbsp;CLARK</span>, J.&nbsp;Todd, A.&nbsp;Garrib, Y.&nbsp;Kinfu, K.&nbsp;Kahn, M.&nbsp;Mola, A.&nbsp;Ashraf, H.&nbsp;Masanja, U.&nbsp;Adazu, J.&nbsp;Sacarlal, N.&nbsp;Alam, A.&nbsp;Marra, A.&nbsp;Gbangou, E.&nbsp;Mwageni, and F.&nbsp;Binka (2006).
+ 
+<b>Cause-Specific Mortality Rates in Sub-Saharan Africa and Bangladesh</b>.
+
+<em>Bulletin of the World Health Organization</em>&nbsp;<em>84</em>&nbsp;(3), 181-188.
+
+[&nbsp;<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2627285/" target="_blank">Link</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="clark2006"></a>
+
+<span class="author">CLARK,&nbsp;S.J.</span> (2006).
+
+<b>A General Temporal Data Model and the Structured Population Event History Register</b>.
+
+<em>Demographic Research</em>&nbsp;<em>15</em>&nbsp;(7), 181-252.
+
+[&nbsp;<a href="https://dx.doi.org/10.4054/DemRes.2006.15.7" target="_blank">DOI</a>&nbsp;]
+
+</p>
 
 
 
 
-<div class="sam-block">
+<!-- 2005 -->
 
-<h1 id="phd">Phd
-<select name="jump-to-from-phd" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#PhD">Jump To</option>
-  <option value="#published">Published</option>
-  <option value="#working-papers">Working Papers</option>
-  <option value="/site/projects/software.shtml">Software</option>
-  <option value="#beginning">Top &#8679;</option>  
-</select>
-</h1>
+<h2 class="bib-year" id="year-2005">2005  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
+
+<p class="bibliography"><a id="benzlerClark2005"></a>
+
+Benzler, J. and <span class="author">S.J.&nbsp;CLARK</span> (2005).
+ 
+<b>Toward a Unified Timestamp with Explicit Precision</b>.
+
+<em>Demographic Research</em>&nbsp;<em>12</em>&nbsp;(6), 107-140.
+
+[&nbsp;<a href="https://dx.doi.org/10.4054/DemRes.2005.12.6" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+
+
+<!-- 2004 -->
+
+<h2 class="bib-year" id="year-2004">2004  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
+
+<p class="bibliography"><a id="hargreavesEtAl2004"></a>
+
+Hargreaves, J.&nbsp;R., M.A.&nbsp;Collinson, K.&nbsp;Kahn, <span class="author">S.J.&nbsp;CLARK</span>, and S.M.&nbsp;Tollman (2004).
+ 
+<b>Childhood Mortality among Former Mozambican Refugees and Their Hosts in Rural South Africa</b>.
+
+<em>International Journal of Epidemiology</em>&nbsp;<em>33</em>, 1271-1278.
+
+[&nbsp;<a href="https://doi.org/10.1093/ije/dyh257" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+
+
+<!-- 2001 -->
+
+<h2 class="bib-year" id="year-2001">2001  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib" id="phd">PhD</h3>
+
 
 <p class="bibliography">
 
@@ -2040,14 +2010,38 @@ Alkema, L., A.E.&nbsp;Raftery, and <span class="author">S.J.&nbsp;CLARK</span> (
 
 Ph.D. Dissertation. <em>University of Pennsylvania</em>.
 
-[&nbsp;<a href="/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf" target="_blank">PDF</a>&nbsp;]
+[&nbsp;<a href="/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf" target="_blank">PDF</a>&nbsp;] 
+[&nbsp;<a href="/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa-color-figures.pdf" target="_blank">PDF with Color Figures</a>&nbsp;]
 
 </p>
 
+
+
+
+<!-- 1995 -->
+
+<h2 class="bib-year" id="year-1995">1995  <a href="#beginning" style="font-weight:normal">&#8679;</a></h2> 
+
+
+<h3 class="bib">Articles Published</h3>
+
+
+<p class="bibliography"><a id="clark1995ten"></a>
+
+<span class="author">CLARK,&nbsp;S.J.</span>, E.&nbsp;Colson, J.&nbsp;Lee, and T.&nbsp;Scudder (1995).
+ 
+<b>Ten Thousand Tonga: A Longitudinal Anthropological Study from Southern Zambia: 1956-1991</b>.
+
+<em>Population Studies</em>&nbsp;<em>49</em>&nbsp;(1), 91-109.
+
+[&nbsp;<a href="https://doi.org/10.1080/0032472031000148266" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+
+
 </div> 
-
-
-
 
 </div>
 
