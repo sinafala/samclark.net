@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta name="author" content="Samuel J. Clark">
+  <meta name="description" content="Samuel J. Clark's CV.">
+  <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, CV, Curriculum Vitae">
+  <!--#include virtual="/site/includes/header.html" -->
+  <title>Samuel Clark - Links/Contacts</title>
+</head>
+
+<body>
+
+<div class="header">
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
+<div class="sam-title">
+  CV
+</div>
+</div>
+
+<div class="content">
+
+<div class="sam-links-list">
+<a href="/site/cv/Samuel-Clark_CV.pdf?ver-41" target="_blank">Full CV - PDF with Links</a>
+<div class="sam-note">Updated 2024-08-06</div>
+</div>
+
+<div class="sam-links-list">
+<a href="/site/cv/Samuel-Clark_CV-short.pdf?ver-41" target="_blank">Abridged CV - PDF with Links</a>
+<div class="sam-note">Updated 2024-08-06</div>
+</div>
+
+<div class="sam-image">
+<a href="/site/media/fullsize/sinafala.jpg" target="_blank">
+         <img class="mtb" title="Sinafala, Zambia" src="/site/media/thumbs/sinafala.jpg"></a>
+Sinafala Village, Zambia where I lived for some time while working on my <a href="/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa-color-figures.pdf" target="_blank">PhD</a>
+</div>
+
+</div>
+
+<div class="footer">
+<!--#include virtual="/site/includes/bottom.shtml" -->
+</div>
+
+</body>
+
+</html>

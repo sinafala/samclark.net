@@ -33,10 +33,25 @@
   Software has been developed to implement InSilicoVA including R packages and universal executables delivered in a Docker container.  This is <a href="http://openva.net" target="_blank">openVA</a> and has been developed by a team including <a href="https://zehangli.com" target="_blank">Richard Li</a>, <a href="https://ipr.osu.edu/people/thomas.3912" target="_blank">Jason Thomas</a>, <a href="https://www.eungangchoi.com" target="_blank">Peter Choi</a>, <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, and myself, with increasing help from <a href="https://ipr.osu.edu/people/chu.282" target="_blank">Yue Chu</a>.
 </p>
 
+<p>
+  For more information or help using the openVA tools, contact us using these email addresses:
+  <ul>
+    <li><a href="mailto:info@openva.net">info@openva.net</a></li>
+    <li><a href="mailto:help@openva.net">help@openva.net</a></li>
+  </ul>
+</p>
+
+<h2>pyOpenVA</h2>
+
+<p>
+  To make the VA cause-coding algorithms fast and easily available using a familiar interface, we have created <em><a href="https://github.com/verbal-autopsy-software/pyopenva_GUI/" target="_blank">pyOpenVA</a></em>. This is standard (i.e. non-research) software that installs using a traditional installer, does not require supporting software (e.g. R, Java, etc.) to be installed on your computer, and operates through a graphical user interface. pyOpenVA is written in Python and C++ so it is fast.
+</p>
+
 <h2>Key VA Software</h2>
 
 <ul>
   <li><a href="http://openva.net" target="_blank">Main openVA site</a></li>
+  <li><a href="https://github.com/verbal-autopsy-software/pyopenva_GUI/releases" target="_blank">pyOpenVA</a> - 'Assets' contains installers for Windows and MacOS</li>  
   <li><a href="https://cran.r-project.org/package=openVA" target="_blank">openVA R Package</a></li>
   <li><a href="https://github.com/verbal-autopsy-software/openVA_App/releases" target="_blank">openVA App</a></li>
   <li><a href="https://youtu.be/C2EPOpTzJTk" target="_blank">Video for installation of openVA App</a></li>

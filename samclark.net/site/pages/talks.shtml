@@ -26,6 +26,8 @@
 <h1>Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Date: Talk</option>
+  <option value="#2024-08-09">2024-08-09: USP Statistics</option>
+  <option value="#2024-06-20">2024-06-20: BIOMATH 2024</option>
   <option value="#2024-02-05">2024-02-05: OPR Seminar</option>
   <option value="#2023-10-04">2023-10-04: MITS Alliance Annual Meeting</option>
   <option value="#2023-09-12">2023-09-12: Notestein Seminar, OPR</option>
@@ -43,6 +45,26 @@
   <option value="#earlier">Earlier</option>
 </select>
 </h1>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2024-08-09">2024-08-09 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+<p>
+  <a href="https://www.ime.usp.br/en/home/" target="_blank">University of S&atilde;o Paulo Institute of Mathematics and Statistics</a>, S&atilde;o Paulo, Brazil. <a href="/site/talks/Sam-Clark_USP-IME-Sao-Paulo-Brazil.pdf" target="_blank"><b>InSilicoVA - An Algorithm for Automated COD Classification using Verbal Autopsy Data</b></a>.
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2024-06-20">2024-06-20 <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+<p>
+  <a href="http://biomath.bg/2024/keynote.php" target="_blank">BIOMATH 2024</a>, Scottburgh, South Africa. <a href="/site/talks/Sam-Clark_BIOMATH-2024-Scottburgh-South-Africa.pdf" target="_blank"><b>Data Science and Math in Global Health: Two Examples</b></a>.
+</p>
 
 
 
@@ -199,7 +221,7 @@
 <h1 class="sam-date" id="earlier">Earlier <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 <p>
-  See <a href="/site/cv/Samuel-Clark_CV.pdf?ver-37" target="_blank">CV</a> for a selected list of earlier talks. 
+  See <a href="/site/cv/Samuel-Clark_CV.pdf?ver-41" target="_blank">CV</a> for a selected list of earlier talks. 
 </p>
 
 </div>

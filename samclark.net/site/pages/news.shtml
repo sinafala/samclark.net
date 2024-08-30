@@ -26,6 +26,10 @@
 <h1>Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Date: Event</option>
+  <option value="#2024-08-12">2024-08-12: Back from Brazil</option>
+  <option value="#2024-08-01">2024-08-01: ALPHA COD Paper out in LGH</option>
+  <option value="#2024-07-04">2024-07-04: Tanzania MOH endorses InSilicoVA</option>
+  <option value="#2024-06-04">2024-06-04: pyOpenVA</option>
   <option value="#2024-03-29">2024-03-29: NAS/NIA Scoping Report</option>
   <option value="#2024-03-28">2024-03-28: Paper Accepted</option>
   <option value="#2024-03-26">2024-03-26: Advice for Writing, Data, and Code</option>
@@ -66,6 +70,108 @@
   <option value="#2021-02-03">2021-02-03: Start News</option>
 </select>
 </h1>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2024-08-12">2024-08-12  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>Back from Brazil</h2>
+
+<p>
+  Yesterday, I arrived back home to Ohio from Brazil where I was for a one-year sabbatical. It was a really fabulous year!
+</p>
+<!-- 
+<div class="sam-image">
+<a href="/site/clark/updates/media/fullsize/goodbye-brazil-00001.jpg" target="_blank">
+         <img class="mtb" title="Atlantic Rain Forest" src="/site/clark/updates/media/thumbs/goodbye-brazil-00001.jpg"></a>
+Goodbye Brazil! Araucarias, Jimny, and Oliver.
+</div>
+ -->
+<div class="sam-image">
+<a href="/site/clark/updates/media/fullsize/goodbye-brazil-00002.jpg" target="_blank">
+         <img class="mtb" title="Atlantic Rain Forest" src="/site/clark/updates/media/thumbs/goodbye-brazil-00002.jpg"></a>
+Goodbye Brazil! Sunset in Araucarias.
+</div>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2024-08-01">2024-08-01  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>Lancet Global Health paper out</h2>
+
+<p>
+  Our paper demonstrating InSilicoVA using ALPHA Network HDSS data came out last week in <em>Lancet Global Health</em>. See <a href="#2024-03-15">Huge Milestone!</a> below.
+</p>
+
+<p class="bibliography"><a id="ALPHA-VA"></a>
+
+Chu, Y., M. Marston, A. Dube, C. Festo, E. Geubbels, S. Gregson, K. Herbst, C. Kabudula, K. Kahn, T. Lutalo,  L. Moorhouse, R. Newton, C. Nyamukapa, R. Makanga, E. Slaymaker, M. Urassa, A. Ziraba, C. Calvert, <span class="author">S.J. Clark</span> (2024).
+
+<b>Temporal Changes in Cause of Death Among Adolescents and Adults in Six Countries in Eastern And Southern Africa: A Multi-Country Cohort Study using Verbal Autopsy Data.</b> 
+
+<em>Lancet Global Health</em>&nbsp;12:e1278–87.
+
+[&nbsp;<a href="https://doi.org/10.1016/S2214-109X(24)00171-2" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2024-07-04">2024-07-04  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>Tanzania Ministry of Health endorses InSilicoVA</h2>
+
+<p>
+  The Tanzanian Ministry of Health just released a report titled <a href="https://www.moh.go.tz/storage/app/uploads/public/668/bce/0af/668bce0af3e0b496951036.pdf" target="_blank">"Causes of Deaths from Community Settings in Tanzania 2018-2021"</a> (June 2024 - <a href="/site/misc/Tanzania-CRVS-Verbal-Autopsy-Report_June-2024.pdf" target="_blank">local link if TZA link is broken</a>). The report presents findings on their study to evaluate various ideas, methods, and technologies to improve cause of death from community settings (e.g. rural or non-urban enough to not be covered by systems in urban areas - most of Tanzania) in the context of civil registration and vital statistics. Part of that is an evaluation of approaches to classifying cause of death using data from verbal autopsy. The algorithmic approaches - including InSilicoVA - are compared to each other and physician coding. The following directly quoted paragraph (Section 6.2, p. 50) sums up their findings on 'diagnostic algorithms' for verbal autopsy.
+</p><p class="sam-quote">
+  The experience documented in this report covering the first 3,601 verbal autopsies conducted as part of routine CRVS and DHIS2 operations provides sound evidence that the WHO standard verbal autopsy methodologies work well in Tanzania and can be taken to the next level of integration into the national health information ecosystem. Moreover, it concludes that both the InSilicoVA and the InterVA5 automated computer coded analytic procedures emulate very well the performance of physician coded VA at population level. CCVA is both considerably more rapid and cost effective than PCVA. The best performing CCVA algorithm was InSilicoVA with a CSMF physician concordance of 83%. InSilicoVA also has an advantage over InterVA5 and Tariff2 in that it does not deliver undetermined results. Moreover, the InterVA5 will likely be discontinued for further development and upgrades in favor of InSilicoVA. <b>The implications of these results suggest that InSilicoVA should become the diagnostic method of choice for CRVS-VA in Tanzania</b> [emphasis added].
+</p><p>
+  Congratulations to the openVA Team, and thanks to our funders who have kept us going on this since roughly 2013 - The Bill and Melinda Gates Foundation for two rounds of support, NICHD of the NIH for a five-year R01, and the various partners of the Data for Health Initiative funded by Bloomberg Philanthropies, Vital Strategies and the CDC Foundation in particular.
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2024-06-04">2024-06-04  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>pyOpenVA</h2>
+
+<p>
+  The openVA Team recently completed work on <a href="https://github.com/verbal-autopsy-software/pyopenva_GUI" target="_blank">pyOpenVA</a> with <a href="https://ipr.osu.edu/people/thomas.3912" target="_blank">Jason Thomas</a> responsible for most of the coding. pyOpenVA is a re-implementation of openVA, InterVA5, and InSilicoVA to address the fact that many users were not able to easily use the R versions of the software - maintaining installations of R and Java was not practically feasible. Additionally, crossVA and InSilicoVA were painfully slow on many users computers. So, pyOpenVA
+  <ul>
+    <li>is <b>fast</b> - written in Python with computationally intensive functions in C++</li>
+    <li>installs using a traditional, familiar 'wizard'-style installer on both Windows and MacOS</li>
+    <li>interacts with the user using a familiar graphical user interface</li>
+    <li>has a variety of additional features to allow users to conduct a full cause-coding workflow: 
+      <ul>
+        <li>a comprehensive help system</li>
+        <li>example data and workflow</li>
+        <li>data edit capability</li>
+        <li>more and less fine-grained step-by-step work flows</li>
+        <li>ability to present results numerically or graphically</li>
+        <li>ability to save results in either tabular or graphical forms</li>
+      </ul>
+  </ul>
+</p>
+
+<p>
+  For more information or help using the openVA tools, contact us using these email addresses:
+  <ul>
+    <li><a href="mailto:info@openva.net">info@openva.net</a></li>
+    <li><a href="mailto:help@openva.net">help@openva.net</a></li>
+  </ul>
+</p>
 
 
 
@@ -263,11 +369,11 @@ Riding in the rain forest in the rain, Pontal do Sul
 <h1 class="sam-date" id="2024-03-15">2024-03-15  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
-<h2>Huge Milestone! Completed First VA Methods Development Project with a VA Study using InSilicoVA published in <em>The Lancet Global Health</em></h2>
+<h2>Huge Milestone! Completed First VA Methods Development Project with a VA Study using InSilicoVA published in the <em>Lancet Global Health</em></h2>
 <p>
   Around 2010, I started thinking about working on verbal autopsy methods. Over the next few years, <a href="https://iussp.org/en/basia-zaba-1949-2018" target="_blank">Basia Zaba</a> and I decided to coordinate work that she was leading at the <a href="https://alpha.lshtm.ac.uk" target="_blank">ALPHA Network</a> of health and demographic surveillance system (HDSS) sites on identifying AIDS as a cause of death with the work that <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, <a href="https://zehangli.com" target="_blank">Zehang (Richard) Li</a>, and I were beginning to do on verbal autopsy cause-coding methods. We wove things together for a grant application that Basia was working on for the Gates Foundation, and we were funded by the Gates Foundation for a couple years to get started. During that time we came up with the basic idea for InSilicoVA, and I led the team to apply for an NIH R01 grant. We were supported by NICHD for five years to complete work on InSilicoVA and support the ALPHA Network sites and the London-based ALPHA secretariat to collect, clean, and harmonize VA data from all the sites. Basia, Tyler, Richard, and I had the idea that we'd develop a new and improved automated cause-coding method for VA and use the ALPHA data for testing and validation. We would then apply the method to the ALPHA Network VAs to produce a comparative description of cause-specific mortality through time, with a focus on HIV/AIDS. <font color="DarkGreen">To make the method fully transparent and credible, we planned to 1) publish a technical paper in a good statistics journal, 2) create open source software to support that publication and make the method widely usable, and 3) conduct a detailed substantive investigation of the ALPHA Network's cause specific mortality using the new method and publish that in a good public/global health journal.</font> 
 </p><p>
-  We have just completed the last of those tasks with the acceptance of the ALPHA Network cause-specific mortality paper by <em>The Lancet Global Health</em> - effectively the best journal for material like this, summary below. <a href="https://www.research.ed.ac.uk/en/persons/clara-calvert" target="_blank">Clara Calvert</a>, <a href="https://www.lshtm.ac.uk/aboutus/people/marston.milly" target="_blank">Milly Marston</a>, <a href="https://ipr.osu.edu/people/chu.282" target="_blank">Yue Chu</a>, and myself with all of the ALPHA HDSS sites worked over many years to get this done! The methods paper was published in 2016 in the <em>Journal of the American Statistical Association</em>, one of the best statistics journals, see below. Finally, the software has turned into a major success and is the reference software supporting the WHO Standard VA used by many research and mortality surveillance groups worldwide. We published a paper describing the software and how to use it in <em>The R Journal</em>, below. In addition to the research software in R, we were supported by the NGO <a href="https://www.vitalstrategies.org" target="_blank">Vital Strategies</a> to create a production version of the software implemented in Python and C++ by <a href="https://ipr.osu.edu/people/thomas.3912" target="_blank">Jason Thomas</a>. That version is very fast, easy to install in the standard way with no additional dependencies required, and easy to use through a GUI (public release in the next few weeks after final validation testing).
+  We have just completed the last of those tasks with the acceptance of the ALPHA Network cause-specific mortality paper by the <em>Lancet Global Health</em> - effectively the best journal for material like this, summary below. <a href="https://www.research.ed.ac.uk/en/persons/clara-calvert" target="_blank">Clara Calvert</a>, <a href="https://www.lshtm.ac.uk/aboutus/people/marston.milly" target="_blank">Milly Marston</a>, <a href="https://ipr.osu.edu/people/chu.282" target="_blank">Yue Chu</a>, and myself with all of the ALPHA HDSS sites worked over many years to get this done! The methods paper was published in 2016 in the <em>Journal of the American Statistical Association</em>, one of the best statistics journals, see below. Finally, the software has turned into a major success and is the reference software supporting the WHO Standard VA used by many research and mortality surveillance groups worldwide. We published a paper describing the software and how to use it in <em>The R Journal</em>, below. In addition to the research software in R, we were supported by the NGO <a href="https://www.vitalstrategies.org" target="_blank">Vital Strategies</a> to create a production version of the software implemented in Python and C++ by <a href="https://ipr.osu.edu/people/thomas.3912" target="_blank">Jason Thomas</a>. That version is very fast, easy to install in the standard way with no additional dependencies required, and easy to use through a GUI (public release in the next few weeks after final validation testing).
 </p><p>
   Along the way, we quickly convinced ourselves that the verbal autopsy interview is potentially a major source of error, omission, and general data quality issues. With <a href="https://www.clarissasurekclark.name" target="_blank">Clarissa Surek-Clark</a>, <a href="https://www.american.edu/cas/faculty/angotti.cfm" target="_blank">Nicole Angotti</a>, and soon <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian Houle</a>, we have observed the interview in many settings and are beginning work to improve and standardize it.
 </p><p>
@@ -282,7 +388,7 @@ Riding in the rain forest in the rain, Pontal do Sul
 
   <li>We created and released open source, freely-available software for InSilicoVA and all of the other commonly-used verbal autopsy cause-coding algorithms (except Tariff 2.0) in the statistical programming environment <a href="https://cran.r-project.org" target="_blank">R</a> - called <em>openVA</em>. All of the packages are available at the Comprehensive R Archive Network (<a href="https://cran.r-project.org/web/packages/available_packages_by_name.html" target="_blank">CRAN</a>). We also maintain a <a href="https://github.com/verbal-autopsy-software" target="_blank">Github repository</a> with the code and a variety of additional resources. For users, we published a tutorial and user manual in the <em>The R Journal</em>: <a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank">The openVA Toolkit for Verbal Autopsies</a> in 2023.</li>
 
-  <li><p>The ALPHA Network cause-specific morality paper is coming out in <em>The Lancet Global Health</em> sometime in the next few weeks: </p>
+  <li><p>The ALPHA Network cause-specific morality paper is coming out in the <em>Lancet Global Health</em> sometime in the next few weeks: </p>
 
   <p><b>Temporal Changes in Cause of Death Among Adolescents and Adults in Six Countries in Eastern And Southern Africa: A Multi-Country Cohort Study using Verbal Autopsy Data</b> by Yue Chu, Milly Marston, Albert Dube, Charles Festo, Eveline Geubbels, Simon Gregson, Kobus Herbst, Chodziwadziwa Kabudula, Kathleen Kahn, Tom Lutalo,  Louisa Moorhouse, Robert Newton, Constance Nyamukapa, Ronald Makanga, Emma Slaymaker, Mark Urassa, Abdhalah Ziraba, Clara Calvert, and Samuel J. Clark</p>
 
@@ -407,7 +513,7 @@ Waterfall in Atlantic Rain Forest, Parana, Brazil
 <p>
   Super exciting: my <b>fabulous colleagues</b> and I have five papers at an advanced R/R stage - feels like the pandemic is finally working out of our pipeline!
 </p><p>
-  Also, finally doing something that I'd wanted to do for some time (again, the pandemic ...) - helping my South African and Brazilian colleagues connect around cause of death ascertainment. Brazilian colleague <a href="https://observatorio.fm.usp.br/cv/?r=10521%7CSILVA,%20Luiz%20Fernando%20Ferraz%20da" target="_blank">Luiz Fernando (Burns)</a> who directs the mortality surveillance unit in the Department of Pathology at the University of S&atilde;o Paulo, <a href="https://www.agincourt.co.za/staff-page/ryan" target="_blank">Ryan Wagner</a> who co-directs the new minimally-invasive tissue sample (MITS) project at the Agincourt health and demographic surveillance system (HDSS) site, and Alison Castle at the <a href="https://www.ahri.org" target="_blank">Africa Health Research Institute</a> (AHRI) who has just started an autopsy project on community deaths. Burns is visiting the South African sites this week with me and Clarissa, and a South African contingent will visit S&atilde;o Paulo later this year, again with me and Clarissa. 
+  Also, finally doing something that I'd wanted to do for some time (again, the pandemic ...) - helping my South African and Brazilian colleagues connect around cause of death ascertainment. Brazilian colleague <a href="https://www.linkedin.com/in/luiz-fernando-burns-0b055926/?originalSubdomain=br" target="_blank">Luiz Fernando (Burns)</a> who directs the mortality surveillance unit in the Department of Pathology at the University of S&atilde;o Paulo, <a href="https://www.agincourt.co.za/staff-page/ryan" target="_blank">Ryan Wagner</a> who co-directs the new minimally-invasive tissue sample (MITS) project at the Agincourt health and demographic surveillance system (HDSS) site, and Alison Castle at the <a href="https://www.ahri.org" target="_blank">Africa Health Research Institute</a> (AHRI) who has just started an autopsy project on community deaths. Burns is visiting the South African sites this week with me and Clarissa, and a South African contingent will visit S&atilde;o Paulo later this year, again with me and Clarissa. 
 </p>
 
 

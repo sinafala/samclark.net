@@ -22,9 +22,9 @@
 <div class="content">
 
 <div class="sam-links-list">
-<a href="/site/projects/verbal-autopsy.shtml" target="_parent">Verbal Autopsy</a> <br>
-<a href="/site/projects/indirect-estimates.shtml" target="_parent">Indirect Estimates of Mortality</a> <br>
-<a href="/site/projects/small-area-estimates.shtml" target="_parent">Small-area Estimates of Mortality</a>
+<a href="/site/projects/verbal-autopsy.shtml" target="_parent"><b>Verbal Autopsy</b></a> <br>
+<a href="/site/projects/rda.shtml" target="_parent"><b>Reference Death Archive</b></a> <br>
+<a href="https://openva.net" target="_blank"><b>openVA Team</b></a><br>
 </div>
 
 <div class="sam-links-list">
@@ -39,15 +39,13 @@
 <div class="sam-links-list">
 <a href="/site/projects/methods.shtml" target="_parent">Methods</a> <br>
 <a href="/site/projects/data-methods.shtml" target="_parent">Data Methods - SPEHR</a> <br>
-<a href="/site/projects/interviewer-effects.shtml" target="_parent">Interviewer Effects</a>
+<a href="/site/projects/interviewer-effects.shtml" target="_parent">Interviewer Effects</a> <br>
+<a href="/site/projects/indirect-estimates.shtml" target="_parent">Indirect Estimates of Mortality</a> <br>
+<a href="/site/projects/small-area-estimates.shtml" target="_parent">Small-area Estimates of Mortality</a>
 </div>
 
 <div class="sam-links-list">
-<a href="/site/projects/software.shtml" target="_parent">Open-source Software Produced</a>
-</div>
-
-<div class="sam-links-list">
-<a href="https://openva.net" target="_blank">openVA Team</a><br>
+<a href="/site/projects/software.shtml" target="_parent"><b>Open-source Software</b></a>
 </div>
 
 </div>

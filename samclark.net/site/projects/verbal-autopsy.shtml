@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en"> 
 
 <head>
   <meta name="author" content="Samuel J. Clark">
@@ -21,9 +21,23 @@
 
 <div class="content">
 
-<div class="sam-block">
+<div id="beginning" class="sam-block">
 
-<h1>Background</h1>
+<h1>Index
+<select name="index" onchange="location = this.value; this.selectedIndex = 0;">
+  <option value="#beginning">Topic</option>
+  <option value="#background">Background</option>
+  <option value="#key-papers">Key Papers</option>
+  <option value="#tza-endorse">TZA MOH Endorses InSilicoVA</option>
+  <option value="#software-openva_team">Software and openVA Team</option>
+  <option value="#va-interview">VA Interview</option>
+  <option value="#additional-papers">Additional Papers</option>
+  <option value="#gratuitous-critique">Gratuitous Critique of InSilicoVA</option>
+</select>
+</h1>
+
+
+<h1 id="background">Background  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 
 <p>
   Verbal autopsy (VA) is an old and well-established approach to ascertain cause of death when it is not feasible or practical to conduct medical certification and full autopsies. After a death is identified, a specially-trained fieldworker interviews the caregivers (usually family members) of the decedent. A typical VA interview includes a set of structured questions with categorical/quantitative responses and a narrative section that records the ‘story’ of the death from the respondent’s point of view. The resulting data are interpreted by various means to assign causes to the death.
@@ -62,14 +76,14 @@
   The team responsible for developing InSilicoVA includes <a href="https://zehangli.com" target="_blank">Richard Li</a>, <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, and <a href="https://samclark.net" target="_blank">myself</a>.
 </p>
 
-<h1>Key papers</h1>
+<h1 id="key-papers">Key papers  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 
 <ul>
   <li><a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank">The openVA Toolkit for Verbal Autopsies</a></li>
 
   <li><a href="http://dx.doi.org/10.1080/01621459.2016.1152191" target="_blank">Probabilistic Cause-of-Death Assignment using Verbal Autopsies</a></li>
   
-  <li><a href="https://arxiv.org/abs/2112.12186" target="_blank">Bayesian Nested Latent Class Models for Cause-of-Death Assignment using Verbal Autopsies Across Multiple Domains</a>. (Forthcoming in Annals of Applied Statistics)</li>
+  <li><a href="https://doi.org/10.1214/23-AOAS1826" target="_blank">Bayesian Nested Latent Class Models for Cause-of-Death Assignment using Verbal Autopsies Across Multiple Domains</a></li>
 
   <li><a href="http://proceedings.mlr.press/v97/li19h/li19h.pdf" target="_blank">Bayesian Joint Spike-and-Slab Graphical Lasso</a></li>
   
@@ -80,17 +94,28 @@
   <li><a href="http://doi.org/10.1080/16549716.2021.1982486" target="_blank">Estimating Causes of Death Where There Is No Medical Certification: Evolution and State of the Art of Verbal Autopsy</a></li>
 
   <li><a href="https://doi.org/10.1080/16549716.2023.2285105" target="_blank">Agreement between cause of death assignment by computer-coded verbal autopsy methods and physician coding of verbal autopsy interviews in South Africa</a></li>
-
 </ul> 
 
-<h1 id="openva_team">Software: openVA and the openVA Team</h1>
+<h1 id="tza-endorse">Independent Endorsement by the Tanzanian Ministry of Health  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+
+A report from the Ministry of Health of Tanzania (June, 2024) that evaluates VA cause-coding methods for use in Tanzania's civil registration and vital statistics system endorses InSilicoVA as the recommended VA cause coding approach for WHO standard VAs. For more on this, see News item <a href="/site/pages/news.shtml#2024-07-04">'Tanzania Ministry of Health endorses InSilicoVA'</a>.
+
+<h1 id="software-openva_team">Software: openVA and the openVA Team  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 
 <p>
   We have created and released open source, freely available software for InSilicoVA and all of the other commonly-used verbal autopsy cause-coding algorithms (except Tariff 2.0) in the statistical programming environment <a href="https://cran.r-project.org" target="_blank">R</a>. All of the packages are available at the Comprehensive R Archive Network (<a href="https://cran.r-project.org/web/packages/available_packages_by_name.html" target="_blank">CRAN</a>). The <a href="https://cran.r-project.org/package=openVA" target="_blank">openVA</a> package operates the others. We also maintain a publicly-accessible <a href="https://github.com/verbal-autopsy-software" target="_blank">Github repository</a> with the code and a variety of additional resources. For users, we published a tutorial and user manual in the <em>The R Journal</em>: <a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank">The openVA Toolkit for Verbal Autopsies</a>. This software has been developed by members of the <a href="http://openva.net" target="_blank">openVA Team</a></b>: of <a href="https://zehangli.com" target="_blank">Richard Li</a>, <a href="https://ipr.osu.edu/people/thomas.3912" target="_blank">Jason Thomas</a>, <a href="https://www.eungangchoi.com" target="_blank">Peter Choi</a>, <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, and myself, with increasing help from <a href="https://ipr.osu.edu/people/chu.282" target="_blank">Yue Chu</a>.
-
 </p>
 
+<h2>pyOpenVA</h2>
+
+<p>
+  To make the VA cause-coding algorithms fast and easily available using a familiar interface, we have created <a href="https://github.com/verbal-autopsy-software/pyopenva_GUI/" target="_blank">pyOpenVA</a>. This is standard (i.e. non-research) software that installs using a traditional installer, does not require supporting software (e.g. R, Java, etc.) to be installed on your computer, and operates through a graphical user interface. pyOpenVA is written in Python and C++ so it is fast.
+</p>
+
+<h2>Links to Key openVA Software</h2>
+
 <ul>
+  <li><a href="https://github.com/verbal-autopsy-software/pyopenva_GUI/releases" target="_blank">pyOpenVA</a> - 'Assets' contains installers for Windows and MacOS</li>    
   <li><a href="http://openva.net" target="_blank">openVA Team site</a> and <a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank"><b>openVA Toolkit</b> paper</a></li>
   <li><a href="https://cran.r-project.org/package=openVA" target="_blank">openVA R Package</a></li>
   <li><a href="https://github.com/verbal-autopsy-software/openVA_App/releases" target="_blank">openVA App</a></li>
@@ -98,7 +123,7 @@
   <li><a href="https://youtu.be/K1wkSbTwxkg" target="_blank">Video for example analysis using openVA App</a></li>
 </ul>
 
-<h1>The VA Interview</h1>
+<h1 id="va-interview">The VA Interview  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 
 <p>
   <a href="http://www.clarissasurekclark.name" target="_blank">Clarissa Surek-Clark</a> has led the openVA Team's thinking around the VA interview. Drawing on her experience as a professional translator and interpreter and training as a sociolinguist, she is curious to know how VA interviews are conducted across a variety of cultural and linguistic settings. VAs are conducted in many different languages, and sometimes multiple languages are used in a single interview; however, the questionnaire is typically in English or other official language. This results in (a lot of) <em>ad hoc</em> translation and interpreting. We want to know how this affects the VA data and the eventual comparability of causes of death ascertained through VA.
@@ -108,12 +133,14 @@
    <li><a href="https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198862437.001.0001/oso-9780198862437-chapter-11" target="_blank">Verbal Autopsy Interview Standardization Study: A report from the field</a></li>
 </ul>
 
-<h1>Additional papers</h1>
+<h1 id="additional-papers">Additional papers  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
 
 <ul>
+  <li><a href="https://doi.org/10.1136/bmjgh-2023-013539" target="_blank">Mortality Disparities by Age and Causes of Death in Rural South Africa</a></li>
+
   <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2627285/" target="_blank">Cause-specific mortality rates in sub-Saharan Africa and Bangladesh</a></li>
   
-  <li><a href="http://dx.doi.org/10.3402/gha.v5i0.19281" target="_blank">Strengthening standardised interpretation of verbal autopsy data: the new InterVA-4 tool</a></li>
+  <li><a href="http://dx.doi.org/10.3402/gha.v5i0.19281" target="_blank">Strengthening Standardised Interpretation of Verbal Autopsy Data: the New InterVA-4 tool</a></li>
 
   <li><a href="http://dx.doi.org/10.1371/journal.pmed.1002486" target="_blank">The WHO 2016 verbal autopsy instrument: An international standard suitable for automated analysis by InterVA, InSilicoVA, and Tariff 2.0</a></li>
 
@@ -121,10 +148,56 @@
 
   <li><a href="http://dx.doi.org/10.1186/s12916-019-1333-6" target="_blank">An integrated approach to processing WHO-2016 verbal autopsy data: the InterVA-5 model</a></li>
 
-  <li><a href="http://dx.doi.org/10.1186/s12916-020-01518-9" target="_blank">Non-confirming replication of “Performance of InSilicoVA for assigning causes of death to verbal autopsies: multisite validation study using clinical diagnostic gold standards,” by Flaxman et al.</a></li>
-
   <li><a href="http://dx.doi.org/10.1097/QAD.0000000000002552" target="_blank">Direct maternal deaths attributable to HIV in the era of antiretroviral therapy: evidence from three population-based HIV cohorts with verbal autopsy</a></li>
 </ul> 
+
+<h1 id="gratuitous-critique">The gratuitous critique of InSilicoVA and our response  <a href="#beginning" style="font-weight:normal">&#8679;</a></h1>
+
+<p>
+  In 2018 several authors associated the Institute for Health Metrics and Evaluation (IHME) published a paper gratuitously attacking InSilicoVA - publication 1 below. They tested InSilicoVA using algorithm parameters set in such a way as to make it perform as poorly as possible, and based on results produced in that way, they concluded that InSilicoVA is flawed. 
+</p><p>
+  Our team replicated their work to discover what they had done and published a rebuttal explaining why InSilicoVA performed so poorly in their hands - publication 2 below.
+</p><p>
+  Comment 3 below is their frustrated response to our rebuttal.
+</p>
+
+<ol>
+  <li>
+    <p><a id="flaxman-hatchet-job"></a>
+      Flaxman, A.D., J.C.&nbsp;Joseph, C.J.L.&nbsp;Murray, I.D.&nbsp;Riley and A.D.&nbsp;Lopez. (2018).
+       
+      <b>Performance of InSilicoVA for Assigning Causes of Death to Verbal Autopsies: Multisite Validation study Using Clinical Diagnostic Gold Standards</b>.
+
+      <em>BMC Medicine</em>&nbsp;<em>16</em>&nbsp;(56).
+
+      [&nbsp;<a href="https://doi.org/10.1186/s12916-018-1039-1" target="_blank">DOI</a>&nbsp;]
+    </p>
+  </li>
+
+  <li>
+    <p><a id="li2020BMCRebuttal"></a>
+      Li, Z.R., T.H.&nbsp;McCormick, and S.J.&nbsp;CLARK (2020).
+       
+      <b>Non-confirming Replication of `Performance of InSilicoVA for Assigning Causes of Death to Verbal Autopsies: Multisite Validation Study using Clinical Diagnostic Gold Standards', BMC Medicine 2018; 16:56</b>.
+
+      <em>BMC Medicine</em>&nbsp;<em>18</em>&nbsp;(69).
+
+      [&nbsp;<a href="http://dx.doi.org/10.1186/s12916-020-01518-9" target="_blank">DOI</a>&nbsp;]
+    </p>
+  </li>
+
+  <li>
+    <p><a id="flaxman-hatch-job"></a>
+      Flaxman, A.D., R.&nbsp;Hazard, I.&nbsp;Riley, A.D.&nbsp;Lopez and C.J.L.&nbsp;Murray. (2020).
+       
+      <b>Born to Fail: Flaws in Replication Design Produce Intended Results</b>.
+
+      <em>BMC Medicine</em>&nbsp;<em>18</em>&nbsp;(73).
+
+      [&nbsp;<a href="https://doi.org/10.1186/s12916-020-01517-w" target="_blank">DOI</a>&nbsp;]
+    </p>
+  </li>
+</ol>
 
 </div>
 

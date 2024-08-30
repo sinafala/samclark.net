@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+ <meta name="author" content="Samuel J. Clark">
+ <meta name="description" content="Samuel J. Clark's project page for the Reference Death Archive.">
+ <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, Africa, epidemiology, demography, RDA, Reference Death Archive, verbal autopsy, CCVA, SCI, symptom-cause information, VA, WHO, MITS, minimall invasive tissue sample, verbal autopsy algorithm.">
+ <!--#include virtual="/site/includes/header.html" -->
+ <title>Samuel Clark - Reference Death Archive </title>
+</head>
+
+<body>
+
+<div class="header">
+<!--#include virtual="/site/includes/nav-links-top.shtml" -->
+<div class="sam-title">
+ Reference Death Archive
+</div>
+</div>
+
+<div class="content">
+
+
+<div class="sam-block">
+
+<p>
+ I am leading a new project to create a <b>Reference Death Archive</b> for verbal autopsy. The archive will be hosted at the <a href="https://www.ungeneva.org/en/about/organizations/who" target="_blank">WHO</a> Headquarters in Geneva and will be publicly available to all researchers and VA users. The overall objective is to improve verbal autopsy cause of death ascertainment, especially in routine mortality surveillance. Deaths will come from the CHAMPS and COMSA projects - <a href="https://publichealth.jhu.edu/institute-for-international-programs/our-work/countrywide-mortality-surveillance-for-action-comsa-in-mozambique" target="_blank">Mozambique</a> and <a href="https://www.cghr.org/comsa/" target="_blank">Sierra Leone</a>, the sites that are part of the <a href="https://mitsalliance.org" target="_blank">MITS Alliance</a>, and the Brazilian mortality surveillance system (SVO), starting with the city of <a href="https://svoc.usp.br/home-4/" target="_blank">S&atilde;o Paulo SVO</a>. The <a href="https://www.gatesfoundation.org" target="_blank">Bill and Melinda Gates Foundation</a> is supporting this work. Below is a more detailed motivation and explanation of the archive.
+</p>
+
+<h1>Reference Death Archive for Verbal Autopsy</h1>
+
+<h2>General Background</h2>
+
+<p>
+ Between 50-70% of global deaths are either/both not recorded or given a cause. This limits the ability to quantify and track the burden of disease, and consequently, our ability to prioritize and monitor interventions. There is an obvious and urgent need to improve this situation.
+</p>
+
+<p>
+ Best practice for identifying cause of death is an inquiry conducted by a trained physician, coroner, or medical examiner supported by pathology, and if necessary, an autopsy. The required resources, human capital, and infrastructure required for this are not widely available in most low- and middle-income countries. 
+</p>
+
+<p>
+ Verbal autopsy is a feasible alternative that can be deployed widely. Verbal autopsy is an interview-based approach that does not require highly trained personnel or any biomedical infrastructure. This makes it cheap and easy and thereby possible to conduct at scale. Compared to a traditional pathology-informed method of identifying cause of death, verbal autopsy is less accurate and less reliable.
+</p>
+
+<p>
+ Verbal autopsy consists of three elements: 1) data describing signs/symptoms displayed by the decedent, 2) a set of data that relate those signs/symptoms to a list of causes - symptom-cause information, and 3) a cause-assignment method for combining the two sets of data to identify causes of death that are jointly consistent with both. The cause-assignment method can be a physician reading the verbal autopsy interview or a computer-based algorithm that processes the two types of data together. Physicians are biased but better able to identify specific causes; algorithms are not biased but are less able to be specific. Both rely on accurate symptom-cause information - for physicians, medical training, and for algorithms, formally-defined, logical symptom-cause information. Physicians are a scarce resource that takes time and resources to train and is needed to treat living people. In contrast, computers are cheap and fast and therefore the only realistic option for at-scale verbal autopsy. Both the algorithm logic and the symptom-cause information used by the algorithm are critical to the success of computer-coded verbal autopsy.
+</p> 
+
+<p>
+ Symptom-cause information for computer algorithms originates either from physicians directly or from a set of reference deaths. Reference deaths have both verbal autopsy signs/symptoms and a cause assigned through an independent method that does not involve a computer algorithm. The physician approach is affected by bias on the part of the physicians and the fact that it is fundamentally indirect, removed from the real experience of actual deaths. The reference death approach is uses information provided by real deaths and is thereby a direct reflection of the relationship between signs/symptoms and causes for those specific reference deaths. A given set of reference deaths embodies the relationships between the specific signs/symptoms that were experienced by those deaths and the specific causes that brought about those deaths. This is both the strength and weakness of this approach: reference death symptom-cause information is precise but limited to the specific information available in a given set of reference deaths. 
+</p>
+
+<p>Computer algorithms and reference death-based symptom-cause information are the way forward for at-scale verbal autopsy - because it is feasible, reproducible, and with the creation and growth of a representative reference death, will become increasingly accurate in diverse settings. Reasonable algorithms exist - InSilicoVA, InterVA, Tariff 2.0 - but existing reference death-based symptom-cause information is highly limited, not compatible with WHO standard verbal autopsies, and largely devoid of pathology-based information.
+</p>
+
+<h2>Symptom-Cause Information and Algorithm Accuracy</h2>
+
+<p>
+ The existing algorithms use symptom-cause information derived from physicians using either an oracle method approach - InterVA and InSilicoVA - or a hybrid reference death/oracle method approach - SmartVA Analyze. All three algorithms typically identify the correct underlying cause of death up to a maximum of about 60%. There is wide variability in their performance depending on both the population from which the deaths come and the symptom-cause information utilized by the algorithm . For these three algorithms, given a set of verbal autopsy signs/symptoms, the symptom-cause information is more important than the algorithm logic in identifying cause of death.
+</p>
+
+<p>
+ Symptom-cause information drives automated verbal autopsy coding algorithms. Physician-elicited symptom-cause information is comparatively easy to acquire and can be generally representative, but it is imprecise, potentially biased, and incorporates pathology-related information indirectly. In contrast, reference death-derived symptom-cause information can be a highly accurate representation of the symptom-cause relationship that directly incorporates pathology-based information, but it is comparatively expensive and slow, and to be useful, it must include reference deaths from a diverse set of epidemiological settings through time.
+</p>
+
+<p>
+ Reference death-derived symptom-cause information characterizes the relationships between verbal autopsy signs/symptoms and causes of death by quantifying the strength of the relationships between each symptom and each cause - tariff scores for SmartVA Analyze or the conditional probability of a symptom given a cause for InterVA and InSilicoVA. At this time neither approach accounts for conditionality between symptoms - that some symptoms work together in groups; incorporate additional information beyond the verbal autopsy signs/symptoms and narrative account - such as pathology-based information from minimally-invasive tissue sampling; or acknowledges the fact that the symptom-cause relationship varies by epidemiological profile, place, and time. Algorithms under development now by the openVA Team address all three potential sources of improvement by building a new latent factor model for verbal autopsy cause classification . This approach allows covariates such as minimally-invasive tissue sample-derived indicators (and others) to be directly included in the creation of symptom cause information, and for that information to be applied differently in different contexts (domains), thus accounting for heterogeneity in epidemiology, place, and time. The effect of the covariates is to sharpen the quantification of the relationships between symptoms - including groups of symptoms - and causes. Preliminary testing using the Population Health Metrics Research Consortium reference death dataset demonstrate that this new approach may increase overall accuracy of verbal autopsy cause classification from roughly 60% to roughly 75% in the absence of covariates. The addition of meaningful covariates such as minimally-invasive tissue sampling indicators is likely to significantly increase this accuracy and make the process more robust and better able to adapt to specific epidemiological contexts.
+</p>
+
+<h2>Overall Objective</h2>
+
+<p>
+ The overall objective of this project is to develop the tools necessary to create a pathology-based reference death archive that will allow verbal autopsy to be a pathology-informed method. When fully populated the pathology-based reference death archive will greatly improve the ability of verbal autopsy to accurately identify cause of death in a wide variety of settings around the world.
+</p>
+
+<p>
+ Specifically, a large, high quality, pathology-based reference death archive:
+</p>
+
+<ol>
+
+ <li>
+ will provide symptom-cause information for computer algorithms that
+ </li>
+
+ <ol type="a">
+
+  <li> 
+  incorporates pathology-based information from minimally-invasive tissue samples, medical records, or other biomarkers, and 
+  </li>
+
+  <li>
+  is accurate in a wide variety of contexts;
+  </li>
+
+ </ol>
+
+ <li>
+ will allow development, testing, and validation of new computer algorithms for verbal autopsy cause classification that are able to utilize pathology-based symptom-cause information;
+ </li>
+
+ <li>
+ will support the continued development and validation of existing computer algorithms for verbal autopsy cause classification;
+ </li>
+
+ <li>
+ will support the continued development and validation of WHO standard verbal autopsy instruments and related materials ; and 
+ </li>
+
+ <li>
+ will provide a key resource to define and support future research on verbal autopsy.
+ </li>
+
+</ol>
+
+<h2>Pathology-based Reference Death Archive</h2>
+
+<p>
+ The pathology-based reference death archive will consist of deaths having all three of:
+</p>
+
+<ol>
+
+ <li>
+ pathology-based biomarkers from minimally-invasive tissue samples (MITS), medical records, or other sources with definitive pathological results produced using standard diagnostic protocols,
+ </li>
+
+ <li>
+ WHO standard verbal autopsy signs/symptoms, and 
+ </li>
+
+ <li>a reference cause assigned using a reliable process that does not involve a verbal autopsy cause-coding computer algorithm - such as traditional autopsy or DeCode panel.
+ </li>
+
+</ol>
+
+<p>
+ For the reference deaths to be useful, the archive infrastructure will provide tools to receive, check, store, and disseminate both the data and the symptom-cause information. Reference deaths will come from a variety of sources and data products will be freely available to the verbal autopsy and minimally-invasive tissue sample communities. 
+</p>
+
+<p>
+ Operation of the archive will require a robust governance structure and policies/procedures to organize the activities of the operators, data providers, and data users and ensure that data are handled in an ethical manner. These will be jointly defined/created by the WHO and openVA Team.
+</p>
+
+<h1>Anticipated Impact</h1>
+
+<p>
+ WHO standard verbal autopsy tools support the ongoing rapid expansion of verbal autopsy in routine use in national-level vital statistics systems in a growing number of low- and middle-income countries. The pathology-based reference death archive will be a global good built on and augmenting WHO standard verbal autopsy tools. The eventual archive will be hosted and operated by the WHO.
+</p>
+
+</div>
+
+
+<div class="footer">
+<!--#include virtual="/site/includes/bottom.shtml" -->
+</div>
+
+</body>
+
+</html>
