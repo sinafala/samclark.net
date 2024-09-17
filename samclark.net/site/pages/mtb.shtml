@@ -30,9 +30,57 @@
 
 
 <div class="sam-block-index">
+<h1 id="alum-ii-2024">Index
+<select name="index" onchange="location = this.value; this.selectedIndex = 0;">
+  <option value="#beginning">Jump To</option>
+  <option value="#usa-2023">USA 2023</option>
+  <option value="#alum-ii-highlights">Alum II Trail Highlights</option>
+  <option value="#usa-2022">USA 2022</option>
+  <option value="#usa-2021">USA 2021</option>
+  <option value="#misc-mtb">Misc. MTB</option>
+  <option value="#beginning">Top &#8679;</option>    
+</select>
+</h1>
+</div>
+
+
+
+<div class="sam-block">
+<h1>Alum Creek II 2024 - After the Tornado</h1>
+<p>
+  I've ridden the Alum II trail near us hundreds of times over the past eight years, and it's been a wonderful thing to have nearby.
+</p>
+<p>
+  In March of 2024, a tornado came through the park that hosts the trail and blew over a large number of big trees. This totally obliterated the trail and required seven months of heavy volunteer labor and $23,000 of supplies to re-establish. <a href="https://www.combomtb.com" target="_blank">The Central Ohio Mountain Bike Organization</a> (COMBO) very efficiently and effectively coordinated the rebuild. We were in Brazil so we couldn't help, but we did make a couple donations. The result is fantastic! There are lots of pieces of the old trail, lots of new things, and much improvement in general, e.g. drainage is greatly augmented throughout. The new trail officially opened last weekend, but we've been riding it for a few weeks. The video below is <b>long</b>, but it documents the whole thing; fast-forward through it to get a flavor. There's a phone dropping incident a bit past the middle that I cut out into a short clip. The iPhone survived completely unharmed! I used Garmin's "find phone" feature on my watch to locate the phone after my music stopped coming over bluetooth about 30 yards up the trail.
+</p>
+</div>
+
+<!-- Alum II -->
+<div class="sam-image">
+<video controls preload="none" class="mtb">
+  <source src="/site/media/video/alum-II-2024.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+Alum Creek II MTB Trail 2024 - After the Tornado
+<a href="#alum-ii-2024" style="font-weight:normal">&#8679;</a>
+</div>
+
+<!-- Alum II phone drop-->
+<div class="sam-image">
+<video controls preload="none" class="mtb">
+  <source src="/site/media/video/sam-runs-over-iphone.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+Sam Runs over iPhone with Mountain Bike
+<a href="#alum-ii-2024" style="font-weight:normal">&#8679;</a>
+</div>
+
+
+<div class="sam-block-index">
 <h1 id="usa-2023">Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Jump To</option>
+  <option value="#alum-ii-2024">Alum II 2024 - After Tornado</option>
   <option value="#alum-ii-highlights">Alum II Trail Highlights</option>
   <option value="#usa-2022">USA 2022</option>
   <option value="#usa-2021">USA 2021</option>
@@ -237,6 +285,7 @@ View over desert at sunrise, Moab, Utah
 <h1 id="alum-ii-highlights">Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Jump To</option>
+  <option value="#alum-ii-2024">Alum II 2024 - After Tornado</option>
   <option value="#usa-2023">USA 2023</option>
   <option value="#usa-2022">USA 2022</option>
   <option value="#usa-2021">USA 2021</option>
@@ -258,7 +307,7 @@ View over desert at sunrise, Moab, Utah
 <!-- Alum II -->
 <div class="sam-image">
 <video controls preload="none" class="mtb">
-  <source src="/site/media/video/Alum-Creek-II-Highlights-Spring-2023.mp4" type="video/mp4">
+  <source src="/site/media/video/alum-creek-II-highlights-spring-2023.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 Alum Creek II MTB Trail Highlights, Spring 2023
@@ -271,6 +320,7 @@ Alum Creek II MTB Trail Highlights, Spring 2023
 <h1 id="usa-2022">Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Jump To</option>
+  <option value="#alum-ii-2024">Alum II 2024 - After Tornado</option>
   <option value="#usa-2023">USA 2023</option>
   <option value="#alum-ii-highlights">Alum II Trail Highlights</option>
   <option value="#usa-2021">USA 2021</option>
@@ -662,6 +712,7 @@ Rain-over-hills, Southeast Utah
 <h1 id="usa-2021">Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Jump To</option>
+  <option value="#alum-ii-2024">Alum II 2024 - After Tornado</option>
   <option value="#usa-2023">USA 2023</option>  
   <option value="#alum-ii-highlights">Alum II Trail Highlights</option>
   <option value="#usa-2022">USA 2022</option>
@@ -851,6 +902,7 @@ The Bike!
 <h1 id="misc-mtb">Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Jump To</option>
+  <option value="#alum-ii-2024">Alum II 2024 - After Tornado</option>
   <option value="#usa-2023">USA 2023</option>
   <option value="#alum-ii-highlights">Alum II Trail Highlights</option>
   <option value="#usa-2022">USA 2022</option>
@@ -871,7 +923,7 @@ The Bike!
 
 <div class="sam-image">
 <video controls preload="none" class="mtb">
-  <source src="/site/media/video/Alum-II-Autumn-2022.mp4" type="video/mp4">
+  <source src="/site/media/video/alum-II-autumn-2022.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 3.5&#8209;minute Video: Alum Creek Phase II, Autumn 2022
