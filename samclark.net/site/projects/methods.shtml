@@ -27,7 +27,7 @@
   With a wide range of colleagues in epidemiology, statistics, and demography, I have worked on improving measurement, estimation, forecasting, and other aspects of methods used by populations scientists. 
 </p>
 
-<h1>Component-based mortality models: <em>SVD-Comp</em></h1> 
+<h1 id="svd-comp">Component-based mortality models: <em>SVD-Comp</em></h1> 
 
 <p>
   Beginning with my PhD, I have been interested in using dimension reduction methods to develop parsimonious, empirical models for age-specific schedules of demographic quantities, e.g. mortality or fertility rates/probabilities. This work has gone through several iterations culminating current work with colleagues at the United Nations Population Division to develop a widely-useful, single-year in age model of age-specific mortality.

@@ -111,6 +111,12 @@ This project started off with me and has since become one of <a href="https://fa
   <li><a href="/site/misc/spehr/SPEHR-Repeated-Demographic-Survey-OR-Population-Register-2.0.mdb" target="_blank">Example Database 4</a></li>
 </ul>
 
+<h1><a href="https://shiny.posit.co" target="_blank">R Shiny</a> Applications</h1>
+
+<ul>
+  <li><a href="https://zehangli.shinyapps.io/ExcessMortalityApp/" target="_blank">Excess Mortality Calculator</a>: This was developed by <a href="https://zehangli.com" target="_blank">Richard Li</a> and <a href="https://samclark.net" target="_blank">Samuel Clark</a> for <a href="https://www.vitalstrategies.org/programs/civil-registration-and-vital-statistics/" target="_blank">Vital Strategies</a>. The app estimates excess deaths from a variety of death count and population inputs using either simple or more sophisticated modeling approaches.</li>
+</ul>
+
 </div>
 
 </div>
