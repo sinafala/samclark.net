@@ -26,6 +26,9 @@
 <h1>Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Date: Event</option>
+  <option value="#2025-02-01">2025-02-01: HEALMOD at OSU</option>
+  <option value="#2024-11-08">2024-11-08: When All You Have Is a Hammer</option>
+  <option value="#2024-10-22">2024-10-22: Cell Phone in Email Signature</option>
   <option value="#2024-08-12">2024-08-12: Back from Brazil</option>
   <option value="#2024-08-01">2024-08-01: ALPHA COD Paper out in LGH</option>
   <option value="#2024-07-04">2024-07-04: Tanzania MOH endorses InSilicoVA</option>
@@ -75,6 +78,85 @@
 
 
 <!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2025-02-01">2024-02-01  <a href="#beginning" style="font-weight:normal">&#8657;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>HEALMOD at OSU</h2>
+
+<p>
+  During 2023-24, three faculty in Biostatistics (Grzegorz Rempala), Anthropology (Barbara Piparata and Sean Downey), and me in Sociology created the <a href="https://healmod.osu.edu" target="_blank">Health and Environment Modeling Co-laboratory (HEALMOD)</a> with support from the College of Arts and Sciences and the School of Public Health at OSU. Together we applied for and received a "<a href="https://news.osu.edu/good-to-great-grants-recipients-announced/" target="_blank">Good to Great</a>" grant from the Office of Academic Affairs to support the initial setup and growth of HEALMOD. We have two postdocs and a number of projects getting going, and we are hiring two more postdocs now.
+</p>
+
+<h2>From the <a href="https://healmod.osu.edu" target="_blank">HEALMOD site</a>:</h2>
+
+<p>
+  The OSU Health and Environment Modeling Co-laboratory (HEALMOD) is a community of scholars dedicated to convergence research and education related to human health and environmental sustainability. 
+</p><p>
+  The initiative is driven by specific and compelling problems deeply integrated across disciplines with respect to theories, methods, data, and research communities.
+</p>
+
+<h3>Purpose</h3>
+
+<p>
+  HEALMOD provides a thought space and education hub for convergence researchers, including faculty, research scientists, postdoctoral scholars, graduate students and undergraduate students. 
+</p><p>
+  HEALMOD builds on existing OSU institutional and human resources to propel OSU to the forefront of convergence research by providing the scaffolding to support new convergence research opportunities and the training of the next generation of convergence researchers by offering a transdisciplinary convergence curriculum. 
+</p>
+
+<h3>Goals</h3>
+
+<p>
+  HEALMOD will make OSU a world-class center for conducting theory-guided computational research into human-environmental health and sustainability and disseminating actionable results and policy recommendations with measurable social impact, thus raising the profiles of public health, and the social sciences (Anthropology, Sociology). 
+</p>
+
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2024-11-08">2024-11-08  <a href="#beginning" style="font-weight:normal">&#8657;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>When All You Have Is a Hammer</h2>
+
+<p>
+  <a href="https://sociology.la.psu.edu/people/john-iceland/" target="_blank">John Iceland</a> and <a href="https://sociology.la.psu.edu/people/eric-silver/" traget="_blank">Eric Silver</a> have written a great article addressing the dominance of critical race theory and social justice ideology in sociology. They offer a perspective that is likely to create a better understanding of what's going on and support the creation of (actually!) effective interventions. 
+</p>
+
+<ul>
+  <li>
+    <a href="https://doi.org/10.1007/s11186-024-09568-1" target="_blank">When all you have is a hammer: how social justice distorts what we know about racial disparities</a>
+  </li>
+</ul>
+
+<h3>Abstract</h3>
+
+<p>
+  The sociological literature on race operates under the progressive ideological assumption that systemic racism is the predominant cause of racial disparities. This assumption has become “paradigmatic,” shaping the selection of research questions and the interpretation of research results. Consequently, the literature offers a rather narrow “Overton window” concerning what we, as sociologists, know about: (1) the causes of racial disparities, (2) the accuracy and motivation behind the public’s views on race-related issues, and (3) race-related policy preferences. A paradigm shift is needed to improve our understanding of racial disparities and devise more effective ways to address them. To achieve this end, sociologists should broaden their perspectives beyond attributing all racial disparities to systemic racism and consider additional hypotheses. From a policy perspective, to reduce racial disparities we should reconsider addressing social class and related factors early in life.
+</p>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2024-10-22">2024-10-22  <a href="#beginning" style="font-weight:normal">&#8657;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>Phone Number in Email Signature</h2>
+
+<p>
+  My email signature below, net of institutional changes, has been the same for almost twenty years. Exactly <b>two</b> people have every used my cell phone number to call me! I really wish more people would because I'm not a fan of over-full email inboxes.
+</p>
+
+<div class="sam-image">
+<a href="/site/media/fullsize/email-sig.jpg" target="_blank">
+         <img class="mtb" title="Sam's email signature" src="/site/media/thumbs/email-sig.jpg"></a>
+Sam's email signature with cell phone number.
+</div>
+
+
+
+<!-- %%%%%%%%%%%% -->
 <h1 class="sam-date" id="2024-08-12">2024-08-12  <a href="#beginning" style="font-weight:normal">&#8657;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
@@ -103,7 +185,7 @@ Goodbye Brazil! Sunset in Araucarias.
 <h1 class="sam-date" id="2024-08-01">2024-08-01  <a href="#beginning" style="font-weight:normal">&#8657;</a></h1>
 <!-- %%%%%%%%%%%% -->
 
-<h2>Lancet Global Health paper out</h2>
+<h2>Lancet Global Health Paper Out</h2>
 
 <p>
   Our paper demonstrating InSilicoVA using ALPHA Network HDSS data came out last week in <em>Lancet Global Health</em>. See <a href="#2024-03-15">Huge Milestone!</a> below.
@@ -200,24 +282,22 @@ Chu, Y., M. Marston, A. Dube, C. Festo, E. Geubbels, S. Gregson, K. Herbst, C. K
 </p>
 
 <ul>
-
   <li>
     <b>Mortality Disparities by Age and Causes of Death in Rural South Africa</b> by Brian Houle, Chodziwadziwa W. Kabudula, Sanyu A. Mojola, Nicole Angotti, F. Xavier Gómez-Olivé, Dickman Gareta, Kobus Herbst, Samuel J Clark, Jane Menken, and Vladimir Canudas-Romo in <em>BMJ Global Health</em>
-
-    <h2>Abstract</h2>
-
-    <p>
-      <em>Introduction.</em> Understanding mortality disparities by age and cause is critical to identifying intervention and prevention actions to support vulnerable populations. We assessed mortality changes in two rural South African populations over 25-years covering pre- and peak AIDS epidemic and subsequent antiretroviral therapy (ART) availability.
-    </p><p>
-      <em>Methods.</em> Using population surveillance data from the Agincourt Health and Socio-Demographic Surveillance System (AHDSS; 1994-2018) and Africa Health Research Institute (AHRI; 2000-2018) for five-year periods, we calculated life expectancy from birth to age 85, mortality age distributions and variation, and life-years lost (LYL) decomposed into four cause-of-death groups.
-    </p><p>
-      <em>Results.</em> The AIDS epidemic shifted the age-at-death distribution to younger ages and increased LYL. For AHDSS, between 1994-1998 and 1999-2003 LYL increased for females from 13.6 years (95% CI 12.7–14.4) to 22.1 (21.2–23.0) and for males from 19.9 (18.8–20.8) to 27.1 (26.2–28.0). AHRI LYL in 2000-2003 were extremely high (females=40.7 years (39.8–41.5), males=44.8 years (44.1–45.5)). Subsequent widespread ART availability reduced LYL (2014-2018) for women (AHDSS=15.7 (15.0–16.3); AHRI=22.4 (21.7–23.1)) and men (AHDSS=21.2 (20.5–22.0); AHRI=27.4 (26.7–28.2)), primarily due to reduced HIV/AIDS/TB deaths in mid-life and other communicable disease deaths in children. External causes increased as a proportion of LYL for men (2014-2018: AHRI=25%, AHDSS=17%). The share of AHDSS LYL 2014-1018 due to noncommunicable diseases exceeded pre-HIV levels: females=43%; males=40%).
-    </p><p>
-      <em>Conclusions.</em> Our findings highlight shifting burdens in cause-specific LYL and persistent mortality disparities in two populations experiencing complex epidemiological transitions. Results show high contributions of children to LYL at the height of the AIDS epidemic. Reductions in LYL were primarily driven by lowered HIV/AIDS/TB and other communicable disease mortality during the ART periods. LYL disparities persist despite widespread ART availability, highlighting the contributions of other communicable diseases in children, HIV/AIDS/TB and external causes in mid-life, and noncommunicable diseases in older ages.
-    </p>
   </li>
-
 </ul> 
+
+<h2>Abstract</h2>
+
+<p>
+  <em>Introduction.</em> Understanding mortality disparities by age and cause is critical to identifying intervention and prevention actions to support vulnerable populations. We assessed mortality changes in two rural South African populations over 25-years covering pre- and peak AIDS epidemic and subsequent antiretroviral therapy (ART) availability.
+</p><p>
+  <em>Methods.</em> Using population surveillance data from the Agincourt Health and Socio-Demographic Surveillance System (AHDSS; 1994-2018) and Africa Health Research Institute (AHRI; 2000-2018) for five-year periods, we calculated life expectancy from birth to age 85, mortality age distributions and variation, and life-years lost (LYL) decomposed into four cause-of-death groups.
+</p><p>
+  <em>Results.</em> The AIDS epidemic shifted the age-at-death distribution to younger ages and increased LYL. For AHDSS, between 1994-1998 and 1999-2003 LYL increased for females from 13.6 years (95% CI 12.7–14.4) to 22.1 (21.2–23.0) and for males from 19.9 (18.8–20.8) to 27.1 (26.2–28.0). AHRI LYL in 2000-2003 were extremely high (females=40.7 years (39.8–41.5), males=44.8 years (44.1–45.5)). Subsequent widespread ART availability reduced LYL (2014-2018) for women (AHDSS=15.7 (15.0–16.3); AHRI=22.4 (21.7–23.1)) and men (AHDSS=21.2 (20.5–22.0); AHRI=27.4 (26.7–28.2)), primarily due to reduced HIV/AIDS/TB deaths in mid-life and other communicable disease deaths in children. External causes increased as a proportion of LYL for men (2014-2018: AHRI=25%, AHDSS=17%). The share of AHDSS LYL 2014-1018 due to noncommunicable diseases exceeded pre-HIV levels: females=43%; males=40%).
+</p><p>
+  <em>Conclusions.</em> Our findings highlight shifting burdens in cause-specific LYL and persistent mortality disparities in two populations experiencing complex epidemiological transitions. Results show high contributions of children to LYL at the height of the AIDS epidemic. Reductions in LYL were primarily driven by lowered HIV/AIDS/TB and other communicable disease mortality during the ART periods. LYL disparities persist despite widespread ART availability, highlighting the contributions of other communicable diseases in children, HIV/AIDS/TB and external causes in mid-life, and noncommunicable diseases in older ages.
+</p>
 
 
 
