@@ -26,6 +26,7 @@
 <h1>Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Date: Event</option>
+  <option value="#2025-02-08">2025-02-08: <code>SVDMx</code> on CRAN</option>
   <option value="#2025-02-01">2025-02-01: HEALMOD at OSU</option>
   <option value="#2024-11-08">2024-11-08: When All You Have Is a Hammer</option>
   <option value="#2024-10-22">2024-10-22: Cell Phone in Email Signature</option>
@@ -73,6 +74,19 @@
   <option value="#2021-02-03">2021-02-03: Start News</option>
 </select>
 </h1>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2025-02-08">2024-02-08  <a href="#beginning" style="font-weight:normal">&#x25B2;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>R Package <code>SVDMx</code> on CRAN</h2>
+
+<p>
+  The R package implementing my <a href="https://github.com/sinafala/svd-comp" target="_blank">SVD-Comp mortality model</a> published a while ago in <a href="https://doi.org/10.1007/s13524-019-00785-3" target="_blank">Demography</a> is on CRAN as <a href="https://cran.r-project.org/web/packages/SVDMx/index.html" target="_blank">'SVDMx'</a>. Install using <code>install.packages("SVDMx")</code>.
+</p>
 
 
 

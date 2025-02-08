@@ -27,6 +27,12 @@
   I aim to provide working software for the methods I develop, and more recently to provide replication material for publications. This is a list of what's available so far. Except for the SUMMER package, I have led the teams creating this software, but in many cases, other individuals are primarily responsible for writing and maintaining it. 
 </p>
 
+<h1>SVD-Comp Mortality Model</h1>
+
+<p>
+  The R package implementing my <a href="https://github.com/sinafala/svd-comp" target="_blank">SVD-Comp mortality model</a> published in <a href="https://doi.org/10.1007/s13524-019-00785-3" target="_blank">Demography</a> is on CRAN as <a href="https://cran.r-project.org/web/packages/SVDMx/index.html" target="_blank">'SVDMx'</a>. 
+</p>
+
 <h1>Verbal Autopsy</h1>
 
 <p>
