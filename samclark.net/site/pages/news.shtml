@@ -26,6 +26,7 @@
 <h1>Index
 <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">Date: Event</option>
+  <option value="#2025-04-10">2025-04-10: Knee Surgery</option>
   <option value="#2025-02-08">2025-02-08: <code>SVDMx</code> on CRAN</option>
   <option value="#2025-02-01">2025-02-01: HEALMOD at OSU</option>
   <option value="#2024-11-08">2024-11-08: When All You Have Is a Hammer</option>
@@ -74,6 +75,19 @@
   <option value="#2021-02-03">2021-02-03: Start News</option>
 </select>
 </h1>
+
+
+
+
+<!-- %%%%%%%%%%%% -->
+<h1 class="sam-date" id="2025-04-10">2024-04-10  <a href="#beginning" style="font-weight:normal">&#x25B2;</a></h1>
+<!-- %%%%%%%%%%%% -->
+
+<h2>Knee Surgery</h2>
+
+<p>
+  Blowing leaves from the gutter/eaves of our house in October last year, I tripped and twisted my knee. Over the next few weeks it gradually developed into a painful and debilitating situation, and I finally went to the doctor. In mid December I was diagnosed with a medial meniscus root detachment and additional less serious damage to the left medial meniscus. Repair required a significant surgery involving drilling a hole through the top of my tibia to attach a permanent suture to hold the meniscus root in place. It seems to have worked, but the recovery is very slow and up until about now, very painful. Most people apparently take nine months to a year to be back to 'normal'. I was completely immobile on crutches for about two and a half months and am about now beginning to walk around carefully without them. I'm super pleased to have my leg working again!
+</p>
 
 
 
