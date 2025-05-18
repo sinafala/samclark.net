@@ -30,6 +30,7 @@
 <select name="select-year" onchange="location = this.value; this.selectedIndex = 0;">
   <option value="#beginning">year</option>
   <option value="/site/projects/software.shtml">Software</option>
+  <option value="#year-2025">2025</option>
   <option value="#year-2024">2024</option>
   <option value="#year-2023">2023</option>
   <option value="#year-2022">2022</option>
@@ -72,6 +73,61 @@ Kline, D., Z.&nbsp;Li, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turne
 
 </p> -->
 
+
+
+<!-- 2024 -->
+
+<h2 class="bib-year" id="year-2025">2025  <a href="#beginning" style="font-weight:normal">&#x25B2;</a></h2> 
+
+
+<!-- <h3 class="bib">Official Reports</h3> -->
+
+
+<h3 class="bib">Articles Published</h3>
+
+
+<p class="bibliography"><a id="ALPHA-VA"></a>
+
+Marston, M., A. Chung, A. Dube, E. McLean, <span class="author">S.&nbsp;CLARK</span>, A. Crampin, C. Calvert. (2025).
+
+<b>Evaluating the Performance of Verbal Autopsy for Assigning Cause of Death in Older Adults: A Population-Based Cohort Study in Karonga, Malawi.</b> 
+
+<em>Tropical Medicine & International Health</em>.
+<!-- &nbsp;2025:1–10. -->
+
+[&nbsp;<a href="https://doi.org/10.1111/tmi.14120" target="_blank">DOI</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="ALPHA-VA"></a>
+
+Li, Z.R, B.D. Martin, T.Q. Dong, G-A. Fuglstad, J. Godwin, J. Paige, A. Riebler, <span class="author">S.&nbsp;CLARK</span>, J. Wakefield. (<em>Forthcoming</em> 2025).
+
+<b>Space-Time Smoothing of Demographic and Health Indicators Using the R Package SUMMER.</b> 
+
+<em>The R Journal</em>&nbsp;12:e1278–87.
+
+[&nbsp;<a href="https://arxiv.org/abs/2007.05117" target="_blank">URL</a>&nbsp;]
+
+</p>
+
+
+<p class="bibliography"><a id="ALPHA-VA"></a>
+
+Tsuyoshi Kunihama, Zehang Richard Li, Samuel J Clark, and Tyler H McCormick.
+
+
+Kunihama, T., Z.R. Li, <span class="author">S.J.&nbsp;CLARK</span>, T.H. McCormick. (<em>Forthcoming</em> 2025).
+
+<b>Bayesian Analysis of Verbal Autopsy Data Using Factor Models With Age- and Sex-Dependent Associations Between Symptoms.</b> 
+
+<em>Annals of Applied Statistics</em>.
+<!-- &nbsp;12:e1278–87. -->
+
+[&nbsp;<a href="https://arxiv.org/abs/2403.12288" target="_blank">URL</a>&nbsp;]
+
+</p>
 
 
 
