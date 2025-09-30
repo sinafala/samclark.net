@@ -6,8 +6,137 @@ NOTES
 
 */
 
+/* Enlarge on big screens */
 
-/* Main */
+@media (min-width: 780px) {
+    body {
+        zoom: 1.5; /* Apply a 150% zoom on desktop */
+        /* Alternatively, adjust specific element sizes */
+        /*font-size: 18px; /* Larger font size on desktop */*/
+    }
+}
+
+/* High-level formatting */
+
+html {
+  background-color: white;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif; 
+  overflow-y: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0; 
+}
+
+html, body {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  height: 100%;
+}
+
+
+/* Flex box setup for header/main/footer */
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 600px;
+  height: 100%;
+  min-height: 100wh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+header {
+  flex-shrink: 0;
+  /*background-color: white;*/
+}
+
+main {
+  flex-grow: 1;
+  overflow: auto;
+  min-height: 100px;
+}
+
+footer {
+  flex-shrink: 0;
+  /*background-color: white;*/
+}  
+
+
+/* Title 2-column row */
+
+* {
+  box-sizing: border-box;
+}
+
+.row-title {
+  display: flex;
+  max-width: 575px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.column-left-title {
+  flex: 50%;
+  padding: 3px;
+}
+
+.column-right-title {
+  flex: 50%;
+  padding: 3px;
+  margin-right: 7px;
+}
+
+.row-index {
+  display: flex;
+  max-width: 575px;
+  /*margin-top: 2px;*/
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.column-left-index {
+  flex: 25%;
+  padding: 5px;
+  text-align: left;
+  margin-right: 5px;
+  /*margin-left: 2px;*/
+}
+
+.column-right-index {
+  flex: 75%;
+  padding: 5px;
+  /*margin-right: 6px;*/
+  margin-left: 5px;
+  text-align: left;
+}
+
+.row-people {
+  display: flex;
+  max-width: 575px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.column-left-people {
+  flex: 25%;
+  padding: 3px;
+}
+
+.column-right-people {
+  flex: 75%;
+  padding: 3px;
+  margin-right: 7px;
+}
+
+
+/* Misc */
 
 p.sam-quote {
   margin-left:5%; 
@@ -22,95 +151,48 @@ p.center {
   text-align: center;
 }
 
-html {
-  background-color: white;
-} 
-
-div.header {
-  position: fixed; 
-
-  height: 95px; /* TOP */
-  top: 0px; 
-  right: 0px;
-  left: 0px; 
-
-  max-width: 600px;
-  margin: 0 auto;
-
-  overflow: hidden;
-  margin-top: 5px;
-  z-index: 500;
-
-  background-color: white;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-div.content {
-  position: absolute; 
-
-  top: 95px; /* TOP */
-  right: 0px; 
-  bottom: 45px; /* BOTTOM */
-  left: 0px; 
-  
-  max-width: 600px;
-  margin: 0 auto;
-
-  overflow: auto;
-  overflow-x: hidden;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 0px 10px 0px 10px;
-
-  background-color: white; 
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-div.footer {
-  position: fixed; 
-
-  height:45px; /* BOTTOM */
-  right:0px; 
-  bottom:0px; 
-  left:0px; 
-  
-  max-width: 600px;
-  margin: 0 auto;
-
-  overflow: hidden;
-  margin-top: 20px;
-/*  margin-bottom: 3px;*/
-  z-index: 500;
-
-  background-color: white;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
 div.sam-title {
-  max-width: 550px;
+  max-width: 575px;
   margin: 0 auto;
   font-size: 22px;
   line-height: 30px;
   text-align: center;
-  padding: 10px;
+  padding: 10px 0px 3px 0px;
+}
+
+div.sam-title-short {
+  max-width: 575px;
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  padding: 8px 0px 0px 0px;
 }
 
 div.sam-block {
-  max-width: 550px; 
+  max-width: 575px; 
   margin: 0 auto; 
   font-size: 13px;
   line-height: 15px;
 }
 
+div.sam-bold-block {
+  max-width: 575px; 
+  margin: 0 auto; 
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 15px;
+}
+
 div.sam-block-index {
-  max-width: 550px; 
+  max-width: 585px; 
   margin: 0 auto; 
   font-size: 13px;
-  line-height: 25px;
+  margin-bottom: 10px;
 }
 
 div.sam-block-padded {
-  max-width: 550px; 
+  max-width: 575px; 
   margin: 0 auto; 
   font-size: 13px;
   line-height: 15px;
@@ -118,7 +200,7 @@ div.sam-block-padded {
 }
 
 div.sam-centered-block {
-  max-width: 550px; 
+  max-width: 575px; 
   margin: 0 auto; 
   font-size: 13px;
   line-height: 15px;
@@ -135,10 +217,18 @@ div.sam-note-bottom {
   font-size: 9px;
   line-height: 12px; 
   text-align: center;
-  padding: 3px 0px 2px 0px
+  padding: 0px 0px 3px 0px
+}
+
+div.sam-note-top {
+  font-size: 9px;
+  line-height: 12px; 
+  text-align: center;
+  padding: 0px 0px 10px 0px
 }
 
 p {
+  font-size: 12px;
   margin-top: 4px;
   margin-bottom: 6px;
 }
@@ -187,7 +277,7 @@ div.sam-links-list {
   font-size: 14px;
   line-height: 1.7;  
   text-align: center;
-  max-width: 550px;
+  max-width: 575px;
   padding: 6px 0px 6px 0px;;
 }
 
@@ -196,19 +286,19 @@ div.sam-links-list-short {
   font-size: 14px;
   line-height: 1.3;  
   text-align: center;
-  max-width: 550px;
+  max-width: 575px;
   padding: 6px 0px 6px 0px;;
 }
 
 div.sam-link-top {
-  max-width: 550px;
+  max-width: 575px;
   margin: 0 auto; 
   line-height: 15px;
   padding: 12px 0px 0px 0px;
 }
 
 div.sam-link-bottom {
-  max-width: 550px;
+  max-width: 575px;
   margin: 0 auto; 
   line-height: 15px;
   padding: 0px 0px 0px 0px;
@@ -217,35 +307,63 @@ div.sam-link-bottom {
 
 /* Image */
 
-div.sam-image { 
-  max-width: 550px; 
-  margin: 0 auto; 
-  font-size: 13px;
-  text-align: center;
-  line-height: 15px;
-  font-weight: bold;
-  padding: 6px 0px 6px 0px;
-}
-
-img.sam {
+.image-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-/*  max-width: 50%;
-  height: auto;*/
-  border: 4px solid black;
+  margin-top: 10px;
+  width: 40%;
+}
+
+div.sam-image { 
+  font-size: 12px;
+  padding: 4px 0px 4px 0px; 
+}
+
+img.badge {
+  max-width: 100%;
+  height: 15px;
+  vertical-align: middle;
+  padding-bottom: 2px;
 }
 
 img.mtb {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 5px 0px 5px 0px;
+  padding: 6px 0px 6px 0px;
   max-width: 100%;
   height: auto;
 }
 
+img.sam-index {
+  display: block;
+  float: right;
+  border: 2px solid black;
+}
+
+img.sam-plain {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.sam-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95px; 
+}
+
+img.sam-people {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100px; 
+}
+
 video.mtb {
+  font-size: 12px;
   width: 100%; 
   height: auto;
   padding: 5px 0px 5px 0px;
@@ -297,7 +415,7 @@ hr.subnav-top {
   margin-top: 20px; 
   margin-bottom: 0px;
   border: 0.5px solid black;
-  max-width: 550px;
+  max-width: 575px;
   text-align:center;;
 }
 
@@ -305,7 +423,7 @@ hr.subnav-toptop {
   margin-top: 7px; 
   margin-bottom: 0px;
   border: 0.5px solid black;
-  max-width: 550px;
+  max-width: 575px;
   text-align:center;;
 }
 
@@ -313,12 +431,18 @@ hr.subnav-bottom {
   margin-top: 0px; 
   margin-bottom: 18px;
   border: 0.5px solid black;
-  max-width: 550px;
+  max-width: 575px;
   text-align:center;;
 }
 
 
 /* Headings */
+
+h1.index {
+  margin-top: 5px;
+  margin-bottom: 10px; 
+  font-size: 15px;
+}
 
 h1 {
   margin-top: 14px;
@@ -370,8 +494,6 @@ p.bibliography {
 }
 
 font.author {
-/*  color: #CC0000;*/
-/*  color: #418318;*/
   color: green;
 }
 
@@ -403,10 +525,10 @@ a:active{
   display: inline-block;
   color: #0000A0;
   text-align: center;
-  padding: 2px 8px 2px 8px;
+  padding: 3px 6px 3px 6px;
   text-decoration: none;
-  font-size: 13px;
-  border-radius: 3px;
+  font-size: 15px;
+  border-radius: 2px;
   font-weight: bold;
 }
 
@@ -423,13 +545,73 @@ a:active{
   justify-content: center;
 }
 
-/*<div class="pill-nav flex-parent jc-center">
-</div>*/
+/* Navbar */
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar*/
 
+.navbar {
+  overflow: hidden;
+  background-color: #0000A0;
+}
 
+.navbar a {
+  float: left;
+  /*font-size: 16px;*/
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  /*padding: 13px 16px;*/
+  padding: 8px 10px;
+  text-decoration: none;
+}
 
-/* Images */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
 
+.dropdown .dropbtn {
+  /*font-size: 16px;  */
+  font-weight: bold;
+  font-size: 13px;  
+  border: none;
+  outline: none;
+  color: white;
+  /*padding: 13px 16px;*/
+  padding: 8px 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
 
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+}
 
-/* Misc */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  /*padding: 12px 16px;*/
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+

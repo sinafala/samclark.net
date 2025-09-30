@@ -12,51 +12,122 @@
 
 <body>
 
-<div class="header">
-<!--#include virtual="/site/includes/nav-links-top.shtml" -->
-<div class="sam-title">
-  Links
+<div class="container">
+
+  <header>
+    <!--#include virtual="/site/includes/nav-links-top.shtml" -->
+    <div class="sam-title">
+      Contacts/Links
+    </div>
+  </header>
+
+
+<main>
+
+
+  <div class="sam-block">
+
+    <h1>Contact</h1>
+
+      <p>
+        I am deluged with incoming messages on multiple channels! So,
+      </p>
+      <p>
+        <ul>
+          <li>
+            I don't obsessively check electronic messaging services,
+          </li>
+          <li>
+            I often ignore electronic messages so that I can stay focused on whatever I'm doing,
+          </li>
+          <li>
+            on a daily basis, I only interact with email and texts, and even then, I cannot keep up and leave many messages unread, and finally
+          </li>
+          <li>
+            if you want to use something else, Whatsapp is the only other option, and I rarely look at it and have all notifications turned off.
+          </li>
+        </ul>
+      </p>
+      <p>
+        So, there's a good chance I will miss or triage your message! 
+      </p>
+      <p>
+        <b>If you really want to get my attention, text me, or better yet, <u>call me</u>.</b>
+      </p>
+
+      <h1>Links</h1>
+
+      <h2>Publications</h2>
+
+      <ul>
+        <li>
+          <a href="/site/pages/bibliography.shtml" target="_parent">Bibliography with Links</a>
+        </li>
+        <li>
+          <a href="mailto:sam@samclark.net?subject=Offprint&nbsp;request">Request Offprints</a>
+        </li>
+      </ul>
+
+      <h2>Bibliographies</h2>
+
+      <ul>
+        <li>
+          <a href="https://scholar.google.com/citations?hl=en&user=UrIBW-IAAAAJ" target="_blank">Google Scholar</a>
+        </li>
+        <li>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/?term=(clark%2C%20samuel%20j%5BAuthor%5D)%20AND%20((ohio%5BAffiliation%5D)%20OR%20(washington%5BAffiliation%5D)%20OR%20(colorado%5BAffiliation%5D))&sort=&page=5" target="_blank">Pubmed</a>
+        </li>
+        <!-- <a href="https://www.webofscience.com/wos/author/rid/A-8419-2009" target="_blank">Web of Science Publons</a><br> -->
+        <li>
+          <a href="https://www.ncbi.nlm.nih.gov/sites/myncbi/samuel.clark.1/bibliography/40790348/public/" target="_blank">NIH NCBI bibliography</a>
+        </li>
+        <li>
+          <a href="https://orcid.org/0000-0002-4929-6231" target="_blank">ORCID</a>
+        </li>
+      </ul>
+
+      <h2>Electronic Platforms</h2>
+
+      <ul>
+        <li>
+          <a href="https://github.com/sinafala/" target="_blank">Github: sinafala</a>
+        </li>
+        <li>
+          <a href="https://bsky.app/profile/samclark.net" target="_blank">Bluesky: @samclark.net</a>
+        </li>
+        <li>
+          <a href="mailto:sam@samclark.net?subject=From&nbsp;samclark.net">sam /at/ samclark.net</a>
+        </li>
+        <li>
+          <a href="https://sociology.osu.edu/people/clark.2962" target="_blank">OSU Sociology Page</a>
+        </li>
+      </ul>
+
+      <h2>openVA</h2>
+
+      <ul>
+        <li>
+          <a href="https://openva.net" target="_blank">openVA Team</a>
+        </li>
+      </ul>
+
+      <h2>Scientific Writing</h2>
+      <ul>
+        <li>
+          <a href="https://samclark.net/site/pages/news.shtml#2024-03-26" target="_blank">Resources for Scientific Writing, Presentations, and Curation of Data and Code</a>
+        </li>
+      </ul>
+
+    </div>
+
+
+  </main>
+
+
+  <footer>
+    <!--#include virtual="/site/includes/bottom.shtml" -->
+  </footer>
+
 </div>
-</div>
-
-<div class="content">
-
-
-<div class="sam-links-list">
-<a href="/site/pages/bibliography.shtml" target="_parent">Bibliography with Links</a><br>
-<a href="mailto:sam@samclark.net?subject=Offprint&nbsp;request">Request Offprints</a>
-</div>
-
-<div class="sam-links-list">
-<a href="https://scholar.google.com/citations?hl=en&user=UrIBW-IAAAAJ" target="_blank">Google Scholar</a><br>
-<a href="https://pubmed.ncbi.nlm.nih.gov/?term=(clark%2C%20samuel%20j%5BAuthor%5D)%20AND%20((ohio%5BAffiliation%5D)%20OR%20(washington%5BAffiliation%5D)%20OR%20(colorado%5BAffiliation%5D))&sort=&page=5" target="_blank">Pubmed</a><br>
-<!-- <a href="https://www.webofscience.com/wos/author/rid/A-8419-2009" target="_blank">Web of Science Publons</a><br> -->
-<a href="https://www.ncbi.nlm.nih.gov/sites/myncbi/samuel.clark.1/bibliography/40790348/public/" target="_blank">NIH NCBI bibliography</a><br>
-<a href="https://orcid.org/0000-0002-4929-6231" target="_blank">ORCID</a>
-</div>
-
-<div class="sam-links-list">
-<a href="https://github.com/sinafala/" target="_blank">Github: sinafala</a><br>
-<!-- <a href="https://twitter.com/sinafala" target="_blank">Twitter: @sinafala</a><br> -->
-<a href="https://bsky.app/profile/samclark.net" target="_blank">Bluesky: @samclark.net</a><br>
-<a href="mailto:sam@samclark.net?subject=From&nbsp;samclark.net">sam /at/ samclark.net</a><br>
-<a href="https://sociology.osu.edu/people/clark.2962" target="_blank">OSU Sociology Page</a>
-</div>
-
-<div class="sam-links-list">
-<a href="https://openva.net" target="_blank">openVA Team</a><br>
-</div>
-
-<div class="sam-links-list-short">
-<a href="https://samclark.net/site/pages/news.shtml#2024-03-26" target="_blank">Resources for Scientific<br>Writing, Presentations, and<br>Curation of Data and Code</a><br>
-</div>
-
-</div>
-
-<div class="footer">
-<!--#include virtual="/site/includes/bottom.shtml" -->
-</div>
-
 </body>
-
 </html>

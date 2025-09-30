@@ -12,51 +12,60 @@
 
 <body>
 
-<div class="header">
-<!--#include virtual="/site/includes/nav-links-top.shtml" -->
-<div class="sam-title">
-  Orphan Mortality
+<div class="container">
+
+  <header>
+    <!--#include virtual="/site/includes/nav-links-top.shtml" -->
+    <div class="sam-title">
+      Orphan Mortality
+    </div>
+  </header>
+
+    
+  <main>
+
+
+    <div class="sam-block">
+
+      <h1>Background</h1> 
+
+      <p>
+        During the height of the HIV epidemic in East and Southern Africa - before effective treatments were widely available - a very unusual situation existed. Because HIV is a sexually transmitted infection, it often affected both parents in a household, thereby correlating their risk of dying - making it much more likely than usual that young children could suffer the loss of both parents within a short period of time and become dual orphans. For some time there was a great deal of concern about this, and although reality turned out to be slightly less shocking than predicted, the number of single and dual orphans created by the HIV epidemic is staggering. 
+      </p>
+
+      <h1>Orphan Mortality</h1>
+
+      <p>
+        Health and demographic surveillance system (HDSS) data provide robust links between mothers and children and vital dates for both. The links between children and fathers is less robust. Taking advantage of this I investigated the effect of losing their mother on the survival of young children, and with colleagues - <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian Houle</a> in particular - published several papers on this. Brian has taken up this project and continues to produce interesting new results.
+      </p>
+      <ul>
+        <li>
+          <a href="https://dx.doi.org/10.1371/journal.pmed.1001409" target="_blank">Young Children’s Probability of Dying Before and After Their Mother’s Death: A Rural South African Population- Based Surveillance Study</a>
+        </li>        
+        <li>
+          <a href="http://dx.doi.org/10.1186/1742-4755-12-S1-S7" target="_blank">The impacts of maternal mortality and cause of death on children’s risk of dying in rural South Africa: evidence from a population based surveillance study (1992-2013)</a>
+        </li>        
+        <li>
+          Forthcoming: Houle, B., C. Kabudula, A. Stein, D. Gareta, K. Herbst, and S. J. CLARK (2021 in press). Linking The Timing Of A Mother's And Child's Death: Comparative Evidence From Two Rural South African Population-based Surveillance Studies, 2000 - 2015.
+        </li>
+      </ul> 
+
+      <h1>Key Finding and Recommendation</h1>
+
+      <p>
+        The main finding of this work is that <i>the greatest risk for young children is in the period of time immediately preceding their mother's death</i>. This knowledge leads to the possibility of a simple intervention with a high likelihood of being effective - when a parent of young children falls gravely ill, ensure that adequate child care is being provided during the illness and in case the parent dies. Moreover, this finding should be widely generalizable to circumstances less dramatic than an untreated HIV epidemic.
+      </p>
+
+    </div>
+
+
+  </main>
+
+
+  <footer>
+    <!--#include virtual="/site/includes/bottom.shtml" -->
+  </footer>
+
 </div>
-</div>
-
-<div class="content">
-
-<div class="sam-block">
-
-<h1>Background</h1> 
-
-<p>
-  During the height of the HIV epidemic in East and Southern Africa - before effective treatments were widely available - a very unusual situation existed. Because HIV is a sexually transmitted infection, it often affected both parents in a household, thereby correlating their risk of dying - making it much more likely than usual that young children could suffer the loss of both parents within a short period of time and become dual orphans. For some time there was a great deal of concern about this, and although reality turned out to be slightly less shocking than predicted, the number of single and dual orphans created by the HIV epidemic is staggering. 
-</p>
-
-<h1>Orphan Mortality</h1>
-
-<p>
-  Health and demographic surveillance system (HDSS) data provide robust links between mothers and children and vital dates for both. The links between children and fathers is less robust. Taking advantage of this I investigated the effect of losing their mother on the survival of young children, and with colleagues - <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian Houle</a> in particular - published several papers on this. Brian has taken up this project and continues to produce interesting new results.
-</p>
-
-<ul>
-  <li><a href="https://dx.doi.org/10.1371/journal.pmed.1001409" target="_blank">Young Children’s Probability of Dying Before and After Their Mother’s Death: A Rural South African Population- Based Surveillance Study</a></li>
-  
-  <li><a href="http://dx.doi.org/10.1186/1742-4755-12-S1-S7" target="_blank">The impacts of maternal mortality and cause of death on children’s risk of dying in rural South Africa: evidence from a population based surveillance study (1992-2013)</a></li>
-  
-  <li>Forthcoming: Houle, B., C. Kabudula, A. Stein, D. Gareta, K. Herbst, and S. J. CLARK (2021 in press). Linking The Timing Of A Mother's And Child's Death: Comparative Evidence From Two Rural South African Population-based Surveillance Studies, 2000 - 2015.</li>
-</ul> 
-
-<h1>Key Finding and Recommendation</h1>
-
-<p>
-  The main finding of this work is that <i>the greatest risk for young children is in the period of time immediately preceding their mother's death</i>. This knowledge leads to the possibility of a simple intervention with a high likelihood of being effective - when a parent of young children falls gravely ill, ensure that adequate child care is being provided during the illness and in case the parent dies. Moreover, this finding should be widely generalizable to circumstances less dramatic than an untreated HIV epidemic.
-</p>
-
-</div>
-
-</div>
-
-<div class="footer">
-<!--#include virtual="/site/includes/bottom.shtml" -->
-</div>
-
 </body>
-
 </html>

@@ -12,39 +12,51 @@
 
 <body>
 
-<div class="header">
-<!--#include virtual="/site/includes/nav-links-top.shtml" -->
-<div class="sam-title">
-  ### Study Name
+<div class="container">
+
+  <header>
+    <!--#include virtual="/site/includes/nav-links-top.shtml" -->
+    <div class="sam-title">
+      ### Study Name
+    </div>
+  </header>
+
+    
+  <main>
+
+
+    <div class="sam-block">
+
+      <p>
+        #### This is ...
+      </p>
+
+      <p>
+        #### Here are some links
+      </p>
+
+      <ul>
+        <li>
+          <a href="/site/cv/pdfs/.pdf" target="_blank">XXX</a>
+        </li>
+        <li>
+          <a href="/site/cv/pdfs/.pdf" target="_blank">XXX</a>
+        </li>
+        <li>
+          <a href="/site/cv/pdfs/.pdf" target="_blank">XXX</a>
+        </li>
+      </ul> 
+
+    </div>
+
+
+  </main>
+
+
+  <footer>
+    <!--#include virtual="/site/includes/bottom.shtml" -->
+  </footer>
+
 </div>
-</div>
-
-<div class="content">
-
-<div class="sam-block">
-
-<p>
-  #### This is ...
-</p>
-
-<p>
-  #### Here are some links
-</p>
-
-<ul>
-  <li><a href="/site/cv/pdfs/.pdf" target="_blank">XXX</a></li>
-  <li><a href="/site/cv/pdfs/.pdf" target="_blank">XXX</a></li>
-  <li><a href="/site/cv/pdfs/.pdf" target="_blank">XXX</a></li>
-</ul> 
-
-</div>
-
-</div>
-
-<div class="footer">
-<!--#include virtual="/site/includes/bottom.shtml" -->
-</div>
-
 </body>
-
 </html>

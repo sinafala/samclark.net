@@ -12,93 +12,122 @@
 
 <body>
 
-<div class="header">
-<!--#include virtual="/site/includes/nav-links-top.shtml" -->
-<div class="sam-title">
-  Data Methods: SPEHR
+<div class="container">
+
+  <header>
+    <!--#include virtual="/site/includes/nav-links-top.shtml" -->
+    <div class="sam-title">
+      Data Methods: SPEHR
+    </div>
+  </header>
+
+    
+  <main>
+
+
+    <div class="sam-block">
+
+      <h1>Background</h1>
+
+      <p>
+        Early in my career I worked intensively with health and demographic surveillance system (HDSS) sites in Africa - particularly the <a href="https://www.agincourt.co.za" target="_blank">Agincourt</a> HDSS in South Africa, and often with Kobus Herbst who has been part of the senior leadership of the Africa Centre/Africa Health Research Institute <a href="https://www.ahri.org" target="_blank">(AHRI)</a> since its inception. At that time a group of us were keenly interested in improving the ability of HDSS sites to collect, check, manage, and analyze their data more efficiently and accurately.
+      </p>
+      <ul>
+        <li>
+          <a href="http://doi.org/10.1080/16549716.2021.1974676" target="_blank">Health and Demographic Surveillance Systems in Low- and Middle-income Countries: History, State of the Art and Future Prospects</a>
+        </li>
+      </ul>
+      <p>
+        The HDSS methodology keeps detailed, longitudinal records on everyone who lives within a specified geographic boundary. These records include individual-specific attributes, group-level attributes, and time-evolving links between individuals and groups, and <i>critically</i>, between any of these things and specific locations. The data are a <i>very</i> complex mixture of time, place, groups, and attributes. This makes quality-control, storage, manipulation, and analysis difficult. 
+      </p>
+      <p>
+        At its core, an HDSS database is a bi- or tri-temporal record-keeping system:
+      </p>
+      <ol>
+        <li>
+          time in the real work when things happen to people,
+        </li>
+        <li>
+          observation times and durations when the study was in a position to know the status of something, and
+        </li>
+        <li>
+          database transaction time - when something was known to the database.
+        </li>
+      </ol>
+      <p>
+        The way that data are organized in a computer can have strong effects on what can be done with the data and how easy or hard it is to:
+      </p>
+      <ul>
+        <li>
+          enforce quality-control constraints that ensure that the data are free from record-keeping errors and are consistent with each other,
+        </li>
+        <li>
+          extract data in a useful, human-readable form, and
+        </li>
+        <li>
+          do tempo-spatial arithmetic to figure out when and for how long things were true at given locations.
+        </li>
+      </ul>
+
+      <h1>The Structured Population Event History Register</h1>
+
+      <p>
+        Since at least the early 1990s, a small group - <a href="https://usm.maine.edu/directories/people/bruce-macleod/" target="_blank">Bruce MacLeod</a>, <a href="https://www.researchgate.net/profile/Justus_Benzler" target="_blank">Justus Benzler</a>, <a href="https://www.ahri.org/scientist/kobus-herbst/" target="_blank">Kobus Herbst</a>, and me - has been interested in designing data models, more specifically relational database schemas, to make storage, management, and analysis of HDSS as accurate and easy as possible. In the context of this effort, I designed the Structured Population Event History Register (SPEHR). SPEHR is a very flexible, metadata-driven relational database schema for HDSS. 
+      </p>
+
+      <h1>Unified Timestamp Timestamp with Explicit Precision</h1>
+
+      <p>
+        At around the same time Justus Benzler and I thought deeply about how to define a unified timestamp object that could handle all of the time-valued entities we encountered in HDSS, and also accurately represent the precision of measures associated with each of them.
+      </p>
+
+      <h2>Publications on SPEHR and and our generalized definition for a timestamp:</h2>
+
+      <ul>
+        <li>
+          <a href="https://dx.doi.org/10.1080/14034950701355452" target="_blank">An introduction to the General Temporal Data Model and the Structured Population Event History Register (SPEHR)</a>
+        </li>        
+        <li>
+          <a href="https://dx.doi.org/10.4054/DemRes.2006.15.7" target="_blank">A general temporal data model and the structured population event history register</a>
+        </li>       
+        <li>
+          <a href="/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf" target="_blank">Part 4 of my PhD Dissertation</a>
+        </li>        
+        <li>
+          <a href="https://dx.doi.org/10.4054/DemRes.2005.12.6" target="_blank">Toward a Unified Timestamp with explicit precision</a>
+        </li>
+      </ul> 
+
+      <h2>SPEHR description and example databases for download</h2>
+
+      <ul>
+        <li>
+          <a href="/site/misc/spehr/SPEHR.pdf" target="_blank">Description</a>
+        </li>
+        <li>
+          <a href="/site/misc/spehr/SPEHR-Joburg-Durban-2.0.mdb" target="_blank">Example Database 1</a>
+        </li>
+        <li>
+          <a href="/site/misc/spehr/SPEHR-London-NewYork-2.0.mdb" target="_blank">Example Database 2</a>
+        </li>
+        <li>
+          <a href="/site/misc/spehr/SPEHR-Merged-2.0.mdb" target="_blank">Example Database 3</a>
+        </li>
+        <li>
+          <a href="/site/misc/spehr/SPEHR-Repeated-Demographic-Survey-OR-Population-Register-2.0.mdb" target="_blank">Example Database 4</a>
+        </li>
+      </ul>
+
+    </div>
+
+
+  </main>
+
+
+  <footer>
+    <!--#include virtual="/site/includes/bottom.shtml" -->
+  </footer>
+
 </div>
-</div>
-
-<div class="content">
-
-<div class="sam-block">
-
-<h1>Background</h1>
-
-<p>
-  Early in my career I worked intensively with health and demographic surveillance system (HDSS) sites in Africa - particularly the <a href="https://www.agincourt.co.za" target="_blank">Agincourt</a> HDSS in South Africa, and often with Kobus Herbst who has been part of the senior leadership of the Africa Centre/Africa Health Research Institute <a href="https://www.ahri.org" target="_blank">(AHRI)</a> since its inception. At that time a group of us were keenly interested in improving the ability of HDSS sites to collect, check, manage, and analyze their data more efficiently and accurately.
-</p>
-
-<ul>
-  <li><a href="http://doi.org/10.1080/16549716.2021.1974676" target="_blank">Health and Demographic Surveillance Systems in Low- and Middle-income Countries: History, State of the Art and Future Prospects</a></li>
-</ul>
-
-<p>
-  The HDSS methodology keeps detailed, longitudinal records on everyone who lives within a specified geographic boundary. These records include individual-specific attributes, group-level attributes, and time-evolving links between individuals and groups, and <i>critically</i>, between any of these things and specific locations. The data are a <i>very</i> complex mixture of time, place, groups, and attributes. This makes quality-control, storage, manipulation, and analysis difficult. 
-</p>
-
-<p>
-  At its core, an HDSS database is a bi- or tri-temporal record-keeping system:
-</p>
-
-<ol>
-  <li>time in the real work when things happen to people,</li>
-  <li>observation times and durations when the study was in a position to know the status of something, and</li>
-  <li>database transaction time - when something was known to the database.</li>
-</ol>
-
-<p>
-  The way that data are organized in a computer can have strong effects on what can be done with the data and how easy or hard it is to:
-</p>
-
-<ul>
-  <li>enforce quality-control constraints that ensure that the data are free from record-keeping errors and are consistent with each other,</li>
-  <li>extract data in a useful, human-readable form, and</li>
-  <li>do tempo-spatial arithmetic to figure out when and for how long things were true at given locations.</li>
-</ul>
-
-<h1>The Structured Population Event History Register</h1>
-
-<p>
-  Since at least the early 1990s, a small group - <a href="https://usm.maine.edu/directories/people/bruce-macleod/" target="_blank">Bruce MacLeod</a>, <a href="https://www.researchgate.net/profile/Justus_Benzler" target="_blank">Justus Benzler</a>, <a href="https://www.ahri.org/scientist/kobus-herbst/" target="_blank">Kobus Herbst</a>, and me - has been interested in designing data models, more specifically relational database schemas, to make storage, management, and analysis of HDSS as accurate and easy as possible. In the context of this effort, I designed the Structured Population Event History Register (SPEHR). SPEHR is a very flexible, metadata-driven relational database schema for HDSS. 
-</p>
-
-<h1>Unified Timestamp Timestamp with Explicit Precision</h1>
-
-<p>
-  At around the same time Justus Benzler and I thought deeply about how to define a unified timestamp object that could handle all of the time-valued entities we encountered in HDSS, and also accurately represent the precision of measures associated with each of them.
-</p>
-
-<h2>Publications on SPEHR and and our generalized definition for a timestamp:</h2>
-
-<ul>
-  <li><a href="https://dx.doi.org/10.1080/14034950701355452" target="_blank">An introduction to the General Temporal Data Model and the Structured Population Event History Register (SPEHR)</a></li>
-  
-  <li><a href="https://dx.doi.org/10.4054/DemRes.2006.15.7" target="_blank">A general temporal data model and the structured population event history register</a></li> 
-  
-  <li><a href="/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf" target="_blank">Part 4 of my PhD Dissertation</a></li>
-  
-  <li><a href="https://dx.doi.org/10.4054/DemRes.2005.12.6" target="_blank">Toward a Unified Timestamp with explicit precision</a></li>
-</ul> 
-
-<h2>SPEHR description and example databases for download</h2>
-
-<ul>
-  <li><a href="/site/misc/spehr/SPEHR.pdf" target="_blank">Description</a></li>
-  <li><a href="/site/misc/spehr/SPEHR-Joburg-Durban-2.0.mdb" target="_blank">Example Database 1</a></li>
-  <li><a href="/site/misc/spehr/SPEHR-London-NewYork-2.0.mdb" target="_blank">Example Database 2</a></li>
-  <li><a href="/site/misc/spehr/SPEHR-Merged-2.0.mdb" target="_blank">Example Database 3</a></li>
-  <li><a href="/site/misc/spehr/SPEHR-Repeated-Demographic-Survey-OR-Population-Register-2.0.mdb" target="_blank">Example Database 4</a></li>
-</ul>
-
-</div>
-
-</div>
-
-<div class="footer">
-<!--#include virtual="/site/includes/bottom.shtml" -->
-</div>
-
 </body>
-
 </html>

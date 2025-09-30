@@ -12,1035 +12,1044 @@
 
 <body>
 
-<div class="header">
-<!--#include virtual="/site/includes/nav-links-top.shtml" -->
-<div class="sam-title">
-  Mountain Biking, Etc.
-</div>
-</div>
-
-<div class="content">
-
-<div id="beginning" class="sam-block">
-<p>
-  I have ridden mountain bikes for many years. Here are some recent highlights.
-</p>
-</div>
-
-
-
-<div class="sam-block-index">
-<h1 id="alum-ii-2024">Index
-<select name="index" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#beginning">Jump To</option>
-  <option value="#usa-2023">USA 2023</option>
-  <option value="#alum-ii-highlights">Alum II Trail Highlights</option>
-  <option value="#usa-2022">USA 2022</option>
-  <option value="#usa-2021">USA 2021</option>
-  <option value="#misc-mtb">Misc. MTB</option>
-  <option value="#heatmaps">Strava Heatmaps</option>
-  <option value="#beginning">Top &#x25B2;</option>    
-</select>
-</h1>
-</div>
-
-
-
-<div class="sam-block">
-<h1>Alum Creek II 2024 - After the Tornado</h1>
-<p>
-  I've ridden the Alum II trail near us hundreds of times over the past eight years, and it's been a wonderful thing to have nearby.
-</p>
-<p>
-  In March of 2024, a tornado came through the park that hosts the trail and blew over a large number of big trees. This totally obliterated the trail and required seven months of heavy volunteer labor and $23,000 of supplies to re-establish. <a href="https://www.combomtb.com" target="_blank">The Central Ohio Mountain Bike Organization</a> (COMBO) very efficiently and effectively coordinated the rebuild. We were in Brazil so we couldn't help, but we did make a couple donations. The result is fantastic! There are lots of pieces of the old trail, lots of new things, and much improvement in general, e.g. drainage is greatly augmented throughout. The new trail officially opened last weekend, but we've been riding it for a few weeks. The video below is <b>long</b>, but it documents the whole thing; fast-forward through it to get a flavor. There's a phone dropping incident a bit past the middle that I cut out into a short clip. The iPhone survived completely unharmed! I used Garmin's "find phone" feature on my watch to locate the phone after my music stopped coming over bluetooth about 30 yards up the trail.
-</p>
-</div>
-
-<!-- Alum II -->
-<div class="sam-image">
-<video controls preload="none" class="mtb">
-  <source src="/site/media/video/alum-II-2024.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-Alum Creek II MTB Trail 2024 - After the Tornado
-<a href="#alum-ii-2024" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- Alum II phone drop-->
-<div class="sam-image">
-<video controls preload="none" class="mtb">
-  <source src="/site/media/video/sam-runs-over-iphone.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-Sam Runs over iPhone with Mountain Bike
-<a href="#alum-ii-2024" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-
-<div class="sam-block-index">
-<h1 id="usa-2023">Index
-<select name="index" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#beginning">Jump To</option>
-  <option value="#alum-ii-2024">Alum II 2024 - After Tornado</option>
-  <option value="#alum-ii-highlights">Alum II Trail Highlights</option>
-  <option value="#usa-2022">USA 2022</option>
-  <option value="#usa-2021">USA 2021</option>
-  <option value="#misc-mtb">Misc. MTB</option>
-  <option value="#heatmaps">Strava Heatmaps</option>
-  <option value="#beginning">Top &#x25B2;</option>    
-</select>
-</h1>
-</div>
-
-
-
-<div class="sam-block">
-<h1>USA Trip 2023</h1>
-<p>
-  A daughter, son and I went on a trip to beautiful places around the Western USA to ride mountain bikes, hike, fish, kayak, and do other fun things: mainly Wyoming, California, Arizona, and Utah.
-</p>
-</div>
-
-<!-- 0 -->
-<!-- <div class="sam-image">
-<a href="/site/media/fullsize/sam-mtb-sedona.jpg" target="_blank">
-         <img class="mtb" title="Sam, Sedona, Arizona" src="/site/media/thumbs/sam-mtb-sedona.jpg"></a>
-Sam, Sedona, Arizona
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div> -->
-
-<!-- 5 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-5.jpg" target="_blank">
-         <img class="mtb" title="Lander, Wyoming" src="/site/media/thumbs/west-coast-mtb-2023-5.jpg"></a>
-Lander, Wyoming
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 11 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-11.jpg" target="_blank">
-         <img class="mtb" title="View from trail up Mt. Wilson, Altadena, California" src="/site/media/thumbs/west-coast-mtb-2023-11.jpg"></a>
-View from trail up Mt. Wilson, Altadena, California
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 12 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-12.jpg" target="_blank">
-         <img class="mtb" title="Saguaro cactus, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-12.jpg"></a>
-Saguaro cactus, Arizona
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 15 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-15.jpg" target="_blank">
-         <img class="mtb" title="Near Sedona, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-15.jpg"></a>
-Near Sedona, Arizona
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 16 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-16.jpg" target="_blank">
-         <img class="mtb" title="4x4 track, Sedona, Arizona " src="/site/media/thumbs/west-coast-mtb-2023-16.jpg"></a>
-4x4 track, Sedona, Arizona
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 17 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-17.jpg" target="_blank">
-         <img class="mtb" title="4x4 track, Sedona, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-17.jpg"></a>
-4x4 track, Sedona, Arizona
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 18 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-18.jpg" target="_blank">
-         <img class="mtb" title="Rain over MTB trail, Sedona, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-18.jpg"></a>
-Rain over MTB trail, Sedona, Arizona
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 20 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-20.jpg" target="_blank">
-         <img class="mtb" title="South Rim, Grand Canyon, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-20.jpg"></a>
-South Rim, Grand Canyon, Arizona
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 21 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-21.jpg" target="_blank">
-         <img class="mtb" title="Colorado River just south of Lee's Ferry, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-21.jpg"></a>
-Colorado River just south of Lee's Ferry, Arizona
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 23 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-23.jpg" target="_blank">
-         <img class="mtb" title="Full double rainbow on burn zone, Southern Utah" src="/site/media/thumbs/west-coast-mtb-2023-23.jpg"></a>
-Full double rainbow on burn zone, Southern Utah
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 25 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-25.jpg" target="_blank">
-         <img class="mtb" title="Bryce Canyon, Utah" src="/site/media/thumbs/west-coast-mtb-2023-25.jpg"></a>
-Bryce Canyon, Utah
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 26 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-26.jpg" target="_blank">
-         <img class="mtb" title="Raven over Grand Canyon, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-26.jpg"></a>
-Raven over Grand Canyon, Arizona
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 28 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-28.jpg" target="_blank">
-         <img class="mtb" title="Sam, Grand Canyon, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-28.jpg"></a>
-Sam, Grand Canyon, Arizona
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 30 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-30.jpg" target="_blank">
-         <img class="mtb" title="Oowah Lake, La Sal Mountains, Utah" src="/site/media/thumbs/west-coast-mtb-2023-30.jpg"></a>
-Oowah Lake, La Sal Mountains, Utah
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 31 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-31.jpg" target="_blank">
-         <img class="mtb" title="Trout dinner, Lake Oowah, La Sal Mountains, Utah" src="/site/media/thumbs/west-coast-mtb-2023-31.jpg"></a>
-Trout dinner, Lake Oowah, La Sal Mountains, Utah
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 32 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-32.jpg" target="_blank">
-         <img class="mtb" title="Sunrise over desert, Moab, Utah" src="/site/media/thumbs/west-coast-mtb-2023-32.jpg"></a>
-Sunrise over desert, Moab, Utah
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 34 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-34.jpg" target="_blank">
-         <img class="mtb" title="Navajo Rocks, Moab, Utah" src="/site/media/thumbs/west-coast-mtb-2023-34.jpg"></a>
-Navajo Rocks, Moab, Utah
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 36 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2023-36.jpg" target="_blank">
-         <img class="mtb" title="View over desert at sunrise, Moab, Utah" src="/site/media/thumbs/west-coast-mtb-2023-36.jpg"></a>
-View over desert at sunrise, Moab, Utah
-<a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<div class="sam-block">
-
-<h2>Overall summary of the trip:</h2>
-
-<ul class="sam">
-  <li>7,200 miles driven</li>
-  <li>States visited:</li>
-    <ul class="sam">
-      <li>Ohio</li>
-      <li>Indiana</li>
-      <li>Illinois</li>
-      <li>Wisconsin</li>
-      <li>Minnesota</li>
-      <li>South Dakota</li>
-      <li>Wyoming</li>
-      <li>Utah</li>
-      <li>Nevada</li>
-      <li>California</li>
-      <li>Arizona</li>
-      <li>Colorado</li>
-      <li>Nebraska</li>
-      <li>Missouri</li>
-    </ul>
-  <li>Google map: <a href="https://www.google.com/maps/d/edit?mid=1QqwxjxexoTB4wHX_pkWPgAmHZEzCpfE&usp=sharing" target="_blank">2023 West Coast Trip Map</a></li>
-</ul>
-
-</div>
-
-
-
-<div class="sam-block-index">
-<h1 id="alum-ii-highlights">Index
-<select name="index" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#beginning">Jump To</option>
-  <option value="#alum-ii-2024">Alum II 2024 - After Tornado</option>
-  <option value="#usa-2023">USA 2023</option>
-  <option value="#usa-2022">USA 2022</option>
-  <option value="#usa-2021">USA 2021</option>
-  <option value="#misc-mtb">Misc. MTB</option>
-  <option value="#heatmaps">Strava Heatmaps</option>
-  <option value="#beginning">Top &#x25B2;</option>    
-</select>
-</h1>
-</div>
-
-
-
-<div class="sam-block">
-<h1>Alum Creek II MTB Trail - Highlights</h1>
-<p>
-  Here's a 9-minute highlight reel from the Alum Creek II trail that I ride about 100 times per year.
-</p>
-</div>
-
-<!-- Alum II -->
-<div class="sam-image">
-<video controls preload="none" class="mtb">
-  <source src="/site/media/video/alum-creek-II-highlights-spring-2023.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-Alum Creek II MTB Trail Highlights, Spring 2023
-<a href="#alum-ii-highlights" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-
-
-<div class="sam-block-index">
-<h1 id="usa-2022">Index
-<select name="index" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#beginning">Jump To</option>
-  <option value="#alum-ii-2024">Alum II 2024 - After Tornado</option>
-  <option value="#usa-2023">USA 2023</option>
-  <option value="#alum-ii-highlights">Alum II Trail Highlights</option>
-  <option value="#usa-2021">USA 2021</option>
-  <option value="#misc-mtb">Misc. MTB</option>
-  <option value="#heatmaps">Strava Heatmaps</option>
-  <option value="#beginning">Top &#x25B2;</option>    
-</select>
-</h1>
-</div>
-
-
-
-<div class="sam-block">
-<h1>USA/BR/AR Trips 2022</h1>
-<p>
-  My son and I went on a trip to beautiful places around the Western USA to ride mountain bikes, hike, raft, and fish: Colorado, Utah, Arizona. He, his mother, and I also went to Brazil and Argentina.
-</p>
-</div>
-
-<!-- 1 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-1.jpg" target="_blank">
-         <img class="mtb" title="Twin Buttes Trail, Durango Colorado" src="/site/media/thumbs/west-coast-mtb-2022-1.jpg"></a>
-Twin Buttes Trail, Durango Colorado
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 2 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-2.jpg" target="_blank">
-         <img class="mtb" title="Cabin in Hesperus, Colorado" src="/site/media/thumbs/west-coast-mtb-2022-2.jpg"></a>
-Cabin in Hesperus, Colorado
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 3 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-3.jpg" target="_blank">
-         <img class="mtb" title="Durango-Silverton Steam Train, Colorado" src="/site/media/thumbs/west-coast-mtb-2022-3.jpg"></a>
-Durango-Silverton Steam Train, Colorado
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 4 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-4.jpg" target="_blank">
-         <img class="mtb" title="4-wheel-drive Trail, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-4.jpg"></a>
-4-wheel-drive Trail, Moab Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 6 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-6.jpg" target="_blank">
-         <img class="mtb" title="Klondike Bluffs Trails, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-6.jpg"></a>
-Klondike Bluffs Trails, Moab Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 7 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-7.jpg" target="_blank">
-         <img class="mtb" title="Navajo Rocks Trails, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-7.jpg"></a>
-Navajo Rocks Trails, Moab Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 8 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-8.jpg" target="_blank">
-         <img class="mtb" title="Columbine Lake, Silverton Colorado" src="/site/media/thumbs/west-coast-mtb-2022-8.jpg"></a>
-Columbine Lake, Silverton Colorado (View 1)
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 9 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-9.jpg" target="_blank">
-         <img class="mtb" title="Columbine Lake, Silverton Colorado" src="/site/media/thumbs/west-coast-mtb-2022-9.jpg"></a>
-Columbine Lake, Silverton Colorado (View 2)
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 10 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-10.jpg" target="_blank">
-         <img class="mtb" title="Cottonwood Lake, Buena Vista Colorado" src="/site/media/thumbs/west-coast-mtb-2022-10.jpg"></a>
-Cottonwood Lake, Buena Vista Colorado
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 11 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-11.jpg" target="_blank">
-         <img class="mtb" title="On-the-path to Columbine Lake, Silverton Colorado" src="/site/media/thumbs/west-coast-mtb-2022-11.jpg"></a>
-On-the-path to Columbine Lake, Silverton Colorado
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 12 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-12.jpg" target="_blank">
-         <img class="mtb" title="Navajo Rocks Trail, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-12.jpg"></a>
-Navajo Rocks Trail, Moab Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 13 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-13.jpg" target="_blank">
-         <img class="mtb" title="On-the-path to Columbine Lake, Silverton Colorado" src="/site/media/thumbs/west-coast-mtb-2022-13.jpg"></a>
-On-the-path to Columbine Lake, Silverton Colorado
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 14 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-14.jpg" target="_blank">
-         <img class="mtb" title="Afternoon's Catch at Oowah Lake, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-14.jpg"></a>
-Afternoon's Catch at Oowah Lake, Moab Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 15 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-15.jpg" target="_blank">
-         <img class="mtb" title="Moon over Sunrise, Navajo Rocks Trail, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-15.jpg"></a>
-Moon over Sunrise, Navajo Rocks Trail, Moab Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 16 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-16.jpg" target="_blank">
-         <img class="mtb" title="On-the-way to Durango, Colorado" src="/site/media/thumbs/west-coast-mtb-2022-16.jpg"></a>
-On-the-way to Durango, Colorado
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 17 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-17.jpg" target="_blank">
-         <img class="mtb" title="'Money' Trails, Black Hawk, Colorado" src="/site/media/thumbs/west-coast-mtb-2022-17.jpg"></a>
-'Money' Trails, Black Hawk, Colorado
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 18 -->
-<!-- <div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-18.jpg" target="_blank">
-         <img class="mtb" title="Columbine Lake, Silverton Colorado" src="/site/media/thumbs/west-coast-mtb-2022-18.jpg"></a>
-Navajo Rocks Trail, Moab Utah
-</div>
- -->
-<!-- 19 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-19.jpg" target="_blank">
-         <img class="mtb" title="4-wheel-drive Trail, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-19.jpg"></a>
-4-wheel-drive Trail, Moab Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 20 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-20.jpg" target="_blank">
-         <img class="mtb" title="Klondike Bluffs Trail, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-20.jpg"></a>
-Klondike Bluffs Trail, Moab Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 21 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-21.jpg" target="_blank">
-         <img class="mtb" title="n-the-way-back from Columbine Lake, Silverton Colorado" src="/site/media/thumbs/west-coast-mtb-2022-21.jpg"></a>
-On-the-way-back from Columbine Lake, Silverton Colorado
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 22 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-22.jpg" target="_blank">
-         <img class="mtb" title="Sunset, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-22.jpg"></a>
-Sunset, Moab Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 23 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-23.jpg" target="_blank">
-         <img class="mtb" title="On-the-way-back from Columbine Lake, Silverton Colorado" src="/site/media/thumbs/west-coast-mtb-2022-23.jpg"></a>
-On-the-way-back from Columbine Lake, Silverton Colorado
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 24 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-24.jpg" target="_blank">
-         <img class="mtb" title="Cactus Flower with Bees, Hesperus Colorado" src="/site/media/thumbs/west-coast-mtb-2022-24.jpg"></a>
-Cactus Flower with Bees, Hesperus Colorado
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
+<div class="container">
+
+  <header>
+    <!--#include virtual="/site/includes/nav-links-top.shtml" -->
+
+    <div class="sam-title">
+      Mountain Biking, Etc.
+    </div>
+
+    <div class="sam-block-index">  
+      <h1>Index
+      <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
+        <option>Jump To</option>
+        <option value="#beginning">Top</option>
+        <option value="#alum-i-2025">Alum Creek I 2025</option>
+        <option value="#alum-ii-2024">Alum Creek II 2024 - Tornado</option>
+        <option value="#usa-2023">USA 2023</option>
+        <option value="#alum-ii-highlights">Alum II Trail Highlights</option>
+        <option value="#usa-2022">USA 2022</option>
+        <option value="#usa-2021">USA 2021</option>
+        <option value="#misc-mtb">Misc. MTB</option>
+        <option value="#heatmaps">Strava Heatmaps</option>
+      </select>
+      </h1>
+    </div>
+
+  </header>
+
+    
+  <main>
+
+
+    <div class="sam-block">
+
+      <!--  -->
+      <!-- Beginning  -->
+      <!--  -->      
+      <h1 id="beginning">Mountain Biking and Related Topics!</h1>
+
+      <p>
+        I have ridden mountain bikes for many years. Here are some recent highlights.
+      </p>
+
+      <h1 id="alum-i-2025">Alum Creek I 2025  <a href="#beginning" style="font-weight:normal">&#x25B2;</a></h1>
+
+      <p>
+        Here's a quick (2x speed) highlight reel from the Alum I mountain bike trail. This is my first real ride after major knee surgery on January 6, 2025. I went slow and gently and everything worked as it should! This is a huge milestone given that it's taken about six months to (mostly) recover.
+      </p>
+
+      <div class="sam-image">
+        <video controls preload="none" class="mtb">
+          <source src="/site/media/video/alum-I.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        Alum Creek I MTB Trail 2025
+        <a href="#alum-i-2025" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+
+
+
+      <!--  -->
+      <!-- Alum II 2024 -->
+      <!--  -->
+      <h1 id="alum-ii-2024">Alum Creek II 2024 - After the Tornado  <a href="#beginning" style="font-weight:normal">&#x25B2;</a></h1>
+
+      <p>
+        I've ridden the Alum II trail near us hundreds of times over the past eight years, and it's been a wonderful thing to have nearby.
+      </p>
+      <p>
+        In March of 2024, a tornado came through the park that hosts the trail and blew over a large number of big trees. This totally obliterated the trail and required seven months of heavy volunteer labor and $23,000 of supplies to re-establish. <a href="https://www.combomtb.com" target="_blank">The Central Ohio Mountain Bike Organization</a> (COMBO) very efficiently and effectively coordinated the rebuild. We were in Brazil so we couldn't help, but we did make a couple donations. The result is fantastic! There are lots of pieces of the old trail, lots of new things, and much improvement in general, e.g. drainage is greatly augmented throughout. The new trail officially opened last weekend, but we've been riding it for a few weeks. The video below is <b>long</b>, but it documents the whole thing; fast-forward through it to get a flavor. There's a phone dropping incident a bit past the middle that I cut out into a short clip. The iPhone survived completely unharmed! I used Garmin's "find phone" feature on my watch to locate the phone after my music stopped coming over bluetooth about 30 yards up the trail.
+      </p>
+        
+      <div class="sam-image">
+        <video controls preload="none" class="mtb">
+          <source src="/site/media/video/alum-II-2024.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        Alum Creek II MTB Trail 2024 - After the Tornado
+        <a href="#alum-ii-2024" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <div class="sam-image">
+        <video controls preload="none" class="mtb">
+          <source src="/site/media/video/sam-runs-over-iphone.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        Sam Runs over iPhone with Mountain Bike
+        <a href="#alum-ii-2024" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+
+
+
+      <!--  -->
+      <!-- USA 2023 -->
+      <!--  -->
+      <h1 id="usa-2023">USA Trip 2023  <a href="#beginning" style="font-weight:normal">&#x25B2;</a></h1>
+      
+      <p>
+        A daughter, son and I went on a trip to beautiful places around the Western USA to ride mountain bikes, hike, fish, kayak, and do other fun things: mainly Wyoming, California, Arizona, and Utah.
+      </p>
+
+      <!-- 5 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-5.jpg" target="_blank">
+          <img class="mtb" title="Lander, Wyoming" src="/site/media/thumbs/west-coast-mtb-2023-5.jpg"></a>
+        Lander, Wyoming
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 11 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-11.jpg" target="_blank">
+          <img class="mtb" title="View from trail up Mt. Wilson, Altadena, California" src="/site/media/thumbs/west-coast-mtb-2023-11.jpg"></a>
+        View from trail up Mt. Wilson, Altadena, California
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 12 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-12.jpg" target="_blank">
+          <img class="mtb" title="Saguaro cactus, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-12.jpg"></a>
+        Saguaro cactus, Arizona
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 15 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-15.jpg" target="_blank">
+          <img class="mtb" title="Near Sedona, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-15.jpg"></a>
+        Near Sedona, Arizona
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 16 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-16.jpg" target="_blank">
+          <img class="mtb" title="4x4 track, Sedona, Arizona " src="/site/media/thumbs/west-coast-mtb-2023-16.jpg"></a>
+        4x4 track, Sedona, Arizona
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 17 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-17.jpg" target="_blank">
+          <img class="mtb" title="4x4 track, Sedona, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-17.jpg"></a>
+        4x4 track, Sedona, Arizona
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 18 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-18.jpg" target="_blank">
+          <img class="mtb" title="Rain over MTB trail, Sedona, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-18.jpg"></a>
+        Rain over MTB trail, Sedona, Arizona
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 20 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-20.jpg" target="_blank">
+          <img class="mtb" title="South Rim, Grand Canyon, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-20.jpg"></a>
+        South Rim, Grand Canyon, Arizona
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 21 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-21.jpg" target="_blank">
+          <img class="mtb" title="Colorado River just south of Lee's Ferry, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-21.jpg"></a>
+        Colorado River just south of Lee's Ferry, Arizona
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 23 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-23.jpg" target="_blank">
+          <img class="mtb" title="Full double rainbow on burn zone, Southern Utah" src="/site/media/thumbs/west-coast-mtb-2023-23.jpg"></a>
+        Full double rainbow on burn zone, Southern Utah
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 25 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-25.jpg" target="_blank">
+          <img class="mtb" title="Bryce Canyon, Utah" src="/site/media/thumbs/west-coast-mtb-2023-25.jpg"></a>
+        Bryce Canyon, Utah
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 26 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-26.jpg" target="_blank">
+          <img class="mtb" title="Raven over Grand Canyon, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-26.jpg"></a>
+        Raven over Grand Canyon, Arizona
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 28 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-28.jpg" target="_blank">
+          <img class="mtb" title="Sam, Grand Canyon, Arizona" src="/site/media/thumbs/west-coast-mtb-2023-28.jpg"></a>
+        Sam, Grand Canyon, Arizona
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 30 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-30.jpg" target="_blank">
+          <img class="mtb" title="Oowah Lake, La Sal Mountains, Utah" src="/site/media/thumbs/west-coast-mtb-2023-30.jpg"></a>
+        Oowah Lake, La Sal Mountains, Utah
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 31 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-31.jpg" target="_blank">
+          <img class="mtb" title="Trout dinner, Lake Oowah, La Sal Mountains, Utah" src="/site/media/thumbs/west-coast-mtb-2023-31.jpg"></a>
+        Trout dinner, Lake Oowah, La Sal Mountains, Utah
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 32 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-32.jpg" target="_blank">
+          <img class="mtb" title="Sunrise over desert, Moab, Utah" src="/site/media/thumbs/west-coast-mtb-2023-32.jpg"></a>
+        Sunrise over desert, Moab, Utah
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 34 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-34.jpg" target="_blank">
+          <img class="mtb" title="Navajo Rocks, Moab, Utah" src="/site/media/thumbs/west-coast-mtb-2023-34.jpg"></a>
+        Navajo Rocks, Moab, Utah
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 36 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2023-36.jpg" target="_blank">
+          <img class="mtb" title="View over desert at sunrise, Moab, Utah" src="/site/media/thumbs/west-coast-mtb-2023-36.jpg"></a>
+        View over desert at sunrise, Moab, Utah
+        <a href="#usa-2023" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <h2>Overall summary of the trip:</h2>
+
+      <ul class="sam">
+        <li>
+          7,200 miles driven
+        </li>
+        <li>
+          States visited:
+        </li>
+          <ul class="sam">
+            <li>
+              Ohio
+            </li>
+            <li>
+              Indiana
+            </li>
+            <li>
+              llinois
+            </li>
+            <li>
+              Wisconsin
+            </li>
+            <li>
+              Minnesota
+            </li>
+            <li>
+              South Dakota
+            </li>
+            <li>
+              Wyoming
+            </li>
+            <li>
+              Utah
+            </li>
+            <li>
+              Nevada
+            </li>
+            <li>
+              California
+            </li>
+            <li>
+              Arizona
+            </li>
+            <li>
+              Colorado
+            </li>
+            <li>
+              Nebraska
+            </li>
+            <li>
+              Missouri
+            </li>
+          </ul>
+        <li>
+          Google map: <a href="https://www.google.com/maps/d/edit?mid=1QqwxjxexoTB4wHX_pkWPgAmHZEzCpfE&usp=sharing" target="_blank">2023 West Coast Trip Map</a>
+        </li>
+      </ul>
+
+
+
+
+      <!--  -->
+      <!-- Alum II Highlights -->
+      <!--  -->
+      <h1 id="alum-ii-highlights">Alum Creek II MTB Trail - Highlights  <a href="#beginning" style="font-weight:normal">&#x25B2;</a></h1>
+
+      <p>
+        Here's a 9-minute highlight reel from the Alum Creek II trail that I ride about 100 times per year.
+      </p>
+        
+      <div class="sam-image">
+        <video controls preload="none" class="mtb">
+          <source src="/site/media/video/alum-creek-II-highlights-spring-2023.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        Alum Creek II MTB Trail Highlights, Spring 2023
+        <a href="#alum-ii-highlights" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+
+
+
+      <!--  -->
+      <!-- USA/BR/AR Trips 2022 -->
+      <!--  -->
+      <h1 id="usa-2022">USA/BR/AR Trips 2022  <a href="#beginning" style="font-weight:normal">&#x25B2;</a></h1>
+
+      <p>
+        My son and I went on a trip to beautiful places around the Western USA to ride mountain bikes, hike, raft, and fish: Colorado, Utah, Arizona. He, his mother, and I also went to Brazil and Argentina.
+      </p>
+        
+      <!-- 1 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-1.jpg" target="_blank">
+          <img class="mtb" title="Twin Buttes Trail, Durango Colorado" src="/site/media/thumbs/west-coast-mtb-2022-1.jpg"></a>
+        Twin Buttes Trail, Durango Colorado
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 2 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-2.jpg" target="_blank">
+          <img class="mtb" title="Cabin in Hesperus, Colorado" src="/site/media/thumbs/west-coast-mtb-2022-2.jpg"></a>
+        Cabin in Hesperus, Colorado
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 3 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-3.jpg" target="_blank">
+          <img class="mtb" title="Durango-Silverton Steam Train, Colorado" src="/site/media/thumbs/west-coast-mtb-2022-3.jpg"></a>
+        Durango-Silverton Steam Train, Colorado
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 4 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-4.jpg" target="_blank">
+          <img class="mtb" title="4-wheel-drive Trail, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-4.jpg"></a>
+        4-wheel-drive Trail, Moab Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 6 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-6.jpg" target="_blank">
+          <img class="mtb" title="Klondike Bluffs Trails, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-6.jpg"></a>
+        Klondike Bluffs Trails, Moab Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 7 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-7.jpg" target="_blank">
+          <img class="mtb" title="Navajo Rocks Trails, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-7.jpg"></a>
+        Navajo Rocks Trails, Moab Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 8 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-8.jpg" target="_blank">
+          <img class="mtb" title="Columbine Lake, Silverton Colorado" src="/site/media/thumbs/west-coast-mtb-2022-8.jpg"></a>
+        Columbine Lake, Silverton Colorado (View 1)
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 9 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-9.jpg" target="_blank">
+          <img class="mtb" title="Columbine Lake, Silverton Colorado" src="/site/media/thumbs/west-coast-mtb-2022-9.jpg"></a>
+        Columbine Lake, Silverton Colorado (View 2)
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 10 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-10.jpg" target="_blank">
+          <img class="mtb" title="Cottonwood Lake, Buena Vista Colorado" src="/site/media/thumbs/west-coast-mtb-2022-10.jpg"></a>
+        Cottonwood Lake, Buena Vista Colorado
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 11 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-11.jpg" target="_blank">
+          <img class="mtb" title="On-the-path to Columbine Lake, Silverton Colorado" src="/site/media/thumbs/west-coast-mtb-2022-11.jpg"></a>
+        On-the-path to Columbine Lake, Silverton Colorado
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 12 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-12.jpg" target="_blank">
+          <img class="mtb" title="Navajo Rocks Trail, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-12.jpg"></a>
+        Navajo Rocks Trail, Moab Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 13 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-13.jpg" target="_blank">
+          <img class="mtb" title="On-the-path to Columbine Lake, Silverton Colorado" src="/site/media/thumbs/west-coast-mtb-2022-13.jpg"></a>
+        On-the-path to Columbine Lake, Silverton Colorado
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 14 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-14.jpg" target="_blank">
+          <img class="mtb" title="Afternoon's Catch at Oowah Lake, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-14.jpg"></a>
+        Afternoon's Catch at Oowah Lake, Moab Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 15 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-15.jpg" target="_blank">
+          <img class="mtb" title="Moon over Sunrise, Navajo Rocks Trail, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-15.jpg"></a>
+        Moon over Sunrise, Navajo Rocks Trail, Moab Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 16 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-16.jpg" target="_blank">
+          <img class="mtb" title="On-the-way to Durango, Colorado" src="/site/media/thumbs/west-coast-mtb-2022-16.jpg"></a>
+        On-the-way to Durango, Colorado
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 17 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-17.jpg" target="_blank">
+          <img class="mtb" title="'Money' Trails, Black Hawk, Colorado" src="/site/media/thumbs/west-coast-mtb-2022-17.jpg"></a>
+        'Money' Trails, Black Hawk, Colorado
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 19 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-19.jpg" target="_blank">
+          <img class="mtb" title="4-wheel-drive Trail, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-19.jpg"></a>
+        4-wheel-drive Trail, Moab Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 20 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-20.jpg" target="_blank">
+          <img class="mtb" title="Klondike Bluffs Trail, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-20.jpg"></a>
+        Klondike Bluffs Trail, Moab Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 21 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-21.jpg" target="_blank">
+          <img class="mtb" title="n-the-way-back from Columbine Lake, Silverton Colorado" src="/site/media/thumbs/west-coast-mtb-2022-21.jpg"></a>
+        On-the-way-back from Columbine Lake, Silverton Colorado
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 22 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-22.jpg" target="_blank">
+          <img class="mtb" title="Sunset, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-22.jpg"></a>
+        Sunset, Moab Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 23 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-23.jpg" target="_blank">
+          <img class="mtb" title="On-the-way-back from Columbine Lake, Silverton Colorado" src="/site/media/thumbs/west-coast-mtb-2022-23.jpg"></a>
+        On-the-way-back from Columbine Lake, Silverton Colorado
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 24 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-24.jpg" target="_blank">
+          <img class="mtb" title="Cactus Flower with Bees, Hesperus Colorado" src="/site/media/thumbs/west-coast-mtb-2022-24.jpg"></a>
+        Cactus Flower with Bees, Hesperus Colorado
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 25 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-25.jpg" target="_blank">
+          <img class="mtb" title="Rock Formation, Vila Velha, Parana, Brazil" src="/site/media/thumbs/west-coast-mtb-2022-25.jpg"></a>
+        Rock Formation, Vila Velha, Parana, Brazil
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 26 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-26.jpg" target="_blank">
+          <img class="mtb" title="Rock Formation, Vila Velha, Parana, Brazil" src="/site/media/thumbs/west-coast-mtb-2022-26.jpg"></a>
+        Rock Formation, Vila Velha, Parana, Brazil
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 27 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-27.jpg" target="_blank">
+          <img class="mtb" title="Crawdad Fishing, Oak Creek, Sedona Arizona" src="/site/media/thumbs/west-coast-mtb-2022-27.jpg"></a>
+        Crawdad Fishing, Oak Creek, Sedona Arizona
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 28 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-28.jpg" target="_blank">
+          <img class="mtb" title="Capybara, Ibera Park, Argentina" src="/site/media/thumbs/west-coast-mtb-2022-28.jpg"></a>
+        Capybara, Ibera Park, Argentina
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 29 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-29.jpg" target="_blank">
+          <img class="mtb" title="Swimming in Colorado River, Lee's Ferry Utah" src="/site/media/thumbs/west-coast-mtb-2022-29.jpg"></a>
+        Swimming in Colorado River, Lee's Ferry Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 30 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-30.jpg" target="_blank">
+          <img class="mtb" title="Oak Creek, Sedona Arizona" src="/site/media/thumbs/west-coast-mtb-2022-30.jpg"></a>
+        Oak Creek, Sedona Arizona
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 31 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-31.jpg" target="_blank">
+          <img class="mtb" title="Colorado River, Utah/Arizonao" src="/site/media/thumbs/west-coast-mtb-2022-31.jpg"></a>
+        Colorado River, Utah/Arizona
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 32 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-32.jpg" target="_blank">
+          <img class="mtb" title="Ibera Park, Argentina" src="/site/media/thumbs/west-coast-mtb-2022-32.jpg"></a>
+        Ibera Park, Argentina
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 33 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-33.jpg" target="_blank">
+          <img class="mtb" title="Loaded Rig, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-33.jpg"></a>
+        Loaded Rig, Moab Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 34 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-34.jpg" target="_blank">
+          <img class="mtb" title="Waterfall, Bryce Canyon Utah" src="/site/media/thumbs/west-coast-mtb-2022-34.jpg"></a>
+        Waterfall, Bryce Canyon Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 35 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-35.jpg" target="_blank">
+          <img class="mtb" title="Bryce Canyon Utah" src="/site/media/thumbs/west-coast-mtb-2022-35.jpg"></a>
+        Bryce Canyon Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 36 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-36.jpg" target="_blank">
+          <img class="mtb" title="Bryce Canyon Utah" src="/site/media/thumbs/west-coast-mtb-2022-36.jpg"></a>
+        Bryce Canyon Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 38 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-38.jpg" target="_blank">
+          <img class="mtb" title="Sunrise on Navajo Rocks Trail, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-38.jpg"></a>
+        Sunrise on Navajo Rocks Trail, Moab Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 39 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-39.jpg" target="_blank">
+          <img class="mtb" title="Rained-on, Oak Creek, Sedona Arizona" src="/site/media/thumbs/west-coast-mtb-2022-39.jpg"></a>
+        Rained-on, Oak Creek, Sedona Arizona
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 40 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-40.jpg" target="_blank">
+          <img class="mtb" title="Bryce Canyon Utah" src="/site/media/thumbs/west-coast-mtb-2022-40.jpg"></a>
+        Bryce Canyon Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 41 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-41.jpg" target="_blank">
+          <img class="mtb" title="St. Ignacio Mini Mission Ruins, St. Ignacio, Argentina" src="/site/media/thumbs/west-coast-mtb-2022-41.jpg"></a>
+        St. Ignacio Mini Mission Ruins, St. Ignacio, Argentina
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 42 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-42.jpg" target="_blank">
+          <img class="mtb" title="Zion Park, Utah" src="/site/media/thumbs/west-coast-mtb-2022-42.jpg"></a>
+        Zion Park, Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 43 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-43.jpg" target="_blank">
+          <img class="mtb" title="Crawdad, Oak Creek, Sedona Arizona" src="/site/media/thumbs/west-coast-mtb-2022-43.jpg"></a>
+        Crawdad, Oak Creek, Sedona Arizona
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 44 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-44.jpg" target="_blank">
+          <img class="mtb" title="Southeast Utah" src="/site/media/thumbs/west-coast-mtb-2022-44.jpg"></a>
+        Southeast Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 45 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-45.jpg" target="_blank">
+          <img class="mtb" title="Sunrise on Navajo Rocks Trail, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-45.jpg"></a>
+        Sunrise on Navajo Rocks Trail, Moab Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 46 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-46.jpg" target="_blank">
+          <img class="mtb" title="Sedona Arizona" src="/site/media/thumbs/west-coast-mtb-2022-46.jpg"></a>
+        Sedona Arizona
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 47 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2022-47.jpg" target="_blank">
+          <img class="mtb" title="Rain-over-hills, Southeast Utah" src="/site/media/thumbs/west-coast-mtb-2022-47.jpg"></a>
+        Rain-over-hills, Southeast Utah
+        <a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+
+
+
+      <!--  -->
+      <!-- USA 2021 -->
+      <!--  -->
+      <h1 id="usa-2021">USA Trip 2021  <a href="#beginning" style="font-weight:normal">&#x25B2;</a></h1>
+      
+      <p>
+        My son and I went on a trip to beautiful mountain bike trails around the USA: Arkansas, Colorado, Utah, Idaho, Oregon, Washington, Wyoming. I'm not in any of these, but my son is. 
+      </p>
+      
+      <div class="sam-image">
+        <video controls preload="none" class="mtb">
+          <source src="/site/media/video/mtb-2021.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        8&#8209;minute Video: Compilation of USA Trip, Summer 2021
+        <a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 1 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2021-1.jpg" target="_blank">
+          <img class="mtb" title="Devil's Den, Arkansas" src="/site/media/thumbs/west-coast-mtb-2021-1.jpg"></a>
+        Devil's Den State Park, Arkansas
+        <a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 3 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2021-3.jpg" target="_blank">
+          <img class="mtb" title="Mt. St. Helens, Washington" src="/site/media/thumbs/west-coast-mtb-2021-3.jpg"></a>
+        Mt. St. Helens, Washington
+        <a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 4 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2021-4.jpg" target="_blank">
+          <img class="mtb" title="McKenzie River, Oregon" src="/site/media/thumbs/west-coast-mtb-2021-4.jpg"></a>
+        McKenzie River, Oregon
+        <a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 6 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2021-6.jpg" target="_blank">
+          <img class="mtb" title="Lander, Wyoming" src="/site/media/thumbs/west-coast-mtb-2021-6.jpg"></a>
+        Lander, Wyoming
+        <a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 8 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2021-8.jpg" target="_blank">
+          <img class="mtb" title="Ape Canyon, Mt. St. Helens, Washington" src="/site/media/thumbs/west-coast-mtb-2021-8.jpg"></a>
+        Ape Canyon, Mt. St. Helens, Washington
+        <a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 9 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2021-9.jpg" target="_blank">
+          <img class="mtb" title="White River, Washington" src="/site/media/thumbs/west-coast-mtb-2021-9.jpg"></a>
+        White River, Washington
+        <a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 10 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2021-10.jpg" target="_blank">
+          <img class="mtb" title="Klondike Bluffs, Moab, Utah" src="/site/media/thumbs/west-coast-mtb-2021-10.jpg"></a>
+        Klondike Bluffs, Moab, Utah
+        <a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 11 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2021-11.jpg" target="_blank">
+          <img class="mtb" title="Mt. St. Helens, Washington" src="/site/media/thumbs/west-coast-mtb-2021-11.jpg"></a>
+        Mt. St. Helens, Washington
+        <a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 12 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2021-12.jpg" target="_blank">
+          <img class="mtb" title="Mt. St. Helens, Washington" src="/site/media/thumbs/west-coast-mtb-2021-12.jpg"></a>
+        Mt. St. Helens, Washington
+        <a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 14 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2021-14.jpg" target="_blank">
+          <img class="mtb" title="Durango, Colorado" src="/site/media/thumbs/west-coast-mtb-2021-14.jpg"></a>
+        Durango, Colorado
+        <a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 17 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2021-17.jpg" target="_blank">
+          <img class="mtb" title="Navajo Rocks, Moab, Utah" src="/site/media/thumbs/west-coast-mtb-2021-17.jpg"></a>
+        Navajo Rocks, Moab, Utah
+        <a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 18 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2021-18.jpg" target="_blank">
+          <img class="mtb" title="Navajo Rocks, Moab, Utah" src="/site/media/thumbs/west-coast-mtb-2021-18.jpg"></a>
+        Navajo Rocks, Moab, Utah
+        <a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <!-- 20 -->
+      <div class="sam-image">
+        <a href="/site/media/fullsize/west-coast-mtb-2021-20.jpg" target="_blank">
+          <img class="mtb" title="The Bike!" src="/site/media/thumbs/west-coast-mtb-2021-20.jpg"></a>
+        The Bike!
+        <a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <h2>Overall summary of the trip:</h2>
+
+      <ul class="sam">
+        <li>7,100 miles driven</li>
+        <li>States visited:
+          <ul class="sam">
+            <li>
+              Ohio
+            </li>
+            <li>
+              Indiana
+            </li>
+            <li>
+              Illinois
+            </li>
+            <li>
+              Missouri
+            </li>
+            <li>
+              Arkansas
+            </li>
+            <li>
+              Oklahoma
+            </li>
+            <li>
+              Texas
+            </li>
+            <li>
+              New Mexico
+            </li>
+            <li>
+              Colorado
+            </li>
+            <li>
+              Utah
+            </li>
+            <li>
+              Idaho
+            </li>
+            <li>
+              Oregon
+            </li>
+            <li>
+              Washington
+            </li>
+            <li>
+              Montana
+            </li>
+            <li>
+              Wyoming
+            </li>
+            <li>
+              Nebraska
+            </li>
+            <li>
+              Iowa
+            </li>
+          </ul>
+        </li>
+        <li>Rides: 11
+          <ol class="sam">
+            <li>
+              Devil's Den State Park, AR
+            </li>
+            <li>
+              Twin Buttes, Durango CO
+            </li>
+            <li>
+              Klondike Bluffs, Moab UT
+            </li>
+            <li>
+              Navajo Rocks, Moab UT
+            </li>
+            <li>
+              McKenzie River, Sisters OR
+            </li>
+            <li>
+              Mt. St. Helens, WA
+            </li>
+            <li>
+              White River/Skookum Flats, WA
+            </li>
+            <li>
+              St. Edwards Park, Seattle WA
+            </li>
+            <li>
+              Duthie Trails, WA
+            </li>
+            <li>
+              Horseshoe Prairie/Umatilla Rim, OR
+            </li>
+            <li>
+              Local trails, Lander WY
+            </li>
+          </ol>
+        </li>
+        <li>Cummulative:
+          <ul class="sam">
+            <li>
+              120.4 miles (194 km) ridden
+            </li>
+            <li>
+              12,488 feet (3,806 m) elevation gain
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+
+
+
+      <!--  -->
+      <!-- Misc. MTB -->
+      <!--  -->
+      <h1 id="misc-mtb">Miscellaneous  <a href="#beginning" style="font-weight:normal">&#x25B2;</a></h1>
+
+      <p>
+        Some pictures and videos from 2021, 2022, and other odds-n-ends.
+      </p>
+        
+      <div class="sam-image">
+        <video controls preload="none" class="mtb">
+          <source src="/site/media/video/alum-II-autumn-2022.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        3.5&#8209;minute Video: Alum Creek Phase II, Autumn 2022
+        <a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <div class="sam-image">
+        <a href="/site/media/fullsize/Alum-II-fall-2021-1.jpg" target="_blank">
+          <img class="mtb" title="Alum Creek Phase II, Autumn 2021" src="/site/media/thumbs/Alum-II-fall-2021-1.jpg"></a>
+        Alum Creek Phase II, Autumn 2021
+        <a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <div class="sam-image">
+        <a href="/site/media/fullsize/Alum-II-fall-2021-2.jpg" target="_blank">
+          <img class="mtb" title="Alum Creek Phase II, Autumn 2021" src="/site/media/thumbs/Alum-II-fall-2021-2.jpg"></a>
+        Alum Creek Phase II, Autumn 2021
+        <a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <div class="sam-image">
+        <a href="/site/media/fullsize/Alum-II-fall-2021-3.jpg" target="_blank">
+          <img class="mtb" title="Alum Creek Phase II, Autumn 2021" src="/site/media/thumbs/Alum-II-fall-2021-3.jpg"></a>
+        Alum Creek Phase II, Autumn 2021
+        <a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <div class="sam-image">
+        <a href="/site/media/fullsize/Alum-II-fall-2021-4.jpg" target="_blank">
+          <img class="mtb" title="Alum Creek Phase II, Autumn 2021" src="/site/media/thumbs/Alum-II-fall-2021-4.jpg"></a>
+        Alum Creek Phase II, Autumn 2021
+        <a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <div class="sam-image">
+        <a href="/site/media/fullsize/Alum-II-fall-2021-5.jpg" target="_blank">
+          <img class="mtb" title="Alum Creek Phase II, Autumn 2021" src="/site/media/thumbs/Alum-II-fall-2021-5.jpg"></a>
+        Alum Creek Phase II, Autumn 2021
+        <a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <div class="sam-image">
+        <a href="/site/media/fullsize/Alum-II-fall-2021-6.jpg" target="_blank">
+          <img class="mtb" title="Alum Creek Phase II, Autumn 2021" src="/site/media/thumbs/Alum-II-fall-2021-6.jpg"></a>
+        Alum Creek Phase II, Autumn 2021
+        <a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <div class="sam-image">
+        <a href="/site/media/fullsize/Alum-II-fall-2021-7.jpg" target="_blank">
+          <img class="mtb" title="Alum Creek Phase II, Autumn 2021" src="/site/media/thumbs/Alum-II-fall-2021-7.jpg"></a>
+        Alum Creek Phase II, Autumn 2021
+        <a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <div class="sam-image">
+        <video controls preload="none" class="mtb">
+          <source src="/site/media/video/chilicothe-halloween-2021.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        54&#8209;second Video: Great Seal State Park, Chilicothe, Ohio, Autumn 2021 
+        <a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+
+
+
+      <!--  -->
+      <!-- Heatmaps -->
+      <!--  -->
+      <h1 id="heatmaps">Strava Heatmaps  <a href="#beginning" style="font-weight:normal">&#x25B2;</a></h1>
+      
+      <p>
+        Here are my global and USA Strava heatmaps, updated about once a year.
+      </p>
+        
+      <div class="sam-image">
+        <a href="/site/media/fullsize/strava-global-heatmap-sam-2024-09.jpg" target="_blank">
+          <img class="mtb" title="Strava Heatmap" src="/site/media/thumbs/strava-global-heatmap-sam-2024-09.jpg"></a>
+        <a href="https://www.strava.com/athletes/1740747" target="_blank">My Strava</a> Global Heatmap 2024-09
+        <a href="#heatmaps" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+      <div class="sam-image">
+        <a href="/site/media/fullsize/strava-usa-heatmap-sam-2024-09.jpg" target="_blank">
+          <img class="mtb" title="Strava Heatmap" src="/site/media/thumbs/strava-usa-heatmap-sam-2024-09.jpg"></a>
+        <a href="https://www.strava.com/athletes/1740747" target="_blank">My Strava</a> USA Heatmap 2024-09
+        <a href="#heatmaps" style="font-weight:normal">&#x25B2;</a>
+      </div>
+
+    </div>
+    
+
+  </main>
+
+
+  <footer>
+    <!--#include virtual="/site/includes/bottom.shtml" -->
+  </footer>
 
-<!-- 25 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-25.jpg" target="_blank">
-         <img class="mtb" title="Rock Formation, Vila Velha, Parana, Brazil" src="/site/media/thumbs/west-coast-mtb-2022-25.jpg"></a>
-Rock Formation, Vila Velha, Parana, Brazil
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
 </div>
-
-<!-- 26 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-26.jpg" target="_blank">
-         <img class="mtb" title="Rock Formation, Vila Velha, Parana, Brazil" src="/site/media/thumbs/west-coast-mtb-2022-26.jpg"></a>
-Rock Formation, Vila Velha, Parana, Brazil
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 27 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-27.jpg" target="_blank">
-         <img class="mtb" title="Crawdad Fishing, Oak Creek, Sedona Arizona" src="/site/media/thumbs/west-coast-mtb-2022-27.jpg"></a>
-Crawdad Fishing, Oak Creek, Sedona Arizona
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 28 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-28.jpg" target="_blank">
-         <img class="mtb" title="Capybara, Ibera Park, Argentina" src="/site/media/thumbs/west-coast-mtb-2022-28.jpg"></a>
-Capybara, Ibera Park, Argentina
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 29 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-29.jpg" target="_blank">
-         <img class="mtb" title="Swimming in Colorado River, Lee's Ferry Utah" src="/site/media/thumbs/west-coast-mtb-2022-29.jpg"></a>
-Swimming in Colorado River, Lee's Ferry Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 30 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-30.jpg" target="_blank">
-         <img class="mtb" title="Oak Creek, Sedona Arizona" src="/site/media/thumbs/west-coast-mtb-2022-30.jpg"></a>
-Oak Creek, Sedona Arizona
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 31 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-31.jpg" target="_blank">
-         <img class="mtb" title="Colorado River, Utah/Arizonao" src="/site/media/thumbs/west-coast-mtb-2022-31.jpg"></a>
-Colorado River, Utah/Arizona
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 32 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-32.jpg" target="_blank">
-         <img class="mtb" title="Ibera Park, Argentina" src="/site/media/thumbs/west-coast-mtb-2022-32.jpg"></a>
-Ibera Park, Argentina
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 33 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-33.jpg" target="_blank">
-         <img class="mtb" title="Loaded Rig, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-33.jpg"></a>
-Loaded Rig, Moab Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 34 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-34.jpg" target="_blank">
-         <img class="mtb" title="Waterfall, Bryce Canyon Utah" src="/site/media/thumbs/west-coast-mtb-2022-34.jpg"></a>
-Waterfall, Bryce Canyon Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 35 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-35.jpg" target="_blank">
-         <img class="mtb" title="Bryce Canyon Utah" src="/site/media/thumbs/west-coast-mtb-2022-35.jpg"></a>
-Bryce Canyon Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 36 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-36.jpg" target="_blank">
-         <img class="mtb" title="Bryce Canyon Utah" src="/site/media/thumbs/west-coast-mtb-2022-36.jpg"></a>
-Bryce Canyon Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 37 -->
-<!-- <div class="sam-image">
-Columbine Lake, Silverton Colorado
-<a href="/site/media/fullsize/west-coast-mtb-2022-37.jpg" target="_blank">
-         <img class="mtb" title="Columbine Lake, Silverton Colorado" src="/site/media/thumbs/west-coast-mtb-2022-37.jpg"></a>
-</div> -->
-
-<!-- 38 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-38.jpg" target="_blank">
-         <img class="mtb" title="Sunrise on Navajo Rocks Trail, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-38.jpg"></a>
-Sunrise on Navajo Rocks Trail, Moab Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 39 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-39.jpg" target="_blank">
-         <img class="mtb" title="Rained-on, Oak Creek, Sedona Arizona" src="/site/media/thumbs/west-coast-mtb-2022-39.jpg"></a>
-Rained-on, Oak Creek, Sedona Arizona
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 40 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-40.jpg" target="_blank">
-         <img class="mtb" title="Bryce Canyon Utah" src="/site/media/thumbs/west-coast-mtb-2022-40.jpg"></a>
-Bryce Canyon Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 41 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-41.jpg" target="_blank">
-         <img class="mtb" title="St. Ignacio Mini Mission Ruins, St. Ignacio, Argentina" src="/site/media/thumbs/west-coast-mtb-2022-41.jpg"></a>
-St. Ignacio Mini Mission Ruins, St. Ignacio, Argentina
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 42 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-42.jpg" target="_blank">
-         <img class="mtb" title="Zion Park, Utah" src="/site/media/thumbs/west-coast-mtb-2022-42.jpg"></a>
-Zion Park, Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 43 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-43.jpg" target="_blank">
-         <img class="mtb" title="Crawdad, Oak Creek, Sedona Arizona" src="/site/media/thumbs/west-coast-mtb-2022-43.jpg"></a>
-Crawdad, Oak Creek, Sedona Arizona
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 44 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-44.jpg" target="_blank">
-         <img class="mtb" title="Southeast Utah" src="/site/media/thumbs/west-coast-mtb-2022-44.jpg"></a>
-Southeast Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 45 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-45.jpg" target="_blank">
-         <img class="mtb" title="Sunrise on Navajo Rocks Trail, Moab Utah" src="/site/media/thumbs/west-coast-mtb-2022-45.jpg"></a>
-Sunrise on Navajo Rocks Trail, Moab Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 46 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-46.jpg" target="_blank">
-         <img class="mtb" title="Sedona Arizona" src="/site/media/thumbs/west-coast-mtb-2022-46.jpg"></a>
-Sedona Arizona
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 47 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2022-47.jpg" target="_blank">
-         <img class="mtb" title="Rain-over-hills, Southeast Utah" src="/site/media/thumbs/west-coast-mtb-2022-47.jpg"></a>
-Rain-over-hills, Southeast Utah
-<a href="#usa-2022" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-
-
-
-<div class="sam-block-index">
-<h1 id="usa-2021">Index
-<select name="index" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#beginning">Jump To</option>
-  <option value="#alum-ii-2024">Alum II 2024 - After Tornado</option>
-  <option value="#usa-2023">USA 2023</option>  
-  <option value="#alum-ii-highlights">Alum II Trail Highlights</option>
-  <option value="#usa-2022">USA 2022</option>
-  <option value="#misc-mtb">Misc. MTB</option>
-  <option value="#heatmaps">Strava Heatmaps</option>
-  <option value="#beginning">Top &#x25B2;</option>    
-</select>
-</h1>
-</div>
-
-
-
-<div class="sam-block">
-<h1>USA Trip 2021</h1>
-<p>
-  My son and I went on a trip to beautiful mountain bike trails around the USA: Arkansas, Colorado, Utah, Idaho, Oregon, Washington, Wyoming. I'm not in any of these, but my son is. 
-</p>
-</div>
-
-<div class="sam-image">
-<video controls preload="none" class="mtb">
-  <source src="/site/media/video/mtb-2021.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-8&#8209;minute Video: Compilation of USA Trip, Summer 2021
-<a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 1 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2021-1.jpg" target="_blank">
-         <img class="mtb" title="Devil's Den, Arkansas" src="/site/media/thumbs/west-coast-mtb-2021-1.jpg"></a>
-Devil's Den State Park, Arkansas
-<a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 3 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2021-3.jpg" target="_blank">
-         <img class="mtb" title="Mt. St. Helens, Washington" src="/site/media/thumbs/west-coast-mtb-2021-3.jpg"></a>
-Mt. St. Helens, Washington
-<a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 4 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2021-4.jpg" target="_blank">
-         <img class="mtb" title="McKenzie River, Oregon" src="/site/media/thumbs/west-coast-mtb-2021-4.jpg"></a>
-McKenzie River, Oregon
-<a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 6 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2021-6.jpg" target="_blank">
-         <img class="mtb" title="Lander, Wyoming" src="/site/media/thumbs/west-coast-mtb-2021-6.jpg"></a>
-Lander, Wyoming
-<a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 8 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2021-8.jpg" target="_blank">
-         <img class="mtb" title="Ape Canyon, Mt. St. Helens, Washington" src="/site/media/thumbs/west-coast-mtb-2021-8.jpg"></a>
-Ape Canyon, Mt. St. Helens, Washington
-<a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 9 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2021-9.jpg" target="_blank">
-         <img class="mtb" title="White River, Washington" src="/site/media/thumbs/west-coast-mtb-2021-9.jpg"></a>
-White River, Washington
-<a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 10 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2021-10.jpg" target="_blank">
-         <img class="mtb" title="Klondike Bluffs, Moab, Utah" src="/site/media/thumbs/west-coast-mtb-2021-10.jpg"></a>
-Klondike Bluffs, Moab, Utah
-<a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 11 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2021-11.jpg" target="_blank">
-         <img class="mtb" title="Mt. St. Helens, Washington" src="/site/media/thumbs/west-coast-mtb-2021-11.jpg"></a>
-Mt. St. Helens, Washington
-<a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 12 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2021-12.jpg" target="_blank">
-         <img class="mtb" title="Mt. St. Helens, Washington" src="/site/media/thumbs/west-coast-mtb-2021-12.jpg"></a>
-Mt. St. Helens, Washington
-<a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 14 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2021-14.jpg" target="_blank">
-         <img class="mtb" title="Durango, Colorado" src="/site/media/thumbs/west-coast-mtb-2021-14.jpg"></a>
-Durango, Colorado
-<a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 17 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2021-17.jpg" target="_blank">
-         <img class="mtb" title="Navajo Rocks, Moab, Utah" src="/site/media/thumbs/west-coast-mtb-2021-17.jpg"></a>
-Navajo Rocks, Moab, Utah
-<a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 18 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2021-18.jpg" target="_blank">
-         <img class="mtb" title="Navajo Rocks, Moab, Utah" src="/site/media/thumbs/west-coast-mtb-2021-18.jpg"></a>
-Navajo Rocks, Moab, Utah
-<a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<!-- 20 -->
-<div class="sam-image">
-<a href="/site/media/fullsize/west-coast-mtb-2021-20.jpg" target="_blank">
-         <img class="mtb" title="The Bike!" src="/site/media/thumbs/west-coast-mtb-2021-20.jpg"></a>
-The Bike!
-<a href="#usa-2021" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<div class="sam-block">
-
-<h2>Overall summary of the trip:</h2>
-
-<ul class="sam">
-  <li>7,100 miles driven</li>
-  <li>States visited:
-    <ul class="sam">
-      <li>Ohio</li>
-      <li>Indiana</li>
-      <li>Illinois</li>
-      <li>Missouri</li>
-      <li>Arkansas</li>
-      <li>Oklahoma</li>
-      <li>Texas</li>
-      <li>New Mexico</li>
-      <li>Colorado</li>
-      <li>Utah</li>
-      <li>Idaho</li>
-      <li>Oregon</li>
-      <li>Washington</li>
-      <li>Montana</li>
-      <li>Wyoming</li>
-      <li>Nebraska</li>
-      <li>Iowa</li>
-    </ul>
-  </li>
-  <li>Rides: 11
-    <ol class="sam">
-      <li>Devil's Den State Park, AR</li>
-      <li>Twin Buttes, Durango CO</li>
-      <li>Klondike Bluffs, Moab UT</li>
-      <li>Navajo Rocks, Moab UT</li>
-      <li>McKenzie River, Sisters OR</li>
-      <li>Mt. St. Helens, WA</li>
-      <li>White River/Skookum Flats, WA</li>
-      <li>St. Edwards Park, Seattle WA</li>
-      <li>Duthie Trails, WA</li>
-      <li>Horseshoe Prairie/Umatilla Rim, OR</li>
-      <li>Local trails, Lander WY</li>
-    </ol>
-  </li>
-  <li>Cummulative:
-    <ul class="sam">
-      <li>120.4 miles (194 km) ridden</li>
-      <li>12,488 feet (3,806 m) elevation gain</li>
-    </ul>
-  </li>
-</ul>
-
-</div>
-
-
-
-<div class="sam-block-index">
-<h1 id="misc-mtb">Index
-<select name="index" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#beginning">Jump To</option>
-  <option value="#alum-ii-2024">Alum II 2024 - After Tornado</option>
-  <option value="#usa-2023">USA 2023</option>
-  <option value="#alum-ii-highlights">Alum II Trail Highlights</option>
-  <option value="#usa-2022">USA 2022</option>
-  <option value="#usa-2021">USA 2021</option>
-  <option value="#heatmaps">Strava Heatmaps</option>
-  <option value="#beginning">Top &#x25B2;</option>    
-</select>
-</h1>
-</div>
-
-
-
-<div class="sam-block">
-<h1>Miscellaneous</h1>
-<p>
-  Some pictures and videos from 2021, 2022, and other odds-n-ends.
-</p>
-</div>
-
-<div class="sam-image">
-<video controls preload="none" class="mtb">
-  <source src="/site/media/video/alum-II-autumn-2022.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-3.5&#8209;minute Video: Alum Creek Phase II, Autumn 2022
-<a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<div class="sam-image">
-<a href="/site/media/fullsize/Alum-II-fall-2021-1.jpg" target="_blank">
-         <img class="mtb" title="Alum Creek Phase II, Autumn 2021" src="/site/media/thumbs/Alum-II-fall-2021-1.jpg"></a>
-Alum Creek Phase II, Autumn 2021
-<a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<div class="sam-image">
-<a href="/site/media/fullsize/Alum-II-fall-2021-2.jpg" target="_blank">
-         <img class="mtb" title="Alum Creek Phase II, Autumn 2021" src="/site/media/thumbs/Alum-II-fall-2021-2.jpg"></a>
-Alum Creek Phase II, Autumn 2021
-<a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<div class="sam-image">
-<a href="/site/media/fullsize/Alum-II-fall-2021-3.jpg" target="_blank">
-         <img class="mtb" title="Alum Creek Phase II, Autumn 2021" src="/site/media/thumbs/Alum-II-fall-2021-3.jpg"></a>
-Alum Creek Phase II, Autumn 2021
-<a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<div class="sam-image">
-<a href="/site/media/fullsize/Alum-II-fall-2021-4.jpg" target="_blank">
-         <img class="mtb" title="Alum Creek Phase II, Autumn 2021" src="/site/media/thumbs/Alum-II-fall-2021-4.jpg"></a>
-Alum Creek Phase II, Autumn 2021
-<a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<div class="sam-image">
-<a href="/site/media/fullsize/Alum-II-fall-2021-5.jpg" target="_blank">
-         <img class="mtb" title="Alum Creek Phase II, Autumn 2021" src="/site/media/thumbs/Alum-II-fall-2021-5.jpg"></a>
-Alum Creek Phase II, Autumn 2021
-<a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<div class="sam-image">
-<a href="/site/media/fullsize/Alum-II-fall-2021-6.jpg" target="_blank">
-         <img class="mtb" title="Alum Creek Phase II, Autumn 2021" src="/site/media/thumbs/Alum-II-fall-2021-6.jpg"></a>
-Alum Creek Phase II, Autumn 2021
-<a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<div class="sam-image">
-<a href="/site/media/fullsize/Alum-II-fall-2021-7.jpg" target="_blank">
-         <img class="mtb" title="Alum Creek Phase II, Autumn 2021" src="/site/media/thumbs/Alum-II-fall-2021-7.jpg"></a>
-Alum Creek Phase II, Autumn 2021
-<a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<div class="sam-image">
-<video controls preload="none" class="mtb">
-  <source src="/site/media/video/chilicothe-halloween-2021.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-54&#8209;second Video: Great Seal State Park, Chilicothe, Ohio, Autumn 2021 
-<a href="#misc-mtb" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-
-
-<div class="sam-block-index">
-<h1 id="heatmaps" c>Index
-<select name="index" onchange="location = this.value; this.selectedIndex = 0;">
-  <option value="#beginning">Jump To</option>
-  <option value="#alum-ii-2024">Alum II 2024 - After Tornado</option>
-  <option value="#usa-2023">USA 2023</option>
-  <option value="#alum-ii-highlights">Alum II Trail Highlights</option>
-  <option value="#usa-2022">USA 2022</option>
-  <option value="#usa-2021">USA 2021</option>
-  <option value="#misc-mtb">Misc. MTB</option>
-  <option value="#beginning">Top &#x25B2;</option>    
-</select>
-</h1>
-</div>
-
-
-
-<div class="sam-block">
-<h1>Strava Heatmaps</h1>
-<p>
-  Here are my global and USA Strava heatmaps, updated about once a year.
-</p>
-</div>
-
-
-<div class="sam-image">
-<a href="/site/media/fullsize/strava-global-heatmap-sam-2024-09.jpg" target="_blank">
-         <img class="mtb" title="Strava Heatmap" src="/site/media/thumbs/strava-global-heatmap-sam-2024-09.jpg"></a>
-<a href="https://www.strava.com/athletes/1740747" target="_blank">My Strava</a> Global Heatmap 2024-09
-<a href="#heatmaps" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-<div class="sam-image">
-<a href="/site/media/fullsize/strava-usa-heatmap-sam-2024-09.jpg" target="_blank">
-         <img class="mtb" title="Strava Heatmap" src="/site/media/thumbs/strava-usa-heatmap-sam-2024-09.jpg"></a>
-<a href="https://www.strava.com/athletes/1740747" target="_blank">My Strava</a> USA Heatmap 2024-09
-<a href="#heatmaps" style="font-weight:normal">&#x25B2;</a>
-</div>
-
-</div>
-
-<div class="footer">
-<!--#include virtual="/site/includes/bottom.shtml" -->
-</div>
-
 </body>
-
 </html>

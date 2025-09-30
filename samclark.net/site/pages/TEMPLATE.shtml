@@ -1,13 +1,13 @@
- <!DOCTYPE html>
- 
+<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
   <meta name="author" content="Samuel J. Clark">
-  <meta name="description" content="Samuel J. Clark's search page.">
-  <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, search.">
+  <meta name="description" content="description">
+  <meta name="keywords" content="keyword1, keyword2">
   <!--#include virtual="/site/includes/header.html" -->
-  <title>Search samclark.net</title>
+  <title>Title</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
   <header>
     <!--#include virtual="/site/includes/nav-links-top.shtml" -->
     <div class="sam-title">
-      Search samclark.net
+      Page Title
     </div>
   </header>
 
@@ -27,8 +27,7 @@
 
     <div class="sam-block">
 
-      <script async src="https://cse.google.com/cse.js?cx=ebb8d261a96b569cc"></script>
-      <div class="gcse-search"></div>
+      ... content ...
 
     </div>
 

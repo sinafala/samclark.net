@@ -12,54 +12,67 @@
 
 <body>
 
-<div class="header" style="height: 425px;">
-<!--#include virtual="/site/includes/nav-links-top.shtml" -->
-<div class="sam-title">
-  Samuel J. Clark
-</div>
-  <div class="sam-image">
-    <a href="/site/media/fullsize/sam.jpg" target="_blank"><img class="sam" title="Sam" src="/site/media/thumbs/sam.jpg"></a>
+<div class="container">
+
+<header>
+  <!--#include virtual="/site/includes/nav-links-top.shtml" -->
+  <div class="sam-title">
+    Samuel J. Clark
   </div>
-</div>
+  <div class="row-index">
+    <div class="column-left-index">
 
-<div class="content" style="top: 425px;">
+      <a href="/site/media/fullsize/sam.jpg" target="_blank"><img class="sam-index" title="Sam" src="/site/media/thumbs/sam.jpg" width="125"></a>
 
-<!-- <div class="sam-centered-block" style="font-size: 16px; padding-bottom: 10px; line-height: 18px;">
-<p>
-  I am on sabbatical during the academic year 23-24 - through August 2024.
-</p>
-<p>
-  This means I may be less available.
-</p>
-</div> -->
+    </div>
+    <div class="column-right-index" style="align-self:center;">
 
-<div class="sam-block">
-<p>
-  I am a demographer, epidemiologist, and data scientist who develops new methods and does research in demography and epidemiology. <a href="http://clarissasurekclark.name" target="_blank">Clarissa Surek-Clark</a> and I collaborate in life and various professional endeavors. 
-</p><p>
-  I work as a <a href="https://sociology.osu.edu/people/clark.2962" target="_blank">professor</a> in the <a href="https://sociology.osu.edu" target="_blank">Department of Sociology</a> at <a href="https://www.osu.edu" target="_blank">The Ohio State University</a> (OSU), and I am a faculty affiliate of the <a href="https://ipr.osu.edu/people/clark.2962" target="_blank">Institute for Population Research</a> and the <a href="https://tdai.osu.edu/people/clark.2962" target="_blank">Translational Data Analytics Institute</a>, both at OSU. I am affiliated with the <a href="https://stat.uw.edu/about-us/people/samuel-clark" target="_blank">Department of Statistics</a> at the University of Washington and the <a href="https://www.wits.ac.za/publichealth/" target="_blank">School of Public Health</a> at the University of the Witwatersrand. 
-</p><p>
-  During 2020 I worked on a survey to estimate the prevalence of the coronavirus and an excess deaths study to characterize the total burden of mortality associated with the COVID-19 epidemic. Both projects are in the state of Ohio, USA and were conducted by large teams at The Ohio State University in close coordination with the Ohio State Department of Health.
-</p><p>
-  On an ongoing basis I work to improve: 1) <a href="/site/projects/verbal-autopsy.shtml" target="_parent">verbal autopsy</a> as a tool to measure the burden of disease, 2) mathematical models of human mortality, 3) indirect estimates of child mortality, and 4) small-area estimates of mortality. I also coordinate a small team developing <a href="/site/projects/software.shtml" target="_parent">open-source software</a> to implement new methods - mostly for verbal autopsy and mathematical models of human mortality.
-</p><p>
-  I lead the <a href="http://openva.net" target="_blank">openVA Team</a> that works to improve <a href="/site/projects/verbal-autopsy.shtml" target="_parent">verbal autopsy</a>. I have been a member of the <a href="https://www.who.int/standards/classifications/other-classifications/verbal-autopsy-standards-ascertaining-and-attributing-causes-of-death-tool" target="_blank">WHO Verbal Autopsy Reference Group (VARG)</a> since it was formed in 2013. Over the past several years I have been an active member of the VARG Task Group coordinating a comprehensive update of the <a href="https://www.who.int/standards/classifications/other-classifications/verbal-autopsy-standards-ascertaining-and-attributing-causes-of-death-tool" target="_blank">WHO Standard Verbal Autopsy Instrument</a>. The openVA Team develops and maintains tools that support the WHO standard.
-</p>
-</div>
+      <h2>
+        I am a demographer, epidemiologist, and data scientist who develops new methods and does research in demography and epidemiology. Much of my substantive work investigates questions that affect Africa. <a href="http://clarissasurekclark.name" target="_blank">Clarissa Surek-Clark</a> and I collaborate in life and various professional endeavors.
+      </h2>
 
-</div>
+    </div> 
+  </div>
+</header>
 
-<div class="footer">
+  
+<main>
+
+
+  <div class="sam-block">
+
+    <p>
+      I work as a <a href="https://sociology.osu.edu/people/clark.2962" target="_blank">professor</a> in the <a href="https://sociology.osu.edu" target="_blank">Department of Sociology</a> at <a href="https://www.osu.edu" target="_blank">The Ohio State University</a> (OSU), and I am a faculty affiliate of the <a href="https://ipr.osu.edu/people/clark.2962" target="_blank">Institute for Population Research</a> and the <a href="https://tdai.osu.edu/people/clark.2962" target="_blank">Translational Data Analytics Institute</a>, both at OSU. I am affiliated with the <a href="https://stat.uw.edu/about-us/people/samuel-clark" target="_blank">Department of Statistics</a> at the University of Washington and the <a href="https://www.wits.ac.za/publichealth/" target="_blank">School of Public Health</a> at the University of the Witwatersrand. 
+    </p><p>
+      During 2020 I worked on a survey to estimate the prevalence of the coronavirus and an excess deaths study to characterize the total burden of mortality associated with the COVID-19 epidemic. Both projects are in the state of Ohio, USA and were conducted by large teams at The Ohio State University in close coordination with the Ohio State Department of Health.
+    </p><p>
+      On an ongoing basis I work to improve: 1) <a href="/site/projects/verbal-autopsy.shtml" target="_parent">verbal autopsy</a> as a tool to measure the burden of disease, 2) mathematical models of human mortality, 3) indirect estimates of child mortality, and 4) small-area estimates of mortality. I also coordinate a small team developing <a href="/site/projects/software.shtml" target="_parent">open-source software</a> to implement new methods - mostly for verbal autopsy and mathematical models of human mortality.
+    </p><p>
+      I lead the <a href="http://openva.net" target="_blank">openVA Team</a> that works to improve <a href="/site/projects/verbal-autopsy.shtml" target="_parent">verbal autopsy</a>. I have been a member of the <a href="https://www.who.int/standards/classifications/other-classifications/verbal-autopsy-standards-ascertaining-and-attributing-causes-of-death-tool" target="_blank">WHO Verbal Autopsy Reference Group (VARG)</a> since it was formed in 2013. Over the past several years I have been an active member of the VARG Task Group coordinating a comprehensive update of the <a href="https://www.who.int/standards/classifications/other-classifications/verbal-autopsy-standards-ascertaining-and-attributing-causes-of-death-tool" target="_blank">WHO Standard Verbal Autopsy Instrument</a>. The openVA Team develops and maintains tools that support the WHO standard.
+    </p><p>
+      I am a co-founder/leader of the Health and Environment Modeling Co-laboratory (<a href="https://healmod.osu.edu" target="_blank">HEALMOD</a>) at The Ohio State University. HEALMOD is space within OSU for researchers working on health and/or environmental topics with a modeling component. Five postdocs and a number of graduate students and faculty from Anthropology, Sociology, and Biostatistics make up the core of HEALMOD as of mid 2025.
+    </p>
+
+  </div>
+
+
+</main>
+
+
+<footer>
 <!--#include virtual="/site/includes/bottom.shtml" -->
+</footer>
+
 </div>
-
 </body>
-
 </html>
 
-<!-- 
 
-Check links with https://www.deadlinkchecker.com/website-dead-link-checker.asp
-Check HTML with https://validator.w3.org/nu/?doc=http%3A%2F%2Fsamclark.net%2F
 
- -->
+
+
+
+
+
+
+
