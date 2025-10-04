@@ -41,6 +41,17 @@ html, body {
 
 /* Flex box setup for header/main/footer */
 
+/*.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 600px;
+  height: 100%;
+  min-height: 100wh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}*/
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -50,21 +61,33 @@ html, body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+    gap: 2px;
+    box-sizing: border-box;  
 }
 
 header {
   flex-shrink: 0;
+  margin-top: 0;
   /*background-color: white;*/
 }
 
-main {
+/*main {
   flex-grow: 1;
+  overflow: auto;
+  min-height: 100px;
+}*/
+
+main {
+    flex: 1 1 1400px;              /* grows & shrinks inside the flex row */
+    min-width: 320px;
+    align-items: flex-start;    
   overflow: auto;
   min-height: 100px;
 }
 
 footer {
   flex-shrink: 0;
+  margin-bottom: 4px;
   /*background-color: white;*/
 }  
 
@@ -615,3 +638,144 @@ a:active{
   display: block;
 }
 
+
+/* jump back up link */
+
+a.back {
+  font-weight: normal;
+}
+
+
+/* image galleries */
+
+  :root{
+    --bg: #ffffff;          /* page background */
+    --tile-bg: #f2f2f2;     /* figure + caption background */
+    --fg: #111;
+    --muted: #555;
+    --gap: 10px;
+    --radius: 8px;
+  }
+
+  /* Page */
+  html, body {
+    height: 100%;
+    margin: 2px;
+    background: var(--bg);
+    color: var(--fg);
+    -webkit-text-size-adjust: 100%;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 Roboto, "Helvetica Neue", Arial, "Apple Color Emoji",
+                 "Segoe UI Emoji";
+    /*line-height: 1.2;*/
+  }
+
+  /* GALLERY GRID (inside the flex item) */
+  .gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* minimum 3 columns */
+    gap: var(--gap);
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+
+  /* Scale up columns on wider main widths */
+  @media (min-width: 300px){
+    .gallery{ grid-template-columns: repeat(2, 1fr); }
+  }
+  
+  @media (min-width: 600px){
+    .gallery{ grid-template-columns: repeat(3, 1fr); }
+  }
+/*
+  @media (min-width: 900px){
+    .gallery{ grid-template-columns: repeat(4, 1fr); }
+  }
+*/
+  /* TILE */
+  figure{
+    margin: 0;
+    background: var(--tile-bg);      /* light grey tile background */
+    border-radius: var(--radius);
+    overflow: hidden;
+    transform: translateZ(0);
+    transition: transform .3s ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Hover / focus expansion (works for keyboard too) */
+  figure:has(a:hover), figure:has(a:focus-visible), figure:active{
+    transform: scale(1.05);
+  }
+
+  /* Link wraps the image for full-size open */
+  figure a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+  }
+
+  /* Image keeps natural aspect ratio, fills width */
+  .thumb{
+    display: block;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    background: #ddd;  /* placeholder while loading */
+  }
+
+  /* Caption has same light grey bg to match tile */
+  figcaption{
+    background: var(--tile-bg);
+    padding: 2px 3px 3px;
+    font-size: 10px;
+    color: var(--muted);
+    border-top: 1px solid rgba(0,0,0,.06);
+  }
+
+  /* Stack layout on very narrow screens */
+  @media (max-width: 820px){
+    .shell{
+      flex-direction: column;
+    }
+    .sidebar{
+      width: 100%;
+    }
+  }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce){
+    figure{ transition: none; }
+  }
+
+/* EXAMPLE GALLERY
+
+  <section class="gallery" aria-label="Image gallery">
+
+    <figure>
+      <a href="/site/media/fullsize/west-coast-mtb-2023-5.jpg" target="_blank">
+        <img class="thumb" title="Lander, Wyoming" src="/site/media/thumbs/west-coast-mtb-2023-5.jpg"></a>
+      <figcaption>Lander, Wyoming</figcaption>
+    </figure>
+
+    figure>
+      <a href="/site/media/fullsize/west-coast-mtb-2023-5.jpg" target="_blank">
+        <img class="thumb" title="Lander, Wyoming" src="/site/media/thumbs/west-coast-mtb-2023-5.jpg"></a>
+      <figcaption>Lander, Wyoming</figcaption>
+    </figure>
+
+    figure>
+      <a href="/site/media/fullsize/west-coast-mtb-2023-5.jpg" target="_blank">
+        <img class="thumb" title="Lander, Wyoming" src="/site/media/thumbs/west-coast-mtb-2023-5.jpg"></a>
+      <figcaption>Lander, Wyoming</figcaption>
+    </figure>
+
+    figure>
+      <a href="/site/media/fullsize/west-coast-mtb-2023-5.jpg" target="_blank">
+        <img class="thumb" title="Lander, Wyoming" src="/site/media/thumbs/west-coast-mtb-2023-5.jpg"></a>
+      <figcaption>Lander, Wyoming</figcaption>
+    </figure>
+
+  </section>
+*/
