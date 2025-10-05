@@ -94,7 +94,7 @@
       <h2>RDA About Ready</h2>
 
       <p>
-        The reference death archive - now named the reference <em>data</em> archive is about ready to go live at the WHO headquarters. We are wrapping up a few last odds and ends to integrate into WHO infrastructure and finalize data use/sharing agreements with the launch data providers. Stay tuned.
+        The <a href="/site/projects/rda.shtml" target="_parent">reference death archive</a> - now named the reference <em>data</em> archive (RDA) - is about ready to go live at the WHO headquarters. We are wrapping up a few last odds and ends to integrate into WHO infrastructure and finalize data use/sharing agreements with the launch data providers. Stay tuned.
       </p>
 
 
@@ -107,7 +107,7 @@
       <h2>Yue Chu's Dissertation</h2>
 
       <p>
-        <a href="https://y-chu.github.io" target="_blank">Yue Chu</a> just finished her dissertation titled "Leveraging Language Models and Machine Learning in Verbal Autopsy Analysis". It's posted on arXiv so you can <a href="https://doi.org/10.48550/arXiv.2508.19274" target="_blank"><b>download</b></a> and read it if you want. It's a very cool demonstration that pre-trained language models and the VA narrative can be super useful in classifying cause of death using VA data, abstract below.
+        <a href="https://y-chu.github.io" target="_blank">Yue Chu</a> just finished her dissertation titled "Leveraging Language Models and Machine Learning in Verbal Autopsy Analysis". It's posted on arXiv so you can <a href="https://doi.org/10.48550/arXiv.2508.19274" target="_blank">download</a> and read it if you want. It's a very cool demonstration that pre-trained language models and the VA narrative can be super useful in classifying cause of death using VA data, abstract below.
       </p>
 
       <h3>Abstract</h3>
