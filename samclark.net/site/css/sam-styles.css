@@ -660,7 +660,7 @@ a.back {
   /* Page */
   html, body {
     height: 100%;
-    margin: 2px;
+    /*margin: 2px;*/
     background: var(--bg);
     color: var(--fg);
     -webkit-text-size-adjust: 100%;
