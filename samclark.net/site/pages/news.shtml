@@ -25,6 +25,7 @@
       <h1>Index
       <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
         <option value="#beginning">Date: Event</option>
+        <option value="#2025-10-13">2025-10-13: Paper - Sex-associated Differences in Life Span</option>
         <option value="#2025-09-27:2">2025-09-27: RDA About Ready!</option>
         <option value="#2025-09-27:1">2025-09-27: Yue Chu's Dissertation</option>
         <option value="#2025-09-27:0">2025-09-27: Leg/ankle Surgery</option>
@@ -86,6 +87,23 @@
 
 
     <div id="beginning" class="sam-block">
+
+      <!-- %%%%%%%%%%%% -->
+      <h1 class="sam-date" id="2025-10-13">2025-10-13  <a href="#beginning" class="back">&#x25B2;</a></h1>
+      <!-- %%%%%%%%%%%% -->
+      
+      <h2>A Very Interesting Paper: Sex-associated Differences in Life Span</h2>
+
+      <a href="https://doi.org/10.1126/sciadv.ady8433" target="_blank"><b>Sexual Selection Drives Sex Difference in Adult Life Expectancy Across Mammals And Birds</b></a> by Johanna Staerk, Dalia A. Conde, Morgane Tidière, Jean-François Lemaître, András Liker, Balázs Vági, Samuel Pavard, Mathieu Giraudeau, Simeon Q. Smeele, Orsolya Vincze, Victor Ronget, Rita Da Silva, Zjef Pereboom, Mads F. Bertelsen, Jean-Michel Gaillard, Tamás Székely, and Fernando Colchero. <em>Science Advances</em>. 11, eady8433 (2025). <a href="https://doi.org/10.1126/sciadv.ady8433" target="_blank">DOI:10.1126/sciadv.ady8433</a>.
+
+      <h3>Abstract</h3> 
+      
+      <p>
+        Across human cultures and historical periods, women, on average, live longer than men, a pattern best understood from a comparative evolutionary perspective. Here, we analyzed adult life expectancy in 528 mammal and 648 bird species in zoos. Like humans, 72% of mammals exhibited a female life expectancy advantage, while 68% of birds showed a male advantage, as expected from the harmful effects of sex chromosomes described by the heterogametic sex hypothesis. Yet, sex differences varied widely. In zoos, we found strong evidence that this variation generally correlated with both the mating system and sexual size dimorphism. Although with weaker evidence, the patterns remained consistent in populations from the wild, with an even larger effect of the mating system. Thus, even in zoos, where environmental pressures are largely reduced, precopulatory sexual selection seems to play a fundamental role in shaping sex differences in life expectancy in mammals and birds.
+      </p>
+  
+
+
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-09-27:2">2025-09-27  <a href="#beginning" class="back">&#x25B2;</a></h1>
@@ -423,7 +441,7 @@
         <b>Mortality Disparities by Age and Causes of Death in Rural South Africa</b> by Brian Houle, Chodziwadziwa W. Kabudula, Sanyu A. Mojola, Nicole Angotti, F. Xavier Gómez-Olivé, Dickman Gareta, Kobus Herbst, Samuel J Clark, Jane Menken, and Vladimir Canudas-Romo in <em>BMJ Global Health</em>
       </p>
 
-      <h2>Abstract</h2>
+      <h3>Abstract</h3>
 
       <p>
         <em>Introduction.</em> Understanding mortality disparities by age and cause is critical to identifying intervention and prevention actions to support vulnerable populations. We assessed mortality changes in two rural South African populations over 25-years covering pre- and peak AIDS epidemic and subsequent antiretroviral therapy (ART) availability.
@@ -514,7 +532,7 @@
       <li>
         <a href="https://journals.sagepub.com/doi/epub/10.1177/17456916231182568" target="_blank"><b>Shifting the Level of Selection in Science</b></a> by Leo Tiokhin, Karthik Panchanathan, Paul E. Smaldino, and Daniël Lakens. <em>Perspectives on Psychological Science</em>, 17456916231182568.
 
-        <h2>Abstract</h2> 
+        <h3>Abstract</h3> 
         
         <p>
           Criteria for recognizing and rewarding scientists primarily focus on individual contributions. This creates a conflict between what is best for scientists’ careers and what is best for science. In this article, we show how the theory of multilevel selection provides conceptual tools for modifying incentives to better align individual and collective interests. A core principle is the need to account for indirect effects by shifting the level at which selection operates from individuals to the groups in which individuals are embedded. This principle is used in several fields to improve collective outcomes, including animal husbandry, team sports, and professional organizations. Shifting the level of selection has the potential to ameliorate several problems in contemporary science, including accounting for scientists’ diverse contributions to knowledge generation, reducing individual-level competition, and promoting specialization and team science. We discuss the difficulties associated with shifting the level of selection and outline directions for future development in this domain.
@@ -602,7 +620,7 @@
             <b>Temporal Changes in Cause of Death Among Adolescents and Adults in Six Countries in Eastern And Southern Africa: A Multi-Country Cohort Study using Verbal Autopsy Data</b> by Yue Chu, Milly Marston, Albert Dube, Charles Festo, Eveline Geubbels, Simon Gregson, Kobus Herbst, Chodziwadziwa Kabudula, Kathleen Kahn, Tom Lutalo,  Louisa Moorhouse, Robert Newton, Constance Nyamukapa, Ronald Makanga, Emma Slaymaker, Mark Urassa, Abdhalah Ziraba, Clara Calvert, and Samuel J. Clark
           </p>
 
-          <h2>Abstract</h2>
+          <h3>Abstract</h3>
 
           <p>
             <em>Background</em>. The absence of high-quality comprehensive civil registration and vital statistics systems across many settings in Africa has led to limited empirical data on causes of death in the region.
@@ -638,7 +656,7 @@
         <li>
           <b>Understanding Household Dynamics from the Ground Up: A Longitudinal Study from a Rural South African Setting</b> by Yu Shao-Tzu, Brian Houle, Enid Schatz, Nicole Angotti, Chodziwadziwa W. Kabudula, Francesc Xavier&nbsp;G&oacute;mez-Oliv&eacute;, Samuel J. Clark, Jane Menken, and Sanyu A. Mojola in <em>Demography</em>
 
-          <h2>Abstract</h2>
+          <h3>Abstract</h3>
 
           <p>
             Investigations into household structure in low- and middle-income countries (LMICs) provide important insight into how families manage domestic life in response to resource allocation and caregiving needs during periods of rapid socio-political and health-related challenges. Recent evidence on household structure in many LMICs contrasts with longstanding viewpoints of worldwide convergence to a Western nuclearized household model. Here we adopt a household-centered theoretical and methodological framework to investigate longitudinal patterns and dynamics of household structure in a rural South African setting during a period of high AIDS-related mortality and socioeconomic change. Data come from the Agincourt Health and Socio-Demographic Surveillance System (AHDSS, 2003-2015). Using Latent Transition Models, we derived six-distinct household types by examining conditional interdependency between household head’s characteristics, members’ age composition, and migration status. Over half of households were characterized by their complex and multigenerational profiles, with considerable within-typology variation in household size and dependency structure. Transition analyses showed stability of household types under female headship, while higher proportions of nuclearized household types dissolved over time. Household dissolution was closely linked to prior mortality experiences, particularly following death of a male head. Our findings highlight the need to better conceptualize and contextualize household changes across populations and over time.
@@ -648,7 +666,7 @@
         <li>
           <a href="https://doi.org/10.48550/arXiv.2112.12186" target="_blank"><b>Bayesian Nested Latent Class Models For Cause-of-death Assignment Using Verbal Autopsies Across Multiple Domains</b></a> by Zehang Richard Li, Zhenke Wu, Irena Chen, and Samuel J. Clark in <em>Annals of Applied Statistics</em>
 
-          <h2>Abstract</h2>
+          <h3>Abstract</h3>
 
           <p>
             Understanding cause-specific mortality rates is crucial for monitoring population health and designing public health interventions. Worldwide, two-thirds of deaths do not have a cause assigned. Verbal autopsy (VA) is a well-established tool to collect information describing deaths outside of hospitals by conducting surveys to caregivers of a deceased person. It is routinely implemented in many low- and middle-income countries. Statistical algorithms to assign cause of death using VAs are typically vulnerable to the distribution shift between the data used to train the model and the target population. This presents a major challenge for analyzing VAs as labeled data are usually unavailable in the target population. This article proposes a Latent Class model framework for VA data (LCVA) that jointly models VAs collected over multiple heterogeneous domains, assigns causes of death for out-of-domain observations, and estimates cause-specific mortality fractions for a new domain. We introduce a parsimonious representation of the joint distribution of the collected symptoms using nested latent class models and develop a computationally efficient algorithm for posterior inference. We demonstrate that LCVA outperforms existing methods in predictive performance and scalability. Supplementary materials and reproducible analysis codes are available online. The R package LCVA implementing the method is available on <a href="https://github.com/richardli/LCVA" target="_blank">GitHub</a>.
@@ -658,7 +676,7 @@
         <li>
           <a href="https://doi.org/10.1080/16549716.2023.2285105" target="_blank"><b>Agreement between cause of death assignment by computer-coded verbal autopsy methods and physician coding of verbal autopsy interviews in South Africa</b></a> by Pam Groenewald, Jason Thomas, Samuel J Clark, Diane Morof, Jané D. Joubert, Chodziwadziwa Kabudula, Zehang Li, and Debbie Bradshaw in <em>Global Health Action</em> 
 
-          <h2>Abstract</h2>
+          <h3>Abstract</h3>
 
           <p>
             <em>Background</em>. The South African national cause of death validation project collected a national sample of verbal autopsies (VA) with cause of death assignment by both physician-coded verbal autopsy (PCVA) and three computer coded verbal autopsy (CCVA) algorithms. This provided an opportunity to compare the performance of three CCVA algorithms with PCVA in assigning a cause of death at the individual and population level.
@@ -811,7 +829,7 @@
         <!-- [&nbsp;<a href="http://doi.org/10.1080/16549716.2021.1982486" target="_blank">DOI</a>&nbsp;] -->
       </p>
 
-      <h2>Abstract</h2>
+      <h3>Abstract</h3>
 
       <p>
         <b>Objectives:</b> The structure and composition of the household has important influences on child mortality. However, little is known about these factors in HIV-endemic areas and how associations may change with the introduction and widespread availability of antiretroviral treatment (ART). We use comparative, longitudinal data from two demographic surveillance sites in rural South Africa (2000-2015) on mortality of children younger than five years (n=101,105).
@@ -985,7 +1003,7 @@
         [&nbsp;<a href="http://doi.org/10.1080/16549716.2021.1982486" target="_blank">DOI</a>&nbsp;]
       </p>
 
-      <h2>Abstract</h2>
+      <h3>Abstract</h3>
 
       <p>
         Over the past 70 years, significant advances have been made in determining the causes of death in populations not served by official medical certification of cause at the time of death using a technique known as Verbal Autopsy (VA). VA involves an interview of the family or caregivers of the deceased after a suitable bereavement interval about the circumstances, signs and symptoms of the deceased in the period leading to death. The VA interview data are then interpreted by physicians or, more recently, computer algorithms, to assign a probable cause of death. VA was originally developed and applied in field research settings. This paper traces the evolution of VA methods with special emphasis on the World Health Organization’s (WHO)’s efforts to standardize VA instruments and methods for expanded use in routine health information and vital statistics systems in low- and middle-income countries (LMICs). These advances in VA methods are culminating this year with the release of the 2022 WHO Standard Verbal Autopsy (VA) Toolkit. This paper highlights the many contributions the late Professor Peter Byass made to the current VA standards and methods, most notably, the development of InterVA, the most commonly used automated computer algorithm for interpreting data collected in the WHO standard instruments, and the capacity building in low- and middle-income countries (LMICs) that he promoted. This paper also provides an overview of the methods used to improve the current WHO VA standards, a catalogue of the changes and improvements in the instruments, and a mapping of current applications of the WHO VA standard approach in LMICs. It also provides access to tools and guidance needed for VA implementation in Civil Registration and Vital Statistics Systems at scale.
@@ -1009,7 +1027,7 @@
         [&nbsp;<a href="http://doi.org/10.1080/16549716.2021.1974676" target="_blank">DOI</a>&nbsp;]
       </p>
 
-      <h2>Abstract</h2>
+      <h3>Abstract</h3>
 
       <p>
         Health and Demographic Surveillance Systems (HDSS) have been developed in several low- and middle-income countries (LMICs) in Africa and Asia. This paper reviews their history, state of the art and future potential and highlights substantial areas of contribution by the late Professor Peter Byass.
@@ -1042,7 +1060,7 @@
         [&nbsp;<a href="https://doi.org/10.1186/s12889-022-12791-z" target="_blank">DOI</a>&nbsp;]
       </p>
 
-      <h2>Abstract</h2>
+      <h3>Abstract</h3>
 
       <p>
         <em>Background</em>. Sub-Saharan African settings are experiencing dual epidemics of HIV and hypertension. We investigate effects of each condition on mortality and further examine whether HIV and hypertension interact in determining
@@ -1098,7 +1116,7 @@
         [&nbsp;<a href="http://doi.org/10.1016/j.annepidem.2021.11.009" target="_blank">DOI</a>&nbsp;]
       </p>
 
-      <h2>Abstract</h2>
+      <h3>Abstract</h3>
 
       <p>
         <em>Purpose</em>. To estimate the prevalence of current and past COVID-19 in Ohio adults.
@@ -1144,7 +1162,7 @@
         [&nbsp;<a href="https://arxiv.org/abs/2112.12186" target="_blank">PDF</a>&nbsp;]
       </p>
 
-      <h2>Abstract</h2>
+      <h3>Abstract</h3>
 
       <p>
         Understanding cause-specific mortality rates is crucial for monitoring population health and designing public health interventions. Worldwide, two-thirds of deaths do not have a cause assigned. Verbal autopsy (VA) is a well-established tool to collect information describing deaths outside of hospitals by conducting surveys to caregivers of a deceased person. It is routinely implemented in many low- and middle-income countries. Statistical algorithms to assign cause of death using VAs are typically vulnerable to the distribution shift between the data used to train the model and the target population. This presents a major challenge for analyzing VAs as labeled data are usually unavailable in the target population. This article proposes a Latent Class model framework for VA data (LCVA) that jointly models VAs collected over multiple heterogeneous domains, assign cause of death for out-of-domain observations, and estimate cause-specific mortality fractions for a new domain. We introduce a parsimonious representation of the joint distribution of the collected symptoms using nested latent class models and develop an efficient algorithm for posterior inference. We demonstrate that LCVA outperforms existing methods in predictive performance and scalability. Supplementary materials for this article and the R package to implement the model are available online.
@@ -1199,7 +1217,7 @@
         [&nbsp;<a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">DOI</a>&nbsp;]
       </p>
 
-      <h2>Abstract</h2>
+      <h3>Abstract</h3>
 
       <p>
         Globally, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has infected more than 59 million people and killed more than 1.39 million. Designing and monitoring interventions to slow and stop the spread of the virus require knowledge of how many people have been and are currently infected, where they live, and how they interact. The first step is an accurate assessment of the population prevalence of past infections. There are very few population-representative prevalence studies of SARS-CoV-2 infections, and only two states in the United States—Indiana and Connecticut—have reported probability-based sample surveys that characterize statewide prevalence of SARS-CoV-2. One of the difficulties is the fact that tests to detect and characterize SARS-CoV-2 coronavirus antibodies are new, are not well characterized, and generally function poorly. During July 2020, a survey representing all adults in the state of Ohio in the United States collected serum samples and information on protective behavior related to SARS-CoV-2 and coronavirus disease 2019 (COVID-19). Several features of the survey make it difficult to estimate past prevalence: 1) a low response rate; 2) a very low number of positive cases; and 3) the fact that multiple poor-quality serological tests were used to detect SARS-CoV-2 antibodies. We describe a Bayesian approach for analyzing the biomarker data that simultaneously addresses these challenges and characterizes the potential effect of selective response. The model does not require survey sample weights; accounts for multiple imperfect antibody test results; and characterizes uncertainty related to the sample survey and the multiple imperfect, potentially correlated tests.
@@ -1279,7 +1297,7 @@
         I posted a slightly edited version of a paper titled <a href="https://arxiv.org/abs/2103.03910" target="_blank"><b>"Health and Demographic Surveillance Systems and the 2030 Agenda: Sustainable Development Goals"</b></a> on <i>arXiv</i>. This paper was invited at a UN Population Division experts' group meeting titled 'Strengthening the Demographic Evidence Base for the Post-2015 Development Agenda' that happened in New York, USA October 5-6, 2015.
       </p>
 
-      <h2>Abstract</h2>
+      <h3>Abstract</h3>
 
       <p>
         The health and demographic surveillance system (HDSS) is an old method for intensively monitoring a population to assess the effects of healthcare or other population-level interventions - often clinical trials. The strengths of HDSS include very detailed descriptions of whole populations with frequent updates. This often provides long time series of accurate population and health indicators for the HDSS study population. The primary weakness of HDSS is that the data describe only the HDSS study population and cannot be generalized beyond that.
@@ -1318,7 +1336,7 @@
         <a href="https://doi.org/10.1371/journal.pone.0246671" target="_blank">DOI</a>.
       </p>
 
-      <h2>Abstract</h2>
+      <h3>Abstract</h3>
 
       <p>
         <em>Background</em>. The effect of the period before a mother's death on child survival has been assessed in only a few studies. We conducted a comparative investigation of the effect of the timing of a mother's death on child survival up to age five years in rural South Africa.

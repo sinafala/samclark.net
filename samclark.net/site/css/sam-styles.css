@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif; 
+  /*font-family: Helvetica, Arial, sans-serif; */
   overflow-y: hidden;
   margin-top: 0;
   margin-bottom: 0;
@@ -36,8 +36,10 @@ html, body {
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: none;
   height: 100%;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+             Roboto, "Helvetica Neue", Arial, "Apple Color Emoji",
+             "Segoe UI Emoji";
 }
-
 
 /* Flex box setup for header/main/footer */
 
@@ -576,39 +578,38 @@ a:active{
   justify-content: center;
 }
 
-/* Navbar */
-/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar*/
+
+/*  Navbar  */
 
 .navbar {
+  display: flex;                  /* make navbar use flexbox */
+  justify-content: space-between; /* spread menu left, logo right */
+  align-items: center;            /* vertically center both */
   overflow: hidden;
   background-color: #0000A0;
+  padding: 0;                     /* ensure no extra height */
 }
 
 .navbar a {
   float: left;
-  /*font-size: 16px;*/
   font-weight: bold;
   font-size: 13px;
   color: white;
   text-align: center;
-  /*padding: 13px 16px;*/
   padding: 8px 10px;
   text-decoration: none;
 }
 
 .dropdown {
-  float: left;
   overflow: hidden;
 }
 
 .dropdown .dropbtn {
-  /*font-size: 16px;  */
   font-weight: bold;
-  font-size: 13px;  
+  font-size: 13px;
   border: none;
   outline: none;
   color: white;
-  /*padding: 13px 16px;*/
   padding: 8px 10px;
   background-color: inherit;
   font-family: inherit;
@@ -631,7 +632,6 @@ a:active{
 .dropdown-content a {
   float: none;
   color: black;
-  /*padding: 12px 16px;*/
   padding: 8px 10px;
   text-decoration: none;
   display: block;
@@ -644,6 +644,14 @@ a:active{
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* logo styling */
+.navbar-logo img {
+  height: 26px;       /* match roughly text height */
+  vertical-align: middle;
+  margin-right: 3px;  /* small padding from edge */
+  margin-left: 25px;  /* small padding from edge */
 }
 
 
@@ -665,6 +673,7 @@ a.back {
     --radius: 8px;
   }
 
+/*  
   /* Page */
   html, body {
     height: 100%;
@@ -677,6 +686,7 @@ a.back {
                  "Segoe UI Emoji";
     /*line-height: 1.2;*/
   }
+*/
 
   /* GALLERY GRID (inside the flex item) */
   .gallery{
@@ -787,3 +797,6 @@ a.back {
 
   </section>
 */
+
+
+  

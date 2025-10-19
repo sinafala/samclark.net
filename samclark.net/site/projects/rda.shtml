@@ -33,6 +33,7 @@
         <option value="#objective">Objective</option>
         <option value="#p-rda">Pathology RDA</option>
         <option value="#impact">Impact</option>
+        <option value="#rda-demo">RDA Demo</option>
       </select>
       </h1>
     </div>
@@ -54,7 +55,7 @@
       <h2 id="background">General Background</h2>
 
       <p>
-        <a href="https://doi.org/10.2471/BLT.22.289036" target="_blank">About 40% of global deaths are not registered at all and about 50% do not have a medically certified cause</a>. This limits the ability to quantify and track the burden of disease, and consequently, our ability to prioritize and monitor interventions. There is an obvious and urgent need to improve this situation.
+        <a href="https://doi.org/10.2471/BLT.22.289036" target="_blank">About 30% of global deaths are not registered at all and about 60% do not have a medically certified cause</a>. This limits the ability to quantify and track the burden of disease, and consequently, our ability to prioritize and monitor interventions. There is an obvious and urgent need to improve this situation.
       </p>
       <p>
         Best practice for identifying cause of death is an inquiry conducted by a trained physician, coroner, or medical examiner supported by pathology, and if necessary, an autopsy. The required resources, human capital, and infrastructure required for this are not widely available in most low- and middle-income countries. 
@@ -146,6 +147,20 @@
       <p>
         WHO standard verbal autopsy tools support the ongoing rapid expansion of verbal autopsy in routine use in national-level vital statistics systems in a growing number of low- and middle-income countries. The pathology-based reference death archive will be a global good built on and augmenting WHO standard verbal autopsy tools. The eventual archive will be hosted and operated by the WHO.
       </p>
+
+      <h1 id="rda-demo">Demonstration of Ingesting and Sharing Data (2025-10)</h1>
+
+      <p>
+        Below is a 10-minute video of Yue Chu demonstrating most of the RDA as we're getting ready to release it.
+      </p>
+
+      <div class="sam-image">
+        <video controls preload="none" class="mtb">
+          <source src="/site/media/video/rda-demo-2025-10.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        RDA Demo 2025-10
+      </div>
 
     </div>
 

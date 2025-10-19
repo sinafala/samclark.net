@@ -22,7 +22,7 @@
     </button>
     <div class="dropdown-content">
       <a href="/site/projects/verbal-autopsy.shtml" target="_parent">Verbal Autopsy</a>
-      <a href="/site/projects/rda.shtml" target="_parent">RDA</a>
+      <a href="/site/projects/rda.shtml" target="_parent">Reference Data Archive (RDA)</a>
       <a href="https://openva.net" target="_parent">openVA Team</a>
     </div>
   </div> 
@@ -49,4 +49,11 @@
     </div>
   </div> 
 
+  <!-- Logo at far right -->
+  <div class="navbar-logo">
+    <img src="/site/media/thumbs/sam.jpg" alt="openVA logo">
+  </div>  
+
 </div> 
+
+
