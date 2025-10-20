@@ -146,7 +146,7 @@
           <a href="https://github.com/sinafala/usa-mortality" target="_blank">Download and parse USA mortality data from usa.mortality.org</a>
         </li>
         <li>
-          <a href="https://github.com/sinafala/samclark.net" target="_blank">Source code for this website</a>
+          Web sites are most useful when they are updated frequently. After experimenting with several web design tools to help design the site and automate updates, I wasn't able to find any that gave me the design flexibility I wanted, automated updates, and general robustness. So, I decided to write a super simple site from scratch in plain HTML and CSS and use git with a hook to completely automate backup, file management, and updating of the live site. Together, these approaches make updating the site super easy, fast, flexible, and robust. In case you're interested, here's the <a href="https://github.com/sinafala/samclark.net" target="_blank">source code for this website</a>, and a <a href="https://samclark.net/site/pages/news.shtml#2022-04-28" target="_blank">tutorial on setting up the git feature</a>.
         </li>
         <li>
           <a href="https://github.com/sinafala" target="_blank">General GitHub site</a>
