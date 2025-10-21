@@ -25,6 +25,7 @@
       <h1>Index
       <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
         <option value="#beginning">Date: Event</option>
+        <option value="#2025-10-20">2025-10-20: Used Car Checklist</option>
         <option value="#2025-10-13">2025-10-13: Paper - Sex-associated Differences in Life Span</option>
         <option value="#2025-09-27:2">2025-09-27: RDA About Ready!</option>
         <option value="#2025-09-27:1">2025-09-27: Yue Chu's Dissertation</option>
@@ -89,12 +90,27 @@
     <div id="beginning" class="sam-block">
 
       <!-- %%%%%%%%%%%% -->
+      <h1 class="sam-date" id="2025-10-20">2025-10-20  <a href="#beginning" class="back">&#x25B2;</a></h1>
+      <!-- %%%%%%%%%%%% -->
+      
+      <h2>Used Car Checklist</h2>
+
+      <p>
+        If you're shopping for a used car, here's a <a href="/site/misc/used-car-checklist.pdf" target="_blank">checklist</a> of things to note during your inspection.
+      </p>
+
+
+
+
+      <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-10-13">2025-10-13  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
       
       <h2>A Very Interesting Paper: Sex-associated Differences in Life Span</h2>
 
-      <a href="https://doi.org/10.1126/sciadv.ady8433" target="_blank"><b>Sexual Selection Drives Sex Difference in Adult Life Expectancy Across Mammals And Birds</b></a> by Johanna Staerk, Dalia A. Conde, Morgane Tidière, Jean-François Lemaître, András Liker, Balázs Vági, Samuel Pavard, Mathieu Giraudeau, Simeon Q. Smeele, Orsolya Vincze, Victor Ronget, Rita Da Silva, Zjef Pereboom, Mads F. Bertelsen, Jean-Michel Gaillard, Tamás Székely, and Fernando Colchero. <em>Science Advances</em>. 11, eady8433 (2025). <a href="https://doi.org/10.1126/sciadv.ady8433" target="_blank">DOI:10.1126/sciadv.ady8433</a>.
+      <p>
+        <a href="https://doi.org/10.1126/sciadv.ady8433" target="_blank"><b>Sexual Selection Drives Sex Difference in Adult Life Expectancy Across Mammals And Birds</b></a> by Johanna Staerk, Dalia A. Conde, Morgane Tidière, Jean-François Lemaître, András Liker, Balázs Vági, Samuel Pavard, Mathieu Giraudeau, Simeon Q. Smeele, Orsolya Vincze, Victor Ronget, Rita Da Silva, Zjef Pereboom, Mads F. Bertelsen, Jean-Michel Gaillard, Tamás Székely, and Fernando Colchero. <em>Science Advances</em>. 11, eady8433 (2025). <a href="https://doi.org/10.1126/sciadv.ady8433" target="_blank">DOI:10.1126/sciadv.ady8433</a>.
+      </p>
 
       <h3>Abstract</h3> 
       
