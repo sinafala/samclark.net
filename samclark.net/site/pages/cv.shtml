@@ -34,13 +34,14 @@
       <div class="sam-links-list">
         <a href="/site/cv/Samuel-Clark_CV-short.pdf?ver=9" target="_blank">Abridged CV - PDF with Links</a>
         <div class="sam-note">Updated 2026-01-03</div>
-      </div>
+      </div>   
 
-      <div class="sam-image">
-        <a href="/site/media/fullsize/sinafala.jpg" target="_blank">
-          <img class="mtb" title="Sinafala, Zambia" src="/site/media/thumbs/sinafala.jpg">
-        </a>
-        Sinafala Village, Zambia where I lived for some time while working on my <a href="/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa-color-figures.pdf" target="_blank">PhD</a>
+      <div class="pdf-area">
+        <embed 
+          src="/site/cv/Samuel-Clark_CV-short.pdf?ver=9" 
+          type="application/pdf"
+          class="pdf-viewer"
+        >
       </div>
 
     </div>

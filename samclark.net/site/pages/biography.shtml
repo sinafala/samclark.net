@@ -38,7 +38,7 @@
     </div>
 
     <div class="sam-block-padded">
-      <iframe src="https://www.google.com/maps/d/embed?mid=17RJAkgMyFNRyTgddU8fbkyBqIdU"></iframe>
+      <iframe class="biography" src="https://www.google.com/maps/d/embed?mid=17RJAkgMyFNRyTgddU8fbkyBqIdU"></iframe>
     </div>
 
 
