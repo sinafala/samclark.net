@@ -787,16 +787,21 @@ a.back {
   </section>
 */
 
-/* display PDFs */
+/* display one-page pdf properly sized */
 
-.pdf-area{
-  margin-top: 20px;
+.pdf-onepage { margin-top: 15px; }
+
+#pdfHost{
+  width: 100%;        /* full width of its parent */
+  overflow: hidden;   /* ensures no inner scrolling */
 }
 
-.pdf-viewer{
+#pdfCanvas{
+  display: block;
   width: 100%;
-  height: 50vh;
-  border: none;
+  height: 100%;
 }
+
+
 
   
