@@ -25,6 +25,7 @@
       <h1>Index
       <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
         <option value="#beginning">Date: Talk</option>
+        <option value="#2025-12-12">2025-12-12: RDA Launch Presentation</option>
         <option value="#2025-10-15">2025-10-15: RDA Update - MITS Alliance Annual Meeting</option>
         <option value="#2025-02-10">2025-02-10: UT Austin Sociology Seminar</option>
         <option value="#2024-09-30">2024-09-30: RDA Implementation</option>
@@ -39,7 +40,7 @@
         <option value="#2022-09-02">2022-09-02: Mortality Model</option>
         <option value="#2022-08-05">2022-08-05: VA Brazil Pathology Meeting</option>
         <option value="#2022-05-09">2022-05-09: PAA 2022</option>
-        <option value="#2022-02-10">2022-02-10: UNC Population Science</option>
+        <option value="#2022-02-10">2022-02-10: UNC Population Science</option> 
         <option value="#2021-10-01">2021-10-01: Discussant, De Jong Lecture</option>
         <option value="#2021-04-08">2021-04-08: LSHTM Population Science</option>
         <option value="#2021-03-04">2021-03-24: Berlin Demography Days: Pop Science</option>
@@ -58,16 +59,26 @@
     <div id="beginning" class="sam-block">
 
       <!-- %%%%%%%%%%%% -->
+      <h1 class="sam-date" id="2025-12-12">2025-12-12 <a href="#beginning" class="back">&#x25B2;</a></h1>
+      <!-- %%%%%%%%%%%% -->
+      <p>
+        <a href="/site/talks/Sam-Clark_Reference-Data-Archive-Launch.pptx" target="_blank"><b>Presentation</b></a> with full RDA Team to launch the <a href="/site/projects/rda.shtml" target="_blank"><b>completed first version of the Reference Data Archive (RDA)</b></a>. [The linked .pptx file is password protected - push the 'Read Only' button when Powerpoint asks for a password.] 
+      </p>
+      <p>
+        Over the past three years, I have led the creation of the <a href="/site/projects/rda.shtml" target="_blank">RDA</a> at WHO headquarter in Geneva. The RDA is a linked <em>trusted researcher environment</em> and <em>data catalogue/repository</em> designed to host sensitive data in any form, allow vetted researchers to access and analyze the data, and provide an easy-to-use and fully functional way to share both data and analytical results created with the data. Data and results shared using the RDA require acknowledgement of data providers and analysts and come with a permanent WHO-linked DOI so that they can always be located and cited.
+      </p>
+      <p>
+        The motivating idea behind the RDA is to provide meaningful reference datasets for training and validating methods to improve cause of death ascertainment. However, the scope is widening to include a variety of cause of death and mortality data managed and shared by WHO. Consequently, the RDA is likely to support a range of mortality-related work at WHO.
+      </p>
+
+
+
+
+      <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-10-15">2025-10-15 <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
       <p>
-        Talk at the <a href="https://mitsalliance.org/" target="_blank">MITS Alliance</a> annual meeting in Kampala Uganda describing progress on the almost-complete <a href="/site/talks/Sam-Clark_Reference-Data-Archive-Update.pptx" target="_blank"><b>Reference Data Archive (RDA)</b></a>. [The linked .pptx file is password protected - push the 'Read Only' button when Powerpoint asks for a password.] 
-      </p>
-      <p>
-        Over the past three years, I have led the creation of the <a href="/site/projects/rda.shtml" target="_parent">RDA</a> at WHO headquarter in Geneva. The RDA is a linked <em>trusted researcher environment</em> and <em>data catalogue/repository</em> designed to host sensitive data in any form, allow vetted researchers to access and analyze the data, and provide an easy-to-use and fully functional way to share both data and analytical results created with the data. Data and results shared using the RDA require acknowledgement of data providers and analysts and come with a permanent WHO-linked DOI so that they can always be located and cited.
-      </p>
-      <p>
-        The motivating idea behind the RDA is to provide meaningful reference datasets for training and validating methods to improve cause of death ascertatment. However, the scope is widening to include a variety of cause of death and mortality data managed and shared by WHO. Consequently, the RDA is likely to support a range of mortality-related work at WHO.
+        <a href="/site/talks/Sam-Clark_Reference-Data-Archive-Update.pptx" target="_blank"><b>Talk</b></a> at the <a href="https://mitsalliance.org/" target="_blank">MITS Alliance</a> annual meeting in Kampala Uganda describing progress on the almost-complete <a href="/site/projects/rda.shtml" target="_blank"><b>Reference Data Archive (RDA)</b></a>. [The linked .pptx file is password protected - push the 'Read Only' button when Powerpoint asks for a password.] 
       </p>
 
 
@@ -269,7 +280,7 @@
       <h1 class="sam-date" id="earlier">Earlier <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
       <p>
-        See <a href="/site/cv/Samuel-Clark_CV.pdf?ver=7" target="_blank">CV</a> for a selected list of earlier talks. 
+        See <a href="/site/cv/Samuel-Clark_CV.pdf?ver=9" target="_blank">CV</a> for a selected list of earlier talks. 
       </p>
 
     </div>

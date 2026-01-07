@@ -25,6 +25,8 @@
       <h1>Index
       <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
         <option value="#beginning">Date: Event</option>
+        <option value="#2025-12-12">2025-12-12: RDA Live at WHO!</option>
+        <option value="#2025-12-10">2025-12-10: List of Spammers - Block Them!</option>
         <option value="#2025-10-20">2025-10-20: Used Car Checklist</option>
         <option value="#2025-10-13">2025-10-13: Paper - Sex-associated Differences in Life Span</option>
         <option value="#2025-09-27:2">2025-09-27: RDA About Ready!</option>
@@ -90,13 +92,39 @@
     <div id="beginning" class="sam-block">
 
       <!-- %%%%%%%%%%%% -->
+      <h1 class="sam-date" id="2025-12-12">2025-12-12  <a href="#beginning" class="back">&#x25B2;</a></h1>
+      <!-- %%%%%%%%%%%% -->
+      
+      <h2>Reference Data Archive (RDA) Is Now Live at WHO</h2>
+
+      <p>
+        The <a href="/site/projects/rda.shtml" target="_blank">RDA</a> is now live at <a href="https://data.who.int/rda" target="_blank"><b>https://data.who.int/rda</b></a>. It launches with verbal autopsy reference deaths from the Brazilian mortality surveillance system (SVO), starting with the city of <a href="https://svoc.usp.br/home-4/" target="_blank">São Paulo SVO</a>. Over the coming year a lot more verbal autopsy reference deaths with WHO 2022 VA, minimally-invasive tissue sample (MITS) results and full autopsy from Brazil will be added. Similar reference deaths will also be added from the <a href="https://mitsalliance.org" target="_blank">MITS Alliance</a> sites.
+      </p>
+
+
+
+
+      <!-- %%%%%%%%%%%% -->
+      <h1 class="sam-date" id="2025-12-10">2025-12-10  <a href="#beginning" class="back">&#x25B2;</a></h1>
+      <!-- %%%%%%%%%%%% -->
+      
+      <h2>Block Domains that Send Spam Email</h2>
+
+      <p>
+        Over the past year I have identified and blocked almost 800 domains, IP numbers, or email addresses that send spam email. Here is the list as of right now: click to download <a href="/site/misc/sources-of-spam.txt" download="sources-of-spam.txt"><b>sources-of-spam.txt</b></a>. This is a text file with one malicious source on each line. You may be able to easily import it into whatever blacklisting tool you use.
+      </p>
+
+
+
+
+      <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-10-20">2025-10-20  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
       
       <h2>Used Car Checklist</h2>
 
       <p>
-        If you're shopping for a used car, here's a <a href="/site/misc/used-car-checklist.pdf" target="_blank">checklist</a> of things to note during your inspection.
+        If you're shopping for a used car, here's a <a href="/site/misc/used-car-checklist.pdf" target="_blank"><b>checklist</b></a> of things to note during your inspection.
       </p>
 
 

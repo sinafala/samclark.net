@@ -54,6 +54,12 @@
         </li>
       </ul>
 
+      <h2>Reference Data Archive</h2>
+
+      <p>
+        The Reference Data Archive (RDA) is a data resource hosted at the WHO that was created and is operated by the <a href="https://openva.net" target="_blank">openVA Team</a> and the WHO Department of Data, Digital Health, Analytics and AI (DDA): <a href="https://data.who.int/rda" target="_blank"><b>https://data.who.int/rda</b></a>. The RDA's primary function is to accumulate reference deaths to train, validate, and contribute to operating automated cause-coding systems for verbal autopsy. There is a full description at the <a href="/site/projects/rda.shtml" target="_blank">RDA page</a>.
+      </p>      
+
       <h2>pyOpenVA</h2>
 
       <p>

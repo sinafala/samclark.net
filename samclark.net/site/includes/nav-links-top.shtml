@@ -5,8 +5,9 @@
   </a>
 
   <div class="dropdown">
-    <button class="dropbtn">Academic 
-      <span style="font-size: 11px;">&#9660;</span>
+    <button class="dropbtn">Academic
+      <!-- <span style="font-size: 11px;">&#9660;</span> -->
+      <span style="font-size: 15px;">&#9776;</span>
     </button>
     <div class="dropdown-content">
       <a href="/site/pages/cv.shtml" target="_parent">CV</a>
@@ -19,7 +20,7 @@
 
   <div class="dropdown">
     <button class="dropbtn">VA 
-      <span style="font-size: 11px;">&#9660;</span>
+      <span style="font-size: 15px;">&#9776;</span>
     </button>
     <div class="dropdown-content">
       <a href="/site/projects/verbal-autopsy.shtml" target="_parent">Verbal Autopsy</a>
@@ -30,7 +31,7 @@
 
   <div class="dropdown">
     <button class="dropbtn">Personal 
-      <span style="font-size: 11px;">&#9660;</span>
+      <span style="font-size: 15px;">&#9776;</span>
     </button>
     <div class="dropdown-content">
       <a href="/site/pages/mtb.shtml" target="_parent">Mountain Biking, etc.</a>
@@ -40,7 +41,7 @@
 
   <div class="dropdown">
     <button class="dropbtn">News+ 
-      <span style="font-size: 11px;">&#9660;</span>
+      <span style="font-size: 15px;">&#9776;</span>
     </button>  
     <div class="dropdown-content">
       <a href="/site/pages/news.shtml" target="_parent">News</a>

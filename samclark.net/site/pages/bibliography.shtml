@@ -81,6 +81,22 @@
       <h2 class="bib-year" id="year-2025">2025  <a href="#beginning" class="back">&#x25B2;</a></h2> 
 
 
+
+      <h3 class="bib">Project Milestones</h3>
+
+
+      <p class="bibliography"><a id="rda"></a>
+
+      <span class="author">CLARK,&nbsp;S.J.</span>, D.M. Fat, K. Herbst, Y. Chu, B. Gilbert, P. Boucher, J. Thomas, D-G. Vasilache, D. Plotner, N. Goco, M. Sharan, J. Larin. (2025).
+
+      <em>WHO Reference Data Archive.</em>
+
+      [&nbsp;<a href="https://data.who.int/rda" target="_blank">https://data.who.int/rda</a>&nbsp;]
+
+      </p>
+
+
+
       <h3 class="bib">Articles Published</h3>
 
 
@@ -90,8 +106,7 @@
 
       <b>Evaluating the Performance of Verbal Autopsy for Assigning Cause of Death in Older Adults: A Population-Based Cohort Study in Karonga, Malawi.</b> 
 
-      <em>Tropical Medicine & International Health</em>.
-      <!-- &nbsp;2025:1–10. -->
+      <em>Tropical Medicine & International Health</em>&nbsp;<em>30</em>: 652–661.
 
       [&nbsp;<a href="https://doi.org/10.1111/tmi.14120" target="_blank">DOI</a>&nbsp;]
 
@@ -104,7 +119,7 @@
 
       <b>Space-Time Smoothing of Demographic and Health Indicators Using the R Package SUMMER.</b> 
 
-      <em>The R Journal</em>&nbsp;12:e1278–87.
+      <em>The R Journal</em>&nbsp;<em>12</em>: e1278–87.
 
       [&nbsp;<a href="https://arxiv.org/abs/2007.05117" target="_blank">URL</a>&nbsp;]
 
@@ -117,8 +132,7 @@
 
       <b>Bayesian Analysis of Verbal Autopsy Data Using Factor Models With Age- and Sex-Dependent Associations Between Symptoms.</b> 
 
-      <em>Annals of Applied Statistics</em>.
-      <!-- &nbsp;12:e1278–87. -->
+      <em>Annals of Applied Statistics</em>&nbsp;<em>19</em>(3): 2237-2253.
 
       [&nbsp;<a href="https://arxiv.org/abs/2403.12288" target="_blank">URL</a>&nbsp;]
 
@@ -194,7 +208,7 @@
 
       <b>Temporal Changes in Cause of Death Among Adolescents and Adults in Six Countries in Eastern And Southern Africa: A Multi-Country Cohort Study using Verbal Autopsy Data.</b> 
 
-      <em>Lancet Global Health</em>&nbsp;12:e1278–87.
+      <em>Lancet Global Health</em>&nbsp;<em>12</em>: e1278–87.
 
       [&nbsp;<a href="https://doi.org/10.1016/S2214-109X(24)00171-2" target="_blank">DOI</a>&nbsp;]
 
@@ -207,7 +221,7 @@
 
       <b>Mortality Variability and Differentials By Age and Causes of Death in Rural South Africa, 1994–2018.</b> 
 
-      <em>BMJ Global Health</em>.&nbsp;9:e013539.
+      <em>BMJ Global Health</em>.&nbsp;<em>9</em>: e013539.
 
       [&nbsp;<a href="https://doi.org/10.1136/bmjgh-2023-013539" target="_blank">DOI</a>&nbsp;]
 
@@ -234,7 +248,7 @@
 
       <b>Bayesian Nested Latent Class Models For Cause-of-death Assignment Using Verbal Autopsies Across Multiple Domains.</b> 
 
-      <em>Annals of Applied Statistics</em>.
+      <em>Annals of Applied Statistics</em>&nbsp;<em>18</em>(2): 1137-1159.
 
       [&nbsp;<a href="https://doi.org/10.1214/23-AOAS1826" target="_blank">DOI</a>&nbsp;]
 

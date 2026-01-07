@@ -168,6 +168,15 @@ p.sam-quote {
   margin-right:5%;
 }
 
+p.announce-green {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: green;
+}
+
 span.author {
   color: green;
 }

@@ -5,9 +5,9 @@
 <head>
  <meta name="author" content="Samuel J. Clark">
  <meta name="description" content="Samuel J. Clark's project page for the Reference Death Archive.">
- <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, Africa, epidemiology, demography, RDA, Reference Death Archive, verbal autopsy, CCVA, SCI, symptom-cause information, VA, WHO, MITS, minimall invasive tissue sample, verbal autopsy algorithm.">
+ <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, Africa, epidemiology, demography, RDA, reference death archive, reference data archive, verbal autopsy, CCVA, SCI, symptom-cause information, VA, WHO, MITS, minimall invasive tissue sample, verbal autopsy algorithm.">
  <!--#include virtual="/site/includes/header.html" -->
- <title>Samuel Clark - Reference Death Archive </title>
+ <title>Samuel Clark - Reference Data Archive </title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
     <!--#include virtual="/site/includes/nav-links-top.shtml" -->
 
     <div class="sam-title">
-      Reference Death Archive
+      Reference Data Archive
     </div>
 
 
@@ -47,10 +47,14 @@
     <div class="sam-block">
 
       <p id="project">
-        I am leading a new project to create a <b>Reference Death Archive</b> for verbal autopsy. The archive will be hosted at the <a href="https://www.ungeneva.org/en/about/organizations/who" target="_blank">WHO</a> Headquarters in Geneva and will be publicly available to all researchers and VA users. The overall objective is to improve verbal autopsy cause of death ascertainment, especially in routine mortality surveillance. Deaths will come from the CHAMPS and COMSA projects - <a href="https://publichealth.jhu.edu/institute-for-international-programs/our-work/countrywide-mortality-surveillance-for-action-comsa-in-mozambique" target="_blank">Mozambique</a> and <a href="https://www.cghr.org/comsa/" target="_blank">Sierra Leone</a>, the sites that are part of the <a href="https://mitsalliance.org" target="_blank">MITS Alliance</a>, and the Brazilian mortality surveillance system (SVO), starting with the city of <a href="https://svoc.usp.br/home-4/" target="_blank">S&atilde;o Paulo SVO</a>. The <a href="https://www.gatesfoundation.org" target="_blank">Gates Foundation</a> is supporting this work. Below is a more detailed motivation and explanation of the archive.
+        I am leading a project to create a <b>Reference Data Archive</b> for verbal autopsy and other mortality data. The <a href="https://openva.net" target="_blank">openVA Team</a> has played a central role in this project, especially <a href="https://y-chu.github.io" target="_blank">Yue Chu</a> and <a href="https://jarathomas.github.io" target="_blank">Jason Thomas</a>. The archive is hosted at the <a href="https://www.ungeneva.org/en/about/organizations/who" target="_blank">WHO</a> Headquarters in Geneva at <a href="https://data.who.int/rda" target="_blank"><b>https://data.who.int/rda</b></a> and is publicly available to all researchers and VA users. The overall objective is to improve verbal autopsy cause of death ascertainment, especially in routine mortality surveillance. Deaths will come from the <a href="https://champshealth.org" target="_blank">CHAMPS</a> and COMSA projects - <a href="https://publichealth.jhu.edu/institute-for-international-programs/our-work/countrywide-mortality-surveillance-for-action-comsa-in-mozambique" target="_blank">Mozambique</a> and <a href="https://www.healsl.org" target="_blank">Sierra Leone</a>, the sites that are part of the <a href="https://mitsalliance.org" target="_blank">MITS Alliance</a>, and the Brazilian mortality surveillance system (SVO), starting with the city of <a href="https://svoc.usp.br/home-4/" target="_blank">S&atilde;o Paulo SVO</a>. The <a href="https://www.gatesfoundation.org" target="_blank">Gates Foundation</a> supported this work and the team has included Doris Ma Fat, Philippe Boucher, and George Vasilache associated with the <em>Data, Digital Health, Analytics and AI Department (DDA)</em> of the WHO; <a href="https://www.ahri.org/scientist/kobus-herbst/" target="_blank">Kobus Herbst</a> and <a href="https://www.linkedin.com/in/brendan-gilbert-6026b949/" target="_blank">Brendan Gilbert</a> at <a href="https://www.ahri.org" target="_blank">AHRI</a>; and <a href="https://www.linkedin.com/in/normangoco/" target="_blank">Norman Goco</a> and <a href="https://www.linkedin.com/in/david-plotner/" target="_blank">David Plotner</a> at <a href="https://www.rti.org" target="_blank">RTI</a>. Below is a more detailed motivation and explanation of the archive.
       </p>
 
-      <h1 id="rda">Reference Death Archive for Verbal Autopsy</h1>
+      <p>
+        <em>The RDA is now live at WHO</em> - see <a href="/site/pages/news.shtml#2025-12-12" target="_blank">News 2025-12-12</a>.
+      </p>
+
+      <h1 id="rda">Reference Data Archive and Verbal Autopsy</h1>
 
       <h2 id="background">General Background</h2>
 
@@ -88,10 +92,10 @@
       <h2 id="objective">Overall Objective</h2>
 
       <p>
-        The overall objective of this project is to develop the tools necessary to create a pathology-based reference death archive that will allow verbal autopsy to be a pathology-informed method. When fully populated the pathology-based reference death archive will greatly improve the ability of verbal autopsy to accurately identify cause of death in a wide variety of settings around the world.
+        The overall objective of this project is to develop the tools necessary to create a pathology-based reference data archive that will allow verbal autopsy to be a pathology-informed method. When fully populated the pathology-based reference data archive will greatly improve the ability of verbal autopsy to accurately identify cause of death in a wide variety of settings around the world.
       </p>
       <p>
-        Specifically, a large, high quality, pathology-based reference death archive:
+        Specifically, a large, high quality, pathology-based reference data archive:
       </p>
       <ol>
         <li>
@@ -119,10 +123,10 @@
         </li>
       </ol>
 
-      <h2 id="p-rda">Pathology-based Reference Death Archive</h2>
+      <h2 id="p-rda">Pathology-based Reference Data Archive</h2>
 
       <p>
-       The pathology-based reference death archive will consist of deaths having all three of:
+       The pathology-based reference data archive will consist of deaths having all three of:
       </p>
       <ol>
         <li>
@@ -145,7 +149,7 @@
       <h1 id="impact">Anticipated Impact</h1>
 
       <p>
-        WHO standard verbal autopsy tools support the ongoing rapid expansion of verbal autopsy in routine use in national-level vital statistics systems in a growing number of low- and middle-income countries. The pathology-based reference death archive will be a global good built on and augmenting WHO standard verbal autopsy tools. The eventual archive will be hosted and operated by the WHO.
+        WHO standard verbal autopsy tools support the ongoing rapid expansion of verbal autopsy in routine use in national-level vital statistics systems in a growing number of low- and middle-income countries. The pathology-based reference data archive will be a global good built on and augmenting WHO standard verbal autopsy tools. The eventual archive will be hosted and operated by the WHO.
       </p>
 
       <h1 id="rda-demo">Demonstration of Ingesting and Sharing Data (2025-10)</h1>
