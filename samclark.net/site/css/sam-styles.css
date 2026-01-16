@@ -639,8 +639,8 @@ a:active{
 .navbar-logo img {
   height: 26px;       /* match roughly text height */
   vertical-align: middle;
-  margin-right: 3px;  /* small padding from edge */
-  margin-left: 25px;  /* small padding from edge */
+  margin-right: 5px;  /* small padding from edge */
+  margin-left: 10px;  /* small padding from edge */
 }
 
 
@@ -786,21 +786,6 @@ a.back {
 
   </section>
 */
-
-/* display one-page pdf properly sized */
-
-.pdf-onepage { margin-top: 15px; }
-
-#pdfHost{
-  width: 100%;        /* full width of its parent */
-  overflow: hidden;   /* ensures no inner scrolling */
-}
-
-#pdfCanvas{
-  display: block;
-  width: 100%;
-  height: 100%;
-}
 
 
 

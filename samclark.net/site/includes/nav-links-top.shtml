@@ -1,8 +1,10 @@
 <div class="navbar">
 
-  <a href="/index.shtml" target="_parent">
-    <span style="font-size: 13px;">&#9633;</span>
-  </a>
+  <div class="dropdown">
+    <a href="/index.shtml" target="_parent">
+      <span style="font-size: 15px;">&#9633;</span>
+    </a>
+  </div>
 
   <div class="dropdown">
     <button class="dropbtn">Academic
@@ -53,7 +55,7 @@
 
   <!-- Logo at far right -->
   <div class="navbar-logo">
-    <img src="/site/media/thumbs/sam.jpg" alt="openVA logo">
+    <img src="/site/media/thumbs/sam.jpg" alt="Sam">
   </div>  
 
 </div> 

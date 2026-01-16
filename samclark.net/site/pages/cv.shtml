@@ -28,19 +28,25 @@
     <div class="sam-block">
 
       <div class="sam-links-list">
-        <a href="/site/cv/Samuel-Clark_CV.pdf?ver=9" target="_blank">Full CV - PDF with Links</a>
-        <div class="sam-note">Updated 2026-01-03</div>
+        <a href="/site/cv/Samuel-Clark_CV.pdf?ver=10" target="_blank">Full CV - PDF with Links</a>
+        <div class="sam-note">Updated 2026-01-09</div>
       </div>
 
       <div class="sam-links-list">
-        <a href="/site/cv/Samuel-Clark_CV-short.pdf?ver=9" target="_blank">Abridged CV - PDF with Links</a>
+        <a href="/site/cv/Samuel-Clark_CV-short.pdf?ver=10" target="_blank">Abridged CV - PDF with Links</a>
         <div class="sam-note">Updated 2026-01-03</div>
       </div>   
 
-      <div class="pdf-onepage">
+      <!-- <div class="pdf-onepage">
         <div id="pdfHost">
           <canvas id="pdfCanvas"></canvas>
         </div>
+      </div> -->
+
+      <div class="sam-image">
+        <a href="/site/media/fullsize/Pendleton2025.jpg" target="_blank">
+          <img class="mtb" title="Saguaro cactus, Arizona" src="/site/media/thumbs/Pendleton2025.jpg"></a>
+        Pendleton, OR Back Roads, 2025
       </div>
 
     </div>
@@ -54,64 +60,5 @@
   </footer>
 
 </div>
-
-<!-- size the CV-short PDF bitmap correctly -->
-<script type="module">
-  import * as pdfjsLib from "/site/tools/pdfjs/build/pdf.mjs";
-  pdfjsLib.GlobalWorkerOptions.workerSrc = "/site/tools/pdfjs/build/pdf.worker.mjs";
-
-  const url = "/site/cv/Samuel-Clark_CV-short.pdf?ver=9";
-
-  const host = document.getElementById("pdfHost");
-  const canvas = document.getElementById("pdfCanvas");
-  const ctx = canvas.getContext("2d");
-
-  const prevBtn = document.getElementById("prevPg");
-  const nextBtn = document.getElementById("nextPg");
-  const label = document.getElementById("pgLabel");
-
-  let pdfDoc, pageNum = 1;
-
-  async function renderPage() {
-    if (!pdfDoc) pdfDoc = await pdfjsLib.getDocument(url).promise;
-
-    const page = await pdfDoc.getPage(pageNum);
-
-    // Fit page to host width
-    const unscaled = page.getViewport({ scale: 1 });
-    const cssWidth = host.clientWidth || 800;
-    const scale = cssWidth / unscaled.width;
-
-    const viewport = page.getViewport({ scale });
-
-    // HiDPI crispness
-    const dpr = window.devicePixelRatio || 1;
-    canvas.width = Math.floor(viewport.width * dpr);
-    canvas.height = Math.floor(viewport.height * dpr);
-
-    // The key: make the "viewer" exactly one page tall (CSS pixels)
-    host.style.height = `${Math.floor(viewport.height)}px`;
-
-    // Render
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    await page.render({ canvasContext: ctx, viewport }).promise;
-
-    if (label) label.textContent = `Page ${pageNum} / ${pdfDoc.numPages}`;
-    if (prevBtn) prevBtn.disabled = pageNum <= 1;
-    if (nextBtn) nextBtn.disabled = pageNum >= pdfDoc.numPages;
-  }
-
-  function debounce(fn, ms=80){
-    let t; return () => { clearTimeout(t); t = setTimeout(fn, ms); };
-  }
-
-  if (prevBtn) prevBtn.addEventListener("click", async () => { pageNum--; await renderPage(); });
-  if (nextBtn) nextBtn.addEventListener("click", async () => { pageNum++; await renderPage(); });
-
-  window.addEventListener("resize", debounce(renderPage, 120));
-
-  await renderPage();
-</script>
-
 </body>
 </html>

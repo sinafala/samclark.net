@@ -25,6 +25,8 @@
       <h1>Index
       <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
         <option value="#beginning">Date: Event</option>
+        <option value="#2026-01-09-2">2026-01-09-2: Review: HDSS Data Uses</option>
+        <option value="#2026-01-09-1">2026-01-09-1: HEALMOD Grant Cancelled</option>
         <option value="#2025-12-12">2025-12-12: RDA Live at WHO!</option>
         <option value="#2025-12-10">2025-12-10: List of Spammers - Block Them!</option>
         <option value="#2025-10-20">2025-10-20: Used Car Checklist</option>
@@ -92,6 +94,48 @@
     <div id="beginning" class="sam-block">
 
       <!-- %%%%%%%%%%%% -->
+      <h1 class="sam-date" id="2026-01-09-2">2026-01-09-2  <a href="#beginning" class="back">&#x25B2;</a></h1>
+      <!-- %%%%%%%%%%%% -->
+      
+      <h2>Review: HDSS Data Uses</h2>
+
+      <p>
+        This paper is a great introduction to the unique potentials of HDSS data.
+      </p>
+
+      <p>
+        <a href="https://doi.org/10.1007/s12546-025-09411-z" target="_blank">Versatility, value and limitations of using health and demographic surveillance system data for secondary analyses: guidance for researchers, using examples from existing analyses</a> by Estelle McLean, Rebecca Sear, and Emma Slaymaker. <em>Journal of Population Research</em>. 43:3 (2026). <a href="https://doi.org/10.1007/s12546-025-09411-z" target="_blank">DOI:10.1007/s12546-025-09411-z</a>.
+      </p>
+
+      <h3>Abstract</h3> 
+      
+      <p>
+        Health and Demographic Surveillance Systems (HDSS) are geographic open cohorts operating in countries with absent/incomplete vital registration. Data on demographic events, socio-demographic indicators, and certain health conditions are regularly gathered on the whole population of a small area, sometimes for decades. In the same countries there are often also nationally-representative demographic data available from roughly quinquennial Demographic and Health Surveys (DHS). This paper uses a comparison with DHS data, and an in-depth review of complex HDSS analyses to demonstrate the utility of using HDSS data for secondary analyses, and to provide guidance on the conduct and reporting of these analyses. DHS data has advantages in terms of representativeness and data access, and HDSS in terms of scope for complex longitudinal analyses which may take household and familial contexts into account. HDSS also have issues which make interpretation of data and conclusions challenging: lack of data on in- and out-migrants when they are outside of the area, and repeatedly collected data may result in inconsistencies and/or more reliable data for longer-term residents. Despite these challenges, the reviewed HDSS data analyses demonstrate the flexibility and unique strengths of HDSS data. HDSS data users are recommended to clearly state their methods, particularly how they approached the issues specific to HDSS analyses of handling repeated data, migration and missing data: while there were interesting ways used to approach these issues, they were often not discussed. HDSS data producers are further encouraged to ensure that the data are being used to their full potential.
+      </p>
+
+
+
+
+      <!-- %%%%%%%%%%%% -->
+      <h1 class="sam-date" id="2026-01-09-1">2026-01-09-1  <a href="#beginning" class="back">&#x25B2;</a></h1>
+      <!-- %%%%%%%%%%%% -->
+      
+      <h2>HEALMOD Grant Cancelled</h2>
+
+      <p>
+        Over the fall of 2025, irreconcilable differences emerged on the leadership team (including me) of the <a href="/site/pages/news.shtml#2025-02-01" target="_parent">HEALMOD</a> unit. Great effort was expended by many people to resolve the issues, but a satisfactory resolution was not possible. So, today the OSU Office of Academic Affairs canceled the grant that supports the unit. The four postdocs supported by that award will continue to be supported through the end of their contracts, and they will choose the mentor(s) who will supervise them through the remainder of their postdocs.
+      </p>
+      <p>
+        This is tremendously sad and the direct result of overwhelming hubris and greed.
+      </p>
+      <p>
+        I look forward to continuing to work with the postdocs who may continue to want support from me.
+      </p>
+
+
+
+
+      <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-12-12">2025-12-12  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
       
@@ -111,7 +155,7 @@
       <h2>Block Domains that Send Spam Email</h2>
 
       <p>
-        Over the past year I have identified and blocked almost 800 domains, IP numbers, or email addresses that send spam email. Here is the list as of right now: click to download <a href="/site/misc/sources-of-spam.txt" download="sources-of-spam.txt"><b>sources-of-spam.txt</b></a>. This is a text file with one malicious source on each line. You may be able to easily import it into whatever blacklisting tool you use.
+        Over the past year I have identified and blocked almost 800 domains, IP numbers, or email addresses that send spam email. Here is the list as of right now: click to download <a href="/site/misc/sources-of-spam.txt" download="sources-of-spam.txt">sources-of-spam.txt</a>. This is a text file with one malicious source on each line. You may be able to easily import it into whatever blacklisting tool you use.
       </p>
 
 
@@ -124,7 +168,7 @@
       <h2>Used Car Checklist</h2>
 
       <p>
-        If you're shopping for a used car, here's a <a href="/site/misc/used-car-checklist.pdf" target="_blank"><b>checklist</b></a> of things to note during your inspection.
+        If you're shopping for a used car, here's a <a href="/site/misc/used-car-checklist.pdf" target="_blank">checklist</a> of things to note during your inspection.
       </p>
 
 
@@ -137,7 +181,7 @@
       <h2>A Very Interesting Paper: Sex-associated Differences in Life Span</h2>
 
       <p>
-        <a href="https://doi.org/10.1126/sciadv.ady8433" target="_blank"><b>Sexual Selection Drives Sex Difference in Adult Life Expectancy Across Mammals And Birds</b></a> by Johanna Staerk, Dalia A. Conde, Morgane Tidière, Jean-François Lemaître, András Liker, Balázs Vági, Samuel Pavard, Mathieu Giraudeau, Simeon Q. Smeele, Orsolya Vincze, Victor Ronget, Rita Da Silva, Zjef Pereboom, Mads F. Bertelsen, Jean-Michel Gaillard, Tamás Székely, and Fernando Colchero. <em>Science Advances</em>. 11, eady8433 (2025). <a href="https://doi.org/10.1126/sciadv.ady8433" target="_blank">DOI:10.1126/sciadv.ady8433</a>.
+        <a href="https://doi.org/10.1126/sciadv.ady8433" target="_blank">Sexual Selection Drives Sex Difference in Adult Life Expectancy Across Mammals And Birds</a> by Johanna Staerk, Dalia A. Conde, Morgane Tidière, Jean-François Lemaître, András Liker, Balázs Vági, Samuel Pavard, Mathieu Giraudeau, Simeon Q. Smeele, Orsolya Vincze, Victor Ronget, Rita Da Silva, Zjef Pereboom, Mads F. Bertelsen, Jean-Michel Gaillard, Tamás Székely, and Fernando Colchero. <em>Science Advances</em>. 11, eady8433 (2025). <a href="https://doi.org/10.1126/sciadv.ady8433" target="_blank">DOI:10.1126/sciadv.ady8433</a>.
       </p>
 
       <h3>Abstract</h3> 
