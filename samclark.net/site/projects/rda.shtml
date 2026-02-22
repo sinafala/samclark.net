@@ -21,8 +21,7 @@
       Reference Data Archive
     </div>
 
-
-    <div class="sam-block-index">  
+    <div class="sam-block-index">
       <h1>Index
       <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
         <option>Topic</option>
@@ -40,9 +39,7 @@
 
   </header>
 
-    
   <main>
- 
 
     <div class="sam-block">
 
@@ -62,16 +59,16 @@
         <a href="https://doi.org/10.2471/BLT.22.289036" target="_blank">About 30% of global deaths are not registered at all and about 60% do not have a medically certified cause</a>. This limits the ability to quantify and track the burden of disease, and consequently, our ability to prioritize and monitor interventions. There is an obvious and urgent need to improve this situation.
       </p>
       <p>
-        Best practice for identifying cause of death is an inquiry conducted by a trained physician, coroner, or medical examiner supported by pathology, and if necessary, an autopsy. The required resources, human capital, and infrastructure required for this are not widely available in most low- and middle-income countries. 
+        Best practice for identifying cause of death is an inquiry conducted by a trained physician, coroner, or medical examiner supported by pathology, and if necessary, an autopsy. The required resources, human capital, and infrastructure required for this are not widely available in most low- and middle-income countries.
       </p>
       <p>
         Verbal autopsy is a feasible alternative that can be deployed widely. Verbal autopsy is an interview-based approach that does not require highly trained personnel or any biomedical infrastructure. This makes it cheap and easy and thereby possible to conduct at scale. Compared to a traditional pathology-informed method of identifying cause of death, verbal autopsy is less accurate and less reliable.
       </p>
       <p>
         Verbal autopsy consists of three elements: 1) data describing signs/symptoms displayed by the decedent, 2) a set of data that relate those signs/symptoms to a list of causes - symptom-cause information, and 3) a cause-assignment method for combining the two sets of data to identify causes of death that are jointly consistent with both. The cause-assignment method can be a physician reading the verbal autopsy interview or a computer-based algorithm that processes the two types of data together. Physicians are biased but better able to identify specific causes; algorithms are not biased but are less able to be specific. Both rely on accurate symptom-cause information - for physicians, medical training, and for algorithms, formally-defined, logical symptom-cause information. Physicians are a scarce resource that takes time and resources to train and is needed to treat living people. In contrast, computers are cheap and fast and therefore the only realistic option for at-scale verbal autopsy. Both the algorithm logic and the symptom-cause information used by the algorithm are critical to the success of computer-coded verbal autopsy.
-      </p> 
+      </p>
       <p>
-        Symptom-cause information for computer algorithms originates either from physicians directly or from a set of reference deaths. Reference deaths have both verbal autopsy signs/symptoms and a cause assigned through an independent method that does not involve a computer algorithm. The physician approach is affected by bias on the part of the physicians and the fact that it is fundamentally indirect, removed from the real experience of actual deaths. The reference death approach is uses information provided by real deaths and is thereby a direct reflection of the relationship between signs/symptoms and causes for those specific reference deaths. A given set of reference deaths embodies the relationships between the specific signs/symptoms that were experienced by those deaths and the specific causes that brought about those deaths. This is both the strength and weakness of this approach: reference death symptom-cause information is precise but limited to the specific information available in a given set of reference deaths. 
+        Symptom-cause information for computer algorithms originates either from physicians directly or from a set of reference deaths. Reference deaths have both verbal autopsy signs/symptoms and a cause assigned through an independent method that does not involve a computer algorithm. The physician approach is affected by bias on the part of the physicians and the fact that it is fundamentally indirect, removed from the real experience of actual deaths. The reference death approach is uses information provided by real deaths and is thereby a direct reflection of the relationship between signs/symptoms and causes for those specific reference deaths. A given set of reference deaths embodies the relationships between the specific signs/symptoms that were experienced by those deaths and the specific causes that brought about those deaths. This is both the strength and weakness of this approach: reference death symptom-cause information is precise but limited to the specific information available in a given set of reference deaths.
       </p>
       <p>
         Computer algorithms and reference death-based symptom-cause information are the way forward for at-scale verbal autopsy - because it is feasible, reproducible, and with the creation and growth of a representative reference death, will become increasingly accurate in diverse settings. Reasonable algorithms exist - InSilicoVA, InterVA, Tariff 2.0 - but existing reference death-based symptom-cause information is highly limited, not compatible with WHO standard verbal autopsies, and largely devoid of pathology-based information.
@@ -102,8 +99,8 @@
           will provide symptom-cause information for computer algorithms that
         </li>
           <ol type="a">
-            <li> 
-              incorporates pathology-based information from minimally-invasive tissue samples, medical records, or other biomarkers, and 
+            <li>
+              incorporates pathology-based information from minimally-invasive tissue samples, medical records, or other biomarkers, and
             </li>
             <li>
               is accurate in a wide variety of contexts;
@@ -116,7 +113,7 @@
           will support the continued development and validation of existing computer algorithms for verbal autopsy cause classification;
         </li>
         <li>
-          will support the continued development and validation of WHO standard verbal autopsy instruments and related materials ; and 
+          will support the continued development and validation of WHO standard verbal autopsy instruments and related materials ; and
         </li>
         <li>
           will provide a key resource to define and support future research on verbal autopsy.
@@ -133,14 +130,14 @@
         pathology-based biomarkers from minimally-invasive tissue samples (MITS), medical records, or other sources with definitive pathological results produced using standard diagnostic protocols,
         </li>
         <li>
-        WHO standard verbal autopsy signs/symptoms, and 
+        WHO standard verbal autopsy signs/symptoms, and
         </li>
         <li>
         a reference cause assigned using a reliable process that does not involve a verbal autopsy cause-coding computer algorithm - such as traditional autopsy or DeCode panel.
         </li>
       </ol>
       <p>
-        For the reference deaths to be useful, the archive infrastructure will provide tools to receive, check, store, and disseminate both the data and the symptom-cause information. Reference deaths will come from a variety of sources and data products will be freely available to the verbal autopsy and minimally-invasive tissue sample communities. 
+        For the reference deaths to be useful, the archive infrastructure will provide tools to receive, check, store, and disseminate both the data and the symptom-cause information. Reference deaths will come from a variety of sources and data products will be freely available to the verbal autopsy and minimally-invasive tissue sample communities.
       </p>
       <p>
         Operation of the archive will require a robust governance structure and policies/procedures to organize the activities of the operators, data providers, and data users and ensure that data are handled in an ethical manner. These will be jointly defined/created by the WHO and openVA Team.
@@ -168,9 +165,7 @@
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 
-<html lang="en"> 
+<html lang="en">
 
 <head>
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for work related to verbal autopsy cause of death ascertainment.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, verbal autopsy, openVA, InSilicoVA, openVA Pipeline, Africa, epidemiology, demography.">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel Clark - Verbal Autopsy</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -20,7 +20,7 @@
       Verbal Autopsy
     </div>
 
-    <div class="sam-block-index">  
+    <div class="sam-block-index">
       <h1>Index
       <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
         <option value="#beginning">Topic</option>
@@ -36,9 +36,7 @@
     </div>
   </header>
 
-    
   <main>
-
 
     <div id="beginning" class="sam-block">
 
@@ -53,30 +51,30 @@
       <ol>
         <li>
           without either clinical data or an autopsy it is difficult to be either specific or certain about the cause of death, and
-        </li> 
+        </li>
         <li>
-          each physician has unique training and experience and is therefore biased in various ways when assigning causes of death. 
+          each physician has unique training and experience and is therefore biased in various ways when assigning causes of death.
         </li>
       </ol>
       <p>
         The first is a fundamental limitation of VA resulting from the fact that VA data contain comparatively less information than clinical records and autopsy. A clear consequence of the second is that traditional physician-assigned VA causes of death are biased and not comparable across either single physicians or groups of physicians.
       </p>
       <p>
-        An alternative to physician review is the use of an algorithmic method that processes the categorical/quantitative responses in VA interviews to identify causes of death. The algorithmic approach has three important advantages: 
+        An alternative to physician review is the use of an algorithmic method that processes the categorical/quantitative responses in VA interviews to identify causes of death. The algorithmic approach has three important advantages:
       </p>
       <ol>
         <li>
-          physicians are free to spend their time caring for patients, 
+          physicians are free to spend their time caring for patients,
         </li>
         <li>
-          VAs can be coded very quickly without having to wait for the always-lengthy physician review process, and 
+          VAs can be coded very quickly without having to wait for the always-lengthy physician review process, and
         </li>
         <li>
-          physician-associated bias is removed from the process so that cause assignments are reproducible and comparable. 
+          physician-associated bias is removed from the process so that cause assignments are reproducible and comparable.
         </li>
       </ol>
       <p id="insilicova">
-        I have led a small team to develop a new algorithmic method for coding verbal autopsies.  Building on InterVA - 'Interpret VA', the first VA algorithm - we developed InSilicoVA.  InSilicoVA assigns a cause to all deaths (no 'indeterminate' causes), provides consistent estimates of uncertainty for both individual causes and population-level cause-specific mortality fractions, utilizes both 'yes' and 'no' answers, and is fully probability-based so that results are presented as true probability distributions.  
+        I have led a small team to develop a new algorithmic method for coding verbal autopsies.  Building on InterVA - 'Interpret VA', the first VA algorithm - we developed InSilicoVA.  InSilicoVA assigns a cause to all deaths (no 'indeterminate' causes), provides consistent estimates of uncertainty for both individual causes and population-level cause-specific mortality fractions, utilizes both 'yes' and 'no' answers, and is fully probability-based so that results are presented as true probability distributions.
       </p>
 
       <p>
@@ -85,22 +83,22 @@
 
       <h1 id="key-papers">Key papers  <a href="#beginning" class="back">&#x25B2;</a></h1>
 
-      <ul>       
+      <ul>
         <li>
           <a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank">The openVA Toolkit for Verbal Autopsies</a>
         </li>
         <li>
           <a href="http://dx.doi.org/10.1080/01621459.2016.1152191" target="_blank">Probabilistic Cause-of-Death Assignment using Verbal Autopsies</a>
-        </li>        
+        </li>
         <li>
           <a href="https://doi.org/10.1214/23-AOAS1826" target="_blank">Bayesian Nested Latent Class Models for Cause-of-Death Assignment using Verbal Autopsies Across Multiple Domains</a>
         </li>
         <li>
           <a href="http://proceedings.mlr.press/v97/li19h/li19h.pdf" target="_blank">Bayesian Joint Spike-and-Slab Graphical Lasso</a>
-        </li>        
+        </li>
         <li>
           <a href="http://dx.doi.org/10.1214/19-BA1172" target="_blank">Using Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in Verbal Autopsies</a>
-        </li>        
+        </li>
         <li>
           <a href="http://dx.doi.org/10.1214/19-AOAS1253" target="_blank">Bayesian Factor Models for Probabilistic Cause of Death Assessment with Verbal Autopsies</a>
         </li>
@@ -113,7 +111,7 @@
         <li>
           <a href="https://doi.org/10.1016/S2214-109X(24)00171-2" target="_blank">Temporal Changes in Cause of Death Among Adolescents and Adults in Six Countries in Eastern And Southern Africa: A Multi-Country Cohort Study using Verbal Autopsy Data</a>
         </li>
-      </ul> 
+      </ul>
 
       <h1 id="tza-endorse">Independent Endorsement by the Tanzanian Ministry of Health  <a href="#beginning" class="back">&#x25B2;</a></h1>
 
@@ -138,7 +136,7 @@
       <ul>
         <li>
           <a href="https://github.com/verbal-autopsy-software/pyopenva_GUI/releases" target="_blank">pyOpenVA</a> - 'Assets' contains installers for Windows and MacOS
-        </li>    
+        </li>
         <li>
           <a href="http://openva.net" target="_blank">openVA Team site</a> and <a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank"><b>openVA Toolkit</b> paper</a>
         </li>
@@ -175,7 +173,7 @@
         </li>
         <li>
           <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2627285/" target="_blank">Cause-specific mortality rates in sub-Saharan Africa and Bangladesh</a>
-        </li>        
+        </li>
         <li>
           <a href="http://dx.doi.org/10.3402/gha.v5i0.19281" target="_blank">Strengthening Standardised Interpretation of Verbal Autopsy Data: the New InterVA-4 tool</a>
         </li>
@@ -191,12 +189,12 @@
         <li>
           <a href="http://dx.doi.org/10.1097/QAD.0000000000002552" target="_blank">Direct maternal deaths attributable to HIV in the era of antiretroviral therapy: evidence from three population-based HIV cohorts with verbal autopsy</a>
         </li>
-      </ul> 
+      </ul>
 
       <h1 id="gratuitous-critique">The gratuitous critique of InSilicoVA and our response  <a href="#beginning" class="back">&#x25B2;</a></h1>
 
       <p>
-        In 2018 several authors associated the Institute for Health Metrics and Evaluation (IHME) published a paper gratuitously attacking InSilicoVA - publication 1 below. They tested InSilicoVA using algorithm parameters set in such a way as to make it perform as poorly as possible, and based on results produced in that way, they concluded that InSilicoVA is flawed. 
+        In 2018 several authors associated the Institute for Health Metrics and Evaluation (IHME) published a paper gratuitously attacking InSilicoVA - publication 1 below. They tested InSilicoVA using algorithm parameters set in such a way as to make it perform as poorly as possible, and based on results produced in that way, they concluded that InSilicoVA is flawed.
       </p>
       <p>
         Our team replicated their work to discover what they had done and published a rebuttal explaining why InSilicoVA performed so poorly in their hands - publication 2 below.
@@ -209,7 +207,7 @@
         <li>
           <p><a id="flaxman-hatchet-job"></a>
             Flaxman, A.D., J.C.&nbsp;Joseph, C.J.L.&nbsp;Murray, I.D.&nbsp;Riley and A.D.&nbsp;Lopez. (2018).
-             
+
             <b>Performance of InSilicoVA for Assigning Causes of Death to Verbal Autopsies: Multisite Validation study Using Clinical Diagnostic Gold Standards</b>.
 
             <em>BMC Medicine</em>&nbsp;<em>16</em>&nbsp;(56).
@@ -220,7 +218,7 @@
         <li>
           <p><a id="li2020BMCRebuttal"></a>
             Li, Z.R., T.H.&nbsp;McCormick, and S.J.&nbsp;CLARK (2020).
-             
+
             <b>Non-confirming Replication of `Performance of InSilicoVA for Assigning Causes of Death to Verbal Autopsies: Multisite Validation Study using Clinical Diagnostic Gold Standards', BMC Medicine 2018; 16:56</b>.
 
             <em>BMC Medicine</em>&nbsp;<em>18</em>&nbsp;(69).
@@ -231,7 +229,7 @@
         <li>
           <p><a id="flaxman-hatch-job"></a>
             Flaxman, A.D., R.&nbsp;Hazard, I.&nbsp;Riley, A.D.&nbsp;Lopez and C.J.L.&nbsp;Murray. (2020).
-             
+
             <b>Born to Fail: Flaws in Replication Design Produce Intended Results</b>.
 
             <em>BMC Medicine</em>&nbsp;<em>18</em>&nbsp;(73).
@@ -243,9 +241,7 @@
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

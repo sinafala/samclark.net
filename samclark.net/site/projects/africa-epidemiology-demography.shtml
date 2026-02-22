@@ -6,8 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for work related to Africa, demography, and epidemiology.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, Africa, epidemiology, demography.">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel Clark - Africa: Epidemiology and Demography</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -21,9 +21,7 @@
     </div>
   </header>
 
-    
   <main>
-
 
     <div class="sam-block">
 
@@ -72,9 +70,9 @@
         <li>
           <a href="http://dx.doi.org/10.1007/s10508-020-01663-5" target="_blank">Clusters of HIV Risk and Protective Sexual Behaviors in Agincourt, Rural South Africa: Findings from the Ha Nakekela Population-Based Study of Ages 15 and Older</a>
         </li>
-      </ul> 
+      </ul>
 
-      <h1>Epidemographic Transition</h1> 
+      <h1>Epidemographic Transition</h1>
 
       <p>
         The classic <i>large change</i> phases of both the epidemiological and demographic transitions are still underway in Africa. HIV has created a unique disruption in the traditional epidemiological transition, and fertility remains high and is falling more slowly than it did in many other world regions. There is a complex interaction between these things, and together with a number of colleagues - mostly <a href="https://www.wits.ac.za/staff/academic-a-z-listing/k/chodziwadziwakabudulawitsacza/" target="_blank">Chodziwadziwa Kabudula</a> and <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian Houle</a> - I have done a number of studies investigating aspects of these intertwined transitions.
@@ -101,9 +99,9 @@
         <li>
           <a href="http://dx.doi.org/10.1016/S2214-109X(17)30297-8" target="_blank">Socioeconomic differences in mortality in the antiretroviral therapy era in Agincourt, rural South Africa, 2001–13: a population surveillance analysis</a>
         </li>
-      </ul> 
+      </ul>
 
-      <h1>Effects of Household Composition on Mortality</h1> 
+      <h1>Effects of Household Composition on Mortality</h1>
 
       <p>
         Household composition - how many people of each type live with you - can affect survival, especially for young children. Health and demographic surveillance systems accumulate detailed information on who is living with who through time, and that data allows unusual, detailed investigations of the effects of household composition on mortality. Again mainly with colleagues <a href="https://www.wits.ac.za/staff/academic-a-z-listing/k/chodziwadziwakabudulawitsacza/" target="_blank">Chodziwadziwa Kabudula</a> and <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian Houle</a>, I have contributed to a number of studies of this kind. Perhaps the most consequential is on <a href="./orphan-mortality.shtml" target="_parent">orphan mortality</a>, described on its own page.
@@ -121,13 +119,11 @@
         <li>
           <a href="http://dx.doi.org/10.1007/s11205-016-1397-z" target="_blank">Assessing Changes in Household Socioeconomic Status in Rural South Africa, 2001–2013: A Distributional Analysis Using Household Asset Indicators</a>
         </li>
-      </ul> 
+      </ul>
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

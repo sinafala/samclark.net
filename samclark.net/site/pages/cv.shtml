@@ -6,8 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's CV.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, CV, Curriculum Vitae">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel Clark - Links/Contacts</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -21,21 +21,19 @@
     </div>
   </header>
 
-
   <main>
-
 
     <div class="sam-block">
 
       <div class="sam-links-list">
-        <a href="/site/cv/Samuel-Clark_CV.pdf?ver=13" target="_blank">Full CV - PDF with Links</a>
-        <div class="sam-note">Updated 2026-01-29</div>
+        <a href="/site/cv/Samuel-Clark_CV.pdf?ver=15" target="_blank">Full CV - PDF with Links</a>
+        <div class="sam-note">Updated 2026-02-20</div>
       </div>
 
       <div class="sam-links-list">
-        <a href="/site/cv/Samuel-Clark_CV-short.pdf?ver=13" target="_blank">Abridged CV - PDF with Links</a>
-        <div class="sam-note">Updated 2026-01-29</div>
-      </div>   
+        <a href="/site/cv/Samuel-Clark_CV-short.pdf?ver=15" target="_blank">Abridged CV - PDF with Links</a>
+        <div class="sam-note">Updated 2026-02-20</div>
+      </div>
 
       <!-- <div class="pdf-onepage">
         <div id="pdfHost">
@@ -45,15 +43,13 @@
 
       <div class="sam-image">
         <a href="/site/media/fullsize/Pendleton2025.jpg" target="_blank">
-          <img class="mtb" title="Saguaro cactus, Arizona" src="/site/media/thumbs/Pendleton2025.jpg"></a>
+          <img class="mtb" title="Saguaro cactus, Arizona" alt="Saguaro cactus, Arizona" src="/site/media/thumbs/Pendleton2025.jpg"></a>
         Pendleton, OR Back Roads, 2025
       </div>
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

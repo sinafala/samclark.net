@@ -6,8 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's biography.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, biography.">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel Clark - Biography</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -21,29 +21,25 @@
     </div>
   </header>
 
-
   <main>
-
 
     <div class="sam-block">
 
       <p>
         My personal biography in space and time is complex and not easy to explain in a minute or two.  Following is a very brief summary that only mentions the main space-time and professional aspects.
       </p><p>
-        I was born and mostly lived in East Africa until about age sixteen. I went to high school in Pendleton Oregon and did undergraduate degrees at Caltech in Pasadena. I did one year in a neuroscience PhD program at Stanford in Palo Alto before switching to demography and doing a PhD in demography at the University of Pennsylvania in Philadelphia. During the PhD I lived in Monze, Zambia for about one year. Following the PhD I was a postdoc at the University of Colorado at Boulder for about five years. During that time I lived in Durban, South Africa and mainly worked with the Agincourt health and demographic surveillance system site. After the postdoc I moved to the University of Washington in Seattle as an Assistant Professor in the Department of Sociology.  After obtaining tenure there and spending a few years as Associate Professor, I moved to The Ohio State University in Columbus as a Full Professor in the Department of Sociology. During the 2023-24 academic year I was on sabbatical living in Arauc&aacute;ria (Curitiba), Brazil and working with the Department of Pathology at the University of S&atilde;o Paulo. 
+        I was born and mostly lived in East Africa until about age sixteen. I went to high school in Pendleton Oregon and did undergraduate degrees at Caltech in Pasadena. I did one year in a neuroscience PhD program at Stanford in Palo Alto before switching to demography and doing a PhD in demography at the University of Pennsylvania in Philadelphia. During the PhD I lived in Monze, Zambia for about one year. Following the PhD I was a postdoc at the University of Colorado at Boulder for about five years. During that time I lived in Durban, South Africa and mainly worked with the Agincourt health and demographic surveillance system site. After the postdoc I moved to the University of Washington in Seattle as an Assistant Professor in the Department of Sociology.  After obtaining tenure there and spending a few years as Associate Professor, I moved to The Ohio State University in Columbus as a Full Professor in the Department of Sociology. During the 2023-24 academic year I was on sabbatical living in Arauc&aacute;ria (Curitiba), Brazil and working with the Department of Pathology at the University of S&atilde;o Paulo.
       </p><p>
         The map below gives more precise places and times. The full screen link (upper right) takes you to a bigger version.
       </p>
-      
+
     </div>
 
     <div class="sam-block-padded">
       <iframe class="biography" src="https://www.google.com/maps/d/embed?mid=17RJAkgMyFNRyTgddU8fbkyBqIdU"></iframe>
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

@@ -5,9 +5,9 @@
 <head>
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for work on COVID-19 in the state of Ohio.">
-  <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, COVID-19, Ohio.">  
-  <!--#include virtual="/site/includes/header.html" -->
+  <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, COVID-19, Ohio.">
   <title>Samuel Clark - COVID-19</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -21,9 +21,7 @@
     </div>
   </header>
 
-    
   <main>
-
 
     <div class="sam-block">
 
@@ -83,19 +81,19 @@
       <h1>Excess Deaths Study</h1>
 
       <p>
-        The excess deaths study is ongoing. For the state, results closely match those of the CDC, see <a href="https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm" target="_blank">CDC excess deaths report and data</a>. County-level results reveal heterogeneity in both levels and timing of patterns of excess deaths. 
+        The excess deaths study is ongoing. For the state, results closely match those of the CDC, see <a href="https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm" target="_blank">CDC excess deaths report and data</a>. County-level results reveal heterogeneity in both levels and timing of patterns of excess deaths.
       </p>
 
       <h1> Weekly Telephone Survey</h1>
 
       <p>
-        Data from the weekly telephone survey were not as useful as we had hoped. 
+        Data from the weekly telephone survey were not as useful as we had hoped.
       </p>
 
       <h1>COVID-19 Routine Mortality Surveillance</h1>
 
       <p>
-        In addition to the work in Ohio, I work closely with the NGO <a href="https://www.vitalstrategies.org/programs/civil-registration-and-vital-statistics/" target="_blank">Vital Strategies</a> on a project to develop a COVID-19 routine mortality surveillance (CRMS) tool based on the verbal autopsy method. This work is in progress with partners in Colombia and Brazil. 
+        In addition to the work in Ohio, I work closely with the NGO <a href="https://www.vitalstrategies.org/programs/civil-registration-and-vital-statistics/" target="_blank">Vital Strategies</a> on a project to develop a COVID-19 routine mortality surveillance (CRMS) tool based on the verbal autopsy method. This work is in progress with partners in Colombia and Brazil.
       </p>
       <ul>
         <li>
@@ -105,9 +103,7 @@
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

@@ -6,8 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Links to Samuel Clark's research resources.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, links.">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel Clark - Links/Contacts</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -21,9 +21,7 @@
     </div>
   </header>
 
-
 <main>
-
 
   <div class="sam-block">
 
@@ -49,7 +47,7 @@
         </ul>
       </p>
       <p>
-        So, there's a good chance I will miss or triage your message! 
+        So, there's a good chance I will miss or triage your message!
       </p>
       <p>
         <b>If you really want to get my attention, text me, or better yet, <u>call me</u>.</b>
@@ -120,9 +118,7 @@
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

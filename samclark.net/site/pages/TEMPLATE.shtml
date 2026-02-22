@@ -6,8 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="description">
   <meta name="keywords" content="keyword1, keyword2">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Title</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -21,9 +21,7 @@
     </div>
   </header>
 
-    
   <main>
-
 
     <div class="sam-block">
 
@@ -31,9 +29,7 @@
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

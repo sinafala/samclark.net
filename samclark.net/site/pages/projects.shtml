@@ -6,8 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's projects page.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, projects.">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel Clark - Projects</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -21,9 +21,7 @@
     </div>
   </header>
 
-    
   <main>
-
 
     <div class="sam-block">
 
@@ -90,9 +88,7 @@
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

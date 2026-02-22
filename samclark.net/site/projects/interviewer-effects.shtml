@@ -6,8 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for work on interviewer effects in surveys.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, survey, interviewer effects, bias.">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel Clark - Interviewer Effects</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -21,16 +21,14 @@
     </div>
   </header>
 
-    
   <main>
-
 
     <div class="sam-block">
 
       <h1>Background</h1>
 
       <p>
-        I have been involved in a lot of direct demographic and health data collection, mostly in Africa and mostly using demographic surveillance and survey methods. All of this involves an interviewer conducting a face-to-face interview with a respondent. My colleagues and I have wondered - and occasionally worried - about the effects that interviewers may have on the responses. For example, when asking questions about taboo topics, do older compared to younger interviewers get different responses from an older respondent, or when talking about sexual behavior, do interviewers of each sex get different responses. You can think of many possible combinations of interviewers and respondents with particular characteristics that might affect the interaction and the responses based on the particular social context in which the interview takes place. 
+        I have been involved in a lot of direct demographic and health data collection, mostly in Africa and mostly using demographic surveillance and survey methods. All of this involves an interviewer conducting a face-to-face interview with a respondent. My colleagues and I have wondered - and occasionally worried - about the effects that interviewers may have on the responses. For example, when asking questions about taboo topics, do older compared to younger interviewers get different responses from an older respondent, or when talking about sexual behavior, do interviewers of each sex get different responses. You can think of many possible combinations of interviewers and respondents with particular characteristics that might affect the interaction and the responses based on the particular social context in which the interview takes place.
       </p>
 
       <h1>Interviewer Effects Studies</h1>
@@ -72,9 +70,7 @@
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

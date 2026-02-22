@@ -6,8 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for ####.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, Africa, epidemiology, demography, ####.">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel Clark - ######## </title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -21,9 +21,7 @@
     </div>
   </header>
 
-    
   <main>
-
 
     <div class="sam-block">
 
@@ -45,13 +43,11 @@
         <li>
           <a href="/site/cv/pdfs/.pdf" target="_blank">XXX</a>
         </li>
-      </ul> 
+      </ul>
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

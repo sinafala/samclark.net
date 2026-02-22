@@ -1,13 +1,13 @@
 <!DOCTYPE html>
- 
+
 <html lang="en">
 
 <head>
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's news page.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, news, new.">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel Clark - News</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -21,10 +21,11 @@
       News
     </div>
 
-    <div class="sam-block-index">  
+    <div class="sam-block-index">
       <h1>Index
       <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
         <option value="#beginning">Date: Event</option>
+        <option value="#2026-02-13">2026-02-13: AI Assistance Learning to Code</option>
         <option value="#2026-01-30">2026-01-30: WHO Health Statistics TAG</option>
         <option value="#2026-01-09-2">2026-01-09-2: Review: HDSS Data Uses</option>
         <option value="#2026-01-09-1">2026-01-09-1: HEALMOD Grant Cancelled</option>
@@ -88,29 +89,34 @@
 
   </header>
 
-
   <main>
-
 
     <div id="beginning" class="sam-block">
 
       <!-- %%%%%%%%%%%% -->
+      <h1 class="sam-date" id="2026-02-13">2026-02-13  <a href="#beginning" class="back">&#x25B2;</a></h1>
+      <!-- %%%%%%%%%%%% -->
+
+      <h2>Effect of AI Assistance While Learning to Code</h2>
+
+      <p>
+        <a href="https://www.anthropic.com" target="_blank">Anthropic</a> - creators of the <a href="https://claude.ai" target="_blank">Claude</a> foundation LLM and general try-to-be-more-ethical AI company - did a <a href="https://arxiv.org/abs/2601.20245" target="_blank">study</a> to characterize the effect of AI coding tools on how well people were able to learn to code. <a href="https://www.anthropic.com/research/AI-assistance-coding-skills" target="_blank">The results are sobering</a>. Using a high quality set of AI coding tools <em>strongly decreased</em> the scores on a knowledge-based test when training was complete. This suggests that AI (at least used the way that they did) was not helpful as a tool to improve learning new coding skills. Thanks <a href="https://thmccormick.github.io" target="_blank">Tyler</a> for forwarding this to me.
+      </p>
+
+      <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2026-01-30">2026-01-30  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Appointed to WHO Health Statistics TAG</h2>
 
       <p>
         The WHO <em>Health Systems, Access and Data</em> unit is constituting a new technical advisory group (TAG). I applied to be a member last year some time, and this morning I received an official appointment letter. The group will contribute to developing recommendations for health systems including civil registration and vital statistics.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2026-01-09-2">2026-01-09-2  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Review: HDSS Data Uses</h2>
 
       <p>
@@ -121,19 +127,16 @@
         <a href="https://doi.org/10.1007/s12546-025-09411-z" target="_blank">Versatility, value and limitations of using health and demographic surveillance system data for secondary analyses: guidance for researchers, using examples from existing analyses</a> by Estelle McLean, Rebecca Sear, and Emma Slaymaker. <em>Journal of Population Research</em>. 43:3 (2026). <a href="https://doi.org/10.1007/s12546-025-09411-z" target="_blank">DOI:10.1007/s12546-025-09411-z</a>.
       </p>
 
-      <h3>Abstract</h3> 
-      
+      <h3>Abstract</h3>
+
       <p>
         Health and Demographic Surveillance Systems (HDSS) are geographic open cohorts operating in countries with absent/incomplete vital registration. Data on demographic events, socio-demographic indicators, and certain health conditions are regularly gathered on the whole population of a small area, sometimes for decades. In the same countries there are often also nationally-representative demographic data available from roughly quinquennial Demographic and Health Surveys (DHS). This paper uses a comparison with DHS data, and an in-depth review of complex HDSS analyses to demonstrate the utility of using HDSS data for secondary analyses, and to provide guidance on the conduct and reporting of these analyses. DHS data has advantages in terms of representativeness and data access, and HDSS in terms of scope for complex longitudinal analyses which may take household and familial contexts into account. HDSS also have issues which make interpretation of data and conclusions challenging: lack of data on in- and out-migrants when they are outside of the area, and repeatedly collected data may result in inconsistencies and/or more reliable data for longer-term residents. Despite these challenges, the reviewed HDSS data analyses demonstrate the flexibility and unique strengths of HDSS data. HDSS data users are recommended to clearly state their methods, particularly how they approached the issues specific to HDSS analyses of handling repeated data, migration and missing data: while there were interesting ways used to approach these issues, they were often not discussed. HDSS data producers are further encouraged to ensure that the data are being used to their full potential.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2026-01-09-1">2026-01-09-1  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>HEALMOD Grant Cancelled</h2>
 
       <p>
@@ -146,84 +149,66 @@
         I look forward to continuing to work with the postdocs who may continue to want support from me.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-12-12">2025-12-12  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Reference Data Archive (RDA) Is Now Live at WHO</h2>
 
       <p>
         The <a href="/site/projects/rda.shtml" target="_blank">RDA</a> is now live at <a href="https://data.who.int/rda" target="_blank"><b>https://data.who.int/rda</b></a>. It launches with verbal autopsy reference deaths from the Brazilian mortality surveillance system (SVO), starting with the city of <a href="https://svoc.usp.br/home-4/" target="_blank">São Paulo SVO</a>. Over the coming year a lot more verbal autopsy reference deaths with WHO 2022 VA, minimally-invasive tissue sample (MITS) results and full autopsy from Brazil will be added. Similar reference deaths will also be added from the <a href="https://mitsalliance.org" target="_blank">MITS Alliance</a> sites.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-12-10">2025-12-10  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Block Domains that Send Spam Email</h2>
 
       <p>
         Over the past year I have identified and blocked almost 800 domains, IP numbers, or email addresses that send spam email. Here is the list as of right now: click to download <a href="/site/misc/sources-of-spam.txt" download="sources-of-spam.txt">sources-of-spam.txt</a>. This is a text file with one malicious source on each line. You may be able to easily import it into whatever blacklisting tool you use.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-10-20">2025-10-20  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Used Car Checklist</h2>
 
       <p>
         If you're shopping for a used car, here's a <a href="/site/misc/used-car-checklist.pdf" target="_blank">checklist</a> of things to note during your inspection.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-10-13">2025-10-13  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>A Very Interesting Paper: Sex-associated Differences in Life Span</h2>
 
       <p>
         <a href="https://doi.org/10.1126/sciadv.ady8433" target="_blank">Sexual Selection Drives Sex Difference in Adult Life Expectancy Across Mammals And Birds</a> by Johanna Staerk, Dalia A. Conde, Morgane Tidière, Jean-François Lemaître, András Liker, Balázs Vági, Samuel Pavard, Mathieu Giraudeau, Simeon Q. Smeele, Orsolya Vincze, Victor Ronget, Rita Da Silva, Zjef Pereboom, Mads F. Bertelsen, Jean-Michel Gaillard, Tamás Székely, and Fernando Colchero. <em>Science Advances</em>. 11, eady8433 (2025). <a href="https://doi.org/10.1126/sciadv.ady8433" target="_blank">DOI:10.1126/sciadv.ady8433</a>.
       </p>
 
-      <h3>Abstract</h3> 
-      
+      <h3>Abstract</h3>
+
       <p>
         Across human cultures and historical periods, women, on average, live longer than men, a pattern best understood from a comparative evolutionary perspective. Here, we analyzed adult life expectancy in 528 mammal and 648 bird species in zoos. Like humans, 72% of mammals exhibited a female life expectancy advantage, while 68% of birds showed a male advantage, as expected from the harmful effects of sex chromosomes described by the heterogametic sex hypothesis. Yet, sex differences varied widely. In zoos, we found strong evidence that this variation generally correlated with both the mating system and sexual size dimorphism. Although with weaker evidence, the patterns remained consistent in populations from the wild, with an even larger effect of the mating system. Thus, even in zoos, where environmental pressures are largely reduced, precopulatory sexual selection seems to play a fundamental role in shaping sex differences in life expectancy in mammals and birds.
       </p>
-  
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-09-27:2">2025-09-27  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>RDA About Ready</h2>
 
       <p>
         The <a href="/site/projects/rda.shtml" target="_parent">reference death archive</a> - now named the reference <em>data</em> archive (RDA) - is about ready to go live at the WHO headquarters. We are wrapping up a few last odds and ends to integrate into WHO infrastructure and finalize data use/sharing agreements with the launch data providers. Stay tuned.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-09-27:1">2025-09-27  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Yue Chu's Dissertation</h2>
 
       <p>
@@ -236,28 +221,25 @@
         In countries without civil registration and vital statistics, verbal autopsy (VA) is a critical tool for estimating cause of death (COD) and inform policy priorities. In VA, interviewers ask proximal informants for details on the circumstances preceding a death, in the form of unstructured narratives and structured questions. Existing automated VA cause classification algorithms only use the questions and ignore the information in the narratives. In this thesis, we investigate how the VA narrative can be used for automated COD classification using pre-trained language models (PLMs) and machine learning (ML) techniques. Using empirical data from South Africa, we demonstrate that with the narrative alone, transformer-based PLMs with task-specific fine-tuning outperform leading question-only algorithms at both the individual and population levels, particularly in identifying non-communicable diseases. We explore various multi-modal fusion strategies combining narratives and questions in unified frameworks. Multi-modal approaches further improve performance in COD classification, confirming that each modality has unique contributions and may capture valuable information that is not present in the other modality. We also characterize physician-perceived information sufficiency in VA. We describe variations in sufficiency levels by age and COD and demonstrate that classification accuracy is affected by sufficiency for both physicians and models. Overall, this thesis advances the growing body of knowledge at the intersection of natural language processing, epidemiology, and global health. It demonstrates the value of narrative in enhancing COD classification. Our findings underscore the need for more high-quality data from more diverse settings to use in training and fine-tuning PLM/ML methods, and offer valuable insights to guide the rethinking and redesign of the VA instrument and interview.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-09-27:0">2025-09-27  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Leg/ankle Surgery</h2>
 
       <p>
         This has been my year for serious leg injuries!
       </p>
       <p>
-        On August 22 in a perfect storm of bad luck, I shattered my lower right fibula, broke a chip off the back of my lower right tibia, and completely broke my ankle. Late in the afternoon, I was riding my mountain bike (at 6.4mph!) on a tame trail I've ridden very many times before; the sun was in my eye and I lost balance and put my foot down, and super unluckily, my foot landed immediately in front of a solid root sticking up about nine inches. The foot stopped instantaneously and all my weight transferred to it. My body and leg kept going and my lower leg levered over the root ... this pushed my right fibula into the tibia, broke it into a number of pieces and forcefully opened my ankle joint resulting in a massive injury - think floppy foot! 
+        On August 22 in a perfect storm of bad luck, I shattered my lower right fibula, broke a chip off the back of my lower right tibia, and completely broke my ankle. Late in the afternoon, I was riding my mountain bike (at 6.4mph!) on a tame trail I've ridden very many times before; the sun was in my eye and I lost balance and put my foot down, and super unluckily, my foot landed immediately in front of a solid root sticking up about nine inches. The foot stopped instantaneously and all my weight transferred to it. My body and leg kept going and my lower leg levered over the root ... this pushed my right fibula into the tibia, broke it into a number of pieces and forcefully opened my ankle joint resulting in a massive injury - think floppy foot!
       </p>
       <p>
-        After 12 hours in the ER, manual reduction (realignment) of the joint and creation of a strong splint, I went home and waited five days for the swelling to go down and then had a surgery on August 29th to fully reduce and stabilize the joint. This "open reduction and internal fixation" procedure fully realigns everything and then uses screws, plates, and other devices to keep the bones and joint properly aligned for healing. 
+        After 12 hours in the ER, manual reduction (realignment) of the joint and creation of a strong splint, I went home and waited five days for the swelling to go down and then had a surgery on August 29th to fully reduce and stabilize the joint. This "open reduction and internal fixation" procedure fully realigns everything and then uses screws, plates, and other devices to keep the bones and joint properly aligned for healing.
       </p>
       <p>
         In my follow up visits, the surgeon says I'm recovering very well and quickly, but it feels really painful and super slow to me! I had just recovered full use of my left knee when this happened, and it has been incredibly difficult to go back to continuous bone pain and inability to move or be active.
       </p>
-      <p> 
+      <p>
         A few pictures below - <em>graphic images</em>:
       </p>
 
@@ -279,9 +261,6 @@
         </li>
       </ul>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-04-10">2025-04-10  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
@@ -292,26 +271,20 @@
         Blowing leaves from the gutter/eaves of our house in October last year, I tripped and twisted my knee. Over the next few weeks it gradually developed into a painful and debilitating situation, and I finally went to the doctor. In mid December I was diagnosed with a medial meniscus root detachment and additional less serious damage to the left medial meniscus. Repair required a significant surgery involving drilling a hole through the top of my tibia to attach a permanent suture to hold the meniscus root in place. It seems to have worked, but the recovery is very slow and up until about now, very painful. Most people apparently take nine months to a year to be back to 'normal'. I was completely immobile on crutches for about two and a half months and am about now beginning to walk around carefully without them. I'm super pleased to have my leg working again!
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-02-08">2025-02-08  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>R Package <code>SVDMx</code> on CRAN</h2>
 
       <p>
         The R package I wrote to implement my <a href="https://github.com/sinafala/svd-comp" target="_blank">SVD-Comp mortality model</a> published a while ago in <a href="https://doi.org/10.1007/s13524-019-00785-3" target="_blank">Demography</a> is on CRAN as <a href="https://cran.r-project.org/web/packages/SVDMx/index.html" target="_blank">'SVDMx'</a>. Install using <code>install.packages("SVDMx")</code>.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-02-01">2025-02-01  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>HEALMOD at OSU</h2>
 
       <p>
@@ -321,7 +294,7 @@
       <h2>From the <a href="https://healmod.osu.edu" target="_blank">HEALMOD site</a>:</h2>
 
       <p>
-        The OSU Health and Environment Modeling Co-laboratory (HEALMOD) is a community of scholars dedicated to convergence research and education related to human health and environmental sustainability. 
+        The OSU Health and Environment Modeling Co-laboratory (HEALMOD) is a community of scholars dedicated to convergence research and education related to human health and environmental sustainability.
       </p>
       <p>
         The initiative is driven by specific and compelling problems deeply integrated across disciplines with respect to theories, methods, data, and research communities.
@@ -330,30 +303,26 @@
       <h3>Purpose</h3>
 
       <p>
-        HEALMOD provides a thought space and education hub for convergence researchers, including faculty, research scientists, postdoctoral scholars, graduate students and undergraduate students. 
+        HEALMOD provides a thought space and education hub for convergence researchers, including faculty, research scientists, postdoctoral scholars, graduate students and undergraduate students.
       </p>
       <p>
-        HEALMOD builds on existing OSU institutional and human resources to propel OSU to the forefront of convergence research by providing the scaffolding to support new convergence research opportunities and the training of the next generation of convergence researchers by offering a transdisciplinary convergence curriculum. 
+        HEALMOD builds on existing OSU institutional and human resources to propel OSU to the forefront of convergence research by providing the scaffolding to support new convergence research opportunities and the training of the next generation of convergence researchers by offering a transdisciplinary convergence curriculum.
       </p>
 
       <h3>Goals</h3>
 
       <p>
-        HEALMOD will make OSU a world-class center for conducting theory-guided computational research into human-environmental health and sustainability and disseminating actionable results and policy recommendations with measurable social impact, thus raising the profiles of public health, and the social sciences (Anthropology, Sociology). 
+        HEALMOD will make OSU a world-class center for conducting theory-guided computational research into human-environmental health and sustainability and disseminating actionable results and policy recommendations with measurable social impact, thus raising the profiles of public health, and the social sciences (Anthropology, Sociology).
       </p>
-
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2024-11-08">2024-11-08  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>When All You Have Is a Hammer</h2>
 
       <p>
-        <a href="https://sociology.la.psu.edu/people/john-iceland/" target="_blank">John Iceland</a> and <a href="https://sociology.la.psu.edu/people/eric-silver/" target="_blank">Eric Silver</a> have written a great article addressing the dominance of critical race theory and social justice ideology in sociology. They offer a perspective that is likely to create a better understanding of what's going on and support the creation of (actually!) effective interventions. 
+        <a href="https://sociology.la.psu.edu/people/john-iceland/" target="_blank">John Iceland</a> and <a href="https://sociology.la.psu.edu/people/eric-silver/" target="_blank">Eric Silver</a> have written a great article addressing the dominance of critical race theory and social justice ideology in sociology. They offer a perspective that is likely to create a better understanding of what's going on and support the creation of (actually!) effective interventions.
       </p>
 
       <ul>
@@ -368,13 +337,10 @@
         The sociological literature on race operates under the progressive ideological assumption that systemic racism is the predominant cause of racial disparities. This assumption has become “paradigmatic,” shaping the selection of research questions and the interpretation of research results. Consequently, the literature offers a rather narrow “Overton window” concerning what we, as sociologists, know about: (1) the causes of racial disparities, (2) the accuracy and motivation behind the public’s views on race-related issues, and (3) race-related policy preferences. A paradigm shift is needed to improve our understanding of racial disparities and devise more effective ways to address them. To achieve this end, sociologists should broaden their perspectives beyond attributing all racial disparities to systemic racism and consider additional hypotheses. From a policy perspective, to reduce racial disparities we should reconsider addressing social class and related factors early in life.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2024-10-22">2024-10-22  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Phone Number in Email Signature</h2>
 
       <p>
@@ -383,41 +349,36 @@
 
       <div class="sam-image">
         <a href="/site/media/fullsize/email-sig.jpg" target="_blank">
-          <img class="mtb" title="Sam's email signature" src="/site/media/thumbs/email-sig.jpg"></a>
+          <img class="mtb" title="Sam's email signature" alt="Sam's email signature" src="/site/media/thumbs/email-sig.jpg"></a>
         Sam's email signature with cell phone number.
       </div>
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2024-08-12">2024-08-12  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Back from Brazil</h2>
 
       <p>
         Yesterday, I arrived back home to Ohio from Brazil where I was for a one-year sabbatical. It was a really fabulous year!
       </p>
-      <!-- 
+      <!--
       <div class="sam-image">
       <a href="/site/clark/updates/media/fullsize/goodbye-brazil-00001.jpg" target="_blank">
-               <img class="mtb" title="Atlantic Rain Forest" src="/site/clark/updates/media/thumbs/goodbye-brazil-00001.jpg"></a>
+               <img class="mtb" title="Atlantic Rain Forest" alt="Atlantic Rain Forest" src="/site/clark/updates/media/thumbs/goodbye-brazil-00001.jpg"></a>
       Goodbye Brazil! Araucarias, Jimny, and Oliver.
       </div>
        -->
       <div class="sam-image">
         <a href="/site/media/fullsize/goodbye-brazil-00002.jpg" target="_blank">
-          <img class="mtb" title="Araucarias near Araucaria" src="/site/media/thumbs/goodbye-brazil-00002.jpg"></a>
+          <img class="mtb" title="Araucarias near Araucaria" alt="Araucarias near Araucaria" src="/site/media/thumbs/goodbye-brazil-00002.jpg"></a>
         Goodbye Brazil! Sunset in Araucarias.
       </div>
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2024-08-01">2024-08-01  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Lancet Global Health Paper Out</h2>
 
       <p>
@@ -428,7 +389,7 @@
 
       Chu, Y., M. Marston, A. Dube, C. Festo, E. Geubbels, S. Gregson, K. Herbst, C. Kabudula, K. Kahn, T. Lutalo,  L. Moorhouse, R. Newton, C. Nyamukapa, R. Makanga, E. Slaymaker, M. Urassa, A. Ziraba, C. Calvert, <span class="author">S.J. Clark</span> (2024).
 
-      <b>Temporal Changes in Cause of Death Among Adolescents and Adults in Six Countries in Eastern And Southern Africa: A Multi-Country Cohort Study using Verbal Autopsy Data.</b> 
+      <b>Temporal Changes in Cause of Death Among Adolescents and Adults in Six Countries in Eastern And Southern Africa: A Multi-Country Cohort Study using Verbal Autopsy Data.</b>
 
       <em>Lancet Global Health</em>&nbsp;12:e1278–87.
 
@@ -436,13 +397,10 @@
 
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2024-07-04">2024-07-04  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Tanzania Ministry of Health endorses InSilicoVA</h2>
 
       <p>
@@ -454,9 +412,6 @@
       <p>
         Congratulations to the openVA Team, and thanks to our funders who have kept us going on this since roughly 2013 - The Bill and Melinda Gates Foundation for two rounds of support, NICHD of the NIH for a five-year R01, and the various partners of the Data for Health Initiative funded by Bloomberg Philanthropies, <a href="https://www.vitalstrategies.org/programs/civil-registration-and-vital-statistics/" target="_blank">Vital Strategies</a> and the <a href="https://www.cdcfoundation.org" target="_blank">CDC Foundation</a> in particular.
       </p>
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2024-06-04">2024-06-04  <a href="#beginning" class="back">&#x25B2;</a></h1>
@@ -478,7 +433,7 @@
           interacts with the user using a familiar graphical user interface
         </li>
         <li>
-          has a variety of additional features to allow users to conduct a full cause-coding workflow: 
+          has a variety of additional features to allow users to conduct a full cause-coding workflow:
         </li>
           <ul>
             <li>
@@ -513,26 +468,20 @@
         </li>
       </ul>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2024-03-29">2024-03-29  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Developing an Agenda for Population Aging and Social Research in Low- and Middle-Income Countries (LMICs): Proceedings of a Workshop (2024)</h2>
 
       <p>
         In early fall last year, I participated in a National Academy of Sciences workshop to support the National Institute on Aging in their medium- and long-range planning for programs related to research in lower- and middle-income countries. The report came out recently, and I think it's useful. Download the PDF: <a href="https://doi.org/10.17226/27415" target="_blank">NAS/NIA LMIC Agenda Report</a>.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2024-03-28">2024-03-28  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Paper Accepted</h2>
 
       <p>
@@ -558,43 +507,40 @@
         <em>Conclusions.</em> Our findings highlight shifting burdens in cause-specific LYL and persistent mortality disparities in two populations experiencing complex epidemiological transitions. Results show high contributions of children to LYL at the height of the AIDS epidemic. Reductions in LYL were primarily driven by lowered HIV/AIDS/TB and other communicable disease mortality during the ART periods. LYL disparities persist despite widespread ART availability, highlighting the contributions of other communicable diseases in children, HIV/AIDS/TB and external causes in mid-life, and noncommunicable diseases in older ages.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2024-03-26">2024-03-26  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Resources for Scientific Writing, Presentations, and Curation of Data and Code</h2>
 
       <h3>Writing</h3>
 
       <ul>
-        <li> 
-          <a href="https://doi.org/10.1038/d41586-019-01431-z" target="_blank"><b>How small changes to a paper can help to smooth the review process</b></a> 
+        <li>
+          <a href="https://doi.org/10.1038/d41586-019-01431-z" target="_blank"><b>How small changes to a paper can help to smooth the review process</b></a>
           by Michael White. <em>Nature</em>.
         </li>
-        <li> 
+        <li>
           <a href="https://www.nature.com/documents/nature-summary-paragraph.pdf" target="_blank"><b>How to construct a Nature summary paragraph</b></a>. <em>Nature</em>.
         </li>
-        <li> 
+        <li>
           <a href="https://www.math.ttu.edu/~atrindad/tsdata/HoetingGivens.pdf" target="_blank"><b>Communicating Statistical Results</b></a>
           by Jennifer Hoeting and Geof Givens.
         </li>
-        <li> 
+        <li>
           <a href="https://www.tandfonline.com/doi/epdf/10.1080/00031305.1982.10483042" target="_blank"><b>Writing technical papers or reports</b></a>
-          by A. S.C. Ehrenberg. <em>The American Statistician</em>. 
+          by A. S.C. Ehrenberg. <em>The American Statistician</em>.
           Also at <a href="https://www.jstor.org/stable/2683079" target="_blank"><b>JSTOR</b>.</a>
         </li>
-        <li> 
+        <li>
           <a href="https://doi.org/10.1371/journal.pcbi.1009554" target="_blank"><b>Ten simple rules for effective presentation slides</b></a>
           by K.M. Naegle. <em>PLoS computational biology</em>.
         </li>
-        <li> 
+        <li>
           <a href="https://doi.org/10.1371/journal.pcbi.1005619" target="_blank"><b>Ten simple rules for structuring papers</b></a>
           by B. Mensh and K. Kording. <em>PLOS Computational Biology</em>.
         </li>
-        <li> 
+        <li>
           <a href="https://doi.org/10.1038/d41586-019-02918-5" target="_blank"><b>Novelist Cormac McCarthy's tips on how to write a great science paper</b></a>
           by V. Savage and P. Yeh. <em>Nature</em>.
         </li>
@@ -603,25 +549,22 @@
       <h3>Data and Code</h3>
 
       <ul>
-        <li> 
+        <li>
           <a href="https://www.go-fair.org/fair-principles/" target="_blank"><b>FAIR Principles</b></a> <em>Go Fair</em>.
         </li>
-        <li> 
-          <a href="https://www.nature.com/articles/sdata201618" target="_blank"><b>The FAIR Guiding Principles for scientific data management and stewardship</b></a> 
+        <li>
+          <a href="https://www.nature.com/articles/sdata201618" target="_blank"><b>The FAIR Guiding Principles for scientific data management and stewardship</b></a>
           by Mark D. Wilkinson et al. <em>Nature</em>.
         </li>
-        <li> 
+        <li>
           <a href="https://www.nature.com/articles/s41597-022-01710-x" target="_blank"><b>Introducing the FAIR Principles for research software</b></a>
           by Michelle Barker, Neil P. Chue Hong, Daniel S. Katz, anna-Lena Lamprecht, Carlos Martinez-Ortiz, Fotis Psomopoulos, Jennifer Harrow, Leyla Jael Castro, Morane Gruenpeter, Paula Andrea Martinez, and Tom Honeyman. <em>Nature</em>.
         </li>
-        <li> 
+        <li>
           <a href="https://doi.org/10.1162/dint_a_00176" target="_blank"><b>FAIR Versus Open Data: A Comparison of Objectives and Principles</b></a>
           by Putu H.P. Jati,  Yi Lin,  Sara Nodehi,  Dwy B. Cahyono, and Mirjam van Reisen. <em>Data Intelligence</em>.
         </li>
       </ul>
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2024-03-25">2024-03-25  <a href="#beginning" class="back">&#x25B2;</a></h1>
@@ -634,8 +577,8 @@
       <li>
         <a href="https://journals.sagepub.com/doi/epub/10.1177/17456916231182568" target="_blank"><b>Shifting the Level of Selection in Science</b></a> by Leo Tiokhin, Karthik Panchanathan, Paul E. Smaldino, and Daniël Lakens. <em>Perspectives on Psychological Science</em>, 17456916231182568.
 
-        <h3>Abstract</h3> 
-        
+        <h3>Abstract</h3>
+
         <p>
           Criteria for recognizing and rewarding scientists primarily focus on individual contributions. This creates a conflict between what is best for scientists’ careers and what is best for science. In this article, we show how the theory of multilevel selection provides conceptual tools for modifying incentives to better align individual and collective interests. A core principle is the need to account for indirect effects by shifting the level at which selection operates from individuals to the groups in which individuals are embedded. This principle is used in several fields to improve collective outcomes, including animal husbandry, team sports, and professional organizations. Shifting the level of selection has the potential to ameliorate several problems in contemporary science, including accounting for scientists’ diverse contributions to knowledge generation, reducing individual-level competition, and promoting specialization and team science. We discuss the difficulties associated with shifting the level of selection and outline directions for future development in this domain.
         </p>
@@ -648,13 +591,10 @@
 
       </ul>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2024-03-19">2024-03-19  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Pontol do Sul MTB</h2>
 
       <p>
@@ -663,33 +603,30 @@
 
       <div class="sam-image">
         <a href="/site/media/fullsize/Pontal-1.jpg" target="_blank">
-          <img class="mtb" title="Atlantic Rain Forest" src="/site/media/thumbs/Pontal-1.jpg"></a>
+          <img class="mtb" title="Atlantic Rain Forest" alt="Atlantic Rain Forest" src="/site/media/thumbs/Pontal-1.jpg"></a>
         Sam on the rain forest side of the loop, Pontal do Sul
       </div>
 
       <div class="sam-image">
         <a href="/site/media/fullsize/Pontal-2.jpg" target="_blank">
-          <img class="mtb" title="Atlantic Rain Forest" src="/site/media/thumbs/Pontal-2.jpg"></a>
+          <img class="mtb" title="Atlantic Rain Forest" alt="Atlantic Rain Forest" src="/site/media/thumbs/Pontal-2.jpg"></a>
         Sam riding on the beach, Pontal do Sul
       </div>
 
       <div class="sam-image">
         <a href="/site/media/fullsize/Pontal-5.jpg" target="_blank">
-        <img class="mtb" title="Atlantic Rain Forest" src="/site/media/thumbs/Pontal-5.jpg"></a>
+        <img class="mtb" title="Atlantic Rain Forest" alt="Atlantic Rain Forest" src="/site/media/thumbs/Pontal-5.jpg"></a>
       Riding in the rain forest in the rain, Pontal do Sul
       </div>
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2024-03-15">2024-03-15  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Huge Milestone! Completed First VA Methods Development Project with a VA Study using InSilicoVA published in the <em>Lancet Global Health</em></h2>
 
       <p>
-        Around 2010, I started thinking about working on verbal autopsy methods. Over the next few years, <a href="https://iussp.org/en/basia-zaba-1949-2018" target="_blank">Basia Zaba</a> and I decided to coordinate work that she was leading at the <a href="https://alpha.lshtm.ac.uk" target="_blank">ALPHA Network</a> of health and demographic surveillance system (HDSS) sites on identifying AIDS as a cause of death with the work that <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, <a href="https://zehangli.com" target="_blank">Zehang (Richard) Li</a>, and I were beginning to do on verbal autopsy cause-coding methods. We wove things together for a grant application that Basia was working on for the Gates Foundation, and we were funded by the Gates Foundation for a couple years to get started. During that time we came up with the basic idea for InSilicoVA, and I led the team to apply for an NIH R01 grant. We were supported by NICHD for five years to complete work on InSilicoVA and support the ALPHA Network sites and the London-based ALPHA secretariat to collect, clean, and harmonize VA data from all the sites. Basia, Tyler, Richard, and I had the idea that we'd develop a new and improved automated cause-coding method for VA and use the ALPHA data for testing and validation. We would then apply the method to the ALPHA Network VAs to produce a comparative description of cause-specific mortality through time, with a focus on HIV/AIDS. <font color="DarkGreen">To make the method fully transparent and credible, we planned to 1) publish a technical paper in a good statistics journal, 2) create open source software to support that publication and make the method widely usable, and 3) conduct a detailed substantive investigation of the ALPHA Network's cause specific mortality using the new method and publish that in a good public/global health journal.</font> 
+        Around 2010, I started thinking about working on verbal autopsy methods. Over the next few years, <a href="https://iussp.org/en/basia-zaba-1949-2018" target="_blank">Basia Zaba</a> and I decided to coordinate work that she was leading at the <a href="https://alpha.lshtm.ac.uk" target="_blank">ALPHA Network</a> of health and demographic surveillance system (HDSS) sites on identifying AIDS as a cause of death with the work that <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, <a href="https://zehangli.com" target="_blank">Zehang (Richard) Li</a>, and I were beginning to do on verbal autopsy cause-coding methods. We wove things together for a grant application that Basia was working on for the Gates Foundation, and we were funded by the Gates Foundation for a couple years to get started. During that time we came up with the basic idea for InSilicoVA, and I led the team to apply for an NIH R01 grant. We were supported by NICHD for five years to complete work on InSilicoVA and support the ALPHA Network sites and the London-based ALPHA secretariat to collect, clean, and harmonize VA data from all the sites. Basia, Tyler, Richard, and I had the idea that we'd develop a new and improved automated cause-coding method for VA and use the ALPHA data for testing and validation. We would then apply the method to the ALPHA Network VAs to produce a comparative description of cause-specific mortality through time, with a focus on HIV/AIDS. <font color="DarkGreen">To make the method fully transparent and credible, we planned to 1) publish a technical paper in a good statistics journal, 2) create open source software to support that publication and make the method widely usable, and 3) conduct a detailed substantive investigation of the ALPHA Network's cause specific mortality using the new method and publish that in a good public/global health journal.</font>
       </p>
       <p>
         We have just completed the last of those tasks with the acceptance of the ALPHA Network cause-specific mortality paper by the <em>Lancet Global Health</em> - effectively the best journal for material like this, summary below. <a href="https://www.research.ed.ac.uk/en/persons/clara-calvert" target="_blank">Clara Calvert</a>, <a href="https://alpha.lshtm.ac.uk/people/" target="_blank">Milly Marston</a>, <a href="https://y-chu.github.io" target="_blank">Yue Chu</a>, and myself with all of the ALPHA HDSS sites worked over many years to get this done! The methods paper was published in 2016 in the <em>Journal of the American Statistical Association</em>, one of the best statistics journals, see below. Finally, the software has turned into a major success and is the reference software supporting the WHO Standard VA used by many research and mortality surveillance groups worldwide. We published a paper describing the software and how to use it in <em>The R Journal</em>, below. In addition to the research software in R, we were supported by the NGO <a href="https://www.vitalstrategies.org/programs/civil-registration-and-vital-statistics/" target="_blank">Vital Strategies</a> to create a production version of the software implemented in Python and C++ by <a href="https://jarathomas.github.io/index.html" target="_blank">Jason Thomas</a>. That version is very fast, easy to install in the standard way with no additional dependencies required, and easy to use through a GUI (public release in the next few weeks after final validation testing).
@@ -705,7 +642,7 @@
       </p>
 
       <ol>
-        
+
         <li>
           The methods paper describes <em>InSilicoVA</em> - our new automated cause-coding algorithm for verbal autopsy. It was published in the <em>Journal of the American Statistical Association</em> in 2016: <a href="http://dx.doi.org/10.1080/01621459.2016.1152191" target="_blank">Probabilistic Cause-of-Death Assignment using Verbal Autopsies</a>.
         </li>
@@ -740,18 +677,15 @@
 
       </ol>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2023-11-14">2023-11-14  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Three Papers Accepted</h2>
 
       <p>
         Three papers that have been in the works for a long time have been accepted -
-      </p> 
+      </p>
 
       <ul>
 
@@ -776,7 +710,7 @@
         </li>
 
         <li>
-          <a href="https://doi.org/10.1080/16549716.2023.2285105" target="_blank"><b>Agreement between cause of death assignment by computer-coded verbal autopsy methods and physician coding of verbal autopsy interviews in South Africa</b></a> by Pam Groenewald, Jason Thomas, Samuel J Clark, Diane Morof, Jané D. Joubert, Chodziwadziwa Kabudula, Zehang Li, and Debbie Bradshaw in <em>Global Health Action</em> 
+          <a href="https://doi.org/10.1080/16549716.2023.2285105" target="_blank"><b>Agreement between cause of death assignment by computer-coded verbal autopsy methods and physician coding of verbal autopsy interviews in South Africa</b></a> by Pam Groenewald, Jason Thomas, Samuel J Clark, Diane Morof, Jané D. Joubert, Chodziwadziwa Kabudula, Zehang Li, and Debbie Bradshaw in <em>Global Health Action</em>
 
           <h3>Abstract</h3>
 
@@ -794,15 +728,12 @@
           </p>
         </li>
 
-      </ul> 
-
-
-
+      </ul>
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2023-11-10">2023-11-10  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Reference Death Archive Kickoff at WHO</h2>
 
       <p>
@@ -811,17 +742,14 @@
 
       <div class="sam-image">
         <a href="/site/media/fullsize/RDA-Crew-at-WHO.jpg" target="_blank">
-          <img class="mtb" title="Sam, Yue, Doris, and Kobus at WHO" src="/site/media/thumbs/RDA-Crew-at-WHO.jpg"></a>
+          <img class="mtb" title="Sam, Yue, Doris, and Kobus at WHO" alt="Sam, Yue, Doris, and Kobus at WHO" src="/site/media/thumbs/RDA-Crew-at-WHO.jpg"></a>
         Sam, Yue, Doris, and Kobus at WHO
       </div>
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2023-11-01">2023-11-01  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Moved to Brazil for a Year</h2>
 
       <p>
@@ -830,13 +758,13 @@
 
       <div class="sam-image">
         <a href="/site/media/fullsize/atlantic-rain-forest-1.jpg" target="_blank">
-          <img class="mtb" title="Atlantic Rain Forest" src="/site/media/thumbs/atlantic-rain-forest-1.jpg"></a>
+          <img class="mtb" title="Atlantic Rain Forest" alt="Atlantic Rain Forest" src="/site/media/thumbs/atlantic-rain-forest-1.jpg"></a>
         Atlantic Rain Forest, Parana, Brazil
       </div>
 
       <div class="sam-image">
         <a href="/site/media/fullsize/atlantic-rain-forest-2.jpg" target="_blank">
-          <img class="mtb" title="River in Atlantic Rain Forest" src="/site/media/thumbs/atlantic-rain-forest-2.jpg"></a>
+          <img class="mtb" title="River in Atlantic Rain Forest" alt="River in Atlantic Rain Forest" src="/site/media/thumbs/atlantic-rain-forest-2.jpg"></a>
         River in Atlantic Rain Forest, Parana, Brazil
       </div>
 
@@ -848,55 +776,44 @@
         Waterfall in Atlantic Rain Forest, Parana, Brazil
       </div>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2023-10-07">2023-10-07  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Five Manuscripts R/R and South Africa/Brazil Exchange</h2>
 
       <p>
         Super exciting: my <b>fabulous colleagues</b> and I have five papers at an advanced R/R stage - feels like the pandemic is finally working out of our pipeline!
       </p>
       <p>
-        Also, finally doing something that I'd wanted to do for some time (again, the pandemic ...) - helping my South African and Brazilian colleagues connect around cause of death ascertainment. Brazilian colleague <a href="https://www.linkedin.com/in/luiz-fernando-burns-0b055926/?originalSubdomain=br" target="_blank">Luiz Fernando (Burns)</a> who directs the mortality surveillance unit in the Department of Pathology at the University of S&atilde;o Paulo, <a href="https://www.agincourt.co.za/staff-page/ryan" target="_blank">Ryan Wagner</a> who co-directs the new minimally-invasive tissue sample (MITS) project at the Agincourt health and demographic surveillance system (HDSS) site, and Alison Castle at the <a href="https://www.ahri.org" target="_blank">Africa Health Research Institute</a> (AHRI) who has just started an autopsy project on community deaths. Burns is visiting the South African sites this week with me and Clarissa, and a South African contingent will visit S&atilde;o Paulo later this year, again with me and Clarissa. 
+        Also, finally doing something that I'd wanted to do for some time (again, the pandemic ...) - helping my South African and Brazilian colleagues connect around cause of death ascertainment. Brazilian colleague <a href="https://www.linkedin.com/in/luiz-fernando-burns-0b055926/?originalSubdomain=br" target="_blank">Luiz Fernando (Burns)</a> who directs the mortality surveillance unit in the Department of Pathology at the University of S&atilde;o Paulo, <a href="https://www.agincourt.co.za/staff-page/ryan" target="_blank">Ryan Wagner</a> who co-directs the new minimally-invasive tissue sample (MITS) project at the Agincourt health and demographic surveillance system (HDSS) site, and Alison Castle at the <a href="https://www.ahri.org" target="_blank">Africa Health Research Institute</a> (AHRI) who has just started an autopsy project on community deaths. Burns is visiting the South African sites this week with me and Clarissa, and a South African contingent will visit S&atilde;o Paulo later this year, again with me and Clarissa.
       </p>
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2023-09-29">2023-09-29  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>World Population Fractions Update - for 2022 WPP</h2>
 
       <p>
         Here's an update to my plot showing how the world population is distributed across major regions from 1950-2100 according to the 2022 edition of the UN Population Division's World Population Prospects. Notice the ever increasing importance of Africa! Code to do this is in this Github <a href="https://github.com/sinafala/World-Population-Fractions/tree/master" target="_blank">repo</a>.
-        <a href="/site/media/misc/regionFractionOfGlobalPopulationByTime.jpg" target="_blank"><img class="mtb" title="Region Fraction of Global Population by Time" src="/site/media/misc/regionFractionOfGlobalPopulationByTime.jpg" width="600"></a>
+        <a href="/site/media/misc/regionFractionOfGlobalPopulationByTime.jpg" target="_blank"><img class="mtb" title="Region Fraction of Global Population by Time" alt="Region Fraction of Global Population by Time" src="/site/media/misc/regionFractionOfGlobalPopulationByTime.jpg" width="600"></a>
       </p>
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2023-04-04">2023-04-04  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Contributed to an issue of the National Geographic Magazine</h2>
 
       <p>
-        I spent some time with the authors and editors preparing a recent issue of National Geographic Magazine editing and creating figures that interpret the UN Population Division's World Population Prospects population estimates and forecasts, including the one here: <a href="https://www.nationalgeographic.com/magazine/article/nigeria-population-growing-feature" target="_blank"><b>Will Nigeria’s booming population lead it to prosperity or poverty?</b></a>  
+        I spent some time with the authors and editors preparing a recent issue of National Geographic Magazine editing and creating figures that interpret the UN Population Division's World Population Prospects population estimates and forecasts, including the one here: <a href="https://www.nationalgeographic.com/magazine/article/nigeria-population-growing-feature" target="_blank"><b>Will Nigeria’s booming population lead it to prosperity or poverty?</b></a>
       </p>
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2023-03-06">2023-03-06  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2><a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank">"The openVA Toolkit for Verbal Autopsies"</a>
       appeared in <em>The R Journal</em> today.</h2>
 
@@ -909,22 +826,20 @@
 
         [&nbsp;<a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank">Link</a>&nbsp;]
       </p>
-      <p> 
+      <p>
         See <a href="#2022-10-19">openVA Toolkit</a> just below for details.
       </p>
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2023-03-03">2023-03-03  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Accepted in <em>BMJ Open</em></h2>
 
       <p>
         Houle,&nbsp;B., C.W.&nbsp;Kabudula, D.&nbsp;Gareta, K.&nbsp;Herbst, and S.J.&nbsp;Clark (Accepted 2023).
 
-        <b>Household Structure, Composition, and Child Mortality in the Unfolding Antiretroviral Therapy Era in Rural South Africa: Comparative Evidence from Population Surveillance, 2000-2015.</b> 
+        <b>Household Structure, Composition, and Child Mortality in the Unfolding Antiretroviral Therapy Era in Rural South Africa: Comparative Evidence from Population Surveillance, 2000-2015.</b>
 
         <em>BMJ Open</em>.
 
@@ -952,36 +867,34 @@
         <b>Conclusions:</b> Our findings provide comparative evidence of how differential household profiles may place children at higher mortality risk. Formative research is needed to understand the role of other household kin in promoting child well-being, particularly in one-parent households that are increasingly prevalent.
       </p>
 
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2022-10-19">2022-10-19  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2><a href="https://arxiv.org/abs/2109.08244" target="_blank">"The openVA Toolkit for Verbal Autopsies"</a>
       will appear in the <em>R Journal</em></h2>
 
       <p>
         This is one of the longest in-preparation papers I've ever worked on. Thanks to the persistence of <a href="https://zehangli.com" target="_blank">Richard Li</a> and other coauthors, we finally have a statistical software paper in the <a href="https://journal.r-project.org" target="_blank"><em>R Journal</em></a> - along with the collection of packages it describes in <a href="https://cran.r-project.org" target="_blank">CRAN</a>:
-      </p> 
+      </p>
       <ul>
-        <li> 
-          <a href="https://cran.r-project.org/package=openVA" target="_blank">openVA</a> 
+        <li>
+          <a href="https://cran.r-project.org/package=openVA" target="_blank">openVA</a>
         </li>
-        <li> 
-          <a href="https://cran.r-project.org/package=CrossVA" target="_blank">CrossVA</a> 
+        <li>
+          <a href="https://cran.r-project.org/package=CrossVA" target="_blank">CrossVA</a>
         </li>
-        <li> 
-          <a href="https://cran.r-project.org/package=InSilicoVA" target="_blank">InSilicoVA</a> 
+        <li>
+          <a href="https://cran.r-project.org/package=InSilicoVA" target="_blank">InSilicoVA</a>
         </li>
-        <li> 
-          <a href="https://cran.r-project.org/package=InterVA4" target="_blank">InterVA4</a> 
+        <li>
+          <a href="https://cran.r-project.org/package=InterVA4" target="_blank">InterVA4</a>
         </li>
-        <li> 
-          <a href="https://cran.r-project.org/package=InterVA5" target="_blank">InterVA5</a> 
+        <li>
+          <a href="https://cran.r-project.org/package=InterVA5" target="_blank">InterVA5</a>
         </li>
-        <li> 
-          <a href="https://cran.r-project.org/package=Tariff" target="_blank">Tariff</a> 
+        <li>
+          <a href="https://cran.r-project.org/package=Tariff" target="_blank">Tariff</a>
         </li>
       </ul>
       <p>
@@ -991,48 +904,41 @@
         Recently, support for the continued development and maintenance of the software has come from <a href="https://www.vitalstrategies.org/programs/civil-registration-and-vital-statistics/" target="_blank">Vital Strategies</a> and the <a href="https://www.cdcfoundation.org" target="_blank">CDC Foundation</a> as part of Bloomberg Philanthropies' <a href="https://www.bloomberg.org/public-health/strengthening-health-data/data-for-health/" target="_blank">Data for Health initiative</a>.
       </p>
 
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2022-08-23">2022-08-23  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>New Grant</h2>
 
       <p>
         I have a new grant from the Bill & Melinda Gates Foundation for $2.04M to support the openVA Team to work closely with the WHO to create a pathology-informed reference death archive for verbal autopsy to be hosted by the WHO in Geneva. The first deaths will come from the MITS Alliance, the CHAMPS project, and the mortality surveillance system (SVO) in several cities in Brazil. The aim is to create pathology-informed symptom-cause information (like training data) for automated algorithms that identify likely causes for deaths with verbal autopsy.
       </p>
 
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2022-07-14">2022-07-14  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>UN World Population Prospects 2022</h2>
 
       <p>
         The UN Population Division recently released the 2022 iteration of their bi-annual World Population Prospects WPP global population estimates and projections. I led a small team including <a href="https://jamuir.net" target="_blank">Jon Muir</a> and <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian Houle</a> to develop a mortality model for HIV-affected countries that was used to produce the 2022 WPP. OSU undergraduate student Michael Allen also contributed to the early stages of our work a couple years ago.
       </p>
       <ul>
-        <li> 
+        <li>
           <a href="https://www.un.org/development/desa/pd/content/World-Population-Prospects-2022" target="_blank">Launch</a> site, including lots of information about the WPP.
         </li>
-        <li> 
+        <li>
           <a href="https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/wpp2022_summary_of_results.pdf" target="_blank">Summary</a> of results document, including acknowledgements.
         </li>
         <li>
-          <a href="https://population.un.org/wpp/" target="_blank">Data</a> in many downloadable forms. 
+          <a href="https://population.un.org/wpp/" target="_blank">Data</a> in many downloadable forms.
         </li>
       </ul>
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2022-04-28">2022-04-28  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>How to Update a Web Site Using Git</h2>
 
       <p>
@@ -1040,19 +946,17 @@
       </p>
       <ul>
         <li>
-          <a href="../misc/git-web-update-general.md" target="_blank">Markdown that's easier to cut and paste.</a> 
+          <a href="../misc/git-web-update-general.md" target="_blank">Markdown that's easier to cut and paste.</a>
         </li>
-        <li> 
-          <a href="../misc/git-web-update-general.pdf" target="_blank">PDF that's easier to read!</a> 
+        <li>
+          <a href="../misc/git-web-update-general.pdf" target="_blank">PDF that's easier to read!</a>
         </li>
       </ul>
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2022-04-19:2">2022-04-19  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>New York Times Article on Verbal Autopsy</h2>
 
       <p>
@@ -1065,12 +969,10 @@
         <a href="https://www.nytimes.com/2022/04/19/health/death-records-africa-electronic-autopsy.html" target="_blank">A Door-to-Door Effort to Find Out Who Died Helps Low-Income Countries Aid the Living</a>
       </p>
 
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2022-04-19:1">2022-04-19  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Papers in Annual Meeting of the Population Association of America (PAA) 2022</h2>
 
       <ul>
@@ -1078,27 +980,25 @@
           <b>Application of a Singular Value Decomposition-based Factorization and Parsimonious Component Model of Mortality to HIV Epidemics in Africa</b> by Brian Houle, The Australian National University; Jonathan Muir, Emory University; Sara Hertog, United Nations; Francois Pelletier, United Nations; Samuel Clark, The Ohio State University; Patrick Gerland, United Nations Population Division. Session 41: <em>Statistical Modeling and Smoothing in Demography</em>. Presented by Sam Clark.
         </li>
 
-        <li> 
+        <li>
           <b>Sibling Mortality in Developing Countries: A Cross Regional Study</b> by Jonathan Muir, Emory University; Brian Houle, The Australian National University; Samuel Clark, The Ohio State University; Solveig Cunningham, Emory University. Session 116: <em>Early Life Health in Low and Middle Income Countries</em>. Presented by Jon Muir.
         </li>
-        
-        <li> 
+
+        <li>
           <b>The Timing of Sibling Mortality in the Widespread Antiretroviral Treatment Era: Comparative Evidence from Population-based Surveillance in Rural South Africa</b> by Brian Houle, The Australian National University; Jonathan Muir, Emory University; Chodziwadziwa Kabudula, University of the Witwatersrand; Samuel Clark, The Ohio State University. Session 51: <em>Child Health: Spillover and Spatial Effects</em>. Presented by Jon Muir.
         </li>
       </ul>
 
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2022-04-10:2">2022-04-10  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>New in <em>Global Health Action</em></h2>
 
       <p>
-        Chandramohan,&nbsp;D., E.&nbsp;Fottrell, J.&nbsp;Leitao, E.&nbsp;Nichols, S. J.&nbsp;CLARK, C.&nbsp;Alsokhn, D. C.&nbsp;Munoz, C.&nbsp;AbouZahr, A.&nbsp;Di Pasquale, R.&nbsp;Mswia, E.&nbsp;Choi, F.&nbsp;Baiden, J.&nbsp;Thomas, I.&nbsp;Lyatuu, Z.&nbsp;Li, P.&nbsp;Larbi-Debrah, Y.&nbsp;Chu, S.&nbsp;Cheburet, O.&nbsp;Sankoh, A. M.&nbsp;Badr, D. M.&nbsp;Fat, P.&nbsp;Setel, R.&nbsp;Jakob, and D.&nbsp;de Savigny (2021). 
+        Chandramohan,&nbsp;D., E.&nbsp;Fottrell, J.&nbsp;Leitao, E.&nbsp;Nichols, S. J.&nbsp;CLARK, C.&nbsp;Alsokhn, D. C.&nbsp;Munoz, C.&nbsp;AbouZahr, A.&nbsp;Di Pasquale, R.&nbsp;Mswia, E.&nbsp;Choi, F.&nbsp;Baiden, J.&nbsp;Thomas, I.&nbsp;Lyatuu, Z.&nbsp;Li, P.&nbsp;Larbi-Debrah, Y.&nbsp;Chu, S.&nbsp;Cheburet, O.&nbsp;Sankoh, A. M.&nbsp;Badr, D. M.&nbsp;Fat, P.&nbsp;Setel, R.&nbsp;Jakob, and D.&nbsp;de Savigny (2021).
 
-        <b>Estimating Causes Of Death Where There Is No Medical Certification: Evolution And State of The Art Of Verbal Autopsy.</b> 
+        <b>Estimating Causes Of Death Where There Is No Medical Certification: Evolution And State of The Art Of Verbal Autopsy.</b>
 
         <em>Global Health Action</em>.
 
@@ -1111,18 +1011,16 @@
         Over the past 70 years, significant advances have been made in determining the causes of death in populations not served by official medical certification of cause at the time of death using a technique known as Verbal Autopsy (VA). VA involves an interview of the family or caregivers of the deceased after a suitable bereavement interval about the circumstances, signs and symptoms of the deceased in the period leading to death. The VA interview data are then interpreted by physicians or, more recently, computer algorithms, to assign a probable cause of death. VA was originally developed and applied in field research settings. This paper traces the evolution of VA methods with special emphasis on the World Health Organization’s (WHO)’s efforts to standardize VA instruments and methods for expanded use in routine health information and vital statistics systems in low- and middle-income countries (LMICs). These advances in VA methods are culminating this year with the release of the 2022 WHO Standard Verbal Autopsy (VA) Toolkit. This paper highlights the many contributions the late Professor Peter Byass made to the current VA standards and methods, most notably, the development of InterVA, the most commonly used automated computer algorithm for interpreting data collected in the WHO standard instruments, and the capacity building in low- and middle-income countries (LMICs) that he promoted. This paper also provides an overview of the methods used to improve the current WHO VA standards, a catalogue of the changes and improvements in the instruments, and a mapping of current applications of the WHO VA standard approach in LMICs. It also provides access to tools and guidance needed for VA implementation in Civil Registration and Vital Statistics Systems at scale.
       </p>
 
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2022-04-10:1">2022-04-10  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>New in <em>Global Health Action</em></h2>
 
       <p>
-        Herbst,&nbsp;K., S.&nbsp;Juvekar, M.&nbsp;Jasseh, Y.&nbsp;Berhane, N. T. K.&nbsp;Chuk, J.&nbsp;Seeley, O.&nbsp;Sankoh, S. J.&nbsp;CLARK and M.&nbsp;Collinson (2021). 
+        Herbst,&nbsp;K., S.&nbsp;Juvekar, M.&nbsp;Jasseh, Y.&nbsp;Berhane, N. T. K.&nbsp;Chuk, J.&nbsp;Seeley, O.&nbsp;Sankoh, S. J.&nbsp;CLARK and M.&nbsp;Collinson (2021).
 
-        <b>Health And Demographic Surveillance Systems In Low- And Middle-income Countries: History, State of The Art And Future Prospects.</b> 
+        <b>Health And Demographic Surveillance Systems In Low- And Middle-income Countries: History, State of The Art And Future Prospects.</b>
 
         <em>Global Health Action</em>.
 
@@ -1144,18 +1042,16 @@
         The future will include advances in HDSS data harmonisation, accessibility, and protection. Key applications of the data are to validate and assess bias in other datasets. A strong collaboration between a national HDSS network and the national statistics office is modelled in South Africa and Sierra Leone, and it is possible that other low- to middle-income countries will see the benefit and take this approach.
       </p>
 
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2022-02-20">2022-02-20  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>New in <em>BMC Public Health</em></h2>
 
       <p>
-        Houle,&nbsp;B., C.W.&nbsp;Kabudula, A.M.&nbsp;Tilstra, S.A. Mojola, E.&nbsp;Schatz, S.J.&nbsp;CLARK, N.&nbsp;Angotti, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, and J.&nbsp;Menken (2022). 
+        Houle,&nbsp;B., C.W.&nbsp;Kabudula, A.M.&nbsp;Tilstra, S.A. Mojola, E.&nbsp;Schatz, S.J.&nbsp;CLARK, N.&nbsp;Angotti, F.X.&nbsp;G&oacute;mez-Oliv&eacute;, and J.&nbsp;Menken (2022).
 
-        <b>Twin epidemics: The Effects of HIV and Systolic Blood Pressure on Mortality Risk in Rural South Africa, 2010-2019.</b> 
+        <b>Twin epidemics: The Effects of HIV and Systolic Blood Pressure on Mortality Risk in Rural South Africa, 2010-2019.</b>
 
         <em>BMC Public Health</em>.
 
@@ -1178,14 +1074,12 @@
         <em>Conclusions</em>. Our results indicate that HIV and elevated blood pressure are acting as separate, non-interacting epidemics affecting high proportions of the older adult population. PLWH with unsuppressed viral load were at higher mortality risk compared to those uninfected. Systolic blood pressure was a mortality risk factor independent of HIV status. As antiretroviral therapy becomes more widespread, further longitudinal follow-up is needed to understand how the dynamics of increased longevity and multimorbidity among people living with both HIV and high blood pressure, as well as the emergence of COVID-19, may alter these patterns.
       </p>
 
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2022-01-23">2022-01-23  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
       <p>
         I discovered something new (to me) that will be useful. Elements of the vector defined by the perpendicular projection of a vector \( \vec{p} = \{p_1,p_2\} \) onto the line \( y=x \) are the arithmetic mean of \( p_1 \) and \( p_2 \):
-        \begin{align} 
+        \begin{align}
         \mbox{proj}_\vec{p}\hat{e} &= \frac{\vec{p} \cdot \hat{e}}{\hat{e} \cdot \hat{e}} \hat{e} \\
         &= \frac{p_1e + p_2e}{e^2 + e^2} \hat{e} \\
         &= \frac{p_1 + p_2}{2e} \hat{e} \\
@@ -1195,26 +1089,22 @@
       </p>
       <p>
         I noticed something else interesting (also new to me). The projection of a point onto every line through the origin forms a circle. In the image below, the red point (2,4.5) is projected onto a set of the lines through the origin and each is marked with a black dot and connected with a red line.
-        <a href="/site/media/misc/projectionCircle.jpg" target="_blank"><img class="mtb" title="Projection Circle" src="/site/media/misc/projectionCircle.jpg" width="600" height="600"></a>
+        <a href="/site/media/misc/projectionCircle.jpg" target="_blank"><img class="mtb" title="Projection Circle" alt="Projection Circle" src="/site/media/misc/projectionCircle.jpg" width="600" height="600"></a>
       </p>
-      
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2021-12-28">2021-12-28  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Published in <em>Annals of Epidemiology</em></h2>
 
       <p>
-        Norris&nbsp;Turner,&nbsp;A.,&nbsp;D. Kline,&nbsp;A. Norris, &nbsp;W.G. Phillips,&nbsp;E. Root,&nbsp;J. Wakefield,&nbsp;Z. Li,&nbsp;S. Lemeshow,&nbsp;M. Spahnie,&nbsp;A. Luff,&nbsp;Y. Chu,&nbsp;M.K. Francis,&nbsp;M. Gallo,&nbsp;P. Chakraborty,&nbsp;M. Lindstrom,&nbsp;G. Lozanski, &nbsp;W. Miller,&nbsp;S.J. CLARK (2021). 
-        
-        <b>Prevalence of Current and Past COVID-19 in Ohio Adults</b>. 
-        
-        <em>Annals of Epidemiology</em>. 
-        
+        Norris&nbsp;Turner,&nbsp;A.,&nbsp;D. Kline,&nbsp;A. Norris, &nbsp;W.G. Phillips,&nbsp;E. Root,&nbsp;J. Wakefield,&nbsp;Z. Li,&nbsp;S. Lemeshow,&nbsp;M. Spahnie,&nbsp;A. Luff,&nbsp;Y. Chu,&nbsp;M.K. Francis,&nbsp;M. Gallo,&nbsp;P. Chakraborty,&nbsp;M. Lindstrom,&nbsp;G. Lozanski, &nbsp;W. Miller,&nbsp;S.J. CLARK (2021).
+
+        <b>Prevalence of Current and Past COVID-19 in Ohio Adults</b>.
+
+        <em>Annals of Epidemiology</em>.
+
         [&nbsp;<a href="http://doi.org/10.1016/j.annepidem.2021.11.009" target="_blank">DOI</a>&nbsp;]
       </p>
 
@@ -1236,31 +1126,28 @@
       <h2>Context</h2>
 
       <p>
-        In July 2020 a large group of colleagues at The Ohio State University collaborated with the Ohio State Department of Health to conduct a probability-based sample survey representative of adults living in Ohio in order to estimate state-level CV19 prevalence of current and past infections. 
+        In July 2020 a large group of colleagues at The Ohio State University collaborated with the Ohio State Department of Health to conduct a probability-based sample survey representative of adults living in Ohio in order to estimate state-level CV19 prevalence of current and past infections.
       </p>
       <p>
         This article describes the results of the survey for a public health audience. We developed a new Bayesian poststratification method to produce estimates from the data -<a href="#PNAS-methods" target="_parent">described in PNAS</a>.
       </p>
       <p>
-        Abigail Norris Turner led the overall study conducted by a large group of collaborators at The Ohio State University and Ohio State Department of Health. 
+        Abigail Norris Turner led the overall study conducted by a large group of collaborators at The Ohio State University and Ohio State Department of Health.
       </p>
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2021-12-22">2021-12-22  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
-      <h2>New working paper on arXiv</h2> 
+
+      <h2>New working paper on arXiv</h2>
 
       <p>
-        Li,&nbsp;Z.&nbsp;R., Z.&nbsp;Wu, I.&nbsp;Chen, and S.&nbsp;J.&nbsp;CLARK (2021). 
+        Li,&nbsp;Z.&nbsp;R., Z.&nbsp;Wu, I.&nbsp;Chen, and S.&nbsp;J.&nbsp;CLARK (2021).
 
-        <b>Bayesian Nested Latent Class Models for Cause-of-Death Assignment using Verbal Autopsies Across Multiple Domains.</b> 
-        
+        <b>Bayesian Nested Latent Class Models for Cause-of-Death Assignment using Verbal Autopsies Across Multiple Domains.</b>
+
         <em>arXiv Preprint</em>&nbsp;<em>arXiv:2112.12186</em>.
-        
+
         [&nbsp;<a href="https://arxiv.org/abs/2112.12186" target="_blank">PDF</a>&nbsp;]
       </p>
 
@@ -1270,18 +1157,12 @@
         Understanding cause-specific mortality rates is crucial for monitoring population health and designing public health interventions. Worldwide, two-thirds of deaths do not have a cause assigned. Verbal autopsy (VA) is a well-established tool to collect information describing deaths outside of hospitals by conducting surveys to caregivers of a deceased person. It is routinely implemented in many low- and middle-income countries. Statistical algorithms to assign cause of death using VAs are typically vulnerable to the distribution shift between the data used to train the model and the target population. This presents a major challenge for analyzing VAs as labeled data are usually unavailable in the target population. This article proposes a Latent Class model framework for VA data (LCVA) that jointly models VAs collected over multiple heterogeneous domains, assign cause of death for out-of-domain observations, and estimate cause-specific mortality fractions for a new domain. We introduce a parsimonious representation of the joint distribution of the collected symptoms using nested latent class models and develop an efficient algorithm for posterior inference. We demonstrate that LCVA outperforms existing methods in predictive performance and scalability. Supplementary materials for this article and the R package to implement the model are available online.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2021-10-26">2021-10-26  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
       <p>
         This appeared on my Twitter feed recently: <a href="/site/misc/FormalDemog.pdf" target="_blank">Demography Abandons Its Core</a> by <a href="https://www.demog.berkeley.edu/faculty/ronald-demos-lee/" target="_blank">Ron Lee</a> in 2001. Unfortunately this is still highly relevant, and those of us interested in formal demography as a recognizable field need to do something! <a href="https://formaldemography.github.io/working_group/" target="_blank">The Formal Demography Working Group</a> is being formed as a vehicle for doing that - please join if you are interested!
       </p>
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2021-10-01">2021-10-01  <a href="#beginning" class="back">&#x25B2;</a></h1>
@@ -1290,18 +1171,12 @@
         Today Mary Shenk and I are discussants at the 16<sup>th</sup> <a href="https://pop.psu.edu/events/16th-annual-de-jong-lecture-social-demography" target="_blank">De Jong Lecture in Social Demography</a> at Penn State. Hans <a href="https://www.sas.upenn.edu/~hpkohler/" target="_blank">Peter-Peter Kohler</a> is the featured speaker. Link to <a href="./talks.shtml#dejongslides" target="_blank">slides</a>.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2021-09-20">2021-09-20  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
       <p>
         For the past 6-7 years my colleagues and I who work on verbal autopsy methods have been developing new statistical methods to automate identification of a cause of death using verbal autopsy records. Along the way we have developed a range of open source software tools to ensure that the methods are transparent and available to anyone who wants to use them. Recently we submitted a paper and posted a preprint on the <a href="https://arxiv.org/abs/2109.08244" target="_blank"><b>openVA Toolit</b></a>. This is a suite of open source software that can be used to apply a variety of algorithms to verbal autopsy data. Additional software that works with openVA - e.g. the <em> openVA Pipeline</em> that fully automates cause-coding in CRVS settings - and links to the GitHub repositories where software is maintained are available at <a href="http://openva.net" target="_blank"><b>openva.net</b></a>.
       </p>
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2021-06-25">2021-06-25  <a href="#beginning" class="back">&#x25B2;</a></h1>
@@ -1310,11 +1185,11 @@
       <h2 id="PNAS-methods"> Published open-access in <em>PNAS</em>:</h2>
 
       <p>
-        Kline,&nbsp;D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turner, and S.&nbsp;J. CLARK (2021). 
+        Kline,&nbsp;D., Z.&nbsp;Li, Y.&nbsp;Chu, J.&nbsp;Wakefield, W.C. Miller, A.&nbsp;Norris&nbsp;Turner, and S.&nbsp;J. CLARK (2021).
 
-        <b>Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests</b>. 
+        <b>Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests</b>.
 
-        <em>Proceedings of the National Academy of Sciences</em>&nbsp;<em>118</em>(26), e2023947118. 
+        <em>Proceedings of the National Academy of Sciences</em>&nbsp;<em>118</em>(26), e2023947118.
 
         [&nbsp;<a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">DOI</a>&nbsp;]
       </p>
@@ -1328,20 +1203,17 @@
       <h2>Context</h2>
 
       <p>
-        In July 2020 a large group of colleagues at The Ohio State University collaborated with the Ohio State Department of Health to conduct a probability-based sample survey representative of adults living in Ohio in order to estimate state-level CV19 prevalence of current and past infections. Conducting the survey at that time presented many challenges, including a large non-response rate and an array of tests whose performance characteristics were poorly understood (we used all that we could), and very few positive results from any test. These two issues, and others including the sampling design, presented a particular challenge for analysis and led us to develop a new Bayesian/poststratification approach to estimate state-wide prevalence. 
+        In July 2020 a large group of colleagues at The Ohio State University collaborated with the Ohio State Department of Health to conduct a probability-based sample survey representative of adults living in Ohio in order to estimate state-level CV19 prevalence of current and past infections. Conducting the survey at that time presented many challenges, including a large non-response rate and an array of tests whose performance characteristics were poorly understood (we used all that we could), and very few positive results from any test. These two issues, and others including the sampling design, presented a particular challenge for analysis and led us to develop a new Bayesian/poststratification approach to estimate state-wide prevalence.
       </p>
       <p>
-        There are still few representative sample surveys of CV19 biomarkers. Most other approaches suffer from the possibility of very large, consequential bias. This paper should be useful for anyone analyzing the results from a similar survey. Although we cannot share the data easily, we have made R code available to replicate the analysis: <a href="https://github.com/sinafala/bayes-prevalence" target="_blank">Bayes Prevalence</a>. 
+        There are still few representative sample surveys of CV19 biomarkers. Most other approaches suffer from the possibility of very large, consequential bias. This paper should be useful for anyone analyzing the results from a similar survey. Although we cannot share the data easily, we have made R code available to replicate the analysis: <a href="https://github.com/sinafala/bayes-prevalence" target="_blank">Bayes Prevalence</a>.
       </p>
       <p>
-        Abigail Norris Turner led the overall study conducted by a large group of collaborators at The Ohio State University and Ohio State Department of Health. 
+        Abigail Norris Turner led the overall study conducted by a large group of collaborators at The Ohio State University and Ohio State Department of Health.
       </p>
       <p>
         In a truly team effort, Dave Kline, Richard Li, Yue Chue, Jon Wakefield, Bill Miller, Abigail Norris Turner, and me conducted the analysis and developed the overall approach. It was an enjoyable and productive experience working with this team.
       </p>
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2021-04-01:2">2021-04-01:2  <a href="#beginning" class="back">&#x25B2;</a></h1>
@@ -1350,18 +1222,12 @@
         APHRC - the African Population Health Research Center - in Nairobi is seeking a consultant demographer for six months to lead the redesign of the Nairobi Urban Health and Demographic Surveillance System Site (NUHDSS). <a href="http://www.samclark.net/site/misc/APHRC-Terms-of-Reference--Consultant-Demographer.pdf" target="_blank">Full details available here</a>.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2021-04-01:1">2021-04-01:1  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
       <p>
         Today and tomorrow the <a href="http://openva.net" target="_blank">openVA</a> Team is presenting a training workshop for the CHAMPS project and our Data for Health Initiative colleagues in Thailand.
       </p>
-
-
-
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2021-03-31">2021-03-31  <a href="#beginning" class="back">&#x25B2;</a></h1>
@@ -1370,9 +1236,6 @@
         A long-in-the-making collaboration with UNICEF produced its first non-academic product recently: <a href="https://data.unicef.org/wp-content/uploads/2021/03/SubnationalBrochure_lowrec_pg_0330.pdf" target="_blank">Subnational Under-five Mortality Estimates, 1990–2019</a>. This work grew out of a small collaboration with <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a> at the University of Washington, see <a href="/site/projects/small-area-estimates.shtml">small-area estimates</a>. Jon grew the group working on it and together with <a href="https://stat.uw.edu/about-us/people/jessica-godwin" target="_blank">Jessica Godwin</a> saw it through to this. Congratulations to everyone involved!
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2021-03-24">2021-03-24   <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
@@ -1380,13 +1243,10 @@
         I gave a talk today at the 2021 'Berlin Demography Days': <a href="/site/talks/clark-2021-talk_global-population-studies-in-the-21st-century-priorities-challenges--mortality.pdf" target="_blank">Global Population Studies in the 21st Century: Priorities Challenges - Mortality</a>.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2021-03-10">2021-03-10  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
-      
+
       <h2>Award</h2>
 
       <p>
@@ -1408,32 +1268,26 @@
         The 2030 agenda is the ecosystem of activities - many including population-level monitoring - that relate to the United Nations (UN) Sustainable Development Goals (SDG). With respect to the 2030 agenda, HDSS can contribute by: (1) continuing to conduct cause-and-effect studies; (2) contributing to data triangulation or amalgamation initiatives; (3) characterizing the bias in and calibrating big data; and contributing more to the rapid training of data-oriented professionals, especially in the population and health fields.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2021-02-28">2021-02-28  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
 
-      <h2>Commentary in <i>PNAS</i></h2> 
+      <h2>Commentary in <i>PNAS</i></h2>
 
       <p>
         Commentary in <i>PNAS</i>: <b>Monitoring epidemics: Lessons from measuring population prevalence of the coronavirus</b> with Abigail Norris Turner. We highlight the need to improve response rates and to prepare a robust measurement capability to be ready for the next pandemic. <a href="https://doi.org/10.1073/pnas.2026412118" target="_blank">DOI</a>.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2021-02-08">2021-02-08  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
 
-      <h2>Article out today in <i>PLoS One</i></h2> 
+      <h2>Article out today in <i>PLoS One</i></h2>
 
       <p>
-        <b>Linking the timing of a mother's and child's death: Comparative evidence from two rural South African population-based surveillance studies, 2000–2015</b> 
+        <b>Linking the timing of a mother's and child's death: Comparative evidence from two rural South African population-based surveillance studies, 2000–2015</b>
 
-        by Brian&nbsp;Houle, Chodziwadziwa&nbsp;W.&nbsp;Kabudula, Alan&nbsp;Stein, Dickman&nbsp;Gareta, Kobus&nbsp;Herbst, and Samuel&nbsp;J.&nbsp;Clark. 
+        by Brian&nbsp;Houle, Chodziwadziwa&nbsp;W.&nbsp;Kabudula, Alan&nbsp;Stein, Dickman&nbsp;Gareta, Kobus&nbsp;Herbst, and Samuel&nbsp;J.&nbsp;Clark.
 
         <a href="https://doi.org/10.1371/journal.pone.0246671" target="_blank">DOI</a>.
       </p>
@@ -1450,9 +1304,6 @@
         <em>Conclusions</em>. The persistence of elevated mortality risk both before and after the mother's death for children of different ages suggests that absence of maternal care and abrupt breastfeeding cessation might be crucial risk factors. Formative research is needed to understand the circumstances for children when a mother is very ill or dies, and behavioral and other risk factors that increase both the mother and child's risk of dying. Identifying families when a mother is very ill and implementing training and support strategies for other members of the household are urgently needed to reduce preventable child mortality.
       </p>
 
-
-
-
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2021-02-03">2021-02-03  <a href="#beginning" class="back">&#x25B2;</a></h1>
       <!-- %%%%%%%%%%%% -->
@@ -1463,9 +1314,7 @@
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

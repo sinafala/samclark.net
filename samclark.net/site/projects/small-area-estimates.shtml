@@ -6,8 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for work on small-area estimation methods for demography.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, africa, epidemiology, demography, small-area estimates, statistics, complex sample, survey.">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel Clark - Small-area Estimates</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -21,9 +21,7 @@
     </div>
   </header>
 
-    
   <main>
-
 
     <div class="sam-block">
 
@@ -38,14 +36,14 @@
       <ul>
         <li>
           <a href="http://dx.doi.org/10.1214/15-AOAS872" target="_blank">Space–time Smoothing Of Complex Survey Data: Small Area Estimation For Child Mortality</a>
-        </li>        
+        </li>
         <li>
           <a href="http://dx.doi.org/10.1177/0962280218767988" target="_blank">Estimating under-five mortality in space and time in a developing world context</a>
-        </li>       
+        </li>
         <li>
           <a href="http://dx.doi.org/10.1371/journal.pone.0210645" target="_blank">Changes in the spatial distribution of the under-five mortality rate: Small-area analysis of 122 DHS surveys in 262 subregions of 35 countries in Africa</a>
         </li>
-      </ul> 
+      </ul>
 
       <h1>Key Contribution</h1>
 
@@ -75,9 +73,7 @@
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

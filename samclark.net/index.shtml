@@ -6,8 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark is a demographer, epidemiologist, and data scientist who develops new methods and does research in demography and epidemiology.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, demography, demographer, epidemiology, epidemiologist, statistics, statistician, Africa, methods, verbal autopsy, Ohio State University, University of Washington, University of Colorado at Boulder, Penn, Caltech, Ohio, Kenya, South Africa, Zambia, Brazil">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel J. Clark - Demographer</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -22,7 +22,7 @@
   <div class="row-index">
     <div class="column-left-index">
 
-      <a href="/site/media/fullsize/sam.jpg" target="_blank"><img class="sam-index" title="Sam" src="/site/media/thumbs/sam.jpg" width="125"></a>
+      <a href="/site/media/fullsize/sam.jpg" target="_blank"><img class="sam-index" title="Sam" alt="Sam" src="/site/media/thumbs/sam.jpg" width="125"></a>
 
     </div>
     <div class="column-right-index" style="align-self:center;">
@@ -31,13 +31,11 @@
         I am a demographer, epidemiologist, and data scientist who develops new methods and does research in demography and epidemiology. Much of my substantive work investigates questions that affect Africa. <a href="http://clarissasurekclark.name" target="_blank">Clarissa Surek-Clark</a> and I collaborate in life and various professional endeavors.
       </h2>
 
-    </div> 
+    </div>
   </div>
 </header>
 
-  
 <main>
-
 
   <div class="sam-block">
 
@@ -46,7 +44,7 @@
     </p> -->
 
     <p>
-      I work as a <a href="https://sociology.osu.edu/people/clark.2962" target="_blank">professor</a> in the <a href="https://sociology.osu.edu" target="_blank">Department of Sociology</a> at <a href="https://www.osu.edu" target="_blank">The Ohio State University</a> (OSU), and I am a faculty affiliate of the <a href="https://ipr.osu.edu/people/clark.2962" target="_blank">Institute for Population Research</a> and the <a href="https://tdai.osu.edu/people/clark.2962" target="_blank">Translational Data Analytics Institute</a>, both at OSU. I am affiliated with the <a href="https://stat.uw.edu/about-us/people/samuel-clark" target="_blank">Department of Statistics</a> at the University of Washington and the <a href="https://www.wits.ac.za/publichealth/" target="_blank">School of Public Health</a> at the University of the Witwatersrand. 
+      I work as a <a href="https://sociology.osu.edu/people/clark.2962" target="_blank">professor</a> in the <a href="https://sociology.osu.edu" target="_blank">Department of Sociology</a> at <a href="https://www.osu.edu" target="_blank">The Ohio State University</a> (OSU), and I am a faculty affiliate of the <a href="https://ipr.osu.edu/people/clark.2962" target="_blank">Institute for Population Research</a> and the <a href="https://tdai.osu.edu/people/clark.2962" target="_blank">Translational Data Analytics Institute</a>, both at OSU. I am affiliated with the <a href="https://stat.uw.edu/about-us/people/samuel-clark" target="_blank">Department of Statistics</a> at the University of Washington and the <a href="https://www.wits.ac.za/publichealth/" target="_blank">School of Public Health</a> at the University of the Witwatersrand.
     </p>
 
     <p>
@@ -54,15 +52,11 @@
     </p>
 
     <p>
-      I lead the <a href="http://openva.net" target="_blank">openVA Team</a> that works to improve <a href="/site/projects/verbal-autopsy.shtml" target="_parent">verbal autopsy</a>. I have been a member of the <a href="https://www.who.int/standards/classifications/other-classifications/verbal-autopsy-standards-ascertaining-and-attributing-causes-of-death-tool" target="_blank">WHO Verbal Autopsy Reference Group (VARG)</a> since it was formed in 2013. Over the past several years I have been an active member of the VARG Task Group coordinating a comprehensive update of the <a href="https://www.who.int/standards/classifications/other-classifications/verbal-autopsy-standards-ascertaining-and-attributing-causes-of-death-tool" target="_blank">WHO Standard Verbal Autopsy Instrument</a>. The openVA Team develops and maintains tools that support the WHO standard.
+      I lead the <a href="http://openva.net" target="_blank">openVA Team</a> that works to improve <a href="/site/projects/verbal-autopsy.shtml" target="_parent">verbal autopsy</a>. I have been a member of the <a href="https://www.swisstph.ch/en/about/eph/household-economics-and-health-systems-research/whova" target="_blank">WHO Verbal Autopsy Reference Group (VARG)</a> since it was formed in 2013. Over the past several years I have been an active member of the VARG Task Group coordinating a comprehensive update of the <a href="https://www.who.int/standards/classifications/other-classifications/verbal-autopsy-standards-ascertaining-and-attributing-causes-of-death-tool" target="_blank">WHO Standard Verbal Autopsy Instrument</a>. The <a href="https://openva.net" target="_blank">openVA Team</a> develops and maintains tools that support the WHO standard.
     </p>
 
     <p>
-      I am a member of the <a href="https://www.who.int/news-room/articles-detail/call-for-experts--who-technical-advisory-group-on-health-statistics" target="_blank">WHO Technical Advisory Group (TAG) on Health Statistics</a> that is developing a global strategy on strengthening national mortality data systems to improve the availability, quality, and use of mortality data for public health action. I am also a member of the <a href="https://www.swisstph.ch/en/about/eph/household-economics-and-health-systems-research/whova" target="_blank">WHO Verbal Autopsy Reference Group (VARG)</a> that develops <a href="https://www.who.int/standards/classifications/other-classifications/verbal-autopsy-standards-ascertaining-and-attributing-causes-of-death-tool" target="_blank">standards and tools for the verbal autopsy method</a> of ascertaining cause of death. 
-    </p>
-
-    <p>
-      During 2020 I worked on a survey to estimate the prevalence of the coronavirus and an excess deaths study to characterize the total burden of mortality associated with the COVID-19 epidemic. Both projects were in the state of Ohio, USA and were conducted by large teams at The Ohio State University in close coordination with the Ohio State Department of Health.
+      I am also a member of the <a href="https://www.who.int/news-room/articles-detail/call-for-experts--who-technical-advisory-group-on-health-statistics" target="_blank">WHO Technical Advisory Group (TAG) on Health Statistics</a> that is developing a global strategy on strengthening national mortality data systems to improve the availability, quality, and use of mortality data for public health action.
     </p>
 
     <h1>Updates</h1>
@@ -73,12 +67,9 @@
       With a team including Doris Ma Fat, Philippe Boucher, and George Vasilache at the <em>Data, Digital Health, Analytics and AI Department (DDA)</em> of the WHO; <a href="https://www.ahri.org/scientist/kobus-herbst/" target="_blank">Kobus Herbst</a> and <a href="https://www.linkedin.com/in/brendan-gilbert-6026b949/" target="_blank">Brendan Gilbert</a> at <a href="https://www.ahri.org" target="_blank">AHRI</a>; and <a href="https://www.linkedin.com/in/normangoco/" target="_blank">Norman Goco</a> and <a href="https://www.linkedin.com/in/david-plotner/" target="_blank">David Plotner</a> at <a href="https://www.rti.org" target="_blank">RTI</a>; the <a href="https://openva.net"target="_blank">openVA Team</a> has just completed creation of the <a href="/site/projects/rda.shtml" target="_blank">Reference Data Archive</a> at WHO: <a href="https://data.who.int/rda" target="_blank"><b>https://data.who.int/rda</b></a>.
     </p>
 
-
   </div>
 
-
 </main>
-
 
 <footer>
 <!--#include virtual="/site/includes/bottom.shtml" -->
@@ -87,13 +78,3 @@
 </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-

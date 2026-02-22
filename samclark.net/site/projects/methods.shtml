@@ -6,8 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for methodological work developing new approaches for demography and epidemiology.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, Africa, methods, statistics, demography, epidemiology, bayes.">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel Clark - Methods</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -21,17 +21,15 @@
     </div>
   </header>
 
-    
   <main>
-
 
     <div class="sam-block">
 
       <p>
-        With a wide range of colleagues in epidemiology, statistics, and demography, I have worked on improving measurement, estimation, forecasting, and other aspects of methods used by populations scientists. 
+        With a wide range of colleagues in epidemiology, statistics, and demography, I have worked on improving measurement, estimation, forecasting, and other aspects of methods used by populations scientists.
       </p>
 
-      <h1 id="svd-comp">Component-based mortality models: <em>SVD-Comp</em></h1> 
+      <h1 id="svd-comp">Component-based mortality models: <em>SVD-Comp</em></h1>
 
       <p>
         Beginning with my PhD, I have been interested in using dimension reduction methods to develop parsimonious, empirical models for age-specific schedules of demographic quantities, e.g. mortality or fertility rates/probabilities. This work has gone through several iterations culminating current work with colleagues at the United Nations Population Division to develop a widely-useful, single-year in age model of age-specific mortality.
@@ -39,19 +37,19 @@
       <ul>
         <li>
           <a href="/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf" target="_blank">Part 1 of my PhD Dissertation</a>
-        </li>        
+        </li>
         <li>
           <a href="https://dx.doi.org/10.1371/journal.pone.0096447" target="_blank">Modeling Age-Specific Mortality for Countries with Generalized HIV Epidemics</a>
-        </li>       
+        </li>
         <li>
           <a href="http://dx.doi.org/10.1371/journal.pone.0190574" target="_blank">A parsimonious characterization of change in global age-specific and total fertility rates</a>
-        </li>        
+        </li>
         <li>
           <a href="http://dx.doi.org/10.1007/s13524-019-00785-3" target="_blank">A General Age-Specific Mortality Model With an Example Indexed by Child Mortality or Both Child and Adult Mortality</a>
         </li>
-      </ul> 
+      </ul>
       <p>
-        The 2022 iteration of the UN Population Division's bi-annual World Population Prospects (WPP) global population estimates and projections used a version of the component model of mortality. I led a small team including <a href="https://jamuir.net" target="_blank">Jon Muir</a> and <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian Houle</a> to develop an SVD-Comp mortality model for HIV-affected countries that produced 1-year age group mortality rates based on HIV prevalence and coverage of antiretroviral therapy. 
+        The 2022 iteration of the UN Population Division's bi-annual World Population Prospects (WPP) global population estimates and projections used a version of the component model of mortality. I led a small team including <a href="https://jamuir.net" target="_blank">Jon Muir</a> and <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian Houle</a> to develop an SVD-Comp mortality model for HIV-affected countries that produced 1-year age group mortality rates based on HIV prevalence and coverage of antiretroviral therapy.
       </p>
       <ul>
         <li>
@@ -59,13 +57,13 @@
         </li>
         <li>
           <a href="https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/wpp2022_summary_of_results.pdf" target="_blank">Summary</a> of results document, including acknowledgements.
-        </li>       
+        </li>
         <li>
-          <a href="https://population.un.org/wpp/" target="_blank">Data</a> in many downloadable forms. 
+          <a href="https://population.un.org/wpp/" target="_blank">Data</a> in many downloadable forms.
         </li>
       </ul>
 
-      <h1>Various probabilisitic methods for population estimation and forecasting</h1> 
+      <h1>Various probabilisitic methods for population estimation and forecasting</h1>
 
       <p>
         While at the University of Washington, I collaborated on a number of projects with <a href="https://sites.stat.washington.edu/raftery/" target="_blank">Adrian Raftery</a> and a variety of graduate students in sociology and statistics. Most of these were aimed at improving the United Nations Population Division's ability to conduct estimates of forecasts of the population of all countries of the world as part of their biannual World Population Prospects publication.
@@ -73,37 +71,37 @@
       <ul>
         <li>
           <a href="https://dx.doi.org/10.1214/07-AOAS111" target="_blank">Probabilistic Projections of HIV Prevalence Using Bayesian Melding</a>
-        </li>       
+        </li>
         <li>
           <a href="https://dx.doi.org/10.4054/DemRes.2011.25.2" target="_blank">More on the cohort-component model of population projection in the context of HIV/ AIDS: A Leslie matrix representation and new estimates</a>
-        </li>        
+        </li>
         <li>
           <a href="https://doi.org/10.1007/s13524-011-0040-5" target="_blank">Probabilistic Projections of the Total Fertility Rate for All Countries</a>
-        </li>        
+        </li>
         <li>
           <a href="https://dx.doi.org/10.4054/DemRes.2012.27.26" target="_blank">Estimates of age-specific reductions in HIV prevalence in Uganda: Bayesian melding es- timation and probabilistic population forecast with an HIV-enabled cohort component projection model</a>
-        </li>       
+        </li>
         <li>
           <a href="https://dx.doi.org/10.4054/DemRes.2012.26.15" target="_blank">Estimating trends in the total fertility rate with uncertainty using imperfect data: Examples from West Africa</a>
-        </li>        
+        </li>
         <li>
           <a href="http://dx.doi.org/10.1080/01621459.2012.737729" target="_blank">Reconstructing Past Populations With Uncertainty From Fragmentary Data</a>
-        </li>       
+        </li>
         <li>
           <a href="https://dx.doi.org/10.4054/DemRes.2013.29.39" target="_blank">The age pattern of increases in mortality affected by HIV: Bayesian ﬁt of the Heligman-Pollard Model to data from the Agincourt HDSS ﬁeld site in rural northeast South Africa</a>
-        </li>        
+        </li>
         <li>
           <a href="http://dx.doi.org/10.1111/rssa.12104" target="_blank">Bayesian reconstruction of two-sex populations by age: estimating sex ratios at birth and sex ratios of mortality</a>
-        </li>       
+        </li>
         <li>
           <a href="http://dx.doi.org/10.1080/00324728.2016.1139164" target="_blank">Bayesian population reconstruction of female populations for less developed and more developed countries</a>
-        </li>       
+        </li>
         <li>
           <a href="http://dx.doi.org/10.1080/00324728.2017.1401654" target="_blank">Probabilistic population projections for countries with generalized HIV/AIDS epidemics</a>
         </li>
-      </ul> 
+      </ul>
 
-      <h1>Miscellaneous Methods</h1> 
+      <h1>Miscellaneous Methods</h1>
 
       <p>
         As even a cursory reading of this website reveals, thinking about methods and tools is fun for me. At various times, I've gotten interested in and spent too much time on eclectic things; some examples below.
@@ -111,25 +109,25 @@
       <ul>
         <li>
           <a href="https://doi.org/10.1080/14034950701505031" target="_blank">Research into health, population and social transitions in rural South Africa: Data and methods of the Agincourt Health and Demographic Surveillance System</a> and an update a bit later <a href="https://dx.doi.org/10.1093/ije/dys115" target="_blank">Profile: Agincourt Health and Socio-demographic Surveillance System</a>
-        </li>        
+        </li>
         <li>
           <a href="https://dx.doi.org/10.1097/QAI.0b013e3181605da3" target="_blank">Mathematical Models for HIV Transmission Dynamics: Tools for Social and Behavioral Science Research</a>
-        </li>        
+        </li>
         <li>
           <a href="http://dx.doi.org/10.3402/gha.v7.23286" target="_blank">The INDEPTH standard population for low- and middle-income countries, 2013</a>
-        </li>        
+        </li>
         <li>
           <a href="https://dx.doi.org/10.1214/14-AOAS726" target="_blank">Clustering South African Households Based On Their Asset Status Using Latent Variable Models</a>
-        </li>        
+        </li>
         <li>
           <a href="http://dx.doi.org/10.1371/journal.pone.0112563" target="_blank">Validation, Replication, and Sensitivity Testing of Heckman-Type Selection Models to Adjust Estimates of HIV Prevalence</a>
-        </li>       
+        </li>
         <li>
           <a href="http://dx.doi.org/10.1093/ije/dyv343" target="_blank">Data Resource Profile: Network for Analysing Longitudinal Population-based HIV/AIDS data on Africa (ALPHA Network)</a>
         </li>
-      </ul> 
+      </ul>
 
-      <a id="hyak"><h1>Hyak</h1></a> 
+      <a id="hyak"><h1>Hyak</h1></a>
 
       <p>
         There is a single paper that describes an idea I had a long time ago while working with the health and demographic surveillance system (HDSS) sites in South Africa. Colleagues <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a> and <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, along with graduate student Michelle Ross, helped convert my vague idea into a realistic approach to combining HDSS and survey research approaches to create a hyper efficient population measurement tool - called '<i>Hyak</i>'. I still really like this general idea, and I think there's huge potential to increase temporal/spatial coverage and accuracy without dramatically increasing resources required. I want to get back to this ASAP.
@@ -138,13 +136,11 @@
         <li>
           <a href="http://dx.doi.org/10.1017/gheg.2017.15" target="_blank">HYAK mortality monitoring system: innovative sampling and estimation methods – proof of concept by simulation</a>
         </li>
-      </ul> 
+      </ul>
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

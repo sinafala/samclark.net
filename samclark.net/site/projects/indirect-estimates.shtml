@@ -6,8 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for work on indirect methods for estimating mortality.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, Africa, indirect methods, estimatation, mortality, brass, u5mrs.">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel Clark - Indirect Estimates</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -21,16 +21,14 @@
     </div>
   </header>
 
-    
   <main>
-
 
     <div class="sam-block">
 
       <h1>Background</h1>
 
       <p>
-        Understanding variation in mortality through time and across space is critical to quantifying and monitoring population health. In settings where ongoing, routine systems to monitor mortality - e.g. vital statistics - do not exist or function poorly, there are very few options available to obtain measures of mortality that cover both time and space, particularly space. In large part due to the innovative work of William Brass - and many after him - formal demography has a suite of 'indirect estimation' methods designed to obtain reasonable estimates of key mortality indicators from very few data that can occasionally be elicited from enough people to form a comprehensive picture of mortality throughout a given place, e.g. a country. 
+        Understanding variation in mortality through time and across space is critical to quantifying and monitoring population health. In settings where ongoing, routine systems to monitor mortality - e.g. vital statistics - do not exist or function poorly, there are very few options available to obtain measures of mortality that cover both time and space, particularly space. In large part due to the innovative work of William Brass - and many after him - formal demography has a suite of 'indirect estimation' methods designed to obtain reasonable estimates of key mortality indicators from very few data that can occasionally be elicited from enough people to form a comprehensive picture of mortality throughout a given place, e.g. a country.
       </p>
       <p>
         The 'Brass Method' to estimate child mortality utilizes simple data obtained from a population of women of reproductive age; from each woman at the time of the interview:
@@ -56,7 +54,7 @@
       <h1>Project</h1>
 
       <p>
-        OSU Sociology graduate student <a href="https://y-chu.github.io" target="_blank">Yue Chu</a> and I are exploring alternative approaches to the traditional Brass method to estimate child mortality from the three questions listed above. Yue has complete a master's degree based on this work, and we will present some preliminary results at the Population Association of America (PAA) meeting in 2021. 
+        OSU Sociology graduate student <a href="https://y-chu.github.io" target="_blank">Yue Chu</a> and I are exploring alternative approaches to the traditional Brass method to estimate child mortality from the three questions listed above. Yue has complete a master's degree based on this work, and we will present some preliminary results at the Population Association of America (PAA) meeting in 2021.
       </p>
       <p>
         We stay close to the spirit of the method, but we have developed a new Bayesian estimation approach that simultaneously estimates age-specific fertility for the mothers and age-specific mortality for their children, with uncertainty in both. Initial work is based on data from the demographic and health surveys (DHS)
@@ -64,9 +62,7 @@
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->

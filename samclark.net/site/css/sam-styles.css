@@ -1,10 +1,15 @@
-/* 
+/*
 
-NOTES 
+NOTES
 * padding: top right bottom left;
 * colors: https://htmlcolorcodes.com
 
 */
+
+/* ============================================================
+   RESPONSIVE SCALING
+   On larger screens, apply a 150% zoom via the body zoom property.
+   ============================================================ */
 
 /* Enlarge on big screens */
 
@@ -16,6 +21,12 @@ NOTES
     }
 }
 
+/* ============================================================
+   BASE / HIGH-LEVEL FORMATTING
+   Sets background color, overflow, margin/padding resets, and
+   the system-font stack shared by html and body.
+   ============================================================ */
+
 /* High-level formatting */
 
 html {
@@ -26,7 +37,7 @@ body {
   overflow-y: hidden;
   margin-top: 0;
   margin-bottom: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 html, body {
@@ -40,6 +51,12 @@ html, body {
              "Segoe UI Emoji";
 }
 
+/* ============================================================
+   FLEX LAYOUT – PAGE SHELL
+   .container is a full-height flex column that contains the
+   sticky header, scrollable main, and pinned footer.
+   ============================================================ */
+
 /* Flex box setup for header/main/footer */
 
 .container {
@@ -52,7 +69,7 @@ html, body {
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 2px;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 header {
@@ -63,7 +80,7 @@ header {
 main {
   flex: 1 1 auto;              /* grows & shrinks inside the flex row */
   min-width: 320px;
-  align-items: flex-start;    
+  align-items: flex-start;
   overflow: auto;
   min-height: 0;
 }
@@ -71,8 +88,14 @@ main {
 footer {
   flex-shrink: 0;
   margin-bottom: 4px;
-}  
+}
 
+
+/* ============================================================
+   TWO-COLUMN FLEX ROWS
+   Used for title/index/people layouts that split content into
+   left and right columns using flex children.
+   ============================================================ */
 
 /* Title 2-column row */
 
@@ -141,10 +164,16 @@ footer {
 }
 
 
+/* ============================================================
+   MISCELLANEOUS UTILITIES
+   Small helper classes: quotes, announcements, author spans,
+   size spans, centering, and the various sam-* block containers.
+   ============================================================ */
+
 /* Misc */
 
 p.sam-quote {
-  margin-left:5%; 
+  margin-left:5%;
   margin-right:5%;
 }
 
@@ -192,38 +221,38 @@ div.sam-title-short {
 }
 
 div.sam-block {
-  max-width: 575px; 
-  margin: 0 auto; 
+  max-width: 575px;
+  margin: 0 auto;
   font-size: 13px;
   line-height: 15px;
 }
 
 div.sam-bold-block {
-  max-width: 575px; 
-  margin: 0 auto; 
+  max-width: 575px;
+  margin: 0 auto;
   font-size: 15px;
   font-weight: bold;
   line-height: 15px;
 }
 
 div.sam-block-index {
-  max-width: 585px; 
-  margin: 0 auto; 
+  max-width: 585px;
+  margin: 0 auto;
   font-size: 13px;
   margin-bottom: 10px;
 }
 
 div.sam-block-padded {
-  max-width: 575px; 
-  margin: 0 auto; 
+  max-width: 575px;
+  margin: 0 auto;
   font-size: 13px;
   line-height: 15px;
   padding: 5px 0px 5px 0px;
 }
 
 div.sam-centered-block {
-  max-width: 575px; 
-  margin: 0 auto; 
+  max-width: 575px;
+  margin: 0 auto;
   font-size: 13px;
   line-height: 15px;
   text-align: center;
@@ -231,20 +260,20 @@ div.sam-centered-block {
 
 div.sam-note {
   font-size: 9px;
-  line-height: 11px; 
+  line-height: 11px;
   text-align: center;
 }
 
 div.sam-note-bottom {
   font-size: 9px;
-  line-height: 12px; 
+  line-height: 12px;
   text-align: center;
   padding: 0px 0px 3px 0px
 }
 
 div.sam-note-top {
   font-size: 9px;
-  line-height: 12px; 
+  line-height: 12px;
   text-align: center;
   padding: 0px 0px 10px 0px
 }
@@ -295,37 +324,43 @@ ol.sam {
 }
 
 div.sam-links-list {
-  margin: 0 auto; 
+  margin: 0 auto;
   font-size: 14px;
-  line-height: 1.7;  
+  line-height: 1.7;
   text-align: center;
   max-width: 575px;
-  padding: 6px 0px 6px 0px;;
+  padding: 6px 0px 6px 0px;
 }
 
 div.sam-links-list-short {
-  margin: 0 auto; 
+  margin: 0 auto;
   font-size: 14px;
-  line-height: 1.3;  
+  line-height: 1.3;
   text-align: center;
   max-width: 575px;
-  padding: 6px 0px 6px 0px;;
+  padding: 6px 0px 6px 0px;
 }
 
 div.sam-link-top {
   max-width: 575px;
-  margin: 0 auto; 
+  margin: 0 auto;
   line-height: 15px;
   padding: 12px 0px 0px 0px;
 }
 
 div.sam-link-bottom {
   max-width: 575px;
-  margin: 0 auto; 
+  margin: 0 auto;
   line-height: 15px;
   padding: 0px 0px 0px 0px;
 }
 
+
+/* ============================================================
+   IMAGES & MEDIA
+   Styles for the various image classes (.mtb, .badge, .sam-*),
+   the sam-image caption wrapper, and embedded video/iframes.
+   ============================================================ */
 
 /* Image */
 
@@ -337,9 +372,9 @@ div.sam-link-bottom {
   width: 40%;
 }
 
-div.sam-image { 
+div.sam-image {
   font-size: 12px;
-  padding: 4px 0px 4px 0px; 
+  padding: 4px 0px 4px 0px;
 }
 
 img.badge {
@@ -374,101 +409,114 @@ img.sam-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 95px; 
+  max-width: 95px;
 }
 
 img.sam-people {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100px; 
+  max-width: 100px;
 }
 
 video.mtb {
   font-size: 12px;
-  width: 100%; 
+  width: 100%;
   height: auto;
   padding: 5px 0px 5px 0px;
 }
 
 iframe.biography {
   width: 100%;
-  height: 300px; 
+  height: 300px;
 }
 
+
+/* ============================================================
+   HORIZONTAL RULES
+   Base <hr> style plus named variants for navigation bars
+   (nav-top, nav-bottom) and sub-section dividers (subnav-*).
+   ============================================================ */
 
 /* Horizontal rules */
 
 hr {
-  margin-top: 8px; 
+  margin-top: 8px;
   margin-bottom: 8px;
-  border: 0.5px solid black;;
+  border: 0.5px solid black;
 }
 
 hr.nav-top {
-  margin-top: 4px; 
+  margin-top: 4px;
   margin-bottom: 5px;
   border: 1px solid #0000A0;
   border-radius: 5px;
 }
 
 hr.nav-top-fixed {
-  margin-top: 6px; 
+  margin-top: 6px;
   margin-bottom: 0px;
   border: 1px solid #0000A0;
   border-radius: 5px;
 }
 
 hr.nav-bottom {
-  margin-top: 5px; 
+  margin-top: 5px;
   margin-bottom: 4px;
   border: 1px solid #0000A0;
   border-radius: 5px;
 }
 
 hr.nav-bottom-fixed {
-  margin-top: 0px; 
+  margin-top: 0px;
   margin-bottom: 4px;
   border: 1px solid #0000A0;
   border-radius: 5px;
 }
 
 hr.subnav-top {
-  margin-top: 20px; 
+  margin-top: 20px;
   margin-bottom: 0px;
   border: 0.5px solid black;
   max-width: 575px;
-  text-align:center;;
+  text-align:center;
 }
 
 hr.subnav-toptop {
-  margin-top: 7px; 
+  margin-top: 7px;
   margin-bottom: 0px;
   border: 0.5px solid black;
   max-width: 575px;
-  text-align:center;;
+  text-align:center;
 }
 
 hr.subnav-bottom {
-  margin-top: 0px; 
+  margin-top: 0px;
   margin-bottom: 18px;
   border: 0.5px solid black;
   max-width: 575px;
-  text-align:center;;
+  text-align:center;
 }
 
+
+/* ============================================================
+   HEADINGS (h1–h3)
+   Compact heading sizes and spacing tuned for the narrow
+   (max-width 575–600 px) content column. Includes color variants
+   for date headings (.sam-date) and bibliography years (.bib-year).
+   ============================================================ */
 
 /* Headings */
 
 h1.index {
   margin-top: 5px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
   font-size: 15px;
 }
 
 h1 {
   margin-top: 14px;
-  margin-bottom: 4px; 
+  margin-bottom: 4px;
   font-size: 15px;
 }
 
@@ -485,7 +533,7 @@ h2 {
 }
 
 h2.bib-year {
-  font-size: 13.5px;  
+  font-size: 13.5px;
   margin-top: 13px;
   margin-bottom: 6px;
   color: green;
@@ -496,7 +544,7 @@ h3 {
   margin-bottom: 5px;
   font-size: 13px;
   font-style: italic;
-  font-weight: normal;  
+  font-weight: normal;
 }
 
 h3.bib {
@@ -507,6 +555,12 @@ h3.bib {
   font-weight: bold;
 }
 
+
+/* ============================================================
+   BIBLIOGRAPHY
+   Hanging-indent paragraph style for citation entries, plus
+   the green author highlight (font.author / span.author).
+   ============================================================ */
 
 /* Bibliography */
 
@@ -519,6 +573,12 @@ font.author {
   color: green;
 }
 
+
+/* ============================================================
+   LINKS
+   Global anchor colors for :link, :visited, :hover, :focus,
+   and :active states. Uses the site's navy blue (#0000A0).
+   ============================================================ */
 
 /* Links */
 
@@ -533,13 +593,18 @@ a:visited{
 a:hover{
   color: green;
 }
-a: ocus{
+a:focus {
   color: green;
 }
 a:active{
   color: red;
 }
 
+
+/* ============================================================
+   PILL NAVIGATION
+   Inline pill-style nav links used in some older page sections.
+   ============================================================ */
 
 /* Navigation */
 
@@ -567,6 +632,13 @@ a:active{
   justify-content: center;
 }
 
+
+/* ============================================================
+   TOP NAVBAR (DROPDOWN)
+   Full-width flex navbar with navy background, white text, and
+   green hover states. Dropdown menus use absolute positioning
+   and appear on :hover of the parent .dropdown container.
+   ============================================================ */
 
 /*  Navbar  */
 
@@ -644,12 +716,29 @@ a:active{
 }
 
 
+/* ============================================================
+   UTILITY: BACK-TO-TOP LINK
+   .back anchors appear after images/sections and use normal
+   (non-bold) font weight so they are less visually prominent.
+   ============================================================ */
+
 /* jump back up link */
 
 a.back {
   font-weight: normal;
 }
 
+
+/* ============================================================
+   IMAGE GALLERY GRID
+   CSS custom properties (--bg, --tile-bg, --fg, --muted,
+   --gap, --radius) define the gallery palette and spacing.
+   The .gallery grid defaults to 3 columns, scaling to 2 on
+   narrow viewports (<300 px) and back to 3 above 600 px.
+   <figure> tiles have a light grey background, rounded corners,
+   and a subtle scale-up on hover/focus. The section closes with
+   a commented-out example gallery markup block.
+   ============================================================ */
 
 /* image galleries */
 
@@ -662,7 +751,7 @@ a.back {
     --radius: 8px;
   }
 
-/*  
+/*
   /* Page */
   html, body {
     height: 100%;
@@ -690,7 +779,7 @@ a.back {
   @media (min-width: 300px){
     .gallery{ grid-template-columns: repeat(2, 1fr); }
   }
-  
+
   @media (min-width: 600px){
     .gallery{ grid-template-columns: repeat(3, 1fr); }
   }
@@ -786,7 +875,3 @@ a.back {
 
   </section>
 */
-
-
-
-  

@@ -6,8 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for software development related to methodological work in demography and epidemiology.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, software, R, R package, CRAN, Python, verbal autopsy, openVA, openVA Pipeline, InSilicoVA, pyCrossVA, epidemiology, demography.">
-  <!--#include virtual="/site/includes/header.html" -->
   <title>Samuel Clark - Software</title>
+  <!--#include virtual="/site/includes/header.html" -->
 </head>
 
 <body>
@@ -21,20 +21,18 @@
     </div>
   </header>
 
-    
   <main>
-
 
     <div class="sam-block">
 
       <p>
-        I aim to provide working software for the methods I develop, and more recently to provide replication material for publications. This is a list of what's available so far. Except for the SUMMER package, I have led the teams creating this software, but in many cases, other individuals are primarily responsible for writing and maintaining it. 
+        I aim to provide working software for the methods I develop, and more recently to provide replication material for publications. This is a list of what's available so far. Except for the SUMMER package, I have led the teams creating this software, but in many cases, other individuals are primarily responsible for writing and maintaining it.
       </p>
 
       <h1>SVD-Comp Mortality Model</h1>
 
       <p>
-        The R package implementing my <a href="https://github.com/sinafala/svd-comp" target="_blank">SVD-Comp mortality model</a> published in <a href="https://doi.org/10.1007/s13524-019-00785-3" target="_blank">Demography</a> is on CRAN as <a href="https://cran.r-project.org/web/packages/SVDMx/index.html" target="_blank">'SVDMx'</a>. 
+        The R package implementing my <a href="https://github.com/sinafala/svd-comp" target="_blank">SVD-Comp mortality model</a> published in <a href="https://doi.org/10.1007/s13524-019-00785-3" target="_blank">Demography</a> is on CRAN as <a href="https://cran.r-project.org/web/packages/SVDMx/index.html" target="_blank">'SVDMx'</a>.
       </p>
 
       <h1>Verbal Autopsy</h1>
@@ -58,7 +56,7 @@
 
       <p>
         The Reference Data Archive (RDA) is a data resource hosted at the WHO that was created and is operated by the <a href="https://openva.net" target="_blank">openVA Team</a> and the WHO Department of Data, Digital Health, Analytics and AI (DDA): <a href="https://data.who.int/rda" target="_blank"><b>https://data.who.int/rda</b></a>. The RDA's primary function is to accumulate reference deaths to train, validate, and contribute to operating automated cause-coding systems for verbal autopsy. There is a full description at the <a href="/site/projects/rda.shtml" target="_blank">RDA page</a>.
-      </p>      
+      </p>
 
       <h2>pyOpenVA</h2>
 
@@ -74,7 +72,7 @@
         </li>
         <li>
           <a href="https://github.com/verbal-autopsy-software/pyopenva_GUI/releases" target="_blank">pyOpenVA</a> - 'Assets' contains installers for Windows and MacOS
-        </li>  
+        </li>
         <li>
           <a href="https://cran.r-project.org/package=openVA" target="_blank">openVA R Package</a>
         </li>
@@ -103,7 +101,7 @@
         </li>
         <li>
           <a href="https://cran.r-project.org/package=InSilicoVA" target="_blank">InSilicoVA: Probabilistic Verbal Autopsy Coding with 'InSilicoVA' Algorithm</a>
-        </li>  
+        </li>
         <li>
           <a href="https://cran.r-project.org/package=CrossVA" target="_blank">CrossVA: Verbal Autopsy Data Transformation for InSilicoVA and InterVA5 Algorithms</a>
         </li>
@@ -124,7 +122,7 @@
         <li>
           <a href="https://github.com/sinafala/svd-comp" target="_blank">SVD-Component Mortality Model using Child or Child/Adult Mortality as Inputs</a>
         </li>
-      </ul> 
+      </ul>
 
       <h1>Replication Material for <a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">COVID-19 Prevalence Method</a></h1>
 
@@ -143,7 +141,7 @@
         <li>
           <a href="https://cran.r-project.org/package=SUMMER" target="_blank">SUMMER: Spatio-Temporal Under-Five Mortality Methods for Estimation</a>
         </li>
-      </ul> 
+      </ul>
 
       <h1>Miscellaneous</h1>
 
@@ -156,7 +154,7 @@
         </li>
         <li>
           <a href="https://github.com/sinafala" target="_blank">General GitHub site</a>
-        </li> 
+        </li>
       </ul>
 
       <h1>Structured Population Event History Register (SPEHR)</h1>
@@ -189,9 +187,7 @@
 
     </div>
 
-
   </main>
-
 
   <footer>
     <!--#include virtual="/site/includes/bottom.shtml" -->
