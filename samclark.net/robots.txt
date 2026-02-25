@@ -1,0 +1,15 @@
+# robots.txt — samclark.net
+
+User-agent: *
+Allow: /
+
+# Block non-public areas
+Disallow: /site/clark/
+Disallow: /site/includes/
+Disallow: /site/search/
+
+# Block template files
+Disallow: /site/pages/TEMPLATE.shtml
+Disallow: /site/projects/project-template.shtml
+
+Sitemap: https://samclark.net/sitemap.xml
