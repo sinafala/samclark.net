@@ -6,6 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's bibliography of published work and working papers.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, bibliography, published, working paper, journal article.">
+  <meta property="og:title" content="Bibliography">
+  <meta property="og:description" content="Bibliography of Sam Clark's published works">
   <title>Samuel Clark - Bibliography</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>

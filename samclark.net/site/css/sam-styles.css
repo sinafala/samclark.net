@@ -264,6 +264,12 @@ div.sam-note {
   text-align: center;
 }
 
+div.sam-note-left {
+  font-size: 9px;
+  line-height: 11px;
+  text-align: left;
+}
+
 div.sam-note-bottom {
   font-size: 9px;
   line-height: 12px;
@@ -355,6 +361,9 @@ div.sam-link-bottom {
   padding: 0px 0px 0px 0px;
 }
 
+blockquote {
+  font-size: 0.9em;
+}
 
 /* ============================================================
    IMAGES & MEDIA
@@ -643,26 +652,18 @@ a:active{
 /*  Navbar  */
 
 .navbar {
-  display: flex;                  /* make navbar use flexbox */
-  justify-content: space-between; /* spread menu left, logo right */
-  align-items: center;            /* vertically center both */
-  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
   background-color: #0000A0;
-  padding: 0;                     /* ensure no extra height */
-}
-
-.navbar a {
-  float: left;
-  font-weight: bold;
-  font-size: 13px;
-  color: white;
-  text-align: center;
-  padding: 8px 10px;
-  text-decoration: none;
+  height: 34px;
+  padding: 0;
+  position: relative;
 }
 
 .dropdown {
-  overflow: hidden;
+  display: flex;
+  position: relative;
 }
 
 .dropdown .dropbtn {
@@ -671,19 +672,34 @@ a:active{
   border: none;
   outline: none;
   color: white;
-  padding: 8px 10px;
-  background-color: inherit;
+  padding: 0 10px;
+  background-color: transparent;
   font-family: inherit;
   margin: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+a.dropbtn {
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown:hover .dropbtn {
   background-color: green;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
+  top: 100%;
+  left: 0;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -691,12 +707,13 @@ a:active{
 }
 
 .dropdown-content a {
-  float: none;
   color: black;
   padding: 8px 10px;
   text-decoration: none;
   display: block;
   text-align: left;
+  font-weight: bold;
+  font-size: 13px;
 }
 
 .dropdown-content a:hover {
@@ -707,12 +724,16 @@ a:active{
   display: block;
 }
 
-/* logo styling */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
 .navbar-logo img {
-  height: 26px;       /* match roughly text height */
+  height: 26px;
   vertical-align: middle;
-  margin-right: 5px;  /* small padding from edge */
-  margin-left: 10px;  /* small padding from edge */
+  margin-right: 5px;
+  margin-left: 10px;
 }
 
 

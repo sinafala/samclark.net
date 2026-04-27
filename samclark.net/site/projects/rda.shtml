@@ -7,6 +7,8 @@
  <meta name="description" content="Samuel J. Clark's project page for the Reference Death Archive.">
  <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, Africa, epidemiology, demography, RDA, reference death archive, reference data archive, verbal autopsy, CCVA, SCI, symptom-cause information, VA, WHO, MITS, minimall invasive tissue sample, verbal autopsy algorithm.">
  <!--#include virtual="/site/includes/header.html" -->
+  <meta property="og:title" content="Reference Data Archive - RDA">
+  <meta property="og:description" content="Sam Clark project: reference data archvie (RDA)">
  <title>Samuel Clark - Reference Data Archive </title>
 </head>
 

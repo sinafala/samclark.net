@@ -28,7 +28,7 @@
     <div class="column-right-index" style="align-self:center;">
 
       <h2>
-        I am a demographer, epidemiologist, and data scientist who develops new methods and does research in demography and epidemiology. Much of my substantive work investigates questions that affect Africa. <a href="http://clarissasurekclark.name" target="_blank">Clarissa Surek-Clark</a> and I collaborate in life and various professional endeavors.
+        I build methods and software to measure mortality and cause of death in populations without routine health data - verbal autopsy tools (<a href="https://cran.r-project.org/package=InSilicoVA" target="_blank">InSilicoVA</a>, <a href="https://cran.r-project.org/package=openVA" target="_blank">openVA</a>), model life tables (<a href="http://dx.doi.org/10.1007/s13524-019-00785-3" target="_blank">SVD-Comp</a>), and small-area estimates of child mortality. I apply these to study how epidemics, aging, and disease reshape communities over time.
       </h2>
 
     </div>
@@ -60,6 +60,30 @@
     </p>
 
     <h1>Updates</h1>
+
+    <h2>2026-04</h2>
+
+    <p>
+      A <a href="/site/news-pages/flow-field.shtml" target="_blank">summary of latest flow-field mortality forecasting results</a> using both the Human Mortality Database and World Population Prospects 2024 datasets for testing. 
+    </p>
+
+    <h2>2026-03</h2>
+
+    <p>
+      In my <a href="/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa-color-figures.pdf" target="_blank">dissertation</a>, I built a simple set of model life tables based on mortality data from the INDEPTH Network sites. The latest iteration of this idea is written up in this working paper: <a href="https://arxiv.org/abs/2603.20518" target="_blank">Multi-dimensional Mortality (MDMx): Sex-Age-Specific Model Life Tables, Fitting, Prediction from Summary Mortality Indicators, and Forecasting</a>.
+    </p>
+
+    <p>
+      Almost immediately after finishing the working paper above, I realized I could do the mortality forecasting in a completely different and perhaps better way, written up in this working paper: <a href="https://arxiv.org/abs/2603.24299" target="_blank">Mortality Forecasting as a Flow Field in Tucker Decomposition Space</a>.
+    </p>
+
+    <p>
+      There is a Shiny app to go along with the two working papers that implements and demonstrates all the methods: <a href="http://samclark.shinyapps.io/mdmx" target="_blank">MDMx</a>.
+    </p>
+
+    <p>
+      I also built a little tutorial to explain the singular value decomposition (SVD) and its demographic applications, comparing the Lee-Carter usage with my SVD-Comp and subsequent work. It's a dynamic HTML document, give it a try <a href="/site/tutorials/svd-demography.html" target="_blank">here</a>.
+    </p>
 
     <h2>2025-12</h2>
 

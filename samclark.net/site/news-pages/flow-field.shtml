@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta name="author" content="Samuel J. Clark">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mortality forecasting as a flow on the Tucker subspace - a research preview from Samuel J. Clark.">
+  <meta name="keywords" content="Samuel J. Clark, Sam Clark, mortality forecasting, flow field, Tucker decomposition, Lee-Carter, Hyndman-Ullah, bayesLife, MortCast, HMD, WPP">
+  <meta property="og:title" content="Flow-field mortality forecasting">
+  <meta property="og:description" content="Research preview: mortality forecasting as a flow on the Tucker subspace.">
+  <title>Samuel Clark - Flow-field mortality forecasting</title>
+  <!--#include virtual="/site/includes/header.html" -->
+
+  <style>
+    /* ============================================================
+       PAGE-SCOPED ADDITIONS for the flow-field research preview.
+       Written to match the conventions in /site/css/sam-styles.css:
+       narrow 575 px column, 13 px body type, navy #0000A0 accents,
+       green hover, light-grey #f2f2f2 tile backgrounds.
+       ============================================================ */
+
+    /* Byline under the title */
+    div.sam-byline {
+      max-width: 575px;
+      margin: 0 auto;
+      font-size: 11px;
+      text-align: center;
+      color: #555;
+      padding: 0px 0px 8px 0px;
+    }
+
+    /* Lead paragraph - slightly larger than the 12 px body */
+    p.lead {
+      font-size: 13px;
+      line-height: 16px;
+      margin-top: 6px;
+      margin-bottom: 8px;
+    }
+
+    /* Subtle highlight on the lead's emphasised phrase. Kept faint
+       so it reads as a print-style highlight rather than a colour badge. */
+    p.lead em.hl {
+      font-style: normal;
+      background: #fff5d6;
+      padding: 0 2px;
+    }
+
+    /* Comparison table - matches sam-styles font sizes. Header row has
+       a heavy bottom rule, body rows a thin one, and the flow-field row
+       is gently tinted to draw the eye. */
+    table.headline {
+      width: 100%;
+      max-width: 575px;
+      border-collapse: collapse;
+      margin: 8px 0px 8px 0px;
+      font-size: 11px;
+      line-height: 14px;
+    }
+    table.headline th,
+    table.headline td {
+      padding: 4px 5px;
+      text-align: right;
+      border-bottom: 0.5px solid #c8c8c8;
+    }
+    table.headline th {
+      font-weight: bold;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #555;
+      border-bottom: 1.5px solid black;
+    }
+    table.headline tr.dir th {
+      font-weight: normal;
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 9px;
+      border-bottom: 0.5px solid #c8c8c8;
+      padding-top: 1px;
+      padding-bottom: 4px;
+      color: #555;
+    }
+    table.headline .hint {
+      display: block;
+      font-size: 9px;
+      font-weight: normal;
+      text-transform: none;
+      letter-spacing: 0;
+      color: #555;
+      margin-top: 1px;
+    }
+    table.headline .arrow {
+      display: inline-block;
+      margin-right: 0.15em;
+      font-weight: bold;
+      color: black;
+    }
+    table.headline td.method,
+    table.headline th.method {
+      text-align: left;
+      font-weight: 500;
+    }
+    table.headline tr.ff td {
+      background: #eaeaff;
+      font-weight: bold;
+    }
+    table.headline tr.ff td.method {
+      color: #0000A0;
+    }
+    table.headline .grp {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #555;
+      background: #f2f2f2;
+      padding: 4px 6px;
+      text-align: left;
+      border-bottom: 0.5px solid #c8c8c8;
+      font-weight: bold;
+    }
+
+    /* Callout box for the "structural tradeoff" finding. Uses the same
+       light-grey tile background as the gallery figures, with a navy
+       left rule to flag it as a pull-out. */
+    div.sam-keyfinding {
+      max-width: 575px;
+      margin: 10px auto 10px auto;
+      background: #f2f2f2;
+      border-left: 3px solid #0000A0;
+      padding: 8px 10px;
+      font-size: 12px;
+      line-height: 15px;
+    }
+    div.sam-keyfinding h3.kf {
+      margin: 0 0 4px 0;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: bold;
+      color: #0000A0;
+    }
+    div.sam-keyfinding p {
+      margin: 0;
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    /* References list. Hanging indent borrowed from p.bibliography in
+       sam-styles. Each entry is its own block with a thin separator. */
+    ol.refs {
+      list-style: none;
+      counter-reset: ref;
+      max-width: 575px;
+      margin: 6px auto 0 auto;
+      padding: 0;
+      font-size: 12px;
+      line-height: 15px;
+    }
+    ol.refs li {
+      counter-increment: ref;
+      position: relative;
+      padding: 5px 0px 5px 26px;
+      border-bottom: 0.5px solid #d8d8d8;
+    }
+    ol.refs li:last-child {
+      border-bottom: 0;
+    }
+    ol.refs li::before {
+      content: counter(ref) ".";
+      position: absolute;
+      left: 4px;
+      top: 5px;
+      width: 18px;
+      text-align: right;
+      color: #555;
+      font-variant-numeric: tabular-nums;
+    }
+    /* When jumped to via a footnote superscript, briefly highlight the
+       target entry so the reader can find it. We keep the original
+       padding-left (26 px) intact - that's the gutter the auto-numbering
+       lives in - and shift the highlight frame *outward* by widening
+       the box with a negative margin and matching extra padding. This
+       way the "3." inside the gutter never collides with the entry
+       text, and the counter pseudo is nudged to keep right-aligned with
+       the others. */
+    ol.refs li:target {
+      background: #eaeaff;
+      border-left: 3px solid #0000A0;
+      margin-left: -8px;
+      padding-left: 31px;
+      margin-right: -8px;
+      padding-right: 8px;
+    }
+    ol.refs li:target::before {
+      left: 12px;
+    }
+
+    /* Footnote superscripts in the prose. Render as small navy numerals
+       that turn green on hover, matching the global link palette. */
+    sup a[href^="#ref-"] {
+      color: #0000A0;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 9px;
+    }
+    sup a[href^="#ref-"]:hover {
+      color: green;
+      text-decoration: underline;
+    }
+
+    /* Smooth scroll so footnote jumps don't snap. */
+    html { scroll-behavior: smooth; }
+
+    /* Closing note paragraph (the "preliminary results" disclaimer). */
+    p.sam-disclaimer {
+      max-width: 575px;
+      margin: 10px auto 0 auto;
+      font-size: 11px;
+      line-height: 14px;
+      color: #555;
+    }
+
+    /* Section divider used between the lead and the first H1. */
+    hr.sam-sep {
+      max-width: 575px;
+      margin: 12px auto 4px auto;
+      border: 0;
+      border-top: 0.5px solid #c8c8c8;
+    }
+
+    /* ============================================================
+       MOBILE / NARROW SCREENS
+       Below the site's 780 px desktop-zoom threshold, the body is
+       at natural 1x scale and the comparison table's six numerical
+       columns get tight. Tighten cell padding, drop the table font
+       a notch, drop letter-spacing on the headers (so "AVERAGE"
+       doesn't mid-word break), and let "bayesLife/MortCast" wrap
+       at the slash via the <wbr> hints in the table markup. The
+       per-column width hints below combine with <colgroup> in the
+       table itself to keep the cells column wide enough that
+       "1,589,538" / "7,432,590" stay on one line.
+       ============================================================ */
+    @media (max-width: 600px) {
+      table.headline {
+        font-size: 10px;
+        line-height: 13px;
+        table-layout: fixed;
+        width: 100%;
+      }
+      table.headline th,
+      table.headline td {
+        padding: 3px 3px;
+      }
+      /* Allow long header words like "CORRELATION" to wrap when they would
+         otherwise overflow the column. Leave <td> cells alone so the
+         large cell-count numbers never break mid-token. */
+      table.headline th {
+        font-size: 9px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        letter-spacing: 0;
+      }
+      table.headline tr.dir th { font-size: 8px; }
+      table.headline .hint     { font-size: 8px; }
+      table.headline .grp      { font-size: 9px; white-space: normal; }
+      /* Method column 26%: enough for "bayesLife/MortCast" to break at
+         the slash via the <wbr> hint in the markup. Cells column 18%:
+         enough for "1,589,538" / "7,432,590" on one line. Numeric
+         columns 14% each (4 x 14% = 56%, totals 100%). */
+      table.headline col.col-method  { width: 26%; }
+      table.headline col.col-cells   { width: 18%; }
+      table.headline col.col-num     { width: 14%; }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <header>
+    <!--#include virtual="/site/includes/nav-links-top.shtml" -->
+    <div class="sam-title">
+      Mortality forecasting as a flow on the Tucker subspace
+    </div>
+    <div class="sam-byline">
+      Samuel J. Clark
+    </div>
+  </header>
+
+  <main>
+
+    <div class="sam-block">
+
+      <p class="lead">
+        Modern mortality forecasting follows two main traditions descended from
+        Lee &amp; Carter's seminal 1992 paper<sup><a href="#ref-lee-carter-1992">3</a></sup>.
+        One decomposes age-by-time mortality into a few summary patterns and
+        projects those patterns forward. The other models how fast life expectancy
+        improves at each level of life expectancy. We argue that
+        <em class="hl">both can be viewed as restricted versions of a single
+        underlying object</em>: a smooth trajectory through a low-dimensional summary
+        of mortality, derived from a multi-way decomposition of the
+        sex&nbsp;&times;&nbsp;age&nbsp;&times;&nbsp;country&nbsp;&times;&nbsp;year
+        mortality array. The unrestricted version of this object is the
+        <em>flow-field forecaster</em>. We compare it against the leading existing
+        methods on <em>two independent datasets (with some overlap) totaling roughly nine million
+        age-cell forecasts</em>. The early results are encouraging.
+      </p>
+
+      <hr class="sam-sep">
+
+      <h1>What we're seeing so far</h1>
+
+      <p>
+        We tested four methods on two large mortality datasets: the flow-field; the
+        original Lee&ndash;Carter method<sup><a href="#ref-lee-carter-1992">3</a></sup>;
+        Hyndman &amp; Ullah's functional-data extension of
+        Lee&ndash;Carter<sup><a href="#ref-hyndman-ullah-2007">4</a></sup>; and the
+        bayesLife/MortCast pipeline<sup><a href="#ref-raftery-chunn-gerland-sevcikova-2013">7</a></sup>,<sup><a href="#ref-sevcikova-li-kantorova-gerland-raftery-2016">8</a></sup>
+        that the United Nations uses to produce its mortality
+        projections<sup><a href="#ref-un-wpp-2024">12</a></sup>. The Human Mortality
+        Database supplies 48 high-quality national populations and yielded 1.6
+        million held-out forecast cells in our cross-validation; the United Nations
+        World Population Prospects 2024 supplies 236 countries and yielded 7.4
+        million held-out cells. On both datasets, the flow-field had the lowest
+        forecast error of the four methods on every measure we examined. These are
+        working results from a manuscript in preparation, and we expect the picture
+        to refine as we finish the writeup and the comparisons receive external
+        scrutiny.
+      </p>
+
+      <div class="sam-image">
+        <img class="mtb" title="Headline log-MAE and sex-gap MAE for four methods on HMD and WPP" alt="Headline log-MAE and sex-gap MAE for four methods on HMD and WPP" src="/site/media/thumbs/flowfield-fig1-headline-mae.png">
+        <strong>Figure&nbsp;1.</strong> Average forecast error, four methods, two
+        datasets, lower is better. <em>Left:</em> error in age-specific
+        log-mortality. <em>Right:</em> error in the male&ndash;female mortality gap.
+        Solid bars are HMD; hatched bars are WPP. The flow-field has the smallest
+        bars in every grouping. Differences are roughly a quarter against
+        Lee&ndash;Carter and Hyndman&ndash;Ullah, and larger against
+        bayesLife/MortCast on HMD. We treat these as preliminary indications pending
+        the full manuscript.
+      </div>
+
+      <table class="headline">
+        <colgroup>
+          <col class="col-method">
+          <col class="col-cells">
+          <col class="col-num">
+          <col class="col-num">
+          <col class="col-num">
+          <col class="col-num">
+        </colgroup>
+        <thead>
+          <tr>
+            <th class="method">Method</th>
+            <th>cells</th>
+            <th>average error<br><span class="hint">log-mortality</span></th>
+            <th>average bias<br><span class="hint">log-mortality</span></th>
+            <th>average error<br><span class="hint">sex gap</span></th>
+            <th>corre<wbr>lation<br><span class="hint">sex gap</span></th>
+          </tr>
+          <tr class="dir">
+            <th></th>
+            <th>&mdash;</th>
+            <th><span class="arrow">&darr;</span> lower better</th>
+            <th><span class="arrow">&harr;</span> closer to 0 better</th>
+            <th><span class="arrow">&darr;</span> lower better</th>
+            <th><span class="arrow">&uarr;</span> higher better</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td colspan="6" class="grp">Human Mortality Database &mdash; 48 populations</td></tr>
+          <tr class="ff"><td class="method">Flow-field</td><td>1,589,538</td><td>0.257</td><td>+0.041</td><td>0.181</td><td>+0.398</td></tr>
+          <tr><td class="method">Lee&ndash;Carter</td><td>1,589,538</td><td>0.337</td><td>+0.096</td><td>0.259</td><td>+0.334</td></tr>
+          <tr><td class="method">Hyndman&ndash;Ullah</td><td>1,589,538</td><td>0.354</td><td>+0.095</td><td>0.298</td><td>+0.289</td></tr>
+          <tr><td class="method">bayesLife/<wbr>MortCast</td><td>1,589,538</td><td>0.454</td><td>&minus;0.069</td><td>0.290</td><td>+0.263</td></tr>
+          <tr><td colspan="6" class="grp">UN WPP 2024 &mdash; 236 atomic countries</td></tr>
+          <tr class="ff"><td class="method">Flow-field</td><td>7,432,590</td><td>0.211</td><td>+0.012</td><td>0.142</td><td>+0.709</td></tr>
+          <tr><td class="method">Lee&ndash;Carter</td><td>7,432,590</td><td>0.290</td><td>&minus;0.014</td><td>0.210</td><td>+0.608</td></tr>
+          <tr><td class="method">Hyndman&ndash;Ullah</td><td>7,432,590</td><td>0.305</td><td>+0.054</td><td>0.277</td><td>+0.413</td></tr>
+          <tr><td class="method">bayesLife/<wbr>MortCast</td><td>7,432,590</td><td>0.303</td><td>&minus;0.083</td><td>0.194</td><td>+0.479</td></tr>
+        </tbody>
+      </table>
+
+      <p>
+        Each row counts only the cells where all four methods produced a forecast
+        and where we have a held-out observation to compare against, so the
+        comparison is as close to apples-to-apples as we could arrange. The size of
+        the gaps between methods is similar across the two datasets &mdash; the
+        flow-field's average error is roughly 24% below Lee&ndash;Carter's on HMD
+        and 27% below on WPP, roughly 27% and 31% below Hyndman&ndash;Ullah's, and
+        roughly 43% and 30% below bayesLife/MortCast's. This confirms similar behavior
+        of the four methods on two high-quality datasets.
+      </p>
+
+      <h1>Behaviour at long horizons</h1>
+
+      <p>
+        At short horizons (one to a few years out) the four methods are reasonably
+        comparable. The biggest differences appear at long horizons, where the
+        flow-field's error grows slowly while the others grow more steeply:
+      </p>
+
+      <div class="sam-image">
+        <img class="mtb" title="Per-horizon log-mortality MAE for four methods on HMD and WPP, 1 to 50 years" alt="Per-horizon log-mortality MAE for four methods on HMD and WPP, 1 to 50 years" src="/site/media/thumbs/flowfield-fig2-long-horizon.png">
+        <strong>Figure&nbsp;2.</strong> Average forecast error as a function of
+        forecast horizon, four methods, two datasets, lower is better. From horizon
+        1 to horizon 50, the flow-field's error grows by about 1.6&times;, while the
+        others grow by several-fold. At short horizons the methods are close
+        &mdash; Hyndman&ndash;Ullah is ahead of the flow-field at one to five
+        years out on HMD, where its smoothing helps with year-to-year noise. The
+        pattern is broadly similar on the two datasets.
+      </div>
+
+      <div class="sam-keyfinding">
+        <h3 class="kf">An interesting structural tradeoff</h3>
+        <p>
+          The bayesLife/MortCast pipeline forecasts life expectancy as a scalar,
+          then reconstructs the age-specific schedule from the projected scalar
+          &mdash; an architecture chosen for maintain demographic interpretability and
+          computational tractability at global scale. A consequence we observe in
+          our cross-validation is that information about the age pattern that has
+          been compressed through the scalar bottleneck appears difficult to recover
+          at long horizons. At horizon-band 26&ndash;50 years for infant ages on
+          HMD, for example, the pipeline's mean log-MAE is about 1.17 with a
+          positive bias of roughly 0.7 log-units. The flow-field, in which life
+          expectancy is a derived quantity of the score-space trajectory rather than
+          its forecasting target, does not encounter this particular bottleneck.
+          Whether and where this tradeoff matters in practice is one of the
+          questions we hope to address in the full manuscript.
+        </p>
+      </div>
+
+      <h1>Sex coherence</h1>
+
+      <p>
+        Another pattern we observe is in sex coherence &mdash; the degree to which
+        forecast female and male mortality surfaces move in synchrony as time
+        advances. In the flow-field method, the joint Tucker decomposition<sup><a href="#ref-de-lathauwer-de-moor-vandewalle-2000">11</a></sup>
+        shares the age basis across sexes by construction, while Lee&ndash;Carter
+        and Hyndman&ndash;Ullah are typically fitted separately by sex (coherent
+        multi-population variants do exist<sup><a href="#ref-li-lee-2005">5</a></sup>),
+        and bayesLife/MortCast handles the sex differential through a dedicated
+        joint female-male gap model<sup><a href="#ref-raftery-lalic-gerland-2014">9</a></sup>
+        added on top of the level dynamics. Compared to the other methods, the flow-field's
+        sex-gap correlation declines more slowly with horizon.
+      </p>
+
+      <div class="sam-image">
+        <img class="mtb" title="Sex-gap correlation between observed and forecast across horizons for four methods on HMD and WPP" alt="Sex-gap correlation between observed and forecast across horizons for four methods on HMD and WPP" src="/site/media/thumbs/flowfield-fig3-sex-coherence.png">
+        <strong>Figure&nbsp;3.</strong> Correlation between observed and forecast
+        sex gap (male minus female log-mortality), by horizon, four methods, two
+        datasets. All four methods show declining sex-gap correlation as horizon
+        grows, as one would expect, but the flow-field's decline is more gradual in
+        our tests. Differences are modest at short horizons and grow with horizon.
+        The pattern is similar across HMD and WPP, though the absolute correlations
+        are higher on WPP across all methods, reflecting the smoother input
+        estimates.
+      </div>
+
+      <h1>What this looks like as a paper</h1>
+
+      <p>
+        The full manuscript introduces the array-normal noise
+        model<sup><a href="#ref-fosdick-hoff-2014">10</a></sup> and the Tucker
+        decomposition<sup><a href="#ref-de-lathauwer-de-moor-vandewalle-2000">11</a></sup>
+        as its canonical estimator from first principles, develops the
+        score-representation isometry that motivates a flow-on-subspace forecaster,
+        and offers Lee&ndash;Carter, Hyndman&ndash;Ullah, and bayesLife/MortCast
+        readings as constrained or marginal cases of the same framework &mdash;
+        three established and successful approaches that the framework helps to
+        relate to one another (for a recent review of Lee&ndash;Carter and its
+        extensions, see<sup><a href="#ref-basellini-camarda-booth-2023">13</a></sup>).
+        It then reports the cross-validation comparisons sketched above. A draft is
+        in preparation; a v1 of the empirical half is at
+        <a href="https://arxiv.org/abs/2603.24299" target="_blank">arXiv:2603.24299</a>,
+        and the underlying tensor-decomposition framework at
+        <a href="https://arxiv.org/abs/2603.20518" target="_blank">arXiv:2603.20518</a>.
+        A companion Shiny app implements and demonstrates the methods:
+        <a href="https://samclark.shinyapps.io/mdmx" target="_blank">MDMx</a>.
+      </p>
+
+      <p class="sam-disclaimer">
+        <em>NB:</em> The numerical results presented here are preliminary, drawn
+        from a manuscript in preparation. Cross-validation numbers can shift as
+        evaluation protocols are refined and as comparisons receive external
+        scrutiny; we expect to learn a great deal from the review process. Treat
+        what's reported here as a research preview rather than a settled
+        comparison.
+      </p>
+
+      <h1>References &amp; further reading</h1>
+
+      <ol class="refs">
+        <li id="ref-clark-flowfield-2026">
+          Clark, S.&nbsp;J. (2026). Mortality forecasting as a flow field in Tucker
+          decomposition space. <em>arXiv:2603.24299</em>.
+          <a href="https://arxiv.org/abs/2603.24299" target="_blank">arxiv.org/abs/2603.24299</a>
+        </li>
+        <li id="ref-clark-mdmx-2026">
+          Clark, S.&nbsp;J. (2026). Multi-dimensional mortality.
+          <em>arXiv:2603.20518</em>.
+          <a href="https://arxiv.org/abs/2603.20518" target="_blank">arxiv.org/abs/2603.20518</a>
+        </li>
+        <li id="ref-lee-carter-1992">
+          Lee, R.&nbsp;D. &amp; Carter, L.&nbsp;R. (1992). Modeling and forecasting
+          U.S.&nbsp;mortality. <em>Journal of the American Statistical
+          Association</em> 87(419): 659&ndash;671.
+          <a href="https://doi.org/10.1080/01621459.1992.10475265" target="_blank">doi:10.1080/01621459.1992.10475265</a>
+        </li>
+        <li id="ref-hyndman-ullah-2007">
+          Hyndman, R.&nbsp;J. &amp; Ullah, M.&nbsp;S. (2007). Robust forecasting of
+          mortality and fertility rates: A functional data approach.
+          <em>Computational Statistics &amp; Data Analysis</em> 51(10): 4942&ndash;4956.
+          <a href="https://doi.org/10.1016/j.csda.2006.07.028" target="_blank">doi:10.1016/j.csda.2006.07.028</a>
+        </li>
+        <li id="ref-li-lee-2005">
+          Li, N. &amp; Lee, R. (2005). Coherent mortality forecasts for a group of
+          populations: An extension of the Lee&ndash;Carter method.
+          <em>Demography</em> 42(3): 575&ndash;594.
+          <a href="https://doi.org/10.1353/dem.2005.0021" target="_blank">doi:10.1353/dem.2005.0021</a>
+        </li>
+        <li id="ref-li-lee-gerland-2013">
+          Li, N., Lee, R. &amp; Gerland, P. (2013). Extending the Lee&ndash;Carter
+          method to model the rotation of age patterns of mortality decline for
+          long-term projections. <em>Demography</em> 50(6): 2037&ndash;2051.
+          <a href="https://doi.org/10.1007/s13524-013-0232-2" target="_blank">doi:10.1007/s13524-013-0232-2</a>
+        </li>
+        <li id="ref-raftery-chunn-gerland-sevcikova-2013">
+          Raftery, A.&nbsp;E., Chunn, J.&nbsp;L., Gerland, P. &amp;
+          &Scaron;ev&ccaron;&iacute;kov&aacute;, H. (2013). Bayesian probabilistic
+          projections of life expectancy for all countries. <em>Demography</em>
+          50(3): 777&ndash;801.
+          <a href="https://doi.org/10.1007/s13524-012-0193-x" target="_blank">doi:10.1007/s13524-012-0193-x</a>
+        </li>
+        <li id="ref-sevcikova-li-kantorova-gerland-raftery-2016">
+          &Scaron;ev&ccaron;&iacute;kov&aacute;, H., Li, N., Kantorov&aacute;, V.,
+          Gerland, P. &amp; Raftery, A.&nbsp;E. (2016). Age-specific mortality and
+          fertility rates for probabilistic population projections. In
+          R.&nbsp;Schoen (Ed.), <em>Dynamic Demographic Analysis</em>, pp.
+          285&ndash;310. Springer.
+          <a href="https://doi.org/10.1007/978-3-319-26603-9_15" target="_blank">doi:10.1007/978-3-319-26603-9_15</a>
+        </li>
+        <li id="ref-raftery-lalic-gerland-2014">
+          Raftery, A.&nbsp;E., Lalic, N. &amp; Gerland, P. (2014). Joint
+          probabilistic projection of female and male life expectancy.
+          <em>Demographic Research</em> 30(27): 795&ndash;822.
+          <a href="https://doi.org/10.4054/DemRes.2014.30.27" target="_blank">doi:10.4054/DemRes.2014.30.27</a>
+        </li>
+        <li id="ref-fosdick-hoff-2014">
+          Fosdick, B.&nbsp;K. &amp; Hoff, P.&nbsp;D. (2014). Separable factor
+          analysis with applications to mortality data. <em>Annals of Applied
+          Statistics</em> 8(1): 120&ndash;147.
+          <a href="https://doi.org/10.1214/13-AOAS694" target="_blank">doi:10.1214/13-AOAS694</a>
+        </li>
+        <li id="ref-de-lathauwer-de-moor-vandewalle-2000">
+          De&nbsp;Lathauwer, L., De&nbsp;Moor, B. &amp; Vandewalle, J. (2000). A
+          multilinear singular value decomposition. <em>SIAM Journal on Matrix
+          Analysis and Applications</em> 21(4): 1253&ndash;1278.
+          <a href="https://doi.org/10.1137/S0895479896305696" target="_blank">doi:10.1137/S0895479896305696</a>
+        </li>
+        <li id="ref-un-wpp-2024">
+          United Nations, Department of Economic and Social Affairs, Population
+          Division (2024). <em>World Population Prospects 2024: Methodology of the
+          United Nations Population Estimates and Projections</em>.
+          UN&nbsp;DESA/POP/2024/DC/NO.10.
+        </li>
+        <li id="ref-basellini-camarda-booth-2023">
+          Basellini, U., Camarda, C.&nbsp;G. &amp; Booth, H. (2023). Thirty years
+          on: A review of the Lee&ndash;Carter method for forecasting mortality.
+          <em>International Journal of Forecasting</em> 39(3): 1033&ndash;1049.
+          <a href="https://doi.org/10.1016/j.ijforecast.2022.11.002" target="_blank">doi:10.1016/j.ijforecast.2022.11.002</a>
+        </li>
+      </ol>
+
+      <div class="sam-note-left" style="margin-top: 14px;">
+        Code, the underlying Quarto computational book, and reproducibility
+        materials will be released with the published paper. Updates and contact: <a href="mailto:work@samclark.net">work@samclark.net</a>. Updated 2026-04-27
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <!--#include virtual="/site/includes/bottom.shtml" -->
+  </footer>
+
+</div>
+</body>
+</html>

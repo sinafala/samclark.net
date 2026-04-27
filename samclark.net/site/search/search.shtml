@@ -6,6 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's search page.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, search.">
+  <meta property="og:title" content="gcse-search">
+  <meta property="og:description" content="Search Sam Clark's web site">
   <title>Search samclark.net</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>

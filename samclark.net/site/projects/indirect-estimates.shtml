@@ -6,6 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for work on indirect methods for estimating mortality.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, Africa, indirect methods, estimatation, mortality, brass, u5mrs.">
+  <meta property="og:title" content="Indirect Estimates">
+  <meta property="og:description" content="Sam Clark project: indirect estimates">
   <title>Samuel Clark - Indirect Estimates</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>

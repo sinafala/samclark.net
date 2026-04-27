@@ -6,6 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for work on data methods.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, data, methods, database, HDSS, schema, SPEHR.">
+  <meta property="og:title" content="Data & Methods">
+  <meta property="og:description" content="Sam Clark project: data & methods">
   <title>Samuel Clark - Data Methods - The Structured Population Event History Register</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>

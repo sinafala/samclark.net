@@ -6,6 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's news page.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, news, new.">
+  <meta property="og:title" content="Bibliography">
+  <meta property="og:description" content="Bibliography of Sam Clark's published works">
   <title>Samuel Clark - News</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>
@@ -25,6 +27,7 @@
       <h1>Index
       <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
         <option value="#beginning">Date: Event</option>
+        <option value="#2026-03-19">2026-03-19: InSilicoVA Ranks Well in Independent Test</option>
         <option value="#2026-02-13">2026-02-13: AI Assistance Learning to Code</option>
         <option value="#2026-01-30">2026-01-30: WHO Health Statistics TAG</option>
         <option value="#2026-01-09-2">2026-01-09-2: Review: HDSS Data Uses</option>
@@ -92,6 +95,41 @@
   <main>
 
     <div id="beginning" class="sam-block">
+
+https://gh.bmj.com/content/bmjgh/11/3/e019790.full.pdf
+
+
+      <!-- %%%%%%%%%%%% -->
+      <h1 class="sam-date" id="2026-03-19">2026-03-19  <a href="#beginning" class="back">&#x25B2;</a></h1>
+      <!-- %%%%%%%%%%%% -->
+
+      <h2><a href="https://openva.net/site/pages/software.shtml" target="_blank">InSilicoVA</a> Ranks Well in Independent Test</h2>
+
+      <p>
+        A team in Tanzania has conducted a thorough test of VA systems - including algorithms - for incorporation into national CRVS. Among other things, they state:
+          <blockquote>
+            <em>The concordance (R-squared) between physician-coded and computer-coded VA (PCVA and CCVA) for cause specific-mortality fraction was <b>0.83 for InsilicoVA</b>, 0.70 for InterVA5 and 0.47 for Tariff.</em> 
+          </blockquote>
+      </p>
+
+      <p>
+        Read the full paper titled <em>Causes of death from community settings: insights from verbal autopsy implementation in Tanzania</em> - open source at <a href="https://doi.org/10.1136/bmjgh-2025-019790" target="_blank">https://doi.org/10.1136/bmjgh-2025-019790</a> - by Isaac Lyatuu, Mahadia Tunga, Sigilbert Mrema, Gisbert Msigwa, Joyce Mugasa, Trust Nyondo, Claud Kumalija, and Honorati Masanja.
+      </p>
+
+      <h3>Abstract</h3>
+
+      <p>
+        <b>Background</b> Approximately 70% of deaths in Tanzania occur outside health facilities and are often unreported or lack cause of death (COD) information. Consequently, health planning relies on data representing only 10%–15% of the population. To address this gap, Tanzania integrated verbal autopsy (VA) into its civil registration and vital statistics (CRVS) to generate more comprehensive COD data for mortality reporting. This manuscript shares Tanzania’s VA implementation experience from 2017 to 2020, focusing on its integration into the CRVS system, and assesses its capacity to generate accurate and representative mortality data to guide health policies and planning.
+      </p>
+      <p>
+        <b>Methods</b> VA implementation followed a phased approach: (1) a pilot and pretest phase covering 10 wards (urban-to-rural ratio 1:3) and achieving 38.3% data completeness, (2) a demonstration phase covering 106 wards (urban-to-rural ratio 1:3), with data completeness at 22.7% and (3) a national scale-up phase, which is currently underway. Data were collected using a standardised WHO VA questionnaire administered via tablets. CODs were determined using physician- and computer-coded methods.
+      </p>
+      <p>
+        <b>Results</b> The concordance (R-squared) between physician-coded and computer-coded VA (PCVA and CCVA) for cause specific-mortality fraction was 0.83 for InsilicoVA, 0.70 for InterVA5 and 0.47 for Tariff. Communicable diseases accounted for 45.6% of deaths, with a higher burden in rural areas, whereas non-communicable diseases (40.2%) were more prevalent in urban areas. The leading CODs were HIV/AIDS, cardiac diseases, malaria, tuberculosis and diabetes.
+      </p>
+      <p>
+        <b>Conclusions</b> VA plays a pivotal role in generating comprehensive mortality statistics, particularly in low-resource settings. Its integration into CRVS systems with support from CCVA provides a scalable and sustainable solution to address critical data gaps and improve public health interventions, thus better enabling evidence-based health policies and planning in Tanzania.
+      </p>
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2026-02-13">2026-02-13  <a href="#beginning" class="back">&#x25B2;</a></h1>

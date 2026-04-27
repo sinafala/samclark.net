@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SVD as Subspace Geometry — From Linear Algebra to Demographic Age Schedules | Samuel J. Clark</title>
+<meta name="description" content="Interactive tutorial explaining the Singular Value Decomposition (SVD) through row-space and column-space projections, with applications to demographic mortality and fertility modeling. Compares SVD-Comp (Clark, 2015, 2019) with Lee-Carter (1992) and shows why the uncentered SVD preserves the full demographic interpretation.">
+<meta name="keywords" content="SVD, singular value decomposition, demography, mortality modeling, fertility modeling, Lee-Carter, SVD-Comp, age schedules, linear algebra, subspace geometry, row space, column space, rank approximation, demographic methods, Samuel Clark">
+<meta name="author" content="Samuel J. Clark">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://samclark.net/svd-subspace-geometry-tutorial.html">
+<meta property="og:title" content="SVD as Subspace Geometry — From Linear Algebra to Demographic Age Schedules">
+<meta property="og:description" content="Interactive tutorial on the SVD as matched row-space/column-space projections, with demographic applications comparing SVD-Comp and Lee-Carter mortality models.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Samuel J. Clark">
+<meta property="article:author" content="Samuel J. Clark">
+<meta property="article:published_time" content="2026-03-25">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="SVD as Subspace Geometry — From Linear Algebra to Demographic Age Schedules">
+<meta name="twitter:description" content="Interactive tutorial: SVD subspace geometry applied to demographic age schedules. Why SVD-Comp preserves level × canonical structure that Lee-Carter loses by centering.">
+<meta name="citation_title" content="SVD as Subspace Geometry: From Linear Algebra to Demographic Age Schedules">
+<meta name="citation_author" content="Clark, Samuel J.">
+<meta name="citation_date" content="2026-03-25">
+<meta name="citation_public_url" content="https://samclark.net/svd-subspace-geometry-tutorial.html">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "SVD as Subspace Geometry: From Linear Algebra to Demographic Age Schedules",
+  "author": {
+    "@type": "Person",
+    "name": "Samuel J. Clark",
+    "affiliation": "The Ohio State University",
+    "url": "https://samclark.net"
+  },
+  "datePublished": "2026-03-25",
+  "description": "Interactive tutorial explaining the SVD through row-space and column-space projections, with applications to demographic mortality and fertility modeling. Compares SVD-Comp with Lee-Carter and shows why the uncentered SVD preserves the full demographic interpretation.",
+  "keywords": ["SVD", "singular value decomposition", "demography", "mortality", "fertility", "Lee-Carter", "SVD-Comp", "age schedules", "linear algebra"],
+  "about": [
+    {"@type": "Thing", "name": "Singular Value Decomposition"},
+    {"@type": "Thing", "name": "Demographic modeling"},
+    {"@type": "Thing", "name": "Mortality forecasting"}
+  ],
+  "citation": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "A Singular Value Decomposition-based Factorization and Parsimonious Component Model of Demographic Quantities Correlated by Age",
+      "author": "Samuel J. Clark",
+      "datePublished": "2015",
+      "url": "https://arxiv.org/abs/1504.02057"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "A General Age-Specific Mortality Model With an Example Indexed by Child Mortality or Both Child and Adult Mortality",
+      "author": "Samuel J. Clark",
+      "datePublished": "2019",
+      "url": "https://doi.org/10.1007/s13524-019-00785-3",
+      "isPartOf": {"@type": "PublicationVolume", "name": "Demography", "volumeNumber": "56"}
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Modeling and Forecasting U.S. Mortality",
+      "author": ["Ronald D. Lee", "Lawrence R. Carter"],
+      "datePublished": "1992",
+      "url": "https://doi.org/10.1080/01621459.1992.10475265",
+      "isPartOf": {"@type": "PublicationVolume", "name": "Journal of the American Statistical Association", "volumeNumber": "87"}
+    }
+  ]
+}
+</script>
+<script>
+window.MathJax = {
+  tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']] },
+  svg: { fontCache: 'global' },
+  startup: { typeset: true }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+<style>
+:root {
+  --bg: #faf9f6; --bg2: #f0eeea; --fg: #2c2c2a; --fg2: #5f5e5a; --fg3: #888780;
+  --border: rgba(0,0,0,0.1);
+  --teal: #0F6E56; --teal-bg: #E1F5EE; --teal-txt: #085041;
+  --purple: #534AB7; --purple-bg: #EEEDFE; --purple-txt: #3C3489;
+  --coral: #D85A30; --coral-bg: #FAECE7;
+  --amber: #BA7517; --amber-bg: #FAEEDA;
+  --blue: #185FA5; --blue-bg: #E6F1FB;
+  --red: #A32D2D;
+  --serif: 'Source Serif 4', Georgia, serif;
+  --sans: 'DM Sans', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a18; --bg2: #2c2c2a; --fg: #d4d2c8; --fg2: #9c9a92; --fg3: #73726c;
+    --border: rgba(255,255,255,0.1);
+    --teal-bg: #04342C; --purple-bg: #26215C; --coral-bg: #4A1B0C; --amber-bg: #412402; --blue-bg: #042C53;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: var(--serif); background: var(--bg); color: var(--fg);
+  font-size: 17px; line-height: 1.75; max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem 6rem;
+}
+h1 { font-family: var(--sans); font-weight: 500; font-size: 28px; letter-spacing: -0.5px; margin-bottom: 0.25rem; line-height: 1.3; }
+h2 { font-family: var(--sans); font-weight: 500; font-size: 20px; margin-top: 3rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+h3 { font-family: var(--sans); font-weight: 500; font-size: 17px; margin-top: 2rem; margin-bottom: 0.75rem; color: var(--fg2); }
+p { margin-bottom: 1rem; }
+.subtitle { font-family: var(--sans); color: var(--fg2); font-size: 15px; margin-bottom: 2.5rem; line-height: 1.5; }
+.eq-block {
+  background: var(--bg2); border: 1px solid var(--border); border-radius: 6px;
+  padding: 1rem 1.25rem; margin: 1rem 0 1.5rem; overflow-x: auto; text-align: center;
+}
+.note {
+  font-size: 15px; color: var(--fg2); border-left: 3px solid var(--border);
+  padding: 0.75rem 1rem; margin: 1.25rem 0; border-radius: 0; line-height: 1.6;
+}
+.note.teal { border-left-color: var(--teal); background: var(--teal-bg); }
+.note.purple { border-left-color: var(--purple); background: var(--purple-bg); }
+.note.coral { border-left-color: var(--coral); background: var(--coral-bg); }
+.note.amber { border-left-color: var(--amber); background: var(--amber-bg); }
+.vis-container {
+  background: var(--bg2); border: 1px solid var(--border); border-radius: 10px;
+  padding: 1.25rem; margin: 1.5rem 0;
+}
+.vis-container canvas { display: block; width: 100%; }
+.btn-row { display: flex; gap: 8px; align-items: center; margin: 8px 0; flex-wrap: wrap; font-family: var(--sans); }
+.btn-row span { font-size: 12px; color: var(--fg3); }
+.tbtn {
+  font-family: var(--sans); font-size: 12px; padding: 5px 12px; border-radius: 6px;
+  border: 1px solid var(--border); background: transparent; color: var(--fg); cursor: pointer;
+}
+.tbtn.on { background: var(--blue-bg); color: var(--blue); border-color: var(--blue); }
+.vis-note { font-family: var(--sans); font-size: 13px; color: var(--fg2); line-height: 1.6; margin-top: 8px; }
+.legend {
+  display: flex; gap: 14px; align-items: center; flex-wrap: wrap;
+  font-family: var(--sans); font-size: 12px; color: var(--fg2); margin: 6px 0;
+}
+.legend span { display: inline-flex; align-items: center; gap: 4px; }
+.ldot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.lline { width: 18px; height: 0; border-top: 2px dashed; display: inline-block; }
+hr { border: none; border-top: 1px solid var(--border); margin: 3rem 0; }
+.two-col { display: flex; gap: 16px; flex-wrap: wrap; }
+.two-col > div { flex: 1; min-width: 280px; }
+.ref { font-size: 14px; color: var(--fg2); line-height: 1.6; }
+mjx-container { overflow-x: auto; }
+</style>
+</head>
+<body>
+
+<h1>The SVD as subspace geometry</h1>
+<div class="subtitle">
+From row-space / column-space projections to demographic age schedules.<br>
+How <a href="https://arxiv.org/abs/1504.02057" style="color:var(--blue)" target="_blank">SVD-Comp (Clark, 2015)</a> differs from <a href="https://doi.org/10.1080/01621459.1992.10475265" style="color:var(--blue)" target="_blank">Lee-Carter (1992)</a> — and why it matters for interpretation.<br>
+See also <a href="https://doi.org/10.1007/s13524-019-00785-3" style="color:var(--blue)" target="_blank">Clark (2019)</a> for the full SVD-Comp mortality model.<br><br>
+Samuel J. Clark<br>
+March 2026
+</div>
+
+<h2>1. The four fundamental subspaces</h2>
+
+<p>Any $m \times n$ matrix $A$ defines four subspaces. The <strong>column space</strong> and <strong>left null space</strong> live in $\mathbb{R}^m$. The <strong>row space</strong> and <strong>null space</strong> live in $\mathbb{R}^n$. The column space and left null space are orthogonal complements (together they span all of $\mathbb{R}^m$), and likewise for the row space and null space in $\mathbb{R}^n$.</p>
+
+<p>The rank $r$ of the matrix sets the dimensions: column space and row space are each $r$-dimensional, the null space is $(n-r)$-dimensional, and the left null space is $(m-r)$-dimensional.</p>
+
+<h2>2. What SVD gives you — matched pairs</h2>
+
+<div class="eq-block">
+$$A = U \Sigma V^T$$
+</div>
+
+<p>$U$ is $m \times m$ orthogonal, $\Sigma$ is $m \times n$ diagonal with $\sigma_1 \ge \sigma_2 \ge \cdots \ge \sigma_r > 0$, and $V$ is $n \times n$ orthogonal. The columns of $U$ are the left singular vectors; the columns of $V$ are the right singular vectors. These aren't arbitrary orthonormal bases — they are <em>matched pairs</em> that diagonalize the action of $A$:</p>
+
+<div class="eq-block">
+$$Av_i = \sigma_i u_i$$
+</div>
+
+<p>Each right singular vector maps to the corresponding left singular vector, scaled by the singular value. The right singular vectors with nonzero $\sigma$ form an orthonormal basis for the <strong>row space</strong>. The left singular vectors with nonzero $\sigma$ form an orthonormal basis for the <strong>column space</strong>. The remaining singular vectors fill out the null space and left null space respectively.</p>
+
+<div class="note teal">
+<strong>The geometric picture:</strong> $A$ takes the unit sphere in $\mathbb{R}^n$ to a hyperellipsoid in $\mathbb{R}^m$. The $v_i$ are the input sphere's axes that map onto the output ellipsoid's axes (the $u_i$). The singular values $\sigma_i$ are the ellipsoid's axis lengths — how much $A$ stretches along each matched direction.
+</div>
+
+<div class="vis-container">
+<canvas id="c-paired" height="380"></canvas>
+</div>
+
+<h2>3. The directional flip</h2>
+
+<p>The same pairing and gains, but the arrows reverse:</p>
+
+<div class="eq-block">
+$$Av_i = \sigma_i u_i \qquad \text{(row space} \to \text{column space)}$$
+$$A^T u_i = \sigma_i v_i \qquad \text{(column space} \to \text{row space)}$$
+</div>
+
+<p>Right-multiplying maps from input (row) space to output (column) space. Left-multiplying (via $A^T$) reverses the direction. The pairing and gains are invariant — only the arrow flips. Toggle the diagram below to see the reversal:</p>
+
+<div class="vis-container">
+<canvas id="c-flip" height="260"></canvas>
+<div class="btn-row">
+<span>Direction:</span>
+<button class="tbtn on" id="fwd-btn" onclick="setFlipDir('fwd')">$Ax$ (row → column)</button>
+<button class="tbtn" id="rev-btn" onclick="setFlipDir('rev')">$A^Ty$ (column → row)</button>
+</div>
+</div>
+
+<h2>4. The rank-$k$ approximation</h2>
+
+<p>The SVD lets you write $A$ as a sum of rank-1 matrices:</p>
+
+<div class="eq-block">
+$$A = \sum_{i=1}^{r} \sigma_i \, u_i \, v_i^T$$
+</div>
+
+<p>The Eckart-Young theorem says the best rank-$k$ approximation (in Frobenius or operator norm) is the SVD truncation: keep the $k$ terms with largest $\sigma$. Each term says: project the input onto row-space direction $v_i$, scale by $\sigma_i$, output in column-space direction $u_i$. The residual error is:</p>
+
+<div class="eq-block">
+$$\|A - A_k\|_F^2 = \sigma_{k+1}^2 + \sigma_{k+2}^2 + \cdots + \sigma_r^2$$
+</div>
+
+<p>If singular values decay rapidly, the data is effectively low-dimensional and the truncation loses almost nothing.</p>
+
+<h2>5. SVD-Comp — the uncentered SVD for demographic age schedules</h2>
+
+<p>This is where the subspace geometry connects to demography. The key reference is <a href="https://arxiv.org/abs/1504.02057" style="color:var(--blue)" target="_blank">Clark (2015)</a>, which develops a general SVD-based component model for age-correlated demographic quantities.</p>
+
+<p>Organize a matrix $A$ so that each column is one population-year's age schedule and each row is an age group. Each row is a point in $\mathbb{R}^H$ (where $H$ = number of population-years). The SVD identifies the primary directions in this cloud of age-group points.</p>
+
+<h3>Why the uncentered cloud works for demography</h3>
+
+<p>The critical observation: because mortality (or fertility) at each age is similar across population-years, the age-group points cluster on a line from the origin with slope $\approx 1$. The first right singular vector $v_1$ points from the origin through the cloud — it captures <strong>level</strong>. How far each age-group point sits along $v_1$ encodes the <strong>canonical age schedule</strong> $u_1$.</p>
+
+<p>For log mortality: old-age points (age 85, high mortality, small negative log) are near the origin; young-adult points (age 5, low mortality, large negative log) are far from the origin. The spacing along $v_1$ <em>is</em> the bathtub curve of mortality.</p>
+
+<div class="vis-container">
+<canvas id="c-cloud" height="480"></canvas>
+<div class="btn-row">
+<span>Show:</span>
+<button class="tbtn on" id="braw" onclick="setCloudMode('raw')">Uncentered (SVD-Comp)</button>
+<button class="tbtn" id="bcen" onclick="setCloudMode('centered')">Centered (Lee-Carter)</button>
+</div>
+<div class="btn-row">
+<span>Overlay:</span>
+<button class="tbtn on" id="btn-vec" onclick="toggleCloudVec()">Singular vectors</button>
+<button class="tbtn" id="btn-proj" onclick="toggleCloudProj()">Reconstruct age 30</button>
+</div>
+<div class="vis-note" id="cloud-desc">Each point is an age group. X = log mortality year 1, Y = year 2. Points cluster on a line from origin (slope ≈ 1) because mortality at each age is similar across years. v<sub>1</sub> points from origin through the cloud — this IS the level direction.</div>
+</div>
+
+<h2>6. Lee-Carter vs. SVD-Comp — what centering costs you</h2>
+
+<p>Toggle the visualization above between "Uncentered" and "Centered" to see the core difference.</p>
+
+<div class="note coral">
+<strong>Lee-Carter</strong> subtracts the mean age profile $a_x$ before applying SVD. This translates the cloud to the origin. Now $v_1$ aligns with <em>within-cloud variance</em> — the dominant deviation pattern — not level. The origin-to-cloud information is absorbed into $a_x$ and lost from the decomposition. The Lee-Carter model is:
+$$\ln(m_{x,t}) = a_x + b_x k_t + \varepsilon_{x,t}$$
+where $b_x$ and $k_t$ come from the rank-1 SVD of the <em>residual</em> after subtracting $a_x$.
+</div>
+
+<div class="note teal">
+<strong>SVD-Comp</strong> works on the uncentered matrix. The first term $\sigma_1 u_1 v_1^T$ literally IS level × canonical age structure. Subsequent terms are separable age-specific deviations from canonical. Each column of the data matrix is a weighted sum of the $u_i$ components (Equation 10 of <a href="https://arxiv.org/abs/1504.02057" style="color:var(--blue)" target="_blank">Clark 2015</a>), with weights from the corresponding $v_i$. Typically 2–3 weights suffice to reproduce an entire age schedule.
+</div>
+
+<p>Put precisely: the Lee-Carter component $b_x \cdot k_t$ is actually the <em>second</em> SVD-Comp component — the dominant separable departure from the canonical age schedule. The full demographic rate structure lives in the SVD-Comp decomposition but is split across two unrelated objects ($a_x$ and the SVD residual) in Lee-Carter.</p>
+
+<h3>The column reconstruction — Equation 10 of <a href="https://arxiv.org/abs/1504.02057" style="color:var(--blue)" target="_blank">Clark (2015)</a></h3>
+
+<p>Each column (population-year) of the data matrix can be written:</p>
+
+<div class="eq-block">
+$$x_h = \sum_{i=1}^{\rho} v_{h,i} \cdot s_i \, u_i = \sum_{i=1}^{\rho} v_{h,i} \cdot \Lambda_i$$
+</div>
+
+<p>where $\Lambda_i = s_i \cdot u_i$ are the age-varying components. Taking the first $c$ terms gives a $c$-parameter model. The weights $v_{h,i}$ are the parameters — typically just 2 or 3 numbers capture an entire age schedule.</p>
+
+<div class="vis-container">
+<div class="two-col">
+<div><canvas id="cmort" height="400" style="width:100%"></canvas></div>
+<div><canvas id="cfert" height="400" style="width:100%"></canvas></div>
+</div>
+<div class="btn-row">
+<span>Population-year:</span>
+<button class="tbtn on" id="ry0" onclick="setYr(0)">Period 1 (early)</button>
+<button class="tbtn" id="ry1" onclick="setYr(1)">Period 2 (mid)</button>
+<button class="tbtn" id="ry2" onclick="setYr(2)">Period 3 (late)</button>
+</div>
+<div class="btn-row">
+<span>Components:</span>
+<button class="tbtn on" id="rc1" onclick="setC(1)">Rank 1 only</button>
+<button class="tbtn" id="rc2" onclick="setC(2)">Rank 1 + 2</button>
+<button class="tbtn" id="rc3" onclick="setC(3)">Full (exact)</button>
+</div>
+<div class="legend">
+<span><span class="ldot" style="background:var(--fg)"></span> data</span>
+<span><span class="ldot" style="background:var(--coral)"></span> reconstruction</span>
+<span><span class="lline" style="border-color:var(--teal)"></span> &#x039B;<sub>1</sub> (canonical)</span>
+<span><span class="lline" style="border-color:var(--purple)"></span> &#x039B;<sub>2</sub> (deviation)</span>
+<span><span class="lline" style="border-color:var(--amber)"></span> &#x039B;<sub>3</sub> (residual)</span>
+</div>
+<div class="vis-note" id="rdesc"></div>
+</div>
+
+<h2>7. The directional flip in demographic terms</h2>
+
+<p><strong>Right-multiplying</strong> $A$ by $v_1$ (projecting the data onto the dominant year-direction) gives $\sigma_1 u_1$ — the canonical age schedule, scaled by overall level. You're asking: <em>"across all years, what is the dominant age pattern of mortality?"</em></p>
+
+<p><strong>Left-multiplying</strong> $A^T$ by $u_1$ (projecting the data onto the canonical age pattern) gives $\sigma_1 v_1$ — the year-to-year level index. You're asking: <em>"given this canonical age shape, how does overall mortality level track across years?"</em></p>
+
+<p>Same question, two directions. The first lives in age-space, the second in year-space, and $\sigma_1$ is the coupling strength between them.</p>
+
+<div class="note amber">
+<strong>In Lee-Carter terms:</strong> what LC calls $b_x$ and $k_t$ are the $u_2$ and $v_2$ of SVD-Comp (the <em>second</em> matched pair), because the first pair was absorbed into $a_x$ by centering. This means $k_t$ is not the overall mortality level — it's the time-varying weight on the dominant <em>deviation</em> from the mean age schedule. The actual level is hidden in $a_x$.
+</div>
+
+<h2>8. Summary</h2>
+
+<p>The SVD of a matrix $A$ simultaneously provides orthonormal bases for all four fundamental subspaces and <em>pairs</em> the row-space basis with the column-space basis through the singular values. Each row-space direction $v_i$ has a partner column-space direction $u_i$, and $\sigma_i$ is the gain along that pair. This pairing is the deep insight that no other decomposition provides.</p>
+
+<p>For demographic age schedules:</p>
+
+<p><strong>SVD-Comp</strong> (uncentered) preserves the full geometric structure. The first matched pair captures level × canonical age structure. Subsequent pairs capture separable age-specific deviations from canonical. Each column of the data matrix is a weighted sum of the $u_i$ components, with weights from the corresponding $v_i$. Typically 2–3 weights suffice.</p>
+
+<p><strong>Lee-Carter</strong> (centered) discards the level information by subtracting the mean. The SVD then operates on residuals, so its first component captures the dominant deviation pattern rather than the canonical structure. This is fine for forecasting $k_t$ as a time series, but it loses the clean separation between <em>"what mortality looks like on average"</em> and <em>"how it's changing differentially by age."</em></p>
+
+<hr>
+
+<div class="ref">
+<strong>References</strong><br>
+Clark, S.J. (2015). A singular value decomposition-based factorization and parsimonious component model of demographic quantities correlated by age. <a href="https://arxiv.org/abs/1504.02057" style="color:var(--blue)" target="_blank"><em>arXiv:1504.02057</em></a>.<br>
+Clark, S.J. (2019). A general age-specific mortality model with an example indexed by child mortality or both child and adult mortality. <a href="https://doi.org/10.1007/s13524-019-00785-3" style="color:var(--blue)" target="_blank"><em>Demography</em>, 56(3), 1131–1159</a>.<br>
+Lee, R.D. &amp; Carter, L.R. (1992). Modeling and forecasting U.S. mortality. <a href="https://doi.org/10.1080/01621459.1992.10475265" style="color:var(--blue)" target="_blank"><em>Journal of the American Statistical Association</em>, 87, 659–671</a>.<br>
+Strang, G. (2009). <em>Introduction to Linear Algebra</em>, 4th ed. Wellesley-Cambridge Press.
+</div>
+
+<script>
+(function(){
+
+function gc(){
+var d=matchMedia('(prefers-color-scheme:dark)').matches;
+return{
+txt:d?'#d4d2c8':'#2c2c2a', muted:d?'#9c9a92':'#5f5e5a', faint:d?'#73726c':'#888780',
+grid:d?'rgba(255,255,255,0.06)':'rgba(0,0,0,0.05)',
+gridS:d?'rgba(255,255,255,0.12)':'rgba(0,0,0,0.1)',
+line:d?'rgba(255,255,255,0.22)':'rgba(0,0,0,0.18)',
+teal:'#0F6E56',purple:'#534AB7',coral:'#D85A30',amber:'#BA7517',
+tealT:'#085041',purpleT:'#3C3489',red:'#A32D2D',
+tealBg:d?'rgba(29,158,117,0.12)':'rgba(29,158,117,0.08)',
+purpleBg:d?'rgba(127,119,221,0.12)':'rgba(127,119,221,0.08)'
+};
+}
+
+function sc(id,h){
+var c=document.getElementById(id);var dp=window.devicePixelRatio||1;
+var r=c.getBoundingClientRect();var W=r.width;
+c.width=W*dp;c.height=h*dp;c.style.height=h+'px';
+var x=c.getContext('2d');x.setTransform(dp,0,0,dp,0,0);
+return{x:x,W:W,H:h};
+}
+
+function arr(x,x1,y1,x2,y2,c,w){
+x.strokeStyle=c;x.lineWidth=w;x.beginPath();x.moveTo(x1,y1);x.lineTo(x2,y2);x.stroke();
+var a=Math.atan2(y2-y1,x2-x1),l=8;
+x.beginPath();x.moveTo(x2,y2);x.lineTo(x2-l*Math.cos(a-.35),y2-l*Math.sin(a-.35));
+x.moveTo(x2,y2);x.lineTo(x2-l*Math.cos(a+.35),y2-l*Math.sin(a+.35));x.stroke();
+}
+
+// ---- Panel 1: Paired subspaces ----
+function drawPaired(){
+var s=sc('c-paired',380);var x=s.x,W=s.W,H=s.H,C=gc();
+var lx=W*0.24,rx=W*0.76,cy=180,ry=120,rxx=W*0.18;
+
+x.fillStyle=C.tealBg;x.beginPath();x.ellipse(lx,cy,rxx,ry,0,0,Math.PI*2);x.fill();
+x.strokeStyle=C.teal;x.lineWidth=1;x.beginPath();x.ellipse(lx,cy,rxx,ry,0,0,Math.PI*2);x.stroke();
+
+x.fillStyle=C.purpleBg;x.beginPath();x.ellipse(rx,cy,rxx,ry,0,0,Math.PI*2);x.fill();
+x.strokeStyle=C.purple;x.lineWidth=1;x.beginPath();x.ellipse(rx,cy,rxx,ry,0,0,Math.PI*2);x.stroke();
+
+x.font='500 14px "DM Sans"';x.textAlign='center';
+x.fillStyle=C.tealT;x.fillText('Row space',lx,cy-ry-12);
+x.fillStyle=C.purpleT;x.fillText('Column space',rx,cy-ry-12);
+
+x.fillStyle=C.teal;x.beginPath();x.arc(lx+40,cy-20,5,0,Math.PI*2);x.fill();
+x.font='500 13px "DM Sans"';x.textAlign='left';x.fillText('v\u2081',lx+48,cy-16);
+x.globalAlpha=.6;x.beginPath();x.arc(lx+30,cy+20,4,0,Math.PI*2);x.fill();x.globalAlpha=1;
+x.font='12px "DM Sans"';x.fillText('v\u2082',lx+38,cy+24);
+
+x.fillStyle=C.purple;x.beginPath();x.arc(rx+40,cy-20,5,0,Math.PI*2);x.fill();
+x.font='500 13px "DM Sans"';x.fillText('u\u2081',rx+48,cy-16);
+x.globalAlpha=.6;x.beginPath();x.arc(rx+30,cy+20,4,0,Math.PI*2);x.fill();x.globalAlpha=1;
+x.font='12px "DM Sans"';x.fillText('u\u2082',rx+38,cy+24);
+
+arr(x,lx+48,cy-22,rx+33,cy-22,C.amber,2);
+x.fillStyle=C.amber;x.font='13px "DM Sans"';x.textAlign='center';
+x.fillText('Av\u2081 = \u03C3\u2081u\u2081',W/2,cy-36);
+
+x.globalAlpha=.6;
+arr(x,lx+38,cy+18,rx+23,cy+18,C.amber,1.2);
+x.fillStyle=C.amber;x.fillText('Av\u2082 = \u03C3\u2082u\u2082',W/2,cy+14);
+x.globalAlpha=1;
+
+x.fillStyle=C.faint;x.font='13px "DM Sans"';
+x.fillText('Null space: A kills these',lx,cy+ry+24);
+x.fillText('Left null: A can\'t reach',rx,cy+ry+24);
+
+x.fillStyle=C.muted;x.fillText('Each v\u1D62 has exactly one partner u\u1D62 \u2014 the gain along each pair is \u03C3\u1D62',W/2,H-16);
+}
+drawPaired();
+
+// ---- Panel 2: Directional flip ----
+var flipDir='fwd';
+window.setFlipDir=function(d){
+flipDir=d;
+document.getElementById('fwd-btn').classList.toggle('on',d==='fwd');
+document.getElementById('rev-btn').classList.toggle('on',d==='rev');
+drawFlip();
+};
+function drawFlip(){
+var s=sc('c-flip',260);var x=s.x,W=s.W,H=s.H,C=gc();
+var f=flipDir==='fwd';
+var lx=W*0.24,rx=W*0.76,cy=130,ry=80,rxx=W*0.17;
+
+x.font='500 14px "DM Sans"';x.textAlign='center';x.fillStyle=C.txt;
+x.fillText(f?'A maps row space \u2192 column space':'A\u1D40 maps column space \u2192 row space',W/2,24);
+
+x.fillStyle=C.tealBg;x.beginPath();x.ellipse(lx,cy,rxx,ry,0,0,Math.PI*2);x.fill();
+x.strokeStyle=C.teal;x.lineWidth=1;x.beginPath();x.ellipse(lx,cy,rxx,ry,0,0,Math.PI*2);x.stroke();
+
+x.fillStyle=C.purpleBg;x.beginPath();x.ellipse(rx,cy,rxx,ry,0,0,Math.PI*2);x.fill();
+x.strokeStyle=C.purple;x.lineWidth=1;x.beginPath();x.ellipse(rx,cy,rxx,ry,0,0,Math.PI*2);x.stroke();
+
+x.font='12px "DM Sans"';x.textAlign='center';
+x.fillStyle=C.tealT;x.fillText('Row space (v\u1D62)',lx,cy-ry-10);
+x.fillStyle=C.purpleT;x.fillText('Column space (u\u1D62)',rx,cy-ry-10);
+
+x.fillStyle=C.teal;x.beginPath();x.arc(lx+30,cy,5,0,Math.PI*2);x.fill();
+x.fillStyle=C.purple;x.beginPath();x.arc(rx-30,cy,5,0,Math.PI*2);x.fill();
+
+if(f){
+arr(x,lx+38,cy,rx-38,cy,C.amber,2);
+x.fillStyle=C.amber;x.font='13px "DM Sans"';x.textAlign='center';
+x.fillText('Av\u1D62 = \u03C3\u1D62u\u1D62',W/2,cy-14);
+}else{
+arr(x,rx-38,cy,lx+38,cy,C.coral,2);
+x.fillStyle=C.coral;x.font='13px "DM Sans"';x.textAlign='center';
+x.fillText('A\u1D40u\u1D62 = \u03C3\u1D62v\u1D62',W/2,cy-14);
+}
+
+x.fillStyle=C.muted;x.font='13px "DM Sans"';x.textAlign='center';
+x.fillText('Same pairing, same \u03C3\u1D62 gains \u2014 only the arrow flips',W/2,H-16);
+}
+drawFlip();
+
+// ---- Panel 3: Point cloud ----
+var cloudMode='raw',cloudVec=true,cloudProj=false;
+var ages=['0','5','15','30','50','70','85'];
+var yr1=[-3.2,-6.5,-5.8,-4.8,-3.5,-2.0,-0.8];
+var yr2=[-3.5,-7.0,-6.5,-5.5,-3.8,-2.1,-0.9];
+var cm1=yr1.reduce(function(a,b){return a+b},0)/yr1.length;
+var cm2=yr2.reduce(function(a,b){return a+b},0)/yr2.length;
+
+window.setCloudMode=function(m){
+cloudMode=m;
+document.getElementById('braw').classList.toggle('on',m==='raw');
+document.getElementById('bcen').classList.toggle('on',m==='centered');
+document.getElementById('cloud-desc').innerHTML=m==='raw'?
+'Each point is an age group. X = log mortality year 1, Y = year 2. Points cluster near slope &asymp; 1 from origin because mortality at each age is similar across years. <strong>v<sub>1</sub> points from origin through the cloud — this IS the level direction.</strong>':
+'Lee-Carter subtracts column means a<sub>x</sub>. The cloud collapses to the origin. v<sub>1</sub> now aligns with within-cloud variance — the dominant <em>deviation</em>. The level information is absorbed into a<sub>x</sub> and lost. The first LC component b<sub>x</sub> k<sub>t</sub> is SVD-Comp\'s <em>second</em> component.';
+drawCloud();
+};
+window.toggleCloudVec=function(){cloudVec=!cloudVec;document.getElementById('btn-vec').classList.toggle('on',cloudVec);drawCloud();};
+window.toggleCloudProj=function(){cloudProj=!cloudProj;document.getElementById('btn-proj').classList.toggle('on',cloudProj);drawCloud();};
+
+function eig2(dx,dy){
+var a=0,b=0,d=0;for(var i=0;i<dx.length;i++){a+=dx[i]*dx[i];b+=dx[i]*dy[i];d+=dy[i]*dy[i];}
+var T=a+d,D=a*d-b*b,L1=(T+Math.sqrt(T*T-4*D))/2;
+var ex=b,ey=L1-a,en=Math.sqrt(ex*ex+ey*ey);ex/=en;ey/=en;
+if(ex>0){ex=-ex;ey=-ey;}
+return{v1x:ex,v1y:ey,v2x:-ey,v2y:ex};
+}
+
+function drawCloud(){
+var s=sc('c-cloud',480);var x=s.x,W=s.W,H=s.H,C=gc();
+var ce=cloudMode==='centered';
+var dx=ce?yr1.map(function(v){return v-cm1;}):yr1;
+var dy=ce?yr2.map(function(v){return v-cm2;}):yr2;
+var mn=ce?-4:-9,mx=ce?4:3;
+function px(v){return 55+(v-mn)*(W-80)/(mx-mn);}
+function py(v){return H-50-(v-mn)*(H-80)/(mx-mn);}
+var st=ce?1:2;
+for(var g=Math.ceil(mn/st)*st;g<=mx;g+=st){
+x.strokeStyle=C.grid;x.lineWidth=.5;x.beginPath();x.moveTo(px(g),py(mn));x.lineTo(px(g),py(mx));x.stroke();
+x.beginPath();x.moveTo(px(mn),py(g));x.lineTo(px(mx),py(g));x.stroke();
+x.fillStyle=C.faint;x.font='11px "DM Sans"';x.textAlign='center';x.fillText(g,px(g),py(mn)+14);
+x.textAlign='right';x.fillText(g,px(mn)-6,py(g)+4);
+}
+x.strokeStyle=C.gridS;x.lineWidth=.5;
+x.beginPath();x.moveTo(px(mn),py(0));x.lineTo(px(mx),py(0));x.stroke();
+x.beginPath();x.moveTo(px(0),py(mn));x.lineTo(px(0),py(mx));x.stroke();
+x.fillStyle=C.faint;x.font='12px "DM Sans"';x.textAlign='center';
+x.fillText(ce?'year 1 (centered)':'log mortality, year 1',W/2,H-8);
+x.save();x.translate(14,H/2);x.rotate(-Math.PI/2);x.fillText(ce?'year 2 (centered)':'log mortality, year 2',0,0);x.restore();
+if(!ce){x.strokeStyle=C.grid;x.lineWidth=.5;x.setLineDash([4,4]);x.beginPath();x.moveTo(px(mn),py(mn));x.lineTo(px(mx),py(mx));x.stroke();x.setLineDash([]);}
+
+var ev=eig2(dx,dy);
+if(cloudVec){
+var sc1=ce?2.5:5.5;
+arr(x,px(0),py(0),px(ev.v1x*sc1),py(ev.v1y*sc1),C.teal,2);
+x.fillStyle=C.tealT;x.font='500 13px "DM Sans"';x.textAlign='left';
+x.fillText('v\u2081'+(ce?' (max var.)':' (level)'),px(ev.v1x*sc1)+8,py(ev.v1y*sc1)+4);
+var sc2=ce?1.8:3.0;
+arr(x,px(0),py(0),px(ev.v2x*sc2),py(ev.v2y*sc2),C.purple,1.5);
+x.fillStyle=C.purpleT;x.fillText('v\u2082'+(ce?' (2nd)':' (deviation)'),px(ev.v2x*sc2)+8,py(ev.v2y*sc2)+4);
+}
+if(cloudProj){
+var idx=3,p1=dx[idx]*ev.v1x+dy[idx]*ev.v1y;
+var p1x=ev.v1x*p1,p1y=ev.v1y*p1;
+x.setLineDash([5,3]);x.strokeStyle=C.amber;x.lineWidth=2;
+x.beginPath();x.moveTo(px(0),py(0));x.lineTo(px(p1x),py(p1y));x.stroke();
+x.strokeStyle=C.coral;x.lineWidth=1.5;
+x.beginPath();x.moveTo(px(p1x),py(p1y));x.lineTo(px(dx[idx]),py(dy[idx]));x.stroke();
+x.setLineDash([]);
+x.strokeStyle=C.red;x.lineWidth=1;x.beginPath();x.moveTo(px(0),py(0));x.lineTo(px(dx[idx]),py(dy[idx]));x.stroke();
+x.fillStyle=C.amber;x.font='12px "DM Sans"';x.textAlign='left';
+var mx1=(px(0)+px(p1x))/2,my1=(py(0)+py(p1y))/2;
+x.fillText('\u03C3\u2081 v(30,1) u\u2081 (level)',mx1-50,my1-10);
+x.fillStyle=C.coral;
+x.fillText('\u03C3\u2082 v(30,2) u\u2082 (dev)',px(p1x)+8,(py(p1y)+py(dy[idx]))/2+14);
+}
+var pc=['#E24B4A','#E24B4A','#D85A30','#BA7517','#BA7517','#378ADD','#378ADD'];
+for(var i=0;i<dx.length;i++){
+x.beginPath();x.arc(px(dx[i]),py(dy[i]),5,0,Math.PI*2);x.fillStyle=pc[i];x.fill();
+x.fillStyle=C.txt;x.font='500 11px "DM Sans"';x.textAlign='left';x.fillText(ages[i],px(dx[i])+8,py(dy[i])+4);
+}
+x.beginPath();x.arc(px(0),py(0),3,0,Math.PI*2);x.fillStyle=C.faint;x.fill();
+x.fillStyle=C.faint;x.font='11px "DM Sans"';x.textAlign='right';x.fillText('origin',px(0)-6,py(0)+4);
+}
+drawCloud();
+
+// ---- Panel 4: Dual mortality/fertility ----
+var selYr=0,selC=1;
+var mAg=['0','5','15','25','35','45','55','65','75','85'],nM=10;
+var mL1=[-3.8,-6.2,-5.5,-4.8,-4.2,-3.6,-2.9,-2.2,-1.5,-0.9];
+var mL2=[0.3,0.1,-0.4,-0.8,-1.2,-0.6,0.1,0.3,0.2,0.1];
+var mL3=[0.15,-0.3,0.2,0.1,-0.15,0.25,-0.2,0.1,-0.05,0.05];
+var mV=[[0.58,0.65,0.50],[0.57,-0.75,-0.34],[0.58,0.12,-0.80]];
+var mD=[];for(var y=0;y<3;y++){var r=[];for(var a=0;a<nM;a++)r.push(mV[y][0]*mL1[a]+mV[y][1]*mL2[a]+mV[y][2]*mL3[a]);mD.push(r);}
+
+var fAg=['15','20','25','30','35','40','45'],nF=7;
+var fL1=[0.04,0.11,0.14,0.12,0.09,0.04,0.01];
+var fL2=[-0.03,0.02,0.05,0.02,-0.04,-0.03,-0.01];
+var fL3=[0.01,-0.02,0.01,0.03,-0.01,-0.01,0.005];
+var fV=[[0.60,-0.72,0.35],[0.58,0.05,-0.81],[0.55,0.69,0.47]];
+var fD=[];for(var y=0;y<3;y++){var r=[];for(var a=0;a<nF;a++)r.push(fV[y][0]*fL1[a]+fV[y][1]*fL2[a]+fV[y][2]*fL3[a]);fD.push(r);}
+
+function dP(id,ag,nA,L1,L2,L3,Vm,aD,ti,yl,yMn,yMx,ySt){
+var c=document.getElementById(id);var dp=window.devicePixelRatio||1;var rc=c.getBoundingClientRect();var W=rc.width,H=400;
+c.width=W*dp;c.height=H*dp;c.style.height=H+'px';
+var x=c.getContext('2d');x.setTransform(dp,0,0,dp,0,0);var C=gc();
+var pL=46,pR=10,pT=36,pB=44,cw=W-pL-pR,ch=H-pT-pB;
+function px(i){return pL+i*(cw/(nA-1));}
+function py(v){return pT+(yMx-v)*(ch/(yMx-yMn));}
+for(var g=yMn;g<=yMx+ySt*.01;g+=ySt){
+x.strokeStyle=C.grid;x.lineWidth=.5;x.beginPath();x.moveTo(pL,py(g));x.lineTo(W-pR,py(g));x.stroke();
+x.fillStyle=C.faint;x.font='11px "DM Sans"';x.textAlign='right';
+x.fillText(ySt<.1?g.toFixed(2):ySt<1?g.toFixed(1):g.toFixed(0),pL-5,py(g)+4);
+}
+x.strokeStyle=C.gridS;x.lineWidth=.5;x.setLineDash([3,3]);x.beginPath();x.moveTo(pL,py(0));x.lineTo(W-pR,py(0));x.stroke();x.setLineDash([]);
+for(var i=0;i<nA;i++){x.fillStyle=C.faint;x.font='11px "DM Sans"';x.textAlign='center';x.fillText(ag[i],px(i),H-pB+16);}
+x.fillStyle=C.faint;x.font='12px "DM Sans"';x.textAlign='center';x.fillText('age',pL+cw/2,H-6);
+x.save();x.translate(11,pT+ch/2);x.rotate(-Math.PI/2);x.fillText(yl,0,0);x.restore();
+x.fillStyle=C.txt;x.font='500 13px "DM Sans"';x.textAlign='left';x.fillText(ti,pL,20);
+
+x.strokeStyle=C.line;x.lineWidth=1.2;x.beginPath();
+for(var i=0;i<nA;i++){if(!i)x.moveTo(px(i),py(aD[selYr][i]));else x.lineTo(px(i),py(aD[selYr][i]));}x.stroke();
+for(var i=0;i<nA;i++){x.beginPath();x.arc(px(i),py(aD[selYr][i]),4,0,Math.PI*2);x.fillStyle=C.txt;x.fill();}
+
+var re=[];for(var a=0;a<nA;a++){var v=0;if(selC>=1)v+=Vm[selYr][0]*L1[a];if(selC>=2)v+=Vm[selYr][1]*L2[a];if(selC>=3)v+=Vm[selYr][2]*L3[a];re.push(v);}
+var cc=[C.teal,C.purple,C.amber],cw2=[1.5,1.2,.8],Ls=[L1,L2,L3],lb=[];
+for(var ci=0;ci<selC;ci++){
+var tc=[];for(var a=0;a<nA;a++)tc.push(Vm[selYr][ci]*Ls[ci][a]);
+x.strokeStyle=cc[ci];x.lineWidth=cw2[ci];x.setLineDash([5,3]);x.beginPath();
+for(var i=0;i<nA;i++){if(!i)x.moveTo(px(i),py(tc[i]));else x.lineTo(px(i),py(tc[i]));}x.stroke();x.setLineDash([]);
+lb.push({y:py(tc[nA-1]),c:cc[ci],t:'w='+(Vm[selYr][ci]>=0?'+':'')+Vm[selYr][ci].toFixed(2)});
+}
+lb.sort(function(a,b){return a.y-b.y;});for(var k=1;k<lb.length;k++){if(lb[k].y-lb[k-1].y<14)lb[k].y=lb[k-1].y+14;}
+for(var k=0;k<lb.length;k++){x.fillStyle=lb[k].c;x.font='11px "DM Sans"';x.textAlign='right';x.fillText(lb[k].t,W-pR,lb[k].y+4);}
+
+x.strokeStyle=C.coral;x.lineWidth=2.5;x.beginPath();
+for(var i=0;i<nA;i++){if(!i)x.moveTo(px(i),py(re[i]));else x.lineTo(px(i),py(re[i]));}x.stroke();
+for(var i=0;i<nA;i++){x.beginPath();x.arc(px(i),py(re[i]),3,0,Math.PI*2);x.fillStyle=C.coral;x.fill();}
+var mae=0;for(var a=0;a<nA;a++)mae+=Math.abs(re[a]-aD[selYr][a]);mae/=nA;
+x.fillStyle=C.faint;x.font='11px "DM Sans"';x.textAlign='right';x.fillText('MAE: '+mae.toFixed(3),W-pR,20);
+}
+
+function drawDual(){
+dP('cmort',mAg,nM,mL1,mL2,mL3,mV,mD,'Mortality: ln(nMx)','ln(nMx)',-7,1.5,1);
+dP('cfert',fAg,nF,fL1,fL2,fL3,fV,fD,'Fertility: nFx','nFx',-0.04,0.10,0.02);
+}
+function uD(){
+var d=document.getElementById('rdesc');
+if(selC===1)d.innerHTML='<strong>Rank 1:</strong> Both schedules approximated by one weight scaling canonical. Mortality &#x039B;<sub>1</sub> = bathtub of ln(<sub>n</sub>M<sub>x</sub>); weight = level. Fertility &#x039B;<sub>1</sub> = bell of <sub>n</sub>F<sub>x</sub>; weight &asymp; TFR. Level alone cannot reshape the schedule.';
+else if(selC===2)d.innerHTML='<strong>Rank 1 + 2:</strong> &#x039B;<sub>2</sub> adds age-specific deviations. Mortality: HIV-hump shape, weight flips from +0.65 (pre-HIV) to &minus;0.75 (peak HIV). Fertility: peak-age shift, negative weight = younger skew, positive = delayed. Two numbers capture level + shape.';
+else d.innerHTML='<strong>Full:</strong> Three terms reproduce data exactly. In practice <em>c</em> = 2 captures &gt;99% of variance. The weight vectors {v<sub>h,1</sub>, v<sub>h,2</sub>} feed into clustering and covariate prediction.';
+}
+window.setYr=function(y){selYr=y;for(var i=0;i<3;i++)document.getElementById('ry'+i).classList.toggle('on',i===y);drawDual();uD();};
+window.setC=function(c){selC=c;for(var i=1;i<=3;i++)document.getElementById('rc'+i).classList.toggle('on',i===c);drawDual();uD();};
+drawDual();uD();
+
+function redrawAll(){drawPaired();drawFlip();drawCloud();drawDual();}
+window.addEventListener('resize',redrawAll);
+matchMedia('(prefers-color-scheme:dark)').addEventListener('change',redrawAll);
+})();
+</script>
+
+</body>
+</html>

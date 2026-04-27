@@ -6,7 +6,9 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's mountain biking page.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, mountain bike.">
-  <title>Samuel Clark - Mountain Bike Etc.</title>
+  <meta property="og:title" content="Mountain Bike+">
+  <meta property="og:description" content="Sam Clark's mountain biking and other activities">
+  <title>Samuel Clark - Mountain Bike+</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>
 

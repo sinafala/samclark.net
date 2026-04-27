@@ -6,6 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for software development related to methodological work in demography and epidemiology.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, software, R, R package, CRAN, Python, verbal autopsy, openVA, openVA Pipeline, InSilicoVA, pyCrossVA, epidemiology, demography.">
+  <meta property="og:title" content="Software">
+  <meta property="og:description" content="Sam Clark project: software">
   <title>Samuel Clark - Software</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>

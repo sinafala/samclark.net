@@ -6,7 +6,9 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for work on COVID-19 in the state of Ohio.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, COVID-19, Ohio.">
-  <title>Samuel Clark - COVID-19</title>
+  <meta property="og:title" content="COVID">
+  <meta property="og:description" content="Sam Clark project: COVID">
+  <title>Samuel Clark - COVID</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>
 

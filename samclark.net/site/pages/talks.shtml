@@ -6,6 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's news page.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, talks, presentations.">
+  <meta property="og:title" content="Talks/Presentations">
+  <meta property="og:description" content="Sam Clark's talks and presentations">
   <title>Samuel Clark - Talks/Presentations</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>

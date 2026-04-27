@@ -6,6 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for work on interviewer effects in surveys.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, survey, interviewer effects, bias.">
+  <meta property="og:title" content="Interviewer Effects">
+  <meta property="og:description" content="Sam Clark project: interviewer effects">
   <title>Samuel Clark - Interviewer Effects</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>

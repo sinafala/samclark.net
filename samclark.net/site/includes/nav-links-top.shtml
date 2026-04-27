@@ -1,15 +1,11 @@
 <div class="navbar">
 
   <div class="dropdown">
-    <a href="/index.shtml" target="_parent">
-      <!-- <span style="font-size: 15px;">&#9633;</span> -->
-      <span style="font-size: 13px;">SC</span>
-    </a>
+    <a href="/index.shtml" target="_parent" class="dropbtn">SC</a>
   </div>
 
   <div class="dropdown">
     <button class="dropbtn">Academic
-      <!-- <span style="font-size: 11px;">&#9660;</span> -->
       <span style="font-size: 15px;">&#9776;</span>
     </button>
     <div class="dropdown-content">
@@ -53,10 +49,9 @@
       <a onClick="window.location.reload()">Refresh</a>
     </div>
   </div>
-
-  <!-- Logo at far right -->
   <div class="navbar-logo">
     <img src="/site/media/thumbs/sam.jpg" alt="Sam">
+
   </div>
 
 </div>

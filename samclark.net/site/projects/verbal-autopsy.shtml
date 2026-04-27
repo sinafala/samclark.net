@@ -6,6 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's project page for work related to verbal autopsy cause of death ascertainment.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, verbal autopsy, openVA, InSilicoVA, openVA Pipeline, Africa, epidemiology, demography.">
+  <meta property="og:title" content="Verbal Autopsy">
+  <meta property="og:description" content="Sam Clark project: verbal autopsy (VA)">
   <title>Samuel Clark - Verbal Autopsy</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>
@@ -194,7 +196,7 @@
       <h1 id="gratuitous-critique">The gratuitous critique of InSilicoVA and our response  <a href="#beginning" class="back">&#x25B2;</a></h1>
 
       <p>
-        In 2018 several authors associated the Institute for Health Metrics and Evaluation (IHME) published a paper gratuitously attacking InSilicoVA - publication 1 below. They tested InSilicoVA using algorithm parameters set in such a way as to make it perform as poorly as possible, and based on results produced in that way, they concluded that InSilicoVA is flawed.
+        In 2018 several authors associated with the Institute for Health Metrics and Evaluation (IHME) published a paper gratuitously attacking InSilicoVA - publication 1 below. They tested InSilicoVA using algorithm parameters set in such a way as to make it perform as poorly as possible, and based on results produced in that way, they concluded that InSilicoVA is flawed.
       </p>
       <p>
         Our team replicated their work to discover what they had done and published a rebuttal explaining why InSilicoVA performed so poorly in their hands - publication 2 below.

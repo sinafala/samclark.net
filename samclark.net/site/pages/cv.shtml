@@ -6,6 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's CV.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, CV, Curriculum Vitae">
+  <meta property="og:title" content="CV">
+  <meta property="og:description" content="Sam Clark's CVs - full and short">
   <title>Samuel Clark - Links/Contacts</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>
