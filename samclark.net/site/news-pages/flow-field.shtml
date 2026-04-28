@@ -437,7 +437,7 @@
       <p>
         Another pattern we observe is in sex coherence &mdash; the degree to which
         forecast female and male mortality surfaces move in synchrony as time
-        advances. In the flow-field method, the joint Tucker decomposition<sup><a href="#ref-de-lathauwer-de-moor-vandewalle-2000">11</a></sup>
+        advances. In the flow-field method, the joint Tucker decomposition<sup><a href="#ref-tucker-1966">11</a></sup>
         shares the age basis across sexes by construction, while Lee&ndash;Carter
         and Hyndman&ndash;Ullah are typically fitted separately by sex (coherent
         multi-population variants do exist<sup><a href="#ref-li-lee-2005">5</a></sup>),
@@ -464,7 +464,7 @@
       <p>
         The full manuscript introduces the array-normal noise
         model<sup><a href="#ref-fosdick-hoff-2014">10</a></sup> and the Tucker
-        decomposition<sup><a href="#ref-de-lathauwer-de-moor-vandewalle-2000">11</a></sup>
+        decomposition<sup><a href="#ref-tucker-1966">11</a></sup>
         as its canonical estimator from first principles, develops the
         score-representation isometry that motivates a flow-on-subspace forecaster,
         and offers Lee&ndash;Carter, Hyndman&ndash;Ullah, and bayesLife/MortCast
@@ -554,17 +554,17 @@
           Statistics</em> 8(1): 120&ndash;147.
           <a href="https://doi.org/10.1214/13-AOAS694" target="_blank">doi:10.1214/13-AOAS694</a>
         </li>
-        <li id="ref-de-lathauwer-de-moor-vandewalle-2000">
-          De&nbsp;Lathauwer, L., De&nbsp;Moor, B. &amp; Vandewalle, J. (2000). A
-          multilinear singular value decomposition. <em>SIAM Journal on Matrix
-          Analysis and Applications</em> 21(4): 1253&ndash;1278.
-          <a href="https://doi.org/10.1137/S0895479896305696" target="_blank">doi:10.1137/S0895479896305696</a>
+        <li id="ref-tucker-1966">
+          Tucker, L.&nbsp;R. (1966). Some mathematical notes on three-mode
+          factor analysis. <em>Psychometrika</em> 31(3): 279&ndash;311.
+          <a href="https://doi.org/10.1007/BF02289464" target="_blank">doi:10.1007/BF02289464</a>
         </li>
         <li id="ref-un-wpp-2024">
           United Nations, Department of Economic and Social Affairs, Population
           Division (2024). <em>World Population Prospects 2024: Methodology of the
-          United Nations Population Estimates and Projections</em>.
+          United Nations population estimates and projections</em>.
           UN&nbsp;DESA/POP/2024/DC/NO.10.
+          <a href="https://population.un.org/wpp/assets/Files/WPP2024_Methodology-Report_Final.pdf" target="_blank">population.un.org/wpp/.../WPP2024_Methodology-Report_Final.pdf</a>
         </li>
         <li id="ref-basellini-camarda-booth-2023">
           Basellini, U., Camarda, C.&nbsp;G. &amp; Booth, H. (2023). Thirty years
