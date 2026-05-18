@@ -281,7 +281,7 @@
   <header>
     <!--#include virtual="/site/includes/nav-links-top.shtml" -->
     <div class="sam-title">
-      Mortality forecasting as a flow on the Tucker subspace
+      Flow-field Mortality Forecaster
     </div>
     <div class="sam-byline">
       Samuel J. Clark
@@ -294,18 +294,18 @@
 
       <p class="lead">
         Modern mortality forecasting follows two main traditions descended from
-        Lee &amp; Carter's seminal 1992 paper<sup><a href="#ref-lee-carter-1992">3</a></sup>.
+        Lee &amp; Carter's seminal 1992 paper [<a href="#ref-lee-carter-1992">1</a>].
         One decomposes age-by-time mortality into a few summary patterns and
         projects those patterns forward. The other models how fast life expectancy
         improves at each level of life expectancy. We argue that
-        <em class="hl">both can be viewed as restricted versions of a single
+        both can be viewed as restricted versions of a single
         underlying object</em>: a smooth trajectory through a low-dimensional summary
-        of mortality, derived from a multi-way decomposition of the
+        of mortality derived from a multi-way decomposition of the
         sex&nbsp;&times;&nbsp;age&nbsp;&times;&nbsp;country&nbsp;&times;&nbsp;year
         mortality array. The unrestricted version of this object is the
         <em>flow-field forecaster</em>. We compare it against the leading existing
-        methods on <em>two independent datasets (with some overlap) totaling roughly nine million
-        age-cell forecasts</em>. The early results are encouraging.
+        methods on two different high quality datasets totaling roughly nine million
+        age-cell forecasts. The early results are encouraging.
       </p>
 
       <hr class="sam-sep">
@@ -314,15 +314,15 @@
 
       <p>
         We tested four methods on two large mortality datasets: the flow-field; the
-        original Lee&ndash;Carter method<sup><a href="#ref-lee-carter-1992">3</a></sup>;
+        original Lee&ndash;Carter method [<a href="#ref-lee-carter-1992">1</a>];
         Hyndman &amp; Ullah's functional-data extension of
-        Lee&ndash;Carter<sup><a href="#ref-hyndman-ullah-2007">4</a></sup>; and the
-        bayesLife/MortCast pipeline<sup><a href="#ref-raftery-chunn-gerland-sevcikova-2013">7</a></sup>,<sup><a href="#ref-sevcikova-li-kantorova-gerland-raftery-2016">8</a></sup>
+        Lee&ndash;Carter [<a href="#ref-hyndman-ullah-2007">2</a>]; and the
+        bayesLife/MortCast pipeline [<a href="#ref-raftery-chunn-gerland-sevcikova-2013">3</a>], [<a href="#ref-sevcikova-li-kantorova-gerland-raftery-2016">4</a>]
         that the United Nations uses to produce its mortality
-        projections<sup><a href="#ref-un-wpp-2024">12</a></sup>. The Human Mortality
-        Database supplies 48 high-quality national populations and yielded 1.6
+        forecasts [<a href="#ref-un-wpp-2024">5</a>]. The Human Mortality
+        Database [<a href="#ref-hmd-2024">6</a>] supplies 48 high-quality national populations and yielded 1.6
         million held-out forecast cells in our cross-validation; the United Nations
-        World Population Prospects 2024 supplies 236 countries and yielded 7.4
+        World Population Prospects 2024 [<a href="#ref-un-wpp-data-2024">7</a>] supplies 236 countries and yielded 7.4
         million held-out cells. On both datasets, the flow-field had the lowest
         forecast error of the four methods on every measure we examined. These are
         working results from a manuscript in preparation, and we expect the picture
@@ -418,17 +418,17 @@
         <p>
           The bayesLife/MortCast pipeline forecasts life expectancy as a scalar,
           then reconstructs the age-specific schedule from the projected scalar
-          &mdash; an architecture chosen for maintain demographic interpretability and
+          &mdash; an architecture chosen to maintain demographic interpretability and
           computational tractability at global scale. A consequence we observe in
           our cross-validation is that information about the age pattern that has
           been compressed through the scalar bottleneck appears difficult to recover
-          at long horizons. At horizon-band 26&ndash;50 years for infant ages on
-          HMD, for example, the pipeline's mean log-MAE is about 1.17 with a
+          at long horizons. For example, at horizon-band 26&ndash;50 years for infant 
+          ages on HMD, the pipeline's mean log-MAE is about 1.17 with a
           positive bias of roughly 0.7 log-units. The flow-field, in which life
           expectancy is a derived quantity of the score-space trajectory rather than
-          its forecasting target, does not encounter this particular bottleneck.
-          Whether and where this tradeoff matters in practice is one of the
-          questions we hope to address in the full manuscript.
+          its forecasting target, does not encounter this bottleneck. Whether and
+          where this tradeoff matters in practice is one of the questions we hope to
+          address in the full manuscript.
         </p>
       </div>
 
@@ -437,12 +437,12 @@
       <p>
         Another pattern we observe is in sex coherence &mdash; the degree to which
         forecast female and male mortality surfaces move in synchrony as time
-        advances. In the flow-field method, the joint Tucker decomposition<sup><a href="#ref-tucker-1966">11</a></sup>
+        advances. In the flow-field method, the joint Tucker decomposition [<a href="#ref-tucker-1966">8</a>]
         shares the age basis across sexes by construction, while Lee&ndash;Carter
         and Hyndman&ndash;Ullah are typically fitted separately by sex (coherent
-        multi-population variants do exist<sup><a href="#ref-li-lee-2005">5</a></sup>),
+        multi-population variants and rotation extensions do exist [<a href="#ref-li-lee-2005">9</a>], [<a href="#ref-li-lee-gerland-2013">10</a>]),
         and bayesLife/MortCast handles the sex differential through a dedicated
-        joint female-male gap model<sup><a href="#ref-raftery-lalic-gerland-2014">9</a></sup>
+        joint female-male gap model [<a href="#ref-raftery-lalic-gerland-2014">11</a>]
         added on top of the level dynamics. Compared to the other methods, the flow-field's
         sex-gap correlation declines more slowly with horizon.
       </p>
@@ -463,20 +463,20 @@
 
       <p>
         The full manuscript introduces the array-normal noise
-        model<sup><a href="#ref-fosdick-hoff-2014">10</a></sup> and the Tucker
-        decomposition<sup><a href="#ref-tucker-1966">11</a></sup>
+        model [<a href="#ref-fosdick-hoff-2014">12</a>] and the Tucker
+        decomposition [<a href="#ref-tucker-1966">8</a>]
         as its canonical estimator from first principles, develops the
         score-representation isometry that motivates a flow-on-subspace forecaster,
         and offers Lee&ndash;Carter, Hyndman&ndash;Ullah, and bayesLife/MortCast
         readings as constrained or marginal cases of the same framework &mdash;
         three established and successful approaches that the framework helps to
         relate to one another (for a recent review of Lee&ndash;Carter and its
-        extensions, see<sup><a href="#ref-basellini-camarda-booth-2023">13</a></sup>).
+        extensions, see [<a href="#ref-basellini-camarda-booth-2023">13</a>]).
         It then reports the cross-validation comparisons sketched above. A draft is
         in preparation; a v1 of the empirical half is at
-        <a href="https://arxiv.org/abs/2603.24299" target="_blank">arXiv:2603.24299</a>,
+        <a href="https://arxiv.org/abs/2603.24299" target="_blank">arXiv:2603.24299</a> [<a href="#ref-clark-flowfield-2026">14</a>],
         and the underlying tensor-decomposition framework at
-        <a href="https://arxiv.org/abs/2603.20518" target="_blank">arXiv:2603.20518</a>.
+        <a href="https://arxiv.org/abs/2603.20518" target="_blank">arXiv:2603.20518</a> [<a href="#ref-clark-mdmx-2026">15</a>].
         A companion Shiny app implements and demonstrates the methods:
         <a href="https://samclark.shinyapps.io/mdmx" target="_blank">MDMx</a>.
       </p>
@@ -493,16 +493,6 @@
       <h1>References &amp; further reading</h1>
 
       <ol class="refs">
-        <li id="ref-clark-flowfield-2026">
-          Clark, S.&nbsp;J. (2026). Mortality forecasting as a flow field in Tucker
-          decomposition space. <em>arXiv:2603.24299</em>.
-          <a href="https://arxiv.org/abs/2603.24299" target="_blank">arxiv.org/abs/2603.24299</a>
-        </li>
-        <li id="ref-clark-mdmx-2026">
-          Clark, S.&nbsp;J. (2026). Multi-dimensional mortality.
-          <em>arXiv:2603.20518</em>.
-          <a href="https://arxiv.org/abs/2603.20518" target="_blank">arxiv.org/abs/2603.20518</a>
-        </li>
         <li id="ref-lee-carter-1992">
           Lee, R.&nbsp;D. &amp; Carter, L.&nbsp;R. (1992). Modeling and forecasting
           U.S.&nbsp;mortality. <em>Journal of the American Statistical
@@ -514,18 +504,6 @@
           mortality and fertility rates: A functional data approach.
           <em>Computational Statistics &amp; Data Analysis</em> 51(10): 4942&ndash;4956.
           <a href="https://doi.org/10.1016/j.csda.2006.07.028" target="_blank">doi:10.1016/j.csda.2006.07.028</a>
-        </li>
-        <li id="ref-li-lee-2005">
-          Li, N. &amp; Lee, R. (2005). Coherent mortality forecasts for a group of
-          populations: An extension of the Lee&ndash;Carter method.
-          <em>Demography</em> 42(3): 575&ndash;594.
-          <a href="https://doi.org/10.1353/dem.2005.0021" target="_blank">doi:10.1353/dem.2005.0021</a>
-        </li>
-        <li id="ref-li-lee-gerland-2013">
-          Li, N., Lee, R. &amp; Gerland, P. (2013). Extending the Lee&ndash;Carter
-          method to model the rotation of age patterns of mortality decline for
-          long-term projections. <em>Demography</em> 50(6): 2037&ndash;2051.
-          <a href="https://doi.org/10.1007/s13524-013-0232-2" target="_blank">doi:10.1007/s13524-013-0232-2</a>
         </li>
         <li id="ref-raftery-chunn-gerland-sevcikova-2013">
           Raftery, A.&nbsp;E., Chunn, J.&nbsp;L., Gerland, P. &amp;
@@ -542,6 +520,41 @@
           285&ndash;310. Springer.
           <a href="https://doi.org/10.1007/978-3-319-26603-9_15" target="_blank">doi:10.1007/978-3-319-26603-9_15</a>
         </li>
+        <li id="ref-un-wpp-2024">
+          United Nations, Department of Economic and Social Affairs, Population
+          Division (2024). <em>World Population Prospects 2024: Methodology of the
+          United Nations population estimates and projections</em>.
+          UN&nbsp;DESA/POP/2024/DC/NO.10.
+          <a href="https://population.un.org/wpp/assets/Files/WPP2024_Methodology-Report_Final.pdf" target="_blank">population.un.org/wpp/.../WPP2024_Methodology-Report_Final.pdf</a>
+        </li>
+        <li id="ref-hmd-2024">
+          Human Mortality Database (2026). Max Planck Institute for Demographic
+          Research (Germany), University of California, Berkeley (USA), and French
+          Institute for Demographic Studies (France).
+          <a href="https://www.mortality.org" target="_blank">www.mortality.org</a>
+        </li>
+        <li id="ref-un-wpp-data-2024">
+          United Nations, Department of Economic and Social Affairs, Population
+          Division (2024). <em>World Population Prospects 2024</em>, online edition.
+          <a href="https://population.un.org/wpp/" target="_blank">population.un.org/wpp/</a>
+        </li>
+        <li id="ref-tucker-1966">
+          Tucker, L.&nbsp;R. (1966). Some mathematical notes on three-mode
+          factor analysis. <em>Psychometrika</em> 31(3): 279&ndash;311.
+          <a href="https://doi.org/10.1007/BF02289464" target="_blank">doi:10.1007/BF02289464</a>
+        </li>
+        <li id="ref-li-lee-2005">
+          Li, N. &amp; Lee, R. (2005). Coherent mortality forecasts for a group of
+          populations: An extension of the Lee&ndash;Carter method.
+          <em>Demography</em> 42(3): 575&ndash;594.
+          <a href="https://doi.org/10.1353/dem.2005.0021" target="_blank">doi:10.1353/dem.2005.0021</a>
+        </li>
+        <li id="ref-li-lee-gerland-2013">
+          Li, N., Lee, R. &amp; Gerland, P. (2013). Extending the Lee&ndash;Carter
+          method to model the rotation of age patterns of mortality decline for
+          long-term projections. <em>Demography</em> 50(6): 2037&ndash;2051.
+          <a href="https://doi.org/10.1007/s13524-013-0232-2" target="_blank">doi:10.1007/s13524-013-0232-2</a>
+        </li>
         <li id="ref-raftery-lalic-gerland-2014">
           Raftery, A.&nbsp;E., Lalic, N. &amp; Gerland, P. (2014). Joint
           probabilistic projection of female and male life expectancy.
@@ -554,23 +567,21 @@
           Statistics</em> 8(1): 120&ndash;147.
           <a href="https://doi.org/10.1214/13-AOAS694" target="_blank">doi:10.1214/13-AOAS694</a>
         </li>
-        <li id="ref-tucker-1966">
-          Tucker, L.&nbsp;R. (1966). Some mathematical notes on three-mode
-          factor analysis. <em>Psychometrika</em> 31(3): 279&ndash;311.
-          <a href="https://doi.org/10.1007/BF02289464" target="_blank">doi:10.1007/BF02289464</a>
-        </li>
-        <li id="ref-un-wpp-2024">
-          United Nations, Department of Economic and Social Affairs, Population
-          Division (2024). <em>World Population Prospects 2024: Methodology of the
-          United Nations population estimates and projections</em>.
-          UN&nbsp;DESA/POP/2024/DC/NO.10.
-          <a href="https://population.un.org/wpp/assets/Files/WPP2024_Methodology-Report_Final.pdf" target="_blank">population.un.org/wpp/.../WPP2024_Methodology-Report_Final.pdf</a>
-        </li>
         <li id="ref-basellini-camarda-booth-2023">
           Basellini, U., Camarda, C.&nbsp;G. &amp; Booth, H. (2023). Thirty years
           on: A review of the Lee&ndash;Carter method for forecasting mortality.
           <em>International Journal of Forecasting</em> 39(3): 1033&ndash;1049.
           <a href="https://doi.org/10.1016/j.ijforecast.2022.11.002" target="_blank">doi:10.1016/j.ijforecast.2022.11.002</a>
+        </li>
+        <li id="ref-clark-flowfield-2026">
+          Clark, S.&nbsp;J. (2026). Mortality forecasting as a flow field in Tucker
+          decomposition space. <em>arXiv:2603.24299</em>.
+          <a href="https://arxiv.org/abs/2603.24299" target="_blank">arxiv.org/abs/2603.24299</a>
+        </li>
+        <li id="ref-clark-mdmx-2026">
+          Clark, S.&nbsp;J. (2026). Multi-dimensional mortality.
+          <em>arXiv:2603.20518</em>.
+          <a href="https://arxiv.org/abs/2603.20518" target="_blank">arxiv.org/abs/2603.20518</a>
         </li>
       </ol>
 
