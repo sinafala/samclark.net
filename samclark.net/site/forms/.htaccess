@@ -1,0 +1,27 @@
+# ==============================================================================
+# .htaccess — /site/forms/
+# ------------------------------------------------------------------------------
+# Enables Server Side Includes for .shtml in this directory (DreamHost does not
+# always enable SSI in newly created folders), and applies light hardening.
+#
+# NOTE: feedback.shtml is deliberately self-contained and does NOT rely on SSI,
+# so the form works even if these directives are ignored. They are here so that
+# any future .shtml form pages in this folder can use the shared includes.
+# ==============================================================================
+
+# --- Enable SSI parsing for .shtml ---
+Options +Includes
+AddType text/html .shtml
+AddHandler server-parsed .shtml
+
+# --- Default document, if someone browses to /site/forms/ ---
+DirectoryIndex feedback.shtml
+
+# --- Do not allow directory listings here ---
+Options -Indexes
+
+# --- Never serve any credentials/config file over HTTP (defense in depth) ---
+# The real config lives ABOVE the web root, but block these names just in case.
+<FilesMatch "^feedback-config.*\.php$">
+  Require all denied
+</FilesMatch>

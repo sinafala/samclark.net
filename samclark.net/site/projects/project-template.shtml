@@ -8,7 +8,7 @@
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, Africa, epidemiology, demography, ####.">
   <meta property="og:title" content="####">
   <meta property="og:description" content="Sam Clark project: ####">
-  <title>Samuel Clark - ######## </title>
+  <title>Samuel Clark - ########</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>
 
@@ -18,42 +18,28 @@
 
   <header>
     <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-    <div class="sam-title">
-      ### Study Name
-    </div>
+    <div class="sam-title">### Study Name</div>
   </header>
 
   <main>
 
     <div class="sam-block">
 
-      <p>
-        #### This is ...
-      </p>
+      <p>#### This is ...</p>
 
-      <p>
-        #### Here are some links
-      </p>
+      <p>#### Here are some links</p>
 
       <ul>
-        <li>
-          <a href="/site/cv/pdfs/.pdf" target="_blank">XXX</a>
-        </li>
-        <li>
-          <a href="/site/cv/pdfs/.pdf" target="_blank">XXX</a>
-        </li>
-        <li>
-          <a href="/site/cv/pdfs/.pdf" target="_blank">XXX</a>
-        </li>
+        <li><a href="/site/cv/pdfs/.pdf" target="_blank">XXX</a></li>
+        <li><a href="/site/cv/pdfs/.pdf" target="_blank">XXX</a></li>
+        <li><a href="/site/cv/pdfs/.pdf" target="_blank">XXX</a></li>
       </ul>
 
     </div>
 
   </main>
 
-  <footer>
-    <!--#include virtual="/site/includes/bottom.shtml" -->
-  </footer>
+  <footer><!--#include virtual="/site/includes/bottom.shtml" --></footer>
 
 </div>
 </body>

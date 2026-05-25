@@ -1,10 +1,15 @@
 <hr class="nav-bottom">
-<div class="sam-note-bottom">
-Copyright 2020-2026 by Samuel J. Clark; all rights reserved.
-<br>
-
-<!-- UPDATE THIS -->
-Updated 2026-04-30
-<!-- UPDATE THIS -->
+<div class="sam-footer">
+  <div class="sam-footer-left">
+    Copyright 2020-2026; Samuel J. Clark; all rights reserved <br>
+    <!-- UPDATE THIS -->
+    Updated 2026-05-23
+    <!-- UPDATE THIS -->
+  </div>
+  <!--#if expr="v('hide_feedback_btn') != '1'" -->
+  <div class="sam-footer-right">
+    <a class="sam-feedback-btn" href="/site/forms/feedback.shtml" target="_parent">Send Feedback</a>
+  </div>
+  <!--#endif -->
 
 </div>

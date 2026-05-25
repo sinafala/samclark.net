@@ -18,9 +18,7 @@
 
   <header>
     <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-    <div class="sam-title">
-      CV
-    </div>
+    <div class="sam-title">CV</div>
   </header>
 
   <main>
@@ -29,23 +27,23 @@
 
       <div class="sam-links-list">
         <a href="/site/cv/Samuel-Clark_CV.pdf?ver=15" target="_blank">Full CV - PDF with Links</a>
-        <div class="sam-note">Updated 2026-02-20</div>
+        <div class="sam-note">Updated <!--#include virtual="/site/cv/cv-updated-date.txt" --></div>
       </div>
 
       <div class="sam-links-list">
-        <a href="/site/cv/Samuel-Clark_CV-short.pdf?ver=15" target="_blank">Abridged CV - PDF with Links</a>
-        <div class="sam-note">Updated 2026-02-20</div>
+        <a href="/site/cv/Samuel-Clark_CV-short.pdf?ver=15" target="_blank">Abridged CV - PDF with
+        Links</a>
+        <div class="sam-note">Updated <!--#include virtual="/site/cv/cv-updated-date.txt" --></div>
       </div>
 
       <!-- <div class="pdf-onepage">
-        <div id="pdfHost">
-          <canvas id="pdfCanvas"></canvas>
-        </div>
+      <div id="pdfHost">
+      <canvas id="pdfCanvas"></canvas>
+      </div>
       </div> -->
 
       <div class="sam-image">
-        <a href="/site/media/fullsize/Pendleton2025.jpg" target="_blank">
-          <img class="mtb" title="Saguaro cactus, Arizona" alt="Saguaro cactus, Arizona" src="/site/media/thumbs/Pendleton2025.jpg"></a>
+        <a href="/site/media/fullsize/Pendleton2025.jpg" target="_blank"><img class="mtb" title="Saguaro cactus, Arizona" alt="Saguaro cactus, Arizona" src="/site/media/thumbs/Pendleton2025.jpg"></a>
         Pendleton, OR Back Roads, 2025
       </div>
 
@@ -53,9 +51,7 @@
 
   </main>
 
-  <footer>
-    <!--#include virtual="/site/includes/bottom.shtml" -->
-  </footer>
+  <footer><!--#include virtual="/site/includes/bottom.shtml" --></footer>
 
 </div>
 </body>

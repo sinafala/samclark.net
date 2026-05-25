@@ -12,4 +12,8 @@ Disallow: /site/search/
 Disallow: /site/pages/TEMPLATE.shtml
 Disallow: /site/projects/project-template.shtml
 
+# Block the feedback form and its handler
+Disallow: /site/forms/feedback.shtml
+Disallow: /site/forms/feedback.php
+
 Sitemap: https://samclark.net/sitemap.xml

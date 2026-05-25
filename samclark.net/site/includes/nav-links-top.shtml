@@ -1,56 +1,42 @@
 <div class="navbar">
 
-  <div class="dropdown">
-    <a href="/index.shtml" target="_parent" class="dropbtn">SC</a>
+  <div class="dropdown navbar-home">
+    <a href="/index.shtml" target="_parent" class="dropbtn" aria-label="Home"><img src="/site/media/thumbs/sam.jpg" alt="Home"></a>
   </div>
 
-  <div class="dropdown">
-    <button class="dropbtn">Academic
-      <span style="font-size: 15px;">&#9776;</span>
-    </button>
-    <div class="dropdown-content">
-      <a href="/site/pages/cv.shtml" target="_parent">CV</a>
-      <a href="/site/pages/bibliography.shtml" target="_parent">Bibliography</a>
-      <a href="/site/pages/projects.shtml" target="_parent">Projects</a>
-      <a href="/site/pages/talks.shtml" target="_parent">Talks</a>
-      <a href="/site/projects/software.shtml" target="_parent">Software</a>
-    </div>
-  </div>
+  <!-- Middle group: spread evenly across the space between home and logo. -->
+  <div class="navbar-mid">
 
-  <div class="dropdown">
-    <button class="dropbtn">VA
-      <span style="font-size: 15px;">&#9776;</span>
-    </button>
-    <div class="dropdown-content">
-      <a href="/site/projects/verbal-autopsy.shtml" target="_parent">Verbal Autopsy</a>
-      <a href="/site/projects/rda.shtml" target="_parent">Reference Data Archive (RDA)</a>
-      <a href="https://openva.net" target="_parent">openVA Team</a>
+    <div class="dropdown">
+      <button class="dropbtn">Academic</button>
+      <div class="dropdown-content">
+        <a href="/site/pages/cv.shtml" target="_parent">CV</a><a href="/site/pages/bibliography.shtml" target="_parent">Bibliography</a><a href="/site/pages/projects.shtml" target="_parent">Projects</a><a href="/site/pages/talks.shtml" target="_parent">Talks</a><a href="/site/projects/software.shtml" target="_parent">Software</a>
+      </div>
     </div>
-  </div>
 
-  <div class="dropdown">
-    <button class="dropbtn">Personal
-      <span style="font-size: 15px;">&#9776;</span>
-    </button>
-    <div class="dropdown-content">
-      <a href="/site/pages/mtb.shtml" target="_parent">Mountain Biking, etc.</a>
-      <a href="/site/pages/biography.shtml" target="_parent">Biography</a>
+    <div class="dropdown">
+      <button class="dropbtn">VA</button>
+      <div class="dropdown-content">
+        <a href="/site/projects/verbal-autopsy.shtml" target="_parent">Verbal
+        Autopsy</a><a href="/site/projects/rda.shtml" target="_parent">Reference Data Archive
+        (RDA)</a><a href="https://openva.net" target="_parent">openVA Team</a>
+      </div>
     </div>
-  </div>
 
-  <div class="dropdown">
-    <button class="dropbtn">News+
-      <span style="font-size: 15px;">&#9776;</span>
-    </button>
-    <div class="dropdown-content">
-      <a href="/site/pages/news.shtml" target="_parent">News</a>
-      <a href="/site/pages/links-contacts.shtml" target="_parent">Links</a>
-      <a href="/site/search/search.shtml" target="_parent">Search</a>
-      <a onClick="window.location.reload()">Refresh</a>
+    <div class="dropdown">
+      <button class="dropbtn">Personal</button>
+      <div class="dropdown-content">
+        <a href="/site/pages/mtb.shtml" target="_parent">Mountain Biking,
+        etc.</a><a href="/site/pages/biography.shtml" target="_parent">Biography</a>
+      </div>
     </div>
-  </div>
-  <div class="navbar-logo">
-    <img src="/site/media/thumbs/sam.jpg" alt="Sam">
+
+    <div class="dropdown">
+      <button class="dropbtn">News+</button>
+      <div class="dropdown-content">
+        <a href="/site/pages/news.shtml" target="_parent">News</a><a href="/site/pages/links-contacts.shtml" target="_parent">Links</a><a href="/site/search/search.shtml" target="_parent">Search</a><a href="/site/forms/feedback.shtml" target="_parent">Feedback</a><a onClick="window.location.reload()">Refresh</a>
+      </div>
+    </div>
 
   </div>
 

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta name="author" content="Samuel J. Clark">
+  <meta name="description" content="Send feedback to Samuel J. Clark.">
+  <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, feedback, contact">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="Feedback">
+  <meta property="og:description" content="Send feedback to Samuel J. Clark.">
+  <title>Feedback - Samuel J. Clark</title>
+  <!--#include virtual="/site/includes/header.html" -->
+</head>
+
+<body>
+
+<div class="container">
+
+  <header>
+    <!--#include virtual="/site/includes/nav-links-top.shtml" -->
+    <div class="sam-title">Feedback</div>
+  </header>
+
+  <main>
+
+    <div class="sam-block">
+
+      <p style="text-align: left;">
+        Have a comment, correction, or question? Type it below and click <em>Submit</em>. You will
+        be returned to the home page when you are done.
+      </p>
+
+      <!-- The form has NO action in the markup. JavaScript attaches the
+      POST target at runtime so that scrapers reading the static HTML
+      never see an endpoint to hammer. -->
+      <form class="feedback-form" id="feedback-form" method="post" novalidate>
+
+        <label for="fb-message">Your message</label>
+        <textarea id="fb-message" name="message" required
+                  placeholder="Type your feedback here...">
+
+        </textarea>
+
+        <label for="fb-email">
+          Your email <span class="feedback-optional">(optional &mdash; only if you would like a
+          reply)</span>
+        </label>
+        <input type="email" id="fb-email" name="email" autocomplete="email"
+               placeholder="you@example.com">
+
+        <!-- Honeypot. A human never sees this; a bot fills it in and is
+        silently rejected by the server. -->
+        <div class="feedback-hp" aria-hidden="true">
+          <label for="fb-website">Leave this field empty</label>
+          <input type="text" id="fb-website" name="website" tabindex="-1" autocomplete="off">
+        </div>
+
+        <!-- Timestamp planted by JS at load. The server rejects anything
+        submitted implausibly fast (i.e. by a bot). -->
+        <input type="hidden" id="fb-loaded" name="loaded_at" value="">
+
+        <div class="feedback-actions">
+          <button type="submit" class="feedback-btn" id="fb-submit">Submit</button>
+        </div>
+
+        <!-- <p class="feedback-note">
+        Your message goes straight to Sam. No tracking, no list, no third party.
+        </p> -->
+
+      </form>
+
+      <div class="feedback-status" id="fb-status" role="status" aria-live="polite"></div>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <!-- We are already on the feedback page, so suppress the
+    "Send Feedback" button that bottom.shtml normally renders. -->
+    <!--#set var="hide_feedback_btn" value="1" -->
+    <!--#include virtual="/site/includes/bottom.shtml" -->
+  </footer>
+
+</div>
+
+<script>
+  (function () {
+    var form    = document.getElementById('feedback-form');
+    var statusEl = document.getElementById('fb-status');
+    var submitBtn = document.getElementById('fb-submit');
+    var loadedAt = document.getElementById('fb-loaded');
+
+    // Stamp the load time so the handler can measure how long the human
+    // spent on the page. Bots that POST instantly get filtered.
+    loadedAt.value = Date.now();
+
+    // Attach the endpoint at runtime. Assembled in pieces so it is not a
+    // plain string sitting in the page source for scrapers to grab.
+    var ENDPOINT = ['/site', 'forms', 'feedback.php'].join('/');
+
+    function setStatus(msg, kind) {
+      statusEl.textContent = msg;
+      statusEl.className = 'feedback-status' + (kind ? ' ' + kind : '');
+    }
+
+    // After a successful submit, send the visitor to the home page.
+    function goToIndex() {
+      setTimeout(function () {
+        window.location.href = '/index.shtml';
+      }, 1000);
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      var message = form.message.value.trim();
+      if (!message) {
+        setStatus('Please type a message before submitting.', 'error');
+        form.message.focus();
+        return;
+      }
+
+      submitBtn.disabled = true;
+      setStatus('Sending...', '');
+
+      var data = new FormData(form);
+
+      fetch(ENDPOINT, {
+        method: 'POST',
+        body: data,
+        headers: { 'X-Requested-With': 'fetch' }
+      })
+      .then(function (r) { return r.json().catch(function () { return { ok: r.ok }; }); })
+      .then(function (res) {
+        if (res && res.ok) {
+          setStatus('Thank you! Your feedback was sent. Returning...', 'ok');
+          goToIndex();
+        } else {
+          submitBtn.disabled = false;
+          setStatus((res && res.error) ? res.error : 'Sorry, something went wrong. Please try again.', 'error');
+        }
+      })
+      .catch(function () {
+        submitBtn.disabled = false;
+        setStatus('Sorry, the message could not be sent. Please try again later.', 'error');
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>

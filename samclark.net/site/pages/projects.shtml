@@ -18,9 +18,7 @@
 
   <header>
     <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-    <div class="sam-title">
-      Projects
-    </div>
+    <div class="sam-title">Projects</div>
   </header>
 
   <main>
@@ -36,9 +34,7 @@
         <li>
           <a href="/site/projects/rda.shtml" target="_parent"><b>Reference Death Archive</b></a>
         </li>
-        <li>
-          <a href="https://openva.net" target="_blank"><b>openVA Team</b></a>
-        </li>
+        <li><a href="https://openva.net" target="_blank"><b>openVA Team</b></a></li>
       </ul>
 
       <h1>Software</h1>
@@ -52,16 +48,15 @@
       <h1>COVID-19</h1>
 
       <ul>
-        <li>
-          <a href="/site/projects/COVID-19.shtml" target="_parent">COVID-19 in Ohio</a>
-        </li>
+        <li><a href="/site/projects/COVID-19.shtml" target="_parent">COVID-19 in Ohio</a></li>
       </ul>
 
       <h1>Africa</h1>
 
       <ul>
         <li>
-          <a href="/site/projects/africa-epidemiology-demography.shtml" target="_parent">Africa: Epidemiology and Demography</a>
+          <a href="/site/projects/africa-epidemiology-demography.shtml" target="_parent">Africa:
+          Epidemiology and Demography</a>
         </li>
         <li>
           <a href="/site/projects/orphan-mortality.shtml" target="_parent">Orphan Mortality</a>
@@ -71,20 +66,21 @@
       <h1>Methods</h1>
 
       <ul>
-        <li>
-          <a href="/site/projects/methods.shtml" target="_parent">Methods</a>
-        </li>
+        <li><a href="/site/projects/methods.shtml" target="_parent">Methods</a></li>
         <li>
           <a href="/site/projects/data-methods.shtml" target="_parent">Data Methods - SPEHR</a>
         </li>
         <li>
-          <a href="/site/projects/interviewer-effects.shtml" target="_parent">Interviewer Effects</a>
+          <a href="/site/projects/interviewer-effects.shtml" target="_parent">Interviewer
+          Effects</a>
         </li>
         <li>
-          <a href="/site/projects/indirect-estimates.shtml" target="_parent">Indirect Estimates of Mortality</a>
+          <a href="/site/projects/indirect-estimates.shtml" target="_parent">Indirect Estimates of
+          Mortality</a>
         </li>
         <li>
-          <a href="/site/projects/small-area-estimates.shtml" target="_parent">Small-area Estimates of Mortality</a>
+          <a href="/site/projects/small-area-estimates.shtml" target="_parent">Small-area Estimates
+          of Mortality</a>
         </li>
       </ul>
 
@@ -92,9 +88,7 @@
 
   </main>
 
-  <footer>
-    <!--#include virtual="/site/includes/bottom.shtml" -->
-  </footer>
+  <footer><!--#include virtual="/site/includes/bottom.shtml" --></footer>
 
 </div>
 </body>

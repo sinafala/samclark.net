@@ -1,5 +1,6 @@
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZTB067ECY"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZTB067ECY">
+</script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -17,7 +18,7 @@
 <meta property="og:image" content="https://samclark.net/site/media/fullsize/sam.jpg">
 <meta property="og:locale" content="en_US">
 <!-- CSS -->
-<link rel="stylesheet" type="text/css" href="/site/css/sam-styles.css?ver=43">
+<link rel="stylesheet" type="text/css" href="/site/css/sam-styles.css?ver=58">
 <!-- MathJax -->
 <script id="MathJax-script"
 async
@@ -31,3 +32,18 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 <link rel="manifest" href="/site/media/favicons/site.webmanifest?v=20260405" />
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Safari's bfcache restores pages with a stale paint that does not
+respect the current `body { zoom }` value. When the browser brings
+a page back from the back/forward cache, tickle body.zoom to force
+a repaint at the right scale. -->
+<script>
+  window.addEventListener('pageshow', function (e) {
+    if (e.persisted) {
+      var b = document.body;
+      var z = window.getComputedStyle(b).zoom;
+      b.style.zoom = '1';
+      void b.offsetHeight;       /* force reflow */
+      b.style.zoom = z || '';
+    }
+  });
+</script>

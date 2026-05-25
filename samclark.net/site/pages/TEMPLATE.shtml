@@ -7,7 +7,7 @@
   <meta name="description" content="description">
   <meta name="keywords" content="keyword1, keyword2">
   <meta property="og:title" content="title">
-  <meta property="og:description" content="description">  
+  <meta property="og:description" content="description">
   <title>Title</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>
@@ -18,24 +18,16 @@
 
   <header>
     <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-    <div class="sam-title">
-      Page Title
-    </div>
+    <div class="sam-title">Page Title</div>
   </header>
 
   <main>
 
-    <div class="sam-block">
-
-      ... content ...
-
-    </div>
+    <div class="sam-block">... content ...</div>
 
   </main>
 
-  <footer>
-    <!--#include virtual="/site/includes/bottom.shtml" -->
-  </footer>
+  <footer><!--#include virtual="/site/includes/bottom.shtml" --></footer>
 
 </div>
 </body>

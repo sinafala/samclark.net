@@ -18,9 +18,7 @@
 
   <header>
     <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-    <div class="sam-title">
-      Software
-    </div>
+    <div class="sam-title">Software</div>
   </header>
 
   <main>
@@ -28,67 +26,93 @@
     <div class="sam-block">
 
       <p>
-        I aim to provide working software for the methods I develop, and more recently to provide replication material for publications. This is a list of what's available so far. Except for the SUMMER package, I have led the teams creating this software, but in many cases, other individuals are primarily responsible for writing and maintaining it.
+        I aim to provide working software for the methods I develop, and more recently to provide
+        replication material for publications. This is a list of what's available so far. Except for
+        the SUMMER package, I have led the teams creating this software, but in many cases, other
+        individuals are primarily responsible for writing and maintaining it.
       </p>
 
       <h1>SVD-Comp Mortality Model</h1>
 
       <p>
-        The R package implementing my <a href="https://github.com/sinafala/svd-comp" target="_blank">SVD-Comp mortality model</a> published in <a href="https://doi.org/10.1007/s13524-019-00785-3" target="_blank">Demography</a> is on CRAN as <a href="https://cran.r-project.org/web/packages/SVDMx/index.html" target="_blank">'SVDMx'</a>.
+        The R package implementing my
+        <a href="https://github.com/sinafala/svd-comp" target="_blank">SVD-Comp mortality model</a>
+        published in
+        <a href="https://doi.org/10.1007/s13524-019-00785-3" target="_blank">Demography</a> is on
+        CRAN as
+        <a href="https://cran.r-project.org/web/packages/SVDMx/index.html" target="_blank">'SVDMx'</a>.
       </p>
 
       <h1>Verbal Autopsy</h1>
 
       <p>
-        Software has been developed to implement InSilicoVA including R packages and universal executables delivered in a Docker container.  This is <a href="http://openva.net" target="_blank">openVA</a> and has been developed by a team including <a href="https://zehangli.com" target="_blank">Richard Li</a>, <a href="https://jarathomas.github.io/index.html" target="_blank">Jason Thomas</a>, <a href="https://www.eungangchoi.com" target="_blank">Peter Choi</a>, <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, and myself, with increasing help from <a href="https://y-chu.github.io" target="_blank">Yue Chu</a>.
+        Software has been developed to implement InSilicoVA including R packages and universal
+        executables delivered in a Docker container. This is
+        <a href="http://openva.net" target="_blank">openVA</a> and has been developed by a team
+        including <a href="https://zehangli.com" target="_blank">Richard Li</a>,
+        <a href="https://jarathomas.github.io/index.html" target="_blank">Jason Thomas</a>,
+        <a href="https://www.eungangchoi.com" target="_blank">Peter Choi</a>,
+        <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, and myself,
+        with increasing help from <a href="https://y-chu.github.io" target="_blank">Yue Chu</a>.
       </p>
       <p>
         For more information or help using the openVA tools, contact us using these email addresses:
       </p>
       <ul>
-        <li>
-          <a href="mailto:info@openva.net">info@openva.net</a>
-        </li>
-        <li>
-          <a href="mailto:help@openva.net">help@openva.net</a>
-        </li>
+        <li><a href="mailto:info@openva.net">info@openva.net</a></li>
+        <li><a href="mailto:help@openva.net">help@openva.net</a></li>
       </ul>
 
       <h2>Reference Data Archive</h2>
 
       <p>
-        The Reference Data Archive (RDA) is a data resource hosted at the WHO that was created and is operated by the <a href="https://openva.net" target="_blank">openVA Team</a> and the WHO Department of Data, Digital Health, Analytics and AI (DDA): <a href="https://data.who.int/rda" target="_blank"><b>https://data.who.int/rda</b></a>. The RDA's primary function is to accumulate reference deaths to train, validate, and contribute to operating automated cause-coding systems for verbal autopsy. There is a full description at the <a href="/site/projects/rda.shtml" target="_blank">RDA page</a>.
+        The Reference Data Archive (RDA) is a data resource hosted at the WHO that was created and
+        is operated by the <a href="https://openva.net" target="_blank">openVA Team</a> and the WHO
+        Department of Data, Digital Health, Analytics and AI (DDA):
+        <a href="https://data.who.int/rda" target="_blank"><b>https://data.who.int/rda</b></a>. The
+        RDA's primary function is to accumulate reference deaths to train, validate, and contribute
+        to operating automated cause-coding systems for verbal autopsy. There is a full description
+        at the <a href="/site/projects/rda.shtml" target="_blank">RDA page</a>.
       </p>
 
       <h2>pyOpenVA</h2>
 
       <p>
-        To make the VA cause-coding algorithms fast and easily available using a familiar interface, we have created <em><a href="https://github.com/verbal-autopsy-software/pyopenva_GUI/" target="_blank">pyOpenVA</a></em>. This is standard (i.e. non-research) software that installs using a traditional installer, does not require supporting software (e.g. R, Java, etc.) to be installed on your computer, and operates through a graphical user interface. pyOpenVA is written in Python and C++ so it is fast.
+        To make the VA cause-coding algorithms fast and easily available using a familiar interface,
+        we have created
+        <em><a href="https://github.com/verbal-autopsy-software/pyopenva_GUI/" target="_blank">pyOpenVA</a></em>.
+        This is standard (i.e. non-research) software that installs using a traditional installer,
+        does not require supporting software (e.g. R, Java, etc.) to be installed on your computer,
+        and operates through a graphical user interface. pyOpenVA is written in Python and C++ so it
+        is fast.
       </p>
 
       <h2>Key VA Software</h2>
 
       <ul>
+        <li><a href="http://openva.net" target="_blank">Main openVA site</a></li>
         <li>
-          <a href="http://openva.net" target="_blank">Main openVA site</a>
-        </li>
-        <li>
-          <a href="https://github.com/verbal-autopsy-software/pyopenva_GUI/releases" target="_blank">pyOpenVA</a> - 'Assets' contains installers for Windows and MacOS
+          <a href="https://github.com/verbal-autopsy-software/pyopenva_GUI/releases" target="_blank">pyOpenVA</a>
+          - 'Assets' contains installers for Windows and MacOS
         </li>
         <li>
           <a href="https://cran.r-project.org/package=openVA" target="_blank">openVA R Package</a>
         </li>
         <li>
-          <a href="https://github.com/verbal-autopsy-software/openVA_App/releases" target="_blank">openVA App</a>
+          <a href="https://github.com/verbal-autopsy-software/openVA_App/releases" target="_blank">openVA
+          App</a>
         </li>
         <li>
-          <a href="https://youtu.be/C2EPOpTzJTk" target="_blank">Video for installation of openVA App</a>
+          <a href="https://youtu.be/C2EPOpTzJTk" target="_blank">Video for installation of openVA
+          App</a>
         </li>
         <li>
-          <a href="https://youtu.be/K1wkSbTwxkg" target="_blank">Video for example analysis using openVA App</a>
+          <a href="https://youtu.be/K1wkSbTwxkg" target="_blank">Video for example analysis using
+          openVA App</a>
         </li>
         <li>
-          <a href="https://github.com/verbal-autopsy-software" target="_blank">All VA software on GitHub</a>
+          <a href="https://github.com/verbal-autopsy-software" target="_blank">All VA software on
+          GitHub</a>
         </li>
       </ul>
 
@@ -96,52 +120,74 @@
 
       <ul>
         <li>
-          <a href="https://cran.r-project.org/package=InterVA4" target="_blank">InterVA4: Replicate and Analyse 'InterVA4'</a>
+          <a href="https://cran.r-project.org/package=InterVA4" target="_blank">InterVA4: Replicate
+          and Analyse 'InterVA4'</a>
         </li>
         <li>
-          <a href="https://cran.r-project.org/package=InterVA5" target="_blank">InterVA5: Replicate and Analyse 'InterVA5'</a>
+          <a href="https://cran.r-project.org/package=InterVA5" target="_blank">InterVA5: Replicate
+          and Analyse 'InterVA5'</a>
         </li>
         <li>
-          <a href="https://cran.r-project.org/package=InSilicoVA" target="_blank">InSilicoVA: Probabilistic Verbal Autopsy Coding with 'InSilicoVA' Algorithm</a>
+          <a href="https://cran.r-project.org/package=InSilicoVA" target="_blank">InSilicoVA:
+          Probabilistic Verbal Autopsy Coding with 'InSilicoVA' Algorithm</a>
         </li>
         <li>
-          <a href="https://cran.r-project.org/package=CrossVA" target="_blank">CrossVA: Verbal Autopsy Data Transformation for InSilicoVA and InterVA5 Algorithms</a>
+          <a href="https://cran.r-project.org/package=CrossVA" target="_blank">CrossVA: Verbal
+          Autopsy Data Transformation for InSilicoVA and InterVA5 Algorithms</a>
         </li>
         <li>
-          <a href="https://cran.r-project.org/package=Tariff" target="_blank">Tariff: Replicate Tariff Method for Verbal Autopsy</a>
+          <a href="https://cran.r-project.org/package=Tariff" target="_blank">Tariff: Replicate
+          Tariff Method for Verbal Autopsy</a>
         </li>
         <li>
           <a href="https://github.com/verbal-autopsy-software/openva_pipeline" target="_blank">OpenVA_Pipeline</a>
         </li>
         <li>
-          <a href="https://github.com/sinafala/model-va-algorithms" target="_blank">Model Verbal Autopsy (VA) Algorithms</a>
+          <a href="https://github.com/sinafala/model-va-algorithms" target="_blank">Model Verbal
+          Autopsy (VA) Algorithms</a>
         </li>
       </ul>
 
-      <h1>Replication Material for <a href="http://dx.doi.org/10.1007/s13524-019-00785-3" target="_blank">SVD-Comp Mortality Model</a></h1>
+      <h1>
+        Replication Material for
+        <a href="http://dx.doi.org/10.1007/s13524-019-00785-3" target="_blank">SVD-Comp Mortality
+        Model</a>
+      </h1>
 
       <ul>
         <li>
-          <a href="https://github.com/sinafala/svd-comp" target="_blank">SVD-Component Mortality Model using Child or Child/Adult Mortality as Inputs</a>
+          <a href="https://github.com/sinafala/svd-comp" target="_blank">SVD-Component Mortality
+          Model using Child or Child/Adult Mortality as Inputs</a>
         </li>
       </ul>
 
-      <h1>Replication Material for <a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">COVID-19 Prevalence Method</a></h1>
+      <h1>
+        Replication Material for
+        <a href="https://doi.org/10.1073/pnas.2023947118" target="_blank">COVID-19 Prevalence
+        Method</a>
+      </h1>
 
       <ul>
         <li>
-          <a href="https://github.com/sinafala/bayes-prevalence" target="_blank">Bayes Prevalence: Bayesian, model-based method to estimate prevalence of COVID-19 from survey with multiple imperfect tests</a>
+          <a href="https://github.com/sinafala/bayes-prevalence" target="_blank">Bayes Prevalence:
+          Bayesian, model-based method to estimate prevalence of COVID-19 from survey with multiple
+          imperfect tests</a>
         </li>
       </ul>
 
       <h1>Small-area Estimates from Complex Survey Data</h1>
 
       <div>
-      This project started off with me and has since become one of <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a>'s main activities, and he has led work on the SUMMER package. <a href="https://zehangli.com" target="_blank">Richard Li</a> is primarily responsible for the code.
+        This project started off with me and has since become one of
+        <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a>'s main
+        activities, and he has led work on the SUMMER package.
+        <a href="https://zehangli.com" target="_blank">Richard Li</a> is primarily responsible for
+        the code.
       </div>
       <ul>
         <li>
-          <a href="https://cran.r-project.org/package=SUMMER" target="_blank">SUMMER: Spatio-Temporal Under-Five Mortality Methods for Estimation</a>
+          <a href="https://cran.r-project.org/package=SUMMER" target="_blank">SUMMER:
+          Spatio-Temporal Under-Five Mortality Methods for Estimation</a>
         </li>
       </ul>
 
@@ -149,33 +195,43 @@
 
       <ul>
         <li>
-          <a href="https://github.com/sinafala/usa-mortality" target="_blank">Download and parse USA mortality data from usa.mortality.org</a>
+          <a href="https://github.com/sinafala/usa-mortality" target="_blank">Download and parse USA
+          mortality data from usa.mortality.org</a>
         </li>
         <li>
-          Web sites are most useful when they are updated frequently. After experimenting with several web design tools to help design the site and automate updates, I wasn't able to find any that gave me the design flexibility I wanted, automated updates, and general robustness. So, I decided to write a super simple site from scratch in plain HTML and CSS and use git with a hook to completely automate backup, file management, and updating of the live site. Together, these approaches make updating the site super easy, fast, flexible, and robust. In case you're interested, here's the <a href="https://github.com/sinafala/samclark.net" target="_blank">source code for this website</a>, and a <a href="https://samclark.net/site/pages/news.shtml#2022-04-28" target="_blank">tutorial on setting up the git feature</a>.
+          Web sites are most useful when they are updated frequently. After experimenting with
+          several web design tools to help design the site and automate updates, I wasn't able to
+          find any that gave me the design flexibility I wanted, automated updates, and general
+          robustness. So, I decided to write a super simple site from scratch in plain HTML and CSS
+          and use git with a hook to completely automate backup, file management, and updating of
+          the live site. Together, these approaches make updating the site super easy, fast,
+          flexible, and robust. In case you're interested, here's the
+          <a href="https://github.com/sinafala/samclark.net" target="_blank">source code for this
+          website</a>, and a
+          <a href="https://samclark.net/site/pages/news.shtml#2022-04-28" target="_blank">tutorial
+          on setting up the git feature</a>.
         </li>
-        <li>
-          <a href="https://github.com/sinafala" target="_blank">General GitHub site</a>
-        </li>
+        <li><a href="https://github.com/sinafala" target="_blank">General GitHub site</a></li>
       </ul>
 
       <h1>Structured Population Event History Register (SPEHR)</h1>
 
       <ul>
+        <li><a href="/site/misc/spehr/SPEHR.pdf" target="_blank">Description</a></li>
         <li>
-          <a href="/site/misc/spehr/SPEHR.pdf" target="_blank">Description</a>
+          <a href="/site/misc/spehr/SPEHR-Joburg-Durban-2.0.mdb" target="_blank">Example Database
+          1</a>
         </li>
         <li>
-          <a href="/site/misc/spehr/SPEHR-Joburg-Durban-2.0.mdb" target="_blank">Example Database 1</a>
-        </li>
-        <li>
-          <a href="/site/misc/spehr/SPEHR-London-NewYork-2.0.mdb" target="_blank">Example Database 2</a>
+          <a href="/site/misc/spehr/SPEHR-London-NewYork-2.0.mdb" target="_blank">Example Database
+          2</a>
         </li>
         <li>
           <a href="/site/misc/spehr/SPEHR-Merged-2.0.mdb" target="_blank">Example Database 3</a>
         </li>
         <li>
-          <a href="/site/misc/spehr/SPEHR-Repeated-Demographic-Survey-OR-Population-Register-2.0.mdb" target="_blank">Example Database 4</a>
+          <a href="/site/misc/spehr/SPEHR-Repeated-Demographic-Survey-OR-Population-Register-2.0.mdb" target="_blank">Example
+          Database 4</a>
         </li>
       </ul>
 
@@ -183,7 +239,13 @@
 
       <ul>
         <li>
-          <a href="https://zehangli.shinyapps.io/ExcessMortalityApp/" target="_blank">Excess Mortality Calculator</a>: This was developed by <a href="https://zehangli.com" target="_blank">Richard Li</a> and <a href="https://samclark.net" target="_blank">Samuel Clark</a>for <a href="https://www.vitalstrategies.org/programs/civil-registration-and-vital-statistics/" target="_blank">Vital Strategies</a>. The app estimates excess deaths from a variety of death count and population inputs using either simple or more sophisticated modeling approaches.
+          <a href="https://zehangli.shinyapps.io/ExcessMortalityApp/" target="_blank">Excess
+          Mortality Calculator</a>: This was developed by
+          <a href="https://zehangli.com" target="_blank">Richard Li</a> and
+          <a href="https://samclark.net" target="_blank">Samuel Clark</a>for
+          <a href="https://www.vitalstrategies.org/programs/civil-registration-and-vital-statistics/" target="_blank">Vital
+          Strategies</a>. The app estimates excess deaths from a variety of death count and
+          population inputs using either simple or more sophisticated modeling approaches.
         </li>
       </ul>
 
@@ -191,9 +253,7 @@
 
   </main>
 
-  <footer>
-    <!--#include virtual="/site/includes/bottom.shtml" -->
-  </footer>
+  <footer><!--#include virtual="/site/includes/bottom.shtml" --></footer>
 
 </div>
 </body>

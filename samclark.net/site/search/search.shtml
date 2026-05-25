@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
 
@@ -18,25 +18,23 @@
 
   <header>
     <!--#include virtual="/site/includes/nav-links-top.shtml" -->
-    <div class="sam-title">
-      Search samclark.net
-    </div>
+    <div class="sam-title">Search samclark.net</div>
   </header>
 
   <main>
 
     <div class="sam-block">
 
-      <script async src="https://cse.google.com/cse.js?cx=ebb8d261a96b569cc"></script>
+      <script async src="https://cse.google.com/cse.js?cx=ebb8d261a96b569cc">
+
+      </script>
       <div class="gcse-search"></div>
 
     </div>
 
   </main>
 
-  <footer>
-    <!--#include virtual="/site/includes/bottom.shtml" -->
-  </footer>
+  <footer><!--#include virtual="/site/includes/bottom.shtml" --></footer>
 
 </div>
 </body>
