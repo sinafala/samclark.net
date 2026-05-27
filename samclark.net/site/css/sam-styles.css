@@ -952,8 +952,6 @@ iframe.biography {
   min-width: 100%;
   height:    300px;
   border:    0;
-  padding:   6px 0px 6px 0px;
-
 }
 
 
@@ -1013,13 +1011,14 @@ figure a {
   outline:         none;
 }
 
-/* Thumb image: natural aspect ratio, fills tile width. */
+/* Thumb image: natural aspect ratio, fills tile width. `display: block`
+   removes the inline baseline gap under the image; no `vertical-align`
+   needed (and it's ignored on block-level boxes anyway). */
 .thumb {
-  display:        block;
-  width:          100%;
-  height:         auto;
-  vertical-align: middle;
-  background:     #ddd;     /* placeholder color while the image loads */
+  display:    block;
+  width:      100%;
+  height:     auto;
+  background: #ddd;     /* placeholder color while the image loads */
 }
 
 /* Caption strip beneath the image. Matches the tile background so it
