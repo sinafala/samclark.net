@@ -424,9 +424,14 @@ explanatory callouts, toggle buttons, legends). Rules:
 - **Stay light.** Strip any `@media (prefers-color-scheme: dark)` overrides and
   force any color-aware JavaScript to its light palette, so the page matches the
   rest of the site in every browser.
-- **MathJax `$…$` delimiters:** `header.html` loads MathJax with default
-  delimiters, which do **not** process single-`$` inline math. If the page uses
-  `$…$` / `$$…$$`, declare the config **before** the header include:
+- **MathJax.** The library loads once, site-wide, from `header.html` — never add
+  a second loader. `header.html` also sets the site-wide MathJax config,
+  including the `chtml.matchFontHeight = false` fix described in section 16
+  (without it, the body `zoom` makes all math render oversized). Default
+  delimiters `\(…\)` / `\[…\]` / `\begin{}…\end{}` work with no page config (see
+  `news.shtml`). Only if a page uses **`$…$` / `$$…$$`** does it need its own
+  small config **before** the header include — `$` is deliberately *not* enabled
+  site-wide, so literal dollar signs in prose elsewhere aren't treated as math:
 
   ```html
   <script>
@@ -440,7 +445,9 @@ explanatory callouts, toggle buttons, legends). Rules:
   <!--#include virtual="/site/includes/header.html" -->
   ```
 
-  Do **not** load a second MathJax script — `header.html` already loads it.
+  This is safe to combine with the site-wide config: `header.html` *merges* its
+  `chtml` fix into whatever the page set, rather than overwriting it. Do **not**
+  re-set `chtml.matchFontHeight` on the page — let `header.html` own it.
 
 ---
 
@@ -586,6 +593,22 @@ apart when the avatar's 477&nbsp;px intrinsic width steals space from the
 buttons. **Workaround**: give the image **explicit pixel dimensions**; the
 `.navbar-home img` rule uses `width/height: var(--navbar-height)`.
 
+### MathJax oversized under CSS `zoom`
+
+MathJax (CHTML) sizes math to match the surrounding text by *measuring* the
+font's ex-height with `getBoundingClientRect` — which returns **zoomed** pixels
+under the site-wide `body { zoom }` (section 8). MathJax therefore thinks the
+text is ~`--desktop-zoom`× bigger than it is and scales the math up to match;
+the browser then `zoom`s that already-too-big math again, so all math renders
+roughly the zoom factor too large (with correspondingly huge gaps around display
+equations). It surfaces on any page with real math — `news.shtml`, the SVD
+tutorial — not just one. **Workaround** (site-wide, in `header.html`): set
+`chtml: { matchFontHeight: false }` before the MathJax loader, which drops the
+zoom-sensitive measurement so math renders at the container's true font-size and
+scales with the page like the text. `header.html` merges this into any
+page-level config rather than overwriting it. If math ever looks slightly small,
+nudge it with a site-wide `chtml: { scale: 1.05 }` (tune to taste).
+
 ### iOS Safari ignores `width: 100%` on iframes
 
 iOS treats iframes as having their embedded page's intrinsic width (often
@@ -679,7 +702,8 @@ Empty Caches** (`Cmd+Option+E`). Enable the Develop menu via Settings → Advanc
 | Footer button shows on feedback page   | SSI `hide_feedback_btn` flag set in the page?            |
 | Old URL 404s                           | Add a `Redirect` to `.htaccess`                          |
 | Feedback form silently fails           | Honeypot filled? `loaded_at` too recent? Mail config?    |
-| MathJax not rendering / `$…$` literal  | `$…$` config before the header include (section 11); CDN load order; console |
+| MathJax math renders oversized          | `chtml.matchFontHeight:false` in `header.html` (zoom interaction, section 16) |
+| MathJax not rendering / `$…$` literal   | Default `\(…\)` need no config; for `$…$` add the tex config before the header include (section 11); CDN load order; console |
 | Page shows literal `<!--#include …-->` | Page saved as `.html` instead of `.shtml`                |
 
 ---
