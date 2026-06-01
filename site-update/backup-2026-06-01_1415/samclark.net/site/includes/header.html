@@ -19,25 +19,6 @@
 <meta property="og:locale" content="en_US">
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="/site/css/sam-styles.css?ver=58">
-<!-- MathJax config (site-wide). Must run BEFORE the loader below.
-     matchFontHeight:false stops MathJax from sizing math by MEASURING the
-     surrounding font: that measurement reads getBoundingClientRect, which
-     returns ZOOMED pixels under the site-wide body{zoom} (sam-styles.css, sec.
-     2), so math rendered ~zoom-factor too big on any page with real math (e.g.
-     news.shtml, the SVD tutorial). With it off, math renders at the container's
-     real font-size and scales with the page like the surrounding text.
-     This MERGES rather than overwrites, so a page that set its own config
-     before this include (e.g. to enable $...$ delimiters) keeps it. Default
-     \(...\) / \[...\] / \begin{}...\end{} delimiters need no page config; $...$
-     is deliberately NOT enabled site-wide so literal dollar signs in prose are
-     not treated as math. -->
-<script>
-  window.MathJax = window.MathJax || {};
-  window.MathJax.chtml = window.MathJax.chtml || {};
-  if (window.MathJax.chtml.matchFontHeight === undefined) {
-    window.MathJax.chtml.matchFontHeight = false;
-  }
-</script>
 <!-- MathJax -->
 <script id="MathJax-script"
 async

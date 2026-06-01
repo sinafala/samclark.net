@@ -63,10 +63,6 @@
   <!-- MathJax inline/display delimiters must be declared before header.html
        loads MathJax, because the site-wide loader uses default delimiters
        that do not process single-$ inline math. -->
-  <!-- This page uses $...$ / $$...$$, which are not enabled site-wide (only
-       \(...\) / \[...\] are default). Enable them here, before the header
-       include loads MathJax. The math-sizing fix for the site-wide body{zoom}
-       lives in header.html (chtml.matchFontHeight), so it is not repeated here. -->
   <script>
     window.MathJax = {
       tex: {
