@@ -1,0 +1,120 @@
+# ==============================================================================
+# .htaccess — samclark.net
+# ==============================================================================
+
+
+# ------------------------------------------------------------------------------
+# CACHE CONTROL
+# Force CSS and SHTML files to revalidate with the server on every request.
+# Without this, Safari ignores query-string cache busters (?ver=NN) somewhat
+# aggressively and keeps serving stale CSS / stale HTML pages that reference
+# old ?ver= URLs. "no-cache, must-revalidate" still allows caching, but the
+# browser must check with the server (conditional GET) before using its copy;
+# unchanged files come back as 304 Not Modified, so the overhead is small.
+# Images / fonts / favicons are not touched and remain heavily cacheable.
+# ------------------------------------------------------------------------------
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|shtml)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+
+# ------------------------------------------------------------------------------
+# MAIN SITE PAGES
+# Short, memorable aliases for the primary navigation pages.
+# ------------------------------------------------------------------------------
+
+Redirect /buzz         /site/lcbuzz
+
+Redirect /news         /site/pages/news.shtml
+Redirect /projects     /site/pages/projects.shtml
+Redirect /talks        /site/pages/talks.shtml
+Redirect /methods      /site/projects/methods.shtml
+Redirect /software     /site/projects/software.shtml
+Redirect /mtb          /site/pages/mtb.shtml
+
+
+# ------------------------------------------------------------------------------
+# CV & PUBLICATIONS
+# Shortcuts to CV PDFs and the bibliography page.
+# ------------------------------------------------------------------------------
+
+Redirect /cv           /site/cv/Samuel-Clark_CV.pdf
+Redirect /cv-short     /site/cv/Samuel-Clark_CV-short.pdf
+Redirect /cvs          /site/pages/cv.shtml
+Redirect /pubs         /site/pages/bibliography.shtml
+Redirect /publications /site/pages/bibliography.shtml
+Redirect /bib          /site/pages/bibliography.shtml
+Redirect /diss         /site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf
+
+
+# ------------------------------------------------------------------------------
+# RESEARCH PROJECTS
+# Short aliases for individual project pages and anchored news items.
+# ------------------------------------------------------------------------------
+
+Redirect /va            /site/projects/verbal-autopsy.shtml
+Redirect /openva        /site/projects/verbal-autopsy.shtml
+Redirect /rda           /site/projects/rda.shtml
+Redirect /svdcomp       /site/projects/methods.shtml#svd-comp
+Redirect /cv19          /site/projects/COVID-19.shtml
+Redirect /tza4insilico  /site/pages/news.shtml#2024-07-04
+Redirect /unicef-report /site/pages/news.shtml#2021-03-31
+
+# A pointed shortcut to a specific section of the verbal autopsy page.
+Redirect /hatchet-job   /site/projects/verbal-autopsy.shtml#gratuitous-critique
+
+
+# ------------------------------------------------------------------------------
+# TALKS & SLIDES
+# Direct links to individual talk PDFs/PPTXs.
+# ------------------------------------------------------------------------------
+
+Redirect /rda-slides            /site/talks/Sam-Clark_Reference-Data-Archive-Launch.pptx
+Redirect /ut-austin2025         /site/talks/Sam-Clark_UT-Austin-2025.pdf
+Redirect /ut-austin2025-present /site/talks/Sam-Clark_UT-Austin-2025--presentation.pdf
+Redirect /biomath2024           /site/talks/Sam-Clark_BIOMATH-2024-Scottburgh-South-Africa.pdf
+
+
+# ------------------------------------------------------------------------------
+# LEGACY URL FIXES
+# Old or broken paths that must stay working — redirect to current locations.
+# ------------------------------------------------------------------------------
+
+# Typo in original filename (Sam-Clatrk → Sam-Clark); keep old URL alive.
+Redirect /site/talks/Sam-Clatrk_InSilicoVA.pdf /site/pages/talks.shtml
+Redirect /site/talks/Sam-Clark_InSilicoVA.pdf /site/pages/talks.shtml
+
+# CV PDF was previously served from the site root.
+Redirect /Samuel-Clark_CV.pdf /site/cv/Samuel-Clark_CV.pdf
+
+# SPEHR project moved from /site/misc/spehr/ to a dedicated project page.
+Redirect /site/misc/spehr/index.html /site/projects/data-methods.shtml
+
+# PhD dissertation PDF was previously served from /pdfs/.
+Redirect /pdfs/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf \
+         /site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf
+
+# Italy 2022 talk was originally published without the "Sam-Clark_" prefix.
+Redirect /site/talks/SVD-Comp-Italy-2022.pdf /site/talks/Sam-Clark_SVD-Comp-Italy-2022.pdf
+
+
+# ------------------------------------------------------------------------------
+# LEGACY PREFIX REDIRECTS (RedirectMatch)
+# Catch entire old path prefixes and route them to current equivalents.
+# ------------------------------------------------------------------------------
+
+# Old CV offprints directory → offprint page.
+RedirectMatch 301 ^/site/cv/pdfs   /site/cv/offprint.shtml
+RedirectMatch 301 ^/pdfs           /site/cv/offprint.shtml
+
+# SPEHR (case-insensitive variants) → current misc location.
+RedirectMatch 301 ^/spehr          /site/misc/spehr
+RedirectMatch 301 ^/SPEHR          /site/misc/spehr
+
+# Old end-of-year updates path → current updates directory.
+RedirectMatch 301 ^/site/clark/eoy /site/clark/updates
+RedirectMatch 301 ^/updates        /site/clark/updates
+

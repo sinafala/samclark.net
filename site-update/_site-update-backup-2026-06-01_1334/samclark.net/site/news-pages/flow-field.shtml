@@ -31,7 +31,7 @@
         seminal 1992 paper [<a href="#ref-lee-carter-1992">1</a>]. One decomposes age-by-time
         mortality into a few summary patterns and projects those patterns forward. The other models
         how fast life expectancy improves at each level of life expectancy. We argue that both can
-        be viewed as restricted versions of <em>a single underlying object</em>: a smooth trajectory
+        be viewed as restricted versions of a single underlying object</em>: a smooth trajectory
         through a low-dimensional summary of mortality derived from a multi-way decomposition of the
         sex&nbsp;&times;&nbsp;age&nbsp;&times;&nbsp;country&nbsp;&times;&nbsp;year mortality array.
         The unrestricted version of this object is the <em>flow-field forecaster</em>. We compare it

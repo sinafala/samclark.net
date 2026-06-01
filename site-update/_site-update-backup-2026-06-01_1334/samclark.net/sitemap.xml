@@ -127,20 +127,6 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- News pages, tutorials & long-form -->
-  <url>
-    <loc>https://samclark.net/site/news-pages/flow-field.shtml</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://samclark.net/site/tutorials/svd-demography.shtml</loc>
-    <lastmod>2026-03-25</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
   <!-- CV PDFs -->
   <url>
     <loc>https://samclark.net/site/cv/Samuel-Clark_CV.pdf</loc>
