@@ -27,6 +27,7 @@
         <select name="select-year" onchange="location = this.value; this.selectedIndex = 0;">
           <option value="#beginning">year</option>
           <option value="/site/projects/software.shtml">Software</option>
+          <option value="#year-2026">2026</option>
           <option value="#year-2025">2025</option>
           <option value="#year-2024">2024</option>
           <option value="#year-2023">2023</option>
@@ -72,6 +73,37 @@
       [&nbsp;<a href="http://doi.org/10.1016/j.annepidem.2021.11.009" target="_blank">DOI</a>&nbsp;]
       
       </p> -->
+
+      <!-- 2026 -->
+
+      <h2 class="bib-year" id="year-2026">2026 <a href="#beginning" class="back">&#x25B2;</a></h2>
+
+      <h3 class="bib">Working Papers</h3>
+
+      <p class="bibliography">
+        <a id="clarkFlowField2026"></a>
+
+        <span class="author">CLARK,&nbsp;S.J.</span> (2026a).
+
+        <b>Mortality Forecasting as a Flow Field in Tucker Decomposition Space</b>.
+
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:2603.24299v2</em>.
+
+        [&nbsp;<a href="https://arxiv.org/abs/2603.24299" target="_blank">PDF</a>&nbsp;]
+      </p>
+
+      <p class="bibliography">
+        <a id="clarkMDMx2026"></a>
+
+        <span class="author">CLARK,&nbsp;S.J.</span> (2026b).
+
+        <b>Multi-dimensional Mortality (MDMx): Sex-Age-Specific Model Life Tables, Fitting,
+        Prediction from Summary Mortality Indicators, and Forecasting</b>.
+
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:2603.20518v2</em>.
+
+        [&nbsp;<a href="https://arxiv.org/abs/2603.20518" target="_blank">PDF</a>&nbsp;]
+      </p>
 
       <!-- 2025 -->
 
@@ -140,7 +172,7 @@
 
         <b>Leveraging Language Models and Machine Learning in Verbal Autopsy Analysis</b>.
 
-        <em>arXiv Thesis</em>&nbsp;<em>arXiv:2508.19274</em>.
+        <em>arXiv Thesis</em>&nbsp;<em>arXiv:2508.19274v1</em>.
 
         [&nbsp;<a href="https://doi.org/10.48550/arXiv.2508.19274" target="_blank">PDF</a>&nbsp;]
       </p>
@@ -263,9 +295,9 @@
         <b>Bayesian Analysis of Verbal Autopsy Data Using Factor Models With Age- And Sex-Dependent
         Associations Between Symptoms</b>.
 
-        <em>arXiv Preprint</em>&nbsp;<em>arXiv:2403.12288</em>.
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:2403.12288v1</em>.
 
-        [&nbsp;<a href="https://arxiv.org/pdf/2403.12288" target="_blank">PDF</a>&nbsp;]
+        [&nbsp;<a href="https://arxiv.org/abs/2403.12288" target="_blank">PDF</a>&nbsp;]
       </p>
 
       <!-- 2023 -->
@@ -461,7 +493,7 @@
         <b>Bayesian Nested Latent Class Models for Cause-of-Death Assignment using Verbal Autopsies
         Across Multiple Domains</b>.
 
-        <em>arXiv Preprint</em>&nbsp;<em>arXiv:2112.12186</em>.
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:2112.12186v3</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/2112.12186" target="_blank">PDF</a>&nbsp;]
       </p>
@@ -474,7 +506,7 @@
         <b>Health and demographic surveillance systems and the 2030 agenda: Sustainable development
         goals</b>.
 
-        <em>arXiv Preprint</em>&nbsp;<em>arXiv:2103.03910</em>.
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:2103.03910v1</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/2103.03910" target="_blank">PDF</a>&nbsp;]
       </p>
@@ -487,7 +519,7 @@
 
         <b>The openva toolkit for verbal autopsies</b>.
 
-        <em>arXiv Preprint</em>&nbsp;<em>arXiv:2109.08244</em>.
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:2109.08244v2</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/2109.08244" target="_blank">PDF</a>&nbsp;]
       </p>
@@ -615,7 +647,7 @@
 
         <em>arXiv Preprint</em>&nbsp;<em>arXiv:2011.09033v2</em>.
 
-        [&nbsp;<a href="https://arxiv.org/abs/2011.09033v2" target="_blank">PDF</a>&nbsp;]
+        [&nbsp;<a href="https://arxiv.org/abs/2011.09033" target="_blank">PDF</a>&nbsp;]
       </p>
 
       <p class="bibliography">
@@ -626,7 +658,7 @@
 
         <b>Space-Time Smoothing of Demographic and Health Indicators using the R Package SUMMER</b>.
 
-        <em>arXiv Preprint</em>&nbsp;(arXiv:2007.05117).
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:2007.05117v2</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/2007.05117" target="_blank">PDF</a>&nbsp;]
       </p>
@@ -728,7 +760,7 @@
 
         <em>arXiv Preprint</em>&nbsp;<em>arXiv:1910.00405v2</em>.
 
-        [&nbsp;<a href="https://arxiv.org/abs/1910.00405v2" target="_blank">PDF</a>&nbsp;]
+        [&nbsp;<a href="https://arxiv.org/abs/1910.00405" target="_blank">PDF</a>&nbsp;]
       </p>
 
       <!-- 2018 -->
@@ -843,7 +875,7 @@
 
         <b>Bayesian Joint Spike-and-Slab Graphical Lasso</b>.
 
-        <em>arXiv Preprint</em>&nbsp;(arXiv:1805.07051).
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:1805.07051v2</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/1805.07051" target="_blank">PDF</a>&nbsp;]
       </p>
@@ -855,7 +887,7 @@
 
         <b>A Guide to Comparing the Performance of VA Algorithms</b>.
 
-        <em>arXiv Preprint</em>&nbsp;(arXiv:1802.07807).
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:1802.07807v1</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/1802.07807" target="_blank">PDF</a>&nbsp;]
       </p>
@@ -868,7 +900,7 @@
         <b>Quantifying the Contributions of Training Data and Algorithm Logic to the Performance of
         Automated Cause-Assignment Algorithms for Verbal Autopsy</b>.
 
-        <em>arXiv Preprint</em>&nbsp;(arXiv:1803.07141v2).
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:1803.07141v4</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/1803.07141" target="_blank">PDF</a>&nbsp;]
       </p>
@@ -882,7 +914,7 @@
         <b>Bayesian factor models for probabilistic cause of death assessment with verbal
         autopsies</b>.
 
-        <em>arXiv Preprint</em>&nbsp;(arXiv:1803.01327).
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:1803.01327v2</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/1803.01327" target="_blank">PDF</a>&nbsp;]
       </p>
@@ -896,7 +928,7 @@
         <b>Using Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in Verbal
         Autopsies</b>.
 
-        <em>arXiv Preprint</em>&nbsp;(arXiv:1711.00877).
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:1711.00877v4</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/1711.00877" target="_blank">PDF</a>&nbsp;]
       </p>
@@ -909,7 +941,7 @@
 
         <b>Estimating Under-Five Mortality in Space and Time in a Developing World Context</b>.
 
-        <em>arXiv Preprint</em>&nbsp;(arXiv:1711.00800).
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:1711.00800v1</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/1711.00800" target="_blank">PDF</a>&nbsp;]
       </p>
@@ -1003,22 +1035,6 @@
         <em>Lancet Global Health</em>&nbsp;<em>5</em>&nbsp;(7), e647-e648.
 
         [&nbsp;<a href="http://dx.doi.org/10.1016/S2214-109X(17)30206-1" target="_blank">DOI</a>&nbsp;]
-      </p>
-
-      <h3 class="bib">Working Papers</h3>
-
-      <p class="bibliography">
-        <a id="li2017mixStripped"></a>
-
-        Li,&nbsp;Z.R., T.H.&nbsp;McCormick, T.&nbsp;Kunihama, and
-        <span class="author">S.J.&nbsp;CLARK</span> (2019).
-
-        <b>Using Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in Verbal
-        Autopsies</b>.
-
-        <em>arXiv Preprint</em>&nbsp;(arXiv:1711.00877).
-
-        [&nbsp;<a href="https://arxiv.org/abs/1711.00877" target="_blank">PDF</a>&nbsp;]
       </p>
 
       <!-- 2016 -->
@@ -1164,7 +1180,7 @@
         <b>A General Age-Specific Mortality Model with An Example Indexed by Child or Child/Adult
         Mortality</b>.
 
-        <em>arXiv Preprint</em>&nbsp;(arXiv:1612.01408v1).
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:1612.01408v1</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/1612.01408" target="_blank">PDF</a>&nbsp;]
       </p>
@@ -1178,7 +1194,7 @@
         <b>Probabilistic population projections for countries with generalized hiv/aids
         epidemics</b>.
 
-        <em>arXiv Preprint</em>&nbsp;(arXiv:1609.04383).
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:1609.04383v1</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/1609.04383" target="_blank">PDF</a>&nbsp;]
       </p>
@@ -1313,7 +1329,7 @@
         Demographic Quantities Correlated by Age: Predicting Complete Demographic Age Schedules with
         Few Parameters</b>.
 
-        <em>arXiv Preprint</em>&nbsp;(arXiv:1504.02057v1).
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:1504.02057v1</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/1504.02057" target="_blank">PDF</a>&nbsp;]
       </p>
@@ -1326,7 +1342,7 @@
 
         <b>Probabilistic cause-of-death assignment using verbal autopsies</b>.
 
-        <em>arXiv Preprint</em>&nbsp;(arXiv:1411.3042).
+        <em>arXiv Preprint</em>&nbsp;<em>arXiv:1411.3042v3</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/1411.3042" target="_blank">PDF</a>&nbsp;]
       </p>
