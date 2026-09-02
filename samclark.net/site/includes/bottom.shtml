@@ -2,9 +2,7 @@
 <div class="sam-footer">
   <div class="sam-footer-left">
     Copyright 2020-2026; Samuel J. Clark; all rights reserved <br>
-    <!-- UPDATE THIS -->
-    Updated 2026-09-01
-    <!-- UPDATE THIS -->
+    Updated <!--#include virtual="/site/includes/site-updated-date.txt" -->
   </div>
   <!--#if expr="v('hide_feedback_btn') != '1'" -->
   <div class="sam-footer-right">
