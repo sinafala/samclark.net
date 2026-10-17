@@ -100,6 +100,17 @@
       <h2>2026-10</h2>
 
       <p>
+        Our new working paper
+        <a href="/site/pages/news.shtml#2026-10-17" target="_parent">Multimodal Artificial
+        Intelligence for Cause-of-Death Assignment from Verbal Autopsy Records: A National Benchmark
+        Study in South Africa</a>, led by
+        <a href="https://y-chu.github.io" target="_blank">Yue Chu</a>, is now on medRxiv. Fine-tuned
+        language models reading the free-text verbal autopsy narrative alone improved substantially
+        on InSilicoVA and matched models using the structured questionnaire, and combining the two
+        improved individual-level cause-of-death assignment further.
+      </p>
+
+      <p>
         Our paper
         <a href="/site/pages/news.shtml#2026-10-16" target="_parent">A Multimodal Benchmark for
         Evaluating Cause-of-Death Inference Using Child Health and Mortality Data</a> has been
