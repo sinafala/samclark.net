@@ -7,7 +7,7 @@
   <meta name="description" content="Samuel J. Clark's project page for methodological work developing new approaches for demography and epidemiology.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, Africa, methods, statistics, demography, epidemiology, bayes.">
   <meta property="og:title" content="Methods">
-  <meta property="og:description" content="Sam Clark project: methodss">
+  <meta property="og:description" content="Sam Clark project: methods">
   <title>Samuel Clark - Methods</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>
@@ -64,7 +64,7 @@
         (WPP) global population estimates and projections used a version of the component model of
         mortality. I led a small team including <a href="https://jamuir.net" target="_blank">Jon
         Muir</a> and
-        <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian Houle</a>
+        <a href="https://researchportalplus.anu.edu.au/en/persons/brian-houle/" target="_blank">Brian Houle</a>
         to develop an SVD-Comp mortality model for HIV-affected countries that produced 1-year age
         group mortality rates based on HIV prevalence and coverage of antiretroviral therapy.
       </p>
@@ -188,7 +188,7 @@
       <p>
         There is a single paper that describes an idea I had a long time ago while working with the
         health and demographic surveillance system (HDSS) sites in South Africa. Colleagues
-        <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a> and
+        <a href="https://jonwake.github.io/website/" target="_blank">Jon Wakefield</a> and
         <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, along with
         graduate student Michelle Ross, helped convert my vague idea into a realistic approach to
         combining HDSS and survey research approaches to create a hyper efficient population

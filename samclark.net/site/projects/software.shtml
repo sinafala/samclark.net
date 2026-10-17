@@ -179,7 +179,7 @@
 
       <div>
         This project started off with me and has since become one of
-        <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a>'s main
+        <a href="https://jonwake.github.io/website/" target="_blank">Jon Wakefield</a>'s main
         activities, and he has led work on the SUMMER package.
         <a href="https://zehangli.com" target="_blank">Richard Li</a> is primarily responsible for
         the code.
@@ -243,7 +243,7 @@
           Mortality Calculator</a>: This was developed by
           <a href="https://zehangli.com" target="_blank">Richard Li</a> and
           <a href="https://samclark.net" target="_blank">Samuel Clark</a>for
-          <a href="https://www.vitalstrategies.org/programs/civil-registration-and-vital-statistics/" target="_blank">Vital
+          <a href="https://www.vitalstrategies.org/issues/civil-registration-and-vital-statistics/" target="_blank">Vital
           Strategies</a>. The app estimates excess deaths from a variety of death count and
           population inputs using either simple or more sophisticated modeling approaches.
         </li>

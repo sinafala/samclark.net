@@ -44,7 +44,7 @@
           <option value="#2022-02-10">2022-02-10: UNC Population Science</option>
           <option value="#2021-10-01">2021-10-01: Discussant, De Jong Lecture</option>
           <option value="#2021-04-08">2021-04-08: LSHTM Population Science</option>
-          <option value="#2021-03-04">2021-03-24: Berlin Demography Days: Pop Science</option>
+          <option value="#2021-03-24">2021-03-24: Berlin Demography Days: Pop Science</option>
           <option value="#2020-04-07">2020-04-07: UNPD Experts' Group Meeting</option>
           <option value="#earlier">Earlier</option>
         </select>
@@ -210,7 +210,7 @@
       <p>
         The openVA Team and close collaborators organized a workshop to present the GUI-driven
         Python openVA software that the openVA Team developed. The workshop was supported by
-        <a href="https://www.vitalstrategies.org/programs/civil-registration-and-vital-statistics/" target="_blank">Vital
+        <a href="https://www.vitalstrategies.org/issues/civil-registration-and-vital-statistics/" target="_blank">Vital
         Strategies</a> and <a href="https://www.cdcfoundation.org" target="_blank">CDC
         Foundation</a> and happened in Dar es Salaam, Tanzania August 8-10, 2023.
         <a href="/site/talks/Sam-Clark_Pythong-openVA.pdf" target="_blank"><b>Python openVA
@@ -226,7 +226,7 @@
         PAA 2023 talk presented by Yue Chu on verbal autopsy results from ALPHA Network health and
         demographic surveillance system sites in session 206 - Mortality in Low- and Middle-Income
         Countries:
-        <a href="https://submissions.mirasmart.com/Verify/PAA2023/Submission/Temp/radasfey2lr.pdf" target="_blank"><b>Temporal
+        <a href="https://doi.org/10.1016/S2214-109X(24)00171-2" target="_blank"><b>Temporal
         Changes in Cause of Death Among Adults in Eastern and Southern Africa: A Multi-country
         Cohort Study Using Verbal Autopsy Data</b></a>.
       </p>
@@ -262,7 +262,7 @@
       <!-- %%%%%%%%%%%% -->
       <p>
         PAA 2022 talk on SVD-Comp mortality model work in session
-        <a href="https://paa.confex.com/paa/2022/meetingapp.cgi/Session/2631" target="_blank">41 -
+        <a href="https://web.archive.org/web/20250907052818/https://paa.confex.com/paa/2022/meetingapp.cgi/Session/2631" target="_blank">41 -
         Statistical Modeling and Smoothing in Demography</a>:
         <a href="/site/talks/Sam-clark_SVD-Comp-Mortality-Model-2020-04-07.pdf" target="_blank"><b>Application
         of a Singular Value Decomposition-Based Factorization and Parsimonious-Component Model of
@@ -272,17 +272,17 @@
       <ul>
         <li>
           Session
-          <a href="https://paa.confex.com/paa/2022/meetingapp.cgi/Session/2570" target="_blank">116
+          <a href="https://web.archive.org/web/20240414020315/https://paa.confex.com/paa/2022/meetingapp.cgi/Session/2570" target="_blank">116
           - Early Life Health in Low- and Middle-Income Countries</a>:
-          <a href="https://paa.confex.com/paa/2022/meetingapp.cgi/Paper/26364" target="_blank"><b>Sibling
+          <a href="https://web.archive.org/web/20251205233250/https://paa.confex.com/paa/2022/meetingapp.cgi/Paper/26364" target="_blank"><b>Sibling
           Mortality in Developing Countries: A Cross-Regional Analysis of Shared Mortality
           Risk</b></a>.
         </li>
         <li>
           Session
-          <a href="https://paa.confex.com/paa/2022/meetingapp.cgi/Session/2621" target="_blank">51 -
+          <a href="https://web.archive.org/web/20251013020016/https://paa.confex.com/paa/2022/meetingapp.cgi/Session/2621" target="_blank">51 -
           Child Health: Spillover and Spatial Effects</a>:
-          <a href="https://paa.confex.com/paa/2022/meetingapp.cgi/Paper/26587" target="_blank"><b>The
+          <a href="https://web.archive.org/web/20251013020503/https://paa.confex.com/paa/2022/meetingapp.cgi/Paper/26587" target="_blank"><b>The
           Timing of Sibling Mortality in the Widespread Antiretroviral Treatment Era: Comparative
           Evidence From Population-Based Surveillance in Rural South Africa, 2000–2015</b></a>.
         </li>

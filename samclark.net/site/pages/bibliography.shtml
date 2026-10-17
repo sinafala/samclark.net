@@ -78,6 +78,26 @@
 
       <h2 class="bib-year" id="year-2026">2026 <a href="#beginning" class="back">&#x25B2;</a></h2>
 
+      <h3 class="bib">Articles Published</h3>
+
+      <p class="bibliography">
+        <a id="yangCODBenchmark2026Published"></a>
+
+        Yang,&nbsp;J., S.&nbsp;Pan, H.S.&nbsp;Lim, Y.&nbsp;Chu, Y.&nbsp;Guo, N.&nbsp;Agarwal,
+        V.&nbsp;Babbar, G.R.&nbsp;Parikh, Y.T.&nbsp;Chen, C.A.&nbsp;Rees, Z.&nbsp;Dangor,
+        S.G.&nbsp;Lala, Z.R.&nbsp;Li, <span class="author">S.J.&nbsp;CLARK</span>, Z.&nbsp;Wu,
+        A.&nbsp;Datta, L.&nbsp;Liu, C.&nbsp;Rudin, S.V.&nbsp;Scarpino, B.M.&nbsp;Gyori,
+        T.H.&nbsp;McCormick. (2026 <em>forthcoming</em>).
+
+        <b>A Multimodal Benchmark for Evaluating Cause-of-Death Inference Using Child Health and
+        Mortality Data</b>.
+
+        <em>Conference on Neural Information Processing Systems (NeurIPS 2026)</em>,
+        Evaluations &amp; Datasets Track.
+
+        [&nbsp;<a href="https://www.medrxiv.org/content/10.64898/2026.07.13.26357980v1.full.pdf" target="_blank">PDF</a>&nbsp;]
+      </p>
+
       <h3 class="bib">Working Papers</h3>
 
       <p class="bibliography">
@@ -103,6 +123,23 @@
         <em>arXiv Preprint</em>&nbsp;<em>arXiv:2603.20518v2</em>.
 
         [&nbsp;<a href="https://arxiv.org/abs/2603.20518" target="_blank">PDF</a>&nbsp;]
+      </p>
+
+      <p class="bibliography">
+        <a id="yangCODBenchmark2026"></a>
+
+        Yang,&nbsp;J., S.&nbsp;Pan, H.S.&nbsp;Lim, Y.&nbsp;Chu, Y.&nbsp;Guo, N.&nbsp;Agarwal,
+        V.&nbsp;Babbar, G.R.&nbsp;Parikh, Y.T.&nbsp;Chen, C.A.&nbsp;Rees, Z.&nbsp;Dangor,
+        S.G.&nbsp;Lala, Z.R.&nbsp;Li, <span class="author">S.J.&nbsp;CLARK</span>, Z.&nbsp;Wu,
+        A.&nbsp;Datta, L.&nbsp;Liu, C.&nbsp;Rudin, S.V.&nbsp;Scarpino, B.M.&nbsp;Gyori,
+        T.H.&nbsp;McCormick. (2026).
+
+        <b>A Multimodal Benchmark for Evaluating Cause-of-Death Inference Using Child Health and
+        Mortality Data</b>.
+
+        <em>medRxiv Preprint</em>&nbsp;<em>doi:10.64898/2026.07.13.26357980</em>.
+
+        [&nbsp;<a href="https://www.medrxiv.org/content/10.64898/2026.07.13.26357980v1" target="_blank">PDF</a>&nbsp;]
       </p>
 
       <!-- 2025 -->
@@ -631,7 +668,7 @@
 
         <em>Bulletin of the World Health Organization</em>&nbsp;<em>98</em>&nbsp;(6), 374.
 
-        [&nbsp;<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7265935/" target="_blank">Link</a>&nbsp;]
+        [&nbsp;<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7265935/" target="_blank">Link</a>&nbsp;]
       </p>
 
       <h3 class="bib">Working Papers</h3>
@@ -1315,7 +1352,7 @@
 
         <em>Bulletin of the World Health Organization</em>&nbsp;<em>93</em>&nbsp;(5), 356-358.
 
-        [&nbsp;<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4431510/" target="_blank">Link</a>&nbsp;]
+        [&nbsp;<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4431510/" target="_blank">Link</a>&nbsp;]
       </p>
 
       <h3 class="bib">Working Papers</h3>
@@ -2107,7 +2144,7 @@
 
         <em>Bulletin of the World Health Organization</em>&nbsp;<em>84</em>&nbsp;(3), 181-188.
 
-        [&nbsp;<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2627285/" target="_blank">Link</a>&nbsp;]
+        [&nbsp;<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2627285/" target="_blank">Link</a>&nbsp;]
       </p>
 
       <p class="bibliography">

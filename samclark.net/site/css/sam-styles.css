@@ -33,6 +33,7 @@
      17. IMAGE GALLERIES       .gallery grid + figure tiles
      18. NEWS-PAGES            /site/news-pages/ research-preview format
      19. FORMS-PAGES           /site/forms/ form-specific styles
+     20. PHOTO MAPS            Leaflet photo-location maps (photo-map.js)
 
    Conventions
    -----------
@@ -1512,4 +1513,88 @@ p.sam-disclaimer {
 
   .feedback-note   { font-size: 13px; }
   .feedback-status { font-size: 15px; }
+}
+
+
+/* ============================================================================
+   20. PHOTO MAPS
+   ============================================================================
+   Leaflet map of photo locations, driven by /site/js/photo-map.js (see the
+   header comment there for the page markup contract). Used by the trip
+   sections of mtb.shtml. Leaflet's own CSS is loaded per page from cdnjs.
+   ============================================================================ */
+
+/* Map canvas - full column width, same visual weight as iframe.biography. */
+div.sam-photomap {
+  width:          100%;
+  height:         340px;
+  margin:         4px 0 2px 0;
+  border:         0.5px solid #c8c8c8;
+  border-radius:  3px;
+  font-size:      11px;   /* Leaflet controls + attribution */
+}
+
+/* Count marker: navy disc with the number of photos at that spot. */
+.photomap-pin span {
+  display:          flex;
+  align-items:      center;
+  justify-content:  center;
+  width:            22px;
+  height:           22px;
+  border-radius:    50%;
+  background-color: #0000A0;
+  border:           2px solid #fff;
+  box-shadow:       0 1px 3px rgba(0, 0, 0, 0.4);
+  color:            #fff;
+  font-size:        10px;
+  font-weight:      bold;
+}
+
+.photomap-pin:hover span {
+  background-color: green;
+}
+
+/* Popup: place name, date line, thumbnail strip. */
+.photomap-popup .photomap-title {
+  font-size:   12px;
+  font-weight: bold;
+  color:       #0000A0;
+}
+
+.photomap-popup .photomap-date {
+  font-size:     10px;
+  color:         #555;
+  margin-bottom: 4px;
+}
+
+.photomap-popup .photomap-thumbs {
+  display:   flex;
+  flex-wrap: wrap;
+  gap:       3px;
+}
+
+.photomap-popup .photomap-thumbs a {
+  display: block;
+  border:  2px solid transparent;
+}
+
+.photomap-popup .photomap-thumbs a.current {
+  border-color: #0000A0;
+}
+
+.photomap-popup .photomap-thumbs img {
+  display:    block;
+  width:      64px;
+  height:     48px;
+  object-fit: cover;
+  background: #ddd;
+}
+
+/* Photo block reached from a popup thumbnail: same highlight as
+   ol.refs li:target in section 18. */
+div.sam-image:target {
+  background:  #eaeaff;
+  box-shadow:  -6px 0 0 #eaeaff, 6px 0 0 #eaeaff;
+  border-left: 3px solid #0000A0;
+  padding-left: 4px;
 }

@@ -9,11 +9,11 @@
   <meta property="og:title" content="The SVD as subspace geometry">
   <meta property="og:description" content="Interactive tutorial: the SVD as matched row-space / column-space projections, with demographic applications comparing SVD-Comp and Lee-Carter.">
   <title>Samuel Clark - The SVD as Subspace Geometry</title>
-  <link rel="canonical" href="https://samclark.net/svd-tutorial">
+  <link rel="canonical" href="https://samclark.net/site/tutorials/svd-demography.shtml">
   <meta name="citation_title" content="SVD as Subspace Geometry: From Linear Algebra to Demographic Age Schedules">
   <meta name="citation_author" content="Clark, Samuel J.">
   <meta name="citation_date" content="2026-03-25">
-  <meta name="citation_public_url" content="https://samclark.net/svd-tutorial">
+  <meta name="citation_public_url" content="https://samclark.net/site/tutorials/svd-demography.shtml">
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",

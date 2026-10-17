@@ -6,8 +6,8 @@
   <meta name="author" content="Samuel J. Clark">
   <meta name="description" content="Samuel J. Clark's news page.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, news, new.">
-  <meta property="og:title" content="Bibliography">
-  <meta property="og:description" content="Bibliography of Sam Clark's published works">
+  <meta property="og:title" content="News">
+  <meta property="og:description" content="Sam Clark's news and updates">
   <title>Samuel Clark - News</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>
@@ -26,6 +26,7 @@
         Index
         <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
           <option value="#beginning">Date: Event</option>
+          <option value="#2026-10-16">2026-10-16: Paper Accepted at NeurIPS</option>
           <option value="#2026-03-19">2026-03-19: InSilicoVA Ranks Well in Independent Test</option>
           <option value="#2026-02-13">2026-02-13: AI Assistance Learning to Code</option>
           <option value="#2026-01-30">2026-01-30: WHO Health Statistics TAG</option>
@@ -55,7 +56,7 @@
           <option value="#2024-03-25">2024-03-25: Interesting Papers</option>
           <option value="#2024-03-19">2024-03-19: Pontol do Sul MTB</option>
           <option value="#2024-03-15">2024-03-15: Completed First Big VA Project</option>
-          <option value="#2023-11-14">2023-11-15: Three Papers Accepted</option>
+          <option value="#2023-11-14">2023-11-14: Three Papers Accepted</option>
           <option value="#2023-11-10">2023-11-10: RDA Kickoff at WHO</option>
           <option value="#2023-11-01">2023-11-01: Brazil for a Year</option>
           <option value="#2023-10-07">2023-10-07: Exciting Updates!</option>
@@ -72,8 +73,8 @@
           <option value="#2022-04-10:2">2022-04-10-2: Article, Global Health Action</option>
           <option value="#2022-04-10:1">2022-04-10-1: Article, Global Health Action</option>
           <option value="#2022-02-20">2022-02-20: Article, BMC Public Health</option>
-          <option value="#2022-01-23">2021-01-23: Math Trivia!</option>
-          <option value="#2021-12-28-">2021-12-28: Article, CV19 Prevalence Ohio</option>
+          <option value="#2022-01-23">2022-01-23: Math Trivia!</option>
+          <option value="#2021-12-28">2021-12-28: Article, CV19 Prevalence Ohio</option>
           <option value="#2021-12-22">2021-12-22: Preprint, VA algorithm</option>
           <option value="#2021-10-26">2021-10-26: Ron Lee, Demography Core</option>
           <option value="#2021-10-01">2021-10-01: Discussant, Penn State</option>
@@ -96,6 +97,60 @@
   <main>
 
     <div id="beginning" class="sam-block">
+
+      <!-- %%%%%%%%%%%% -->
+      <h1 class="sam-date" id="2026-10-16">
+        2026-10-16 <a href="#beginning" class="back">&#x25B2;</a>
+      </h1>
+      <!-- %%%%%%%%%%%% -->
+
+      <h2>Accepted at <em>NeurIPS 2026</em></h2>
+
+      <p>
+        Our paper introducing a multimodal cause-of-death benchmark built on data from the
+        <a href="https://champshealth.org" target="_blank">CHAMPS</a> network has been accepted as a
+        poster in the Evaluations &amp; Datasets Track of the 2026 Conference on Neural Information
+        Processing Systems (NeurIPS). The preprint is available on
+        <a href="https://www.medrxiv.org/content/10.64898/2026.07.13.26357980v1" target="_blank">medRxiv</a>.
+      </p>
+
+      <p class="bibliography">
+        Yang,&nbsp;J., S.&nbsp;Pan, H.S.&nbsp;Lim, Y.&nbsp;Chu, Y.&nbsp;Guo, N.&nbsp;Agarwal,
+        V.&nbsp;Babbar, G.R.&nbsp;Parikh, Y.T.&nbsp;Chen, C.A.&nbsp;Rees, Z.&nbsp;Dangor,
+        S.G.&nbsp;Lala, Z.R.&nbsp;Li, <span class="author">S.J.&nbsp;CLARK</span>, Z.&nbsp;Wu,
+        A.&nbsp;Datta, L.&nbsp;Liu, C.&nbsp;Rudin, S.V.&nbsp;Scarpino, B.M.&nbsp;Gyori,
+        T.H.&nbsp;McCormick. (2026 <em>forthcoming</em>).
+
+        <b>A Multimodal Benchmark for Evaluating Cause-of-Death Inference Using Child Health and
+        Mortality Data</b>.
+
+        <em>Conference on Neural Information Processing Systems (NeurIPS 2026)</em>,
+        Evaluations &amp; Datasets Track.
+
+        [&nbsp;<a href="https://www.medrxiv.org/content/10.64898/2026.07.13.26357980v1.full.pdf" target="_blank">PDF</a>&nbsp;]
+      </p>
+
+      <h3>Abstract</h3>
+
+      <p>
+        Accurately attributing causes of death is vital for global health, yet fewer than 5% of
+        deaths in resource-constrained regions are medically certified. To assign causes to these
+        unlabeled deaths at scale, practitioners traditionally rely on verbal autopsy, using
+        supervised statistical models to classify based on structured survey data. However, modern
+        mortality surveillance increasingly collects rich, unstructured multimodal data, such as
+        free-text caregiver narratives and postmortem diagnostics, which traditional supervised
+        statistical models struggle to seamlessly integrate. In this paper, we present a
+        comprehensive, multimodal benchmark for cause-of-death classification using data from the
+        Child Health and Mortality Prevention Surveillance (CHAMPS) network, a unique surveillance
+        platform spanning nine countries across South Asia and Sub-Saharan Africa. Using this
+        dataset, we introduce an evaluation framework designed to rigorously assess diagnostic
+        reasoning, moving beyond traditional metrics that fail to capture complex clinical
+        realities. We demonstrate the utility of this benchmark by evaluating zero-shot large
+        language models against supervised baselines across various data modalities. Our results
+        reveal distinct differences in how these modeling approaches synthesize unstructured medical
+        evidence. This benchmark provides a rigorously defined resource for assessing clinical
+        reasoning in next-generation mortality surveillance.
+      </p>
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2026-03-19">
@@ -277,7 +332,7 @@
         <a href="https://data.who.int/rda" target="_blank"><b>https://data.who.int/rda</b></a>. It
         launches with verbal autopsy reference deaths from the Brazilian mortality surveillance
         system (SVO), starting with the city of
-        <a href="https://svoc.usp.br/home-4/" target="_blank">São Paulo SVO</a>. Over the coming
+        <a href="https://svoc.usp.br/" target="_blank">São Paulo SVO</a>. Over the coming
         year a lot more verbal autopsy reference deaths with WHO 2022 VA, minimally-invasive tissue
         sample (MITS) results and full autopsy from Brazil will be added. Similar reference deaths
         will also be added from the <a href="https://mitsalliance.org" target="_blank">MITS
@@ -700,7 +755,7 @@
         since roughly 2013 - The Bill and Melinda Gates Foundation for two rounds of support, NICHD
         of the NIH for a five-year R01, and the various partners of the Data for Health Initiative
         funded by Bloomberg Philanthropies,
-        <a href="https://www.vitalstrategies.org/programs/civil-registration-and-vital-statistics/" target="_blank">Vital
+        <a href="https://www.vitalstrategies.org/issues/civil-registration-and-vital-statistics/" target="_blank">Vital
         Strategies</a> and the <a href="https://www.cdcfoundation.org" target="_blank">CDC
         Foundation</a> in particular.
       </p>
@@ -845,11 +900,11 @@
           to construct a Nature summary paragraph</b></a>. <em>Nature</em>.
         </li>
         <li>
-          <a href="https://www.math.ttu.edu/~atrindad/tsdata/HoetingGivens.pdf" target="_blank"><b>Communicating
+          <a href="https://alextrindade1.github.io/tsdata/HoetingGivens.pdf" target="_blank"><b>Communicating
           Statistical Results</b></a> by Jennifer Hoeting and Geof Givens.
         </li>
         <li>
-          <a href="https://www.tandfonline.com/doi/epdf/10.1080/00031305.1982.10483042" target="_blank"><b>Writing
+          <a href="https://doi.org/10.1080/00031305.1982.10483042" target="_blank"><b>Writing
           technical papers or reports</b></a> by A. S.C. Ehrenberg. <em>The American
           Statistician</em>. Also at
           <a href="https://www.jstor.org/stable/2683079" target="_blank"><b>JSTOR</b>.</a>
@@ -908,7 +963,7 @@
       <ul>
 
         <li>
-          <a href="https://journals.sagepub.com/doi/epub/10.1177/17456916231182568" target="_blank"><b>Shifting
+          <a href="https://doi.org/10.1177/17456916231182568" target="_blank"><b>Shifting
           the Level of Selection in Science</b></a> by Leo Tiokhin, Karthik Panchanathan, Paul E.
           Smaldino, and Daniël Lakens. <em>Perspectives on Psychological Science</em>,
           17456916231182568.
@@ -1020,7 +1075,7 @@
         surveillance groups worldwide. We published a paper describing the software and how to use
         it in <em>The R Journal</em>, below. In addition to the research software in R, we were
         supported by the NGO
-        <a href="https://www.vitalstrategies.org/programs/civil-registration-and-vital-statistics/" target="_blank">Vital
+        <a href="https://www.vitalstrategies.org/issues/civil-registration-and-vital-statistics/" target="_blank">Vital
         Strategies</a> to create a production version of the software implemented in Python and C++
         by <a href="https://jarathomas.github.io/index.html" target="_blank">Jason Thomas</a>. That
         version is very fast, easy to install in the standard way with no additional dependencies
@@ -1033,7 +1088,7 @@
         <a href="https://www.clarissasurekclark.name" target="_blank">Clarissa Surek-Clark</a>,
         <a href="https://www.american.edu/cas/faculty/angotti.cfm" target="_blank">Nicole
         Angotti</a>, and soon
-        <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian
+        <a href="https://researchportalplus.anu.edu.au/en/persons/brian-houle/" target="_blank">Brian
         Houle</a>, we have observed the interview in many settings and are beginning work to improve
         and standardize it.
       </p>
@@ -1468,7 +1523,7 @@
       <p>
         Recently, support for the continued development and maintenance of the software has come
         from
-        <a href="https://www.vitalstrategies.org/programs/civil-registration-and-vital-statistics/" target="_blank">Vital
+        <a href="https://www.vitalstrategies.org/issues/civil-registration-and-vital-statistics/" target="_blank">Vital
         Strategies</a> and the <a href="https://www.cdcfoundation.org" target="_blank">CDC
         Foundation</a> as part of Bloomberg Philanthropies'
         <a href="https://www.bloomberg.org/public-health/strengthening-health-data/data-for-health/" target="_blank">Data
@@ -1504,7 +1559,7 @@
         The UN Population Division recently released the 2022 iteration of their bi-annual World
         Population Prospects WPP global population estimates and projections. I led a small team
         including <a href="https://jamuir.net" target="_blank">Jon Muir</a> and
-        <a href="https://researchers.anu.edu.au/researchers/houle-b" target="_blank">Brian Houle</a>
+        <a href="https://researchportalplus.anu.edu.au/en/persons/brian-houle/" target="_blank">Brian Houle</a>
         to develop a mortality model for HIV-affected countries that was used to produce the 2022
         WPP. OSU undergraduate student Michael Allen also contributed to the early stages of our
         work a couple years ago.
@@ -1893,10 +1948,10 @@
       <!-- %%%%%%%%%%%% -->
       <p>
         Today Mary Shenk and I are discussants at the
-        16<sup>th</sup><a href="https://pop.psu.edu/events/16th-annual-de-jong-lecture-social-demography" target="_blank">De
-        Jong Lecture in Social Demography</a> at Penn State. Hans
-        <a href="https://www.sas.upenn.edu/~hpkohler/" target="_blank">Peter-Peter Kohler</a> is the
-        featured speaker. Link to <a href="./talks.shtml#dejongslides" target="_blank">slides</a>.
+        16<sup>th</sup> <a href="https://pop.psu.edu/events/16th-annual-de-jong-lecture-social-demography" target="_blank">De
+        Jong Lecture in Social Demography</a> at Penn State.
+        <a href="https://www.sas.upenn.edu/~hpkohler/" target="_blank">Hans-Peter Kohler</a> is the
+        featured speaker. Link to <a href="/site/pages/talks.shtml#2021-10-01" target="_blank">slides</a>.
       </p>
 
       <!-- %%%%%%%%%%%% -->
@@ -2024,11 +2079,11 @@
         recently:
         <a href="https://data.unicef.org/wp-content/uploads/2021/03/SubnationalBrochure_lowrec_pg_0330.pdf" target="_blank">Subnational
         Under-five Mortality Estimates, 1990–2019</a>. This work grew out of a small collaboration
-        with <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a> at
+        with <a href="https://jonwake.github.io/website/" target="_blank">Jon Wakefield</a> at
         the University of Washington, see
         <a href="/site/projects/small-area-estimates.shtml">small-area estimates</a>. Jon grew the
         group working on it and together with
-        <a href="https://stat.uw.edu/about-us/people/jessica-godwin" target="_blank">Jessica
+        <a href="https://jlgodwin.github.io/" target="_blank">Jessica
         Godwin</a> saw it through to this. Congratulations to everyone involved!
       </p>
 

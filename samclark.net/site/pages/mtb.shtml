@@ -10,6 +10,14 @@
   <meta property="og:description" content="Sam Clark's mountain biking and other activities">
   <title>Samuel Clark - Mountain Bike+</title>
   <!--#include virtual="/site/includes/header.html" -->
+  <!-- Leaflet + photo map (USA 2026 section) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"
+        integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"
+          integrity="sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="/site/js/photo-map.js?ver=1"></script>
 </head>
 
 <body>
@@ -27,6 +35,9 @@
         <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
           <option>Jump To</option>
           <option value="#beginning">Top</option>
+          <option value="#usa-2026">USA 2026</option>
+          <option value="#usa-2026-photo-map">USA 2026 Photo Map</option>
+          <option value="#usa-2026-map">USA 2026 Itinerary Map</option>
           <option value="#alum-i-2025">Alum Creek I 2025</option>
           <option value="#alum-ii-2024">Alum Creek II 2024 - Tornado</option>
           <option value="#usa-2023">USA 2023</option>
@@ -51,6 +62,464 @@
       <h1 id="beginning">Mountain Biking and Related Topics!</h1>
 
       <p>I have ridden mountain bikes for many years. Here are some recent highlights.</p>
+
+      <!--  -->
+      <!-- USA 2026 -->
+      <!--  -->
+      <h1 id="usa-2026">USA Trip 2026 <a href="#beginning" class="back">&#x25B2;</a></h1>
+
+      <p>
+        In September 2026 I drove from Ohio to the West Coast and back, mostly on back roads and
+        camping along the way: southwest Wyoming, the Sierra Nevada foothills in California, the high
+        desert of northwest Nevada, the Oregon Cascades and Blue Mountains, the Lolo Motorway in
+        Idaho, central Montana, Yellowstone, the Chief Joseph Highway, the Bighorns, and Devils Tower.
+      </p>
+
+      <!--  -->
+      <!-- USA 2026 Photo Map -->
+      <!--  -->
+      <h2 id="usa-2026-photo-map">Photo map <a href="#usa-2026" class="back">&#x25B2;</a></h2>
+
+      <p>
+        Each marker shows how many photos were taken there; click it to see them. Click the place
+        name under any photo to find it on the map.
+      </p>
+
+      <div class="sam-photomap" id="usa-2026-photomap" data-photomap="usa-2026-mapdata"
+           data-thumbs="/site/media/thumbs/" data-file="west-coast-mtb-2026-"
+           data-anchor="p2026-"></div>
+      <script type="application/json" id="usa-2026-mapdata">{"photos":[{"n":1,"place":"Near Superior, Wyoming","c":0},{"n":2,"place":"Near Superior, Wyoming","c":1},{"n":3,"place":"Near Superior, Wyoming","c":1},{"n":4,"place":"Near Superior, Wyoming","c":2},{"n":5,"place":"Pi-Pi Valley, Eldorado National Forest, California","c":3},{"n":6,"place":"Silver Lake, near Kirkwood, California","c":4},{"n":7,"place":"Silver Lake, near Kirkwood, California","c":4},{"n":8,"place":"Silver Lake, near Kirkwood, California","c":4},{"n":9,"place":"Pi-Pi Valley, Eldorado National Forest, California","c":3},{"n":10,"place":"Pi-Pi Valley, Eldorado National Forest, California","c":3},{"n":11,"place":"Pi-Pi Valley, Eldorado National Forest, California","c":3},{"n":12,"place":"Pi-Pi Valley, Eldorado National Forest, California","c":3},{"n":13,"place":"Jenkinson Lake (Sly Park), near Pollock Pines, California","c":5},{"n":14,"place":"Near Sand Pass, Washoe County, Nevada","c":6},{"n":16,"place":"Near the Terraced Hills, Washoe County, Nevada","c":7},{"n":17,"place":"Sand Range, Washoe County, Nevada","c":8},{"n":18,"place":"Sand Range, Washoe County, Nevada","c":8},{"n":19,"place":"Sand Range, Washoe County, Nevada","c":8},{"n":20,"place":"Smoke Creek Road near Deep Hole, south of Gerlach, Nevada","c":9},{"n":21,"place":"Surprise Valley, Washoe County, Nevada","c":10},{"n":22,"place":"Surprise Valley, Washoe County, Nevada","c":10},{"n":23,"place":"Surprise Valley, Washoe County, Nevada","c":10},{"n":24,"place":"Between Surprise Valley, Nevada and Klamath Falls, Oregon","c":null},{"n":26,"place":"Near Oakridge, Willamette National Forest, Oregon","c":11},{"n":27,"place":"Near Oakridge, Willamette National Forest, Oregon","c":11},{"n":28,"place":"Near Oakridge, Willamette National Forest, Oregon","c":11},{"n":29,"place":"Near Oakridge, Willamette National Forest, Oregon","c":11},{"n":30,"place":"Near Oakridge, Willamette National Forest, Oregon","c":11},{"n":31,"place":"Near Oakridge, Willamette National Forest, Oregon","c":11},{"n":32,"place":"Near Oakridge, Willamette National Forest, Oregon","c":11},{"n":34,"place":"Bakeoven Road above Maupin, Oregon","c":12},{"n":35,"place":"Near Lena, Morrow County, Oregon","c":13},{"n":36,"place":"Pendleton, Oregon","c":14},{"n":38,"place":"Near the North Fork Umatilla Wilderness, Blue Mountains, Oregon","c":15},{"n":42,"place":"Tollgate, Blue Mountains, Oregon","c":16},{"n":43,"place":"Highway 3 near Flora, Wallowa County, Oregon","c":17},{"n":44,"place":"Highway 129 near Anatone, Washington","c":18},{"n":45,"place":"Highway 129 near Anatone, Washington","c":19},{"n":46,"place":"Wild Goose Campground near Lowell, Idaho","c":20},{"n":47,"place":"Wild Goose Campground near Lowell, Idaho","c":20},{"n":48,"place":"Wild Goose Campground near Lowell, Idaho","c":20},{"n":49,"place":"Lolo Motorway near Castle Butte, Idaho","c":21},{"n":50,"place":"Lolo Motorway near Castle Butte, Idaho","c":21},{"n":51,"place":"Lolo Motorway near Castle Butte, Idaho","c":21},{"n":52,"place":"Powell, on the Lochsa River, Idaho","c":22},{"n":53,"place":"Skidway Campground, east of Townsend, Montana","c":23},{"n":54,"place":"Skidway Campground, east of Townsend, Montana","c":23},{"n":55,"place":"Skidway Campground, east of Townsend, Montana","c":23},{"n":56,"place":"Skidway Campground, east of Townsend, Montana","c":23},{"n":58,"place":"Skidway Campground, east of Townsend, Montana","c":23},{"n":60,"place":"Smith River Valley, Montana","c":24},{"n":61,"place":"Near Tower Junction, Yellowstone National Park","c":25},{"n":62,"place":"Lamar Valley, Yellowstone National Park","c":26},{"n":64,"place":"Lamar Valley, Yellowstone National Park","c":27},{"n":65,"place":"Northeast Entrance Road near Silver Gate, Yellowstone National Park","c":28},{"n":66,"place":"Chief Joseph Scenic Highway, Wyoming","c":29},{"n":67,"place":"Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming","c":30},{"n":68,"place":"Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming","c":30},{"n":69,"place":"Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming","c":30},{"n":71,"place":"Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming","c":30},{"n":72,"place":"Dead Indian Pass, Chief Joseph Scenic Highway, Wyoming","c":31},{"n":73,"place":"Dead Indian Pass, Chief Joseph Scenic Highway, Wyoming","c":31},{"n":75,"place":"Shell Canyon, Bighorn Mountains, Wyoming","c":32},{"n":76,"place":"Shell Canyon, Bighorn Mountains, Wyoming","c":32},{"n":77,"place":"Shell Canyon, Bighorn Mountains, Wyoming","c":33},{"n":78,"place":"Near Devils Tower, Wyoming","c":34},{"n":79,"place":"Devils Tower National Monument, Wyoming","c":35},{"n":80,"place":"Devils Tower National Monument, Wyoming","c":35},{"n":81,"place":"Near Vermillion, South Dakota","c":36},{"n":82,"place":"Near Peoria, Illinois","c":37}],"clusters":[{"lat":41.75885,"lon":-109.04728,"place":"Near Superior, Wyoming","photos":[1],"date":"2026-09-07"},{"lat":41.74433,"lon":-109.00429,"place":"Near Superior, Wyoming","photos":[2,3],"date":"2026-09-07"},{"lat":41.76497,"lon":-109.0766,"place":"Near Superior, Wyoming","photos":[4],"date":"2026-09-07"},{"lat":38.56741,"lon":-120.42994,"place":"Pi-Pi Valley, Eldorado National Forest, California","photos":[5,9,10,11,12],"date":"2026-09-11"},{"lat":38.65989,"lon":-120.11029,"place":"Silver Lake, near Kirkwood, California","photos":[6,7,8],"date":"2026-09-12"},{"lat":38.71505,"lon":-120.55642,"place":"Jenkinson Lake (Sly Park), near Pollock Pines, California","photos":[13],"date":"2026-09-13"},{"lat":40.25866,"lon":-119.78474,"place":"Near Sand Pass, Washoe County, Nevada","photos":[14],"date":"2026-09-14"},{"lat":40.26172,"lon":-119.7343,"place":"Near the Terraced Hills, Washoe County, Nevada","photos":[16],"date":"2026-09-14"},{"lat":40.34069,"lon":-119.81461,"place":"Sand Range, Washoe County, Nevada","photos":[17,18,19],"date":"2026-09-14"},{"lat":40.72829,"lon":-119.51013,"place":"Smoke Creek Road near Deep Hole, south of Gerlach, Nevada","photos":[20],"date":"2026-09-14"},{"lat":41.1418,"lon":-119.95316,"place":"Surprise Valley, Washoe County, Nevada","photos":[21,22,23],"date":"2026-09-14"},{"lat":43.71053,"lon":-122.46951,"place":"Near Oakridge, Willamette National Forest, Oregon","photos":[26,27,28,29,30,31,32],"date":"2026-09-17"},{"lat":45.19094,"lon":-121.04863,"place":"Bakeoven Road above Maupin, Oregon","photos":[34],"date":"2026-09-21"},{"lat":45.37193,"lon":-119.23928,"place":"Near Lena, Morrow County, Oregon","photos":[35],"date":"2026-09-21"},{"lat":45.69397,"lon":-118.78668,"place":"Pendleton, Oregon","photos":[36],"date":"2026-09-22"},{"lat":45.72603,"lon":-118.18753,"place":"Near the North Fork Umatilla Wilderness, Blue Mountains, Oregon","photos":[38],"date":"2026-09-22"},{"lat":45.78154,"lon":-118.11646,"place":"Tollgate, Blue Mountains, Oregon","photos":[42],"date":"2026-09-25"},{"lat":45.83548,"lon":-117.26372,"place":"Highway 3 near Flora, Wallowa County, Oregon","photos":[43],"date":"2026-09-25"},{"lat":46.04504,"lon":-117.23975,"place":"Highway 129 near Anatone, Washington","photos":[44],"date":"2026-09-25"},{"lat":46.05542,"lon":-117.23405,"place":"Highway 129 near Anatone, Washington","photos":[45],"date":"2026-09-25"},{"lat":46.13539,"lon":-115.6259,"place":"Wild Goose Campground near Lowell, Idaho","photos":[46,47,48],"date":"2026-09-25"},{"lat":46.42059,"lon":-115.16356,"place":"Lolo Motorway near Castle Butte, Idaho","photos":[49,50,51],"date":"2026-09-26"},{"lat":46.51077,"lon":-114.71786,"place":"Powell, on the Lochsa River, Idaho","photos":[52],"date":"2026-09-26"},{"lat":46.35373,"lon":-111.09862,"place":"Skidway Campground, east of Townsend, Montana","photos":[53,54,55,56,58],"date":"2026-09-26"},{"lat":46.40818,"lon":-110.93035,"place":"Smith River Valley, Montana","photos":[60],"date":"2026-09-27"},{"lat":44.94854,"lon":-110.46848,"place":"Near Tower Junction, Yellowstone National Park","photos":[61],"date":"2026-09-27"},{"lat":44.91894,"lon":-110.29424,"place":"Lamar Valley, Yellowstone National Park","photos":[62],"date":"2026-09-27"},{"lat":44.90531,"lon":-110.24829,"place":"Lamar Valley, Yellowstone National Park","photos":[64],"date":"2026-09-27"},{"lat":44.98748,"lon":-110.05648,"place":"Northeast Entrance Road near Silver Gate, Yellowstone National Park","photos":[65],"date":"2026-09-27"},{"lat":44.80806,"lon":-109.44885,"place":"Chief Joseph Scenic Highway, Wyoming","photos":[66],"date":"2026-09-27"},{"lat":44.75332,"lon":-109.41806,"place":"Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming","photos":[67,68,69,71],"date":"2026-09-27"},{"lat":44.74361,"lon":-109.38361,"place":"Dead Indian Pass, Chief Joseph Scenic Highway, Wyoming","photos":[72,73],"date":"2026-09-28"},{"lat":44.5819,"lon":-107.68264,"place":"Shell Canyon, Bighorn Mountains, Wyoming","photos":[75,76],"date":"2026-09-28"},{"lat":44.58679,"lon":-107.66171,"place":"Shell Canyon, Bighorn Mountains, Wyoming","photos":[77],"date":"2026-09-28"},{"lat":44.56062,"lon":-104.68646,"place":"Near Devils Tower, Wyoming","photos":[78],"date":"2026-09-28"},{"lat":44.5816,"lon":-104.70721,"place":"Devils Tower National Monument, Wyoming","photos":[79,80],"date":"2026-09-29"},{"lat":42.77075,"lon":-97.00508,"place":"Near Vermillion, South Dakota","photos":[81],"date":"2026-09-30"},{"lat":40.73334,"lon":-89.73111,"place":"Near Peoria, Illinois","photos":[82],"date":"2026-09-30"}]}</script>
+
+      <!-- 1 : IMG_7278.jpeg -->
+      <div class="sam-image" id="p2026-1">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-1.jpg" target="_blank"><img class="mtb" title="Near Superior, Wyoming" alt="Near Superior, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-1.jpg" loading="lazy"></a>
+        <a href="#map-1" class="sam-maplink" data-photo="1">Near Superior, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 2 : IMG_7293.jpeg -->
+      <div class="sam-image" id="p2026-2">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-2.jpg" target="_blank"><img class="mtb" title="Near Superior, Wyoming" alt="Near Superior, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-2.jpg" loading="lazy"></a>
+        <a href="#map-2" class="sam-maplink" data-photo="2">Near Superior, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 3 : IMG_7295.jpeg -->
+      <div class="sam-image" id="p2026-3">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-3.jpg" target="_blank"><img class="mtb" title="Near Superior, Wyoming" alt="Near Superior, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-3.jpg" loading="lazy"></a>
+        <a href="#map-3" class="sam-maplink" data-photo="3">Near Superior, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 4 : IMG_7304.jpeg -->
+      <div class="sam-image" id="p2026-4">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-4.jpg" target="_blank"><img class="mtb" title="Near Superior, Wyoming" alt="Near Superior, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-4.jpg" loading="lazy"></a>
+        <a href="#map-4" class="sam-maplink" data-photo="4">Near Superior, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 5 : IMG_7342.jpeg -->
+      <div class="sam-image" id="p2026-5">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-5.jpg" target="_blank"><img class="mtb" title="Pi-Pi Valley, Eldorado National Forest, California" alt="Pi-Pi Valley, Eldorado National Forest, California" src="/site/media/thumbs/west-coast-mtb-2026-5.jpg" loading="lazy"></a>
+        <a href="#map-5" class="sam-maplink" data-photo="5">Pi-Pi Valley, Eldorado National Forest, California</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 6 : IMG_7354.jpeg -->
+      <div class="sam-image" id="p2026-6">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-6.jpg" target="_blank"><img class="mtb" title="Silver Lake, near Kirkwood, California" alt="Silver Lake, near Kirkwood, California" src="/site/media/thumbs/west-coast-mtb-2026-6.jpg" loading="lazy"></a>
+        <a href="#map-6" class="sam-maplink" data-photo="6">Silver Lake, near Kirkwood, California</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 7 : IMG_7361.jpeg -->
+      <div class="sam-image" id="p2026-7">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-7.jpg" target="_blank"><img class="mtb" title="Silver Lake, near Kirkwood, California" alt="Silver Lake, near Kirkwood, California" src="/site/media/thumbs/west-coast-mtb-2026-7.jpg" loading="lazy"></a>
+        <a href="#map-7" class="sam-maplink" data-photo="7">Silver Lake, near Kirkwood, California</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 8 : IMG_7367.jpeg -->
+      <div class="sam-image" id="p2026-8">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-8.jpg" target="_blank"><img class="mtb" title="Silver Lake, near Kirkwood, California" alt="Silver Lake, near Kirkwood, California" src="/site/media/thumbs/west-coast-mtb-2026-8.jpg" loading="lazy"></a>
+        <a href="#map-8" class="sam-maplink" data-photo="8">Silver Lake, near Kirkwood, California</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 9 : IMG_7381.jpeg -->
+      <div class="sam-image" id="p2026-9">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-9.jpg" target="_blank"><img class="mtb" title="Pi-Pi Valley, Eldorado National Forest, California" alt="Pi-Pi Valley, Eldorado National Forest, California" src="/site/media/thumbs/west-coast-mtb-2026-9.jpg" loading="lazy"></a>
+        <a href="#map-9" class="sam-maplink" data-photo="9">Pi-Pi Valley, Eldorado National Forest, California</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 10 : IMG_7385.jpeg : no GPS, location taken from adjacent photo -->
+      <div class="sam-image" id="p2026-10">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-10.jpg" target="_blank"><img class="mtb" title="Pi-Pi Valley, Eldorado National Forest, California" alt="Pi-Pi Valley, Eldorado National Forest, California" src="/site/media/thumbs/west-coast-mtb-2026-10.jpg" loading="lazy"></a>
+        <a href="#map-10" class="sam-maplink" data-photo="10">Pi-Pi Valley, Eldorado National Forest, California</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 11 : IMG_7386.jpeg -->
+      <div class="sam-image" id="p2026-11">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-11.jpg" target="_blank"><img class="mtb" title="Pi-Pi Valley, Eldorado National Forest, California" alt="Pi-Pi Valley, Eldorado National Forest, California" src="/site/media/thumbs/west-coast-mtb-2026-11.jpg" loading="lazy"></a>
+        <a href="#map-11" class="sam-maplink" data-photo="11">Pi-Pi Valley, Eldorado National Forest, California</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 12 : IMG_7394.jpeg -->
+      <div class="sam-image" id="p2026-12">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-12.jpg" target="_blank"><img class="mtb" title="Pi-Pi Valley, Eldorado National Forest, California" alt="Pi-Pi Valley, Eldorado National Forest, California" src="/site/media/thumbs/west-coast-mtb-2026-12.jpg" loading="lazy"></a>
+        <a href="#map-12" class="sam-maplink" data-photo="12">Pi-Pi Valley, Eldorado National Forest, California</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 13 : IMG_7408.jpeg -->
+      <div class="sam-image" id="p2026-13">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-13.jpg" target="_blank"><img class="mtb" title="Jenkinson Lake (Sly Park), near Pollock Pines, California" alt="Jenkinson Lake (Sly Park), near Pollock Pines, California" src="/site/media/thumbs/west-coast-mtb-2026-13.jpg" loading="lazy"></a>
+        <a href="#map-13" class="sam-maplink" data-photo="13">Jenkinson Lake (Sly Park), near Pollock Pines, California</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 14 : IMG_7420.jpeg -->
+      <div class="sam-image" id="p2026-14">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-14.jpg" target="_blank"><img class="mtb" title="Near Sand Pass, Washoe County, Nevada" alt="Near Sand Pass, Washoe County, Nevada" src="/site/media/thumbs/west-coast-mtb-2026-14.jpg" loading="lazy"></a>
+        <a href="#map-14" class="sam-maplink" data-photo="14">Near Sand Pass, Washoe County, Nevada</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 16 : IMG_7431.jpeg -->
+      <div class="sam-image" id="p2026-16">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-16.jpg" target="_blank"><img class="mtb" title="Near the Terraced Hills, Washoe County, Nevada" alt="Near the Terraced Hills, Washoe County, Nevada" src="/site/media/thumbs/west-coast-mtb-2026-16.jpg" loading="lazy"></a>
+        <a href="#map-16" class="sam-maplink" data-photo="16">Near the Terraced Hills, Washoe County, Nevada</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 17 : IMG_7436.jpeg -->
+      <div class="sam-image" id="p2026-17">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-17.jpg" target="_blank"><img class="mtb" title="Sand Range, Washoe County, Nevada" alt="Sand Range, Washoe County, Nevada" src="/site/media/thumbs/west-coast-mtb-2026-17.jpg" loading="lazy"></a>
+        <a href="#map-17" class="sam-maplink" data-photo="17">Sand Range, Washoe County, Nevada</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 18 : IMG_7438.jpeg -->
+      <div class="sam-image" id="p2026-18">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-18.jpg" target="_blank"><img class="mtb" title="Sand Range, Washoe County, Nevada" alt="Sand Range, Washoe County, Nevada" src="/site/media/thumbs/west-coast-mtb-2026-18.jpg" loading="lazy"></a>
+        <a href="#map-18" class="sam-maplink" data-photo="18">Sand Range, Washoe County, Nevada</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 19 : IMG_7443.jpeg -->
+      <div class="sam-image" id="p2026-19">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-19.jpg" target="_blank"><img class="mtb" title="Sand Range, Washoe County, Nevada" alt="Sand Range, Washoe County, Nevada" src="/site/media/thumbs/west-coast-mtb-2026-19.jpg" loading="lazy"></a>
+        <a href="#map-19" class="sam-maplink" data-photo="19">Sand Range, Washoe County, Nevada</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 20 : IMG_7449.jpeg -->
+      <div class="sam-image" id="p2026-20">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-20.jpg" target="_blank"><img class="mtb" title="Smoke Creek Road near Deep Hole, south of Gerlach, Nevada" alt="Smoke Creek Road near Deep Hole, south of Gerlach, Nevada" src="/site/media/thumbs/west-coast-mtb-2026-20.jpg" loading="lazy"></a>
+        <a href="#map-20" class="sam-maplink" data-photo="20">Smoke Creek Road near Deep Hole, south of Gerlach, Nevada</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 21 : IMG_7458.jpeg -->
+      <div class="sam-image" id="p2026-21">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-21.jpg" target="_blank"><img class="mtb" title="Surprise Valley, Washoe County, Nevada" alt="Surprise Valley, Washoe County, Nevada" src="/site/media/thumbs/west-coast-mtb-2026-21.jpg" loading="lazy"></a>
+        <a href="#map-21" class="sam-maplink" data-photo="21">Surprise Valley, Washoe County, Nevada</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 22 : IMG_7462.jpeg -->
+      <div class="sam-image" id="p2026-22">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-22.jpg" target="_blank"><img class="mtb" title="Surprise Valley, Washoe County, Nevada" alt="Surprise Valley, Washoe County, Nevada" src="/site/media/thumbs/west-coast-mtb-2026-22.jpg" loading="lazy"></a>
+        <a href="#map-22" class="sam-maplink" data-photo="22">Surprise Valley, Washoe County, Nevada</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 23 : IMG_7463.jpeg -->
+      <div class="sam-image" id="p2026-23">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-23.jpg" target="_blank"><img class="mtb" title="Surprise Valley, Washoe County, Nevada" alt="Surprise Valley, Washoe County, Nevada" src="/site/media/thumbs/west-coast-mtb-2026-23.jpg" loading="lazy"></a>
+        <a href="#map-23" class="sam-maplink" data-photo="23">Surprise Valley, Washoe County, Nevada</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 24 : IMG_7466.jpeg : no GPS -->
+      <div class="sam-image" id="p2026-24">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-24.jpg" target="_blank"><img class="mtb" title="Between Surprise Valley, Nevada and Klamath Falls, Oregon" alt="Between Surprise Valley, Nevada and Klamath Falls, Oregon" src="/site/media/thumbs/west-coast-mtb-2026-24.jpg" loading="lazy"></a>
+        Between Surprise Valley, Nevada and Klamath Falls, Oregon. This bolt lodged itself in the right rear tire and caused a slow lead that needed fixing. <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 26 : IMG_7507.jpeg -->
+      <div class="sam-image" id="p2026-26">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-26.jpg" target="_blank"><img class="mtb" title="Near Oakridge, Willamette National Forest, Oregon" alt="Near Oakridge, Willamette National Forest, Oregon" src="/site/media/thumbs/west-coast-mtb-2026-26.jpg" loading="lazy"></a>
+        <a href="#map-26" class="sam-maplink" data-photo="26">Near Oakridge, Willamette National Forest, Oregon</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 27 : IMG_7517.jpeg -->
+      <div class="sam-image" id="p2026-27">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-27.jpg" target="_blank"><img class="mtb" title="Near Oakridge, Willamette National Forest, Oregon" alt="Near Oakridge, Willamette National Forest, Oregon" src="/site/media/thumbs/west-coast-mtb-2026-27.jpg" loading="lazy"></a>
+        <a href="#map-27" class="sam-maplink" data-photo="27">Near Oakridge, Willamette National Forest, Oregon</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 28 : IMG_7528.jpeg -->
+      <div class="sam-image" id="p2026-28">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-28.jpg" target="_blank"><img class="mtb" title="Near Oakridge, Willamette National Forest, Oregon" alt="Near Oakridge, Willamette National Forest, Oregon" src="/site/media/thumbs/west-coast-mtb-2026-28.jpg" loading="lazy"></a>
+        <a href="#map-28" class="sam-maplink" data-photo="28">Near Oakridge, Willamette National Forest, Oregon. At the top of the mountain - a beautiful little peak that you can sit on.</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 29 : IMG_7542.jpeg -->
+      <div class="sam-image" id="p2026-29">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-29.jpg" target="_blank"><img class="mtb" title="Near Oakridge, Willamette National Forest, Oregon" alt="Near Oakridge, Willamette National Forest, Oregon" src="/site/media/thumbs/west-coast-mtb-2026-29.jpg" loading="lazy"></a>
+        <a href="#map-29" class="sam-maplink" data-photo="29">Near Oakridge, Willamette National Forest, Oregon</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 30 : IMG_7549.jpeg -->
+      <div class="sam-image" id="p2026-30">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-30.jpg" target="_blank"><img class="mtb" title="Near Oakridge, Willamette National Forest, Oregon" alt="Near Oakridge, Willamette National Forest, Oregon" src="/site/media/thumbs/west-coast-mtb-2026-30.jpg" loading="lazy"></a>
+        <a href="#map-30" class="sam-maplink" data-photo="30">Near Oakridge, Willamette National Forest, Oregon</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 31 : IMG_7558.jpeg -->
+      <div class="sam-image" id="p2026-31">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-31.jpg" target="_blank"><img class="mtb" title="Near Oakridge, Willamette National Forest, Oregon" alt="Near Oakridge, Willamette National Forest, Oregon" src="/site/media/thumbs/west-coast-mtb-2026-31.jpg" loading="lazy"></a>
+        <a href="#map-31" class="sam-maplink" data-photo="31">Near Oakridge, Willamette National Forest, Oregon</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 32 : IMG_7561.jpeg -->
+      <div class="sam-image" id="p2026-32">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-32.jpg" target="_blank"><img class="mtb" title="Near Oakridge, Willamette National Forest, Oregon" alt="Near Oakridge, Willamette National Forest, Oregon" src="/site/media/thumbs/west-coast-mtb-2026-32.jpg" loading="lazy"></a>
+        <a href="#map-32" class="sam-maplink" data-photo="32">Near Oakridge, Willamette National Forest, Oregon</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 34 : IMG_7606.jpeg -->
+      <div class="sam-image" id="p2026-34">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-34.jpg" target="_blank"><img class="mtb" title="Bakeoven Road above Maupin, Oregon" alt="Bakeoven Road above Maupin, Oregon" src="/site/media/thumbs/west-coast-mtb-2026-34.jpg" loading="lazy"></a>
+        <a href="#map-34" class="sam-maplink" data-photo="34">Bakeoven Road above Maupin, Oregon. View of Mt. Hood.</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 35 : IMG_7621.jpeg -->
+      <div class="sam-image" id="p2026-35">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-35.jpg" target="_blank"><img class="mtb" title="Near Lena, Morrow County, Oregon" alt="Near Lena, Morrow County, Oregon" src="/site/media/thumbs/west-coast-mtb-2026-35.jpg" loading="lazy"></a>
+        <a href="#map-35" class="sam-maplink" data-photo="35">Near Lena, Morrow County, Oregon</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 36 : IMG_7639.jpeg -->
+      <div class="sam-image" id="p2026-36">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-36.jpg" target="_blank"><img class="mtb" title="Pendleton, Oregon" alt="Pendleton, Oregon" src="/site/media/thumbs/west-coast-mtb-2026-36.jpg" loading="lazy"></a>
+        <a href="#map-36" class="sam-maplink" data-photo="36">Pendleton, Oregon</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 38 : IMG_7655.jpeg -->
+      <div class="sam-image" id="p2026-38">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-38.jpg" target="_blank"><img class="mtb" title="Near the North Fork Umatilla Wilderness, Blue Mountains, Oregon" alt="Near the North Fork Umatilla Wilderness, Blue Mountains, Oregon" src="/site/media/thumbs/west-coast-mtb-2026-38.jpg" loading="lazy"></a>
+        <a href="#map-38" class="sam-maplink" data-photo="38">Near the North Fork Umatilla Wilderness, Blue Mountains, Oregon</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 42 : IMG_7698.jpeg -->
+      <div class="sam-image" id="p2026-42">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-42.jpg" target="_blank"><img class="mtb" title="Tollgate, Blue Mountains, Oregon" alt="Tollgate, Blue Mountains, Oregon" src="/site/media/thumbs/west-coast-mtb-2026-42.jpg" loading="lazy"></a>
+        <a href="#map-42" class="sam-maplink" data-photo="42">Tollgate, Blue Mountains, Oregon</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 43 : IMG_7701.jpeg -->
+      <div class="sam-image" id="p2026-43">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-43.jpg" target="_blank"><img class="mtb" title="Highway 3 near Flora, Wallowa County, Oregon" alt="Highway 3 near Flora, Wallowa County, Oregon" src="/site/media/thumbs/west-coast-mtb-2026-43.jpg" loading="lazy"></a>
+        <a href="#map-43" class="sam-maplink" data-photo="43">Highway 3 near Flora, Wallowa County, Oregon</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 44 : IMG_7707.jpeg -->
+      <div class="sam-image" id="p2026-44">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-44.jpg" target="_blank"><img class="mtb" title="Highway 129 near Anatone, Washington" alt="Highway 129 near Anatone, Washington" src="/site/media/thumbs/west-coast-mtb-2026-44.jpg" loading="lazy"></a>
+        <a href="#map-44" class="sam-maplink" data-photo="44">Highway 129 near Anatone, Washington</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 45 : IMG_7712.jpeg -->
+      <div class="sam-image" id="p2026-45">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-45.jpg" target="_blank"><img class="mtb" title="Highway 129 near Anatone, Washington" alt="Highway 129 near Anatone, Washington" src="/site/media/thumbs/west-coast-mtb-2026-45.jpg" loading="lazy"></a>
+        <a href="#map-45" class="sam-maplink" data-photo="45">Highway 129 near Anatone, Washington</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 46 : IMG_7724.jpeg -->
+      <div class="sam-image" id="p2026-46">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-46.jpg" target="_blank"><img class="mtb" title="Wild Goose Campground near Lowell, Idaho" alt="Wild Goose Campground near Lowell, Idaho" src="/site/media/thumbs/west-coast-mtb-2026-46.jpg" loading="lazy"></a>
+        <a href="#map-46" class="sam-maplink" data-photo="46">Wild Goose Campground near Lowell, Idaho</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 47 : IMG_7727.jpeg -->
+      <div class="sam-image" id="p2026-47">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-47.jpg" target="_blank"><img class="mtb" title="Wild Goose Campground near Lowell, Idaho" alt="Wild Goose Campground near Lowell, Idaho" src="/site/media/thumbs/west-coast-mtb-2026-47.jpg" loading="lazy"></a>
+        <a href="#map-47" class="sam-maplink" data-photo="47">Wild Goose Campground near Lowell, Idaho</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 48 : IMG_7732.jpeg -->
+      <div class="sam-image" id="p2026-48">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-48.jpg" target="_blank"><img class="mtb" title="Wild Goose Campground near Lowell, Idaho" alt="Wild Goose Campground near Lowell, Idaho" src="/site/media/thumbs/west-coast-mtb-2026-48.jpg" loading="lazy"></a>
+        <a href="#map-48" class="sam-maplink" data-photo="48">Wild Goose Campground near Lowell, Idaho</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 49 : IMG_7740.jpeg -->
+      <div class="sam-image" id="p2026-49">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-49.jpg" target="_blank"><img class="mtb" title="Lolo Motorway near Castle Butte, Idaho" alt="Lolo Motorway near Castle Butte, Idaho" src="/site/media/thumbs/west-coast-mtb-2026-49.jpg" loading="lazy"></a>
+        <a href="#map-49" class="sam-maplink" data-photo="49">Lolo Motorway near Castle Butte, Idaho</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 50 : IMG_7741.jpeg -->
+      <div class="sam-image" id="p2026-50">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-50.jpg" target="_blank"><img class="mtb" title="Lolo Motorway near Castle Butte, Idaho" alt="Lolo Motorway near Castle Butte, Idaho" src="/site/media/thumbs/west-coast-mtb-2026-50.jpg" loading="lazy"></a>
+        <a href="#map-50" class="sam-maplink" data-photo="50">Lolo Motorway near Castle Butte, Idaho</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 51 : IMG_7744.jpeg -->
+      <div class="sam-image" id="p2026-51">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-51.jpg" target="_blank"><img class="mtb" title="Lolo Motorway near Castle Butte, Idaho" alt="Lolo Motorway near Castle Butte, Idaho" src="/site/media/thumbs/west-coast-mtb-2026-51.jpg" loading="lazy"></a>
+        <a href="#map-51" class="sam-maplink" data-photo="51">Lolo Motorway near Castle Butte, Idaho</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 52 : IMG_7747.jpeg -->
+      <div class="sam-image" id="p2026-52">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-52.jpg" target="_blank"><img class="mtb" title="Powell, on the Lochsa River, Idaho" alt="Powell, on the Lochsa River, Idaho" src="/site/media/thumbs/west-coast-mtb-2026-52.jpg" loading="lazy"></a>
+        <a href="#map-52" class="sam-maplink" data-photo="52">Powell, on the Lochsa River, Idaho. Lochsa Lodge for Breakfast.</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 53 : IMG_7757.jpeg -->
+      <div class="sam-image" id="p2026-53">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-53.jpg" target="_blank"><img class="mtb" title="Skidway Campground, east of Townsend, Montana" alt="Skidway Campground, east of Townsend, Montana" src="/site/media/thumbs/west-coast-mtb-2026-53.jpg" loading="lazy"></a>
+        <a href="#map-53" class="sam-maplink" data-photo="53">Skidway Campground, east of Townsend, Montana</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 54 : IMG_7764.jpeg -->
+      <div class="sam-image" id="p2026-54">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-54.jpg" target="_blank"><img class="mtb" title="Skidway Campground, east of Townsend, Montana" alt="Skidway Campground, east of Townsend, Montana" src="/site/media/thumbs/west-coast-mtb-2026-54.jpg" loading="lazy"></a>
+        <a href="#map-54" class="sam-maplink" data-photo="54">Skidway Campground, east of Townsend, Montana</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 55 : IMG_7771.jpeg -->
+      <div class="sam-image" id="p2026-55">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-55.jpg" target="_blank"><img class="mtb" title="Skidway Campground, east of Townsend, Montana" alt="Skidway Campground, east of Townsend, Montana" src="/site/media/thumbs/west-coast-mtb-2026-55.jpg" loading="lazy"></a>
+        <a href="#map-55" class="sam-maplink" data-photo="55">Skidway Campground, east of Townsend, Montana</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 56 : IMG_7775.jpeg -->
+      <div class="sam-image" id="p2026-56">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-56.jpg" target="_blank"><img class="mtb" title="Skidway Campground, east of Townsend, Montana" alt="Skidway Campground, east of Townsend, Montana" src="/site/media/thumbs/west-coast-mtb-2026-56.jpg" loading="lazy"></a>
+        <a href="#map-56" class="sam-maplink" data-photo="56">Skidway Campground, east of Townsend, Montana</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 58 : IMG_7796.jpeg -->
+      <div class="sam-image" id="p2026-58">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-58.jpg" target="_blank"><img class="mtb" title="Skidway Campground, east of Townsend, Montana" alt="Skidway Campground, east of Townsend, Montana" src="/site/media/thumbs/west-coast-mtb-2026-58.jpg" loading="lazy"></a>
+        <a href="#map-58" class="sam-maplink" data-photo="58">Skidway Campground, east of Townsend, Montana</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 60 : IMG_7799.jpeg -->
+      <div class="sam-image" id="p2026-60">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-60.jpg" target="_blank"><img class="mtb" title="Smith River Valley, Montana" alt="Smith River Valley, Montana" src="/site/media/thumbs/west-coast-mtb-2026-60.jpg" loading="lazy"></a>
+        <a href="#map-60" class="sam-maplink" data-photo="60">Smith River Valley, Montana. This is a well-maintained example of one of the tractors I drove many hours during high school. The other was a D5 Caterpillar agricultural tracked tractor exactly like this: <a href="https://www.youtube.com/watch?v=hwco9nyecns" target="_blank">video of D5 Ag Cat</a>.</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 61 : IMG_7804.jpeg -->
+      <div class="sam-image" id="p2026-61">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-61.jpg" target="_blank"><img class="mtb" title="Near Tower Junction, Yellowstone National Park" alt="Near Tower Junction, Yellowstone National Park" src="/site/media/thumbs/west-coast-mtb-2026-61.jpg" loading="lazy"></a>
+        <a href="#map-61" class="sam-maplink" data-photo="61">Near Tower Junction, Yellowstone National Park</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 62 : IMG_7817.jpeg -->
+      <div class="sam-image" id="p2026-62">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-62.jpg" target="_blank"><img class="mtb" title="Lamar Valley, Yellowstone National Park" alt="Lamar Valley, Yellowstone National Park" src="/site/media/thumbs/west-coast-mtb-2026-62.jpg" loading="lazy"></a>
+        <a href="#map-62" class="sam-maplink" data-photo="62">Lamar Valley, Yellowstone National Park</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 64 : IMG_7827.jpeg -->
+      <div class="sam-image" id="p2026-64">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-64.jpg" target="_blank"><img class="mtb" title="Lamar Valley, Yellowstone National Park" alt="Lamar Valley, Yellowstone National Park" src="/site/media/thumbs/west-coast-mtb-2026-64.jpg" loading="lazy"></a>
+        <a href="#map-64" class="sam-maplink" data-photo="64">Lamar Valley, Yellowstone National Park</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 65 : IMG_7833.jpeg -->
+      <div class="sam-image" id="p2026-65">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-65.jpg" target="_blank"><img class="mtb" title="Northeast Entrance Road near Silver Gate, Yellowstone National Park" alt="Northeast Entrance Road near Silver Gate, Yellowstone National Park" src="/site/media/thumbs/west-coast-mtb-2026-65.jpg" loading="lazy"></a>
+        <a href="#map-65" class="sam-maplink" data-photo="65">Northeast Entrance Road near Silver Gate, Yellowstone National Park</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 66 : IMG_7836.jpeg -->
+      <div class="sam-image" id="p2026-66">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-66.jpg" target="_blank"><img class="mtb" title="Chief Joseph Scenic Highway, Wyoming" alt="Chief Joseph Scenic Highway, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-66.jpg" loading="lazy"></a>
+        <a href="#map-66" class="sam-maplink" data-photo="66">Chief Joseph Scenic Highway, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 67 : IMG_7844.jpeg -->
+      <div class="sam-image" id="p2026-67">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-67.jpg" target="_blank"><img class="mtb" title="Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming" alt="Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-67.jpg" loading="lazy"></a>
+        <a href="#map-67" class="sam-maplink" data-photo="67">Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 68 : IMG_7846.jpeg -->
+      <div class="sam-image" id="p2026-68">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-68.jpg" target="_blank"><img class="mtb" title="Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming" alt="Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-68.jpg" loading="lazy"></a>
+        <a href="#map-68" class="sam-maplink" data-photo="68">Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 69 : IMG_7856.jpeg -->
+      <div class="sam-image" id="p2026-69">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-69.jpg" target="_blank"><img class="mtb" title="Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming" alt="Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-69.jpg" loading="lazy"></a>
+        <a href="#map-69" class="sam-maplink" data-photo="69">Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 71 : IMG_7861.jpeg -->
+      <div class="sam-image" id="p2026-71">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-71.jpg" target="_blank"><img class="mtb" title="Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming" alt="Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-71.jpg" loading="lazy"></a>
+        <a href="#map-71" class="sam-maplink" data-photo="71">Dead Indian Campground, Chief Joseph Scenic Highway, Wyoming. It rained about 40 minutes after I woke up - hence breakfast was curtailed and under the car's life gate.</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 72 : IMG_7869.jpeg -->
+      <div class="sam-image" id="p2026-72">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-72.jpg" target="_blank"><img class="mtb" title="Dead Indian Pass, Chief Joseph Scenic Highway, Wyoming" alt="Dead Indian Pass, Chief Joseph Scenic Highway, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-72.jpg" loading="lazy"></a>
+        <a href="#map-72" class="sam-maplink" data-photo="72">Dead Indian Pass, Chief Joseph Scenic Highway, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 73 : IMG_7870.jpeg -->
+      <div class="sam-image" id="p2026-73">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-73.jpg" target="_blank"><img class="mtb" title="Dead Indian Pass, Chief Joseph Scenic Highway, Wyoming" alt="Dead Indian Pass, Chief Joseph Scenic Highway, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-73.jpg" loading="lazy"></a>
+        <a href="#map-73" class="sam-maplink" data-photo="73">Dead Indian Pass, Chief Joseph Scenic Highway, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 75 : IMG_7899.jpeg -->
+      <div class="sam-image" id="p2026-75">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-75.jpg" target="_blank"><img class="mtb" title="Shell Canyon, Bighorn Mountains, Wyoming" alt="Shell Canyon, Bighorn Mountains, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-75.jpg" loading="lazy"></a>
+        <a href="#map-75" class="sam-maplink" data-photo="75">Shell Canyon, Bighorn Mountains, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 76 : IMG_7903.jpeg -->
+      <div class="sam-image" id="p2026-76">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-76.jpg" target="_blank"><img class="mtb" title="Shell Canyon, Bighorn Mountains, Wyoming" alt="Shell Canyon, Bighorn Mountains, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-76.jpg" loading="lazy"></a>
+        <a href="#map-76" class="sam-maplink" data-photo="76">Shell Canyon, Bighorn Mountains, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 77 : IMG_7914.jpeg -->
+      <div class="sam-image" id="p2026-77">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-77.jpg" target="_blank"><img class="mtb" title="Shell Canyon, Bighorn Mountains, Wyoming" alt="Shell Canyon, Bighorn Mountains, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-77.jpg" loading="lazy"></a>
+        <a href="#map-77" class="sam-maplink" data-photo="77">Shell Canyon, Bighorn Mountains, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 78 : IMG_7931.jpeg -->
+      <div class="sam-image" id="p2026-78">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-78.jpg" target="_blank"><img class="mtb" title="Near Devils Tower, Wyoming" alt="Near Devils Tower, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-78.jpg" loading="lazy"></a>
+        <a href="#map-78" class="sam-maplink" data-photo="78">Near Devils Tower, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 79 : IMG_7947.jpeg -->
+      <div class="sam-image" id="p2026-79">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-79.jpg" target="_blank"><img class="mtb" title="Devils Tower National Monument, Wyoming" alt="Devils Tower National Monument, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-79.jpg" loading="lazy"></a>
+        <a href="#map-79" class="sam-maplink" data-photo="79">Devils Tower National Monument, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 80 : IMG_7965.jpeg -->
+      <div class="sam-image" id="p2026-80">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-80.jpg" target="_blank"><img class="mtb" title="Devils Tower National Monument, Wyoming" alt="Devils Tower National Monument, Wyoming" src="/site/media/thumbs/west-coast-mtb-2026-80.jpg" loading="lazy"></a>
+        <a href="#map-80" class="sam-maplink" data-photo="80">Devils Tower National Monument, Wyoming</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 81 : IMG_7975.jpeg -->
+      <div class="sam-image" id="p2026-81">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-81.jpg" target="_blank"><img class="mtb" title="Near Vermillion, South Dakota" alt="Near Vermillion, South Dakota" src="/site/media/thumbs/west-coast-mtb-2026-81.jpg" loading="lazy"></a>
+        <a href="#map-81" class="sam-maplink" data-photo="81">Near Vermillion, South Dakota. Clay County Park Recreation Area Campground - it was wet and muddy!</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!-- 82 : IMG_7990.jpeg -->
+      <div class="sam-image" id="p2026-82">
+        <a href="/site/media/fullsize/west-coast-mtb-2026-82.jpg" target="_blank"><img class="mtb" title="Near Peoria, Illinois" alt="Near Peoria, Illinois" src="/site/media/thumbs/west-coast-mtb-2026-82.jpg" loading="lazy"></a>
+        <a href="#map-82" class="sam-maplink" data-photo="82">Near Peoria, Illinois</a> <a href="#usa-2026" class="back">&#x25B2;</a>
+      </div>
+
+      <!--  -->
+      <!-- USA 2026 Map -->
+      <!--  -->
+      <h2 id="usa-2026-map">Itinerary map <a href="#usa-2026" class="back">&#x25B2;</a></h2>
+
+      <div class="sam-image">
+        <iframe class="biography" title="2026 West Coast Trip Map" src="https://www.google.com/maps/d/u/0/embed?mid=1kpu5EV6N1sjGs351LHM9Plv8M6i8QrA&amp;ehbc=2E312F" loading="lazy"></iframe>
+        Google map: <a href="https://www.google.com/maps/d/viewer?mid=1kpu5EV6N1sjGs351LHM9Plv8M6i8QrA" target="_blank">2026 West Coast Trip Map</a> (opens full
+        screen) <a href="#usa-2026-map" class="back">&#x25B2;</a>
+      </div>
 
       <h1 id="alum-i-2025">Alum Creek I 2025 <a href="#beginning" class="back">&#x25B2;</a></h1>
 

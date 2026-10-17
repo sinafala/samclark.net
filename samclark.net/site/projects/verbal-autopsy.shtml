@@ -31,7 +31,7 @@
           <option value="#software-openva_team">Software and openVA Team</option>
           <option value="#va-interview">VA Interview</option>
           <option value="#additional-papers">Additional Papers</option>
-          <option value="#gratuitous-critique">Gratuitous Critique of InSilicoVA</option>
+          <option value="#insilicova-exchange">Published Exchange on InSilicoVA</option>
         </select>
       </h1>
     </div>
@@ -179,12 +179,12 @@
         operates the others. We also maintain a publicly-accessible
         <a href="https://github.com/verbal-autopsy-software" target="_blank">Github repository</a>
         with the code and a variety of additional resources. For users, we published a tutorial and
-        user manual in the <em>The R Journal</em>:
+        user manual in <em>The R Journal</em>:
         <a href="https://journal.r-project.org/articles/RJ-2023-020/" target="_blank">The openVA
         Toolkit for Verbal Autopsies</a>. This software has been developed by members of the
-        <a href="http://openva.net" target="_blank"><b>openVA Team</b></a>: of
+        <a href="http://openva.net" target="_blank"><b>openVA Team</b></a>:
         <a href="https://zehangli.com" target="_blank">Richard Li</a>,
-        <a href="https://ipr.osu.edu/people/thomas.3912" target="_blank">Jason Thomas</a>,
+        <a href="https://jarathomas.github.io" target="_blank">Jason Thomas</a>,
         <a href="https://www.eungangchoi.com" target="_blank">Peter Choi</a>,
         <a href="https://thmccormick.github.io" target="_blank">Tyler McCormick</a>, and myself,
         with increasing help from <a href="https://y-chu.github.io" target="_blank">Yue Chu</a>.
@@ -261,7 +261,7 @@
           by Age and Causes of Death in Rural South Africa</a>
         </li>
         <li>
-          <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2627285/" target="_blank">Cause-specific
+          <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2627285/" target="_blank">Cause-specific
           mortality rates in sub-Saharan Africa and Bangladesh</a>
         </li>
         <li>
@@ -289,28 +289,39 @@
         </li>
       </ul>
 
-      <h1 id="gratuitous-critique">
-        The gratuitous critique of InSilicoVA and our response
+      <h1 id="insilicova-exchange">
+        Published exchange on InSilicoVA's performance
         <a href="#beginning" class="back">&#x25B2;</a>
       </h1>
 
       <p>
-        In 2018 several authors associated with the Institute for Health Metrics and Evaluation
-        (IHME) published a paper gratuitously attacking InSilicoVA - publication 1 below. They
-        tested InSilicoVA using algorithm parameters set in such a way as to make it perform as
-        poorly as possible, and based on results produced in that way, they concluded that
-        InSilicoVA is flawed.
+        In 2018, Flaxman and colleagues at the Institute for Health Metrics and Evaluation (IHME)
+        and the University of Melbourne, whose group developed the competing Tariff 2.0 method,
+        published an evaluation concluding that InSilicoVA performs poorly in its default
+        configuration and is less accurate than Tariff 2.0 (<a href="#flaxman2018BMC">1</a>).
       </p>
       <p>
-        Our team replicated their work to discover what they had done and published a rebuttal
-        explaining why InSilicoVA performed so poorly in their hands - publication 2 below.
+        Using the same publicly available PHMRC data and our released software, we attempted to
+        replicate one of their adult analyses and obtained substantially better performance for
+        InSilicoVA than they reported. Because their data preparation and key parameter settings
+        were not fully documented, we could not determine the source of the differences with
+        certainty; we concluded that most of them likely result from those undocumented choices
+        (<a href="#li2020BMCRebuttal">2</a>). The original authors replied, disputing aspects of our
+        replication design and our interpretation of the results (<a href="#flaxman2020BMC">3</a>).
       </p>
-      <p>Comment 3 below is their frustrated response to our rebuttal.</p>
+      <p>
+        All three papers are open access. Code for our replication is on
+        <a href="https://github.com/richardli/InSilicoVA-sim" target="_blank">GitHub</a>, as is the
+        original authors'
+        <a href="https://github.com/aflaxman/performance_of_insilicova_replication_archive" target="_blank">replication
+        archive</a>. For a later, independent evaluation conducted for national use, see the
+        <a href="#tza-endorse">Tanzania Ministry of Health report</a> above.
+      </p>
 
       <ol>
         <li>
           <p>
-            <a id="flaxman-hatchet-job"></a> Flaxman, A.D., J.C.&nbsp;Joseph, C.J.L.&nbsp;Murray,
+            <a id="flaxman2018BMC"></a> Flaxman, A.D., J.C.&nbsp;Joseph, C.J.L.&nbsp;Murray,
             I.D.&nbsp;Riley and A.D.&nbsp;Lopez. (2018). <b>Performance of InSilicoVA for Assigning
             Causes of Death to Verbal Autopsies: Multisite Validation study Using Clinical
             Diagnostic Gold Standards</b>. <em>BMC Medicine</em>&nbsp;<em>16</em>&nbsp;(56).
@@ -329,7 +340,7 @@
         </li>
         <li>
           <p>
-            <a id="flaxman-hatch-job"></a> Flaxman, A.D., R.&nbsp;Hazard, I.&nbsp;Riley,
+            <a id="flaxman2020BMC"></a> Flaxman, A.D., R.&nbsp;Hazard, I.&nbsp;Riley,
             A.D.&nbsp;Lopez and C.J.L.&nbsp;Murray. (2020). <b>Born to Fail: Flaws in Replication
             Design Produce Intended Results</b>. <em>BMC Medicine</em>&nbsp;<em>18</em>&nbsp;(73).
             [&nbsp;<a href="https://doi.org/10.1186/s12916-020-01517-w" target="_blank">DOI</a>&nbsp;]

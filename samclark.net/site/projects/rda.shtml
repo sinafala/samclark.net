@@ -4,11 +4,11 @@
 
 <head>
   <meta name="author" content="Samuel J. Clark">
-  <meta name="description" content="Samuel J. Clark's project page for the Reference Death Archive.">
-  <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, Africa, epidemiology, demography, RDA, reference death archive, reference data archive, verbal autopsy, CCVA, SCI, symptom-cause information, VA, WHO, MITS, minimall invasive tissue sample, verbal autopsy algorithm.">
+  <meta name="description" content="Samuel J. Clark's project page for the Reference Data Archive.">
+  <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, Africa, epidemiology, demography, RDA, reference data archive, verbal autopsy, CCVA, SCI, symptom-cause information, VA, WHO, MITS, minimally-invasive tissue sample, verbal autopsy algorithm.">
   <!--#include virtual="/site/includes/header.html" -->
   <meta property="og:title" content="Reference Data Archive - RDA">
-  <meta property="og:description" content="Sam Clark project: reference data archvie (RDA)">
+  <meta property="og:description" content="Sam Clark project: reference data archive (RDA)">
   <title>Samuel Clark - Reference Data Archive</title>
 </head>
 
@@ -62,7 +62,7 @@
         and <a href="https://www.healsl.org" target="_blank">Sierra Leone</a>, the sites that are
         part of the <a href="https://mitsalliance.org" target="_blank">MITS Alliance</a>, and the
         Brazilian mortality surveillance system (SVO), starting with the city of
-        <a href="https://svoc.usp.br/home-4/" target="_blank">S&atilde;o Paulo SVO</a>. The
+        <a href="https://svoc.usp.br/" target="_blank">S&atilde;o Paulo SVO</a>. The
         <a href="https://www.gatesfoundation.org" target="_blank">Gates Foundation</a> supported
         this work and the team has included Doris Ma Fat, Philippe Boucher, and George Vasilache
         associated with the <em>Data, Digital Health, Analytics and AI Department (DDA)</em> of the

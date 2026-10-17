@@ -57,7 +57,7 @@
         Research</a> and the
         <a href="https://tdai.osu.edu/people/clark.2962" target="_blank">Translational Data
         Analytics Institute</a>, both at OSU. I am affiliated with the
-        <a href="https://stat.uw.edu/about-us/people/samuel-clark" target="_blank">Department of
+        <a href="https://stat.uw.edu/people/samuel-clark" target="_blank">Department of
         Statistics</a> at the University of Washington and the
         <a href="https://www.wits.ac.za/publichealth/" target="_blank">School of Public Health</a>
         at the University of the Witwatersrand.
@@ -77,7 +77,7 @@
         I lead the <a href="http://openva.net" target="_blank">openVA Team</a> that works to improve
         <a href="/site/projects/verbal-autopsy.shtml" target="_parent">verbal autopsy</a>. I have
         been a member of the
-        <a href="https://www.swisstph.ch/en/about/eph/household-economics-and-health-systems-research/whova" target="_blank">WHO
+        <a href="https://www.swisstph.ch/en/research-groups/health-and-development-economics/whova" target="_blank">WHO
         Verbal Autopsy Reference Group (VARG)</a> since it was formed in 2013. Over the past several
         years I have been an active member of the VARG Task Group coordinating a comprehensive
         update of the
@@ -96,6 +96,17 @@
       </p>
 
       <h1>Updates</h1>
+
+      <h2>2026-10</h2>
+
+      <p>
+        Our paper
+        <a href="/site/pages/news.shtml#2026-10-16" target="_parent">A Multimodal Benchmark for
+        Evaluating Cause-of-Death Inference Using Child Health and Mortality Data</a> has been
+        accepted in the Evaluations &amp; Datasets Track at NeurIPS 2026. It builds a cause-of-death
+        benchmark from <a href="https://champshealth.org" target="_blank">CHAMPS</a> data and
+        evaluates zero-shot large language models against supervised baselines.
+      </p>
 
       <h2>2026-04</h2>
 
@@ -152,7 +163,7 @@
         <a href="https://www.linkedin.com/in/normangoco/" target="_blank">Norman Goco</a> and
         <a href="https://www.linkedin.com/in/david-plotner/" target="_blank">David Plotner</a> at
         <a href="https://www.rti.org" target="_blank">RTI</a>; the
-        <a href="https://openva.net"target="_blank">openVA Team</a> has just completed creation of
+        <a href="https://openva.net" target="_blank">openVA Team</a> has just completed creation of
         the <a href="/site/projects/rda.shtml" target="_blank">Reference Data Archive</a> at WHO:
         <a href="https://data.who.int/rda" target="_blank"><b>https://data.who.int/rda</b></a>.
       </p>
