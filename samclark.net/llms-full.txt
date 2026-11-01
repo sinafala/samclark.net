@@ -1,0 +1,1394 @@
+# Samuel J. Clark: full text of samclark.net
+
+> Text of the main research pages of samclark.net, the website of Samuel J. Clark, Professor of Sociology at The Ohio State University. Generated on 2026-10-24 from the site's pages; the pages themselves are authoritative if they differ. Index: https://samclark.net/llms.txt
+
+---
+
+# Home
+
+Source: https://samclark.net/
+
+I develop statistical methods, open-source software, and data resources to measure population health - above all mortality - where the underlying data are incomplete, and I apply them in Africa, at global scale, and increasingly in the United States.
+
+[CV](https://samclark.net/site/pages/cv.shtml) · [Bibliography](https://samclark.net/site/pages/bibliography.shtml) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=UrIBW-IAAAAJ) · [ORCID](https://orcid.org/0000-0002-4929-6231) · [Contact](https://samclark.net/site/pages/links-contacts.shtml)
+
+I work as a [professor](https://sociology.osu.edu/people/clark.2962) in the [Department of Sociology](https://sociology.osu.edu) at [The Ohio State University](https://www.osu.edu) (OSU). I am a faculty affiliate of the [Institute for Population Research](https://ipr.osu.edu/people/clark.2962) and core faculty in the [Translational Data Analytics Institute](https://tdai.osu.edu/people/clark.2962), both at OSU. I am affiliated with the [Department of Statistics](https://stat.uw.edu/people/samuel-clark) at the University of Washington and the [School of Public Health](https://www.wits.ac.za/publichealth/) at the University of the Witwatersrand.
+
+My work has four main strands, most of them with [open-source software](https://samclark.net/site/projects/software.shtml):
+
+- **Cause of death.** Methods for [verbal autopsy](https://samclark.net/site/projects/verbal-autopsy.shtml), including the InSilicoVA algorithm and the openVA tools, which are moving into routine use in national civil registration and vital statistics systems, and new AI methods that also read the verbal autopsy narrative.
+- **Reference Data Archive.** I led the creation of the [Reference Data Archive](https://samclark.net/site/projects/rda.shtml), a global archive of reference deaths for training and validating cause-of-death methods, hosted by WHO since December 2025 at [data.who.int/rda](https://data.who.int/rda).
+- **Mortality models.** Low-dimensional models of age-specific mortality: [SVD-Comp](https://samclark.net/site/projects/methods.shtml#svd-comp), a version of which has been part of UN World Population Prospects since the 2022 revision, and its successor [MDMx](https://arxiv.org/abs/2603.20518), which models many populations through time in a single framework to smooth, estimate, and forecast mortality. Try the [MDMx app](https://samclark.shinyapps.io/mdmx); an interactive [tutorial](https://samclark.net/site/tutorials/svd-demography.shtml) explains the SVD, SVD-Comp, and how MDMx extends them.
+- **Small-area estimation.** Space-time estimates of child mortality from household surveys, a [project](https://samclark.net/site/projects/small-area-estimates.shtml) I started at the University of Washington that Jon Wakefield now leads, including subnational estimates for UNICEF.
+
+Leadership and service:
+
+- **WHO.** Member of the [Verbal Autopsy Reference Group](https://www.swisstph.ch/en/research-groups/health-and-development-economics/whova) since it formed in 2013, including the task group updating the WHO standard verbal autopsy instrument, and of the [Technical Advisory Group on Health Statistics](https://samclark.net/site/pages/news.shtml#2026-01-30).
+- **Networks.** Lead the [openVA Team](https://openva.net); contributed to founding and growing the INDEPTH Network of health and demographic surveillance sites (Scientific Advisory Committee, 2010-2018); long-term contributor to the [Agincourt](https://www.wits.ac.za/agincourt/) site in South Africa.
+- **Profession.** Elected member of the [IUSSP](https://iussp.org) Council (2018-2021); deputy editor of *Demography* (2010-2012).
+- **Funding and mentoring.** Principal investigator on NIH and Gates Foundation grants; chaired/primary advisor of nine completed PhD committees.
+
+## Updates
+
+### 2026-11
+
+I have compiled a searchable [bibliography of the OSU Department of Sociology](https://samclark.net/site/news-pages/osu-sociology-bibliography-2026-11.shtml): 3,716 published and forthcoming works by members of the department, which can be arranged by person, topic, year, subfield, journal, and type. It is an unofficial compilation, not a publication of the university or the department.
+
+Preliminary results from my [flow-field mortality forecasting](https://samclark.net/site/news-pages/flow-field.shtml) work, updated in November 2026: in a real-time evaluation on the Human Mortality Database, with forecasts from 1955–2000, the flow-field method ranked first among twelve forecasters in 90% of the draws of a comprehensive comparison, and it kept its lead on forecasts from 2005–2015 held out of every modelling choice.
+
+### 2026-10
+
+Our new working paper [Multimodal Artificial Intelligence for Cause-of-Death Assignment from Verbal Autopsy Records: A National Benchmark Study in South Africa](https://samclark.net/site/pages/news.shtml#2026-10-17), led by [Yue Chu](https://y-chu.github.io), is now on medRxiv. Fine-tuned language models reading the free-text verbal autopsy narrative alone improved substantially on InSilicoVA and matched models using the structured questionnaire, and combining the two improved individual-level cause-of-death assignment further.
+
+Our paper [A Multimodal Benchmark for Evaluating Cause-of-Death Inference Using Child Health and Mortality Data](https://samclark.net/site/pages/news.shtml#2026-10-16) has been accepted in the Evaluations & Datasets Track at NeurIPS 2026. It builds a cause-of-death benchmark from [CHAMPS](https://champshealth.org) data and evaluates zero-shot large language models against supervised baselines.
+
+### 2026-03
+
+In my [dissertation](https://samclark.net/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa-color-figures.pdf), I built a simple set of model life tables based on mortality data from the INDEPTH Network sites. The latest iteration of this idea is written up in this working paper: [Multi-dimensional Mortality (MDMx): Sex-Age-Specific Model Life Tables, Fitting, Prediction from Summary Mortality Indicators, and Forecasting](https://arxiv.org/abs/2603.20518).
+
+Almost immediately after finishing the working paper above, I realized I could do the mortality forecasting in a completely different and perhaps better way, written up in this working paper: [Mortality Forecasting as a Flow Field in Tucker Decomposition Space](https://arxiv.org/abs/2603.24299).
+
+There is a Shiny app to go along with the two working papers that implements and demonstrates all the methods: [MDMx](https://samclark.shinyapps.io/mdmx).
+
+### 2025-12
+
+With a team including Doris Ma Fat, Philippe Boucher, and Dan-George Vasilache at the *Data, Digital Health, Analytics and AI Department (DDA)* of the WHO; [Kobus Herbst](https://www.ahri.org/scientist/kobus-herbst/) and [Brendan Gilbert](https://www.linkedin.com/in/brendan-gilbert-6026b949/) at [AHRI](https://www.ahri.org); and [Norman Goco](https://www.linkedin.com/in/normangoco/) and [David Plotner](https://www.linkedin.com/in/david-plotner/) at [RTI](https://www.rti.org); the [openVA Team](https://openva.net) has just completed creation of the [Reference Data Archive](https://samclark.net/site/projects/rda.shtml) at WHO: [**https://data.who.int/rda**](https://data.who.int/rda).
+
+Older updates are on the [News](https://samclark.net/site/pages/news.shtml) page.
+
+---
+
+# Biography
+
+Source: https://samclark.net/site/pages/biography.shtml
+
+My personal biography in space and time is complex and not easy to explain in a minute or two. Following is a very brief summary that only mentions the main space-time and professional aspects.
+
+I was born and mostly lived in East Africa until about age sixteen. I went to high school in Pendleton Oregon and did undergraduate degrees at Caltech in Pasadena. I did one year in a neuroscience PhD program at Stanford in Palo Alto before switching to demography and doing a PhD in demography at the University of Pennsylvania in Philadelphia. During the PhD I lived in Monze, Zambia for about one year. Following the PhD I was a postdoc at the University of Colorado at Boulder for about five years. During that time I lived in Durban, South Africa and mainly worked with the Agincourt health and demographic surveillance system site. After the postdoc I moved to the University of Washington in Seattle as an Assistant Professor in the Department of Sociology. After obtaining tenure there and spending a few years as Associate Professor, I moved to The Ohio State University in Columbus as a Full Professor in the Department of Sociology. During the 2023-24 academic year I was on sabbatical living in Araucária (Curitiba), Brazil and working with the Department of Pathology at the University of São Paulo.
+
+The map below gives more precise places and times. For a bigger version, open the [full-screen map](https://www.google.com/maps/d/viewer?mid=17RJAkgMyFNRyTgddU8fbkyBqIdU).
+
+---
+
+# Contact and links
+
+Source: https://samclark.net/site/pages/links-contacts.shtml
+
+## Contact
+
+Samuel J. Clark, Professor, Department of Sociology, The Ohio State University
+
+- Email: [work /at/ samclark.net](mailto:work@samclark.net?subject=From%20samclark.net)
+- OSU email: [clark.2962 /at/ osu.edu](mailto:clark.2962@osu.edu?subject=From%20samclark.net)
+- Office phone: +1 (614) 292-6681
+- Office: 60E Townshend Hall, Institute for Population Research
+- Mail: 238 Townshend Hall, 1885 Neil Avenue Mall, Columbus, OH 43210, USA
+
+Email is the best way to reach me. I read email and texts every day but can't answer everything, so if something is urgent, call or text my mobile; the number is in my email signature.
+
+## Links
+
+### Publications
+
+- [Bibliography with Links](https://samclark.net/site/pages/bibliography.shtml)
+- [Request Offprints](mailto:work@samclark.net?subject=Offprint%20request)
+
+### Bibliographies
+
+- [Google Scholar](https://scholar.google.com/citations?hl=en&user=UrIBW-IAAAAJ)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%28%28%28%28clark%20samuel%5Bfau%5D%20OR%20clark%20sam%5Bfau%5D%20OR%20%22clark%20samuel%20j%22%5Bir%5D%29%20AND%20%28%28%22ohio%20state%22%5Bad%5D%20OR%20%22university%20of%20washington%22%5Bad%5D%20OR%20%22university%20of%20colorado%22%5Bad%5D%20OR%20witwatersrand%5Bad%5D%20OR%20agincourt%5Bad%5D%20OR%20indepth%5Bad%5D%29%20OR%20%28demograph%2A%5Btiab%5D%20OR%20africa%2A%5Btiab%5D%20OR%20fertility%5Btiab%5D%20OR%20%22verbal%20autops%2A%22%5Btiab%5D%20OR%20%22cause%20of%20death%22%5Btiab%5D%20OR%20%22life%20table%2A%22%5Btiab%5D%20OR%20HIV%5Btiab%5D%20OR%20%22mortality%20rate%2A%22%5Btiab%5D%20OR%20%22age-specific%20mortality%22%5Btiab%5D%20OR%20%22child%20mortality%22%5Btiab%5D%20OR%20%22population%20projection%2A%22%5Btiab%5D%29%29%29%20OR%20%28%22clark%20s%20j%22%5Bfau%5D%20AND%20%28%22ohio%20state%22%5Bad%5D%20OR%20%22university%20of%20washington%22%5Bad%5D%20OR%20%22university%20of%20colorado%22%5Bad%5D%20OR%20witwatersrand%5Bad%5D%20OR%20agincourt%5Bad%5D%20OR%20indepth%5Bad%5D%29%29%20OR%200000-0002-4929-6231%5Bauid%5D%29%20AND%202004%3A3000%5Bdp%5D%29%20OR%2028204483%5Bpmid%5D%20OR%2028619215%5Bpmid%5D%20OR%2038422201%5Bpmid%5D&sort=pubdate&size=200)
+- [NIH NCBI bibliography](https://www.ncbi.nlm.nih.gov/sites/myncbi/samuel.clark.1/bibliography/40790348/public/)
+- [ORCID](https://orcid.org/0000-0002-4929-6231)
+
+### Electronic Platforms
+
+- [Github: sinafala](https://github.com/sinafala/)
+- [Bluesky: @samclark.net](https://bsky.app/profile/samclark.net)
+
+### Profiles
+
+- [OSU Department of Sociology](https://sociology.osu.edu/people/clark.2962)
+- [OSU Institute for Population Research](https://ipr.osu.edu/people/clark.2962)
+- [OSU Translational Data Analytics Institute](https://tdai.osu.edu/people/clark.2962)
+- [University of Washington Department of Statistics](https://stat.uw.edu/people/samuel-clark)
+
+### openVA
+
+- [openVA Team](https://openva.net)
+
+### Scientific Writing
+
+- [Resources for Scientific Writing, Presentations, and Curation of Data and Code](https://samclark.net/site/pages/news.shtml#2024-03-26)
+
+---
+
+# Verbal autopsy
+
+Source: https://samclark.net/site/projects/verbal-autopsy.shtml
+
+## Background
+
+Verbal autopsy (VA) is an old and well-established approach to ascertain cause of death when it is not feasible or practical to conduct medical certification or full autopsies. After a death is identified, a specially trained fieldworker interviews the caregivers (usually family members) of the decedent. A typical VA interview includes a set of structured questions with categorical/quantitative responses and a narrative section that records the ‘story’ of the death from the respondent’s point of view. The resulting data are interpreted by various means to assign causes to the death.
+
+The most common practice is to have clinically trained, experienced physicians read the interviews and determine causes. To address the fact that physicians frequently do not agree on causes, VA interviews are often read by two physicians, and sometimes three, and the final causes are determined through a consensus mechanism. This implicitly acknowledges two of the challenges inherent to VA:
+
+1.  without either clinical data or an autopsy it is difficult to be either specific or certain about the cause of death, and
+2.  each physician has unique training and experience and is therefore biased in various ways when assigning causes of death.
+
+The first is a fundamental limitation of VA resulting from the fact that VA data contain comparatively less information than clinical records and autopsy. A clear consequence of the second is that traditional physician-assigned VA causes of death are biased and not comparable across either single physicians or groups of physicians.
+
+An alternative to physician review is the use of an algorithmic method that processes the categorical/quantitative responses in VA interviews to identify causes of death. The algorithmic approach has three important advantages:
+
+1.  physicians are free to spend their time caring for patients,
+2.  VAs can be coded very quickly without having to wait for the always-lengthy physician review process, and
+3.  physician-associated bias is removed from the process so that cause assignments are reproducible and comparable.
+
+I have led a small team to develop a new algorithmic method for coding verbal autopsies. Building on InterVA - 'Interpret VA', the first VA algorithm - we developed InSilicoVA. InSilicoVA assigns a cause to all deaths (no 'indeterminate' causes), provides consistent estimates of uncertainty for both individual causes and population-level cause-specific mortality fractions, utilizes both 'yes' and 'no' answers, and is fully probability-based so that results are presented as true probability distributions.
+
+The team responsible for developing InSilicoVA includes [Richard Li](https://zehangli.com), [Tyler McCormick](https://thmccormick.github.io), and [myself](https://samclark.net).
+
+## Key papers
+
+- [The openVA Toolkit for Verbal Autopsies](https://journal.r-project.org/articles/RJ-2023-020/)
+- [Probabilistic Cause-of-Death Assignment using Verbal Autopsies](http://dx.doi.org/10.1080/01621459.2016.1152191)
+- [Bayesian Nested Latent Class Models for Cause-of-Death Assignment using Verbal Autopsies Across Multiple Domains](https://doi.org/10.1214/23-AOAS1826)
+- [Bayesian Joint Spike-and-Slab Graphical Lasso](http://proceedings.mlr.press/v97/li19h/li19h.pdf)
+- [Using Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in Verbal Autopsies](http://dx.doi.org/10.1214/19-BA1172)
+- [Bayesian Factor Models for Probabilistic Cause of Death Assessment with Verbal Autopsies](http://dx.doi.org/10.1214/19-AOAS1253)
+- [Estimating Causes of Death Where There Is No Medical Certification: Evolution and State of the Art of Verbal Autopsy](http://doi.org/10.1080/16549716.2021.1982486)
+- [Agreement between cause of death assignment by computer-coded verbal autopsy methods and physician coding of verbal autopsy interviews in South Africa](https://doi.org/10.1080/16549716.2023.2285105)
+- [Temporal Changes in Cause of Death Among Adolescents and Adults in Six Countries in Eastern And Southern Africa: A Multi-Country Cohort Study using Verbal Autopsy Data](https://doi.org/10.1016/S2214-109X(24)00171-2)
+
+## Independent Endorsement by the Tanzanian Ministry of Health
+
+A report from the Ministry of Health of Tanzania (June, 2024) that evaluates VA cause-coding methods for use in Tanzania's civil registration and vital statistics system endorses InSilicoVA as the recommended VA cause coding approach for WHO standard VAs. For more on this, see News item ['Tanzania Ministry of Health endorses InSilicoVA'](https://samclark.net/site/pages/news.shtml#2024-07-04).
+
+## Software: openVA and the openVA Team
+
+We have created and released open source, freely available software for InSilicoVA and all of the other commonly-used verbal autopsy cause-coding algorithms (except Tariff 2.0) in the statistical programming environment [R](https://cran.r-project.org). All of the packages are available at the Comprehensive R Archive Network ([CRAN](https://cran.r-project.org/web/packages/available_packages_by_name.html)). The [openVA](https://cran.r-project.org/package=openVA) package operates the others. We also maintain a publicly-accessible [Github repository](https://github.com/verbal-autopsy-software) with the code and a variety of additional resources. For users, we published a tutorial and user manual in *The R Journal*: [The openVA Toolkit for Verbal Autopsies](https://journal.r-project.org/articles/RJ-2023-020/). This software has been developed by members of the [**openVA Team**](http://openva.net): [Richard Li](https://zehangli.com), [Jason Thomas](https://jarathomas.github.io), [Peter Choi](https://www.eungangchoi.com), [Tyler McCormick](https://thmccormick.github.io), and myself, with increasing help from [Yue Chu](https://y-chu.github.io).
+
+### pyOpenVA
+
+To make the VA cause-coding algorithms fast and easily available using a familiar interface, we have created [pyOpenVA](https://github.com/verbal-autopsy-software/pyopenva_GUI/). This is standard (i.e. non-research) software that installs using a traditional installer, does not require supporting software (e.g. R, Java, etc.) to be installed on your computer, and operates through a graphical user interface. pyOpenVA is written in Python and C++ so it is fast.
+
+### Links to Key openVA Software
+
+- [pyOpenVA](https://github.com/verbal-autopsy-software/pyopenva_GUI/releases) - 'Assets' contains installers for Windows and MacOS
+- [openVA Team site](http://openva.net) and [**openVA Toolkit** paper](https://journal.r-project.org/articles/RJ-2023-020/)
+- [openVA R Package](https://cran.r-project.org/package=openVA)
+- [openVA App](https://github.com/verbal-autopsy-software/openVA_App/releases)
+- [Video for installation of openVA App](https://youtu.be/C2EPOpTzJTk)
+- [Video for example analysis using openVA App](https://youtu.be/K1wkSbTwxkg)
+
+## The VA Interview
+
+[Clarissa Surek-Clark](http://www.clarissasurekclark.name) has led the openVA Team's thinking around the VA interview. Drawing on her experience as a professional translator and interpreter and training as a sociolinguist, she is curious to know how VA interviews are conducted across a variety of cultural and linguistic settings. VAs are conducted in many different languages, and sometimes multiple languages are used in a single interview; however, the questionnaire is typically in English or other official language. This results in (a lot of) *ad hoc* translation and interpreting. We want to know how this affects the VA data and the eventual comparability of causes of death ascertained through VA.
+
+- [Verbal Autopsy Interview Standardization Study: A report from the field](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198862437.001.0001/oso-9780198862437-chapter-11)
+
+## Additional papers
+
+- [Mortality Disparities by Age and Causes of Death in Rural South Africa](https://doi.org/10.1136/bmjgh-2023-013539)
+- [Cause-specific mortality rates in sub-Saharan Africa and Bangladesh](https://pmc.ncbi.nlm.nih.gov/articles/PMC2627285/)
+- [Strengthening Standardised Interpretation of Verbal Autopsy Data: the New InterVA-4 tool](http://dx.doi.org/10.3402/gha.v5i0.19281)
+- [The WHO 2016 verbal autopsy instrument: An international standard suitable for automated analysis by InterVA, InSilicoVA, and Tariff 2.0](http://dx.doi.org/10.1371/journal.pmed.1002486)
+- [Automated versus physician assignment of cause of death for verbal autopsies: randomized trial of 9374 deaths in 117 villages in India](http://dx.doi.org/10.1186/s12916-019-1353-2)
+- [An integrated approach to processing WHO-2016 verbal autopsy data: the InterVA-5 model](http://dx.doi.org/10.1186/s12916-019-1333-6)
+- [Direct maternal deaths attributable to HIV in the era of antiretroviral therapy: evidence from three population-based HIV cohorts with verbal autopsy](http://dx.doi.org/10.1097/QAD.0000000000002552)
+
+## Published exchange on InSilicoVA's performance
+
+In 2018, Flaxman and colleagues at the Institute for Health Metrics and Evaluation (IHME) and the University of Melbourne, whose group developed the competing Tariff 2.0 method, published an evaluation concluding that InSilicoVA performs poorly in its default configuration and is less accurate than Tariff 2.0 ([1](https://samclark.net/site/projects/verbal-autopsy.shtml#flaxman2018BMC)).
+
+Using the same publicly available PHMRC data and our released software, we attempted to replicate one of their adult analyses and obtained substantially better performance for InSilicoVA than they reported. Because their data preparation and key parameter settings were not fully documented, we could not determine the source of the differences with certainty; we concluded that most of them likely result from those undocumented choices ([2](https://samclark.net/site/projects/verbal-autopsy.shtml#li2020BMCRebuttal)). The original authors replied, disputing aspects of our replication design and our interpretation of the results ([3](https://samclark.net/site/projects/verbal-autopsy.shtml#flaxman2020BMC)).
+
+All three papers are open access. Code for our replication is on [GitHub](https://github.com/richardli/InSilicoVA-sim), as is the original authors' [replication archive](https://github.com/aflaxman/performance_of_insilicova_replication_archive). For a later, independent evaluation conducted for national use, see the [Tanzania Ministry of Health report](https://samclark.net/site/projects/verbal-autopsy.shtml#tza-endorse) above.
+
+1.   Flaxman, A.D., J.C. Joseph, C.J.L. Murray, I.D. Riley and A.D. Lopez. (2018). **Performance of InSilicoVA for Assigning Causes of Death to Verbal Autopsies: Multisite Validation study Using Clinical Diagnostic Gold Standards**. *BMC Medicine* *16* (56). \[ [DOI](https://doi.org/10.1186/s12916-018-1039-1) \]
+
+2.   Li, Z.R., T.H. McCormick, and S.J. CLARK (2020). **Non-confirming Replication of \`Performance of InSilicoVA for Assigning Causes of Death to Verbal Autopsies: Multisite Validation Study using Clinical Diagnostic Gold Standards', BMC Medicine 2018; 16:56**. *BMC Medicine* *18* (69). \[ [DOI](http://dx.doi.org/10.1186/s12916-020-01518-9) \]
+
+3.   Flaxman, A.D., R. Hazard, I. Riley, A.D. Lopez and C.J.L. Murray. (2020). **Born to Fail: Flaws in Replication Design Produce Intended Results**. *BMC Medicine* *18* (73). \[ [DOI](https://doi.org/10.1186/s12916-020-01517-w) \]
+
+---
+
+# Reference Data Archive
+
+Source: https://samclark.net/site/projects/rda.shtml
+
+I am leading a project to create a **Reference Data Archive** for verbal autopsy and other mortality data. The [openVA Team](https://openva.net) has played a central role in this project, especially [Yue Chu](https://y-chu.github.io) and [Jason Thomas](https://jarathomas.github.io). The archive is hosted at the [WHO](https://www.ungeneva.org/en/about/organizations/who) Headquarters in Geneva at [**https://data.who.int/rda**](https://data.who.int/rda) and is publicly available to all researchers and VA users. The overall objective is to improve verbal autopsy cause of death ascertainment, especially in routine mortality surveillance. Deaths will come from the [CHAMPS](https://champshealth.org) and COMSA projects - [Mozambique](https://publichealth.jhu.edu/institute-for-international-programs/our-work/countrywide-mortality-surveillance-for-action-comsa-in-mozambique) and [Sierra Leone](https://www.healsl.org), the sites that are part of the [MITS Alliance](https://mitsalliance.org), and the Brazilian mortality surveillance system (SVO), starting with the city of [São Paulo SVO](https://svoc.usp.br/). The [Gates Foundation](https://www.gatesfoundation.org) supported this work and the team has included Doris Ma Fat, Philippe Boucher, and George Vasilache associated with the *Data, Digital Health, Analytics and AI Department (DDA)* of the WHO; [Kobus Herbst](https://www.ahri.org/scientist/kobus-herbst/) and [Brendan Gilbert](https://www.linkedin.com/in/brendan-gilbert-6026b949/) at [AHRI](https://www.ahri.org); and [Norman Goco](https://www.linkedin.com/in/normangoco/) and [David Plotner](https://www.linkedin.com/in/david-plotner/) at [RTI](https://www.rti.org). Below is a more detailed motivation and explanation of the archive.
+
+*The RDA is now live at WHO* - see [News 2025-12-12](https://samclark.net/site/pages/news.shtml#2025-12-12).
+
+## Reference Data Archive and Verbal Autopsy
+
+### General Background
+
+[About 30% of global deaths are not registered at all and about 60% do not have a medically certified cause](https://doi.org/10.2471/BLT.22.289036). This limits the ability to quantify and track the burden of disease, and consequently, our ability to prioritize and monitor interventions. There is an obvious and urgent need to improve this situation.
+
+Best practice for identifying cause of death is an inquiry conducted by a trained physician, coroner, or medical examiner supported by pathology, and if necessary, an autopsy. The required resources, human capital, and infrastructure required for this are not widely available in most low- and middle-income countries.
+
+Verbal autopsy is a feasible alternative that can be deployed widely. Verbal autopsy is an interview-based approach that does not require highly trained personnel or any biomedical infrastructure. This makes it cheap and easy and thereby possible to conduct at scale. Compared to a traditional pathology-informed method of identifying cause of death, verbal autopsy is less accurate and less reliable.
+
+Verbal autopsy consists of three elements: 1) data describing signs/symptoms displayed by the decedent, 2) a set of data that relate those signs/symptoms to a list of causes - symptom-cause information, and 3) a cause-assignment method for combining the two sets of data to identify causes of death that are jointly consistent with both. The cause-assignment method can be a physician reading the verbal autopsy interview or a computer-based algorithm that processes the two types of data together. Physicians are biased but better able to identify specific causes; algorithms are not biased but are less able to be specific. Both rely on accurate symptom-cause information - for physicians, medical training, and for algorithms, formally-defined, logical symptom-cause information. Physicians are a scarce resource that takes time and resources to train and is needed to treat living people. In contrast, computers are cheap and fast and therefore the only realistic option for at-scale verbal autopsy. Both the algorithm logic and the symptom-cause information used by the algorithm are critical to the success of computer-coded verbal autopsy.
+
+Symptom-cause information for computer algorithms originates either from physicians directly or from a set of reference deaths. Reference deaths have both verbal autopsy signs/symptoms and a cause assigned through an independent method that does not involve a computer algorithm. The physician approach is affected by bias on the part of the physicians and the fact that it is fundamentally indirect, removed from the real experience of actual deaths. The reference death approach is uses information provided by real deaths and is thereby a direct reflection of the relationship between signs/symptoms and causes for those specific reference deaths. A given set of reference deaths embodies the relationships between the specific signs/symptoms that were experienced by those deaths and the specific causes that brought about those deaths. This is both the strength and weakness of this approach: reference death symptom-cause information is precise but limited to the specific information available in a given set of reference deaths.
+
+Computer algorithms and reference death-based symptom-cause information are the way forward for at-scale verbal autopsy - because it is feasible, reproducible, and with the creation and growth of a representative reference death, will become increasingly accurate in diverse settings. Reasonable algorithms exist - InSilicoVA, InterVA, Tariff 2.0 - but existing reference death-based symptom-cause information is highly limited, not compatible with WHO standard verbal autopsies, and largely devoid of pathology-based information.
+
+### Symptom-Cause Information and Algorithm Accuracy
+
+The existing algorithms use symptom-cause information derived from physicians using either an oracle method approach - InterVA and InSilicoVA - or a hybrid reference death/oracle method approach - SmartVA Analyze. All three algorithms typically identify the correct underlying cause of death up to a maximum of about 60%. There is wide variability in their performance depending on both the population from which the deaths come and the symptom-cause information utilized by the algorithm . For these three algorithms, given a set of verbal autopsy signs/symptoms, the symptom-cause information is more important than the algorithm logic in identifying cause of death.
+
+Symptom-cause information drives automated verbal autopsy coding algorithms. Physician-elicited symptom-cause information is comparatively easy to acquire and can be generally representative, but it is imprecise, potentially biased, and incorporates pathology-related information indirectly. In contrast, reference death-derived symptom-cause information can be a highly accurate representation of the symptom-cause relationship that directly incorporates pathology-based information, but it is comparatively expensive and slow, and to be useful, it must include reference deaths from a diverse set of epidemiological settings through time.
+
+Reference death-derived symptom-cause information characterizes the relationships between verbal autopsy signs/symptoms and causes of death by quantifying the strength of the relationships between each symptom and each cause - tariff scores for SmartVA Analyze or the conditional probability of a symptom given a cause for InterVA and InSilicoVA. At this time neither approach accounts for conditionality between symptoms - that some symptoms work together in groups; incorporate additional information beyond the verbal autopsy signs/symptoms and narrative account - such as pathology-based information from minimally-invasive tissue sampling; or acknowledges the fact that the symptom-cause relationship varies by epidemiological profile, place, and time. Algorithms under development now by the openVA Team address all three potential sources of improvement by building a new latent factor model for verbal autopsy cause classification . This approach allows covariates such as minimally-invasive tissue sample-derived indicators (and others) to be directly included in the creation of symptom cause information, and for that information to be applied differently in different contexts (domains), thus accounting for heterogeneity in epidemiology, place, and time. The effect of the covariates is to sharpen the quantification of the relationships between symptoms - including groups of symptoms - and causes. Preliminary testing using the Population Health Metrics Research Consortium reference death dataset demonstrate that this new approach may increase overall accuracy of verbal autopsy cause classification from roughly 60% to roughly 75% in the absence of covariates. The addition of meaningful covariates such as minimally-invasive tissue sampling indicators is likely to significantly increase this accuracy and make the process more robust and better able to adapt to specific epidemiological contexts.
+
+### Overall Objective
+
+The overall objective of this project is to develop the tools necessary to create a pathology-based reference data archive that will allow verbal autopsy to be a pathology-informed method. When fully populated the pathology-based reference data archive will greatly improve the ability of verbal autopsy to accurately identify cause of death in a wide variety of settings around the world.
+
+Specifically, a large, high quality, pathology-based reference data archive:
+
+1.  will provide symptom-cause information for computer algorithms that
+
+2.  1.  incorporates pathology-based information from minimally-invasive tissue samples, medical records, or other biomarkers, and
+    2.  is accurate in a wide variety of contexts;
+
+3.  will allow development, testing, and validation of new computer algorithms for verbal autopsy cause classification that are able to utilize pathology-based symptom-cause information;
+
+4.  will support the continued development and validation of existing computer algorithms for verbal autopsy cause classification;
+
+5.  will support the continued development and validation of WHO standard verbal autopsy instruments and related materials ; and
+
+6.  will provide a key resource to define and support future research on verbal autopsy.
+
+### Pathology-based Reference Data Archive
+
+The pathology-based reference data archive will consist of deaths having all three of:
+
+1.  pathology-based biomarkers from minimally-invasive tissue samples (MITS), medical records, or other sources with definitive pathological results produced using standard diagnostic protocols,
+2.  WHO standard verbal autopsy signs/symptoms, and
+3.  a reference cause assigned using a reliable process that does not involve a verbal autopsy cause-coding computer algorithm - such as traditional autopsy or DeCode panel.
+
+For the reference deaths to be useful, the archive infrastructure will provide tools to receive, check, store, and disseminate both the data and the symptom-cause information. Reference deaths will come from a variety of sources and data products will be freely available to the verbal autopsy and minimally-invasive tissue sample communities.
+
+Operation of the archive will require a robust governance structure and policies/procedures to organize the activities of the operators, data providers, and data users and ensure that data are handled in an ethical manner. These will be jointly defined/created by the WHO and openVA Team.
+
+## Anticipated Impact
+
+WHO standard verbal autopsy tools support the ongoing rapid expansion of verbal autopsy in routine use in national-level vital statistics systems in a growing number of low- and middle-income countries. The pathology-based reference data archive will be a global good built on and augmenting WHO standard verbal autopsy tools. The eventual archive will be hosted and operated by the WHO.
+
+## Demonstration of Ingesting and Sharing Data (2025-10)
+
+Below is a 10-minute video of Yue Chu demonstrating most of the RDA as we're getting ready to release it.
+
+RDA Demo 2025-10
+
+---
+
+# Methods
+
+Source: https://samclark.net/site/projects/methods.shtml
+
+With a wide range of colleagues in epidemiology, statistics, and demography, I have worked on improving measurement, estimation, forecasting, and other aspects of methods used by populations scientists.
+
+## Component-based mortality models: *SVD-Comp*
+
+Beginning with my PhD, I have been interested in using dimension reduction methods to develop parsimonious, empirical models for age-specific schedules of demographic quantities, e.g. mortality or fertility rates/probabilities. This work has gone through several iterations culminating current work with colleagues at the United Nations Population Division to develop a widely-useful, single-year in age model of age-specific mortality.
+
+- [Part 1 of my PhD Dissertation](https://samclark.net/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf)
+- [Modeling Age-Specific Mortality for Countries with Generalized HIV Epidemics](https://dx.doi.org/10.1371/journal.pone.0096447)
+- [A parsimonious characterization of change in global age-specific and total fertility rates](http://dx.doi.org/10.1371/journal.pone.0190574)
+- [A General Age-Specific Mortality Model With an Example Indexed by Child Mortality or Both Child and Adult Mortality](http://dx.doi.org/10.1007/s13524-019-00785-3)
+
+The 2022 iteration of the UN Population Division's bi-annual World Population Prospects (WPP) global population estimates and projections used a version of the component model of mortality. I led a small team including [Jon Muir](https://jamuir.net) and [Brian Houle](https://researchportalplus.anu.edu.au/en/persons/brian-houle/) to develop an SVD-Comp mortality model for HIV-affected countries that produced 1-year age group mortality rates based on HIV prevalence and coverage of antiretroviral therapy.
+
+- [Launch](https://www.un.org/development/desa/pd/content/World-Population-Prospects-2022) site, including lots of information about the WPP.
+- [Summary](https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/wpp2022_summary_of_results.pdf) of results document, including acknowledgements.
+- [Data](https://population.un.org/wpp/) in many downloadable forms.
+
+## Various probabilisitic methods for population estimation and forecasting
+
+While at the University of Washington, I collaborated on a number of projects with [Adrian Raftery](https://sites.stat.washington.edu/raftery/) and a variety of graduate students in sociology and statistics. Most of these were aimed at improving the United Nations Population Division's ability to conduct estimates of forecasts of the population of all countries of the world as part of their biannual World Population Prospects publication.
+
+- [Probabilistic Projections of HIV Prevalence Using Bayesian Melding](https://dx.doi.org/10.1214/07-AOAS111)
+- [More on the cohort-component model of population projection in the context of HIV/ AIDS: A Leslie matrix representation and new estimates](https://dx.doi.org/10.4054/DemRes.2011.25.2)
+- [Probabilistic Projections of the Total Fertility Rate for All Countries](https://doi.org/10.1007/s13524-011-0040-5)
+- [Estimates of age-specific reductions in HIV prevalence in Uganda: Bayesian melding es- timation and probabilistic population forecast with an HIV-enabled cohort component projection model](https://dx.doi.org/10.4054/DemRes.2012.27.26)
+- [Estimating trends in the total fertility rate with uncertainty using imperfect data: Examples from West Africa](https://dx.doi.org/10.4054/DemRes.2012.26.15)
+- [Reconstructing Past Populations With Uncertainty From Fragmentary Data](http://dx.doi.org/10.1080/01621459.2012.737729)
+- [The age pattern of increases in mortality affected by HIV: Bayesian ﬁt of the Heligman-Pollard Model to data from the Agincourt HDSS ﬁeld site in rural northeast South Africa](https://dx.doi.org/10.4054/DemRes.2013.29.39)
+- [Bayesian reconstruction of two-sex populations by age: estimating sex ratios at birth and sex ratios of mortality](http://dx.doi.org/10.1111/rssa.12104)
+- [Bayesian population reconstruction of female populations for less developed and more developed countries](http://dx.doi.org/10.1080/00324728.2016.1139164)
+- [Probabilistic population projections for countries with generalized HIV/AIDS epidemics](http://dx.doi.org/10.1080/00324728.2017.1401654)
+
+## Miscellaneous Methods
+
+As even a cursory reading of this website reveals, thinking about methods and tools is fun for me. At various times, I've gotten interested in and spent too much time on eclectic things; some examples below.
+
+- [Research into health, population and social transitions in rural South Africa: Data and methods of the Agincourt Health and Demographic Surveillance System](https://doi.org/10.1080/14034950701505031) and an update a bit later [Profile: Agincourt Health and Socio-demographic Surveillance System](https://dx.doi.org/10.1093/ije/dys115)
+- [Mathematical Models for HIV Transmission Dynamics: Tools for Social and Behavioral Science Research](https://dx.doi.org/10.1097/QAI.0b013e3181605da3)
+- [The INDEPTH standard population for low- and middle-income countries, 2013](http://dx.doi.org/10.3402/gha.v7.23286)
+- [Clustering South African Households Based On Their Asset Status Using Latent Variable Models](https://dx.doi.org/10.1214/14-AOAS726)
+- [Validation, Replication, and Sensitivity Testing of Heckman-Type Selection Models to Adjust Estimates of HIV Prevalence](http://dx.doi.org/10.1371/journal.pone.0112563)
+- [Data Resource Profile: Network for Analysing Longitudinal Population-based HIV/AIDS data on Africa (ALPHA Network)](http://dx.doi.org/10.1093/ije/dyv343)
+
+## Hyak
+
+There is a single paper that describes an idea I had a long time ago while working with the health and demographic surveillance system (HDSS) sites in South Africa. Colleagues [Jon Wakefield](https://jonwake.github.io/website/) and [Tyler McCormick](https://thmccormick.github.io), along with graduate student Michelle Ross, helped convert my vague idea into a realistic approach to combining HDSS and survey research approaches to create a hyper efficient population measurement tool - called '*Hyak*'. I still really like this general idea, and I think there's huge potential to increase temporal/spatial coverage and accuracy without dramatically increasing resources required. I want to get back to this ASAP.
+
+- [HYAK mortality monitoring system: innovative sampling and estimation methods – proof of concept by simulation](http://dx.doi.org/10.1017/gheg.2017.15)
+
+---
+
+# The SVD as subspace geometry (tutorial)
+
+Source: https://samclark.net/site/tutorials/svd-demography.shtml
+
+From row-space / column-space projections to demographic age schedules — how SVD-Comp ([Clark, 2015](https://samclark.net/site/tutorials/svd-demography.shtml#ref-clark-2015); [Clark, 2019](https://samclark.net/site/tutorials/svd-demography.shtml#ref-clark-2019)) and its multi-way successor MDMx ([Clark, 2026b](https://samclark.net/site/tutorials/svd-demography.shtml#ref-clark-2026b)) relate to the Lee–Carter model ([Lee & Carter, 1992](https://samclark.net/site/tutorials/svd-demography.shtml#ref-lee-carter-1992)), and why the difference matters for interpretation.
+
+------------------------------------------------------------------------
+
+## 1. The four fundamental subspaces
+
+Any $m \times n$ matrix $A$ defines four subspaces ([Strang, 2009](https://samclark.net/site/tutorials/svd-demography.shtml#ref-strang-2009)). The **column space** and **left null space** live in $\mathbb{R}^m$. The **row space** and **null space** live in $\mathbb{R}^n$. The column space and left null space are orthogonal complements (together they span all of $\mathbb{R}^m$), and likewise for the row space and null space in $\mathbb{R}^n$.
+
+The rank $r$ of the matrix sets the dimensions: column space and row space are each $r$-dimensional, the null space is $(n-r)$-dimensional, and the left null space is $(m-r)$-dimensional.
+
+## 2. What SVD gives you — matched pairs
+
+$$A = U \Sigma V^T$$
+
+$U$ is $m \times m$ orthogonal, $\Sigma$ is $m \times n$ diagonal with $\sigma_1 \ge \sigma_2 \ge \cdots \ge \sigma_r > 0$, and $V$ is $n \times n$ orthogonal. The columns of $U$ are the left singular vectors; the columns of $V$ are the right singular vectors. These aren't arbitrary orthonormal bases — they are *matched pairs* that diagonalize the action of $A$:
+
+$$Av_i = \sigma_i u_i$$
+
+Each right singular vector maps to the corresponding left singular vector, scaled by the singular value. The right singular vectors with nonzero $\sigma$ form an orthonormal basis for the **row space**. The left singular vectors with nonzero $\sigma$ form an orthonormal basis for the **column space**. The remaining singular vectors fill out the null space and left null space respectively.
+
+#### The geometric picture
+
+$A$ takes the unit sphere in $\mathbb{R}^n$ to a hyperellipsoid in $\mathbb{R}^m$. The $v_i$ are the input sphere's axes that map onto the output ellipsoid's axes (the $u_i$). The singular values $\sigma_i$ are the ellipsoid's semi-axis lengths — how much $A$ stretches along each matched direction.
+
+## 3. The directional flip
+
+The same pairing and gains, but the arrows reverse:
+
+$$Av_i = \sigma_i u_i \qquad \text{(row space} \to \text{column space)}$$ $$A^T u_i = \sigma_i v_i \qquad \text{(column space} \to \text{row space)}$$
+
+Multiplying by $A$ maps vectors from the input (row) space to the output (column) space. Multiplying by $A^T$ reverses the direction. The pairing and gains are invariant — only the arrow flips. Toggle the diagram below to see the reversal:
+
+## 4. The rank-$k$ approximation
+
+The SVD lets you write $A$ as a sum of rank-1 matrices:
+
+$$A = \sum_{i=1}^{r} \sigma_i \, u_i \, v_i^T$$
+
+The Eckart–Young–Mirsky theorem ([Eckart & Young, 1936](https://samclark.net/site/tutorials/svd-demography.shtml#ref-eckart-young-1936); [Mirsky, 1960](https://samclark.net/site/tutorials/svd-demography.shtml#ref-mirsky-1960)) says the best rank-$k$ approximation (in the Frobenius or operator norm) is the SVD truncation: keep the $k$ terms with largest $\sigma$. Each term says: project the input onto row-space direction $v_i$, scale by $\sigma_i$, output in column-space direction $u_i$. The residual error is:
+
+$$\|A - A_k\|_F^2 = \sigma_{k+1}^2 + \sigma_{k+2}^2 + \cdots + \sigma_r^2$$
+
+If singular values decay rapidly, the data is effectively low-dimensional and the truncation loses almost nothing. [Golub, Hoffman and Stewart (1987)](https://samclark.net/site/tutorials/svd-demography.shtml#ref-golub-1987) extend the theorem to the best lower-rank approximation that keeps a specified set of columns of $A$ fixed.
+
+## 5. SVD-Comp — the uncentered SVD for demographic age schedules
+
+This is where the subspace geometry connects to demography. Describing many life tables with a few underlying dimensions goes back at least to [Ledermann and Breas (1959)](https://samclark.net/site/tutorials/svd-demography.shtml#ref-ledermann-breas-1959), who applied factor analysis to 157 life tables from about 50 countries and found that a small number of factors accounted for most of the variation. The key reference for SVD-Comp is [Clark (2015)](https://samclark.net/site/tutorials/svd-demography.shtml#ref-clark-2015), which develops a general SVD-based component model for age-correlated demographic quantities; [Clark (2019)](https://samclark.net/site/tutorials/svd-demography.shtml#ref-clark-2019) develops it into a model of age-specific mortality indexed by child mortality, or by child and adult mortality.
+
+Organize a matrix $A$ so that each column is one population-year's age schedule and each row is an age group. Each row is a point in $\mathbb{R}^H$ (where $H$ = number of population-years). The SVD identifies the primary directions in this cloud of age-group points.
+
+#### Why the uncentered cloud works for demography
+
+The critical observation: because mortality (or fertility) at each age is similar across population-years, the age-group points cluster on a line from the origin with slope $\approx 1$. The first right singular vector $v_1$ points from the origin through the cloud — it captures **level**. How far each age-group point sits along $v_1$ encodes the **canonical age schedule** $u_1$.
+
+For log mortality: old-age points (age 85, high mortality, small negative log) are near the origin; childhood points (age 5 in the figure, the lowest mortality, large negative log) are far from the origin. The spacing along $v_1$ *is* the bathtub curve of mortality.
+
+Each point is an age group: x = log mortality in year 1, y = log mortality in year 2. The points lie close to a line through the origin with slope ≈ 1 because mortality at each age is similar in the two years. **v₁ points from the origin through the cloud; it is the level direction.**
+
+Illustrative values for seven age groups in two years, not estimates.
+
+## 6. Lee–Carter and SVD-Comp: centered and uncentered
+
+[Lee and Carter (1992)](https://samclark.net/site/tutorials/svd-demography.shtml#ref-lee-carter-1992) also build their model on the SVD, and its introduction marked a breakthrough in mortality forecasting ([Basellini, Camarda & Booth, 2023](https://samclark.net/site/tutorials/svd-demography.shtml#ref-basellini-2023)). The model describes a population's mortality with an average age schedule $a_x$, an age pattern of change $b_x$, and a single index $k_t$ of the general level of mortality ([Lee & Miller, 2001](https://samclark.net/site/tutorials/svd-demography.shtml#ref-lee-miller-2001)). Because $k_t$ usually changes smoothly over time, forecasting the whole age schedule reduces to forecasting one time series. The approach has spawned a large family of extensions, including coherent forecasts for groups of populations ([Li & Lee, 2005](https://samclark.net/site/tutorials/svd-demography.shtml#ref-li-lee-2005)), a functional-data generalization that smooths across age and is robust to outlying years such as wars and epidemics ([Hyndman & Ullah, 2007](https://samclark.net/site/tutorials/svd-demography.shtml#ref-hyndman-ullah-2007)), and rotation of the age pattern of mortality decline ([Li, Lee & Gerland, 2013](https://samclark.net/site/tutorials/svd-demography.shtml#ref-li-lee-gerland-2013)).
+
+The two models differ mainly in one step: whether each age's mean is removed before the SVD. Toggle the figure above between "Uncentered" and "Centered by age" to see it.
+
+#### Lee–Carter: center by age, then decompose the change
+
+Lee–Carter subtracts each age's average over the years, $a_x$, before applying the SVD. In the figure, every age-group point slides along the diagonal until its coordinates average to zero, so the cloud lies on the line perpendicular to the level direction. What remains is change over time, and the leading SVD term of that residual gives $b_x$ and $k_t$: $$\ln(m_{x,t}) = a_x + b_x k_t + \varepsilon_{x,t}$$ with $\sum_x b_x = 1$ and $\sum_t k_t = 0$. Lee and Carter then re-estimate $k_t$ so that fitted deaths match observed deaths, and [Wilmoth (1993)](https://samclark.net/site/tutorials/svd-demography.shtml#ref-wilmoth-1993) developed improved fitting methods based on a weighted SVD.
+
+#### SVD-Comp: keep the average schedule inside the decomposition
+
+SVD-Comp works on the uncentered matrix. The first term $\sigma_1 u_1 v_1^T$ is, literally, level × canonical age structure, and subsequent terms are separable age-specific deviations from canonical. Each column of the data matrix is a weighted sum of the $u_i$ components, with weights from the corresponding $v_i$ ([Clark, 2015](https://samclark.net/site/tutorials/svd-demography.shtml#ref-clark-2015), Equation 10). Typically 2–3 weights suffice to reproduce an entire age schedule, and because every schedule is described by weights on the same components, schedules from different populations and periods can be compared, clustered, fitted, and predicted from covariates or summary indicators ([Clark, 2015](https://samclark.net/site/tutorials/svd-demography.shtml#ref-clark-2015); [Clark, 2019](https://samclark.net/site/tutorials/svd-demography.shtml#ref-clark-2019)).
+
+How do the two connect? If the first right singular vector $v_1$ were exactly constant across years, the first SVD-Comp term would equal the average schedule $a_x$ (repeated in every year), and the second term would equal Lee–Carter's $b_x k_t$. In real data the level changes over time, so $v_1$ tilts toward the time trend and the first SVD-Comp term also absorbs part of the change. The time pattern of the second weights, $v_2$, then tracks $k_t$ closely, but the age pattern $u_2$ is a blend of $b_x$ and the average schedule rather than $b_x$ itself. The two models organize similar information differently, for different purposes: Lee–Carter to describe and forecast change over time in one population, SVD-Comp to represent many schedules with a few shared components.
+
+#### The column reconstruction — Equation 10 of [Clark (2015)](https://samclark.net/site/tutorials/svd-demography.shtml#ref-clark-2015)
+
+Each column (population-year) of the data matrix can be written (in the paper's notation, $s_i = \sigma_i$ and $\rho = r$):
+
+$$x_h = \sum_{i=1}^{\rho} v_{h,i} \cdot s_i \, u_i = \sum_{i=1}^{\rho} v_{h,i} \cdot \Lambda_i$$
+
+where $\Lambda_i = s_i \cdot u_i$ are the age-varying components. Taking the first $c$ terms gives a $c$-parameter model. The weights $v_{h,i}$ are the parameters — typically just 2 or 3 numbers capture an entire age schedule. For an application to fertility, see [Pantazis & Clark (2018)](https://samclark.net/site/tutorials/svd-demography.shtml#ref-pantazis-clark-2018).
+
+Illustrative values for three periods, not estimates.
+
+## 7. The directional flip in demographic terms
+
+**Right-multiplying** $A$ by $v_1$ (projecting the data onto the dominant year-direction) gives $\sigma_1 u_1$ — the canonical age schedule, scaled by overall level. You're asking: *"across all years, what is the dominant age pattern of mortality?"*
+
+**Left-multiplying** $A$ by $u_1^T$ (equivalently, computing $A^T u_1$, which projects the data onto the canonical age pattern) gives $\sigma_1 v_1$ — the year-to-year level index. You're asking: *"given this canonical age shape, how does overall mortality level track across years?"*
+
+One matched pair, two directions. The first lives in age-space, the second in year-space, and $\sigma_1$ is the coupling strength between them.
+
+#### In Lee–Carter terms
+
+In Lee–Carter, $k_t$ is an index of the general level of mortality: it tracks how the level changes over time around the average schedule $a_x$, and $b_x$ gives how strongly each age responds. In SVD-Comp the average schedule is not set aside, so the whole level of each schedule, including its average, is carried by the first weight $v_{h,1}$, and the second matched pair describes the main way schedules depart from the canonical shape.
+
+## 8. From SVD-Comp to MDMx
+
+SVD-Comp factors a two-way table: ages by population-years. MDMx, the multi-dimensional mortality model ([Clark, 2026b](https://samclark.net/site/tutorials/svd-demography.shtml#ref-clark-2026b)), takes the same idea to a multi-way array. Period life tables from the Human Mortality Database are organized as a four-way tensor of logit($_1q_x$) indexed by sex, age, country, and year, and decomposed with a Tucker decomposition ([Tucker, 1966](https://samclark.net/site/tutorials/svd-demography.shtml#ref-tucker-1966)), a multi-way generalization of the SVD ([De Lathauwer, De Moor & Vandewalle, 2000](https://samclark.net/site/tutorials/svd-demography.shtml#ref-de-lathauwer-2000); [Kolda & Bader, 2009](https://samclark.net/site/tutorials/svd-demography.shtml#ref-kolda-bader-2009)).
+
+The sex and age factor matrices are shared, so every output schedule is coherent between the sexes by construction — the goal that [Li and Lee (2005)](https://samclark.net/site/tutorials/svd-demography.shtml#ref-li-lee-2005) reach within the Lee–Carter framework by adding a common factor for a group of populations. One decomposition supports model life tables, life table fitting, prediction of complete schedules from child or adult mortality (SVD-Comp reformulated in tensor coordinates), and forecasting. A companion paper ([Clark, 2026a](https://samclark.net/site/tutorials/svd-demography.shtml#ref-clark-2026a)) forecasts by following a flow field through the low-dimensional score space of the same decomposition, parameterized by mortality level, rather than by extrapolating a time index. A [research preview](https://samclark.net/site/news-pages/flow-field.shtml) compares it with Lee–Carter and other leading methods, and the [MDMx app](https://samclark.shinyapps.io/mdmx) implements the methods.
+
+## 9. Summary
+
+The SVD of a matrix $A$ simultaneously provides orthonormal bases for all four fundamental subspaces and *pairs* the row-space basis with the column-space basis through the singular values. Each row-space direction $v_i$ has a partner column-space direction $u_i$, and $\sigma_i$ is the gain along that pair. This pairing is what makes the SVD so useful for structured data.
+
+For demographic age schedules:
+
+**SVD-Comp** (uncentered) keeps the average schedule inside the decomposition. The first matched pair captures level × canonical age structure; subsequent pairs capture separable age-specific deviations from canonical. Each column of the data matrix is a weighted sum of the $u_i$ components, with weights from the corresponding $v_i$. Typically 2–3 weights suffice, which makes the components a natural basis for model life tables, smoothing, and predicting complete schedules from covariates or summary indicators. **MDMx** extends the same logic to sex, age, country, and year at once.
+
+**Lee–Carter** (centered by age) sets the average schedule aside as $a_x$ and applies the SVD to what remains, so its single component describes change over time: $b_x$ gives the age pattern of change and $k_t$ the general level of mortality. That design is what makes Lee–Carter so effective for forecasting a single population's mortality: the whole future reduces to forecasting $k_t$. The two approaches use the same tool to answer different questions.
+
+------------------------------------------------------------------------
+
+## References
+
+1.  Basellini, U., Camarda, C. G. & Booth, H. (2023). Thirty years on: A review of the Lee–Carter method for forecasting mortality. *International Journal of Forecasting* 39(3): 1033–1049. [doi:10.1016/j.ijforecast.2022.11.002](https://doi.org/10.1016/j.ijforecast.2022.11.002)
+2.  Clark, S. J. (2015). A singular value decomposition-based factorization and parsimonious component model of demographic quantities correlated by age: Predicting complete demographic age schedules with few parameters. *arXiv:1504.02057*. [arxiv.org/abs/1504.02057](https://arxiv.org/abs/1504.02057). An earlier version appeared as Working Paper No. 143 (2014), Center for Statistics and the Social Sciences, University of Washington.
+3.  Clark, S. J. (2019). A general age-specific mortality model with an example indexed by child mortality or both child and adult mortality. *Demography* 56(3): 1131–1159. [doi:10.1007/s13524-019-00785-3](https://doi.org/10.1007/s13524-019-00785-3)
+4.  Clark, S. J. (2026a). Mortality forecasting as a flow field in Tucker decomposition space. *arXiv:2603.24299*. [arxiv.org/abs/2603.24299](https://arxiv.org/abs/2603.24299)
+5.  Clark, S. J. (2026b). Multi-dimensional mortality (MDMx): Sex-age-specific model life tables, fitting, prediction from summary mortality indicators, and forecasting. *arXiv:2603.20518*. [arxiv.org/abs/2603.20518](https://arxiv.org/abs/2603.20518)
+6.  De Lathauwer, L., De Moor, B. & Vandewalle, J. (2000). A multilinear singular value decomposition. *SIAM Journal on Matrix Analysis and Applications* 21(4): 1253–1278. [doi:10.1137/S0895479896305696](https://doi.org/10.1137/S0895479896305696)
+7.  Eckart, C. & Young, G. (1936). The approximation of one matrix by another of lower rank. *Psychometrika* 1(3): 211–218. [doi:10.1007/BF02288367](https://doi.org/10.1007/BF02288367)
+8.  Golub, G. H., Hoffman, A. & Stewart, G. W. (1987). A generalization of the Eckart-Young-Mirsky matrix approximation theorem. *Linear Algebra and its Applications* 88–89: 317–327. [doi:10.1016/0024-3795(87)90114-5](https://doi.org/10.1016/0024-3795(87)90114-5)
+9.  Hyndman, R. J. & Ullah, M. S. (2007). Robust forecasting of mortality and fertility rates: A functional data approach. *Computational Statistics & Data Analysis* 51(10): 4942–4956. [doi:10.1016/j.csda.2006.07.028](https://doi.org/10.1016/j.csda.2006.07.028)
+10. Kolda, T. G. & Bader, B. W. (2009). Tensor decompositions and applications. *SIAM Review* 51(3): 455–500. [doi:10.1137/07070111X](https://doi.org/10.1137/07070111X)
+11. Ledermann, S. & Breas, J. (1959). Les dimensions de la mortalité. *Population* 14(4): 637–682. [doi:10.2307/1526082](https://doi.org/10.2307/1526082)
+12. Lee, R. D. & Carter, L. R. (1992). Modeling and forecasting U.S. mortality. *Journal of the American Statistical Association* 87(419): 659–671. [doi:10.1080/01621459.1992.10475265](https://doi.org/10.1080/01621459.1992.10475265)
+13. Lee, R. & Miller, T. (2001). Evaluating the performance of the Lee-Carter method for forecasting mortality. *Demography* 38(4): 537–549. [doi:10.1353/dem.2001.0036](https://doi.org/10.1353/dem.2001.0036)
+14. Li, N. & Lee, R. (2005). Coherent mortality forecasts for a group of populations: An extension of the Lee-Carter method. *Demography* 42(3): 575–594. [doi:10.1353/dem.2005.0021](https://doi.org/10.1353/dem.2005.0021)
+15. Li, N., Lee, R. & Gerland, P. (2013). Extending the Lee-Carter method to model the rotation of age patterns of mortality decline for long-term projections. *Demography* 50(6): 2037–2051. [doi:10.1007/s13524-013-0232-2](https://doi.org/10.1007/s13524-013-0232-2)
+16. Mirsky, L. (1960). Symmetric gauge functions and unitarily invariant norms. *The Quarterly Journal of Mathematics* 11(1): 50–59. [doi:10.1093/qmath/11.1.50](https://doi.org/10.1093/qmath/11.1.50)
+17. Pantazis, A. & Clark, S. J. (2018). A parsimonious characterization of change in global age-specific and total fertility rates. *PLOS ONE* 13(1): e0190574. [doi:10.1371/journal.pone.0190574](https://doi.org/10.1371/journal.pone.0190574)
+18. Strang, G. (2009). *Introduction to Linear Algebra*, 4th ed. Wellesley-Cambridge Press.
+19. Tucker, L. R. (1966). Some mathematical notes on three-mode factor analysis. *Psychometrika* 31(3): 279–311. [doi:10.1007/BF02289464](https://doi.org/10.1007/BF02289464)
+20. Wilmoth, J. R. (1993). Computational methods for fitting and extrapolating the Lee-Carter model of mortality change. Technical report, Department of Demography, University of California, Berkeley.
+
+Questions and comments: <work@samclark.net> or the [feedback form](https://samclark.net/site/forms/feedback.shtml). Updated 2026-10-24
+
+---
+
+# Software
+
+Source: https://samclark.net/site/projects/software.shtml
+
+I aim to provide working software for the methods I develop, and more recently to provide replication material for publications. This is a list of what's available so far. Except for the SUMMER package, I have led the teams creating this software, but in many cases, other individuals are primarily responsible for writing and maintaining it.
+
+## SVD-Comp Mortality Model
+
+The R package implementing my [SVD-Comp mortality model](https://github.com/sinafala/svd-comp) published in [Demography](https://doi.org/10.1007/s13524-019-00785-3) is on CRAN as ['SVDMx'](https://cran.r-project.org/web/packages/SVDMx/index.html).
+
+## Verbal Autopsy
+
+Software has been developed to implement InSilicoVA including R packages and universal executables delivered in a Docker container. This is [openVA](http://openva.net) and has been developed by a team including [Richard Li](https://zehangli.com), [Jason Thomas](https://jarathomas.github.io/index.html), [Peter Choi](https://www.eungangchoi.com), [Tyler McCormick](https://thmccormick.github.io), and myself, with increasing help from [Yue Chu](https://y-chu.github.io).
+
+For more information or help using the openVA tools, contact us using these email addresses:
+
+- <info@openva.net>
+- <help@openva.net>
+
+### Reference Data Archive
+
+The Reference Data Archive (RDA) is a data resource hosted at the WHO that was created and is operated by the [openVA Team](https://openva.net) and the WHO Department of Data, Digital Health, Analytics and AI (DDA): [**https://data.who.int/rda**](https://data.who.int/rda). The RDA's primary function is to accumulate reference deaths to train, validate, and contribute to operating automated cause-coding systems for verbal autopsy. There is a full description at the [RDA page](https://samclark.net/site/projects/rda.shtml).
+
+### pyOpenVA
+
+To make the VA cause-coding algorithms fast and easily available using a familiar interface, we have created *[pyOpenVA](https://github.com/verbal-autopsy-software/pyopenva_GUI/)*. This is standard (i.e. non-research) software that installs using a traditional installer, does not require supporting software (e.g. R, Java, etc.) to be installed on your computer, and operates through a graphical user interface. pyOpenVA is written in Python and C++ so it is fast.
+
+### Key VA Software
+
+- [Main openVA site](http://openva.net)
+- [pyOpenVA](https://github.com/verbal-autopsy-software/pyopenva_GUI/releases) - 'Assets' contains installers for Windows and MacOS
+- [openVA R Package](https://cran.r-project.org/package=openVA)
+- [openVA App](https://github.com/verbal-autopsy-software/openVA_App/releases)
+- [Video for installation of openVA App](https://youtu.be/C2EPOpTzJTk)
+- [Video for example analysis using openVA App](https://youtu.be/K1wkSbTwxkg)
+- [All VA software on GitHub](https://github.com/verbal-autopsy-software)
+
+### Supporting VA Software
+
+- [InterVA4: Replicate and Analyse 'InterVA4'](https://cran.r-project.org/package=InterVA4)
+- [InterVA5: Replicate and Analyse 'InterVA5'](https://cran.r-project.org/package=InterVA5)
+- [InSilicoVA: Probabilistic Verbal Autopsy Coding with 'InSilicoVA' Algorithm](https://cran.r-project.org/package=InSilicoVA)
+- [CrossVA: Verbal Autopsy Data Transformation for InSilicoVA and InterVA5 Algorithms](https://cran.r-project.org/package=CrossVA)
+- [Tariff: Replicate Tariff Method for Verbal Autopsy](https://cran.r-project.org/package=Tariff)
+- [OpenVA_Pipeline](https://github.com/verbal-autopsy-software/openva_pipeline)
+- [Model Verbal Autopsy (VA) Algorithms](https://github.com/sinafala/model-va-algorithms)
+
+## Replication Material for [SVD-Comp Mortality Model](http://dx.doi.org/10.1007/s13524-019-00785-3)
+
+- [SVD-Component Mortality Model using Child or Child/Adult Mortality as Inputs](https://github.com/sinafala/svd-comp)
+
+## Replication Material for [COVID-19 Prevalence Method](https://doi.org/10.1073/pnas.2023947118)
+
+- [Bayes Prevalence: Bayesian, model-based method to estimate prevalence of COVID-19 from survey with multiple imperfect tests](https://github.com/sinafala/bayes-prevalence)
+
+## Small-area Estimates from Complex Survey Data
+
+This project started off with me and has since become one of [Jon Wakefield](https://jonwake.github.io/website/)'s main activities, and he has led work on the SUMMER package. [Richard Li](https://zehangli.com) is primarily responsible for the code.
+
+- [SUMMER: Spatio-Temporal Under-Five Mortality Methods for Estimation](https://cran.r-project.org/package=SUMMER)
+
+## Miscellaneous
+
+- [Download and parse USA mortality data from usa.mortality.org](https://github.com/sinafala/usa-mortality)
+- Web sites are most useful when they are updated frequently. After experimenting with several web design tools to help design the site and automate updates, I wasn't able to find any that gave me the design flexibility I wanted, automated updates, and general robustness. So, I decided to write a super simple site from scratch in plain HTML and CSS and use git with a hook to completely automate backup, file management, and updating of the live site. Together, these approaches make updating the site super easy, fast, flexible, and robust. In case you're interested, here's the [source code for this website](https://github.com/sinafala/samclark.net), and a [tutorial on setting up the git feature](https://samclark.net/site/pages/news.shtml#2022-04-28).
+- [General GitHub site](https://github.com/sinafala)
+
+## Structured Population Event History Register (SPEHR)
+
+- [Description](https://samclark.net/site/misc/spehr/SPEHR.pdf)
+- [Example Database 1](https://samclark.net/site/misc/spehr/SPEHR-Joburg-Durban-2.0.mdb)
+- [Example Database 2](https://samclark.net/site/misc/spehr/SPEHR-London-NewYork-2.0.mdb)
+- [Example Database 3](https://samclark.net/site/misc/spehr/SPEHR-Merged-2.0.mdb)
+- [Example Database 4](https://samclark.net/site/misc/spehr/SPEHR-Repeated-Demographic-Survey-OR-Population-Register-2.0.mdb)
+
+## [R Shiny](https://shiny.posit.co) Applications
+
+- [Excess Mortality Calculator](https://zehangli.shinyapps.io/ExcessMortalityApp/): This was developed by [Richard Li](https://zehangli.com) and [Samuel Clark](https://samclark.net)for [Vital Strategies](https://www.vitalstrategies.org/issues/civil-registration-and-vital-statistics/). The app estimates excess deaths from a variety of death count and population inputs using either simple or more sophisticated modeling approaches.
+
+---
+
+# Small-area estimates
+
+Source: https://samclark.net/site/projects/small-area-estimates.shtml
+
+## Background
+
+This project is an offshoot of the [Hyak](./methods.shtml#hyak) hybrid demographic surveillance/sample survey idea. The team included statistician [Jon Wakefield](https://jonwake.github.io/website/) and several graduate students in statistics - to begin with Laina Mercer and Michelle Ross and later [Richard Li](https://zehangli.com). While we were working on Hyak we decided to test aspects of the idea using under-five mortality as an indicator. Jon is an expert on complex surveys and Bayesian smoothing methods, and we eventually realized that it would be possible to develop smoothed space-time estimates of under-five mortality using the demographic and health surveys (DHS). I started this project with a number of graduate students in sociology at the University of Washington, and we were soon joined by Jon and a number of graduate students in statistics. We eventually published a paper with space-time estimates of under-five mortality for all African countries with publicly-available DHS surveys, and since then, Jon has rapidly grown the project in many ways with additional colleagues and graduate students, including providing official space-time estimates of under-five mortality to UNICEF.
+
+## Papers
+
+- [Space–time Smoothing Of Complex Survey Data: Small Area Estimation For Child Mortality](http://dx.doi.org/10.1214/15-AOAS872)
+- [Estimating under-five mortality in space and time in a developing world context](http://dx.doi.org/10.1177/0962280218767988)
+- [Changes in the spatial distribution of the under-five mortality rate: Small-area analysis of 122 DHS surveys in 262 subregions of 35 countries in Africa](http://dx.doi.org/10.1371/journal.pone.0210645)
+
+## Key Contribution
+
+The key contributions of this work are to fully account for complex survey design - particularly how it affects uncertainty - and combine that with a Bayesian smoothing model to produce comparatively accurate (lower uncertainty) estimates of under-five mortality accross space and through time.
+
+This is a very active and exciting project with many potential ways to continue growing.
+
+## Software and Demonstration Videos
+
+The team - [Richard Li](https://zehangli.com) and Bryan Martin in particular - has put a lot of effort into developing robust software to implement the methods. The software is available as a package named SUMMER for the R statistical programming environment. [Richard Li](https://zehangli.com) maintains a Github repository for SUMMER development where you can find source code and a lot of additional information, and/or if you're so inclined, you could help us to develop SUMMER. Jon Wakefield and Richard Li, with some organizing by me and support from the International Institute for the Scientific Study of Population (IUSSP), recorded a series of talks about the methods with demonstrations using SUMMER.
+
+- [SUMMER package for R](https://cran.r-project.org/package=SUMMER)
+- [Video presentations on methods and demonstration of SUMMER](https://iussp.org/en/small-area-estimation-training-materials)
+- [Github repository - ongoing open-source development of SUMMER](https://github.com/richardli/SUMMER)
+
+---
+
+# Africa: epidemiology and demography
+
+Source: https://samclark.net/site/projects/africa-epidemiology-demography.shtml
+
+## Background
+
+I was born in Kenya and mostly lived in East Africa - Tanzania and Kenya - until I was almost sixteen. Consequently I identify as American and African, and I have oriented the bulk of my career toward research on topics that are important to Africa. Starting in graduate school I have worked continuously until now on a variety of epidemiology and demography studies in or related to Africa.
+
+There are a number of themes that run through these studies: HIV, the epidemographic transition, effects of household composition on mortality, [orphan mortality](./orphan-mortality.shtml), and [cause of death](./verbal-autopsy.shtml). Those without their own pages are described briefly below.
+
+## HIV
+
+The HIV epidemic in Africa has killed millions of people and severely affected the lives of millions more. Because HIV is a sexually transmitted infection, it interacts with or affects both mortality and fertility, and consequently, population dynamics and age structure. Likewise, interventions that disrupt HIV transmission - e.g. condoms - also affect fertility and population dynamics. In my PhD I built a stochastic microsimulation model of an HIV epidemic in a population with realistic demography to understand how the epidemiology and demography of HIV interact. Following that I was co-PI of an HIV behavior and seroprevalence study at the Agincourt health and demographic surveillance (HDSS) site in South Africa and participated in a number of studies of the effects of HIV. An example is a study of circular labor migration during the HIV epidemic in South Africa; results are consistent with the idea that terminally ill migrant workers returned to their home villages to die.
+
+- [Returning home to die: Circular labour migration and mortality in South Africa](https://doi.org/10.1080/14034950701355619)
+- [Implications of mortality transition for primary health care in rural South Africa: a population-based surveillance study](https://dx.doi.org/10.1016/S0140-6736(08)61399-9)
+- [Prevalence of HIV among those 15 and older in rural South Africa](https://dx.doi.org/10.1080/09540121.2012.750710)
+- [Ubiquitous burden: the contribution of migration to AIDS and Tuberculosis mortality in rural South Africa](https://doi.org/10.11564/28-0-525)
+- [Cardiometabolic disease risk and HIV status in rural South Africa: establishing a baseline](http://dx.doi.org/10.1186/s12889-015-1467-1)
+- [Trends in the burden of HIV mortality after roll-out of antiretroviral therapy in KwaZulu-Natal, South Africa: an observational community cohort study](http://dx.doi.org/10.1016/S2352-3018(16)30225-9)
+- [Tuberculosis mortality and the male survival deficit in rural South Africa: An observational community cohort study](http://dx.doi.org/10.1371/journal.pone.0185692)
+- [Sexual behavior and HIV risk across the life course in rural South Africa: trends and comparisons](http://dx.doi.org/10.1080/09540121.2018.1468008)
+- [HIV Incidence Among Older Adults in a Rural South African Setting: 2010–2015](http://dx.doi.org/10.1097/QAI.0000000000002404)
+- [Clusters of HIV Risk and Protective Sexual Behaviors in Agincourt, Rural South Africa: Findings from the Ha Nakekela Population-Based Study of Ages 15 and Older](http://dx.doi.org/10.1007/s10508-020-01663-5)
+
+## Epidemographic Transition
+
+The classic *large change* phases of both the epidemiological and demographic transitions are still underway in Africa. HIV has created a unique disruption in the traditional epidemiological transition, and fertility remains high and is falling more slowly than it did in many other world regions. There is a complex interaction between these things, and together with a number of colleagues - mostly [Chodziwadziwa Kabudula](https://www.wits.ac.za/people/academic-a-z-listing/k/chodziwadziwakabudulawitsacza/) and [Brian Houle](https://researchportalplus.anu.edu.au/en/persons/brian-houle/) - I have done a number of studies investigating aspects of these intertwined transitions.
+
+- [The Unfolding Counter-Transition in Rural South Africa: Mortality and Cause of Death, 1994–2009](https://dx.doi.org/10.1371/journal.pone.0100420)
+- [Migration and the epidemiological transition: insights from the Agincourt sub-district of northeast South Africa](http://dx.doi.org/10.3402/gha.v7.23514)
+- [Social patterns and differentials in the fertility transition in the context of HIV/ AIDS: evidence from population surveillance, rural South Africa, 1993 – 2013](http://dx.doi.org/10.1186/s12963-016-0079-z)
+- [The Evolving Demographic and Health Transition in Four Low- and Middle-Income Countries: Evidence from Four Sites in the INDEPTH Network of Longitudinal Health and Demographic Surveillance Systems](http://dx.doi.org/10.1371/journal.pone.0157281)
+- [Male and female sterility in Zambia](http://dx.doi.org/10.4054/DemRes.2014.30.14)
+- [Progression of the epidemiological transition in a rural South African setting: findings from population surveillance in Agincourt, 1993–2013](http://dx.doi.org/10.1186/s12889-017-4312-x)
+- [Socioeconomic differences in mortality in the antiretroviral therapy era in Agincourt, rural South Africa, 2001–13: a population surveillance analysis](http://dx.doi.org/10.1016/S2214-109X(17)30297-8)
+
+## Effects of Household Composition on Mortality
+
+Household composition - how many people of each type live with you - can affect survival, especially for young children. Health and demographic surveillance systems accumulate detailed information on who is living with who through time, and that data allows unusual, detailed investigations of the effects of household composition on mortality. Again mainly with colleagues [Chodziwadziwa Kabudula](https://www.wits.ac.za/people/academic-a-z-listing/k/chodziwadziwakabudulawitsacza/) and [Brian Houle](https://researchportalplus.anu.edu.au/en/persons/brian-houle/), I have contributed to a number of studies of this kind. Perhaps the most consequential is on [orphan mortality](./orphan-mortality.shtml), described on its own page.
+
+- [Childhood mortality among former Mozambican refugees and their hosts in rural South Africa](https://doi.org/10.1093/ije/dyh257)
+- [Child Mobility, Maternal Status, and Household Composition in Rural South Africa](https://dx.doi.org/10.1007/s13524-011-0087-3)
+- [Household context and child mortality in rural South Africa: the effects of birth spacing, shared mortality, household composition and socio-economic status](https://dx.doi.org/10.1093/ije/dyt149)
+- [Assessing Changes in Household Socioeconomic Status in Rural South Africa, 2001–2013: A Distributional Analysis Using Household Asset Indicators](http://dx.doi.org/10.1007/s11205-016-1397-z)
+
+---
+
+# Orphan mortality
+
+Source: https://samclark.net/site/projects/orphan-mortality.shtml
+
+## Background
+
+During the height of the HIV epidemic in East and Southern Africa - before effective treatments were widely available - a very unusual situation existed. Because HIV is a sexually transmitted infection, it often affected both parents in a household, thereby correlating their risk of dying - making it much more likely than usual that young children could suffer the loss of both parents within a short period of time and become dual orphans. For some time there was a great deal of concern about this, and although reality turned out to be slightly less shocking than predicted, the number of single and dual orphans created by the HIV epidemic is staggering.
+
+## Orphan Mortality
+
+Health and demographic surveillance system (HDSS) data provide robust links between mothers and children and vital dates for both. The links between children and fathers is less robust. Taking advantage of this I investigated the effect of losing their mother on the survival of young children, and with colleagues - [Brian Houle](https://researchportalplus.anu.edu.au/en/persons/brian-houle/) in particular - published several papers on this. Brian has taken up this project and continues to produce interesting new results.
+
+- [Young Children’s Probability of Dying Before and After Their Mother’s Death: A Rural South African Population- Based Surveillance Study](https://dx.doi.org/10.1371/journal.pmed.1001409)
+- [The impacts of maternal mortality and cause of death on children’s risk of dying in rural South Africa: evidence from a population based surveillance study (1992-2013)](http://dx.doi.org/10.1186/1742-4755-12-S1-S7)
+- Forthcoming: Houle, B., C. Kabudula, A. Stein, D. Gareta, K. Herbst, and S. J. CLARK (2021 in press). Linking The Timing Of A Mother's And Child's Death: Comparative Evidence From Two Rural South African Population-based Surveillance Studies, 2000 - 2015.
+
+## Key Finding and Recommendation
+
+The main finding of this work is that *the greatest risk for young children is in the period of time immediately preceding their mother's death*. This knowledge leads to the possibility of a simple intervention with a high likelihood of being effective - when a parent of young children falls gravely ill, ensure that adequate child care is being provided during the illness and in case the parent dies. Moreover, this finding should be widely generalizable to circumstances less dramatic than an untreated HIV epidemic.
+
+---
+
+# Interviewer effects
+
+Source: https://samclark.net/site/projects/interviewer-effects.shtml
+
+## Background
+
+I have been involved in a lot of direct demographic and health data collection, mostly in Africa and mostly using demographic surveillance and survey methods. All of this involves an interviewer conducting a face-to-face interview with a respondent. My colleagues and I have wondered - and occasionally worried - about the effects that interviewers may have on the responses. For example, when asking questions about taboo topics, do older compared to younger interviewers get different responses from an older respondent, or when talking about sexual behavior, do interviewers of each sex get different responses. You can think of many possible combinations of interviewers and respondents with particular characteristics that might affect the interaction and the responses based on the particular social context in which the interview takes place.
+
+## Interviewer Effects Studies
+
+To test some of these ideas, a group of us who have worked with the Agincourt health and demographic surveillance system (HDSS) site in South Africa decided to conduct two studies, below. Our colleague [Brian Houle](https://researchportalplus.anu.edu.au/en/persons/brian-houle/) in the School of Demography at the Australian National University played a lead role in conducting this work.
+
+- [Interviewer effects observed in interviews about sexual behavior.](http://dx.doi.org/10.1177/1525822X15595343)
+- [Interviewer effects observed in interviews about substance use](http://dx.doi.org/10.7895/ijadr.246)
+
+Both studies identified important and consequential effects of interviewer characteristics, so much so that the outcomes of some questions share a robust relationship with the interviewer characteristics.
+
+## Recommendation
+
+In order to better understand these effects and perhaps control for them or otherwise take them into account in models that use the affected data, we recommend that interview-based data collection systems collect basic demographic and perhaps other information about the interviewers and link that information (anonymized) to the data collected by each interviewer. This would enable a wide range of analytical approaches to address interviewer effects.
+
+## Additional Use for Interviewer Paradata
+
+Earlier, Brian and I did used interviewer characteristics to confirm that Heckman selection models can be used to adjust survey-based estimates of HIV prevalence. Interviewer characteristics serve well as the 'instrument' in those methods, see:
+
+- [Validation and replication of Heckman-type selection models to correct survey-based estimates of HIV prevalence.](http://dx.doi.org/10.1371/journal.pone.0112563)
+
+So, as far as we're concerned, it's very clear that interviewer paradata should be part of all interview-based data.
+
+---
+
+# Indirect estimates of mortality
+
+Source: https://samclark.net/site/projects/indirect-estimates.shtml
+
+## Background
+
+Understanding variation in mortality through time and across space is critical to quantifying and monitoring population health. In settings where ongoing, routine systems to monitor mortality - e.g. vital statistics - do not exist or function poorly, there are very few options available to obtain measures of mortality that cover both time and space, particularly space. In large part due to the innovative work of William Brass - and many after him - formal demography has a suite of 'indirect estimation' methods designed to obtain reasonable estimates of key mortality indicators from very few data that can occasionally be elicited from enough people to form a comprehensive picture of mortality throughout a given place, e.g. a country.
+
+The 'Brass Method' to estimate child mortality utilizes simple data obtained from a population of women of reproductive age; from each woman at the time of the interview:
+
+1.  her age,
+2.  how many children she has had, and
+3.  how many of those children are still alive.
+
+Obtaining these data in a survey or census typically requires only two additional questions, the second two relating to children ever born. This parsimony has resulted in these questions being added to whole censuses and many surveys over the past several decades. In a number of countries in Africa this is the only country-wide source of mortality information, and consequently, it is very valuable.
+
+Traditional approaches to indirect estimation methods are deterministic in the sense that they produce specific numbers without a sense of how certain the method is that those are the the numbers most consistent with the data. Situations in which indirect estimation is necessary are inherently low-information, and the methods themselves require a set of assumptions and some additional information, and as a result, there are many ways in which a slightly different estimate could be obtained → there must be some degree of uncertainty in the estimates.
+
+## Project
+
+OSU Sociology graduate student [Yue Chu](https://y-chu.github.io) and I are exploring alternative approaches to the traditional Brass method to estimate child mortality from the three questions listed above. Yue has complete a master's degree based on this work, and we will present some preliminary results at the Population Association of America (PAA) meeting in 2021.
+
+We stay close to the spirit of the method, but we have developed a new Bayesian estimation approach that simultaneously estimates age-specific fertility for the mothers and age-specific mortality for their children, with uncertainty in both. Initial work is based on data from the demographic and health surveys (DHS)
+
+---
+
+# Data methods: SPEHR
+
+Source: https://samclark.net/site/projects/data-methods.shtml
+
+## Background
+
+Early in my career I worked intensively with health and demographic surveillance system (HDSS) sites in Africa - particularly the [Agincourt](https://www.wits.ac.za/agincourt/) HDSS in South Africa, and often with Kobus Herbst who has been part of the senior leadership of the Africa Centre/Africa Health Research Institute [(AHRI)](https://www.ahri.org) since its inception. At that time a group of us were keenly interested in improving the ability of HDSS sites to collect, check, manage, and analyze their data more efficiently and accurately.
+
+- [Health and Demographic Surveillance Systems in Low- and Middle-income Countries: History, State of the Art and Future Prospects](http://doi.org/10.1080/16549716.2021.1974676)
+
+The HDSS methodology keeps detailed, longitudinal records on everyone who lives within a specified geographic boundary. These records include individual-specific attributes, group-level attributes, and time-evolving links between individuals and groups, and *critically*, between any of these things and specific locations. The data are a *very* complex mixture of time, place, groups, and attributes. This makes quality-control, storage, manipulation, and analysis difficult.
+
+At its core, an HDSS database is a bi- or tri-temporal record-keeping system:
+
+1.  time in the real work when things happen to people,
+2.  observation times and durations when the study was in a position to know the status of something, and
+3.  database transaction time - when something was known to the database.
+
+The way that data are organized in a computer can have strong effects on what can be done with the data and how easy or hard it is to:
+
+- enforce quality-control constraints that ensure that the data are free from record-keeping errors and are consistent with each other,
+- extract data in a useful, human-readable form, and
+- do tempo-spatial arithmetic to figure out when and for how long things were true at given locations.
+
+## The Structured Population Event History Register
+
+Since at least the early 1990s, a small group - [Bruce MacLeod](https://usm.maine.edu/directories/people/bruce-macleod/), [Justus Benzler](https://www.researchgate.net/profile/Justus_Benzler), [Kobus Herbst](https://www.ahri.org/scientist/kobus-herbst/), and me - has been interested in designing data models, more specifically relational database schemas, to make storage, management, and analysis of HDSS as accurate and easy as possible. In the context of this effort, I designed the Structured Population Event History Register (SPEHR). SPEHR is a very flexible, metadata-driven relational database schema for HDSS.
+
+## Unified Timestamp Timestamp with Explicit Precision
+
+At around the same time Justus Benzler and I thought deeply about how to define a unified timestamp object that could handle all of the time-valued entities we encountered in HDSS, and also accurately represent the precision of measures associated with each of them.
+
+### Publications on SPEHR and and our generalized definition for a timestamp:
+
+- [An introduction to the General Temporal Data Model and the Structured Population Event History Register (SPEHR)](https://dx.doi.org/10.1080/14034950701355452)
+- [A general temporal data model and the structured population event history register](https://dx.doi.org/10.4054/DemRes.2006.15.7)
+- [Part 4 of my PhD Dissertation](https://samclark.net/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf)
+- [Toward a Unified Timestamp with explicit precision](https://dx.doi.org/10.4054/DemRes.2005.12.6)
+
+### SPEHR description and example databases for download
+
+- [Description](https://samclark.net/site/misc/spehr/SPEHR.pdf)
+- [Example Database 1](https://samclark.net/site/misc/spehr/SPEHR-Joburg-Durban-2.0.mdb)
+- [Example Database 2](https://samclark.net/site/misc/spehr/SPEHR-London-NewYork-2.0.mdb)
+- [Example Database 3](https://samclark.net/site/misc/spehr/SPEHR-Merged-2.0.mdb)
+- [Example Database 4](https://samclark.net/site/misc/spehr/SPEHR-Repeated-Demographic-Survey-OR-Population-Register-2.0.mdb)
+
+---
+
+# COVID-19 in Ohio
+
+Source: https://samclark.net/site/projects/COVID-19.shtml
+
+## Background
+
+During 2020, a team of researchers from The Ohio State University conducted three projects to better understand the extent and effects of the COVID-19 epidemic in Ohio.
+
+1.  A representative, state-wide prevalence study of adults to characterize ever- and currently-infected with the coronavirus,
+2.  A state- and county-level excess deaths study to estimate the total mortality burden associated with the epidemic in Ohio, and
+3.  A representative, weekly telephone survey to characterize the prevalence and trend in COVID-19 symptoms and protective behaviors.
+
+## COVID-19 Prevalence Study
+
+The prevalence study used a sample survey that was conducted in July, 2020. Both ever-infected and currently-infected prevalence rates were low at that time. A publication describing the results appears in *Annals of Epidemiology*.
+
+- [Prevalence of Current and Past COVID-19 in Ohio Adults](http://doi.org/10.1016/j.annepidem.2021.11.009).
+
+Existing statistical methods for the analysis of survey data were inadequate for the unusual data produced by the prevalence survey. Our team developed a new statistical approach to solve those challenges. A description of the new methods and their application to the survey data is published in PNAS, and the R code used in the analysis is available on Github,
+
+- [Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests](https://doi.org/10.1073/pnas.2023947118).
+- [Bayes Prevalence: R code to implement new prevalence estimation method](https://github.com/sinafala/bayes-prevalence).
+
+I was invited to write a commentary for PNAS based on experience with the prevalence study, and I did that with Abigail Norris Turner who led the overall study. We highlight the need to improve response rates and to prepare a robust measurement capability to be ready for the next pandemic.
+
+- [Monitoring epidemics: Lessons from measuring population prevalence of the coronavirus"](https://doi.org/10.1073/pnas.2026412118).
+
+## Excess Deaths Study
+
+The excess deaths study is ongoing. For the state, results closely match those of the CDC, see [CDC excess deaths report and data](https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm). County-level results reveal heterogeneity in both levels and timing of patterns of excess deaths.
+
+## Weekly Telephone Survey
+
+Data from the weekly telephone survey were not as useful as we had hoped.
+
+## COVID-19 Routine Mortality Surveillance
+
+In addition to the work in Ohio, I work closely with the NGO [Vital Strategies](https://www.vitalstrategies.org/issues/civil-registration-and-vital-statistics/) on a project to develop a COVID-19 routine mortality surveillance (CRMS) tool based on the verbal autopsy method. This work is in progress with partners in Colombia and Brazil.
+
+- [Mortality surveillance during the COVID-19 pandemic](https://pmc.ncbi.nlm.nih.gov/articles/PMC7265935/).
+
+---
+
+# Flow-field mortality forecasting (research preview, November 2026)
+
+Source: https://samclark.net/site/news-pages/flow-field.shtml
+
+Samuel J. Clark · Research preview, November 2026 (replaces the [April 2026 preview](https://samclark.net/site/news-pages/flow-field-2026-04.shtml))
+
+Modern mortality forecasting follows two main traditions descended from Lee & Carter's seminal 1992 paper \[[1](https://samclark.net/site/news-pages/flow-field.shtml#ref-lee-carter-1992)\]. One decomposes age-by-time mortality into a few summary patterns and projects those patterns forward. The other models how fast life expectancy improves at each level of life expectancy. We argue that both can be viewed as restricted versions of *a single underlying object*: a smooth trajectory through a low-dimensional summary of mortality derived from a multi-way decomposition of the sex × age × country × year mortality array. The unrestricted version of this object is the *flow-field forecaster*. We compare it with the leading existing methods on the Human Mortality Database \[[6](https://samclark.net/site/news-pages/flow-field.shtml#ref-hmd-2024)\], with every forecast made in real time: each method sees only the data up to the year its forecast starts. The results so far are encouraging.
+
+------------------------------------------------------------------------
+
+## How we compare forecasts
+
+Forecasts start every five years from 1900 to 2015, for 43 populations, and run 50 years ahead. Twelve forecasters compete. The flow-field is one. MDMx, a companion forecaster built on the same decomposition, Lee–Carter \[[1](https://samclark.net/site/news-pages/flow-field.shtml#ref-lee-carter-1992)\], Hyndman & Ullah's functional-data model \[[2](https://samclark.net/site/news-pages/flow-field.shtml#ref-hyndman-ullah-2007)\], Hyndman, Booth & Yasmeen's coherent functional model \[[13](https://samclark.net/site/news-pages/flow-field.shtml#ref-hyndman-booth-yasmeen-2013)\], and the bayesLife/MortCast pipeline \[[3](https://samclark.net/site/news-pages/flow-field.shtml#ref-raftery-chunn-gerland-sevcikova-2013)\], \[[4](https://samclark.net/site/news-pages/flow-field.shtml#ref-sevcikova-li-kantorova-gerland-raftery-2016)\] that the United Nations uses for its mortality forecasts \[[5](https://samclark.net/site/news-pages/flow-field.shtml#ref-un-wpp-2024)\] make ten more, each fitted both to all past years and to the last 50 (bayesLife from its own Bayesian estimation at every start year). An equal-weight average of the flow-field, MDMx and Lee–Carter is the twelfth. A random walk with drift is the yardstick.
+
+A comprehensive comparison scores each forecaster on five aspects that do not overlap: life expectancy for each sex, the gap between the sexes, the age-specific differences between the sexes, the age pattern of mortality (weighted by where deaths occur, with life expectancy at 65), and the calibration of interval forecasts. Every score measures the size of the errors, relative to the yardstick, so over- and under-predictions cannot offset each other. The forecasters are ranked over 20,000 random weightings of the five aspects, each with a resampling of the populations, so that no single choice of weights decides the result. The main test uses the forecasts from 1955–2000 at 1–15 years ahead. The forecasts from 2005–2015 were held out of every modelling choice and scored once, at the end.
+
+## What we're seeing so far
+
+From 1955–2000, at 1–15 years ahead, the flow-field ranks first in 90% of the 20,000 draws, ahead of the ensemble average (7%) and MDMx. Its error in life expectancy is 0.42 years at 1–5 years ahead and 0.97 years at 11–15, against 0.48 and 1.55 for the yardstick, and it is the only forecaster that beats the yardstick on every one of the nine measures. Its lead is clearest beyond five years ahead; at 1–5 years the ensemble is as accurate. On the held-out forecasts from 2005–2015 the flow-field keeps its lead, with an error of 0.25 years at 1–5 years ahead. Forecasts from the early twentieth century, outside today's regime of mortality decline, are a harder test: there the flow-field still ranks first, but in fewer than half of the draws (47%, ahead of the ensemble's 29%).
+
+| Method | fitted to | first share of draws | rank mean, of 12 | error 1–5 years | error 11–15 years | held out 1–5 years |
+| --- | --- | --- | --- | --- | --- | --- |
+|  | — | ↑ higher better | ↓ lower better | ↓ lower better | ↓ lower better | ↓ lower better |
+| Human Mortality Database — real-time forecasts |  |  |  |  |  |  |
+| Flow-field | — | 90% | 1.15 | 0.42 | 0.97 | 0.25 |
+| Ensemble | — | 7% | 2.73 | 0.41 | 1.09 | 0.34 |
+| MDMx | all years | 1% | 3.25 | 0.49 | 1.38 | 0.29 |
+| bayesLife/MortCast | last 50 | 1% | 5.20 | 0.45 | 1.34 | 0.32 |
+| Coherent model | last 50 | 0% | 7.01 | 0.69 | 1.66 | 0.61 |
+| Hyndman–Ullah | all years | 0% | 8.14 | 0.77 | 1.91 | 0.65 |
+| Lee–Carter | last 50 | 0% | 9.93 | 0.54 | 1.20 | 0.57 |
+| Random walk | all years | — | — | 0.48 | 1.55 | 0.38 |
+
+First (share of the draws ranked first) and rank (mean rank) come from the comprehensive comparison, for the forecasts from 1955–2000 at 1–15 years ahead. Errors are mean absolute errors in life expectancy at birth (the average of the two sexes), in years, at 1–5 and 11–15 years ahead. The held-out column scores the forecasts from 2005–2015, which no modelling choice used. Each method is shown fitted to the period that serves it better (all past years, or the last 50); the ensemble averages the flow-field, MDMx and Lee–Carter; the random walk with drift is the yardstick, not a competitor.
+
+## What this looks like as a paper
+
+The full manuscript introduces the array-normal noise model \[[11](https://samclark.net/site/news-pages/flow-field.shtml#ref-fosdick-hoff-2014)\] and the Tucker decomposition \[[7](https://samclark.net/site/news-pages/flow-field.shtml#ref-tucker-1966)\] as its canonical estimator from first principles, develops the score-representation isometry that motivates a flow-on-subspace forecaster, and offers Lee–Carter, Hyndman–Ullah, and bayesLife/MortCast readings as constrained or marginal cases of the same framework — three established and successful approaches that the framework helps to relate to one another (for a recent review of Lee–Carter and its extensions, see \[[12](https://samclark.net/site/news-pages/flow-field.shtml#ref-basellini-camarda-booth-2023)\]). It then reports the real-time evaluation sketched above. The manuscript is in preparation.
+
+*NB:* The numerical results presented here are preliminary, drawn from a manuscript in preparation. They can shift as the evaluation is refined and as the comparisons receive external scrutiny; we expect to learn a great deal from the review process. Treat what's reported here as a research preview rather than a settled comparison.
+
+## References & further reading
+
+1.  Lee, R. D. & Carter, L. R. (1992). Modeling and forecasting U.S. mortality. *Journal of the American Statistical Association* 87(419): 659–671. [doi:10.1080/01621459.1992.10475265](https://doi.org/10.1080/01621459.1992.10475265)
+2.  Hyndman, R. J. & Ullah, M. S. (2007). Robust forecasting of mortality and fertility rates: A functional data approach. *Computational Statistics & Data Analysis* 51(10): 4942–4956. [doi:10.1016/j.csda.2006.07.028](https://doi.org/10.1016/j.csda.2006.07.028)
+3.  Raftery, A. E., Chunn, J. L., Gerland, P. & Ševčíková, H. (2013). Bayesian probabilistic projections of life expectancy for all countries. *Demography* 50(3): 777–801. [doi:10.1007/s13524-012-0193-x](https://doi.org/10.1007/s13524-012-0193-x)
+4.  Ševčíková, H., Li, N., Kantorová, V., Gerland, P. & Raftery, A. E. (2016). Age-specific mortality and fertility rates for probabilistic population projections. In R. Schoen (Ed.), *Dynamic Demographic Analysis*, pp. 285–310. Springer. [doi:10.1007/978-3-319-26603-9_15](https://doi.org/10.1007/978-3-319-26603-9_15)
+5.  United Nations, Department of Economic and Social Affairs, Population Division (2024). *World Population Prospects 2024: Methodology of the United Nations population estimates and projections*. UN DESA/POP/2024/DC/NO.10. [population.un.org/wpp/.../WPP2024_Methodology-Report_Final.pdf](https://population.un.org/wpp/assets/Files/WPP2024_Methodology-Report_Final.pdf)
+6.  Human Mortality Database (2026). Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). [www.mortality.org](https://www.mortality.org)
+7.  Tucker, L. R. (1966). Some mathematical notes on three-mode factor analysis. *Psychometrika* 31(3): 279–311. [doi:10.1007/BF02289464](https://doi.org/10.1007/BF02289464)
+8.  Li, N. & Lee, R. (2005). Coherent mortality forecasts for a group of populations: An extension of the Lee–Carter method. *Demography* 42(3): 575–594. [doi:10.1353/dem.2005.0021](https://doi.org/10.1353/dem.2005.0021)
+9.  Li, N., Lee, R. & Gerland, P. (2013). Extending the Lee–Carter method to model the rotation of age patterns of mortality decline for long-term projections. *Demography* 50(6): 2037–2051. [doi:10.1007/s13524-013-0232-2](https://doi.org/10.1007/s13524-013-0232-2)
+10. Raftery, A. E., Lalic, N. & Gerland, P. (2014). Joint probabilistic projection of female and male life expectancy. *Demographic Research* 30(27): 795–822. [doi:10.4054/DemRes.2014.30.27](https://doi.org/10.4054/DemRes.2014.30.27)
+11. Fosdick, B. K. & Hoff, P. D. (2014). Separable factor analysis with applications to mortality data. *Annals of Applied Statistics* 8(1): 120–147. [doi:10.1214/13-AOAS694](https://doi.org/10.1214/13-AOAS694)
+12. Basellini, U., Camarda, C. G. & Booth, H. (2023). Thirty years on: A review of the Lee–Carter method for forecasting mortality. *International Journal of Forecasting* 39(3): 1033–1049. [doi:10.1016/j.ijforecast.2022.11.002](https://doi.org/10.1016/j.ijforecast.2022.11.002)
+13. Hyndman, R. J., Booth, H. & Yasmeen, F. (2013). Coherent mortality forecasting: The product-ratio method with functional time series models. *Demography* 50(1): 261–283. [doi:10.1007/s13524-012-0145-5](https://doi.org/10.1007/s13524-012-0145-5)
+
+Code, the underlying Quarto computational book, and reproducibility materials will be released with the published paper. Updates and contact: <work@samclark.net>. Updated 2026-11-01
+
+---
+
+# Talks
+
+Source: https://samclark.net/site/pages/talks.shtml
+
+## 2025-12-12
+
+[**Presentation**](https://samclark.net/site/talks/Sam-Clark_Reference-Data-Archive-Launch.pptx) with full RDA Team to launch the [**completed first version of the Reference Data Archive (RDA)**](https://samclark.net/site/projects/rda.shtml). \[The linked .pptx file is password protected - push the 'Read Only' button when Powerpoint asks for a password.\]
+
+Over the past three years, I have led the creation of the [RDA](https://samclark.net/site/projects/rda.shtml) at WHO headquarter in Geneva. The RDA is a linked *trusted researcher environment* and *data catalogue/repository* designed to host sensitive data in any form, allow vetted researchers to access and analyze the data, and provide an easy-to-use and fully functional way to share both data and analytical results created with the data. Data and results shared using the RDA require acknowledgement of data providers and analysts and come with a permanent WHO-linked DOI so that they can always be located and cited.
+
+The motivating idea behind the RDA is to provide meaningful reference datasets for training and validating methods to improve cause of death ascertainment. However, the scope is widening to include a variety of cause of death and mortality data managed and shared by WHO. Consequently, the RDA is likely to support a range of mortality-related work at WHO.
+
+## 2025-10-15
+
+[**Talk**](https://samclark.net/site/talks/Sam-Clark_Reference-Data-Archive-Update.pptx) at the [MITS Alliance](https://mitsalliance.org/) annual meeting in Kampala Uganda describing progress on the almost-complete [**Reference Data Archive (RDA)**](https://samclark.net/site/projects/rda.shtml). \[The linked .pptx file is password protected - push the 'Read Only' button when Powerpoint asks for a password.\]
+
+## 2025-02-10
+
+Seminar talk at the [Department of Sociology at the University of Texas, Austin](https://liberalarts.utexas.edu/sociology/). [**Methods To Measure All-Cause and Cause-Specific Mortality in Places Without Vital Statistics Systems**](https://samclark.net/site/talks/Sam-Clark_UT-Austin-2025.pdf).
+
+## 2024-09-30
+
+A brief presentation of the [**Reference Death Archive implementation**.](https://samclark.net/site/talks/Sam-Clark_Reference-Death-Archive-Implementation.pdf)
+
+## 2024-08-09
+
+[University of São Paulo Institute of Mathematics and Statistics](https://www.ime.usp.br/en/home/), São Paulo, Brazil. [**InSilicoVA - An Algorithm for Automated COD Classification using Verbal Autopsy Data**](https://samclark.net/site/talks/Sam-Clark_USP-IME-Sao-Paulo-Brazil.pdf).
+
+## 2024-06-20
+
+[BIOMATH 2024](http://biomath.bg/2024/keynote.php), Scottburgh, South Africa. [**Data Science and Math in Global Health: Two Examples**](https://samclark.net/site/talks/Sam-Clark_BIOMATH-2024-Scottburgh-South-Africa.pdf).
+
+## 2024-02-05
+
+Office of Population Research (OPR), Princeton University. [**InSilicoVA - An Algorithm for Automated COD Classification using Verbal Autopsy Data**](https://samclark.net/site/talks/Sam-Clark_InSilicoVA.pdf).
+
+## 2023-10-04
+
+Brief presentation on the pathology-augmented Reference Death Archive that we are building with WHO, the city of São Paulo [mortality surveillance service (SVO)](https://svoc.usp.br), [CHAMPS](https://champshealth.org), [COMSA](https://comsamozambique.org), the MITS Alliance, and hopefully many more partners soon. Presented at the MITS Alliance annual meeting in Nairobi. The [MITS (minimally-invasive tissue sample) Alliance](https://mitsalliance.org) is a group that coordinates sites around the world collecting MITS and doing verbal autopsy. [**Reference Death Archive**](https://samclark.net/site/talks/Sam-Clark_Reference-Death-Archive.pdf).
+
+## 2023-09-12
+
+Notestein Seminar talk, Office of Population Research (OPR), Princeton University. [**Multi-disciplinary Data Science to Improve Global Health: Verbal Autopsy**](https://samclark.net/site/talks/Sam-Clark_Multi-disciplinary-Data-Science-VA.pdf).
+
+## 2023-09-07
+
+The National Academy of Sciences Committee on Population organized a workshop to elicit recommendations for future research on aging in lower and middle-income countries. The workshop was supported by the National Institute on Aging (NIA). [**Data and Methods for Chronic Diseases of Aging**](https://samclark.net/site/talks/Sam-Clark_Data-Methods-Aging.pdf).
+
+## 2023-08-08
+
+The openVA Team and close collaborators organized a workshop to present the GUI-driven Python openVA software that the openVA Team developed. The workshop was supported by [Vital Strategies](https://www.vitalstrategies.org/issues/civil-registration-and-vital-statistics/) and [CDC Foundation](https://www.cdcfoundation.org) and happened in Dar es Salaam, Tanzania August 8-10, 2023. [**Python openVA Workshop**](https://samclark.net/site/talks/Sam-Clark_Pythong-openVA.pdf).
+
+## 2023-04-14
+
+PAA 2023 talk presented by Yue Chu on verbal autopsy results from ALPHA Network health and demographic surveillance system sites in session 206 - Mortality in Low- and Middle-Income Countries: [**Temporal Changes in Cause of Death Among Adults in Eastern and Southern Africa: A Multi-country Cohort Study Using Verbal Autopsy Data**](https://doi.org/10.1016/S2214-109X(24)00171-2).
+
+## 2022-09-02
+
+Talk at workshop "Climbing Mortality Models" hosted at Misurna, Italy by four Italian universities as part of their collaboration studying mortality. [**SVD-derived Life Tables indexed by Child Mortality**](https://samclark.net/site/talks/Sam-Clark_SVD-Comp-Italy-2022.pdf).
+
+## 2022-08-05
+
+Talk at annual meeting of the Brazilian Society of Pathology at Foz do Iguaçu, Brazil. [**O papel da autópsia verbal e da autópsia minimamente invasiva na determinação da causa de morte**](https://samclark.net/site/talks/Sam-Clark_Verbal-Autopsy-MITS.pptx) - Verbal autopsy and minimally-invasive tissue sampling for cause of death.
+
+## 2022-05-09
+
+PAA 2022 talk on SVD-Comp mortality model work in session [41 - Statistical Modeling and Smoothing in Demography](https://web.archive.org/web/20250907052818/https://paa.confex.com/paa/2022/meetingapp.cgi/Session/2631): [**Application of a Singular Value Decomposition-Based Factorization and Parsimonious-Component Model of Mortality to HIV Epidemics in Africa**](https://samclark.net/site/talks/Sam-clark_SVD-Comp-Mortality-Model-2020-04-07.pdf).
+
+Other papers in PAA 2022:
+
+- Session [116 - Early Life Health in Low- and Middle-Income Countries](https://web.archive.org/web/20240414020315/https://paa.confex.com/paa/2022/meetingapp.cgi/Session/2570): [**Sibling Mortality in Developing Countries: A Cross-Regional Analysis of Shared Mortality Risk**](https://web.archive.org/web/20251205233250/https://paa.confex.com/paa/2022/meetingapp.cgi/Paper/26364).
+- Session [51 - Child Health: Spillover and Spatial Effects](https://web.archive.org/web/20251013020016/https://paa.confex.com/paa/2022/meetingapp.cgi/Session/2621): [**The Timing of Sibling Mortality in the Widespread Antiretroviral Treatment Era: Comparative Evidence From Population-Based Surveillance in Rural South Africa, 2000–2015**](https://web.archive.org/web/20251013020503/https://paa.confex.com/paa/2022/meetingapp.cgi/Paper/26587).
+
+## 2022-02-10
+
+Talk at the [Carolina Population Center (CPC)](https://www.cpc.unc.edu) at the University of North Carolina, Chapel Hill. [**Population Sciences: Global Challenges and Opportunities**](https://samclark.net/site/talks/Sam-Clark_UNC-presentation-2022-02-10.pdf).
+
+## 2021-10-01
+
+Discussant at the [16^(th) annual De Jong Lecture in Social Demography](https://pop.psu.edu/events/16th-annual-de-jong-lecture-social-demography) at Penn State. [Hans Peter-Peter Kohler](https://www.sas.upenn.edu/~hpkohler/) is the featured speaker. My slides: [**Discussant’s Remarks - Global Population Studies: Shaping the Future**](https://samclark.net/site/talks/Sam-Clark_De-Jong-Lecture_Discussant-Handout-2021-10-01.pdf)
+
+## 2021-04-08
+
+Talk at the Population Studies Group at the London School of Hygiene and Tropical Medicine. [**Demography, Epidemiology, and Statistics: What's Next?**](https://samclark.net/site/talks/Sam-Clark_LSHTM-presentation-handout-2021-04-08.pdf)
+
+## 2021-03-24
+
+Invited talk at the 'Berlin Demography Days, 2021' sponsored by Population Europe. [**Global Population Studies in the 21st Century: Priorities Challenges - Mortality**](https://samclark.net/site/talks/Sam-Clark_demogrdaphy-days_global-population-studies-in-the-21st-century-priorities-challenges--mortality.pdf)
+
+## 2020-04-07
+
+Invited talk at United Nations Population Division (UNPD) Experts' Group Meeting '2020 Methods for the World Population Prospects 2021 and Beyond'. [**SVD Component Mortality Model**](https://samclark.net/site/talks/Sam-Clark_UNPD-EGM-WPP21_SVD-Comp-Mortality-Model-2020-04-07.pdf)
+
+## Earlier
+
+See [CV](https://samclark.net/site/cv/Samuel-Clark_CV.pdf?ver=15) for a selected list of earlier talks.
+
+---
+
+# Bibliography
+
+Source: https://samclark.net/site/pages/bibliography.shtml
+
+### 2026
+
+#### Peer-reviewed Conference Contribution
+
+Yang, J., S. Pan, H.S. Lim, Y. Chu, Y. Guo, N. Agarwal, V. Babbar, G.R. Parikh, Y.T. Chen, C.A. Rees, Z. Dangor, S.G. Lala, Z.R. Li, S.J. CLARK, Z. Wu, A. Datta, L. Liu, C. Rudin, S.V. Scarpino, B.M. Gyori, T.H. McCormick. (2026 *forthcoming*). **A Multimodal Benchmark for Evaluating Cause-of-Death Inference Using Child Health and Mortality Data**. *Conference on Neural Information Processing Systems (NeurIPS 2026)*, Evaluations & Datasets Track. \[ [PDF](https://www.medrxiv.org/content/10.64898/2026.07.13.26357980v1.full.pdf) \]
+
+#### Working Papers
+
+Chu, Y., Z. Wu, T.H. McCormick, Z.R. Li, S.J. CLARK. (2026). **Multimodal Artificial Intelligence for Cause-of-Death Assignment from Verbal Autopsy Records: A National Benchmark Study in South Africa**. *medRxiv Preprint* *doi:10.64898/2026.10.15.26364476*. \[ [PDF](https://www.medrxiv.org/content/10.64898/2026.10.15.26364476v1) \]
+
+CLARK, S.J. (2026a). **Mortality Forecasting as a Flow Field in Tucker Decomposition Space**. *arXiv Preprint* *arXiv:2603.24299v2*. \[ [PDF](https://arxiv.org/abs/2603.24299) \]
+
+CLARK, S.J. (2026b). **Multi-dimensional Mortality (MDMx): Sex-Age-Specific Model Life Tables, Fitting, Prediction from Summary Mortality Indicators, and Forecasting**. *arXiv Preprint* *arXiv:2603.20518v2*. \[ [PDF](https://arxiv.org/abs/2603.20518) \]
+
+Yang, J., S. Pan, H.S. Lim, Y. Chu, Y. Guo, N. Agarwal, V. Babbar, G.R. Parikh, Y.T. Chen, C.A. Rees, Z. Dangor, S.G. Lala, Z.R. Li, S.J. CLARK, Z. Wu, A. Datta, L. Liu, C. Rudin, S.V. Scarpino, B.M. Gyori, T.H. McCormick. (2026). **A Multimodal Benchmark for Evaluating Cause-of-Death Inference Using Child Health and Mortality Data**. *medRxiv Preprint* *doi:10.64898/2026.07.13.26357980*. \[ [PDF](https://www.medrxiv.org/content/10.64898/2026.07.13.26357980v1) \]
+
+### 2025
+
+#### Project Milestones
+
+CLARK, S.J., D.M. Fat, K. Herbst, Y. Chu, B. Gilbert, P. Boucher, J. Thomas, D-G. Vasilache, D. Plotner, N. Goco, M. Sharan, J. Larin. (2025). *WHO Reference Data Archive.* \[ [Web portal: https://data.who.int/rda](https://data.who.int/rda) \]
+
+#### Articles Published
+
+Marston, M., A. Chung, A. Dube, E. McLean, S.J. CLARK, A. Crampin, C. Calvert. (2025). **Evaluating the Performance of Verbal Autopsy for Assigning Cause of Death in Older Adults: A Population-Based Cohort Study in Karonga, Malawi.** *Tropical Medicine & International Health* *30* (7), 652–661. \[ [DOI](https://doi.org/10.1111/tmi.14120) \]
+
+Li, Z.R, B.D. Martin, T.Q. Dong, G-A. Fuglstad, J. Godwin, J. Paige, A. Riebler, S.J. CLARK, J. Wakefield. (2025). **Space-Time Smoothing of Survey Outcomes Using the R Package SUMMER.** *The R Journal* *17* (1), 88–107. \[ [DOI](https://doi.org/10.32614/RJ-2025-005) \]
+
+Kunihama, T., Z.R. Li, S.J. CLARK, T.H. McCormick. (2025). **Bayesian Analysis of Verbal Autopsy Data Using Factor Models With Age- and Sex-Dependent Associations Between Symptoms.** *The Annals of Applied Statistics* *19* (3), 2237-2253. \[ [DOI](https://doi.org/10.1214/25-AOAS2049) \]
+
+#### Working Papers/Theses/Etc.
+
+*Committee Chair for:* Chu, Y. (2025). **Leveraging Language Models and Machine Learning in Verbal Autopsy Analysis**. *arXiv Thesis* *arXiv:2508.19274v1*. \[ [PDF](https://doi.org/10.48550/arXiv.2508.19274) \]
+
+### 2024
+
+#### Official Reports
+
+Groenewald, P., N. Nannan, J.D. Joubert, T. Glass, M. Cheyip, M. Maqungo, N. Funani, N. Zinyakatira, O. Awotiwon, B. Nojilana, N. Kallis, R. Laubscher, F. Bezuidenhout, S.J. CLARK, C. Kabudula, L. Martin, K. Kahn, J. Price, C. Lombard, D. Morof, E. Nichols, C. Rao, D. Bradshaw (2024). **South African National Cause-of-Death Validation Project: Agreement and corrected cause specific profiles based on data linkage**. Cape Town. South African Medical Research Council. ISBN 978-1-928340-78-2. \[ [Link](https://www.samrc.ac.za/sites/default/files/attachments/2025-03/NCDOVReport3.pdf) \]
+
+National Academies of Sciences, Engineering, and Medicine. (2024). **Developing an Agenda for Population Aging and Social Research in Low- and Middle-Income Countries (LMICs), Proceedings of a Workshop**. Washington, DC. The National Academies Press. \[ [DOI](https://doi.org/10.17226/27415) \]
+
+#### Articles Published
+
+Chu, Y., M. Marston, A. Dube, C. Festo, E. Geubbels, S. Gregson, K. Herbst, C. Kabudula, K. Kahn, T. Lutalo, L. Moorhouse, R. Newton, C. Nyamukapa, R. Makanga, E. Slaymaker, M. Urassa, A. Ziraba, C. Calvert, S.J. CLARK (2024). **Temporal Changes in Cause of Death Among Adolescents and Adults in Six Countries in Eastern and Southern Africa in 1995-2019: A Multi-Country Surveillance Study of Verbal Autopsy Data.** *Lancet Global Health* *12* (8), e1278–e1287. \[ [DOI](https://doi.org/10.1016/S2214-109X(24)00171-2) \]
+
+Houle, B., C.W. Kabudula, S.A. Mojola, N. Angotti, F.X. Gómez-Olivé, D. Gareta, K. Herbst, S.J. CLARK, J. Menken, and V. Canudas-Romo (2024). **Mortality Variability and Differentials By Age and Causes of Death in Rural South Africa, 1994–2018.** *BMJ Global Health* *9* (4), e013539. \[ [DOI](https://doi.org/10.1136/bmjgh-2023-013539) \]
+
+Yu, S-T., B. Houle, E. Schatz, N. Angotti, C.W. Kabudula, F.X. Gómez-Olivé, S.J. CLARK, J. Menken, and S.A. Mojola (2024). **Understanding Household Dynamics from the Ground Up: A Longitudinal Study from a Rural South African Setting.** *Demography* *61* (1), 31-57. \[ [DOI](https://doi.org/10.1215/00703370-11146140) \]
+
+Li, Z.R., Z. Wu, I. Chen, and S.J. CLARK. (2024). **Bayesian Nested Latent Class Models For Cause-of-death Assignment Using Verbal Autopsies Across Multiple Domains.** *The Annals of Applied Statistics* *18* (2), 1137-1159. \[ [DOI](https://doi.org/10.1214/23-AOAS1826) \]
+
+#### Working Papers
+
+Kunihama, T., Z.R. Li, S.J. CLARK, and T.H. McCormick (2024). **Bayesian Analysis of Verbal Autopsy Data Using Factor Models With Age- And Sex-Dependent Associations Between Symptoms**. *arXiv Preprint* *arXiv:2403.12288v1*. \[ [PDF](https://arxiv.org/abs/2403.12288) \]
+
+### 2023
+
+#### Articles Published
+
+Groenewald, P., J. Thomas, S.J. CLARK, D. Morof, J. Joubert, C. Kabudula, Z. Li, and D. Bradshaw (2023). **Agreement Between Cause Of Death Assignment By Computer-coded Verbal Autopsy Methods And Physician Coding Of Verbal Autopsy Interviews In South Africa.** *Global Health Action* *16* (1). \[ [DOI](https://doi.org/10.1080/16549716.2023.2285105) \]
+
+Houle, B., C.W. Kabudula, D. Gareta, K. Herbst, and S.J. CLARK (2023). **Household Structure, Composition and Child Mortality in the Unfolding Antiretroviral Therapy Era in Rural South Africa: Comparative Evidence from Population Surveillance, 2000-2015.** *BMJ Open* *13* (3), e070388. \[ [DOI](http://dx.doi.org/10.1136/bmjopen-2022-070388) \]
+
+Li, Z., J. Thomas, E. Choi, T.H. McCormick, and S.J. CLARK (2023). **The openVA Toolkit for Verbal Autopsies.** *The R Journal*. \[ [Link](https://journal.r-project.org/articles/RJ-2023-020/) \]
+
+### 2022
+
+#### Articles Published
+
+Houle, B., C.W. Kabudula, A.M. Tilstra, S.A. Mojola, E. Schatz, S.J. CLARK, N. Angotti, F.X. Gómez-Olivé, and J. Menken (2022). **Twin Epidemics: The Effects of HIV and Systolic Blood Pressure on Mortality Risk in Rural South Africa, 2010-2019**. *BMC Public Health* *22* (387). \[ [DOI](https://doi.org/10.1186/s12889-022-12791-z) \]
+
+Houle, B., C.W. Kabudula, A.M. Tilstra, S.A. Mojola, E. Schatz, S.J. CLARK, N. Angotti, F.X. Gómez-Olivé, and J. Menken (2022). ***Data to Support*: Twin Epidemics: The Effects of HIV and Systolic Blood Pressure on Mortality Risk in Rural South Africa, 2010-2019**. *DataFirst* (African Research Replication and Reproducibility Data). \[ [Download Data](https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/911) \]
+
+### 2021
+
+#### Articles Published
+
+Herbst, K., S. Juvekar, M. Jasseh, Y. Berhane, N.T.K. Chuc, J. Seeley, O. Sankoh, S.J. CLARK and M. Collinson (2021). **Health and Demographic Surveillance Systems in Low- and Middle-income Countries: History, State of the Art and Future Prospects**. *Global Health Action* *14* (sup1). \[ [DOI](http://doi.org/10.1080/16549716.2021.1974676) \]
+
+Chandramohan, D., E. Fottrell, J. Leitao, E. Nichols, S.J. CLARK, C. Alsokhn, D. C. Munoz, C. AbouZahr, A. Di Pasquale, R. Mswia, E. Choi, F. Baiden, J. Thomas, I. Lyatuu, Z. Li, P. Larbi-Debrah, Y. Chu, S. Cheburet, O. Sankoh, A. M. Badr, D. M. Fat, P. Setel, R. Jakob, D. de Savigny (2021). **Estimating Causes of Death Where There Is No Medical Certification: Evolution and State of the Art of Verbal Autopsy**. *Global Health Action* *14* (sup1). \[ [DOI](http://doi.org/10.1080/16549716.2021.1982486) \]
+
+Norris Turner, A., D. Kline, A. Norris, W.G. Phillips, E. Root, J. Wakefield, Z. Li, S. Lemeshow, M. Spahnie, A. Luff, Y. Chu, M.K. Francis, M. Gallo, P. Chakraborty, M. Lindstrom, G. Lozanski, W. Miller, S.J. CLARK (2021). **Prevalence of Current and Past COVID-19 in Ohio Adults**. *Annals of Epidemiology* *67*, 50-60. \[ [DOI](http://doi.org/10.1016/j.annepidem.2021.11.009) \]
+
+Kline, D., Z. Li, Y. Chu, J. Wakefield, W.C. Miller, A. Norris Turner, and S.J. CLARK (2021). **Estimating Seroprevalence of SARS-CoV-2 in Ohio: A Bayesian Multilevel Poststratiﬁcation Approach with Multiple Diagnostic Tests**. *Proceedings of the National Academy of Sciences* *118* (26), e2023947118. \[ [DOI](https://doi.org/10.1073/pnas.2023947118) \]
+
+CLARK, S.J., and A. Norris Turner (2021). ***Invited Commentary*: Monitoring Epidemics: Lessons from Measuring Population Prevalence of the Coronavirus**. *Proceedings of the National Academy of Sciences* *118* (9), e2026412118. \[ [DOI](http://dx.doi.org/10.1073/pnas.2026412118) \]
+
+Houle, B., C. Kabudula, A. Stein, D. Gareta, K. Herbst, and S.J. CLARK (2021). **Linking the timing of a mother's and child's death: Comparative evidence from two rural South African population-based surveillance studies, 2000–2015**. *PLoS ONE* *16* (2), e0246671. \[ [DOI](https://doi.org/10.1371/journal.pone.0246671) \]
+
+#### Working Papers
+
+Li, Z. R., Z. Wu, I. Chen, and S.J. CLARK (2021). **Bayesian Nested Latent Class Models for Cause-of-Death Assignment using Verbal Autopsies Across Multiple Domains**. *arXiv Preprint* *arXiv:2112.12186v3*. \[ [PDF](https://arxiv.org/abs/2112.12186) \]
+
+CLARK, S.J. (2021). **Health and demographic surveillance systems and the 2030 agenda: Sustainable development goals**. *arXiv Preprint* *arXiv:2103.03910v1*. \[ [PDF](https://arxiv.org/abs/2103.03910) \]
+
+Li, Z.R., J. Thomas, E. Choi, T.H. McCormick, and S.J. CLARK (2021). **The openva toolkit for verbal autopsies**. *arXiv Preprint* *arXiv:2109.08244v2*. \[ [PDF](https://arxiv.org/abs/2109.08244) \]
+
+### 2020
+
+#### Articles Published
+
+Calvert, C., M. Marston, E. Slaymaker, A.C. Crampin, A. Price, N. Klein, K. Herbst, D. Michael, M. Urassa, S.J. CLARK, C. Ronsmans, and G. Reniers (2020). **Direct Maternal Deaths Attributable to HIV in the Era of ART: Evidence from Three Population-based HIV Cohorts with Verbal Autopsy**. *AIDS* *34* (9), 1397-1405. \[ [DOI](http://dx.doi.org/10.1097/QAD.0000000000002552) \]
+
+Gómez-Olivé, F.X., B. Houle, M.S. Rosenberg, C.W. Kabudula, S. Mojola, J.K. Rohr, S.J. CLARK, N. Angotti, E.J. Schatz, K. Kahn, T. Bärnighausen, and J. Menken (2020). **HIV incidence among older adults in a rural South African setting: 2010-2015**. *Journal of Acquired Immune Deficiency Syndromes* *85* (1), 18-22. \[ [DOI](http://dx.doi.org/10.1097/QAI.0000000000002404) \]
+
+Houle, B., S.T. Yu, N. Angotti, E. Schatz, C. Kabudula, F.X. Gómez-Olivé, J. Menken, S. Mojola, and S.J. CLARK (2020). **Clusters of HIV Risk and Protective Sexual Behaviors in Agincourt, Rural South Africa: Findings from the Ha Nakekela Population-Based Study of Ages 15 and Older**. *Archives of Sexual Behavior* *49* (6), 2057-2068. \[ [DOI](http://dx.doi.org/10.1007/s10508-020-01663-5) \]
+
+Kunihama, T., Z.R. Li, S.J. CLARK, and T.H. McCormick (2020). **Bayesian Factor Models for Probabilistic Cause of Death Assessment with Verbal Autopsies**. *The Annals of Applied Statistics ([Preprint: arXiv:1803.01327v2](https://arxiv.org/abs/1803.01327))* *14* (1), 241-256. \[ [DOI](http://dx.doi.org/10.1214/19-AOAS1253) \]
+
+Li, Z.R., T.H. McCormick, and S.J. CLARK (2020a). **Using Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in Verbal Autopsies**. *Bayesian Analysis* *15* (3), 781-807. \[ [DOI](http://dx.doi.org/10.1214/19-BA1172) \]
+
+Li, Z.R., T.H. McCormick, and S.J. CLARK (2020b). **Non-confirming Replication of \`Performance of InSilicoVA for Assigning Causes of Death to Verbal Autopsies: Multisite Validation Study using Clinical Diagnostic Gold Standards', BMC Medicine 2018; 16:56**. *BMC Medicine* *18* (1), 69. \[ [DOI](http://dx.doi.org/10.1186/s12916-020-01518-9) \]
+
+Setel, P., C. AbouZahr, E. B. Atuheire, M. Bratschi, E. Cercone, O. Chinganya, B. Clapham, S.J. CLARK, C. Congdon, D. de Savigny, A. Karpati, E. Nichols, R. Jakob, J. Mwanza, W. Muhwava, P. Nahmias, E.M. Ortiz, and A. Tshangela (2020). **Mortality Surveillance during the COVID-19 Pandemic**. *Bulletin of the World Health Organization* *98* (6), 374. \[ [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC7265935/) \]
+
+#### Working Papers
+
+Kline, D., Z. Li, Y. Chu, J. Wakefield, and S.J. CLARK (2020). **Estimating Seroprevalence of SARS-CoV-2 Coronavirus in Ohio: A Bayesian Multilevel Regression and Poststratification Approach with Multiple Imperfect Diagnostic Tests**. *arXiv Preprint* *arXiv:2011.09033v2*. \[ [PDF](https://arxiv.org/abs/2011.09033) \]
+
+Li, Z.R., B.D. Martin, T.Q. Dong, G.A. Fuglstad, J. Paige, A. Riebler, S.J. CLARK, and J. Wakefield (2020). **Space-Time Smoothing of Demographic and Health Indicators using the R Package SUMMER**. *arXiv Preprint* *arXiv:2007.05117v2*. \[ [PDF](https://arxiv.org/abs/2007.05117) \]
+
+### 2019
+
+#### Articles Published
+
+Byass, P., L. Hussain-Alkhateeb, L. D'Ambruoso, S.J. CLARK, J. Davies, E. Fottrell, J. Bird, C. Kabudula, S. Tollman, K. Kahn, L. Schiöler, and M. Petzold (2019). **An Integrated Approach to Processing WHO-2016 Verbal Autopsy Data: the InterVA-5 Model**. *BMC Medicine* *17* (102). \[ [DOI](http://dx.doi.org/10.1186/s12916-019-1333-6) \]
+
+CLARK, S.J. (2019). **A General Age-Specific Mortality Model with An Example Indexed by Child or Child/Adult Mortality**. *Demography* *56* (3), 1131-1159. \[ [DOI](http://dx.doi.org/10.1007/s13524-019-00785-3) \] \[ [Reproducibility Code](https://github.com/sinafala/svd-comp) \]
+
+Jha, P., D. Kumar, R. Dikshit, A. Budukh, R. Begum, P. Sati, P. Kolpak, R. Wen, S.J. Raithatha, U. Shah, Z.R. Li, L. Aleksandrowicz, P. Shah, K. Piyasena, T.H. McCormick, H. Gelband, and S.J. CLARK (2019). **Automated Versus Physician Assignment of Cause of Death For Verbal Autopsies: Randomized Trial of 9374 Deaths In 117 Villages In India**. *BMC Medicine* *17* (116). \[ [DOI](http://dx.doi.org/10.1186/s12916-019-1353-2) \]
+
+Li, Z.R., T.H. McCormick, and S.J. CLARK (2019, June). **Bayesian Joint Spike-and-Slab Graphical Lasso**. In *Proceedings of the 36th International Conference on Machine Learning*, Volume 97 of *Proceedings of Machine Learning Research*, pp. 3877-3885. International Conference on Machine Learning, Long Beach, California, USA. \[ [li19h.pdf](http://proceedings.mlr.press/v97/li19h/li19h.pdf) \]
+
+Li, Z., Y. Hsiao, J. Godwin, B. Martin, J. Wakefield, and S.J. CLARK (2019). **Changes in the Spatial Distribution of the Under-Five Mortality Rate: Small-area Analysis of 122 DHS Surveys in 262 Subregions of 35 Countries in Africa**. *PLoS ONE* *14* (1), e0210645. \[ [DOI](http://dx.doi.org/10.1371/journal.pone.0210645) \]
+
+#### Working Papers
+
+CLARK, S.J., M. Bratschi, P. Setel, C. Abouzahr, D. d. Savigny, Z.R. Li, T.H. McCormick, P. Byass, and D. Chandramohan (2019). **Verbal Autopsy in Civil Registration and Vital Statistics: The Symptom-Cause Information Archive**. *arXiv Preprint* *arXiv:1910.00405v2*. \[ [PDF](https://arxiv.org/abs/1910.00405) \]
+
+### 2018
+
+#### Articles Published
+
+CLARK, S.J., J. Wakefield, T.H. McCormick, and M. Ross (2018). **Hyak Mortality Monitoring System: Innovative Sampling and Estimation Methods - Proof of Concept by Simulation**. *Global Health, Epidemiology and Genomics* *3* (e3). \[ [DOI](http://dx.doi.org/10.1017/gheg.2017.15) \]
+
+Houle, B., F.X. Gómez-Olivé, N. Angotti, J. Menken, and S.J. CLARK (2018). **Fieldworker Effects on Substance Use Reporting in a Rural South African Setting**. *Journal of Alcohol and Drug Research* *7* (1), 29-39. \[ [DOI](http://dx.doi.org/10.7895/ijadr.246) \]
+
+Houle, B., S. Mojola, N. Angotti, E. Schatz, F.X. Gómez-Olivé, S.J. CLARK, J. Williams, C. Kabudula, S. Tollman, and J. Menken (2018). **Sexual Behavior and HIV Risk across the Life Course in Rural South Africa: Trends and Comparisons**. *AIDS Care* *30* (11), 1435-1443. \[ [DOI](http://dx.doi.org/10.1080/09540121.2018.1468008) \]
+
+Nichols, E. K., P. Byass, D. Chandramohan, S.J. CLARK, A. D. Flaxman, R. Jakob, J. Leitao, N. Maire, C. Rao, I. Riley, and P. Setel (2018). **The WHO 2016 Verbal Autopsy Instrument: An International Standard Suitable for Automated Analysis by InterVA, InsilicoVA, and Tariff 2.0**. *PLoS Medicine* *15* (1), e1002486. \[ [DOI](http://dx.doi.org/10.1371/journal.pmed.1002486) \]
+
+Pantazis, A. and S.J. CLARK (2018). **A Parsimonious Characterization of Change in Global Age-Specific and Total Fertility Rates**. *PLoS ONE* *13* (e0190574). \[ [DOI](http://dx.doi.org/10.1371/journal.pone.0190574) \]
+
+Sharrow, D.J., J. Godwin, Y. He, S.J. CLARK, and A.E. Raftery (2018). **Probabilistic Population Projections for Countries with Generalized HIV/AIDS Epidemics**. *Population Studies* *72* (1), 1-15. \[ [DOI](http://dx.doi.org/10.1080/00324728.2017.1401654) \]
+
+Wakefield, J., G.A. Fuglstad, A. Riebler, J. Godwin, K. Wilson, and S.J. CLARK (2018). **Estimating Under-Five Mortality in Space and Time in a Developing World Context**. *Statistical Methods in Medical Research* *28* (9), 2614-2634. \[ [DOI](http://dx.doi.org/10.1177/0962280218767988) \]
+
+#### Working Papers
+
+Li, Z.R., T.H. McCormick, and S.J. CLARK (2019). **Bayesian Joint Spike-and-Slab Graphical Lasso**. *arXiv Preprint* *arXiv:1805.07051v2*. \[ [PDF](https://arxiv.org/abs/1805.07051) \]
+
+CLARK, S.J. (2018). **A Guide to Comparing the Performance of VA Algorithms**. *arXiv Preprint* *arXiv:1802.07807v1*. \[ [PDF](https://arxiv.org/abs/1802.07807) \]
+
+CLARK, S.J., Z.R. Li, and T.H. McCormick (2018). **Quantifying the Contributions of Training Data and Algorithm Logic to the Performance of Automated Cause-Assignment Algorithms for Verbal Autopsy**. *arXiv Preprint* *arXiv:1803.07141v4*. \[ [PDF](https://arxiv.org/abs/1803.07141) \]
+
+Kunihama, T., Z.R. Li, S.J. CLARK, and T.H. McCormick (2018). **Bayesian factor models for probabilistic cause of death assessment with verbal autopsies**. *arXiv Preprint* *arXiv:1803.01327v2*. \[ [PDF](https://arxiv.org/abs/1803.01327) \]
+
+Li, Z.R., T.H. McCormick, T. Kunihama, and S.J. CLARK (2018). **Using Bayesian Latent Gaussian Graphical Models to Infer Symptom Associations in Verbal Autopsies**. *arXiv Preprint* *arXiv:1711.00877v4*. \[ [PDF](https://arxiv.org/abs/1711.00877) \]
+
+Wakefield, J., G.A. Fuglstad, A. Riebler, J. Godwin, K. Wilson, and S.J. CLARK (2018). **Estimating Under-Five Mortality in Space and Time in a Developing World Context**. *arXiv Preprint* *arXiv:1711.00800v1*. \[ [PDF](https://arxiv.org/abs/1711.00800) \]
+
+### 2017
+
+#### Articles Published
+
+Kabudula, C. W., B. Houle, M.A. Collinson, K. Kahn, S.J. CLARK, and S. Tollman (2017). **Progression of the Epidemiological Transition in a Rural South African Setting: Findings from Population Surveillance in Agincourt, 1993-2013**. *BMC Public Health* *17* (1), 424. \[ [DOI](http://dx.doi.org/10.1186/s12889-017-4312-x) \]
+
+Kabudula, C.W., B. Houle, M.A. Collinson, K. Kahn, F.X. Gómez-Olivé, S. Tollman, and S.J. CLARK (2017). **Socioeconomic Differences in Mortality in the Antiretroviral Therapy Era in Agincourt, Rural South Africa, 2001-13: A Population Surveillance Analysis**. *Lancet Global Health* *5* (9), e924-e935. \[ [DOI](http://dx.doi.org/10.1016/S2214-109X(17)30297-8) \]
+
+Reniers, G., S. Blom, J. Lieber, A.J. Herbst, C. Calvert, J. Bor, T. Barnighausen, B. Zaba, Z.R. Li, S.J. CLARK, A. Grant, R. Lessells, J.W. Eaton, and V. Hosegood (2017). **Tuberculosis Mortality and the Male Survival Deficit in Rural South Africa: An Observational Community Cohort Study**. *PLoS ONE* *12* (10), e0185692. \[ [DOI](http://dx.doi.org/10.1371/journal.pone.0185692) \]
+
+Sankoh, O., P. Byass, S.J. CLARK, P. Bocquier, A. Lopez, D. de Savigny, A. Gage, A. Ekstrom, B. McPake, C. Abouzahr, C. Moyer, H. Campbell, J. Clark, and H. Mwenesi (2017). **Why Population-based Data are Crucial to Achieving the Sustainable Development Goals**. *International Journal of Epidemiology*, 4-7. \[ [DOI](http://dx.doi.org/10.1093/ije/dyx010) \]
+
+Sankoh, O., P. Byass, M. Kamanda, S.S. Arthur, M. Bangha, D. Mbulumi, S. Apaliyah, A. Soura, A. Chowdhury, A. Oduro, A. Lopez, A. Diallo, A. Worku, A.A. Gebru, A. Ezeh, A. Sie, A. Crampin, A. Gage, A.M. Ekstrom, A. Scott, B.P. Nguyen, B. McPake, B. Bonfoh, B. Tariku, C. Abouzahr, C. Moyer, Da. Kajungu, G.A. Bikes, H. Tinto, H. Mwenesi, H. Campbell, H.V. Minh, S.J. CLARK, J. Odera, K. Herbst, K. Baku, M. Eusebio, M. Gyapong, M. Alberts, M. Meremikwu, M. Molla, M. Jasseh, N. Assefa, N. Alam, O.M. Oche, P. Lehohla, P. Aaby, P. Bocquier, R. Thompson, R. Newton, S. Juvekar, S. Kouanda, S. Owusu-Agyei, S. Kant, S. Sodiomon, S. Wilopo, S.M. Manzoor, A. Hanifi, S. Tollman, T.K.C. Nguyen, T. Lutalo, T. Williams, T.K. Toan, T. Corrah, V. Delaunay, W. Otieno, W. Khan, W.M. Abera, M. Tanner. (2017). **New INDEPTH strategy for the SDGs using robust population data**. *Lancet Global Health* *5* (7), e647-e648. \[ [DOI](http://dx.doi.org/10.1016/S2214-109X(17)30206-1) \]
+
+### 2016
+
+#### Articles Published
+
+Bawah, A., B. Houle, N. Alam, A. Razzaque, P. K. Streatfield, C. Debpuur, P. Welaga, A. Oduro, A. Hodgson, S. Tollman, M. Collinson, K. Kahn, T.H. Dang, N.T.I. Chuc, O. Sankoh, and S.J. CLARK (2016). **The Evolving Demographic and Health Transition in Four Low-and Middle-Income Countries: Evidence from Four Sites in the INDEPTH Network of Longitudinal Health and Demographic Surveillance Systems**. *PLoS ONE* *11* (6), e0157281. \[ [DOI](http://dx.doi.org/10.1371/journal.pone.0157281) \]
+
+Houle, B., N. Angotti, S.J. CLARK, J. Williams, F.X. Gómez-Olivé, J. Menken, C. Kabudula, K. Klipstein-Grobusch, and S.M. Tollman (2016). **Let's Talk about Sex, Maybe? Interviewers, Respondents, and Sexual Behavior Reporting in Rural South Africa**. *Field Methods* *28* (2), 112-132. \[ [DOI](http://dx.doi.org/10.1177/1525822X15595343) \]
+
+Houle, B., A. Pantazis, C. Kabudula, S. Tollman, and S.J. CLARK (2016). **Social Patterns and Differentials in the Fertility Transition Based on Population Surveillance: Rural South Africa, 1993 - 2013**. *Population Health Metrics* *14* (10). \[ [DOI](http://dx.doi.org/10.1186/s12963-016-0079-z) \]
+
+Kabudula, C. W., B. Houle, M.A. Collinson, K. Kahn, S. Tollman, and S.J. CLARK (2016). **Assessing Changes in Household Socioeconomic Status in Rural South Africa, 2001-2013: A Distributional Analysis Using Household Asset Indicators**. *Social Indicators Research* *133*, 1047-1073. \[ [DOI](http://dx.doi.org/10.1007/s11205-016-1397-z) \]
+
+McCormick, T.H., Z.R. Li, C. Calvert, A.C. Crampin, K. Kahn, and S.J. CLARK (2016). **Probabilistic Cause-of-Death Assignment using Verbal Autopsies**. *Journal of the American Statistical Association* *111* (515), 1036-1049. \[ [DOI](http://dx.doi.org/10.1080/01621459.2016.1152191) \]
+
+Reniers, G., S. Blom, C. Calvert, A. Martin-Onraet, A.J. Herbst, J.W. Eaton, J. Bor, E. Slaymaker, Z.R. Li, S.J. CLARK, T. Barnighausen, B. Zaba, and V. Hosegood (2016). **Trends in the Burden of HIV Mortality after Roll-out of Antiretroviral Therapy in KwaZulu-Natal, South Africa: an Observational Community Cohort Study**. *Lancet HIV* *4* (3), e113-e121. \[ [DOI](http://dx.doi.org/10.1016/S2352-3018(16)30225-9) \]
+
+Reniers, G., M. Wamukoya, M. Urassa, A. Nyaguara, J. Nakiyingi-Miiro, T. Lutalo, V. Hosegood, S. Gregson, F.X. Gómez-Olivé, E. Geubbels, A.C. Crampin, A. Wringe, L. Waswa, S. Tollman, J. Todd, E. Slaymaker, D. Serwadda, A. Price, S. Oti, M. J. Nyirenda, D. Nabukalu, C. Nyamukapa, F. Nalugoda, O. Mugurungi, B. Mtenga, L. Mills, D. Michael, E. McLean, N. McGrath, E. Martin, M. Marston, S. Maquins, F. Levira, C. Kyobutungi, D. Kwaro, I. Kasamba, C. Kanjala, K. Kahn, C. Kabudula, K. Herbst, D. Gareta, J.W. Eaton, S.J. CLARK, K. Church, M. Chihana, C. Calvert, D. Beguy, G. Asiki, S. Amri, R. Abdul, and B. Zaba (2016). **Data Resource Profile: Network for Analysing Longitudinal Population-based HIV/AIDS data on Africa (ALPHA Network)**. *International Journal of Epidemiology* *45* (1), 83-93. \[ [DOI](http://dx.doi.org/10.1093/ije/dyv343) \]
+
+Wheldon, M., A.E. Raftery, S.J. CLARK, and P. Gerland (2016). **Bayesian Population Reconstruction of Female Populations for Less Developed and Developed Countries**. *Population Studies* *70* (1), 21-37. \[ [DOI](http://dx.doi.org/10.1080/00324728.2016.1139164) \]
+
+#### Working Papers
+
+CLARK, S.J. (2016). **A General Age-Specific Mortality Model with An Example Indexed by Child or Child/Adult Mortality**. *arXiv Preprint* *arXiv:1612.01408v1*. \[ [PDF](https://arxiv.org/abs/1612.01408) \]
+
+Sharrow, D.J., J. Godwin, Y. He, S.J. CLARK, and A.E. Raftery (2016). **Probabilistic population projections for countries with generalized hiv/aids epidemics**. *arXiv Preprint* *arXiv:1609.04383v1*. \[ [PDF](https://arxiv.org/abs/1609.04383) \]
+
+### 2015
+
+#### Articles Published
+
+CLARK, S.J., F.X. Gómez-Olivé, B. Houle, M. Thorogood, K. Klipstein-Grobusch, N. Angotti, C. Kabudula, J. Williams, J. Menken, and S. Tollman (2015). **Cardiometabolic Disease Risk and HIV Status in Rural South Africa: Establishing a Baseline**. *BMC Public Health* *15* (135). \[ [DOI](http://dx.doi.org/10.1186/s12889-015-1467-1) \]
+
+Helleringer, S., A. Noymer, S.J. CLARK, and T.H. McCormick (2015). **Did Ebola Relatively 'Spare' Children?**. *Lancet* *386* (10002), 1442-1443. \[ [DOI](http://dx.doi.org/10.1016/S0140-6736(15)00415-8) \]
+
+Houle, B., S.J. CLARK, and A. E. Yamin (2015). **The Impacts of Maternal Mortality and Cause of Death on Children's Risk of Dying in Rural South Africa: Evidence from a Population based Surveillance Study (1992 - 2013)**. *BMC Reproductive Health* *12* (Suppl 1:S7). \[ [DOI](http://dx.doi.org/10.1186/1742-4755-12-S1-S7) \]
+
+Mercer, L. D., J. Wakefield, A. Pantazis, A. M. Lutambi, H. Masanja, and S.J. CLARK (2015). **Space-time Smoothing of Complex Survey Data: Small Area Estimation for Child Mortality**. *The Annals of Applied Statistics* *9* (4), 1889-1905. \[ [DOI](http://dx.doi.org/10.1214/15-AOAS872) \]
+
+Sankoh, Osman, M. Bangha, J.B.O. Emina, A.J. Herbst, S. Tollman, S. Kant, P. Aaby, A. Chowdhury, V. Delaunay, A. Diallo, W. Khan, K. Streatfield, N. Alam, A. Bhuiya, B.T.T. Ha, M Molla, Y Kebede, M Alberts, T.K. Toan, N.T.K. Chuc, M Gyapong, M Jasseh, F. Tessema, R. Nathan, A. Salim, H. Masanja, S. Punpuing, A. Crampin, M. Nyirenda, S. Kouanda, R.W. Mangen, T. Lutalo, N. Sewankambo, T.N. Williams, J.A. Scott, N. Assefa, Y. Adama, A.A. Gebru, S. Owusu-Agyei, F. Odhiambo, W. Otieno, P. Sifuna, E. Macete, M. Urassa, P. Larson, A. Ezeh, D. Beguy, C. Kyobutungi, H. Tinto, O.M. Oche, A. Oduro, A. Sie, A. Soura, S. Wilopo, S. Sirima, B. Bonfoh, S. Juvekar, B. Sonko, B.P. Nguyen, M. Meremikwu, G. Asiki, R. Thompson, T. Evans, P. Byass, H.O. Adami, H. Campbell, A.M. Ekstrom, H. Mwenesi, D. Ross, C. Mbacké, C. Moyer, I. Asangansi, P. Bocquier, S.J. CLARK, A.J. Gage, B. McPake, J. Clark, M. Sturkenboom, D. Weibel, J. Bonhoeffer, D. Dolinger, C. Boehme, Y. Ye, F. Binka, D. de Savigny, K.Z. Long, M. Kaser, A. Karim, D. Mausezahl, and Marcel Tanner (2015). **CHESS: An Innovative Concept for a New Generation of Population Surveillance**. *Lancet Global Health* *3* (12), e742. \[ [DOI](http://dx.doi.org/10.1016/S2214-109X(15)00180-1) \]
+
+Wheldon, M., A. E. Raftery, S.J. CLARK, and P. Gerland (2015). **Bayesian Reconstruction of Two-Sex Populations by Age: Estimating Sex Ratios at Birth and Sex Ratios of Mortality**. *Journal of the Royal Statistical Society, Series A* *178* (4), 977-1007. \[ [DOI](http://dx.doi.org/10.1111/rssa.12104) \]
+
+Zaba, B., G. Reniers, E. Slaymaker, J. Todd, J. Glynn, A. Crampin, M. Urassa, T. Lutalo, M.-L. Newell, V. Hosegood, S.J. CLARK, and S. Gregson (2015). **Understanding Why People Participate in HIV Surveillance**. *Bulletin of the World Health Organization* *93* (5), 356-358. \[ [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC4431510/) \]
+
+#### Working Papers
+
+CLARK, S.J. (2015). **A Singular Value Decomposition-based Factorization and Parsimonious Component Model of Demographic Quantities Correlated by Age: Predicting Complete Demographic Age Schedules with Few Parameters**. *arXiv Preprint* *arXiv:1504.02057v1*. \[ [PDF](https://arxiv.org/abs/1504.02057) \]
+
+McCormick, T.H., Z.R. Li, C. Calvert, A.C. Crampin, K. Kahn, and S.J. CLARK (2015). **Probabilistic cause-of-death assignment using verbal autopsies**. *arXiv Preprint* *arXiv:1411.3042v3*. \[ [PDF](https://arxiv.org/abs/1411.3042) \]
+
+### 2014
+
+#### Articles Published
+
+Bocquier, P., M.A. Collinson, S.J. CLARK, K. Kahn, and S.M. Tollman (2014). **Ubiquitous Burden: Quantifying the Contribution of Migration to AIDS and Tuberculosis Mortality in Rural South Africa. A Population-Based Surveillance Study**. *African Population Studies* *28* (1), 691-701. \[ [DOI](https://doi.org/10.11564/28-0-525) \]
+
+CLARK, S.J. and B. Houle (2014). **Validation, Replication, and Sensitivity Testing of Heckman-type Selection Models to Adjust Estimates of HIV Prevalence**. *PLoS ONE* *9* (11), e112563. \[ [DOI](http://dx.doi.org/10.1371/journal.pone.0112563) \]
+
+Collinson, M. A., M. J. White, P. Bocquier, S. McGarvey, S. Afolabi, S.J. CLARK, K. Kahn, and S.M. Tollman (2014). **Migration and the Epidemiological Transition: Insights from the Agincourt Sub-District of Northeast South Africa**. *Global Health Action* *7* (23514). \[ [DOI](http://dx.doi.org/10.3402/gha.v7.23514) \]
+
+Houle, B., S.J. CLARK, F.X. Gómez-Olivé, K. Kahn, and S.M. Tollman (2014). **The Unfolding Counter-Transition in Rural South Africa: Mortality and Cause of Death, 1994-2009**. *PLoS ONE* *9* (6), e100420. \[ [DOI](https://dx.doi.org/10.1371/journal.pone.0100420) \]
+
+McParland, D., I.C. Gormley, S.J. CLARK, T.H. McCormick, C.W. Kabudula, and M.A. Collinson (2014). **Clustering South African Households Based on their Asset Status Using Latent Variable Models**. *The Annals of Applied Statistics* *8* (2), 747-776. \[ [DOI](https://dx.doi.org/10.1214/14-AOAS726) \]
+
+Pantazis, A. and S.J. CLARK (2014). **Male and Female Sterility in Zambia**. *Demographic Research* *30* (14), 413-428. \[ [DOI](http://dx.doi.org/10.4054/DemRes.2014.30.14) \]
+
+Sankoh, O., D. Sharrow, K. Herbst, C.W. Kabudula, N. Alam, S. Kant, H. Ravn, A. Bhuiya, L. T. Vui, T. Darikwa, M. Gyapong, M. Jasseh, N. C. T. Kim, S. Abdullah, A. Crampin, J. Ojal, S. Owusu-Agyei, F. Odhiambo, M. Urassa, K. Streatfield, M. Shimada, C. Sacoor, D. Beguy, K. Derra, G. Wak, V. Delaunay, A. Sie, A. Soura, D. Diallo, S. Wilopo, H. Masanja, B. Bonfoh, S. Phuanukoonnon, and S.J. CLARK (2014). **The INDEPTH Standard Population for Low- and Middle-Income Countries, 2013**. *Global Health Action* *7* (23286). \[ [DOI](http://dx.doi.org/10.3402/gha.v7.23286) \]
+
+Sharrow, D.J., S.J. CLARK, and A.E. Raftery (2014). **Modeling Age-Specific Mortality for Countries with Generalized HIV Epidemics**. *PLoS ONE* *9* (5), e96447. \[ [DOI](https://dx.doi.org/10.1371/journal.pone.0096447) \]
+
+#### Working Papers
+
+CLARK, S.J. (2014). **A singular value decomposition-based factorization and parsimonious component model of demographic quantities correlated by age: Predicting complete demographic age schedules with few parameters**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (143). \[ [PDF](https://csss.uw.edu/files/working-papers/2014/wp143.pdf) \]
+
+Li, Z., T. McCormick, and S.J. CLARK (2014). **Interva4: An r package to analyze verbal autopsy data**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (146). \[ [PDF](https://csss.uw.edu/files/working-papers/2014/wp146.pdf) \]
+
+McCormick, T., Z. Li, C. Calvert, A. Crampin, K. Kahn, and S.J. CLARK (2014). **Probabilistic cause-of-death assignment using verbal autopsies**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (147). \[ [PDF](https://csss.uw.edu/files/working-papers/2014/wp147.pdf) \]
+
+Mercer, L., J. Wakefield, A. Pantazis, A. Lutambi, H. Masanja, and S.J. CLARK (2014). **Small area estimation of child mortality in the absence of vital registration**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (148). \[ [PDF](https://csss.uw.edu/files/working-papers/2014/wp148.pdf) \]
+
+### 2013
+
+#### Articles Published
+
+CLARK, S.J., K. Kahn, B. Houle, A. Arteche, M.A. Collinson, S.M. Tollman, and A. Stein (2013). **Young Children's Probability of Dying Before and After Their Mother's Death: A Rural South African Population-Based Surveillance Study**. *PLoS Medicine* *10* (3), e1001409. \[ [DOI](https://dx.doi.org/10.1371/journal.pmed.1001409) \]
+
+Gómez-Olivé, F. X., N. Angotti, B. Houle, K. Klipstein-Grobusch, C. Kabudula, J. Menken, J. Williams, S. Tollman, and S.J. CLARK (2013). **Prevalence of HIV among Those 15 and Older in Rural South Africa**. *AIDS Care* *25* (9), 1122-1128. \[ [DOI](https://dx.doi.org/10.1080/09540121.2012.750710) \]
+
+Houle, B., A. Stein, K. Kahn, S. Madhavan, M.A. Collinson, S.M. Tollman, and S.J. CLARK (2013). **Household Context and Child Mortality in Rural South Africa: The Effects of Birth Spacing, Shared Mortality, Household Composition, and Socio-Economic Status**. *International Journal of Epidemiology* *42* (5), 1444-1454. \[ [DOI](https://dx.doi.org/10.1093/ije/dyt149) \]
+
+Sharrow, D., S.J. CLARK, M.A. Collinson, K. Kahn, and S.M. Tollman (2013). **The Age-Pattern of Increases in Mortality Affected by HIV: Bayesian Fit of the Heligman-Pollard Model to Data from the Agincourt Health and Demographic Surveillance System Field Site in Rural Northeast South Africa**. *Demographic Research* *29* (39), 1039-1096. \[ [DOI](https://dx.doi.org/10.4054/DemRes.2013.29.39) \]
+
+Wheldon, M.C., A.E. Raftery, S.J. CLARK, and P. Gerland (2013). **Reconstructing Past Populations with Uncertainty from Fragmentary Data**. *Journal of the American Statistical Association* *108* (501), 96-110. \[ [DOI](http://dx.doi.org/10.1080/01621459.2012.737729) \]
+
+#### Working Papers
+
+CLARK, S.J., T. McCormick, Z. Li, and J. Wakefield (2013). **Insilicova: A method to automate cause of death assignment for verbal autopsy**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (133). \[ [PDF](https://csss.uw.edu/files/working-papers/2013/wp133.pdf) \]
+
+Wheldon, M., A. Raftery, S.J. CLARK, and P. Gerland (2013). **Bayesian reconstruction of two-sex populations by age: Estimating sex ratios at birth and sex ratios of mortality**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (138). \[ [PDF](https://csss.uw.edu/files/working-papers/2013/wp138.pdf) \]
+
+### 2012
+
+#### Articles Published
+
+Alkema, L., A.E. Raftery, P. Gerland, S.J. CLARK, and F. Pelletier (2012). **Estimating Trends in the Total Fertility Rate with Uncertainty Using Imperfect Data: Examples from West Africa**. *Demographic Research* *26* (15), 331-362. \[ [DOI](https://dx.doi.org/10.4054/DemRes.2012.26.15) \]
+
+Byass, P., D. Chandramohan, S.J. CLARK, L. D'Ambruoso, E. Fottrell, W. J. Graham, A.J. Herbst, A. Hodgson, S. Hounton, K. Kahn, A. Krishnan, J. Leita, F. Odhiambo, O.A. Sankoh, S.M. Tollman. (2012). **Strengthening Standardised Interpretation of Verbal Autopsy Data: the New InterVA-4 Tool**. *Global Health Action* *5* (1), 19281. \[ [DOI](http://dx.doi.org/10.3402/gha.v5i0.19281) \]
+
+CLARK, S.J., J. Thomas, and L. Bao (2012). **Estimates of Age-Specific Reductions in HIV Prevalence in Uganda: Bayesian Melding Estimation and Probabilistic Population Forecast with an HIV-enabled Cohort Component Projection Model**. *Demographic Research* *27* (26), 743-774. \[ [DOI](https://dx.doi.org/10.4054/DemRes.2012.27.26) \]
+
+Kahn, K., M.A. Collinson, F.X. Gómez-Olivé, O. Mokoena, R. Twine, P. Mee, S. A. Afolabi, B. D. Clark, C.W. Kabudula, A. Khosa, S. Khoza, M. Shabangu, B. Silaule, J. B. Tibane, R. G. Wagner, M.L. Garenne, S.J. CLARK, and S.M. Tollman (2012). **Profile: Agincourt Health and Socio-Demographic Surveillance System**. *International Journal of Epidemiology* *41* (4), 988-1001. \[ [DOI](https://dx.doi.org/10.1093/ije/dys115) \]
+
+Madhavan, S., E. Shatz, S.J. CLARK, and M.A. Collinson (2012). **Child Mobility, Maternal Status and Household Composition in Rural South Africa**. *Demography* *49* (2), 699-718. \[ [DOI](https://dx.doi.org/10.1007/s13524-011-0087-3) \]
+
+#### Working Papers
+
+CLARK, S.J. and B. Houle (2012a). **An application of the biprobit heckman selection model to correct estimates of hiv prevalence from sample surveys**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (119), 32. \[ [PDF](https://csss.uw.edu/files/working-papers/2012/wp119.pdf) \]
+
+CLARK, S.J. and B. Houle (2012b). **Evaluation of heckman selection model method for correcting estimates of hiv prevalence from sample surveys**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (120), 18. \[ [PDF](https://csss.uw.edu/files/working-papers/2012/wp120.pdf) \]
+
+CLARK, S.J., J. Wakefield, T. McCormick, and M. Ross (2012). **Hyak mortality monitoring system: Innovative sampling and estimation methods**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (118), 23. \[ [PDF](https://csss.uw.edu/files/working-papers/2012/wp118.pdf) \]
+
+McParland, D., I. Gormley, S.J. CLARK, T. McCormick, C. Kabudula, and M. Collinson (2012). **Clustering south african households based on their asset status using latent variable models**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (121), 28. \[ [PDF](https://csss.uw.edu/files/working-papers/2012/wp121.pdf) \]
+
+Wheldon, M.C., A.E. Raftery, and S.J. CLARK (2012). **Bayesian reconstruction of past populations and vital rates by age for developing and developed countries**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (117). \[ [PDF](https://csss.uw.edu/files/working-papers/2012/wp117.pdf) \]
+
+### 2011
+
+#### Articles Published
+
+Alkema, L., A.E. Raftery, P. Gerland, S.J. CLARK, F. Pelletier, and T. Buettner (2011). **Probabilistic Projections of the Total Fertility Rate for All Countries**. *Demography* *48* (3), 815-839. \[ [DOI](https://doi.org/10.1007/s13524-011-0040-5) \]
+
+Thomas, J. and S.J. CLARK (2011). **More on the Cohort-Component Model of Population Projection in the Context of HIV/AIDS: A Leslie Matrix Representation and New Estimation Methods**. *Demographic Research* *25* (2), 39-102. \[ [DOI](https://dx.doi.org/10.4054/DemRes.2011.25.2) \]
+
+#### Working Papers
+
+CLARK, S.J. and D. J. Sharrow (2011). **Contemporary model life tables for developed countries: An application of model-based clustering**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (107), 38. \[ [PDF](https://csss.uw.edu/files/working-papers/2011/wp107.pdf) \]
+
+Wheldon, M.C., A. Raftery, S.J. CLARK, and P. Gerland (2011). **Estimating demographic parameters with uncertainty from fragmentary data**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (108), 39. \[ [PDF](https://csss.uw.edu/files/working-papers/2011/wp108.pdf) \]
+
+### 2010
+
+#### Articles Published
+
+Williams, J.R., E.J. Schatz, B.D. Clark, M.A. Collinson, S.J. CLARK, J. Menken, K. Kahn, and S.M. Tollman (2010). **Improving Public Health Training and Research Capacity in Africa: A Replicable Model for Linking Training to Health and Socio-Demographic Surveillance Data**. *Global Health Action* *3* (5287). \[ [DOI](http://dx.doi.org/10.3402/gha.v3i0.5287) \]
+
+#### Working Papers
+
+Alkema, L., A.E. Raftery, P. Gerland, S.J. CLARK, F. Pelletier, and T. Buettner (2010). **Probabilistic projections of the total fertility rate for all countries**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (97), 62. \[ [PDF](https://csss.uw.edu/files/working-papers/2010/wp97.pdf) \]
+
+CLARK, S.J., J. Thomas, and L. Bao (2010). **Estimates of age-specific reductions in hiv prevalence in uganda: Bayesian melding estimation and probabilistic population forecast with an hiv-enabled cohort component projection model"**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (106), 49. \[ [PDF](https://csss.uw.edu/files/working-papers/2010/wp106.pdf) \]
+
+Sharrow, D., S.J. CLARK, M.A. Collinson, K. Kahn, and S.M. Tollman (2010). **The age-pattern of increases in mortality affected by hiv: Bayesian fit of the heligman-pollard model to data from the agincourt health and demographic surveillance system field site in rural northeast south africa**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (102), 54. \[ [PDF](https://csss.uw.edu/files/working-papers/2010/wp102.pdf) \]
+
+### 2009
+
+#### Working Papers
+
+Collinson, M. A., S.J. CLARK, A. A. Gerritsen, P. Byass, K. Kahn, and S. M. Tollman (2009). **The dynamics of poverty and migration in a rural south african community, 2001-2005**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (92), 38. \[ [PDF](https://csss.uw.edu/files/working-papers/2009/wp92.pdf) \]
+
+### 2008
+
+#### Articles Published
+
+Cassels, S., S.J. CLARK, and M. Morris (2008). **Mathematical Models for HIV Transmission Dynamics: Tools for Social and Behavioral Science Research**. *Journal of Acquired Immune Deficiency Syndromes (JAIDS)* *47* (Supplement 1), S34-S39. \[ [DOI](https://dx.doi.org/10.1097/QAI.0b013e3181605da3) \]
+
+Tollman, S.M., K. Kahn, B. K. Sartorius, M.A. Collinson, S.J. CLARK, and M.L. Garenne (2008). **Implications of Mortality Transition for Primary Health Care in Rural South Africa: A Population-based Surveillance Study**. *Lancet* *372*, 893-901. \[ [DOI](https://dx.doi.org/10.1016/S0140-6736(08)61399-9) \]
+
+#### Working Papers
+
+Alkema, L., A.E. Raftery, P. Gerland, S.J. CLARK, and F. Pelletier (2008). **Estimating the total fertility rate from multiple imperfect data sources and assessing its uncertainty**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (89), 21. \[ [PDF](https://csss.uw.edu/files/working-papers/2008/wp89.pdf) \]
+
+CLARK, S.J., J. Eaton, M. M. Elmquist, N. R. Ottenweiller, and J. K. Snavely (2008). **Demographic consequences of hiv epidemics and effects of different male circumcision intervention designs: Suggestive findings from microsimulation**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (85), 49. \[ [PDF](https://csss.uw.edu/files/working-papers/2008/wp85.pdf) \]
+
+Thomas, J. and S.J. CLARK (2008). **More on the cohort-component model of population projection in the context of hiv/aids: A leslie matrix representation and new estimation methods**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (88), 38. \[ [PDF](https://csss.uw.edu/files/working-papers/2008/wp88.pdf) \]
+
+### 2007
+
+#### Articles Published
+
+Alkema, L., A.E. Raftery, and S.J. CLARK (2007). **Probabilistic Projections of HIV Prevalence Using Bayesian Melding**. *The Annals of Applied Statistics* *1* (1), 229-248. \[ [DOI](https://dx.doi.org/10.1214/07-AOAS111) \]
+
+CLARK, S.J. (2007). **An Introduction to the General Temporal Data Model and the Structured Population Event History Register**. *Scandinavian Journal of Public Health* *35* (Suppl 69), 21-25. \[ [DOI](https://dx.doi.org/10.1080/14034950701355452) \]
+
+CLARK, S.J., M. Collinson, K. Kahn, S. Tollman, and K. Drullinger (2007). **Returning Home to Die: Circular Labour Migration and Mortality in South Africa**. *Scandinavian Journal of Public Health* *35* (Suppl 69), 35-44. \[ [DOI](https://doi.org/10.1080/14034950701355619) \]
+
+Kahn, K., S. Tollman, M.A. Collinson, S.J. CLARK, R. Twine, B. D. Clark, M. Shabangu, F.X. Gómez-Olivé, O. Mokoena, and M. Garenne (2007). **Research into Health, Population, and Social Transitions in Rural South Africa: Data and Methods of the Agincourt Health and Demographic Surveillance System**. *Scandinavian Journal of Public Health* *35* (Suppl 69), 8-20. \[ [DOI](https://doi.org/10.1080/14034950701505031) \]
+
+#### Working Papers
+
+Alkema, L., A.E. Raftery, and S.J. CLARK (2007). **Probabilistic projections of hiv prevalence using bayesian melding**. *Center for Statistics and the Social Sciences (CSSS) Working Paper Series* (69), 19. \[ [PDF](https://csss.uw.edu/files/working-papers/2007/wp69.pdf) \]
+
+### 2006
+
+#### Articles Published
+
+Adjuik, M., T. Smith, S.J. CLARK, J. Todd, A. Garrib, Y. Kinfu, K. Kahn, M. Mola, A. Ashraf, H. Masanja, U. Adazu, J. Sacarlal, N. Alam, A. Marra, A. Gbangou, E. Mwageni, and F. Binka (2006). **Cause-Specific Mortality Rates in Sub-Saharan Africa and Bangladesh**. *Bulletin of the World Health Organization* *84* (3), 181-188. \[ [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC2627285/) \]
+
+CLARK, S.J. (2006). **A General Temporal Data Model and the Structured Population Event History Register**. *Demographic Research* *15* (7), 181-252. \[ [DOI](https://dx.doi.org/10.4054/DemRes.2006.15.7) \]
+
+### 2005
+
+#### Articles Published
+
+Benzler, J. and S.J. CLARK (2005). **Toward a Unified Timestamp with Explicit Precision**. *Demographic Research* *12* (6), 107-140. \[ [DOI](https://dx.doi.org/10.4054/DemRes.2005.12.6) \]
+
+### 2004
+
+#### Articles Published
+
+Hargreaves, J. R., M.A. Collinson, K. Kahn, S.J. CLARK, and S.M. Tollman (2004). **Childhood Mortality among Former Mozambican Refugees and Their Hosts in Rural South Africa**. *International Journal of Epidemiology* *33*, 1271-1278. \[ [DOI](https://doi.org/10.1093/ije/dyh257) \]
+
+### 2001
+
+#### PhD
+
+CLARK, SAMUEL J. (2001). **An Investigation into the Impact of HIV on Population Dynamics in Africa**. Ph.D. Dissertation. *University of Pennsylvania*. \[ [PDF](https://samclark.net/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa.pdf) \] \[ [PDF with Color Figures](https://samclark.net/site/cv/clark-2001_phd_an-investigation-into-the-impact-of-hiv-on-population-dynamics-in-africa-color-figures.pdf) \]
+
+### 1995
+
+#### Articles Published
+
+CLARK, S.J., E. Colson, J. Lee, and T. Scudder (1995). **Ten Thousand Tonga: A Longitudinal Anthropological Study from Southern Zambia: 1956-1991**. *Population Studies* *49* (1), 91-109. \[ [DOI](https://doi.org/10.1080/0032472031000148266) \]

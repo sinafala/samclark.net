@@ -1,0 +1,48 @@
+# Samuel J. Clark
+
+> Samuel J. Clark is a formal demographer and epidemiologist and Professor of Sociology at The Ohio State University. He develops statistical methods, open-source software, and data resources to measure population health - above all mortality - where the underlying data are incomplete, and applies them in Africa, at global scale, and increasingly in the United States.
+
+His main research areas are verbal autopsy and automated cause-of-death assignment (the InSilicoVA algorithm, the openVA software, and AI methods that read verbal autopsy narratives); the Reference Data Archive, a WHO-hosted archive of reference deaths that he led the creation of; low-dimensional models of age-specific mortality (SVD-Comp, a version of which has been part of UN World Population Prospects since the 2022 revision, and its successor MDMx); and small-area estimation of child mortality.
+
+He leads the openVA Team; is a member of the WHO Verbal Autopsy Reference Group (since 2013) and the WHO Technical Advisory Group on Health Statistics; contributed to founding and growing the INDEPTH Network; and is a long-term contributor to the Agincourt health and demographic surveillance site in South Africa. He is a faculty affiliate of the OSU Institute for Population Research, core faculty in the OSU Translational Data Analytics Institute, and affiliated with the Department of Statistics at the University of Washington and the School of Public Health at the University of the Witwatersrand.
+
+Contact: work@samclark.net
+
+## About
+
+- [Home](https://samclark.net/): research summary, leadership and service, recent updates
+- [Biography](https://samclark.net/site/pages/biography.shtml): career history from East Africa to Ohio State
+- [CV](https://samclark.net/site/pages/cv.shtml): full and abridged CVs (PDF)
+- [Contact and links](https://samclark.net/site/pages/links-contacts.shtml): email, office, and links to ORCID, Google Scholar, PubMed, and institutional profiles
+
+## Publications and talks
+
+- [Bibliography](https://samclark.net/site/pages/bibliography.shtml): publications and working papers from 1995 to the present, with DOI links
+- [Talks](https://samclark.net/site/pages/talks.shtml): invited talks and slides since 2020
+- [Full CV (PDF)](https://samclark.net/site/cv/Samuel-Clark_CV.pdf): complete CV, including grants, students, and service
+
+## Research
+
+- [Verbal autopsy](https://samclark.net/site/projects/verbal-autopsy.shtml): InSilicoVA, the openVA software, key papers, and the published exchange on InSilicoVA's performance
+- [Reference Data Archive](https://samclark.net/site/projects/rda.shtml): the WHO-hosted archive of reference deaths for training and validating cause-of-death methods
+- [Methods](https://samclark.net/site/projects/methods.shtml): the SVD-Comp mortality model and Bayesian methods for population estimation and projection
+- [Software](https://samclark.net/site/projects/software.shtml): R and Python packages, apps, and replication code
+- [Small-area estimates](https://samclark.net/site/projects/small-area-estimates.shtml): space-time estimates of under-five mortality from survey data, and the SUMMER package
+- [Africa: epidemiology and demography](https://samclark.net/site/projects/africa-epidemiology-demography.shtml): HIV, the epidemiological transition, and household composition and mortality
+- [MDMx working paper](https://arxiv.org/abs/2603.20518): Multi-dimensional Mortality (MDMx): sex-age-specific model life tables, fitting, prediction from summary indicators, and forecasting
+- [Flow-field forecasting working paper](https://arxiv.org/abs/2603.24299): mortality forecasting as a flow field in Tucker decomposition space
+- [MDMx app](https://samclark.shinyapps.io/mdmx): Shiny app implementing the MDMx methods
+
+## Optional
+
+- [Full text of the main pages](https://samclark.net/llms-full.txt): the pages above as one markdown file
+- [News](https://samclark.net/site/pages/news.shtml): dated research news and notes since 2021
+- [Flow-field forecasting preview](https://samclark.net/site/news-pages/flow-field.shtml): preliminary real-time comparison of twelve mortality forecasters on the Human Mortality Database (November 2026)
+- [Flow-field forecasting preview, April 2026](https://samclark.net/site/news-pages/flow-field-2026-04.shtml): the earlier, superseded preview comparing four methods
+- [OSU Department of Sociology publications](https://samclark.net/site/news-pages/osu-sociology-bibliography-2026-11.shtml): searchable, unofficial compilation of published and forthcoming work by members of the department (November 2026)
+- [SVD tutorial](https://samclark.net/site/tutorials/svd-demography.shtml): interactive tutorial on the SVD, SVD-Comp, and Lee–Carter
+- [Orphan mortality](https://samclark.net/site/projects/orphan-mortality.shtml): maternal death and young children's survival in rural South Africa
+- [Interviewer effects](https://samclark.net/site/projects/interviewer-effects.shtml): interviewer effects in survey data from rural South Africa
+- [Indirect estimates of mortality](https://samclark.net/site/projects/indirect-estimates.shtml): Bayesian versions of the Brass method for child mortality
+- [Data methods](https://samclark.net/site/projects/data-methods.shtml): the SPEHR data model for health and demographic surveillance
+- [COVID-19 in Ohio](https://samclark.net/site/projects/COVID-19.shtml): 2020 prevalence and excess-death studies in Ohio

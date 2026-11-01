@@ -26,13 +26,14 @@
         Index
         <select name="index" onchange="location = this.value; this.selectedIndex = 0;">
           <option value="#beginning">Date: Event</option>
+          <option value="#2026-11-01-2">2026-11-01-2: OSU Sociology Publications</option>
+          <option value="#2026-11-01">2026-11-01: Research Preview, Flow-field Forecasting</option>
           <option value="#2026-10-17">2026-10-17: Preprint, Multimodal AI for VA</option>
           <option value="#2026-10-16">2026-10-16: Paper Accepted at NeurIPS</option>
           <option value="#2026-03-19">2026-03-19: InSilicoVA Ranks Well in Independent Test</option>
           <option value="#2026-02-13">2026-02-13: AI Assistance Learning to Code</option>
           <option value="#2026-01-30">2026-01-30: WHO Health Statistics TAG</option>
           <option value="#2026-01-09-2">2026-01-09-2: Review: HDSS Data Uses</option>
-          <option value="#2026-01-09-1">2026-01-09-1: HEALMOD Grant Cancelled</option>
           <option value="#2025-12-12">2025-12-12: RDA Live at WHO!</option>
           <option value="#2025-12-10">2025-12-10: List of Spammers - Block Them!</option>
           <option value="#2025-10-20">2025-10-20: Used Car Checklist</option>
@@ -45,7 +46,6 @@
           <option value="#2025-04-10">2025-04-10: Knee Surgery</option>
           <option value="#2025-02-08">2025-02-08: <code>SVDMx</code> on CRAN</option>
           <option value="#2025-02-01">2025-02-01: HEALMOD at OSU</option>
-          <option value="#2024-11-08">2024-11-08: When All You Have Is a Hammer</option>
           <option value="#2024-10-22">2024-10-22: Cell Phone in Email Signature</option>
           <option value="#2024-08-12">2024-08-12: Back from Brazil</option>
           <option value="#2024-08-01">2024-08-01: ALPHA COD Paper out in LGH</option>
@@ -98,6 +98,46 @@
   <main>
 
     <div id="beginning" class="sam-block">
+
+      <!-- %%%%%%%%%%%% -->
+      <h1 class="sam-date" id="2026-11-01-2">
+        2026-11-01-2 <a href="#beginning" class="back">&#x25B2;</a>
+      </h1>
+      <!-- %%%%%%%%%%%% -->
+
+      <h2>Publications of the OSU Department of Sociology</h2>
+
+      <p>
+        I have compiled a searchable
+        <a href="/site/news-pages/osu-sociology-bibliography-2026-11.shtml" target="_blank">bibliography
+        of published and forthcoming work</a> by members of the Department of Sociology at The Ohio
+        State University: 3,716 entries, drawn from the CVs posted on the department's website and,
+        for people without a posted CV, from their OpenAlex author profiles. The entries can be
+        searched and arranged by department member, topic, year, subfield, journal, type, and
+        position. It is an unofficial compilation, not a publication of the university or the
+        department.
+      </p>
+
+      <!-- %%%%%%%%%%%% -->
+      <h1 class="sam-date" id="2026-11-01">
+        2026-11-01 <a href="#beginning" class="back">&#x25B2;</a>
+      </h1>
+      <!-- %%%%%%%%%%%% -->
+
+      <h2>Updated Research Preview: Flow-field Mortality Forecasting</h2>
+
+      <p>
+        I have updated the research preview of my
+        <a href="/site/news-pages/flow-field.shtml" target="_blank">flow-field mortality
+        forecasting</a> work. The new evaluation uses the Human Mortality Database with each method seeing only the data up to the year its forecast
+        starts. With forecasts from 1955&ndash;2000, the flow-field method ranked first among twelve
+        forecasters in 90% of the draws of a comprehensive comparison, and it kept its lead on
+        forecasts from 2005&ndash;2015 held out of every modelling choice.
+      </p>
+
+      <div class="sam-image">
+        <a href="/site/news-pages/flow-field.shtml" target="_blank"><img class="mtb" style="width: 70%; height: auto;" title="Forecast comparison by method" alt="Table comparing the flow-field method with six other mortality forecasters and a random-walk yardstick on Human Mortality Database data, forecasts made in real time: share of draws ranked first, mean rank, and error in life expectancy, including held-out forecasts from 2005 to 2015; the flow-field ranks first" src="/site/media/thumbs/method-comparison-table.JPG"></a>
+      </div>
 
       <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2026-10-17">
@@ -383,29 +423,6 @@
       </p>
 
       <!-- %%%%%%%%%%%% -->
-      <h1 class="sam-date" id="2026-01-09-1">
-        2026-01-09-1 <a href="#beginning" class="back">&#x25B2;</a>
-      </h1>
-      <!-- %%%%%%%%%%%% -->
-
-      <h2>HEALMOD Grant Cancelled</h2>
-
-      <p>
-        Over the fall of 2025, irreconcilable differences emerged on the leadership team (including
-        me) of the <a href="/site/pages/news.shtml#2025-02-01" target="_parent">HEALMOD</a> unit.
-        Great effort was expended by many people to resolve the issues, but a satisfactory
-        resolution was not possible. So, today the OSU Office of Academic Affairs canceled the grant
-        that supports the unit. The four postdocs supported by that award will continue to be
-        supported through the end of their contracts, and they will choose the mentor(s) who will
-        supervise them through the remainder of their postdocs.
-      </p>
-      <p>This is tremendously sad and the direct result of overwhelming hubris and greed.</p>
-      <p>
-        I look forward to continuing to work with the postdocs who may continue to want support from
-        me.
-      </p>
-
-      <!-- %%%%%%%%%%%% -->
       <h1 class="sam-date" id="2025-12-12">
         2025-12-12 <a href="#beginning" class="back">&#x25B2;</a>
       </h1>
@@ -647,8 +664,8 @@
       <h2>HEALMOD at OSU</h2>
 
       <p>
-        During 2023-24, three faculty in Biostatistics (Grzegorz Rempala), Anthropology (Barbara
-        Piparata and Sean Downey), and me in Sociology created the
+        During 2023-24, three faculty in Biostatistics (Grzegorz Rempala), Anthropology
+        (Barbara Piperata and Sean Downey), and me in Sociology created the
         <a href="https://healmod.osu.edu" target="_blank">Health and Environment Modeling
         Co-laboratory (HEALMOD)</a> with support from the College of Arts and Sciences and the
         School of Public Health at OSU. Together we applied for and received a
@@ -691,47 +708,6 @@
         research into human-environmental health and sustainability and disseminating actionable
         results and policy recommendations with measurable social impact, thus raising the profiles
         of public health, and the social sciences (Anthropology, Sociology).
-      </p>
-
-      <!-- %%%%%%%%%%%% -->
-      <h1 class="sam-date" id="2024-11-08">
-        2024-11-08 <a href="#beginning" class="back">&#x25B2;</a>
-      </h1>
-      <!-- %%%%%%%%%%%% -->
-
-      <h2>When All You Have Is a Hammer</h2>
-
-      <p>
-        <a href="https://sociology.la.psu.edu/people/john-iceland/" target="_blank">John Iceland</a>
-        and <a href="https://sociology.la.psu.edu/people/eric-silver/" target="_blank">Eric
-        Silver</a> have written a great article addressing the dominance of critical race theory and
-        social justice ideology in sociology. They offer a perspective that is likely to create a
-        better understanding of what's going on and support the creation of (actually!) effective
-        interventions.
-      </p>
-
-      <ul>
-        <li>
-          <a href="https://doi.org/10.1007/s11186-024-09568-1" target="_blank">When all you have is
-          a hammer: how social justice distorts what we know about racial disparities</a>
-        </li>
-      </ul>
-
-      <h3>Abstract</h3>
-
-      <p>
-        The sociological literature on race operates under the progressive ideological assumption
-        that systemic racism is the predominant cause of racial disparities. This assumption has
-        become “paradigmatic,” shaping the selection of research questions and the interpretation of
-        research results. Consequently, the literature offers a rather narrow “Overton window”
-        concerning what we, as sociologists, know about: (1) the causes of racial disparities, (2)
-        the accuracy and motivation behind the public’s views on race-related issues, and (3)
-        race-related policy preferences. A paradigm shift is needed to improve our understanding of
-        racial disparities and devise more effective ways to address them. To achieve this end,
-        sociologists should broaden their perspectives beyond attributing all racial disparities to
-        systemic racism and consider additional hypotheses. From a policy perspective, to reduce
-        racial disparities we should reconsider addressing social class and related factors early in
-        life.
       </p>
 
       <!-- %%%%%%%%%%%% -->

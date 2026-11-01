@@ -4,7 +4,7 @@
 
 <head>
   <meta name="author" content="Samuel J. Clark">
-  <meta name="description" content="Links to Samuel Clark's research resources.">
+  <meta name="description" content="How to contact Samuel J. Clark, with links to his publications, profiles, and software.">
   <meta name="keywords" content="Samuel J. Clark, Samuel Clark, Sam Clark, links.">
   <meta property="og:title" content="Links/Contacts">
   <meta property="og:description" content="Sam Clark's links and contacts">
@@ -27,25 +27,29 @@
 
       <h1>Contact</h1>
 
-      <p>I am deluged with incoming messages on multiple channels! So,</p>
       <p>
-        <ul>
-          <li>I don't obsessively check electronic messaging services,</li>
-          <li>
-            I often ignore electronic messages so that I can stay focused on whatever I'm doing,
-          </li>
-          <li>
-            on a daily basis, I only interact with email and texts, and even then, I cannot keep up
-            and leave many messages unread, and finally
-          </li>
-          <li>
-            if you want to use something else, Whatsapp is the only other option, and I rarely look
-            at it and have all notifications turned off.
-          </li>
-        </ul>
+        Samuel J. Clark, Professor, Department of Sociology, The Ohio State University
       </p>
-      <p>So, there's a good chance I will miss or triage your message!</p>
-      <p><b>If you really want to get my attention, text me, or better yet, <u>call me</u>.</b></p>
+
+      <ul style="font-size: 12px;">
+        <li>
+          Email:
+          <a href="mailto:work@samclark.net?subject=From%20samclark.net">work /at/ samclark.net</a>
+        </li>
+        <li>
+          OSU email:
+          <a href="mailto:clark.2962@osu.edu?subject=From%20samclark.net">clark.2962 /at/ osu.edu</a>
+        </li>
+        <li>Office phone: +1 (614) 292-6681</li>
+        <li>Office: 60E Townshend Hall, Institute for Population Research</li>
+        <li>Mail: 238 Townshend Hall, 1885 Neil Avenue Mall, Columbus, OH 43210, USA</li>
+      </ul>
+
+      <p>
+        Email is the best way to reach me. I read email and texts every day but can't answer
+        everything, so if something is urgent, call or text my mobile; the number is in my email
+        signature.
+      </p>
 
       <h1>Links</h1>
 
@@ -56,7 +60,7 @@
           <a href="/site/pages/bibliography.shtml" target="_parent">Bibliography with Links</a>
         </li>
         <li>
-          <a href="mailto:sam@samclark.net?subject=Offprint%20request">Request Offprints</a>
+          <a href="mailto:work@samclark.net?subject=Offprint%20request">Request Offprints</a>
         </li>
       </ul>
 
@@ -68,7 +72,7 @@
           Scholar</a>
         </li>
         <li>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/?term=(clark%2C%20samuel%20j%5BAuthor%5D)%20AND%20((ohio%5BAffiliation%5D)%20OR%20(washington%5BAffiliation%5D)%20OR%20(colorado%5BAffiliation%5D))&sort=&page=5" target="_blank">Pubmed</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/?term=%28%28%28%28clark%20samuel%5Bfau%5D%20OR%20clark%20sam%5Bfau%5D%20OR%20%22clark%20samuel%20j%22%5Bir%5D%29%20AND%20%28%28%22ohio%20state%22%5Bad%5D%20OR%20%22university%20of%20washington%22%5Bad%5D%20OR%20%22university%20of%20colorado%22%5Bad%5D%20OR%20witwatersrand%5Bad%5D%20OR%20agincourt%5Bad%5D%20OR%20indepth%5Bad%5D%29%20OR%20%28demograph%2A%5Btiab%5D%20OR%20africa%2A%5Btiab%5D%20OR%20fertility%5Btiab%5D%20OR%20%22verbal%20autops%2A%22%5Btiab%5D%20OR%20%22cause%20of%20death%22%5Btiab%5D%20OR%20%22life%20table%2A%22%5Btiab%5D%20OR%20HIV%5Btiab%5D%20OR%20%22mortality%20rate%2A%22%5Btiab%5D%20OR%20%22age-specific%20mortality%22%5Btiab%5D%20OR%20%22child%20mortality%22%5Btiab%5D%20OR%20%22population%20projection%2A%22%5Btiab%5D%29%29%29%20OR%20%28%22clark%20s%20j%22%5Bfau%5D%20AND%20%28%22ohio%20state%22%5Bad%5D%20OR%20%22university%20of%20washington%22%5Bad%5D%20OR%20%22university%20of%20colorado%22%5Bad%5D%20OR%20witwatersrand%5Bad%5D%20OR%20agincourt%5Bad%5D%20OR%20indepth%5Bad%5D%29%29%20OR%200000-0002-4929-6231%5Bauid%5D%29%20AND%202004%3A3000%5Bdp%5D%29%20OR%2028204483%5Bpmid%5D%20OR%2028619215%5Bpmid%5D%20OR%2038422201%5Bpmid%5D&amp;sort=pubdate&amp;size=200" target="_blank">PubMed</a>
         </li>
         <!-- <a href="https://www.webofscience.com/wos/author/rid/A-8419-2009" target="_blank">Web of Science Publons</a><br> -->
         <li>
@@ -85,12 +89,26 @@
         <li>
           <a href="https://bsky.app/profile/samclark.net" target="_blank">Bluesky: @samclark.net</a>
         </li>
+      </ul>
+
+      <h2>Profiles</h2>
+
+      <ul>
         <li>
-          <a href="mailto:sam@samclark.net?subject=From%20samclark.net">sam /at/ samclark.net</a>
+          <a href="https://sociology.osu.edu/people/clark.2962" target="_blank">OSU Department of
+          Sociology</a>
         </li>
         <li>
-          <a href="https://sociology.osu.edu/people/clark.2962" target="_blank">OSU Sociology
-          Page</a>
+          <a href="https://ipr.osu.edu/people/clark.2962" target="_blank">OSU Institute for
+          Population Research</a>
+        </li>
+        <li>
+          <a href="https://tdai.osu.edu/people/clark.2962" target="_blank">OSU Translational Data
+          Analytics Institute</a>
+        </li>
+        <li>
+          <a href="https://stat.uw.edu/people/samuel-clark" target="_blank">University of
+          Washington Department of Statistics</a>
         </li>
       </ul>
 

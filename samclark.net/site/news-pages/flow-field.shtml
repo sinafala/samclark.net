@@ -4,11 +4,11 @@
 
 <head>
   <meta name="author" content="Samuel J. Clark">
-  <meta name="description" content="Mortality forecasting as a flow on the Tucker subspace - a research preview from Samuel J. Clark.">
-  <meta name="keywords" content="Samuel J. Clark, Sam Clark, mortality forecasting, flow field, Tucker decomposition, Lee-Carter, Hyndman-Ullah, bayesLife, MortCast, HMD, WPP">
-  <meta property="og:title" content="Flow-field mortality forecasting">
-  <meta property="og:description" content="Research preview: mortality forecasting as a flow on the Tucker subspace.">
-  <title>Samuel Clark - Flow-field mortality forecasting</title>
+  <meta name="description" content="Mortality forecasting as a flow on the Tucker subspace - a research preview from Samuel J. Clark, updated November 2026.">
+  <meta name="keywords" content="Samuel J. Clark, Sam Clark, mortality forecasting, flow field, Tucker decomposition, Lee-Carter, Hyndman-Ullah, bayesLife, MortCast, Human Mortality Database, MDMx">
+  <meta property="og:title" content="Flow-field mortality forecasting (November 2026)">
+  <meta property="og:description" content="Research preview, updated November 2026: mortality forecasting as a flow on the Tucker subspace.">
+  <title>Samuel Clark - Flow-field mortality forecasting (November 2026)</title>
   <!--#include virtual="/site/includes/header.html" -->
 </head>
 
@@ -19,7 +19,10 @@
   <header>
     <!--#include virtual="/site/includes/nav-links-top.shtml" -->
     <div class="sam-title">Flow-field Mortality Forecaster</div>
-    <div class="sam-byline">Samuel J. Clark</div>
+    <div class="sam-byline">
+      Samuel J. Clark &middot; Research preview, November 2026 (replaces the
+      <a href="/site/news-pages/flow-field-2026-04.shtml" target="_parent">April 2026 preview</a>)
+    </div>
   </header>
 
   <main>
@@ -35,39 +38,53 @@
         through a low-dimensional summary of mortality derived from a multi-way decomposition of the
         sex&nbsp;&times;&nbsp;age&nbsp;&times;&nbsp;country&nbsp;&times;&nbsp;year mortality array.
         The unrestricted version of this object is the <em>flow-field forecaster</em>. We compare it
-        against the leading existing methods on two different high quality datasets totaling roughly
-        nine million age-cell forecasts. The early results are encouraging.
+        with the leading existing methods on the Human Mortality Database
+        [<a href="#ref-hmd-2024">6</a>]: each method sees
+        only the data up to the year its forecast starts. The results so far are encouraging.
       </p>
 
       <hr class="sam-sep">
 
+      <h1>How we compare forecasts</h1>
+
+      <p>
+        For 43 populations in the HMD, forecasts start every five years from 1900 to 2015 and run 50 years ahead. Twelve forecasters compete. The flow-field is one. MDMx, a companion forecaster built on the same decomposition, Lee&ndash;Carter [<a href="#ref-lee-carter-1992">1</a>], Hyndman
+        &amp; Ullah's functional-data model [<a href="#ref-hyndman-ullah-2007">2</a>], Hyndman,
+        Booth &amp; Yasmeen's coherent functional model
+        [<a href="#ref-hyndman-booth-yasmeen-2013">13</a>], and the bayesLife/MortCast pipeline
+        [<a href="#ref-raftery-chunn-gerland-sevcikova-2013">3</a>, <a href="#ref-sevcikova-li-kantorova-gerland-raftery-2016">4</a>] that the United Nations
+        uses for its mortality forecasts [<a href="#ref-un-wpp-2024">5</a>] make ten more, each
+        fitted both to all past years and to the last 50 (bayesLife from its own Bayesian estimation
+        at every start year). An equal-weight average of the flow-field, MDMx and Lee&ndash;Carter
+        is the twelfth. A random walk with drift is the baseline.
+      </p>
+
+      <p>
+        A comprehensive comparison scores each forecaster on five features: life
+        expectancy for each sex, the life expectancy gap between the sexes, the age-specific differences between the
+        sexes, the age pattern of mortality (weighted by where deaths occur, with life expectancy at
+        65), and the calibration of interval forecasts. Every score measures the size of the errors,
+        relative to the baseline, so over- and under-predictions cannot offset each other. The
+        forecasters are ranked over 20,000 random weightings of the five aspects, each with a
+        resampling of the populations, so that no single choice of weights decides the result. The
+        main test uses the forecasts from 1955&ndash;2000 at 1&ndash;15 years ahead. The forecasts
+        from 2005&ndash;2015 were held out of every modelling choice and scored once, at the end.
+      </p>
+
       <h1>What we're seeing so far</h1>
 
       <p>
-        We tested four methods on two large mortality datasets: the flow-field; the original
-        Lee&ndash;Carter method [<a href="#ref-lee-carter-1992">1</a>]; Hyndman &amp; Ullah's
-        functional-data extension of Lee&ndash;Carter [<a href="#ref-hyndman-ullah-2007">2</a>]; and
-        the bayesLife/MortCast pipeline [<a href="#ref-raftery-chunn-gerland-sevcikova-2013">3</a>],
-        [<a href="#ref-sevcikova-li-kantorova-gerland-raftery-2016">4</a>] that the United Nations
-        uses to produce its mortality forecasts [<a href="#ref-un-wpp-2024">5</a>]. The Human
-        Mortality Database [<a href="#ref-hmd-2024">6</a>] supplies 48 high-quality national
-        populations and yielded 1.6 million held-out forecast cells in our cross-validation; the
-        United Nations World Population Prospects 2024 [<a href="#ref-un-wpp-data-2024">7</a>]
-        supplies 236 countries and yielded 7.4 million held-out cells. On both datasets, the
-        flow-field had the lowest forecast error of the four methods on every measure we examined.
-        These are working results from a manuscript in preparation, and we expect the picture to
-        refine as we finish the writeup and the comparisons receive external scrutiny.
+        From 1955&ndash;2000, at 1&ndash;15 years ahead, the flow-field ranks first in 90% of the
+        20,000 draws, ahead of the ensemble average (7%) and MDMx. Its error in life expectancy is
+        0.42 years at 1&ndash;5 years ahead and 0.97 years at 11&ndash;15, against 0.48 and 1.55 for
+        the baseline, and it is the only forecaster that beats the baseline on every one of the
+        nine measures. Its lead is clearest beyond five years ahead; at 1&ndash;5 years the ensemble
+        is as accurate. On the held-out forecasts from 2005&ndash;2015 the flow-field keeps its
+        lead, with an error of 0.25 years at 1&ndash;5 years ahead. Forecasts from the early
+        twentieth century, outside today's regime of mortality decline, are a harder test: there
+        the flow-field still ranks first, but in fewer than half of the draws (47%, ahead of the
+        ensemble's 29%).
       </p>
-
-      <div class="sam-image">
-        <img class="mtb" title="Headline log-MAE and sex-gap MAE for four methods on HMD and WPP" alt="Headline log-MAE and sex-gap MAE for four methods on HMD and WPP" src="/site/media/thumbs/flowfield-fig1-headline-mae.png"><strong>Figure&nbsp;1.</strong>
-        Average forecast error, four methods, two datasets, lower is better. <em>Left:</em> error in
-        age-specific log-mortality. <em>Right:</em> error in the male&ndash;female mortality gap.
-        Solid bars are HMD; hatched bars are WPP. The flow-field has the smallest bars in every
-        grouping. Differences are roughly a quarter against Lee&ndash;Carter and
-        Hyndman&ndash;Ullah, and larger against bayesLife/MortCast on HMD. We treat these as
-        preliminary indications pending the full manuscript.
-      </div>
 
       <table class="headline">
         <colgroup>
@@ -77,193 +94,123 @@
           <col class="col-num">
           <col class="col-num">
           <col class="col-num">
+          <col class="col-num">
         </colgroup>
         <thead>
           <tr>
             <th class="method">Method</th>
-            <th>cells</th>
-            <th>average error<br><span class="hint">log-mortality</span></th>
-            <th>average bias<br><span class="hint">log-mortality</span></th>
-            <th>average error<br><span class="hint">sex gap</span></th>
-            <th>corre<wbr>lation<br><span class="hint">sex gap</span></th>
+            <th>fitted to</th>
+            <th>first<br><span class="hint">share of draws</span></th>
+            <th>rank<br><span class="hint">mean, of 12</span></th>
+            <th>error<br><span class="hint">1&ndash;5 years</span></th>
+            <th>error<br><span class="hint">11&ndash;15 years</span></th>
+            <th>held out<br><span class="hint">1&ndash;5 years</span></th>
           </tr>
           <tr class="dir">
             <th></th>
             <th>&mdash;</th>
-            <th><span class="arrow">&darr;</span> lower better</th>
-            <th><span class="arrow">&harr;</span> closer to 0 better</th>
-            <th><span class="arrow">&darr;</span> lower better</th>
             <th><span class="arrow">&uarr;</span> higher better</th>
+            <th><span class="arrow">&darr;</span> lower better</th>
+            <th><span class="arrow">&darr;</span> lower better</th>
+            <th><span class="arrow">&darr;</span> lower better</th>
+            <th><span class="arrow">&darr;</span> lower better</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td colspan="6" class="grp">Human Mortality Database &mdash; 48 populations</td>
+            <td colspan="7" class="grp">Human Mortality Database forecasts</td>
           </tr>
           <tr class="ff">
             <td class="method">Flow-field</td>
-            <td>1,589,538</td>
-            <td>0.257</td>
-            <td>+0.041</td>
-            <td>0.181</td>
-            <td>+0.398</td>
+            <td>&mdash;</td>
+            <td>90%</td>
+            <td>1.15</td>
+            <td>0.42</td>
+            <td>0.97</td>
+            <td>0.25</td>
           </tr>
           <tr>
-            <td class="method">Lee&ndash;Carter</td>
-            <td>1,589,538</td>
-            <td>0.337</td>
-            <td>+0.096</td>
-            <td>0.259</td>
-            <td>+0.334</td>
+            <td class="method">Ensemble</td>
+            <td>&mdash;</td>
+            <td>7%</td>
+            <td>2.73</td>
+            <td>0.41</td>
+            <td>1.09</td>
+            <td>0.34</td>
           </tr>
           <tr>
-            <td class="method">Hyndman&ndash;Ullah</td>
-            <td>1,589,538</td>
-            <td>0.354</td>
-            <td>+0.095</td>
-            <td>0.298</td>
-            <td>+0.289</td>
-          </tr>
-          <tr>
-            <td class="method">bayesLife/<wbr>MortCast</td>
-            <td>1,589,538</td>
-            <td>0.454</td>
-            <td>&minus;0.069</td>
-            <td>0.290</td>
-            <td>+0.263</td>
-          </tr>
-          <tr>
-            <td colspan="6" class="grp">UN WPP 2024 &mdash; 236 atomic countries</td>
-          </tr>
-          <tr class="ff">
-            <td class="method">Flow-field</td>
-            <td>7,432,590</td>
-            <td>0.211</td>
-            <td>+0.012</td>
-            <td>0.142</td>
-            <td>+0.709</td>
-          </tr>
-          <tr>
-            <td class="method">Lee&ndash;Carter</td>
-            <td>7,432,590</td>
-            <td>0.290</td>
-            <td>&minus;0.014</td>
-            <td>0.210</td>
-            <td>+0.608</td>
-          </tr>
-          <tr>
-            <td class="method">Hyndman&ndash;Ullah</td>
-            <td>7,432,590</td>
-            <td>0.305</td>
-            <td>+0.054</td>
-            <td>0.277</td>
-            <td>+0.413</td>
+            <td class="method">MDMx</td>
+            <td>all years</td>
+            <td>1%</td>
+            <td>3.25</td>
+            <td>0.49</td>
+            <td>1.38</td>
+            <td>0.29</td>
           </tr>
           <tr>
             <td class="method">bayesLife/<wbr>MortCast</td>
-            <td>7,432,590</td>
-            <td>0.303</td>
-            <td>&minus;0.083</td>
-            <td>0.194</td>
-            <td>+0.479</td>
+            <td>last 50</td>
+            <td>1%</td>
+            <td>5.20</td>
+            <td>0.45</td>
+            <td>1.34</td>
+            <td>0.32</td>
+          </tr>
+          <tr>
+            <td class="method">Coherent model</td>
+            <td>last 50</td>
+            <td>0%</td>
+            <td>7.01</td>
+            <td>0.69</td>
+            <td>1.66</td>
+            <td>0.61</td>
+          </tr>
+          <tr>
+            <td class="method">Hyndman&ndash;Ullah</td>
+            <td>all years</td>
+            <td>0%</td>
+            <td>8.14</td>
+            <td>0.77</td>
+            <td>1.91</td>
+            <td>0.65</td>
+          </tr>
+          <tr>
+            <td class="method">Lee&ndash;Carter</td>
+            <td>last 50</td>
+            <td>0%</td>
+            <td>9.93</td>
+            <td>0.54</td>
+            <td>1.20</td>
+            <td>0.57</td>
+          </tr>
+          <tr>
+            <td class="method">Random walk</td>
+            <td>all years</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>0.48</td>
+            <td>1.55</td>
+            <td>0.38</td>
           </tr>
         </tbody>
       </table>
 
       <p>
-        Each row counts only the cells where all four methods produced a forecast and where we have
-        a held-out observation to compare against, so the comparison is as close to apples-to-apples
-        as we could arrange. The size of the gaps between methods is similar across the two datasets
-        &mdash; the flow-field's average error is roughly 24% below Lee&ndash;Carter's on HMD and
-        27% below on WPP, roughly 27% and 31% below Hyndman&ndash;Ullah's, and roughly 43% and 30%
-        below bayesLife/MortCast's. This confirms similar behavior of the four methods on two
-        high-quality datasets.
-      </p>
-
-      <h1>Behaviour at long horizons</h1>
-
-      <p>
-        At short horizons (one to a few years out) the four methods are reasonably comparable. The
-        biggest differences appear at long horizons, where the flow-field's error grows slowly while
-        the others grow more steeply:
-      </p>
-
-      <div class="sam-image">
-        <img class="mtb" title="Per-horizon log-mortality MAE for four methods on HMD and WPP, 1 to 50 years" alt="Per-horizon log-mortality MAE for four methods on HMD and WPP, 1 to 50 years" src="/site/media/thumbs/flowfield-fig2-long-horizon.png"><strong>Figure&nbsp;2.</strong>
-        Average forecast error as a function of forecast horizon, four methods, two datasets, lower
-        is better. From horizon 1 to horizon 50, the flow-field's error grows by about 1.6&times;,
-        while the others grow by several-fold. At short horizons the methods are close &mdash;
-        Hyndman&ndash;Ullah is ahead of the flow-field at one to five years out on HMD, where its
-        smoothing helps with year-to-year noise. The pattern is broadly similar on the two datasets.
-      </div>
-
-      <div class="sam-keyfinding">
-        <h3 class="kf">An interesting structural tradeoff</h3>
-        <p>
-          The bayesLife/MortCast pipeline forecasts life expectancy as a scalar, then reconstructs
-          the age-specific schedule from the projected scalar &mdash; an architecture chosen to
-          maintain demographic interpretability and computational tractability at global scale. A
-          consequence we observe in our cross-validation is that information about the age pattern
-          that has been compressed through the scalar bottleneck appears difficult to recover at
-          long horizons. For example, at horizon-band 26&ndash;50 years for infant ages on HMD, the
-          pipeline's mean log-MAE is about 1.17 with a positive bias of roughly 0.7 log-units. The
-          flow-field, in which life expectancy is a derived quantity of the score-space trajectory
-          rather than its forecasting target, does not encounter this bottleneck. Whether and where
-          this tradeoff matters in practice is one of the questions we hope to address in the full
-          manuscript.
-        </p>
-      </div>
-
-      <h1>Sex coherence</h1>
-
-      <p>
-        Another pattern we observe is in sex coherence &mdash; the degree to which forecast female
-        and male mortality surfaces move in synchrony as time advances. In the flow-field method,
-        the joint Tucker decomposition [<a href="#ref-tucker-1966">8</a>] shares the age basis
-        across sexes by construction, while Lee&ndash;Carter and Hyndman&ndash;Ullah are typically
-        fitted separately by sex (coherent multi-population variants and rotation extensions do
-        exist [<a href="#ref-li-lee-2005">9</a>], [<a href="#ref-li-lee-gerland-2013">10</a>]), and
-        bayesLife/MortCast handles the sex differential through a dedicated joint female-male gap
-        model [<a href="#ref-raftery-lalic-gerland-2014">11</a>] added on top of the level dynamics.
-        Compared to the other methods, the flow-field's sex-gap correlation declines more slowly
-        with horizon.
-      </p>
-
-      <div class="sam-image">
-        <img class="mtb" title="Sex-gap correlation between observed and forecast across horizons for four methods on HMD and WPP" alt="Sex-gap correlation between observed and forecast across horizons for four methods on HMD and WPP" src="/site/media/thumbs/flowfield-fig3-sex-coherence.png"><strong>Figure&nbsp;3.</strong>
-        Correlation between observed and forecast sex gap (male minus female log-mortality), by
-        horizon, four methods, two datasets. All four methods show declining sex-gap correlation as
-        horizon grows, as one would expect, but the flow-field's decline is more gradual in our
-        tests. Differences are modest at short horizons and grow with horizon. The pattern is
-        similar across HMD and WPP, though the absolute correlations are higher on WPP across all
-        methods, reflecting the smoother input estimates.
-      </div>
-
-      <h1>What this looks like as a paper</h1>
-
-      <p>
-        The full manuscript introduces the array-normal noise model
-        [<a href="#ref-fosdick-hoff-2014">12</a>] and the Tucker decomposition
-        [<a href="#ref-tucker-1966">8</a>] as its canonical estimator from first principles,
-        develops the score-representation isometry that motivates a flow-on-subspace forecaster, and
-        offers Lee&ndash;Carter, Hyndman&ndash;Ullah, and bayesLife/MortCast readings as constrained
-        or marginal cases of the same framework &mdash; three established and successful approaches
-        that the framework helps to relate to one another (for a recent review of Lee&ndash;Carter
-        and its extensions, see [<a href="#ref-basellini-camarda-booth-2023">13</a>]). It then
-        reports the cross-validation comparisons sketched above. A draft is in preparation; a v1 of
-        the empirical half is at
-        <a href="https://arxiv.org/abs/2603.24299" target="_blank">arXiv:2603.24299</a>
-        [<a href="#ref-clark-flowfield-2026">14</a>], and the underlying tensor-decomposition
-        framework at <a href="https://arxiv.org/abs/2603.20518" target="_blank">arXiv:2603.20518</a>
-        [<a href="#ref-clark-mdmx-2026">15</a>]. A companion Shiny app implements and demonstrates
-        the methods: <a href="https://samclark.shinyapps.io/mdmx" target="_blank">MDMx</a>.
+        First (share of the draws ranked first) and rank (mean rank) come from the comprehensive
+        comparison, for the forecasts from 1955&ndash;2000 at 1&ndash;15 years ahead. Errors are
+        mean absolute errors in life expectancy at birth (the average of the two sexes), in years,
+        at 1&ndash;5 and 11&ndash;15 years ahead. The held-out column scores the forecasts from
+        2005&ndash;2015, which no modelling choice used. Each method is shown fitted to the period
+        that serves it better (all past years, or the last 50); the ensemble averages the
+        flow-field, MDMx and Lee&ndash;Carter; the random walk with drift is the baseline, not a
+        competitor.
       </p>
 
       <p class="sam-disclaimer">
         <em>NB:</em> The numerical results presented here are preliminary, drawn from a manuscript
-        in preparation. Cross-validation numbers can shift as evaluation protocols are refined and
-        as comparisons receive external scrutiny; we expect to learn a great deal from the review
-        process. Treat what's reported here as a research preview rather than a settled comparison.
+        in preparation. They can shift as the evaluation is refined and as the comparisons receive
+        external scrutiny. Treat what's
+        reported here as a research preview rather than a settled comparison.
       </p>
 
       <h1>References &amp; further reading</h1>
@@ -305,11 +252,6 @@
           University of California, Berkeley (USA), and French Institute for Demographic Studies
           (France). <a href="https://www.mortality.org" target="_blank">www.mortality.org</a>
         </li>
-        <li id="ref-un-wpp-data-2024">
-          United Nations, Department of Economic and Social Affairs, Population Division (2024).
-          <em>World Population Prospects 2024</em>, online edition.
-          <a href="https://population.un.org/wpp/" target="_blank">population.un.org/wpp/</a>
-        </li>
         <li id="ref-tucker-1966">
           Tucker, L.&nbsp;R. (1966). Some mathematical notes on three-mode factor analysis.
           <em>Psychometrika</em> 31(3): 279&ndash;311.
@@ -342,21 +284,18 @@
           Forecasting</em> 39(3): 1033&ndash;1049.
           <a href="https://doi.org/10.1016/j.ijforecast.2022.11.002" target="_blank">doi:10.1016/j.ijforecast.2022.11.002</a>
         </li>
-        <li id="ref-clark-flowfield-2026">
-          Clark, S.&nbsp;J. (2026). Mortality forecasting as a flow field in Tucker decomposition
-          space. <em>arXiv:2603.24299</em>.
-          <a href="https://arxiv.org/abs/2603.24299" target="_blank">arxiv.org/abs/2603.24299</a>
-        </li>
-        <li id="ref-clark-mdmx-2026">
-          Clark, S.&nbsp;J. (2026). Multi-dimensional mortality. <em>arXiv:2603.20518</em>.
-          <a href="https://arxiv.org/abs/2603.20518" target="_blank">arxiv.org/abs/2603.20518</a>
+        <li id="ref-hyndman-booth-yasmeen-2013">
+          Hyndman, R.&nbsp;J., Booth, H. &amp; Yasmeen, F. (2013). Coherent mortality forecasting:
+          The product-ratio method with functional time series models. <em>Demography</em> 50(1):
+          261&ndash;283.
+          <a href="https://doi.org/10.1007/s13524-012-0145-5" target="_blank">doi:10.1007/s13524-012-0145-5</a>
         </li>
       </ol>
 
       <div class="sam-note-left" style="margin-top: 14px;">
         Code, the underlying Quarto computational book, and reproducibility materials will be
         released with the published paper. Updates and contact:
-        <a href="mailto:work@samclark.net">work@samclark.net</a>. Updated 2026-04-27
+        <a href="mailto:work@samclark.net">work@samclark.net</a>. Updated 2026-11-01
       </div>
 
     </div>

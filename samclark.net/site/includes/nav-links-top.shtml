@@ -34,7 +34,7 @@
     <div class="dropdown">
       <button class="dropbtn">News+</button>
       <div class="dropdown-content">
-        <a href="/site/pages/news.shtml" target="_parent">News</a><a href="/site/pages/links-contacts.shtml" target="_parent">Links</a><a href="/site/search/search.shtml" target="_parent">Search</a><a href="/site/forms/feedback.shtml" target="_parent">Feedback</a><a onClick="window.location.reload()">Refresh</a>
+        <a href="/site/pages/news.shtml" target="_parent">News</a><a href="/site/pages/links-contacts.shtml" target="_parent">Contact/Links</a><a href="/site/search/search.shtml" target="_parent">Search</a><a href="/site/forms/feedback.shtml" target="_parent">Feedback</a><a onClick="window.location.reload()">Refresh</a>
       </div>
     </div>
 
